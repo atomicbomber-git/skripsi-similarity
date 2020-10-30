@@ -40,7 +40,15 @@
                             <td> {{ $mahasiswas->firstItem() + $loop->index }} </td>
                             <td> {{ $mahasiswa->name }} </td>
                             <td> {{ $mahasiswa->username }} </td>
-                            <td> {{ $mahasiswa->skripsi->judul ?? '-' }} </td>
+                            <td>
+                                @if($mahasiswa->skripsi !== null)
+                                    <a href="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}">
+                                        {{ $mahasiswa->skripsi->judul }}
+                                    </a>
+                                @else
+                                    -
+                                @endif
+                            </td>
                             <td class="text-center">
                                 <a
                                         class="btn btn-primary btn-sm"

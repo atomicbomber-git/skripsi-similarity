@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DownloadSkripsiFileController;
 use App\Http\Controllers\MahasiswaController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -25,3 +26,5 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/mahasiswa', MahasiswaController::class);
+Route::get('/mahasiswa/{mahasiswa}/download-skripsi', DownloadSkripsiFileController::class)
+    ->name("mahasiswa.download-skripsi");
