@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rule;
 
 class MahasiswaController extends Controller
 {
@@ -42,18 +44,36 @@ class MahasiswaController extends Controller
      */
     public function create()
     {
-        //
+        return $this->responseFactory->view("mahasiswa.create");
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param Request $request
-     * @return Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->validate([
+            "name" => ["required", "string", "max:100"],
+            "username" => ["required", Rule::unique(User::class), "alpha_dash", "max:100"],
+            "password" => ["required", "confirmed", "max:100"],
+        ]);
+
+        User::query()->create([
+            "name" => $data["name"],
+            "username" => $data["username"],
+            "password" => Hash::make($data["password"]),
+            "level" => User::LEVEL_MAHASISWA,
+        ]);
+
+        SessionHelper::flashMessage(
+            __("messages.create.success"),
+            MessageState::STATE_SUCCESS,
+        );
+
+        return $this->responseFactory->redirectToRoute("mahasiswa.index");
     }
 
     /**

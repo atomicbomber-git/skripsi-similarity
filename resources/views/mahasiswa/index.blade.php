@@ -7,6 +7,19 @@
 
     @include('components.message')
 
+    <div class="d-flex justify-content-center py-3">
+        <div class="flex-fill">
+        </div>
+
+        <div class="ml-3">
+            <a href="{{ route("mahasiswa.create") }}"
+               class="btn btn-primary"
+            >
+                Tambah
+            </a>
+        </div>
+    </div>
+
     <div>
         @if($mahasiswas->isNotEmpty())
             <div class="table-responsive">
