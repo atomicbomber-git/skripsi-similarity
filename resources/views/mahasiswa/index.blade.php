@@ -30,7 +30,7 @@
                         <th> Nama </th>
                         <th> Nama Pengguna </th>
                         <th> Skripsi </th>
-                        <th> Kendali </th>
+                        <th class="text-center"> Kendali </th>
                     </tr>
                     </thead>
 
@@ -40,8 +40,15 @@
                             <td> {{ $mahasiswas->firstItem() + $loop->index }} </td>
                             <td> {{ $mahasiswa->name }} </td>
                             <td> {{ $mahasiswa->username }} </td>
-                            <td> </td>
-                            <td>
+                            <td> {{ $mahasiswa->skripsi->judul ?? '-' }} </td>
+                            <td class="text-center">
+                                <a
+                                        class="btn btn-primary btn-sm"
+                                        href="{{ route("mahasiswa.edit", $mahasiswa) }}">
+                                    Ubah
+                                </a>
+
+
                                 <form action="{{ route("mahasiswa.destroy", $mahasiswa) }}"
                                       method="POST"
                                 >

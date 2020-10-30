@@ -7,7 +7,7 @@
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +184,7 @@
       <workItem from="1603086612991" duration="1117000" />
       <workItem from="1603331235123" duration="62000" />
       <workItem from="1604028385262" duration="3978000" />
-      <workItem from="1604065694239" duration="1042000" />
+      <workItem from="1604065694239" duration="1712000" />
     </task>
     <servers />
   </component>
@@ -208,17 +208,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="572" y="191" width="745" height="639" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603086815078" />
-    <state x="621" y="193" width="675" height="655" key="StructurePopup" timestamp="1602828137217">
+    <state x="621" y="193" width="789" height="655" key="StructurePopup" timestamp="1604067842723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="621" y="193" width="675" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1602828137217" />
-    <state x="530" y="232" key="run.anything.popup" timestamp="1603086881545">
+    <state x="621" y="193" width="789" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067842723" />
+    <state x="530" y="232" key="run.anything.popup" timestamp="1604067678145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603086881545" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604067371034">
+    <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067678145" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604067984794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067371034" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067984794" />
   </component>
 </project>

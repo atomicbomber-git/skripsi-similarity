@@ -90,12 +90,14 @@ class MahasiswaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param User $user
+     * @param User $mahasiswa
      * @return Response
      */
-    public function edit(User $user)
+    public function edit(User $mahasiswa)
     {
-        //
+        return $this->responseFactory->view("mahasiswa.edit", [
+            "mahasiswa" => $mahasiswa,
+        ]);
     }
 
     /**
@@ -103,11 +105,30 @@ class MahasiswaController extends Controller
      *
      * @param Request $request
      * @param User $user
-     * @return Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(Request $request, User $user)
+    public function update(Request $request, User $mahasiswa)
     {
-        //
+        $data = $request->validate([
+            "name" => ["required", "string", "max:100"],
+            "username" => ["required", Rule::unique(User::class), "alpha_dash", "max:100"],
+            "password" => ["nullable", "confirmed", "max:100"]
+        ]);
+
+        if (isset($data["password"])) {
+            $data["password"] = Hash::make($data["password"]);
+        } else {
+            unset($data["password"]);
+        }
+
+        $mahasiswa->update($data);
+
+        SessionHelper::flashMessage(
+            __("messages.update.success"),
+            MessageState::STATE_SUCCESS,
+        );
+
+        return $this->responseFactory->redirectToRoute("mahasiswa.edit", $mahasiswa);
     }
 
     /**
