@@ -5,6 +5,8 @@
         Mahasiswa
     </h1>
 
+    @include('components.message')
+
     <div>
         @if($mahasiswas->isNotEmpty())
             <div class="table-responsive">
@@ -26,7 +28,18 @@
                             <td> {{ $mahasiswa->name }} </td>
                             <td> {{ $mahasiswa->username }} </td>
                             <td> </td>
-                            <td> </td>
+                            <td>
+                                <form action="{{ route("mahasiswa.destroy", $mahasiswa) }}"
+                                      method="POST"
+                                >
+                                    @csrf
+                                    @method("DELETE")
+
+                                    <button class="btn btn-danger btn-sm">
+                                        Hapus
+                                    </button>
+                                </form>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>

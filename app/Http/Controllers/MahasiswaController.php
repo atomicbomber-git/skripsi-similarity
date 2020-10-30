@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Constants\MessageState;
+use App\Helper\SessionHelper;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
+use Illuminate\Support\Facades\DB;
 
 class MahasiswaController extends Controller
 {
@@ -18,7 +22,7 @@ class MahasiswaController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function index()
     {
@@ -33,7 +37,7 @@ class MahasiswaController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function create()
     {
@@ -43,8 +47,8 @@ class MahasiswaController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return Response
      */
     public function store(Request $request)
     {
@@ -54,8 +58,8 @@ class MahasiswaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
+     * @param User $user
+     * @return Response
      */
     public function show(User $user)
     {
@@ -65,8 +69,8 @@ class MahasiswaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
+     * @param User $user
+     * @return Response
      */
     public function edit(User $user)
     {
@@ -76,9 +80,9 @@ class MahasiswaController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param User $user
+     * @return Response
      */
     public function update(Request $request, User $user)
     {
@@ -88,11 +92,25 @@ class MahasiswaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
+     * @param User $mahasiswa
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function destroy(User $user)
+    public function destroy(User $mahasiswa)
     {
-        //
+        DB::beginTransaction();
+
+        $mahasiswa->skripsi->media()->delete();
+        $mahasiswa->skripsi()->delete();
+        $mahasiswa->delete();
+
+        DB::commit();
+
+        SessionHelper::flashMessage(
+            __("messages.delete.success"),
+            MessageState::STATE_SUCCESS,
+        );
+
+        return redirect()
+            ->back();
     }
 }
