@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Skripsi;
+use App\Models\SkripsiFingerprintHash;
 use App\Models\User;
 use App\Support\Processor;
 use Exception;
@@ -60,25 +61,46 @@ class DataSeeder extends Seeder
             ]);
 
             /** @var Skripsi $skripsi */
-           $skripsi = $user->skripsi()->create([
+            $skripsi = $user->skripsi()->create([
                 "judul" => "Skripsi {$user->name}",
-                "fingerprint" => null,
                 "terverifikasi" => 1,
             ]);
 
-           $skripsi->addMedia($data["pdf"])
-               ->preservingOriginal()
-               ->toMediaCollection();
+            $skripsi->addMedia($data["pdf"])
+                ->preservingOriginal()
+                ->toMediaCollection();
 
-           $processor = new Processor();
-           $fingerprint = $processor->textToFingerprintHashes(
-               file_get_contents($data["txt"])
-           );
+            $processor = new Processor();
 
-           dump($fingerprint);
+            $this->command->info("Processing {$skripsi->judul}...");
 
+            $start = microtime(true);
+            $fingerprintHashes = $processor->textToFingerprintHashes(
+                file_get_contents($data["txt"])
+            );
+
+
+            $hashesData = array_map(
+                function ($position, $hash) use ($skripsi) {
+                    return [
+                        "skripsi_id" => $skripsi->id,
+                        "position" => $position,
+                        "hash" => $hash,
+                    ];
+                },
+                array_keys($fingerprintHashes), $fingerprintHashes,
+            );
+
+            foreach (array_chunk($hashesData, 40) as $chunk) {
+                DB::table((new SkripsiFingerprintHash())->getTable())
+                    ->insert($chunk);
+            }
+
+            $elapsed = microtime(true) - $start;
+            $this->command->info("Finished processing {$skripsi->judul}. It took {$elapsed} seconds.");
 
         }
+
 
         DB::commit();
     }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSkripsisTable extends Migration
+class CreateSkripsiTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateSkripsisTable extends Migration
      */
     public function up()
     {
-        Schema::create('skripsis', function (Blueprint $table) {
+        Schema::create('skripsi', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id')->unique();
             $table->string("judul")->index();
-            $table->string("fingerprint")->nullable();
             $table->boolean("terverifikasi")->default(0);
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
@@ -31,6 +30,6 @@ class CreateSkripsisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('skripsis');
+        Schema::dropIfExists('skripsi');
     }
 }

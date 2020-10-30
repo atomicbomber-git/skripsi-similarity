@@ -29,6 +29,7 @@ class MahasiswaController extends Controller
         return $this->responseFactory->view("mahasiswa.index", [
             "mahasiswas" => User::query()
                 ->where("level", User::LEVEL_MAHASISWA)
+                ->with("skripsi")
                 ->orderBy("name")
                 ->paginate()
         ]);
