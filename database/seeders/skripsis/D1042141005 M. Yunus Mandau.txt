@@ -1,0 +1,3228 @@
+
+BAB I
+PENDAHULUAN 
+
+1.1 Latar Belakang 
+
+Kegiatan  administrasi  dan  belajar  mengajar  di  Universitas  Tanjungpura
+
+(Untan) selalu dilakukan dalam sebuah gedung, namun dikarenakan area Untan
+
+yang  cukup  luas  sering  kali  membuat  mahasiswa  khususnya  mahasiswa  baru
+
+merasa kebingungan untuk mengetahui gedung-gedung yang ada. Oleh karena itu
+
+gambaran gedung dan area Untan sangat diperlukan, selain untuk mempermudah
+
+mahasiswa  menemukan gedung yang ingin dicari,  gambaran gedung juga dapat
+
+membantu untuk mengetahui area sekitar  gedung.
+
+Teknologi  saat  ini  mampu  membuat  gambaran  gedung  dengan  sebuah
+
+rancang bangun animasi 3D beserta car controler menggunakan aplikasi  blender
+
+dan  unity.  Blender dan  unity  merupakan  software  animasi  3D,  mempunyai
+
+kemampuan untuk membuat rancang bangun animasi beserta car controler secara
+
+interaktif dan menarik dengan fitur animasinya. Aplikasi ini juga dapat membuat
+
+gambaran  sebuah  gedung  secara  detail  dalam  bentuk  3D,  sehingga  pengguna
+
+merasa seolah-olah sedang berada di gedung yang asli. Dengan desain antar muka
+
+yang sederhana diharapkan pengguna akan merasa lebih user friendly serta lebih
+
+mudah untuk menemukan gedung yang ada di Universitas Tanjungpura (Untan).
+
+Tugas akhir ini akan menghasilkan sebuah aplikasi 3D menjelajah seluruh
+
+area  Untan menggunakan  car  controler yang  diharapkan  akan  membantu
+
+mahasiswa  untuk  mendapatkan  gambaran  gedung  dalam  bentuk  3D.  Dengan
+
+adanya aplikasi ini mahasiswa maupun calon mahasiswa baru akan merasa lebih
+
+mudah untuk mengetahui letak gedung-gedung yang ada di area untan, sehingga
+
+bagi para calon mahasiswa baru yang belum pernah melihat untan secara langsung
+
+bisa mendapatkan gambaran serta menjelajah area untan dalam bentuk tampilan
+
+animasi 3D. 
+
+1
+
+
+
+2
+
+1.2 Perumusan Masalah 
+
+Berdasarkan  latar  belakang  yang  telah  diuraikan  sebelumnya,  rumusan
+
+masalah adalah  Bagaimana cara merancang animasi area gedung Untan beserta
+
+car controller sehingga dapat memberikan gambaran gedung yang realistis dalam
+
+bentuk 3D.
+
+ 
+
+1.3 Tujuan Penelitian 
+
+Adapun tujuan dari penelitian sebagai berikut : 
+
+1. Memberikan gambaran gedung serta area Untan dalam bentuk animasi 3D
+
+dan navigasi car controller. 
+
+2. Mempermudah  pengguna  untuk  mengenal  seluruh  area  Untan melalui
+
+media yang interaktif.
+
+Untuk  mencapai  tujuan  penelitian  tersebut,  sasaran  pada  penelitian  ini
+
+adalah sebagai berikut:
+
+1) Memahami studi literatur yang dilakukan terkait pada aplikasi tersebut.
+
+2) Menganalisa kebutuhan aplikasi animasi menjelajah area Untan.
+
+3) Melakukan pengumpulan data untuk mendukung pembuatan aplikasi.
+
+4) Melakukan perancangan dan implementasi.
+
+5) Melakukan pengujian.
+
+1.4 Pembatasan Masalah 
+
+Pembatasan masalah pada penelitian ini adalah sebagai berikut. 
+
+1. Animasi hanya dalam tampilan siang hari.
+
+2. 3D model dalam bentuk low poly, untuk mengurangi size apk.
+
+3. Animasi hanya menampilkan area luar gedung, pengguna tidak bisa masuk
+
+ruangan gedung.
+
+4. Aplikasi  ini  tidak menampilkan semua gedung yang ada di  Untan,  tapi
+
+hanya gedung-gedung yang terlihat dan bisa  di jelajah car controller.
+
+
+
+3
+
+1.5 Sistematika Penulisan Skripsi 
+
+Adapun sistematika  penulisan  skripsi  ini  disusun dalam lima bab yang
+
+terdiri  dari  Bab I  Pendahuluan,  Bab II  Tinjauan  Pustaka,  Bab III  Metodologi
+
+Penelitian, Bab IV Hasil dan Analisis Aplikasi, serta Bab V Penutup. 
+
+Bab  I  Pendahuluan  adalah  bab  yang  berisi  latar  belakang,  perumusan
+
+masalah,  tujuan  penelitian,  pembatasan  masalah,  dan  sistematika  penulisan
+
+skripsi. 
+
+Bab II Tinjauan Pustaka adalah bab yang berisi landasan teori yang ada
+
+hubungannya  dengan  penelitian  yang  akan  dilakukan  dan  prinsip-prinsip
+
+penunjang yang berguna dalam pengerjaan tugas akhir. 
+
+Bab III Metodologi Penelitian dan Perancangan Aplikasi adalah bab yang 
+
+berisi tentang data penelitian, alat yang digunakan, metode penelitian, storyboard, 
+
+penjelasan mengenai pembuatan aplikasi, uji coba dan validasi aplikasi. 
+
+Bab  IV  Hasil  dan  Analisis  adalah  bab  yang  berisi  tentang  penjelasan
+
+mengenai implementasi aplikasi,  screenshot  tampilan antar muka aplikasi yang
+
+telah bangun, serta hasil uji coba dan validasi aplikasi. Setiap hasil yang disajikan
+
+akan dilakukan analisis untuk mengarah kepada suatu kesimpulan. 
+
+Bab V Penutup adalah bab yang berisi kesimpulan dari penelitian yang 
+
+telah dilakukan dan saran/rekomendasi untuk penulis berikutnya dalam 
+
+pengembangan penelitian yang telah dilakukan. 
+
+ 
+
+ 
+
+ 
+
+
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1 Animasi 
+
+2.1.1 Definisi Animasi
+
+Animasi  adalah  gambar  yang  bergerak  dan  terbentuk  dari  sekumpulan
+
+objek gambar yang disusun beraturan mengikuti pergerakan yang telah ditentukan
+
+pada setiap pertambahan hitungan waktu yang terjadi. Gambar atau objek yang
+
+dimaksud dalam definisi  di  atas  bisa berupa gambar manusia,  hewan, maupun
+
+tulisan. Sebenarnya animasi adalah transformasi objek yang diubah sesuai dengan
+
+aturan  tertentu.  Dibandingkan  animasi  non  interaktif,  animasi  interaktif
+
+memberikan tampilan yang lebih menarik dan dinamis. Pada animasi interaktif,
+
+pergerakan  objek  mengikuti  perintah  yang  diberikan  oleh  pemakai  lewat
+
+perangkat interaktif.  Sedangkan animasi non interaktif,  pergerakan objek hanya
+
+dikendalikan dari  prosedur yang ada di dalam sebuah program. Untuk animasi
+
+interaktif  kebanyakan digunakan untuk program-program permainan, sedangkan
+
+animasi  non interaktif  kebanyakan untuk melakukan simulasi  objek.  Komputer
+
+digital yang berkembang pesat sangat mempengaruhi proses pengerjaan animasi.  
+
+Animasi dapat digunakan untuk simulasi, dan juga menampilkan animasi
+
+yang memukau dan menjadi daya tarik bagi yang melihatnya. memvisualisasikan
+
+cara  kerja  atau  mekanisme  suatu  sistem  juga  menampilkan  gambar  yang
+
+disatukan dengan gerakan menjadi  suatu animasi  yang menarik di  bandingkan
+
+dengan  gambar  yang  tidak  disertai  dengan  gerakan  serta  aplikasi  games.
+
+Menciptakan Animasi yang yang terlihat apik memerlukan gambar yang cukup
+
+banyak  agar  gambar  yang  dihasilkan  berkesan  halus.  maka  gambar-gambar
+
+tersebut  haruslah  berpindah  posisi  sekecil  mungkin  agar  pada  perubahan  atau
+
+pergantian gambar terlihat lebih menarik dan bagus.  
+
+Animasi  Merupakan  kumpulan  gambar  yang  diolah  sedemikian  rupa
+
+sehingga menghasilkan  gerakan”.  Animasi  mewujudkan ilusi  bagi  pergerakkan
+
+4
+
+
+
+5
+
+dengan memaparkan atau menampilkan satu urutan gambar yang berubah sedikit
+
+demi sedikit pada kecepatan yang tinggi. 
+
+Animasi  digunakan  untuk  memberi  gambaran  pergerakan  bagi  sesuatu
+
+objek. Animasi membolehkan sesuatu objek yang tetap atau statik dapat bergerak
+
+dan  kelihatan  seolah-olah  hidup.  Animasi  multimedia  merupakan  proses
+
+pembentukan  gerak  dari  berbagai  media  atau  objek  yang  divariasikan  dengan
+
+efek-efek dan filter,  gerakan transisi,  suara-suara yang selaras  dengan gerakan
+
+animasi tersebut.  
+
+2.1.2 Format Animasi
+
+Ada tiga jenis format animasi menurut Utami, Dini (2007) yaitu:
+
+1)  Animasi  Tanpa  Sistem Kontrol.  Animasi  ini  hanya  memberikan  gambaran
+
+kejadian  sebenarnya  tanpa  ada  kontrol  sistem.  Misal  untuk  berhenti,
+
+memperlambat kecepatan pergantian frame, memperbesar, memperkecil dll.
+
+2)  Animasi  Dengan  Sistem  Kontrol.  Animasi  ini  dilengkapi  dengan  tombol
+
+kontrol. Misal tombol untuk berhenti, memperbesar, memperkecil, dll.
+
+3)  Animasi  Manipulasi  Langsung.  Animasi  manipulasi  langsung  menyediakan
+
+fasilitas  untuk  pengguna berinteraksi  langsung dengan kontrol  navigasi  (misal
+
+tombol dan slider). Pengguna bebas untuk menentukan arah perhatian. Menekan
+
+tombol atau menggeser slider akan menyebabkan perubahan keadaan. Hasilnya
+
+dapat langsung dilihat dan kejadiannya dapat diulang-ulang.
+
+2.2 Multimedia
+
+2.2.1 Definisi Multimedia 
+
+Menurut Hofstetter (2001)  multimedia adalah penggunaan komputer  untuk
+
+menampilkan informasi yang merupakan gabungan dari teks,  grafik, audio dan
+
+video sehingga membuat pengguna dapat bernavigasi,  berinteraksi, berkreasi dan
+
+berkomunikasi dengan komputer.
+
+Selain  kombinasi  dari  objek-objek  multimedia  tersebut,  terdapat  juga
+
+komponen yang penting lainnya, yaitu:
+
+a. Adanya komputer  untuk mengatur apa yang akan dilihat  dan didengar,  dan
+
+apa yang akan berinteraksi dengan penggunanya 
+
+
+
+6
+
+b. Adanya  link-link  yang menghubungkan informasi-informasi yang tersedia 
+
+c. Adanya  tool-tool navigasi bagi pengguna agar dapat menggunakan informasi
+
+yang tersedia 
+
+d. Adanya  prosedur  bagi  pengguna  untuk  mengumpulkan,  memproses dan
+
+menyampaikan informasi dan ide-idenya. 
+
+Hal  menarik  dari  multimedia  adalah  efek  seduktif  yang  dimilikinya.
+
+Jonassen telah membuktikan bahwa multimedia memikat perhatian dan memiliki
+
+daya tarik yang tinggi untuk digunakan. Unsur visual dan auditori yang menarik
+
+merupakan  senjata  yang  ampuh  untuk  memancing  ketertarikan  siswa  pada
+
+kegiatan  instruksional,  meningkatkan  performansi  proses  instruksional,  dan
+
+meningkatkan  kemampuan  retensi  dan  transfer.  Fitur  –  fitur  seperti  teks  dan
+
+tulisan, animasi ilustrasi, musik dan efek suara, video dan lingkungan multimedia
+
+dapat memberikan dukungan yang kuat dalam pembelajaran. 
+
+2.2.2 Komponen Multimedia 
+
+Menurut  Hofstetter  (2001),  terdapat  beberapa  komponen  multimedia,
+
+yaitu:  
+
+1. Teks  
+
+Teks  merupakan  elemen  multimedia  yang  menjadi  dasar  untuk
+
+menyampaikan informasi, karena teks adalah jenis data yang paling sederhana
+
+dan membutuhkan tempat penyimpanan yang paling kecil. Teks merupakan cara
+
+yang paling efektif  dalam mengemukakan ide-ide kepada pengguna, sehingga
+
+penyampaian  informasi  akan lebih mudah dimengerti  oleh masyarakat.  Jenis-
+
+jenis teks seperti  printed text, yaitu teks yang dihasilkan oleh  word processor
+
+atau word editor dengan cara diketik yang nantinya dapat dicetak. Scanned text
+
+yaitu teks yang dihasilkan melalui proses scanning tanpa pengetikan. Hypertext
+
+yaitu  jenis  teks  yang  memberikan  link  ke  suatu  tempat/meloncat  ke  topik
+
+tertentu.  
+
+2. Grafik (image) 
+
+
+
+7
+
+Sangat bermanfaat untuk mengilustrasi informasi yang akan disampaikan
+
+terutama  informasi  yang  tidak  dapat  dijelaskan  dengan  kata-kata.  Jenis-jenis
+
+grafik seperti bitmap yaitu gambar yang disimpan dalam bentuk kumpulan pixel,
+
+yang berkaitan dengan titik-titik  pada layar  monitor.  Digitized picture  adalah
+
+gambar hasil rekaman video atau kamera yang dipindahkan ke komputer dan
+
+diubah ke dalam bentuk  bitmaps.  Hyperpictures, sama seperti  hypertext  hanya
+
+saja dalam bentuk gambar.   
+
+3. Audio  
+
+Multimedia tidak akan lengkap jika tanpa audio (suara). Audio bisa berupa
+
+percakapan,  musik  atau  efek  suara.  Format  dasar  audio terdiri  dari  beberapa
+
+jenis, yaitu:  
+
+a. WAVE  
+
+WAVE merupakan format  file  digital audio yang disimpan dalam bentuk
+
+digital dengan eksistensi WAV.  
+
+b. MIDI (Musical Instrument Digital Interface)  
+
+MIDI memberikan  cara  yang  lebih  efisien  dalam  merekam  musik
+
+dibandingkan  WAVE. kapasitas  data  yang  dihasilkan  juga  jauh  lebih  kecil.
+
+MIDI disimpan dalam bentuk MID.  
+
+4. Video  
+
+Video menyediakan  sumber  yang  kaya  dan  hidup  untuk  aplikasi
+
+multimedia.  Video dapat  menerangkan  hal-hal  yang  sulit  digambarkan  lewat
+
+kata-kata  atau  gambar  diam dan dapat  menggambarkan  emosi  dan  psikologi
+
+manusia secara lebih jelas.  
+
+5. Animasi  
+
+Animasi  adalah  simulasi  gerakan yang dihasilkan  dengan menayangkan
+
+rentetan  frame  ke  layer.  Frame  adalah  satu  gambar  tunggal  pada  rentetan
+
+gambar yang membentuk animasi.  
+
+ 
+
+
+
+8
+
+2.3 Android 
+
+2.3.1 Definisi Android
+
+Menurut  Hermawan  S,  Stephanus  (2011),  Android  merupakan  OS
+
+(Operating System) Mobile yang tumbuh ditengah OS lainnya yang berkembang
+
+dewasa ini. OS lainnya seperti Windows Mobile, I-Phone OS, dan masih banyak
+
+lagi. Akan tetapi, OS yang ada ini berjalan dengan mengutamakan aplikasi inti
+
+yang dibangun sendiri tanpa melihat potensi yang cukup besar dari aplikasi pihak
+
+ketiga.  Oleh  karena  itu,  adanya  keterbatasan  dari  aplikasi  pihak  ketiga  untuk
+
+mendapatkan  data  asli  ponsel,  berkomunikasi  antar  proses  serta  keterbatasan
+
+distribusi aplikasi pihak ketiga untuk platform mereka.
+
+2.3.2 Karakteristik Android 
+
+Berikut beberapa karakteristik Android menurut Hermawan (2011).
+
+1. Terbuka,  Android  dibangun  untuk  benar-benar  terbuka  sehingga  sebuah
+
+aplikasi  dapat  memanggil salah  satu  fungsi  inti  ponsel  seperti  membuat
+
+panggilan, mengirim pesan teks, menggunakan kamera dan lain-lain. Android
+
+merupakan  sebuah  mesin  virtual  yang  dirancang  khusus  untuk
+
+mengoptimalkan sumber daya memori dan perangkat keras yang terdapat di
+
+dalam  perangkat.  Android  merupakan  open  source,  dapat  secara  bebas
+
+diperluas  untuk  memasukkan  teknologi  baru  yang  lebih  maju  pada  saat
+
+teknologi  tersebut  muncul.  Platform ini  akan  terus  berkembang  untuk
+
+membangun aplikasi mobile yang inovatif.
+
+2. Semua aplikasi dibuat sama, Android tidak memberikan perbedaan terhadap
+
+aplikasi  utama  dari  telepon  dan  aplikasi  pihak  ketiga  (third-party
+
+application). Semua apliksi dapat dibangun untuk memiliki akses yang sama
+
+terhadap  kemampuan  sebuah  telepon  dalam  menyediakan  layanan  dan
+
+aplikasi yang luas terhadap para pengguna.
+
+3. Memecahkan  hambatan  pada  aplikasi,  Android  memecah  hambatan  untuk
+
+membangun aplikasi  yang baru dan inovatif.  Misalnya,  pengembang dapat
+
+menggabungkan informasi yang diperoleh dari web dengan data pada ponsel
+
+seseorang seperti kontak pengguna, kalender atau lokasi geografis.
+
+
+
+9
+
+4. Pengembangan aplikasi yang cepat dan mudah, Android menyediakan akses
+
+yang  sangat  luas  kepada  pengguna  untuk  menggunakan  aplikasi  yang
+
+semakin  baik.  Android  memiliki  sekumpulan  tools yang  dapat  digunakan
+
+sehingga  membantu  para  pengembang  dalam  meningkatkan  produktivitas
+
+pada saat membangun aplikasi yang dibuat.
+
+2.4       Game
+
+2.4.1 Definisi Game 
+
+Game merupakan aktifitas terstruktur atau semi terstruktur yang biasanya
+
+bertujuan untuk hiburan dan kadang dapat digunakan sebagai sarana pendidikan.
+
+Karakterisitik  game yang menyenangkan, memotivasi, membuat kecanduan dan
+
+kolaboratif  membuat  aktifitas  ini  digemari  oleh  banyak orang (Wahono,  R.S.
+
+2009). 
+
+Menurut Ligagame (2009) terdapat manfaat bermain game, yaitu:  
+
+1. Bisa menjadi sarana hiburan yang menyediakan interaksi sosial. 
+
+2. Membangun semangat kerja sama atau teamwork ketika dimainkan dengan
+
+gamers-gamers lainnya secara multiplayer. 
+
+3. Bagi manula (lansia), bisa mengurangi efek kepikunan.  
+
+4. Meningkatkan rasa percaya diri  dan harga diri  anak saat mereka mampu
+
+menguasai permainan. 
+
+5. Mengembangkan kemampuan  dalam  membaca  matematika,  dan
+
+memecahkan masalah atau tugas. 
+
+6. Membuat anak-anak merasa nyaman dan familiar dengan teknologi terutama
+
+anak perempuan, yang tidak menggunakan teknologi sesering anak cowok. 
+
+7. Melatih koordinasi antara mata dan tangan, serta skill motorik. 
+
+8. Mengakrabkan hubungan anak dan orangtua. Dengan main bersama, terjalin
+
+komunikasi satu sama lain.  
+
+9. Juga  bisa  membantu  memulihkan  kesehatan  untuk  beberapa  kasus
+
+penyembuhan. 
+
+Dari  pengertian  game di  atas  dapat  kita  simpulkan  bahwasannya  game
+
+merupakan suatu program yang dirancang sedemikian rupa untuk memenuhi salah
+
+satu  kebutuhan  manusia,  yaitu  kebutuhan  manusia  pada  hiburan.  Hiburan
+
+
+
+10
+
+dianggap  penting  bagi  seseorang  dikarenakan  dengan  adanya  hiburan  akan
+
+mampu menyegarkan kembali pikiran mereka setelah disibukkan dengan berbagai
+
+aktivitas yang menguras tenaga dan otak.
+
+2.5 Storyboard 
+
+Fungsi  dari  pembuatan  storyboard adalah  untuk  memudahkan  dalam
+
+menyampaikan ide atau gagasan sebuah cerita  kepada orang lain supaya lebih
+
+mudah dipahami dengan memberikan penjelasan tentang alur cerita berdasarkan
+
+gambaran  besar,  mulai  dari  awal  cerita,  bagian  tengah,  hingga  akhir  cerita.
+
+Penulisan storyboard sebaiknya diisi unsur visual terlebih dahulu baru kemudian
+
+unsur narasi dan audionya yaitu untuk melengkapi hal-hal yang sulit diungkapkan
+
+dalam  bentuk  visual  sehingga  harus  diperkuat  dengan  narasi  dan  background
+
+audio atau sound FX.
+
+Menurut  Luther  dalam  Sutopo  (2003),  bahwa  storyboard  merupakan
+
+deskripsi dari setiap scene yang secara jelas menggambarkan objek multimedia
+
+serta perilakunya yang penjelasannya dapat menggunakan simbol maupun teks.
+
+Menurut  Nugroho  (2005),  bahwa  storyboard merupakan  serangkaian  sketsa
+
+dibuat  persegi  panjang  yang  menggambarkan  suatu  urutan  (alur  cerita)
+
+elemenelemen yang dihasilkan untuk aplikasi  multimedia.Menurut Halas dalam
+
+Sutopo (2003), bahwa storyboard adalah kumpulan gambar manual yang dibuat
+
+secara keseluruhan  sehingga  menggambarkan  suatu  cerita. Menurut  Rusman
+
+(2013), bahwa  storyboard  adalah bentuk-bentuk gambar yang disiapkan disertai
+
+dengan penjelasan-penjelasan atau narasi. 
+
+Berdasarkan  beberapa  pendapat  diatas  dapat  disimpulkan  bahwa
+
+storyboard  adalah  rangkaian  gambar  yang dibuat  dan disusun berurutan  untuk
+
+menggambarkan setiap scene dari suatu cerita dengan disertai penjelasan.  
+
+Storyboard tidak sulit untuk dibuat, bahkan cukup menggunakan poinpoin
+
+saja  asalkan  bisa  memberikan  penjelasan  yang  jelas  mengenai  desain  tentang
+
+bagaimana materi yang diajarkan sudah lebih dari cukup. Cara membuatnya juga
+
+cukup  dengan  software  pengolah  kata  maupun  spreadsheet,  tidak  perlu
+
+menggunakan  aplikasi  pembuat  storyboard  professional.  Beberapa  alasan
+
+mengapa menggunakan storyboard adalah sebagai berikut: 
+
+
+
+11
+
+1. Storyboard harus dibuat sebelum tim membuat animasi.  
+
+2. Storyboard digunakan untuk mengingatkan animator.  
+
+3. Storyboard dibuat untuk memudahkan membaca cerita. 
+
+Penggunaan  storyboard  jelas  akan  mempermudah  pelaksanaan  dalam
+
+proses produksi nantinya. Format apapun yang dipilih untuk  storyboard, berikut
+
+informasi yang harus dicantumkan, yaitu: 
+
+1. Sketsa atau gambaran layar, halaman atau frame. 
+
+2. Warna, penempatan dan ukuran grafik, jika perlu.  
+
+3. Teks asli, jika ditampilkan pada halaman atau layar.  
+
+4. Warna, ukuran dan tipe font jika ada teks. 
+
+5. Narasi, jika ada. 
+
+6. Animasi jika ada.  
+
+7. Video, jika ada. 
+
+8. Audio, jika ada.
+
+9. Interaksi dengan penonton, jika ada.  
+
+10. Hal-hal yang perlu diketahui oleh staf produksi.  
+
+Berikut adapun daftar cek storyboard, yaitu: 
+
+1. Harus ada storyboard untuk tiap halaman, layar atau frame.  
+
+2. Tiap storyboard harus dinomori.  
+
+3. Setiap detail yang berhubungan (warna, grafik, suara, tulisan dan visual
+
+dicantumkan).  
+
+4. Setiap  teks atau  narasi  dimasukkan dan diperiksa sesuai  dengan nomor
+
+storyboard yang berhubungan.  
+
+5. Setiap anggota produksi harus mempunyai salinan atau akses yang mudah
+
+ke storyboard.  
+
+
+
+12
+
+2.6      Aplikasi 
+
+2.6.1   Definisi Aplikasi 
+
+Aplikasi  adalah  satu  unit  perangkat  lunak  yang  sengaja  dibuat  untuk
+
+memenuhi kebutuhan akan berbagai aktivitas ataupun pekerjaan, seperti aktivitas
+
+perniagaan,  periklanan,  pelayanan  masyarakat,  game,  dan  berbagai  aktivitas
+
+lainnya yang dilakukan oleh manusia (Pramana, 2012). 
+
+Menurut  Jogiyanto  dikuip  oleh  Ramzi  (2013)  aplikasi  merupakan
+
+penerapan, menyimpan sesuatu hal, data, permasalahan, pekerjaan kedalam suatu
+
+sarana  atau  media  yang  dapat  digunakan  untuk  menerapkan  atau
+
+mengimplementasikan hal atau permasalahan yang ada sehingga berubah menjadi
+
+suatu  bentuk  yang  baru  tanpa  menghilangkan  nilai-nilai  dasar  dari  hal  data,
+
+permasalahan, dan pekerjaan itu sendiri.
+
+Jadi  aplikasi  merupakan sebuah transformasi  dari  sebuah permasalahan
+
+atau pekerjaan berupa hal yang sulit  difahami menjadi  lebih sederhana,  mudah
+
+dan dapat dimengerti  oleh pengguna. Sehingga dengan adanya aplikasi,  sebuah
+
+permasalahan akan terbantu lebih cepat dan tepat. 
+
+2.7       Blender 3D  
+
+2.7.1    Definisi Blender 3D  
+
+Blender adalah program 3D dan animasi yang bersifat open source, bebas
+
+untuk dikembangkan oleh penggunanya dan dapat didistribusikan kembali serta
+
+bersifat Legal. Blender memiliki video compositor dan  intergrated game engine.
+
+Karya yang dihasilkan tidak  ada  sifat  berbayar  kepada  developer dan dapat
+
+dipublikasikan   baik   gratis  maupun untuk dikomersilkan.  Blender  merupakan
+
+salah  satu  program  modeling 3D  dan  Animation,  tapi  Blender mempunyai
+
+kelebihan  sendiri  dibandingkan  program  modeling  3D  lainnya.  Kelebihan
+
+yang  dimiliki  Blender  adalah  dapat  membuat  game  tanpa  menggunakan
+
+program tambahan  lainnya,   karena  Blender   sudah  memiliki   game engine
+
+sendiri.  Blender  menggunakan openGL  sebagai  render  grafiknya  yang  dapat
+
+
+
+13
+
+digunakan pada berbagai macam sistem operasi seperti Windows, Linux dan Mac
+
+OS. 
+
+Saat ini  Blender sudah mengeluarkan versi yang terbarunya,  yaitu versi
+
+2.79 yang lebih ditujukan untuk pembuat  game. Karena versi ini memiliki fitur-
+
+fitur baru yang dirancang untuk membuat tampilan game yang lebih realistis dari
+
+pada versi sebelumnya.
+
+Target di profesional media dan seniman, Blender dapat digunakan untuk
+
+membuat  visualisasi  3D,  stills serta  siaran  dan  video  berkualitas  bioskop,
+
+sedangkan penggabungan mesin 3D real-time memungkinkan penciptaan konten
+
+3D interaktif  untuk pemutaran yang berdiri  sendiri.  Blender memiliki  berbagai
+
+macam kegunaan termasuk pemodelan, menjiwai, rendering, texturing, menguliti,
+
+rigging, pembobotan,  editing non-linear, scripting, composite, post-produksi dan
+
+banyak lagi.
+
+Blender tersedia untuk berbagai sistem operasi, seperti:
+
+1. Microsoft Windows
+
+2. Mac OS X
+
+3. Linux
+
+4. IRIX
+
+5. Solaris
+
+6. NetBSD
+
+7. FreeBSD
+
+8. OpenBSD.
+
+Perangkat lunak ini berlisensi  GPL (GNU General Public License) dan
+
+kemudian kode sumbernya tersedia dan dapat diambil siapa saja.
+
+2.7.2    Kelebihan Blender 3D  
+
+Blender adalah salah satu  software open source yang digunakan untuk
+
+membuat  konten  multimedia  khusunya  3D,  ada  kelemahan  dan  beberapa
+
+kelebihan  yang  dimiliki  Blender  dibandingkan  software sejenis.  Berikut
+
+kelebihannya :
+
+1. Open Source
+
+
+
+14
+
+Blender  merupakan salah satu  software open source,  dimana kita  bisa
+
+bebas memodifikasi source codenya untuk keperluan pribadi maupun komersial,
+
+asal tidak melanggar GNU General Public License yang digunakan Blender.
+
+2.  Multi Platform
+
+ Karena  sifatnya  yang  open  source, Blender  tersedia  untuk  berbagai
+
+macam operasi  sistem seperti  Linux,  Mac dan Windows.  Sehingga  file yang
+
+dibuat  menggunakan Blender versi Linux tak akan berubah ketika dibuka di
+
+Blender versi Mac maupun Windows.
+
+3. Update
+
+Dengan  status  yang  open  source,  Blender  bisa  dikembangkan  oleh
+
+siapapun. Sehingga update software ini jauh lebih cepat dibandingkan software
+
+sejenis lainnya. Bahkan dalam hitungan jam, terkadang  software  ini sudah ada
+
+update.  Update tersebut  tak  tersedia  di  situs  resmi Blender.org melainkan
+
+di graphicall.org
+
+4. Free
+
+Blender  merupakan  sebuah  software yang  gratis  Blender  gratis  bukan
+
+karena tidak laku, melainkan karena luar biasanya fitur yang mungkin tak dapat
+
+dibeli dengan uang, selain itu dengan digratiskannya software ini, siapapun bisa
+
+berpartisipasi  dalam mengembangkannya  untuk menjadi  lebih  baik.  gratisnya
+
+Blender mendunia bukan seperti  3dMax dan lainnya yang di Indonesia gratis
+
+membajak. Tak perlu membayar untuk mendapatkan cap legal. Karena Blender
+
+gratis dan legal.
+
+5. Lengkap
+
+Blender memiliki fitur yang lebih lengkap dari software 3D lainnya.  Coba
+
+cari  software 3D selain Blender yang di dalamnya tersedia fitur video editing,
+
+game engine, node compositing, sculpting. 
+
+6. Ringan
+
+Blender relatif ringan jika dibandingkan  software sejenis. Hal ini terbuti
+
+dengan sistem minimal untuk menjalankan Blender. Hanya dengan ram 512 dan
+
+
+
+15
+
+prosesor  Pentium 4  /  sepantaran  dan  VGA  on  board,  Blender  sudah  dapat
+
+berjalan dengan baik namun tidak bisa digunakan secara maksimal. Misal untuk
+
+membuat highpolly akan sedikit lebih lambat.
+
+7. Komunitas Terbuka 
+
+Tidak perlu membayar untuk bergabung dengan komunitas Blender yang
+
+sudah tersebar di dunia. Dari yang newbie sampai yang sudah advance terbuka
+
+untuk menerima masukan dari siapapun, selain itu mereka juga saling berbagi
+
+tutorial dan  file secara terbuka. Salah satu contoh nyatanya adalah  open movie
+
+garapan Blender institute.
+
+2.8      Unity 3D 
+
+2.8.1    Definisi Unity 3D 
+
+Unity merupakan suatu aplikasi  yang digunakan untuk mengembangkan
+
+game multi platform yang didesain untuk mudah digunakan.  Editor pada Unity
+
+dibuat  dengan  user  interface yang sederhana.  Unity  mendukung semua format
+
+file, terutamanya format umum seperti semua format dari art applications. Unity
+
+cocok dengan versi 64-bit dan dapat beroperasi pada Mac OS x dan Windows dan
+
+dapat menghasilkan game untuk Mac, Windows, Iphone, Ipad dan Android.
+
+Aplikasi Unity 3D adalah software game engine pengolah gambar, grafik,
+
+suara, input, dan lain-lain yang ditujukan untuk membuat suatu game, meskipun
+
+tidak selamanya harus untuk game. Contohnya adalah seperti materi pembelajaran
+
+untuk  simulasi  membuat  SIM.  Kelebihan  dari  game  engine ini  adalah  bisa
+
+membuat game berbasis 3D maupun 2D, dan sangat mudah digunakan.
+
+Untuk mengaktifkan lisensi, Unity perlu adanya lisensi. Sebagai contoh
+
+ketika  ingin  mengaktifkan  free  user, langkah  pertama  adalah  mendownload
+
+software nya secara gratis pada web http://Unity3d.com/. Setelah selasai instalasi,
+
+maka Unity meminta  untuk terhubung dengan internet  untuk aktifasinya.  Lalu
+
+selesai Unity akan automatis  run ke program. Untuk langkah selanjutnya Unity
+
+tidak perlu lagi memerlukan koneksi internet saat menjalankan aplikasinya.
+
+Unity bukan  software game engine baru, sehingga banyak tutorial  yang
+
+tersebar luas, bahkan banyak  game dan tutorial untuk Unity yang telah beredar.
+
+Unity  cepat  berkembang  dikarenakan  bisa  free  user dan  banyak  di
+
+
+
+16
+
+implementasikan ke berbagai  platform disamping banyaknya tutorial  yang bisa
+
+dengan mudah dicari.
+
+Dengan Unity3D kita dapat membuat game 3D, FPS dan 2d game bahkan
+
+game online, fitur" lain tentang unity berikut selengkapnya :
+
+1.      Membuat game 2D / 3D
+
+2.      Membuat game FPS
+
+3.      Membuat game online.
+
+4.       Dukungan Konversi  ;  Mobile Android,  Iphone, Blackberry,  Windows,
+
+Linux, Flash, Webplayer.
+
+5.      Online publish Google Play, Android market.
+
+6.      Dukungan kode : C#, javascript dan boo
+
+7.      Dukungan Extensi file, 3ds, obj, fbx
+
+2.8.2     Fitur-Fitur Unity 3D
+
+1.      Rendering
+
+Graphics engine yang digunakan adalah direct3D (Windows, Xbox 360),
+
+openGL (Mac, Windows, Linux, PS3), openGL (Android, IOS), dan proprietary
+
+APIs  (Wii).  Ada  pula  kemampuan  untuk  bump mapping,  reflection  mapping,
+
+parallax  mapping,  screen  space  ambient  occlusion  (SSAO),  dynamic  shadows
+
+using shadow maps, render-to-texture dan full-screen post-processing effects.
+
+Unity dapat  mengambil  format  desain dari  3ds Max, Maya,  Softimage,
+
+Blender,   Modo,  Zbrush,  Cinema  4D,  Cheetah3D,  Adobe  Photoshop,  Adobe
+
+Fireworks  dan  Allegorithmic  Substance.  Asset tersebut  dapat  ditambahkan  ke
+
+game project dan diatur melalui graphical user interface Unity.
+
+Shaderlab adalah bahasa yang digunakan untuk  shaders, dimana mampu
+
+memberikan deklaratif  “programming” dari  fixed-function pipeline dan program
+
+shader ditulis dalam GLSL atau Cg. Sebuah  shader dapat menyertakan banyak
+
+varian dan sebuah spesifikasi fallback declarative, dimana membuat Unity dapat
+
+mendeteksi berbagai macam video card terbaik saat ini.
+
+Pada  3  Agustus  2013,  seiring  dengan  diluncurkannya  versi  4.2,  Unity
+
+mengijinkan  developer mengunakan  realtime shadows hanya untuk  directional
+
+lights,  dan  juga  menambahkan  kemampuan  dari  directX11 yang  memberikan
+
+
+
+17
+
+shadows dengan resolusi pixel yang lebih sempurna, tekstur untuk membuat objek
+
+3d  dari  grayscale  dengan  lebih  grafik  facial,  animasi  yang  lebih  halus  dan
+
+mempercepat FPS.
+
+2.     Scripting
+
+Script game engine dibuat dengan mono 2.6, sebuah implementasi open-
+
+source dari .NET framework. Programmer dapat menggunakan Unity script 
+
+(bahasa terkustomisasi yang terinspirasi  dari  sintax ECMAscript,  dalam bentuk
+
+javascript), C#, atau Boo (terinspirasi dari  sintax  bahasa pemrograman  phyton).
+
+Dimulai dengan dirilisnya versi 3.0, Unity menyertakan versi monodevelop yang
+
+terkustomisasi untuk debug script.
+
+3.      Asset Tracking
+
+Unity  juga  menyertakan  server  Unity asset –  sebuah  solusi  terkontrol
+
+untuk defeloper game asset dan script. Server tersebut menggunakan postgreSQL
+
+sebagai  backend,  sistem  audio  dibuat  menggunakan  FMOD  library (dengan
+
+kemampuan  untuk  memutar  ogg  vorbis compressed audio),  video  playback
+
+menggunakan theora codec, engine daratan dan vegetasi (dimana mensuport tree
+
+billboarding,  occlusion culling dengan umbra),  built-in lightmapping dan global
+
+illumination dengan  beast, multiplayer  networking  menggunakan  raknet,  dan
+
+navigasi mesh pencari jalur built-in.
+
+4.      Platforms
+
+Unity support pengembangan  ke  berbagai  plaform.  Didalam  project,
+
+developer memiliki kontrol untuk mengirim keperangkat Mobile, Web Browser,
+
+Desktop dan Console. Unity juga mengijinkan spesifikasi kompresi tekstur dan
+
+pengaturan resolusi di setiap platform yang didukung.
+
+Saat  ini  platform yang didukung adalah Blackberry 10,  Windows 8,  Windows
+
+Phone 8, Windows, Mac, Linux, Android, IOS, Unity Web Player, Adobe Flash,
+
+Playstation 3, Cbox 360, Wii U dan Wii.
+
+5.     Asset Store
+
+Diluncurkan November 2010, Unity  asset store adalah sebuah  resource
+
+yang hadir di Unity editor.  Asset store terdiri dari koleksi lebih dari 4,400 asset
+
+
+
+18
+
+packages, beserta 3D model, tekstur dan material, sistem partikel, musik dan efek
+
+suara, tutorial dan project, scripting package, editor extensions dan servis online.
+
+6.     Physics
+
+Unity  juga  memiliki  suport  built-in untuk  physX physics  engine (sejak
+
+Unity 3.0) dari nvidia (sebelumnya ageia) dengan penambahan kemampuan untuk
+
+simulasi  real-time cloth pada  arbitrary dan  skinned meshes, thick ray cast,  dan
+
+collision layers.
+
+2.9 Kajian Terkait 
+
+Berikut  beberapa penelitian-penelitian sebelumnya yang telah dilakukan
+
+yaitu  Caroline,  Yunita  (2016)  yang  melakukan  penelitian  mengenai  rancang
+
+bangun film animasi  3D Universitas  Sam Ratulangi.  Dalam Tahap pembuatan
+
+animasi 3D berikut terdapat 3 tahap utama yaitu pra produksi, produksi, dan pasca
+
+produksi. Pada tahap pra produksi, langkah pertama yaitu penentuan ide dan tema,
+
+selanjutnya proses pengumpulan data, kemudian pembuatan storyboard/rancangan
+
+alur cerita. Setelah pra produksi, masuk pada tahap produksi, terdapat 5 proses,
+
+modeling,  texturing,  compositing  object,  animating,  rendering.  Tahap  terakhir
+
+yaitu pasca produksi. Diawali dengan compositing, dapat berupa rekaman suara
+
+atau musik, final editing, rendering, hingga film animasi.
+
+Selanjutnya  Yandaka  (2017)  yang  melakukan  penelitian  mengenai
+
+pembuatan game balap kucing dengan unity berbasis Android. Pembuatan game
+
+bertema balap lari kucing yang dilakukan dengan game engine Unity didukung
+
+aplikasi Blender 3D. Game ini dibuat untuk platform Android. Dalam skripsi ini,
+
+dijelaskan langkah-langkah pembuatan game tersebut dan penjabaran script-script
+
+yang digunakan di dalam game.  Game yang dibuat memiliki fitur  save dan load
+
+untuk  menyimpan  dan  membaca  data  permainan  pemain.  Skripsi  ini  juga
+
+mengandung cara memindahkan data dari satu  scene  ke  scene lain dalam Unity
+
+sehingga memungkinkan untuk membangun game dengan banyak scene.
+
+Kemudian Rompas, Marfil Fialli (2016) melakukan penelitian pembuatan
+
+animasi  3D  dari  model  gedung  Fakultas  Teknik  Universitas  Sam  Ratulangi.
+
+Animasi ini menggunakan teknik  tracking camera.  Tracking camera merupakan
+
+cara untuk melihat dari model 3D yang dibuat dengan pandangan camera yang
+
+
+
+19
+
+berjalan sendiri. Model 3D diambil dari sample gedung Fakultas Teknik Unsrat
+
+yang akan dibuat model 3D. Kemudian diberi texture serta mengatur lighting dan
+
+digabungkan dengan teknik tracking camera setelah itu dirender.
+
+Zuryana, Yul Hendra (2016) melakukan penelitian untuk implementasikan
+
+animasi  3D   Universitas  Almuslim  khususnya  gedung  Biro  Rektor  untuk
+
+membantu mahasiswa atau pihak-pihak lainnya mengenali dan mengetahui letak
+
+gedung Biro Rektor melalui sistem yang akan dibuat. Animasi 3D gedung Biro
+
+Rektor dibuat dengan tampilan yang menarik, mudah digunakan dan  user dapat
+
+berinteraksi langsung dengan sistem.
+
+
+
+BAB III
+
+METODOLOGI PENELITIAN DAN PERANCANGAN APLIKASI 
+
+ 
+
+3.1   Metodologi Penelitian 
+
+3.1.1  Data Penelitian 
+
+ Data yang dikumpulkan untuk menunjang penelitian ini adalah data yang
+
+berupa informasi mengenai tata letak area gedung-gedung Untan, seperti foto-foto
+
+bangunan  asli  serta  denah-denah  bangunan  yang  ada  di  Untan,.  Hal  ini  akan
+
+mempermudah  untuk  proses  pembuatan  3d  model  yang  dilakukan  di  dalam
+
+sebuah aplikasi Blender 3d.
+
+3.1.2    Alat yang Dipergunakan 
+
+3.1.2.1    Alat Penelitian 
+
+ Alat penelitian yang digunakan dalam penelitian ini adalah Storyboard.
+
+Storyboard, digunakan untuk menggambarkan urutan alur cerita dari penggunaan
+
+aplikasi  dan objek-objek multimedia yang digunakan dalam aplikasi  penelitian
+
+ini. Dengan adanya  storyboard  proses pembuatan aplikasi ini akan lebih teratur
+
+serta mendapatkan gambaran tampilan desain antar muka aplikasi yang akan di
+
+buat.
+
+3.1.2.2    Perangkat Keras 
+
+Perangkat keras yang digunakan dalam proses pembuatan aplikasi pada 
+
+penelitian ini adalah:  
+
+a. 1  unit  laptop  ASUS  ROG  Convertible dengan  spesifikasi  berupa
+
+Processor  Intel  Core  i7  ,  hardisk  2 TB,  dan  RAM 8 GB.  Laptop  ini
+
+digunakan  sebagai  hardware  utama  dalam  pembuatan  aplikasi,  karena
+
+pada laptop ini semua proses pembuatan aplikasi dilakukan. Disarankan
+
+minimal RAM 4 GB untuk melakukan pembuatan aplikasi serupa. 
+
+20
+
+
+
+b. 1  unit  Kamera  Canon  200D  digunakan  untuk  melakukan  pemotretan
+
+gedung-gedung  dan  area  sekitaran  Untan,,  bertujuan  untuk  acuan
+
+pembuatan 3D model.
+
+21
+
+
+
+21
+
+3.1.2.3     Perangkat Lunak 
+
+Perangkat lunak yang digunakan dalam proses pembuatan aplikasi pada
+
+penelitian ini adalah: 
+
+1. Sistem Operasi Windows 10 home 64 bit, sebagai sistem operasional pada
+
+laptop yang digunakan dalam membuat aplikasi. 
+
+2. Adobe After Effects CS 6, sebagai  software  atau perangkat lunak utama
+
+untuk membuat dan mengedit tampilan tekstur di dalam animasi. 
+
+3. Blender 3D  2.71, sebagai  software  yang  digunakan  untuk  pembuatan
+
+model-model 3D seperti bangunan, pohon-pohon & jalan. 
+
+4. Unity 3D 2018,  sebagai  software  yang  digunakan  untuk  beberapa  hal
+
+sebagai berikut :
+
+a. Import 3D model dari Blender ke Unity.
+
+b. Melakukan penggabungan objek-objek 3D menjadi satu bagian dan di
+
+susun sesuai rancangan storyboard.
+
+c. Menambahkan fungsi navigasi car controller.
+
+d. Launching aplikasi kedalam bentuk format apk, agar dapat diinstall ke
+
+dalam Android.
+
+5. 3D Exchange, sebagai  software yang digunakan untuk mengubah format
+
+3d model ke dalam bentuk format tertentu agar memudah kan eksport file
+
+dari Blender ke Unity. 
+
+3.1.3     Metode Penelitian 
+
+Langkah-langkah penelitian yang dilakukan dalam proses pembuatan 
+
+aplikasi ini sebagai berikut:
+
+ a. Studi Literatur 
+
+Studi  literatur  dilakukan  untuk  mempelajari  sumber-sumber  yang
+
+berhubungan pada masalah yang terkait dengan penelitian ini dan mencari
+
+teori-teori  pendukung  yang  dapat  dijadikan  sebagai  referensi  dalam
+
+mencapai  pendekatan  secara teoritis.  seperti  tentang konsep pembuatan
+
+
+
+22
+
+car  controller pembuatan  3d  model  dan  lain  sebagainya  yang  dapat
+
+bersumber dari buku, karya ilmiah, artikel atau sumber informasi lainnya. 
+
+b. Analisis
+
+Kebutuhan  Melakukan  analisis  kebutuhan  data  dan  informasi  yang
+
+diperlukan  dalam membuat  aplikasi  menjelajah  area  Untan  3D disertai
+
+navigasi  car  controller  ini.  Analisis  kebutuhan  dilakukan  untuk
+
+mempelajari  kebutuhan  pengguna  untuk  mengetahui  akan  seperti  apa
+
+aplikasi yang akan dibuat. 
+
+c. Pengumpulan
+
+Tahapan  ini  dilakukan  untuk  memperoleh  data-data  yang  berhubungan
+
+dengan  aplikasi  yang  akan  dirancang.  Data  yang  dikumpulkan  untuk
+
+menunjang  penelitian  ini  adalah  informasi  mengenai  tata  letak  area
+
+gedung-gedung Untan, seperti foto dan denah-denah bangunan yang ada
+
+di Untan,  storyboard  dan hal-hal yang berkaitan dengan aplikasi   yang
+
+dapat  diperoleh  dari  berbagai  sumber  baik  melalui  buku,  website,  atau
+
+sumber informasi lainnya.  
+
+d. Perancangan
+
+Tahap  ini  melakukan  konsep  perancangan  aplikasi  yang  meliputi
+
+perancangan  storyboard.  Storyboard adalah visualisasi  ide  dari  aplikasi
+
+yang akan dibangun, sehingga dapat memberikan gambaran dari aplikasi
+
+yang  akan  dihasilkan.  Dengan   Storyboard  proses  pembuatan  aplikasi
+
+menjelajah area Untan 3D ini akan lebih mudah karena bisa memberikan
+
+gambaran tata letak button dan scene yang akan dibuat.
+
+e. Pembuatan Aplikasi  
+
+Tahap  ini  melakukan  pembuatan  antarmuka  dan  pemrograman  pada
+
+aplikasi berdasarkan perancangan yang telah dibuat sebelumnya dengan
+
+menggunakan software Blender dan Unity.
+
+f. Pengujian Aplikasi 
+
+
+
+23
+
+Untuk  mengetahui  kinerja  dari  aplikasi  yang  telah  dirancang  perlu
+
+dilakukan  suatu  pengujian.  Pengujian  yang dilakukan  pada  aplikasi  ini
+
+adalah pengujian kuisioner. 
+
+g. Analisis Hasil Pengujian  
+
+Analisis hasil pengujian dilakukan untuk mengetahui apakah aplikasi yang
+
+dibuat  telah  memenuhi  kebutuhan  dan menghasilkan  hasil  yang  sesuai
+
+dengan rancangan aplikasi sehingga jika masih terdapat kekurangan dapat
+
+dilakukan pengecekkan kembali pada proses sebelumnya. 
+
+h. Penarikan Kesimpulan  
+
+Kesimpulan  dirumuskan  berdasarkan  analisis  hasil  pengujian  aplikasi
+
+yang telah dilakukan, apakah aplikasi sudah sesuai dengan tujuan yang
+
+ingin dicapai dalam penelitian.
+
+Diagram alir  mengenai  metode penelitian  ini  dapat  dilihat  pada
+
+gambar 3.1 berikut ini. 
+
+ 
+
+Gambar 3.1 Diagram Alir Penelitian 
+
+
+
+24
+
+3.2 Perancangan Aplikasi 
+
+Pada  penelitian  ini  perancangan  aplikasi  yang  digunakan  berupa
+
+perancangan storyboard. Berikut perancangannya :
+
+Tabel 3.1 Storyboard aplikasi
+
+No Deskripsi Visual Ket
+
+1. Scene menu  utama  terdapat  3
+
+button pilihan, yaitu :
+
+1. Button  Start,  untuk  masuk
+
+kedalam  scene pemilihan
+
+lokasi tujuan.
+
+2. Button  Option,  untuk  melihat
+
+panduan penggunaan aplikasi,
+
+berupa  penjelasan  button-
+
+button yang ada.
+
+3. Button Exit,  untuk keluar dari
+
+dalam aplikasi.
+
+SM
+
+2. Scene  pilihan  lokasi  tujuan.
+
+Fungsi  dari  scene ini  agar
+
+pengguna  mendapat  informasi
+
+petunjuk arah tujuan di minimap
+
+aplikasi.  Scene ini  terdapat
+
+beberapa  button  nama  lokasi
+
+tujuan seperti berikut :
+
+1. Button Teknik
+
+2. Button Mipa
+
+3. Button  Konferensi
+
+4. Button  Pertanian
+
+5. Button  Fkip
+
+6. Button  UPT Bahasa
+
+7. Button  Fisip
+
+ST
+
+1
+
+3
+
+2
+
+Background Gambar
+
+Background Gambar
+
+1 2 3
+
+654
+
+7 8 9
+
+121110
+
+151413
+
+
+
+25
+
+8. Button  FEB
+
+9. Button  Rektorat
+
+10. Button  Hukum
+
+11. Button  Farmasi
+
+12. Button  Puskom
+
+13. Button  Kehutanan
+
+14. Button  Kedokteran
+
+15. Button  Baak
+
+3. Scene  Loading,  scene ini  akan
+
+tampill  setelah  kita  memilih
+
+button tujuan.  Scene merupakan
+
+perantara  sebelum  masuk  ke
+
+scene  utama  /  scene mulai
+
+simulasi.  Didalam  scene  hanya
+
+menampilkan  loading  bar tidak
+
+terdapat button.
+
+SL
+
+4. Scene  Utama /  scene  menjelajah
+
+area Untan 3D. Didalam scene ini
+
+kita sudah masuk kedalam tujuan
+
+utama  aplikasi  yaitu  simulasi
+
+menjelajah  area  Untan  dalam
+
+tampilan  3D.  Scene  ini  akan
+
+menempatkan  posisi  awal  mobil
+
+di area masuk tugu bambu Untan.
+
+Scene ini  terdapat  banyak  button
+
+penting  yang  tujuannya  lebih
+
+mempermudah  kita  mengenal
+
+area Untan. Berikut button-button
+
+di dalamnya :
+
+1. Button keluar
+
+2. Button untuk mengulang posisi
+
+SU
+
+Loading Bar
+
+Background Gambar
+
+10
+6
+
+9
+
+5
+
+41
+
+1
+
+87
+
+3 2 1
+
+Simulasi Menjelajah 3D
+
+
+
+26
+
+awal mobil.
+
+3. Button  info  berisi  panduan
+
+penggunaan aplikasi.
+
+4. Button untuk pindah ke  scene
+
+pilihan lokasi tujuan.
+
+5. Button untuk  mengubah  view
+
+kamera.
+
+6. Button untuk  membunyikan
+
+klakson mobil.
+
+7. Button stir  mobil,  untuk
+
+mengarahkan  mobil  ke  arah
+
+kiri dan kanan.
+
+8. Button rem mobil.
+
+9. Button gas  mobil,  untuk
+
+menjalankan mobil.
+
+10. Button memindahkan  gigi
+
+mobil ke depan dan belakang.
+
+11. Mini  map,  berfungsi  untuk
+
+mempermudah  pengguna
+
+mengetahui  lokasi  keberadaan
+
+saat  menjelajah.  Mini map ini
+
+sendiri  juga  bisa  diklik  untuk
+
+menampilkan  scene pindah ke
+
+lokasi  tujuan  tanpa  harus
+
+menjelajah dari posisi awal.
+
+5. Panel  pindah  lokasi,  panel  ini
+
+muncul  ketika  kita  mengklik
+
+minimap  yang  ada  dalam  scene
+
+menjelajah  area Untan.  Panel ini
+
+berisi  nama-nama  lokasi  yang
+
+bisa dituju. Berikut  button-button
+
+SP
+
+Background Gambar
+
+1
+
+1
+
+9
+
+1
+1
+
+1
+
+11
+
+8
+
+7
+
+2
+
+543 6
+
+
+
+27
+
+panel pindah lokasi di mini map :
+
+1. Button Pertanian
+
+2. Button Teknik
+
+3. Button Fisip
+
+4. Button Hukum
+
+5. Button Farmasi/Rumkit Untan
+
+6. Button Kedokteran
+
+7. Button Ekonomi  dan  Bisnis
+
+(FEB)
+
+8. Button Kehutanan
+
+9. Button Upt Bahasa
+
+10.  Button Puskom
+
+11.  Button Mipa
+
+12.  Button Fkip
+
+13.  Button Baak
+
+14.  Button Rektorat
+
+15.  Button Konferensi
+
+6. Scene Info,  scene ini  muncul
+
+ketika  kita  mengklik  button info
+
+pada  pojok  kanan  atas  di  dalam
+
+scene simulasi  menjelajah  dalam
+
+aplikasi.  Scene info  ini  sama
+
+dengan  scene  option yang
+
+berisikan  panduan  petunjuk
+
+pengguna.  Di  dalam  scene info
+
+terdapat satu  button, yaitu  button
+
+keluar.
+
+1. Button keluar
+
+2. Panduan pengguna
+
+SI
+
+Keterangan : 
+
+SM = Scene Utama
+
+Background Gambar
+
+1
+
+2
+
+
+
+28
+
+ST = Scene Titik Lokasi
+
+SL = Scene Loading Bar
+
+SU = Scene Utama / Scene Simulasi Menjelajah
+
+SP = Scene Pindah Lokasi
+
+SI = Scene Info
+
+3.3   Pembuatan Aplikasi 
+
+Tahapan selanjutnya setelah melakukan perancangan maka akan menuju
+
+tahap pembuatan aplikasi. Dalam tahapan ini, akan dilakukan pembuatan aplikasi
+
+berdasarkan urutan proses pembuatan aplikasi sebagai berikut :
+
+3.3.1  Pembuatan 3D Model
+
+ Proses  pembuatan  3d  model  dilakukan  di  dalam aplikasi  Blender.  3d
+
+model  yang  dimaksud  disini  yaitu  seperti  animasi  gedung-gedung,  jalan  raya,
+
+tanaman  dan  lain  sebagainya.  3d  model  yang  terdapat  di  dalam  aplikasi  ini
+
+merupakan permodelan dari bentuk  low poly 3d, tujuannya agar size apk tidak
+
+terlalu besar. maksud dari low poly itu sendiri merupakan pengurangan garis-garis
+
+pembentuk 3d model. Contoh animasi  low poly  seperti kita ingin membuat bola
+
+yang bulat apabila dibentuk dengan cara low poly bola yang dihasilkan tidak akan
+
+benar-benar bulat. Berikut tampilan animasi low poly  dapat dilihat pada gambar
+
+3.1
+
+Gambar 3.2 Tampilan Animasi Low-Poly & High Poly
+
+
+
+29
+
+Sebelum  melakukan  proses  pembuatan  3d  model  kita  harus  terlebih
+
+dahulu  mengenal  tools dasar  dari  aplikasi  Blender  itu  sendiri.  Tampilan  awal
+
+pada aplikasi Blender 3d akan terdapat satu buah kubus yang terletak pada garis
+
+tengah yang disertai kamera dan lampu. Berikut tampilan awal aplikasi Blender
+
+dapat dilihat pada gambar 3.2 di bawah ini. 
+
+Gambar 3.3 Tampilan Awal Aplikasi Blender 3D
+
+Gambar di atas yang memiliki keterangan angka 1 merupakan bentuk dari
+
+kamera pada aplikasi Blender,  angka 2 merupakan 3d model kubus dan angka 3
+
+adalah lampu untuk pencahayaan utama animasi. Agar lebih mudah menggerakan
+
+navigasi  pada aplikasi  Blender  sebaiknya menggunakan  mouse.  Perintah dasar
+
+Blender  juga  bisa  dijalankan  dengan  cara  menekan  numped  pada  keyboard.
+
+Berikut numped yang bisa difungsikan pada aplikasi Blender:
+
+1. Numped  1,  animasi  akan  tampak  dari  bagian  depan.  Berikut  tampilan
+
+fullscreen apabila kita menekan numped 1 pada keyboard
+
+
+
+30
+
+Gambar 3.4 Tampilan Numped 1
+
+2. Numped  3,  animasi  akan  tampak  dari  bagian  samping  kiri.  Sedangkan
+
+ctrl+numped  3  animasi  akan  tampak  samping  kanan.  Berikut  tampilan
+
+fullscreen apabila kita menekan numped 3 pada keyboard
+
+Gambar 3.5 Tampilan Numped 3
+
+3. Numped 7, animasi akan tampak dari bagian atas. Sedangkan ctrl+numped
+
+7 animasi akan tampak dari  bawah. Berikut tampilan  fullscreen apabila
+
+kita menekan numped 7 pada keyboard
+
+
+
+31
+
+Gambar 3.6 Tampilan Numped 7
+
+4. Numped  0,  animasi  akan  tampak  dari  bagian  view kamera.  Berikut
+
+tampilan fullscreen apabila kita menekan numped 0 pada keyboard.
+
+Gambar 3.7 Tampilan Numped 0
+
+5. TAP,  berfungsi  untuk mengubah antara  edit  mode ke  object  mode  dan
+
+sebaliknya.
+
+6. A, berfungsi untuk menyeleksi semua objek 3d yang ada.
+
+
+
+32
+
+7. B,  berfungsi  untuk  menyeleksi  banyak  objek  menggunakan  Windows
+
+drag.
+
+8. M, berfungsi untuk memindahkan objek ke layer lain.
+
+9. G, berfungsi untuk memindahkan objek mengikuti gerakkan mouse.
+
+10. G + X, Y atau Z berfungsi untuk memindahkan objek searah kordinat x, y
+
+atau z.
+
+11. R, berfungsi untuk merotasi objek.
+
+12. R + X, Y atau Z berfungsi untuk merotasi objek searah kordinat x, y atau
+
+z.
+
+13. S, berfungsi untuk mengatur skala ukuran sebuah objek.
+
+14. S + X, Y atau Z berfungsi untuk mengatur skala ukuran objek mengikuti
+
+kordinat x, y atau z.
+
+15. X, berfungsi untuk menghapus objek.
+
+16. Ctrl + J, berfungsi untuk menggabungkan objek.
+
+17. Shift + A, berfungsi untuk menambahkan objek baru.
+
+18. I, berfungsi sebagai pembentuk garis di dalam bagian mesh yang diseleksi
+
+19. Ctrl  + R, berfungsi untuk menambah garis  baru pada  mesh  pada objek
+
+mode.
+
+20. V,  berfungsi  untuk  memisahkan  mesh yang  tergabung  pada  edit  mode
+
+menjadi mesh baru.
+
+21. Ctrl  +  G,  berfungsi  untuk  menggabungkan  objek  yang  sudah  seleksi
+
+menjadi grub baru.
+
+22. K, berfungsi untuk membuat garis pada bagian mesh yang terseleksi pada
+
+edit mode.
+
+23. Shift + D, berfungsi untuk menggandakan objek yang di pilih.
+
+24. Ctrl + S, berfungsi untuk menyimpan file animasi.
+
+25. Shift + S, berfungsi untuk mengubah menjadi tampilan render.
+
+26. Mouse
+
+a. Klik kanan, berfungsi untuk mengubah atau menyeleksi objek.
+
+b. Klik kiri, berfungsi untuk memindahkan origin atau 3d kursor.
+
+
+
+33
+
+c. Scrool, berfungsi untuk memperbesar atau memperkecil tampilan bisa
+
+juga  diganti  dengan  “+  dan  –“,  untuk  merotasi  tampilan  klik  dan
+
+tahan scrool pada mouse kemudian rotasikan.
+
+27. Edit Mode
+
+a. M, berfungsi sebagai mirror.
+
+b. P, berfungsi untuk memisahkan vertices dengan objek.
+
+c. E, berfungsi untuk menarik atau menambahkan  vertices  yang telah
+
+dipilih.
+
+d. J, berfungsi untuk menggabungkan objek.
+
+Setelah  mengetahui  fungsi-fungsi  dasar  di  atas  kita  bisa  langsung
+
+melakukan proses pembuatan 3d model salah satu bangunan yang ada di Untan.
+
+Disini saya akan mencontohkan pembuatan gedung Informatika Untan. Setelah
+
+aplikasi  terbuka  silahkan  klik  kanan  untuk  melakukan  seleksi  pada  kubus.
+
+Apabila kita tidak membutuhkan kubus yang tersedia di tampilan awal kita bisa
+
+langsung  menghapusnya  dengan  menekan  x,  tapi  disini  karena  kita  membuat
+
+gedung dengan kubus jadi tidak perlu kita hapus. Pertama seleksi terlebih dahulu
+
+kubus  yang  ada  dengan  mengklik  kanan  pada  mouse seperti  pada  gambar  di
+
+bawah ini.
+
+Gambar 3.8 Tampilan Seleksi Kubus
+
+
+
+34
+
+Setelah  melakukan  seleksi  pada  kubus  yang  terdapat  pada  tampilan  awal
+
+selanjutnya kita mengubah tampilan dari  objek mode ke edit  mode untuk bisa
+
+membentuk 3d model kubus menjadi bangunan. Berikut tampilan cara mengubah
+
+objek mode menjadi edit mode pada gambar di bawah ini.
+
+Gambar 3.9 Tampilan Objek Mode
+
+Ubah lah view animasi menjadi tampilan sebelah kiri dengan numped 3 kemudian
+
+numped  5  agar  kamera  tidak  perspektif.  Tekan  S  +  X  untuk  memanjangkan
+
+kearah  kordinat  x.  Berikut  tampilan  cara  mengubah  view dan  memanjangkan
+
+animasi  pada gambar dibawah ini.
+
+
+
+35
+
+Gambar 3.10 Tampilan Edit Mode
+
+Kubus diatas sebagai dinding gedung Informatika Untan. Selanjutnya kita bisa
+
+menambahkan jendela gedung dengan menekan Shift  + A untuk memasukkan
+
+kubus baru seperti gambar di bawah ini.
+
+Gambar 3.11 Tampilan Menambahkan Cube
+
+Setelah menambahkan kubus baru, kita bisa langsung membentuk nya menjadi
+
+persegi panjang yang pipih seperti cara sebelumnya. Kemudian seleksi salah satu
+
+bagian mesh yang ada pada kubus dan tekan I pada keyboard untuk membentuk
+
+
+
+36
+
+garis baru pada mesh sehingga kubus terlihat memiliki bingkai dan tekan E agar
+
+mesh nya terlihat masuk kedalam. 
+
+Gambar 3.12 Tampilan Jendela Gedung
+
+Mesh yang diseleksi bisa kita buat beda warna nya dengan  mesh yang tidak di
+
+seleksi. Pertama masuk ke dalam bagian material  di sebelah kanan lalu klik +
+
+untuk membuat warna atau material baru. Kita buat 2 warna, hitam dan putih agar
+
+terlihat seperti kaca dan bingkai jendela. Setelah membuat 2 warna yang berbeda
+
+kita bisa klik assign untuk mengubah warna yang di bagian mesh terseleksi. 
+
+Gambar 3.13 Tampilan Penambahan Material Jendela
+
+ 
+
+
+
+37
+
+Lakukan duplikat kubus yang telah dibentuk hingga menyerupai susunan jendela
+
+di  gedung Informatika  Untan  dengan  cara  tekan  shift  +  D seperti  gambar  di
+
+bawah ini.
+
+Gambar 3.14 Tampilan Jendela yang telah diduplikat
+
+Setelah membuat bentuk 3d model jendela kita bisa langsung menggabungkannya
+
+dengan dinding yang telah dibuat dengan cara seleksi semua jendela dan tekan G
+
+pada keyboard untuk menggesernya. Perhatikan gambar di bawah ini.
+
+Gambar 3.15 Tampilan Jendela letakkan didinding
+
+
+
+38
+
+Setelah selesai meletakkan jendela pada dinding, selanjutnya kita menambahkan
+
+bagian tepi jendela dengan menyesuaikan bentuk asli dari bangunan. Disini kita
+
+membuat  objek  baru  dengan  cara  shift  +  A  kemudian  pilih  cube.  Setelah
+
+menambahkan kubus kita bisa langsung membentuk 3d model seperti gambar di
+
+bawah ini.
+
+Gambar 3.16 Tampilan Penambahan Bagian Tepi Jendela
+
+Selesai  membuat  bagian  tepi  dari  jendela,  kita  bisa  langsung menduplikat  nya
+
+sesuai  dengan  jumlah  jendela  Gedung  yang  ingin  dibuat.  Untuk  menduplikat
+
+objek kita bisa menekan Shift + D dan G untuk mengarahkannya. Dibawah ini
+
+hasil duplikat jendela.
+
+Gambar 3.17 Tampilan Melakukan Duplikat Jendela
+
+
+
+39
+
+Setelah  selesai  bagian  jendela  kita  bisa  melanjutkan  ke  bagian  atap  dari
+
+bangunan.  Proses  pembuatan  atap  juga  dengan  menggunakan  kubus  yang  di
+
+bentuk menyerupai atap. Pertama kita tekan shift + A  lalu kemudian pilih kubus.
+
+Setelah menambahkan kubus kita bisa langsung membentuk nya. Disini terlebih
+
+dahulu kita panjangkan kubus yang ada dengan cara seleksi kubus nya lalu tekan
+
+S + X untuk memanjangkan kubus ke arah kordinat sumbu x. hasil nya seperti
+
+gambar di bawah ini.
+
+Gambar 3.18 Tampilan Menambahkan Kubus Baru
+
+Setelah  membentuk  kubus  kita  langsung  masuk  ke  edit mode untuk
+
+menambahkan garis tengah. Cara menambahkan garis tengah kita tekan Ctrl + R
+
+dan klik kiri untuk melepaskan garis. Hasil nya akan seperti gambar di bawah ini.
+
+Gambar 3.19 Tampilan Menambahkan Garis Pada Kubus
+
+
+
+40
+
+Selanjutnya bentuk lah kubus sesuai atap bangunan yang ingin dibentuk. Disini
+
+kita bisa seleksi bagian atas kubus kemudian tekan S + Y + 0 untuk menyatukan
+
+sudut atas kubus di sumbu Y sehingga terlihat seperti segitiga. Kemudian bagian
+
+bawah kubus juga dibentuk dengan cara seleksi bagian bawah kubus lalu tekan S
+
++ Y + 0 dan geser mouse kea rah luar. Hasil nya akan tampak seperti gambar di
+
+bawah ini.
+
+Gambar 3.20 Tampilan 3D Model Atap
+
+Atap yang telah dibentuk selanjutnya kita tambahkan material  bewarna merah.
+
+Caranya kita masuk ke bagian material  sebelah kanan, kemudian klik + untuk
+
+menambahkan  material  baru.  Setelah  membuat  material  baru  kita  langsung
+
+mengganti warna yang ada di diffuse menjadi warna merah. Dan di bagian bawah
+
+viewport color juga kita ganti bewarna merah sehingga hasil  nya akan terlihat
+
+seperti gambar di bawah ini. 
+
+
+
+41
+
+Gambar 3.21 Tampilan Penambahan Material Warna Atap 
+
+Setelah selesai proses pembuatan atap kita bisa langsung menggeser atap ke arah
+
+dinding dengan cara tekan G lalu tempatkan posisi sambil menggerakkan mouse.
+
+Berikut tampilannya pada gambar di bawah ini.
+
+Gambar 3.22 Tampilan Menggabungkan Atap dan Dinding
+
+Proses penambahan objek lain pada 3d model sama seperti langkah-langkah di
+
+atas,  kita  bisa sesuaikan bentuk nya dengan acuan gedung yang ingin dibuat.
+
+Berikut hasil akhir penambahan objek-objek untuk gedung Informatika Untan.
+
+
+
+42
+
+Gambar 3.23 Tampilan Hasil Akhir 3D Model Gedung Informatika Untan
+
+3.3.2  Memindahkan File dari Blender ke Unity
+
+Setelah menyelesaikan proses pembuatan 3d model dari aplikasi Blender
+
+selanjutnya kita bisa langsung melakukan ekspor file dari Blender ke Unity. Disini
+
+saya menggunakan format asli dari Blender yaitu blend, jadi untuk mengekspor
+
+file Blender ke Unity kita hanya perlu melakukan penyimpanan file 3d yang sudah
+
+dibuat dari Blender dengan cara pilih file kemudian  save as. Seperti gambar di
+
+bawah ini.
+
+Gambar 3.24 Tampilan Menyimpan File Dari Blender
+
+
+
+43
+
+Setelah  kita  menyimpan  file  yang  telah  dibuat  dari  Blender  selanjutnya  kita
+
+masukkan ke Unity dengan cara klik kanan pada  asset bagian projek kemudian
+
+pilih import new asset setelah itu pilih file dengan format blend yang sudah kita
+
+simpan sebelumnya. Berikut gambar tampilannya.
+
+Gambar 3.25 Tampilan Menyimpan File Dari Blender
+
+Selanjutnya memasukkan 3d model ke Unity kita bisa memindahkan 3d model
+
+tersebut  ke  bagian  scene pada Unity  dengan  cara  klik  kanan  pada  mouse
+
+kemudian  tahan  dan  geser  ke  bagian  scene.  Berikut  tampilan  proses
+
+pemindahannya.
+
+Gambar 3.26 Tampilan Memasukkan 3D Model Ke Scene
+
+
+
+44
+
+Setelah itu kita bisa membuat bagian-bagian 3d model yang lain sesuai keperluan
+
+aplikasi. Disini saya akan menambahkan pembuatan jalan-jalan yang ada di area
+
+untan  di  Blender.  Pertama  kita  tekan  Shift  +  A  kemudian  pilih  plane  untuk
+
+memunculkan  3d  model  datar  yang  nantinya  akan  kita  bentuk  sebagai  tanah.
+
+Berikut tampilan nya.
+
+Gambar 3.27 Tampilan Menambahkan Plane Di Aplikasi Blender
+
+Setelah menambahkan plane kita masuk pada bagian edit mode dan tekan S + Y
+
+untuk  memanjangkan  plane pada  sumbu  y.  Selanjutnya  kita  lakukan  duplikat
+
+plane dengan cara tekan Shift + D untuk membuat 3d model jalan raya pada area
+
+Untan.  Plane yang sudah diduplikat selanjutnya kita bentuk sesuai keadaan jalan
+
+di area Untan. Tampilannya seperti gambar di bawah ini. 
+
+Gambar 3.28 Tampilan Plane di Edit Mode
+
+
+
+45
+
+Selanjutnya kita lakukan pewarnaan untuk membedakan antara tanah dan jalan.
+
+Cara nya masuk ke bagian material di sebelah kanan lalu seleksi plane yang ingin
+
+diwarnai  dan  ubahlah  warna  plane sesuai  yang  di  inginkan.  Berikut  gambar
+
+proses pengubahan warna plane.
+
+Gambar 3.29 Tampilan Pewarnaan Plane di Edit Mode
+
+Selanjutnya kita bisa menyesuaikan dan menduplikat  plane jalan yang ada untuk
+
+membentuk agar terlihat sama dengan keadaan asli di area Untan. Berikut hasil
+
+duplikat  plane yang telah dibentuk dengan cara Shift + D untuk duplikat dan S
+
+untuk membesarkan atau mengecilkan area plane.
+
+ Gambar 3.30 Tampilan Hasil Pembuatan 3D Model Jalan
+
+
+
+46
+
+3.3.3 Penggabungan Objek di Unity
+
+Setelah  menyelasaikan proses pembuatan  pemodelan  objek-objek 3d di
+
+Blender kita bisa langsung memasukkan objek tersebut ke dalam Unity satu per
+
+satu pada bagian scene. Proses penggabungan ini harus melalui pengamatan dan
+
+data yang ada agar terlihat sama dengan keadaan asli di area Untan. Berikut hasil
+
+penggabungan objek 3d model di Unity.
+
+Gambar 3.31 Tampilan Hasil Penggabungan 3D Model di Unity
+
+Gambar 3.32 Tampilan Hasil Akhir Penggabungan 3D Model di Unity
+
+
+
+47
+
+3.3.4  Menambahkan fungsi Car Controller
+
+Setelah  selesai  menggabungkan  objek-objek  3d  di  dalam  Unity
+
+selanjutnya  kita  menambahkan  fungsi  dari  car  controller untuk  di  gunakan
+
+sebagai navigasi di dalam aplikasi. Car controller disini di tambahkan dari asset
+
+di Unity yaitu asset realistic car controller.  Pertama kita import terlebih dahulu
+
+asset realistic car controller  melalui  asset store di dalam Unity. Kemudian kita
+
+masukkan  preveb realistic car controller  di Unity dengan cara klik kanan pada
+
+preveb  yang  diinginkan  dan  tarik  kebagian  scene. Berikut  gambar  proses
+
+penambahan preveb pada Unity. 
+
+Gambar 3.33 Penambahan Car Controller di Unity
+
+Untuk  menggantikan  mobil  3d  yang  ada  di  realistic  car  controller kita  bisa
+
+menggantinya di bagian hirarki, dengan memilih  chassis  lalu hilangkan centang
+
+chassis pada  inspector  sehingga bagian badan mobil menghilang seperti gambar
+
+berikut.
+
+Gambar 3.34 Tampilan Menghilangkan Badan Mobil Asset Car Controller
+
+
+
+48
+
+Setelah menghilangkan bagian badan mobil  dari  asset  car controller kita  bisa
+
+menambahkan badan mobil baru yang telah di buat. Untuk proses penambahan
+
+badan  mobil  baru  kita  bisa  langsung  pilih  objek   badan  mobil  yang  mau
+
+digunakan lalu klik kanan dan tarik sampai masuk ke bagian  chassis  yang ada
+
+dihirarki. Berikut gambar tampilannya.
+
+Gambar 3.35 Tampilan Menambahkan Badan Mobil Baru
+
+Setelah  menambahkan  badan  mobil  baru  kita  sudah  bisa  menjalan  kan mobil
+
+tersebut dengan  control yang ada di  keyboard. W berfungsi untuk memajukan
+
+mobil, S untuk memundurkan mobil dan A/D untuk menggerakan mobil ke arah
+
+kiri dan kanan. Untuk mengubah menjadi button yang berfungsi di android kita
+
+bisa memasukkan prevab canvas yang ada di dalam asset car controller.  Berikut
+
+di bawah ini tampilan nya.
+
+Gambar 3.36 Tampilan Canvas Untuk Menjalankan Car Controller
+
+
+
+49
+
+Setelah menambahkan preveb canvas mobil sudah siap untuk di jalan kan melalui
+
+platform  android. Preveb canvas digunakan sebagai button untuk menggerakan
+
+mobil. Setingan  box collider pada mobil sebaiknya diletakkan lebih tinggi dari
+
+setengah  tinggi  ban  mobil.  Hal  ini  dilakukan  agar  mobil  lebih  mudah  jalan
+
+apabila masuk ke area yang rendah. Berikut tampilan settingan box collider.
+
+Gam
+
+bar 3.37 Tampilan Settingan Box Collider
+
+3.3.5  Penambahan Scene
+
+Penambahan scene dapat di fungsikan  sebagai menu pembuka di dalam
+
+aplikasi. Setiap scene akan di hubungkan satu sama lainnya sehingga membentuk
+
+sistem  kerja  aplikasi.  Di  sini  kita  akan  membuat  scene menu  utama.  Proses
+
+pertama yang perlu dilakukan yaitu klik kanan pada bagian asset kemudian pilih
+
+create dan klik scene. Berikut tampilan gambar pembuatan scene baru.
+
+Gambar 3.38 Tampilan Pembuatan Scene Baru
+
+
+
+50
+
+Setelah ada scene baru kita bisa langsung membuat tampilan menu di canvas 
+
+dengan cara klik game object lalu pilih UI dan klik panel. Tampilannya seperti 
+
+gambar di bawah ini.
+
+Gambar 3.39 Tampilan Pembuatan Panel
+
+Gambar 3.40 Tampilan Panel Baru
+
+Panel yang kosong selanjutnya kita isi dengan  button. Proses pembuatan  button
+
+sama dengan pembuatan panel yaitu dengan cara klik game object kemudian pilih
+
+UI lalu klik button. Di aplikasi ini ada 3 button di bagian menu utama yaitu button
+
+start, option dan exit. Untuk melakukan duplikat button kita bisa tekan Ctrl + D.
+
+berikut di bawah ini gambar tampilan button yang sudah dibuat.
+
+
+
+51
+
+Gambar 3.41 Tampilan Button di Menu Utama
+
+Setelah  button selesai dibuat kita bisa langsung menghubungkan scene yang ada
+
+dengan cara klik pada  button yang ingin dihubungkan pada bagian  no function
+
+kita  pilih  button  function kemudian  klik  pindah  scene.  Selanjutnya  untuk
+
+menghubungkan  scene kita  bisa  menuliskan  nama  scene di  bagian  kotak
+
+penghubung seperti gambar di bawah ini.
+
+Gambar 3.42 Tampilan Proses Menghubungkan Scene
+
+
+
+52
+
+Gambar 3.43 Tampilan Proses Menuliskan Nama Scene
+
+Proses  pembuatan  scene selanjutnya  juga  sama  seperti  cara  diatas.  Untuk
+
+menempatkan lokasi start mobil kita bisa langsung menempatkan mobil di lokasi
+
+yang diinginkan tanpa harus melakukan setelan kamera karena pada asset realistic
+
+car controller kamera telah tersedia.
+
+Selanjutnya  untuk  mendapatkan  setelan  steer  yang  stabil  sebaiknya  kita  ubah
+
+bagian  script  steering  wheel  menjadi  maximum steering  angle 50  dan  wheel
+
+released speed 100. Berikut gambar hasil setelan script steering wheel .
+
+Gambar 3.44 Tampilan Setelan Script Steering Wheel
+
+
+
+53
+
+3.3.6  Launching Menjadi APK
+
+Untuk  menjadikan  file format  apk  di  unity kita  harus  memasukkan  2
+
+element android yaitu SDK dan JDK di dalam unity. Cara memasukkannya kita
+
+klik edit kemudian pilih preferences seperti gambar berikut ini.
+
+Gambar 3.45 Tampilan Masuk Preferences
+
+Setelah  masuk  di  bagian  preferences kita  pilih  bagian  external  tools lalu
+
+masukkan  file SDK dan JDK, apabila belum ada kita bisa langsung klik bagian
+
+download.
+
+Gambar 3.46 Tampilan Memasukkan SDK dan JDK
+
+
+
+54
+
+Setelah selesai memasukkan sdk dan jdk kita bisa langsung menjadikan aplikasi
+
+format  apk  dengan  cara  klik  file  lalu  pilih  build  setting.  Selanjutnya  kita
+
+masukkan  scene ke bagian  scenes in  build  dan pilih  platform android.  Setelah
+
+selesai kita bisa langsung klik build untuk  launching aplikasi. Berikut tampilan
+
+proses build aplikasi.
+
+Gambar 3.47 Tampilan Memasukkan Scene ke Scenes In Build
+
+Gambar 3.48 Tampilan Build/Launching Aplikasi
+
+
+
+55
+
+3.4 Pengujian dan Validasi Aplikasi 
+
+Animasi 3D gedung Untan beserta navigasi car controler ini akan diuji
+
+menggunakan  kuisioner,  yaitu  membagikan  beberapa  pertanyaan  kepada
+
+mahasiswa  Untan.  Akan  ada  6  pertanyaan  dan  dibagikan  kepada  10  orang
+
+mahasiswa. Jumlah skor tertinggi untuk setiap pernyataan yaitu = 5 x 10 = 50.
+
+Sedangkan jumlah skor terendah yaitu = 1 x 10 = 10. Untuk menentukan kategori
+
+diperlukan interval terlebih dahulu. Dengan rumus :
+
+ 
+
+I = Interval 
+
+R = Skor Tertinggi - Skor Terendah 
+
+K = Banyaknya (n) Kategori 
+
+Skor akan dibagi kedalam 5 kategori dengan menggunakan skala Likert yaitu : 
+
+1.       Skor 5 untuk kategori jawaban sangat setuju. 
+
+2.       Skor 4 untuk kategori jawaban setuju. 
+
+3.       Skor 3 untuk kategori jawaban netral. 
+
+4.       Skor 2 untuk kategori jawaban tidak setuju. 
+
+5.       Skor 1 untuk kategori jawaban sangat tidak setuju. 
+
+Tabel 3.2 Bobot dan Kategori
+
+BOBOT KATEGORI
+
+10-14,5 Sangat Tidak Cukup
+
+15-19,5 Tidak Cukup
+
+20-29,5 Cukup
+
+30-39,5 Baik
+
+40-50 Sangat Baik
+
+
+
+56
+
+Berikut merupakan contoh lembaran pertanyaan yang akan dibagikan.
+
+Tabel 3.3 Pertanyaan Kuisioner 
+
+Pertanyaan SS S N TS STS
+
+Apakah  animasi  gedung  3d  untan  ini
+
+dapat  memberikan  gambaran  gedung
+
+aslinya?
+
+Apakah  dengan  adanya  car  simulator
+
+dapat  mempermudah   menjelajah  area
+
+untan?
+
+Apakah  warna  pada  animasi  sesuai
+
+warna asli gedung?
+
+Apakah  denah  gedung yang  dipakai
+
+sesuai dengan denah asli gedung?
+
+Apakah  tampilan  animasi  gedung
+
+menarik untuk digunakan?
+
+Apakah  animasi  gedung  Untan  ini
+
+mudah untuk digunakan?
+
+Keterangan:
+
+SS = Sangat Setuju
+
+S = Setuju
+
+N = Netral
+
+TS = Tidak Setuju
+
+STS = Sangat Tidak Setuju
+
+
+
+ BAB IV 
+
+HASIL DAN ANALISIS 
+
+  
+
+4.1 Implementasi Aplikasi 
+
+Aplikasi 3D menjelajah area Untan menggunakan  car controller yang
+
+telah  dibuat  ini  diimplementasikan  secara  offline pada  Android.  Aplikasi  ini
+
+dibangun dengan menggunakan software Blender 3D, Unity 3D, After Effects dan
+
+menghasilkan  file  yang  berekstensi  apk  sehingga  dapat  diimplementasikan
+
+langsung kedalam  Android.  Setelah  aplikasi  di  copy  paste pada  Android
+
+selanjutnya kita akan masuk kedalam proses instalasi sebelum mulai menjalankan
+
+aplikasi.
+
+4.2 Implementasi Antarmuka Aplikasi 
+
+4.2.1  Antarmuka Scene Screen Flash Opening 
+
+Screen flash opening merupakan tampilan antar muka yang berisikan
+
+scene opening dari aplikasi.  Screen flash akan menjadi scene pertama yang akan
+
+muncul sebelum masuk dalam  main menu. Tampilan  screen flash pada aplikasi
+
+ini berisikan judul dan logo Universitas Tanjungpura serta tema latar belakang
+
+yang  menarik.  Tampilan  screen  flash  opening dapat  dilihat  pada  Gambar  4.1
+
+berikut ini. 
+
+57
+
+
+
+58
+ 
+
+Gambar 4.1 Tampilan Scene Screen Flash Opening 
+
+4.2.2 Antarmuka Scene Menu Utama
+
+Pada  scene  menu utama ada 3 tombol menu yaitu  Button start yang
+
+berfungsi untuk menuju  scene menu penentuan lokasi titik mobil.  Button option
+
+yang  berfungsi  untuk  menuju  scene penjelasan  tentang  button yang  tersedia
+
+didalam aplikasi.  Button exit yang berfungsi  untuk keluar  dari  dalam aplikasi.
+
+Berikut tampilan scene menu utama dapat dilihat pada Gambar 4.2 berikut ini.  
+
+Gambar 4.2 Tampilan Scene Menu Utama 
+
+
+
+59
+
+4.2.3 Antarmuka Scene Petunjuk 
+
+Pada  scene  petunjuk  berisi  penjelasan  singkat  tentang  cara
+
+menggunakan  button-button yang  tersedia  di  dalam  aplikasi.  Scene  petunjuk
+
+tersebut terdapat pada scene menu utama. Di dalam scene petunjuk juga terdapat
+
+satu button aktif yaitu button back di bagian tengah bawah yang berfungsi untuk
+
+mengembalikan ke scene menu utama aplikasi.  Scene petunjuk berisi penjelasan
+
+button seperti cara menjalankan mobil 3D ke arah depan, belakang, samping kiri
+
+dan  kanan serta selain itu juga terdapat penjelasan button-button penting lainnya
+
+seperti  button pengaturan  view kamera,  button penentuan titik  lokasi &  button
+
+keluar dari aplikasi. Tampilan scene option dapat dilihat pada Gambar 4.3 berikut
+
+ini. 
+
+Gambar 4.3 Tampilan Scene Petunjuk 
+
+4.2.4 Antarmuka Scene Titik Lokasi Mobil 
+
+Pada scene titik lokasi mobil ini terdapat 15 button untuk menentukan
+
+penempatan  titik  lokasi  mobil  serta  1  button untuk  kembali  ke  menu  utama.
+
+pilihan  button titik  lokasi  mobil  diantaranya  yaitu,  button  Teknik,  button
+
+Pertanian, button Fisipol, button Hukum, button Kehutanan, button Mipa, button
+
+Fkip, button Feb, button RS. Untan, button Kedokteran, button Konferensi, button
+
+Upt  Bahasa,  button  Rektorat,  button  Puskom,  button  Baak dan button  back.
+
+Masing-masing button yang terdapat pada scene titik lokasi mobil ini jika diklik
+
+
+
+60
+ 
+
+maka akan menuju ke scene lokasi gedung yang dituju. Berikut tampilan halaman
+
+menu belajar dapat dilihat pada Gambar 4.4 berikut ini. 
+
+Gambar 4.4 Tampilan Scene Titik Lokasi Mobil
+
+4.2.5 Antarmuka Scene Loading Bar
+
+Pada  scene loading terdapat sebuah  loading bar yang berjalan.  Scene
+
+loading ini akan muncul ketika kita memilih salah satu  button di dalam  scene
+
+menentukan  titik  lokasi  mobil.  Setelah  selesai  proses  loading  bar kita  akan
+
+langsung masuk pada area simulasi menjelajah area Untan. Proses loading bar ini
+
+akan selesai  dalam waktu  beberapa  menit.  Tampilan  scene  loading  bar dapat
+
+dilihat pada gambar berikut ini. 
+
+Gambar 4.5 Tampilan Proses Scene Loading Bar
+
+
+
+61
+
+Gambar 4.6 Tampilan Proses Selesai Scene Loading Bar
+
+4.2.6 Antarmuka Scene Simulasi Menjelajah Area Untan 3D
+
+Scene ini  akan  tampil  setelah  kita  memilih  salah  satu  button yang
+
+terdapat pada  scene menentukan titik mobil. Didalam scene ini juga di lengkapi
+
+beberapa  button penting, seperti  button keluar,  button penempatan  view kamera,
+
+button kembali ke scene titik mobil, serta juga terdapat sebuah mini map di pojok
+
+kiri atas untuk memudahkan pengguna mengetahui nama gedung yang ada di area
+
+Untan.  Pada setiap tampilan  scene juga terdapat  pop up nama gedung. Setelah
+
+menentukan titik lokasi mobil yang ingin dicari kita akan masuk ke scene utama
+
+diamana mobil masih berada diposisi awal.  Berikut tampilan  scene posisi awal
+
+simulasi menjelajah area untan 3D pada gambar di bawah ini. 
+
+
+
+62
+ 
+
+Gambar 4.7 Tampilan Posisi Awal Mobil
+
+Setelah  masuk di  scene posisi  awal  mobil  kita  bisa  langsung menjelajah  area
+
+Untan dengan menekan button penggerak mobil yang tersedia di dalam aplikasi.
+
+Di bagain pojok kiri atas aplikasi juga terdapat sebuah minimap yang apabila di
+
+tekan maka akan menampilkan gambar  map  luas beserta nama lokasi. Apabila
+
+kita klik nama lokasi yang ada di  map  maka posisi titik mobil akan berpindah
+
+sesuai nama lokasi yang kita klik. Setiap lokasi yang dituju mobil akan berada
+
+pada bagian depan gerbang gedung. Berikut dibawah ini tampilan gambar map
+
+yang memiliki button nama-nama gedung.
+
+
+
+63
+
+Gambar 4.8 Tampilan Map dan Button Nama Lokasi
+
+Kita  bisa pindah lokasi  apabila  mengklik  button  nama lokasi yang tersedia di
+
+bagian  minimap.  Setiap lokasi yang dituju posisi mobil akan berada di bagian
+
+depan gerbang gedung. Berikut dibawah ini beberapa tampilan scene posisi awal
+
+titik mobil apabila kita mengklik nama-nama button di bagain minimap.
+
+Gambar 4.9 Tampilan Scene Button Teknik
+
+
+
+64
+ 
+
+Gam
+
+bar 4.10 Tampilan Scene Button Pertanian
+
+Gambar 4.11 Tampilan Scene Button Fisip
+
+Gambar 4.12 Tampilan Scene Button Hukum
+
+
+
+65
+
+Gambar 4.13 Tampilan Scene Button RS. Untan
+
+Gambar 4.14 Tampilan Scene Button Kedokteran
+
+Gambar 4.15 Tampilan Scene Button UPT Bahasa
+
+
+
+66
+ 
+
+Gambar 4.16 Tampilan Scene Button FEB
+
+Gambar 4.17 Tampilan Scene Button Rektorat
+
+Gambar 4.18 Tampilan Scene Button Konferensi
+
+
+
+67
+
+Gambar 4.19 Tampilan Scene Button Baak
+
+Gambar 4.20 Tampilan Scene Button Puskom
+
+Gambar 4.21 Tampilan Scene Button Kehutanan
+
+
+
+68
+ 
+
+Gambar 4.22 Tampilan Scene Button Fkip
+
+Gambar 4.23 Tampilan Scene Button Mipa 
+
+Gambar 4.24 Tampilan Gedung Perpustakaan Pusat
+
+
+
+69
+
+Gambar 4.25 Tampilan Gedung Laboratorium Keilmuan Dasar
+
+4.2.7 Antarmuka  Scene Penempatan View Kamera
+
+Pada  scene penempatan  view kamera  ini  akan  muncul  setelah  kita
+
+mengklik button view kamera yang terdapat didalam setiap masing-masing scene
+
+simulasi menjelajah area untan 3D. Scene ini terdapat 3 pilihan penempatan view
+
+kamera,  view pertama akan menampilkan bagian area belakang full  mobil  dan
+
+mengikuti arah pergerakan mobil, view kedua menampilkan area kap depan mobil
+
+yang seolah  pengguna merasa sedang mengendarai  mobil  3D dan  view ketiga
+
+kamera akan tampak dari depan menyoroti area ban kiri depan mobil.
+
+Pada  view kamera  1  letak  kamera  akan  berada  di  bagian  belakang
+
+mobil. View kamera 1 ini akan menjadi kamera utama ketika pertama masuk pada
+
+scene simulasi menjelajah area Untan 3D. Berikut gambar view kamera 1.
+
+Gambar 4.26 Tampilan View Kamera 1
+
+
+
+70
+ 
+
+Pada view kamera 2 posisi kamera berada bagian bawah mobil, sehingga
+
+terlihat sedang menyoroti jalan. Berikut gambar view kamera 2.
+
+Gambar 4.27 Tampilan View Kamera 2
+
+Pada view kamera 3 letak kamera akan berada pada bagian dalam mobil, sehingga
+
+pengguna  merasa  seolah  sedang  mengendarai  mobil  3D  tersebut.  Berikut
+
+tampilan view kamera 3.
+
+Gambar 4.28 Tampilan View Kamera 3
+
+
+
+71
+
+Pada  view kamera  4  letak  kamera  akan  berada  di  bagian  depan  mobil  dan
+
+menyoroti bagian ban depan sebelah kanan mobil. berikut tampilan view kamera
+
+4.
+
+Gambar 4.29 Tampilan View Kamera 4
+
+Pada  view kamera  5  letak  kamera  akan  berada  di  bagian  depan  mobil  dan
+
+pengguna bisa melakukan rotasi view 360 derajat. Kamera juga selalu mengikuti
+
+pergerakan  mobil.  dengan  view kamera  5  ini  kita  bisa  melihat  bagian  depan,
+
+samping dan belakang mobil. Berikut gambar tampilan view kamera 5.
+
+Gambar 4.30 Tampilan View Kamera 5
+
+
+
+72
+ 
+
+4.2.8 Antarmuka Tampilan Batas Area Map 
+
+Setiap batas area map akan diberikan sebuah mesh kosong agar mobil
+
+3D yang terdapat di dalam aplikasi ini tidak bisa melewati masing-masing batas
+
+map  tersebut. Selain  mesh kosong juga terdapat  3D model pembatas jalan agar
+
+pengguna mengetahui  area tersebut tidak bisa dilewati.  Di dalam aplikasi  juga
+
+terdapat beberapa pohon untuk membatasi map serta menandakan lokasi kosong
+
+sehingga pengguna tidak perlu memasuki area tersebut. Batasan area map dapat
+
+dilihat pada gambar-gambar berikut ini.  
+
+Gambar 4.31 Tampilan Batas Map Area FEB
+
+Gambar 4.32 Tampilan Batas Map Area Pertanian
+
+
+
+73
+
+Gambar 4.33 Tampilan Batas Map Area Fisip
+
+Gambar 4.34 Tampilan Batas Map Area Kehutanan
+
+Gambar 4.35 Tampilan Batas Map Area Teknik
+
+
+
+74
+ 
+
+4.3 Hasil Uji Coba dan Validasi Aplikasi 
+
+4.3.1 Hasil Uji Coba Aplikasi 
+
+Uji  coba di  lakukan di  lingkungan sekitar  area  untan dengan disertai
+
+kuisioner  dan  perhitungannya.  Kuisioner  ini  akan  di  isi  oleh  perwakilan
+
+mahasiswa  aktif  Untan  dari  beberapa  jurusan  yang  berbeda.  Akan  ada  6
+
+pertanyaan  dan  dibagikan  kepada  10 orang  mahasiswa.  Jumlah  skor  tertinggi
+
+untuk setiap pernyataan yaitu = 5 x 10 = 50. Sedangkan jumlah skor terendah
+
+yaitu  = 1 x 10 = 10.  Untuk menentukan kategori  diperlukan interval  terlebih
+
+dahulu.
+
+Skor akan dibagi kedalam 5 kategori dengan menggunakan Skala Likert yaitu : 
+
+1.       Skor 5 untuk kategori jawaban sangat setuju. 
+
+2.       Skor 4 untuk kategori jawaban setuju. 
+
+3.       Skor 3 untuk kategori jawaban netral. 
+
+4.       Skor 2 untuk kategori jawaban tidak setuju. 
+
+5.       Skor 1 untuk kategori jawaban sangat tidak setuju.
+
+Berikut rumus untuk menentukan hasil pengujian kuisioner :
+
+ 
+
+I = Interval 
+
+R = Skor Tertinggi - Skor Terendah 
+
+K = Banyaknya (n) Kategori.
+
+Bobot yang telah di siapkan sebelumnnya : 
+
+Tabel 4.1 Bobot dan Kategori Animasi 3D Menjelajah Area Untan 
+
+BOBOT KATEGORI
+
+10-14,5 Sangat Tidak Cukup
+
+15-19,5 Tidak Cukup
+
+20-29,5 Cukup
+
+30-39,5 Baik
+
+
+
+75
+
+40-50 Sangat Baik
+
+4.4 Analisis Hasil Uji Coba dan Validasi Aplikasi 
+
+Tabel 4.2 Tabel Pengujian Animasi 3D Menjelajah Area Untan 
+
+No Pernyataan Bobot Kategori
+
+1 Apakah  animasi  gedung  3d  untan  ini  dapat
+
+memberikan gambaran gedung aslinya?
+
+44 Sangat Baik
+
+2 Apakah dengan  aplikasi ini dapat mempermudah
+
+mengenal & menjelajah area untan?
+
+46 Sangat Baik
+
+3 Apakah  warna  pada  animasi  sesuai  warna  asli
+
+gedung?
+
+39 Baik
+
+4 Apakah denah gedung yang dipakai sesuai dengan
+
+denah asli gedung?
+
+45 Sangat Baik
+
+5 Apakah tampilan animasi gedung menarik untuk
+
+digunakan?
+
+42 Sangat Baik
+
+6 Apakah animasi  gedung Untan ini  mudah untuk
+
+digunakan?
+
+48 Sangat Baik
+
+Rata-rata Bobot = 264 44 Sangat Baik
+
+Tabel 4.3 Perhitungan Bobot Animasi 3D Menjelajah Area Untan
+
+Pernyataan S
+
+S
+
+S N TS STS Perhitungan Bobot Bobot Kategori
+
+1 4 6 0 0 0 4(5)+6(4)+0(3)+0(2)+0(1
+
+)
+
+44 Sangat
+
+Baik
+
+2 6 4 0 0 0 6(5)+4(4)+0(3)+0(2)+0(1
+
+)
+
+46 Sangat
+
+Baik
+
+3 2 5 3 0 0 2(5)+5(4)+3(3)+0(2)+0(1
+
+)
+
+39 Baik
+
+4 5 5 0 0 0 5(5)+5(4)+0(3)+0(2)+0(1
+
+)
+
+45 Sangat
+
+Baik
+
+5 3 6 1 0 0 3(5)+6(4)+1(3)+0(2)+0(1 42 Sangat
+
+
+
+76
+ 
+
+) Baik
+
+6 8 2 0 0 0 8(5)+2(4)+0(3)+0(2)+0(1
+
+)
+
+48 Sangat
+
+Baik
+
+4.5       Testing Aplikasi Mobile 
+
+4.5.1 Usability Testing 
+
+Usability  Testing merupakan  tahap  pengujian  untuk  mengukur
+
+keberhasilan dari aplikasi  menjelajah area Untan 3D untuk memastikan bahwa
+
+aplikasi  mobile  mudah digunakan dan memberikan  user experience yang baik
+
+untuk penggunanya. Dari kusioner sebelumnya telah didapatkan hasil sangat baik
+
+dalam  usability  Testing aplikasi  menjelajah  area  Untan  3D  ini  dengan  bobot
+
+perhitungan 48.
+
+4.5.2 Compatibility Testing
+
+Compatibility testing merupakan sebuah tahap pengujian aplikasi dengan
+
+perangkat mobile yang berbeda dengan ukuran layar yang berbeda pula serta versi
+
+OS yang sesuai dengan kebutuhan. Untuk aplikasi menjelajah area Untan 3D ini
+
+akan berjalan minimum versi OS Android 4.1 ‘Jelly Bean’ (API level 16), sesuai
+
+minimum proses build dari Unity 3D. Aplikasi menjelajah area Untan 3D ini juga
+
+akan  berjalan  dengan  lancar  di  versi  Android  di  atas  4.1  ‘Jelly  Bean’  seperti
+
+Android 4.2 ‘Jelly Bean’ (API level 17), 4.3 ‘Jelly Bean’ (API level 18), 4.4 ‘Kit
+
+Kat’ (API level 19), 5.0 ‘Lollipop’ (API level 21), 5.1 ‘Lollipop’ (API level 22),
+
+6.0 ‘Marshmallow’ (API level 23), 7.0 ‘Nougat’ (API level 24), 7.1 ‘Nougat’ (API
+
+level 25) dan seterusnya. Berikut di bawah ini hasil pengujian dari beberapa versi
+
+Android.
+
+
+
+77
+
+Gambar 4.36 Tampilan Compatibility Testing di HP OPPO A37
+
+Pada gambar 4.36 merupakan pengujian  Compatibility  Testing  pada hp
+
+oppo A37 dengan spesifikasi layar 5.0 inci, OS android 5.1 Lollipop, ram 2 GB
+
+serta CPU Quad-core 1.2 GHz Cortex-A53. Hasil pengujian aplikasi dinyatakan
+
+berjalan dengan lancar dan tampilan serta penempatan button tetap sesuai.
+
+Gambar 4.37 Tampilan Compatibility Testing di HP Vivo V5
+
+Pada gambar 4.37 merupakan pengujian  Compatibility  Testing  pada hp
+
+Vivo V5 dengan spesifikasi layar 5.5 inci, OS Android 6.0 Marshmallow, ram 4
+
+GB serta CPU Octa-core (4x1.5 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53).
+
+Hasil  pengujian aplikasi  dinyatakan berjalan  dengan lancar  dan tampilan serta
+
+penempatan button tetap sesuai.
+
+
+
+78
+ 
+
+ Gambar 4.38 Tampilan Compatibility Testing di HP Xiaomi S2
+
+Pada gambar 4.38 merupakan pengujian  Compatibility  Testing  pada hp
+
+Xiaomi S2 dengan spesifikasi layar 5.9 inci, OS Android 8.1 Oreo, ram 4 GB
+
+serta CPU Quad-core (2.0 GHz Cortex-A53). Hasil pengujian aplikasi dinyatakan
+
+berjalan dengan lancar dan tampilan serta penempatan button tetap sesuai hanya
+
+saja  button view kamera sedikit bergeser karena layer hp xiaomi s2 yang sangat
+
+lebar hingga 5.9 inci.
+
+Gambar 4.39 Tampilan Compatibility Testing HP Samsung J7 Prime
+
+Pada gambar 4.39 merupakan pengujian  Compatibility  Testing  pada hp
+
+Samsung  J7  Prime  dengan  spesifikasi  layar  5.0  inci,  OS  Android  6.0
+
+Marshhmallow,  ram 3  GB serta  CPU Octa-Core  1.6  GHz Cortex-A53.  Hasil
+
+
+
+79
+
+pengujian  aplikasi  dinyatakan  berjalan  dengan  lancar  dan  tampilan  serta
+
+penempatan button tetap sesuai.
+
+4.5.3 Interface Testing
+
+Interface testing merupakan tahap pengujian dari  aplikasi  yang dapat
+
+menghasilkan  kesimpulan  apakah  button dan  navigasi  dari  aplikasi
+
+menjelajah area Untan 3D ini sudah berjalan dengan baik. Berikut tabel di
+
+bawah  ini  hasil  pengujian  dari  interface  testing  aplikasi  menjelajah  area
+
+Untan 3D.
+
+Tabel 4.4 Interface Testing Animasi 3D Menjelajah Area Untan
+
+NO NAMA BUTTON GAMBAR BERFUNGSI TIDAK
+
+1. Keluar Ya
+
+2. Titik Mobil Ya
+
+3. View Kamera Ya
+
+4. Reload Ya
+
+5. Gas Mobil 3D Ya
+
+6. Rem Mobil 3D Ya
+
+7. Gigi Mobil Ya
+
+8. Klakson Mobil Ya
+
+9. Steer Mobil Ya
+
+
+
+BAB V
+
+PENUTUP
+
+5.1.  Kesimpulan
+
+Setelah  menyelesaikan  proses  pembuatan Animasi  3D  menjelajah  area
+
+Universitas  Tanjungpura beserta  navigasi  Car Controller berbasis  Android  ini,
+
+dapat diambil beberapa kesimpulan sebagai berikut :  
+
+1. Penelitian  ini berhasil menghasilkan aplikasi  animasi  3D  gambaran  area
+
+Universitas Tanjungpura beserta navigasi car controller berbasis android.
+
+2. Berdasarkan kuisioner  penelitian ini dapat  mempermudah  pengguna untuk
+
+mengetahui  gambaran  area  dan  tata  letak  Gedung-gedung  di  Universitas
+
+Tanjungpura dalam tampilan animasi 3D.
+
+5.2.  Saran
+
+ Setelah menyelesaikan proses  pembuatan Animasi  3D  menjelajah  area
+
+Universitas  Tanjungpura  beserta  navigasi  Car Controller berbasis  android  ini,
+
+dapat diambil beberapa saran sebagai berikut :  
+
+1. Adanya pengembangan pada penelitian selanjutnya,  diharapkan aplikasi  ini
+
+bisa  mendapatkan  tambahan  fitur-fitur  simulasi  terbaru  serta  penambahan
+
+tekstur animasi yang lebih detail.
+
+2. Melakukan  pengembangan  aplikasi  penambahan  luas  area  map  animasi
+
+Gedung-gedung yang ada di Universitas Tanjungpura.
+
+79
+
+

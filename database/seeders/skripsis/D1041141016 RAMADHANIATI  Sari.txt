@@ -1,0 +1,5272 @@
+
+BAB I
+
+PENDAHULUAN
+
+I.1 Latar Belakang
+
+Memasak adalah  suatu  kegiatan  yang dilakukan  oleh  seseorang dengan
+
+mengolah bahan makanan melalui proses penerapan panas dengan tujuan tertentu
+
+(Sudiara,  2001).  Teori  dasar  keterampilan  memasak mencakup manajemennya,
+
+pemilihan  bahan,  persiapan  bahan  sebelum  diolah,  penyimpanan  bahan,
+
+pengaturan menu, pengolahan makanan, pemanfaatan sisa makanan, pemanfaatan
+
+alat  masak,  tata  penampilan  makanan,  dan  pengaturan  tenaga  kerja.  Memasak
+
+makanan tidak sekedar mengolah paduan bahan menjadi  hidangan siap santap.
+
+Memasak makanan sebaiknya memerlukan pengetahuan praktis ilmu gizi untuk
+
+bisa  menerapkan  cara  mengolah  makanan  yang  lezat  dan  sehat.  Untuk
+
+menghasilkan  masakan lezat  dan sehat  perlu diperhatikan  (1) Pemilihan  bahan
+
+yang  berkualitas  sesuai  dengan  teori  dalam  buku  (ilmu  bahan  makanan),  (2)
+
+Pemilihan bahan yang akan diolah sesuai tujuan (bahan, porsi, rasa), (3) Persiapan
+
+dan pengolahan melalui sistem dan metode yang tepat, (4) Pemaduan rasa dari
+
+bumbu yang disesuaikan dengan tujuan memasak untuk selera tepat dan beraroma,
+
+(5) Penyajian hidangan menarik melalui seni penampilan yang bisa menggugah
+
+selera, (6) Perpaduan komposisi bahan dan bumbu yang sesuai dan tepat dengan
+
+sistem metode pengolahan yang benar (Soenardi dan Tim Yayasan Gizi Kuliner,
+
+2013).
+
+Salah  satu  masakan  yang  digemari  oleh  masyarakat  adalah  masakan
+
+nusantara.  Masakan  nusantara  memiliki  cara  pengolahan  dan  penyajian  yang
+
+berbagai macam. Masakan nusantara merupakan salah satu identitas dari Negara
+
+Kesatuan Republik Indonesia yang sangat  mudah untuk ditemukan dan mudah
+
+untuk  dikenali.  Setiap  wilayah  di  Indonesia  memiliki  kekayaan  kuliner  yang
+
+menjadi ciri khas atau identitas daerah tersebut sehingga masakan nusantara ini
+
+bervariasi.  Masakan nusantara sudah ada sejak lama dan masih bertahan hingga
+
+saat  ini  sehingga  sangat  dihargai  sebagai  warisan  budaya,  karena  masakan
+
+nusantara merupakan kumpulan-kumpulan dari masakan tradisional atau kuliner
+
+lokal oleh suatu kelompok masyarakat atau daerah. 
+
+1
+
+
+
+2
+
+Pada  umumnya  bahan  dan  bumbu  yang  digunakan  untuk  masakan
+
+nusantara  dari  salah  satu  daerah  hampir  sama dengan masakan  nusantara  dari
+
+daerah lainnya. Hanya saja terdapat sedikit perbedaan pada jumlah takaran bahan
+
+dan bumbu serta cara pengolahannya. Sehingga diperlukan resep masakan untuk
+
+dijadikan acuan dalam memasak . Resep masakan adalah takaran yang digunakan
+
+untuk  mengolah  bahan  makanan  yang  telah  teruji  ke  akuratannya  (Fitriyani,
+
+2012).  Resep  masakan  sangat  dibutuhkan  sebagai  suatu  sarana  yang  dapat
+
+menuntun pada saat mempersiapkan bahan-bahan masakan, cara pembuatan serta
+
+cara penyajian agar menghasilkan masakan dengan citra rasa yang lezat, nikmat,
+
+dan menarik. Kumpulan resep masakan yang tersedia biasanya berasal dari buku
+
+resep, koran, majalah, maupun televisi. Hal tersebut dinilai kurang efisien karena
+
+pengguna tidak dapat berinteraksi terhadap media-media tersebut.
+
+Sering  kali  seorang  pengolah  makanan  seperti  ibu  rumah  tangga  yang
+
+mencari resep memiliki kesulitan untuk menentukan menu apa yang akan dimasak
+
+dengan  bahan  masakan  yang  tersedia  di  dapur.  Seiring  dengan  perkembangan
+
+teknologi,  maka pencarian resep masakan akan lebih mudah dilakukan melalui
+
+website, karena dapat diakses dimana saja dan kapan saja juga tidak perlu diinstall
+
+pada masing-masing pengakses aplikasi. Oleh karena itu akan dibangun aplikasi
+
+berbasis website untuk memudahkan pengguna dalam melakukan pemilihan resep
+
+masakan berdasarkan bahan masakan yang tersedia di dapur pengguna. Sehingga
+
+dapat memberikan rekomendasi resep masakan apa saja yang dapat dibuat dengan
+
+meng-input-kan bahan-bahan masakan apa saja yang tersedia di dapur pengguna.
+
+Aplikasi  ini  dapat  memberikan  resep  lengkapnya  beserta  langkah-langkah
+
+memasak. 
+
+Banyaknya jumlah data resep masakan yang bervariasi, yang didapat dari
+
+berbagai sumber buku resep masakan dan situs di internet, maka memungkinkan
+
+untuk menerapkan penalaran berbasis kasus atau yang dikenal dengan Case-Based
+
+Reasoning (CBR).  Case-Based  Reasoning (CBR)  merupakan  penalaran  yang
+
+bertujuan  untuk  menyelesaikan  permasalahan  baru  dengan  cara  mengadaptasi
+
+solusi-solusi  yang  terdapat  pada  kasus-kasus  sebelumnya  yang  mempunyai
+
+permasalahan yang mirip dengan kasus yang baru.  Sumber pengetahuan utama
+
+sistem  CBR  adalah  berdasarkan  kasus-kasus  yang  telah  ada  atau  yang  telah
+
+
+
+3
+
+tersimpan didalam basis kasus (Watson, 1997).  Metode yang digunakan dalam
+
+menghitung kemiripan (similaritas) adalah  Simple Matching Coefficient  (SMC).
+
+Metode SMC ini merupakan salah satu cara perhitungan similaritas untuk data
+
+biner (Tursina, 2012).
+
+I.2 Perumusan Masalah
+
+Berdasarkan latar belakang, rumusan masalah dalam penelitian ini adalah
+
+bagaimana  membangun  aplikasi  pemilihan  resep  masakan  yang  sesuai  dengan
+
+bahan masakan yang tersedia di dapur pengguna dengan metode Simple Matching
+
+Coefficient (SMC).
+
+I.3 Tujuan Penelitian
+
+Adapun tujuan dari penelitian yang dilakukan adalah untuk mendapatkan
+
+rekomendasi  resep  masakan  yang  sesuai  dengan  ketersediaan  bahan  masakan
+
+dengan mencari tingkat kemiripan (similaritas) antara data kasus yang terkumpul
+
+(basis  kasus)  dengan  kasus  baru menggunakan  metode  Simple  Matching
+
+Coefficient (SMC).
+
+I.4 Pembatasan Masalah
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah :
+
+1. Aplikasi ini dibangun berbasis website.
+
+2. Aplikasi ini dibangun untuk memilih resep masakan nusantara.
+
+3. Aplikasi ini memiliki 2 kategori jenis masakan, yaitu jenis masakan kering
+
+dan masakan basah. 
+
+4. Aplikasi ini menampilkan rekomendasi dalam bentuk  list resep berdasarkan
+
+input-an pengguna.
+
+I.5 Sistematika Penulisan
+
+Sistematika dari penulisan tugas akhir ini disusun dalam 5 (lima) bab yang
+
+terdiri  dari  Bab  I  Pendahuluan,  Bab  II  Tinjauan  Pustaka,  Bab  III  Metodologi
+
+Penelitian, Bab IV Implementasi dan Hasil Pengujian serta Bab V Penutup.
+
+
+
+4
+
+Bab  I  Pendahuluan  adalah  bab  yang  berisi  latar  belakang,  perumusan
+
+masalah, tujuan penelitian, pembatasan masalah, dan sistematika penulisan.
+
+Bab II Tinjauan Pustaka adalah bab yang berisi uraian sistematis tentang
+
+hasil-hasil penelitian yang didapat oleh peneliti terdahulu dan landasan teori yang
+
+ada hubungannya dengan penelitian yang akan dilakukan.
+
+Bab III  Metodologi  Penelitian  adalah  bab yang berisi  tentang data  dan
+
+perangkat penelitian, metode penelitian, dan diagram alir penelitian.
+
+Bab IV Hasil dan Analisis adalah bab yang berisi tahapan pengujian, hasil
+
+pengujian dan analisis pengujian yang mengarah kepada suatu kesimpulan.
+
+Bab V Penutup adalah bab yang berisi kesimpulan dari  penelitian telah
+
+dilakukan  dan  saran/rekomendasi  untuk  perbaikan,  pengembangan  atau
+
+kesempurnaan / kelengkapan penelitian yang telah dilakukan.
+
+
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1 Kajian Terkait
+
+Beberapa  penelitian  terdahulu  yang  telah  melakukan  penelitian  tentang
+
+rekomendasi  resep  masakan  dan  Case  Based  Reasoning diantaranya  sebagai
+
+berikut:
+
+Salsabella (2014) melakukan penelitian dengan judul  “Sistem Pendukung
+
+Keputusan Penentuan Resep Masakan Berdasarkan Ketersediaan Bahan Makanan
+
+Menggunakan Metode  Simple Additive Weighting (SAW) Berbasis  Web”. Hasil
+
+penelitiannya yaitu  berupa aplikasi  yang dapat  digunakan untuk mencari  resep
+
+masakan  secara  online.  Pengguna  akan  memasukkan  bahan  makanan,  bumbu
+
+masakan, waktu memasak, jenis masakan dan cara memasak serta memasukkan
+
+tingkat  kesulitan  resep masakan yang diinginkan pengguna(pemula  /  beginner,
+
+menengah  /  intermediate,  ahli  /  expert).  Dari  hasil  pemasukan  data  tersebut,
+
+aplikasi akan menentukan resep masakan yang cocok sesuai keinginan pengguna.
+
+Kriteria yang dijadikan sebagai bahan perhitungan pada proses perankingan yaitu
+
+bahan  makanan,  bumbu  masakan,  tingkat  kesulitan,  waktu  memasak,  jenis
+
+masakan, dan cara memasak.
+
+Tursina  (2014)  melakukan  penelitian  yang  menggunakan  Penalaran
+
+Berbasis Kasus atau disebut dengan  Case Based Reasoning (CBR)  dengan judul
+
+“ Case Based Reasoning Untuk Menentukan Daerah Berpotensi Demam Berdarah
+
+(Studi Kasus Kota Pontianak)  ”.  Hasil penelitiannya yaitu berupa sebuah sistem
+
+yang dapat menentukan daerah berpotensi demam berdarah menggunakan metode
+
+Simple  Matching Coefficient  (SMC) untuk menghitung kemiripan (similaritas),
+
+sehingga menghasilkan keluaran berupa status tingkat kerawanan : tidak rawan,
+
+rawan,  dan  sangat  rawan.  Fitur-fitur  yang  digunakan  yaitu  curah  hujan,  suhu
+
+udara,  kelembapan  udara,  kepadatan  penduduk,  jumlah  sarana  kesehatan,
+
+frekuensi  DBD bulanan perkelurahan,  status  daerah  :  tidak  rawan,  rawan,  dan
+
+sangat rawan. Fitur-fitur tersebut yang akan dijadikan input sistem.
+
+5
+
+
+
+6
+
+Tabel 2.1 Perbandingan penelitian dengan yang diteliti
+
+N
+O
+
+Penulis Judul Keterangan
+
+1. Salsabella
+(2014)
+
+Sistem  Pendukung
+Keputusan  Penentuan
+Resep  Masakan
+Berdasarkan Ketersediaan
+Bahan  Makanan
+Menggunakan  Metode
+Simple  Additive
+Weighting (SAW)
+Berbasis Web
+
+ Metode yang digunakan 
+adalah Simple Additive 
+Weighting (SAW).
+
+ Sistem dibangun berbasis web
+dengan bahasa pemrograman 
+PHP.
+
+ Sistem digunakan untuk 
+mencari resep masakan 
+berdasarkan kebutuhan 
+pengguna.
+
+2. Tursina (2014) Case  Based  Reasoning
+Untuk  Menentukan
+Daerah  Berpotensi
+Demam  Berdarah  (Studi
+Kasus Kota Pontianak)
+
+ Penelitian  ini  menggunakan
+penalaran  berbasis  kasus
+(Case Based Reasoning).
+
+ Metode  similaritas  yang
+digunakan  ialah  metode
+Simple Matching Coefficient.
+
+3. Ramadhaniati
+Sari (2018)
+
+Aplikasi  pemilihan  resep
+masakan  berdasarkan
+ketersediaan  bahan
+masakan  dengan  metode
+Simple  Matching
+Coefficient (SMC)
+
+ Penelitian  ini  menggunakan
+penalaran  berbasis  kasus
+(Case Based Reasoning).
+
+ Metode  similaritas  yang
+digunakan  ialah  metode
+Simple Matching Coefficient.
+
+ Sistem  dibangun  berbasis
+website dengan  bahasa
+pemrograman  PHP  dengan
+framework Laravel.
+
+ Fitur  yang  digunakan  adalah
+bahan dan bumbu.
+
+ Sistem  hanya  menampilkan
+rekomendasi resep masakan.
+
+2.2 Masakan Nusantara
+
+Masakan Nusantara adalah susunan masakan yang terdiri  dari  hidangan
+
+pokok, lauk pauk, sayuran dan sambal (Handayani dan Marwanti, 2011). Ciri khas
+
+masakan  nusantara  adalah  menggunakan  aneka  jenis  bumbu  dan  rempah.
+
+Masakan  nusantara  terdiri  dari  berbagai  macam  masakan  tradisional,  yang
+
+merupakan salah satu identitas suatu kelompok masyarakat yang sangat mudah
+
+untuk ditemukan dan mudah untuk dikenali (Tyas, 2017). Makanan khas daerah-
+
+daerah  di  Indonesia  sudah ada sejak  lama dan masih  bertahan hingga saat  ini
+
+sehinga  sangat  dihargai  sebagai  warisan  budaya.  Resep  yang  digunakan  juga
+
+sudah diturunkan dari generasi ke generasi, bahkan cara memasaknya juga masih
+
+melestarikan  cara  lama.  Walaupun  sudah  ada  modifikasi  atau  variasi,  namun
+
+bahan utama dan prosedur memasaknya tidak berubah.
+
+
+
+7
+
+2.3 Memasak
+
+Memasak adalah  suatu  kegiatan  yang dilakukan  oleh  seseorang dengan
+
+mengolah bahan makanan melalui proses penerapan panas dengan tujuan tertentu
+
+(Sudiara, 2001). Memasak membuat suatu bahan makanan menjadi enak, matang,
+
+dan merubah bahan makanan dari bentuk warna.
+
+Teknik memasak dibagi menjadi dua, yaitu (Rosalia, 2016):
+
+1. Teknik Memasak Basah
+
+Cara  memasak  basah  yaitu  menggunakan  cairan  untuk  proses
+
+pematangannya.  Cairan  yang  digunakan  juga  bervariasi  seperti  air,  susu,
+
+kaldu,  atau  wine.  Lama  memasaknya  tergantung  dari  teknik  apa  yang
+
+digunakan. Berikut ini jenis-jenis teknik memasak basah atau  moist heat of
+
+cooking :
+
+a. Boiling (Merebus)
+
+Merebus adalah memasak bahan makanan dalam cairan hingga titik didih
+
+(100  derajat  C).  Cairan  yang  digunakan  berupa  air,  kaldu,  susu,  dll.
+
+Caranya  bahan  makanan  dapat  dimasukkan  dalam  cairan  yang  masih
+
+dalam keadaan dingin  atau  dalam air  yang telah  panas.  Teknik  boiling
+
+paling simpel yang biasa dilakukan adalah masak indomie atau sayur.
+
+b. Poaching
+
+Cara memasak bahan makanan dalam bahan cair dengan api kecil  yang
+
+jumlahnya  tidak  terlalu  banyak  atau  hanya  sebatas  menutupi  bahan
+
+makanan yang direbus. Bahan makanan yang di  poach ini adalah bahan
+
+makanan yang lunak atau lembut dan tidak memerlukan waktu lama dalam
+
+memasaknya seperti telur, ikan dan buah – buahan. Dalam merebus sistem
+
+poaching ini air direbus dibawah titik didih ( 92-96 derajat C) dan direbus
+
+secara perlahan dengan api yang kecil.
+
+c. Simmering
+
+Teknik  memasak  simmering berbeda  dengan  boiling dan  poaching.
+
+Bedanya,  simmering butuh  waktu  yang  lebih  lama  dibanding  boiling.
+
+Hasilnya  akan  membuat  kuahnya  jadi  lebih  wangi  dan  mantap  karena
+
+bumbu  serta  bahan-bahan  yang  direbus  lebih  lama.  Teknik  simmering
+
+biasanya digunakan untuk membuat kaldu, soto, atau rawon.
+
+
+
+8
+
+d. Stewing (Menyetup)
+
+Proses  stewing sering  juga  disebut  dengan  menyetup  atau  menyemur.
+
+Cairan  yang biasa dipakai  bukanlah air,  melainkan  kaldu,  santan,  susu,
+
+atau  mungkin  bumbu  kental  yang  sebelumnya  sudah  ditumis  terlebih
+
+dahulu. Cairan yang digunakan untuk proses stewing tidak terlalu banyak.
+
+Masaknya juga  slowly cooking, supaya aroma dari bumbu-bumbu keluar
+
+dan masakan yang dihasilkan jadi  lebih lunak. Contoh masakan dengan
+
+teknik stewing ini adalah opor ayam, semur ayam, atau rendang.
+
+e. Braising
+
+Cara masak  braising mirip  dengan  stewing.  Bedanya daging yang mau
+
+disetup  biasanya  di-marinated atau  direndam  terlebih  dahulu.  Proses
+
+rendaman  ini  membutuhkan  waktu  yang  cukup  lama,  bisa  12-24  jam,
+
+tergantung dari jenis dagingnya. Kalau daging merah biasanya direndam
+
+lebih lama dibandingkan daging putih.
+
+Fungsinya agar bumbu-bumbu meresap dengan sempurna ke dalam daging
+
+yang mau dimasak.
+
+f. Steaming (Mengukus)
+
+Mengukus  adalah  memasak  bahan  makanan  dengan  uap  air  mendidih.
+
+Meskipun bahan makanan tidak berhubungan atau kontak langsung dengan
+
+air mendidih namun masih tetap termasuk dalam teknik memasak basah.
+
+Dalam metode ini perubahan warna, tekstur dan aroma yang terjadi lebih
+
+banyak  dibanding  dengan  teknik  merebus  dan  menyetup.  Biasanya
+
+makanan yang di-steam itu seperti bolu kukus,siomay dimsum, atau ikan.
+
+g. Au Bain Marie (Mengetim)
+
+Au Bain  Marie adalah  memasak  bahan  makanan  dengan  menggunakan
+
+panci  kukusan yang diisi  air  mendidih  dibawahnya.  Kemudian  didalam
+
+panci berisi air ini letakkan dandang yang berisi makanan yang mau ditim.
+
+Cara ini memerlukan waktu yang lama, seperti nasi tim.
+
+2. Teknik Memasak Kering
+
+Teknik memasak kering adalah cara masak yang tidak menggunakan air sama
+
+sekali dalam prosesnya. Teknik memasak ini sering juga disebut dry heat of
+
+cooking. Tekstur dan rasa makanan yang dihasilkan berbeda dengan teknik
+
+memasak  basah.  Biasanya  akan  lebih  kenyal,  gurih,  dan  beberapa  teknik
+
+menghasilkan tekstur crunchy.
+
+
+
+9
+
+Berikut ini jenis-jenis teknik memasak kering:
+
+a. Deep Frying
+
+Deep  frying adalah  proses  memasak  dengan  banyak  minyak  hingga
+
+makanan  terendam  seluruhnya  ke  dalam  minyak.  Hasilnya  pasti  akan
+
+crunchy dan kering begitu sudah matang. Contohnya adalah menggoreng
+
+nugget, tempe, atau donat kentang.
+
+b. Shallow Frying
+
+Cara masak  shallow frying berbeda  dengan  deep frying,  shallow frying
+
+cuma menggunakan sedikit minyak. Gorengnya juga cuma sebentar dan
+
+biasanya  tidak  harus  dibolak-balik  berkali-kali.  Masaknya  biasanya
+
+menggunakan  wajan  datar.  Contoh  shallow  frying adalah  menggoreng
+
+telur.
+
+c. Saute (Menumis)
+
+Cara masak saute mirip seperti shallow frying, hanya menggunakan sedikit
+
+minyak dan menggunakan wajan datar. Bedanya adalah,  makanan harus
+
+dibolak-balik berkali-kali. Makanan yang sering dikreasikan dengan proses
+
+tumisan adalah sayur kacang panjang.
+
+d. Grilling
+
+Grilling ini sama seperti proses bikin sate. Makanan akan dimasak dengan
+
+panas  yang berasal  dari  bawah.  Api  bisa dari  bara arang atau kompor.
+
+Biasanya kalau mau  grilling bahan makanan sudah dipotong kecil-kecil
+
+karena masaknya cepat. Oleh sebab itu, jarak api dan makanannya dibuat
+
+agak dekat supaya masakannya bisa matang dengan cepat.
+
+e. Barbecuing
+
+Cara  masak  barbecuing  hampir  sama  dengan  grilling.  Kalau  grilling
+
+adalah  proses  fast  cooking–nya,sedangkan  barbecuing ini  adalah  proses
+
+slow cooking-nya.  Caranya sama,  makanan akan dimasak dengan panas
+
+yang berasal dari  bawah. Karena ini  proses  slow cooking,  maka daging
+
+yang  potongannya  besar  lebih  cocok  untuk  BBQ-an.  Proses
+
+pematangannya  perlahan  dan  merata  dengan  sempurna.  Jarak  api  dan
+
+daging tidak terlalu dekat karena kalau terlalu dekat dan prosesnya lama
+
+malah bakal jadi gosong.
+
+f. Roasting
+
+
+
+10
+
+Roasting ini biasa digunakan untuk memasak satu daging utuh, misalnya
+
+ayam, kalkun, atau kambing. Sebelumnya daging akan dibumbui terlebih
+
+dahulu, lalu dioles mentega dan dimasukkan ke dalam oven.
+
+g. Smoking
+
+Cara  masak  smoking  yaitu  makanan  yang  dimasak  akan  dipanaskan
+
+dengan asap atau udara panas sampai matang. Aroma makanan yang sudah
+
+matang juga pasti akan mengeluarkan bau khas asap yang sedap.
+
+2.4 Resep Masakan
+
+Resep masakan adalah instruksi yang berisi nama masakan, bahan, bumbu,
+
+dan  cara  membuat,  serta  cara  menghidangkan  suatu  masakan.  Resep  masakan
+
+adalah suatu susunan instruksi atau algoritma yang menunjukkan cara membuat
+
+suatu masakan (Marwanti, 2000).
+
+Pengetahuan yang dibutuhkan untuk membuat resep masakan sebagai berikut :
+
+1. Pengetahuan bahan makanan.
+
+2. Pengetahuan alat masak dan alat hidang.
+
+3. Pengetahuan tentang teknik olah.
+
+4. Pengetahuan tentang tata hidang serta pengetahuan tentang ukuran.
+
+Resep masakan bermanfaat untuk :
+
+1. Mengetahui bahan dan cara membuat suatu masakan.
+
+2. Mengetahui hubungan masakan yang satu dengan masakan yang lain.
+
+3. Dapat mengubah resep yang telah ada menurut kehendak.
+
+Resep masakan ini biasanya bisa berbentuk buku, dimuat dalam majalah,
+
+koran,  dan  televisi.  Setelah  mendapat  yang  cocok  dengan  yang  dicari  maka
+
+pengolah makanan akan membuat makanan sesuai dengan resep masakan yang
+
+didapat.
+
+2.5 Case Based Reasoning
+
+Case  Based  Reasoning  (CBR)  adalah  suatu  pendekatan  untuk
+
+menyelesaikan  suatu  permasalahan  (problem  solving)  berdasarkan  solusi  dari
+
+permasalahan sebelumnya. Case-based Reasoning ini merupakan suatu paradigma
+
+pemecahan  masalah  yang  banyak  mendapat  pengakuan  yang  pada  dasarnya
+
+
+
+11
+
+berbeda dari pendekatan utama  Artifitial Intelligent (AI) lainnya. Suatu masalah
+
+baru  dipecahkan  dengan menemukan  kasus  yang serupa  di  masa  lampau,  dan
+
+menggunakannya kembali  pada situasi  masalah yang baru. Perbedaan lain dari
+
+CBR yang tidak kalah penting adalah CBR juga merupakan suatu pendekatan ke
+
+arah incremental yaitu pembelajaran yang terus-menerus (Ahmad dkk, 2016).
+
+CBR pada dasarnya digunakan untuk mengatasi sebuah permasalahan baru
+
+dengan cara mengingat situasi/masalah yang sama sebelumnya dan menggunakan
+
+informasi dan situasi tersebut untuk menyelesaikan masalah (Aamodt dan Plaza,
+
+1994).
+
+Sistem CBR diabstraksikan seperti  sebuah kotak hitam, yang mencakup
+
+mekanisme penalaran dan aspek internal seperti pada Gambar 2.1 yang meliputi
+
+(Pal dan Shiu, 2004):
+
+1. Spesifikasi masukan atau kasus dari sebuah permasalahan
+
+2. Solusi permasalahan yang diharapkan sebagai luaran
+
+3. Kasus-kasus  sebelumnya  yang  telah  tersimpan  sebagai  rujukan  dari
+
+mekanisme penalaran.
+
+Gambar 2.1. Sistem CBR
+
+Mekanisme penalaran dan aspek internal pada Gambar 2.1, menjelaskan
+
+kumpulan  kasus  dari  sebuah  permasalahan  (problem  case)  disimpan  dalam
+
+penyimpanan kasus (case base) akan diambil sebagai solusi permasalahan yang
+
+diharapkan  sebagai  luaran  (derived  solution)  di  mana  kasus-kasus  tersebut
+
+merupakan kasus-kasus  sebelumnya  yang telah  tersimpan sebagai  rujukan dari
+
+mekanisme penalaran.
+
+2.5.1 Siklus Case Based Reasoning
+
+Secara umumnya terdapat empat langkah proses pada metode Case-Based
+
+Reasoning, yang pelaksanaannya berupa siklus, seperti pada Gambar 2.2 (Aamodt
+
+dan Plaza, 1994):
+
+
+
+12
+
+Gambar 2.2. Siklus Case-Based Reasoning 
+
+1. Retrieve : yaitu mengambil kembali permasalahan yang sama. Pada langkah
+
+ini dilakukan proses pencarian atau kalkulasi dari kasus-kasus yang memiliki
+
+kesamaan. Tahapan yang ada pada retrieve ini adalah :
+
+a. Identifikasi masalah
+
+b. Memulai pencocokan
+
+c. Melakukan seleksi
+
+2. Reuse : yaitu menggunakan kembali informasi dan pengetahuan dalam kasus
+
+tersebut untuk mengatasi  masalah baru. Pada langkah ini dicari  solusi dari
+
+kasus serupa pada kondisi  sebelumnya untuk permasalahan baru.  Ada dua
+
+cara yang digunakan untuk reuse kasus yang ada yaitu :
+
+a. Reuse solusi dari kasus yang telah ada (Transformatical Reuse)
+
+b. Reuse metode kasus yang ada untuk membuat solusi (Derivational Reuse).
+
+3. Revise :  yaitu  meninjau  kembali  solusi  yang  diberikan.  Pada  langkah  ini
+
+dicari solusi dari kasus serupa pada kondisi sebelumnya untuk permasalahan
+
+yang terjadi kemudian.
+
+a. Evaluasi Solusi
+
+Evaluasi  solusi  adalah  bagaimana  hasil  yang  didapatkan  setelah
+
+membandingkan  solusi  dengan  keadaan  yang  sebenarnya.  Hal  ini
+
+biasanya  tahapan  di  luar  sistem CBR.  Pada  tahap  evaluasi  ini  sering
+
+memerlukan  waktu  yang  panjang  tergantung  dari  aplikasi  apa  yang
+
+sedang dikembangkan.
+
+
+
+13
+
+b. Memperbaiki Kesalahan
+
+Perbaikan suatu kasus  meliputi  pengenalan  kesalahan dari  solusi  yang
+
+dibuat  dan  mengambil  atau  membuat  penjelasan  tentang  kesalahan
+
+tersebut.
+
+4. Retain :  yaitu  proses  yang  menyimpan  pengalaman  untuk  memecahkan
+
+masalah  yang  akan  datang  ke  dalam  basis  kasus  (memory  based).
+
+Permasalahan  yang  akan  diselesaikan  adalah  permasalahan  yang  memiliki
+
+kesamaan dengannya. Pada tahap ini terjadi suatu proses penggabungan dari
+
+solusi kasus yang baru ke knowledge yang telah ada.
+
+2.6 Similarity Simple Matching Coefficient
+
+Similarity  Simple  Matching  Coefficient  (SMC),  merupakan  salah  satu
+
+metode  perhitungan  yang digunakan  untuk  menghitung  tingkat  similaritas  dua
+
+buah objek yang bersifat biner.
+
+Pada  penalaran  Cased  Based  Reasoning,  SMC  digunakan  untuk
+
+membandingkan  fitur-fitur  yang  terdapat  pada  basis  kasus  dengan  fitur  yang
+
+terdapat pada kasus baru.
+
+Formula yang digunakan SMC untuk menghitung  similarity,  antara dua
+
+objek X dan Y adalah sebagai berikut:
+
+Similarity Simple Matching Coefficient (SMC)
+
+SMC(X,Y) =   
+M 11+M 00
+
+M 10+M 01+M 11+M 00
+
+(2.1)
+
+Dimana :
+
+X = Kasus Lama
+
+Y = Kasus Baru
+
+M11 = Jumlah Atribut dimana X = 1 dan Y = 1
+
+M10 = Jumlah Atribut dimana X = 1 dan Y = 0
+
+M01 = Jumlah Atribut dimana X = 0 dan Y = 1
+
+M00 = Jumlah Atribut dimana X = 0 dan Y = 0
+
+Kasus  baru  dikatakan  similar  (mirip)  100%  dengan  kasus  yang  lama
+
+apabila nilai similaritas dari SMC(X,Y) sama dengan 1, sedangkan tidak similar
+
+apabila nilai SMC(X,Y) sama dengan 0.
+
+
+
+14
+
+Kasus  baru  (Y)  adalah  kasus  yang  akan  dicari  solusinya  dengan  cara
+
+membandingkan fitur bahan dan bumbu pada setiap kasus lama (X) atau kasus
+
+yang  tersimpan  di  basis  kasus.  Banyaknya  biner  tiap  kasus  sesuai  dengan
+
+banyaknya jumlah bahan dan bumbu keseluruhan yang ada pada basis kasus.
+
+Berikut  contoh  perhitungan  menggunakan  metode  Similarity  Simple  Matching
+
+Coefficient (SMC):
+
+Tabel 2.2 Similaritas kasus baru (Kb) dan kasus lama
+
+BU1 BU2 BU3 BU4 BU5 BA1 BA2 BA3 BA4 BA5
+
+K1 0 0 1 0 1 1 0 1 0 1
+
+K2 0 1 0 0 1 0 1 0 1 0
+
+K3 1 1 0 1 0 0 1 0 1 0
+
+K4 1 0 1 1 0 1 0 1 0 1
+
+K5 0 1 0 1 0 0 1 1 1 0
+
+Kb 0 1 1 1 0 0 1 1 1 0
+
+Keterangan : Kb : Kasus Baru
+
+K1,…,K5 : Kasus Lama
+
+BU1 : Bawang Merah
+
+BU2 : Bawang Putih
+
+BU3 : Merica
+
+BU4 : Cabai
+
+BU5 : Jahe
+
+BA1 : Kecap Manis
+
+BA2 : Minyak Goreng
+
+BA3 : Santan
+
+BA4 : Margarin
+
+BA5 : Kelapa Parut
+
+a. Similaritas  Kb dan K1
+
+M11 = 2, M10 = 3, M01 = 4, M00= 1
+
+Maka, 
+
+SMC(X,Y) = 
+2+1
+
+3+4+2+1
+= 
+
+3
+10
+
+ = 0,3
+
+b. Similaritas Kb dan K2
+
+M11 = 3, M10 = 1, M01 = 3, M00= 3
+
+
+
+15
+
+Maka,
+
+SMC(X,Y) =   
+3+3
+
+1+3+3+3
+ = 
+
+6
+10
+
+ = 0,6
+
+c. Similaritas Kb dan K3
+
+M11 = 4, M10 = 1, M01 = 2, M00= 3
+
+Maka,
+
+SMC(X,Y) =   
+4+3
+
+1+2+4+3
+ = 
+
+7
+10
+
+ = 0,7
+
+d. Similaritas Kb dan K4
+
+M11 = 3, M10 = 3, M01 = 3, M00= 1
+
+Maka,
+
+SMC(X,Y) =   
+3+1
+
+3+3+3+1
+ = 
+
+4
+10
+
+ = 0,4
+
+e. Similaritas Kb dan K5
+
+M11 = 5, M10 = 0, M01 = 1, M00= 4
+
+Maka,
+
+SMC(X,Y) =   
+5+4
+
+0+1+5+4
+ = 
+
+9
+10
+
+ = 0,9
+
+Dari  hasil  perhitungan  diatas  dapat  disimpulkan  bahwa  tidak  ada  nilai
+
+similaritas  1.  Hal  ini  terjadi  karena  data  kasus  baru  (Kb)  belum  memiliki
+
+kemiripan kasus yang sama dengan kasus yang telah ada sebelumnya (K1-K5).
+
+Jika tidak ada satupun kasus lama yang memiliki nilai similaritas 1 dengan
+
+kasus baru, maka pengambil keputusan harus memberikan kesimpulan baru terkait
+
+dengan kasus baru tersebut yaitu berupa resep. Kasus baru tersebut nantinya akan
+
+ditambahkan pada basis kasus yang ada.
+
+2.7 Unified Modeling Language (UML)
+
+Unified  Modeling  Language (UML)  merupakan  bahasa  visual  untuk
+
+pemodelan dan komunikasi mengenai sistem dengan menggunakan diagram dan
+
+teks-teks pendukung. UML muncul karena adanya kebutuhan pemodelan visual
+
+untuk  menspesifikasikan,  menggambarkan,  membangun  dan  dokumentasi  dari
+
+
+
+16
+
+sistem  perangkat  lunak.  UML  hanya  berfungsi  untuk  melakukan  pemodelan.
+
+Penggunaan  UML  tidak  terbatas  pada  metodologi  tertentu,  meskipun  UML
+
+banyak digunakan pada metodologi berorientasi objek . UML terdiri atas beberapa
+
+diagram  antara  lain  use  case  diagram, activity  diagram,  dan  class  diagram
+
+(Sukamto dan Shalahudin, 2013).
+
+2.7.1 Use Case Diagram
+
+Use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih
+
+aktor  dengan  sistem  informasi  yang  akan  dibuat.  Dengan  kata  lain,  use  case
+
+diagram  digunakan  untuk  mengetahui  fungsi-fungsi  apa  saja  yang  terdapat  di
+
+dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut.
+
+Berikut  ini  adalah  simbol-simbol  notasi  yang digunakan pada  use  case
+
+diagram yang mengacu pada Tabel 2.3:
+
+Tabel 2.3 Deskripsi notasi pada use case diagram
+
+No Gambar Nama Keterangan
+
+1
+nama use case
+
+Use Case
+
+Deskripsi  dari  urutan  aksi-aksi
+
+yang  ditampilkan  sistem  yang
+
+menghasilkan  suatu  hasil  yang
+
+terukur bagi suatu aktor.
+
+2 Actor
+
+Menspesifikasikan himpuan peran
+
+yang  pengguna  mainkan  ketika
+
+berinteraksi dengan use case.
+
+3
+<<extend>>
+
+Extend
+
+Menspesifikasikan  bahwa  use
+
+case target  memperluas  perilaku
+
+dari  use  case sumber  pada suatu
+
+titik yang diberikan.
+
+4 Association
+Apa yang menghubungkan antara
+
+objek satu dengan objek lainnya.
+
+5 Generalization
+
+Hubungan  dimana  objek  anak
+
+(descendent) berbagi perilaku dan
+
+struktur data dari objek yang ada
+
+di atasnya objek induk (ancestor).
+
+
+
+17
+
+No Gambar Nama Keterangan
+
+6
+<<include>>
+
+Include
+Menspesifikasikan  bahwa  use
+
+case sumber secara eksplisit.
+
+2.7.2 Activity Diagram
+
+Activity  diagram menggambarkan  workflow  (aliran  kerja)  atau  aktivitas
+
+dari sebuah sistem atau proses bisnis. Activity diagram menggambarkan aktivitas
+
+sistem bukan apa yang dilakukan aktor, jadi aktivitas yang dapat dilakukan oleh
+
+sistem.
+
+Berikut  ini  adalah  simbol-simbol  notasi  yang  digunakan  pada  activity
+
+diagram yang mengacu pada Tabel 2.4:
+
+Tabel 2.4 Deskripsi notasi pada activity diagram
+
+No Gambar Nama Keterangan
+
+1 Initial Node
+
+Status  awal  aktivitas,  sebuah
+
+diagram aktivitas  memiliki  status
+
+awal.
+
+2 aktivitas Actifity
+
+Aktivitas  yang  dilakukan  oleh
+
+sistem, biasanya diawali oleh kata
+
+kerja.
+
+3 Decision
+
+Asosiasi percabangan dimana jika
+
+ada  pilihan  aktivitas  lebih  dari
+
+satu.
+
+4 Join
+
+Asosiasi  penggabungan  dimana
+
+lebih  dari  satu  aktivitas
+
+digabungkan menjadi satu.
+
+
+
+18
+
+No Gambar Nama Keterangan
+
+5
+Actifity  Final
+
+Node
+
+Status  akhir  yang  dilakukan
+
+sistem.
+
+6
+
+nama swimlane
+
+Swimlane
+
+Memisahkan  organisasi  bisnis
+
+yang bertanggung jawab terhadap
+
+aktivitas yang terjadi.
+
+2.7.3 Class Diagram
+
+Diagram kelas  atau  class  diagram menggambarkan struktur  sistem dari
+
+segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem. Class
+
+diagram memiliki  apa  yang  disebut  atribut  dan  metode  atau  operasi.  Atribut
+
+merupakan variabel-variabel yang dimiliki oleh suatu kelas. Metode atau operasi
+
+adalah fungsi-fungsi yang dimiliki oleh suatu kelas. 
+
+Berikut  ini  adalah  simbol-simbol  notasi  yang  digunakan  pada  diagram
+
+kelas yang mengacu pada Tabel 2.5:
+
+Tabel 2.5 Deskripsi notasi pada class diagram
+
+No Gambar Nama Keterangan
+
+1
+
+nama_kelas
+
++atribut
+
++operasi()
+
+Class
+
+Kelas pada struktur sistem.
+
+2 Dependency
+
+Relasi antar kelas dengan makna
+
+perubahan  yang  terjadi  pada
+
+suatu  elemen  mandiri
+
+(independent)  akan
+
+mempengaruhi  elemen  yang
+
+bergantung  padanya  elemen
+
+yang tidak mandiri.
+
+3 Association
+
+Relasi antar kelas dengan makna
+
+umum,  asosiasi  biasanya  juga
+
+disertai dengan multiplicity
+
+
+
+19
+
+No Gambar Nama Keterangan
+
+4
+Directed
+
+Association
+
+Relasi antar kelas dengan makna
+
+kelas  yang satu digunakan oleh
+
+kelas  yang  lain,  asosiasi
+
+biasanya  juga  disertai  dengan
+
+multiplicity
+
+5 Generalization
+
+Relasi antar kelas dengan makna
+
+objek anak berbagi perilaku dan
+
+struktur data dari objek yang ada
+
+di  atasnya  objek  induk
+
+(ancestor).
+
+6 Aggregation
+Relasi antar kelas dengan makna
+
+semua-bagian
+
+7 Composition
+
+Jika  sebuah  class  tidak  bisa
+
+berdiri  sendiri  dan  harus
+
+merupakan  bagian  dari  class
+
+yang  lain,  maka  class tersebut
+
+memiliki  relasi  Composition
+
+terhadap  class  tempat  dia
+
+bergantung tersebut.
+
+2.8 Framework Laravel
+
+2.8.1 Definisi Framework
+
+Framework adalah kerangka kerja yang memudahkan  programmer  untuk
+
+membuat  sebuah  aplikasi  sehingga  programmer  akan  lebih  mudah  melakukan
+
+perubahan (customize) terhadap aplikasinya dan dapat memakainya kembali untuk
+
+aplikasi lain yang sejenis. Tujuan dari  framework untuk mengurangi pembuatan
+
+kembali  kode yang sama sehingga  programmer  dapat lebih fokus mengerjakan
+
+bagian lainnya. Salah satu kelebihan dari  framework adalah kerangka kerja dari
+
+framework dalam  menyelesaikan  modul-modul  yang  dikembangkan  sehingga
+
+mengeluarkan  sebuah  metode  pekerjaan  yang  lebih  efisien,  lebih  rapi,  lebih
+
+bersifat general, dan lebih homogen (Sukamto dan Shalahudin, 2013).
+
+
+
+20
+
+2.8.2 Framework Laravel
+
+Framework Laravel  dibuat  oleh Taylor  Otwell,  proyek Laravel  dimulai
+
+pada  April  2011.  Awal  mula  proyek  ini  dibuat  karena  Otwell  sendiri  tidak
+
+menemukan  framework yang  up-to-date dengan  versi  PHP.  Mengembangkan
+
+framework yang  sudah  ada  juga  bukan  merupakan  ide  yang  bagus  karena
+
+keterbatasan  sumber daya.  Dikarenakan beberapa keterbatasan  tersebut,  Otwell
+
+membuat  sendiri  framework dengan  nama  Laravel.  Oleh  karena  itu,  Laravel
+
+mengisyaratkan PHP versi 5.3 keatas (Rohman, 2014). 
+
+Laravel merupakan  web application framework berbasis PHP yang  open
+
+source. Laravel menekankan pada kesederhanaan dan fleksibilitas pada desainnya.
+
+Laravel  dirilis  dibawah  lisensi  MIT  dengan  sumber  kode  yang  disediakan  di
+
+Github. Laravel dibangun dengan basis MVC (Model-View-Controller). Laravel
+
+dilengkapi  command  line  tool  yang  bernama  “Artisan”  yang  dapat  digunakan
+
+untuk  packaging  bundle dan  instalasi  bundle.  Laravel  oleh  para  developer
+
+disetarakan dengan CodeIgniter dan FuelPHP namun memiliki keunikan tersendiri
+
+dari  sisi  coding yang lebih ekspresif  dan elegan. Keunggulan Laravel  daripada
+
+framework lain antara lain:  coding yang simple, tersedia generator yang canggih
+
+dan memudahkan, fitur Schema Builder untuk berbagai database, Fitur Migration
+
+dan Seeding untuk berbagai database, Fitur Query Builder yang bagus, Eloquent
+
+ORM yang luar biasa dan fitur pembuatan package dan bundle (Rohman, 2014).
+
+2.9 Hypertext Preprocessor (PHP)
+
+Pada  tahun  1995 PHP pertama  kali  dibuat  oleh  Rasmus  Lerdorf,  yang
+
+diberi nama FI (Form Interpreted) dan digunakan untuk mengelola form dari web.
+
+PHP singkatan dari PHP Hypertext Preprocessor yaitu bahasa pemrograman web
+
+server-side yang bersifat  open source.  PHP merupakan  script  yang terintegrasi
+
+dengan HTML dan berada pada  server  (server side HTML embedded scripting).
+
+PHP  adalah  script yang  digunakan  untuk  membuat  halaman  website yang
+
+dinamis. Dinamis berarti halaman yang akan ditampilkan dibuat saat halaman itu
+
+diminta oleh  client. Mekanisme ini menyebabkan informasi yang diterima  client
+
+selalu  yang  terbaru.  Semua  script  PHP  dieksekusi  pada  server dimana script
+
+tersebut dijalankan (Anhar, 2010).
+
+PHP mempunyai keunggulan sehingga menjadi pilihan adalah antara lain
+
+(Simarmata, 2006):
+
+
+
+21
+
+1. Cepat,  karena  ditempelkan  (embedded)  di  dalam  kode  HTML,  sehingga
+
+waktu tanggap menjadi pendek.
+
+2. Tidak  mahal  –  gratis.  Pada  kenyataannya  PHP  adalah  gratis  dan  bisa
+
+mendapatkannya tanpa harus membayar.
+
+3. Mudah untuk digunakan. PHP berisi beberapa fitur khusus dan fungsi yang
+
+dibutuhkan  untuk membuat  halaman  web  dinamis.  Bahasa  PHP dirancang
+
+untuk dimasukkan dengan mudah dalam file HTML.
+
+4. Berjalan  pada  beberapa  sistem operasi.  PHP berjalan  pada  sistem operasi
+
+yang beragam seperti Windows, Linux, Mac OS dan kebanyakan variasi dari
+
+Unix.
+
+5. Dukungan teknis tersedia secara luas. Karena PHP menyediakan dukungan
+
+gratis via daftar diskusi e-mail.
+
+6. Aman.  Pengguna tidak  melihat  kode PHP,  karena  kode yang  ditampilkan
+
+pada browser adalah kode HTML. 
+
+2.10 MySQL
+
+MySQL merupakan sebuah perangkat lunak sistem manajemen basis data
+
+SQL atau yang dikenal dengan DBMS (Database Management System), database
+
+ini  multithread,  multi-user. MYSQL merupakan  server  basis  data  dimana
+
+pemrosesan  data  terjadi  di  server,  dan  client   hanya  mengirimkan  data  serta
+
+meminta data.  Oleh karena pemrosesan terjadi  di  server sehingga pengaksesan
+
+data tidak terbatas (Solihin, 2010).
+
+MySQL merupakan turunan salah satu konsep utama dalam database sejak
+
+lama,  yaitu  SQL  (Structured  Query  Language).  SQL  adalah  sebuah  konsep
+
+pengoperasian  database  , terutama untuk pemilihan atau seleksi dan pemasukan
+
+data, yang memungkinkan pengoperasian data dikerjakan dengan mudah secara
+
+otomatis.
+
+Sebagai  software,  DBMS memiliki  sejumlah  keunggulan,  yaitu  (Kadir,
+
+2008):
+
+1. Multiplatform.  MySQL  terdiri  pada  beberapa  platform  (Windows,  Linux,
+
+Unix dan lain-lain).
+
+2. Andal,  cepat  dan  mudah  digunakan.  MySQL  tergolong  sebagai  database
+
+server  (server  yang  melayani  permintaan  terhadap  database)  yang  andal,
+
+dapat menangani  database  yang besar dengan kecepatan tinggi, mendukung
+
+
+
+22
+
+banyak sekali fungsi untuk mengakses database, dan sekaligus mudah untuk
+
+digunakan.
+
+3. Jaminan keamanan akses. MySQL mendukung pengamanan database dengan
+
+berbagai kriteria pengaksesan.
+
+4. Dukungan SQL.  MySQL  mendukung perintah SQL dan merupakan standar
+
+dalam pengaksesan database relasional.
+
+Ada beberapa keuntungan MySQL sebagai berikut (Simarmata, 2006):
+
+1. Cepat.  Tujuan  dari  pengembangan  dari  MySQL  adalah  kecepatan,  sebagai
+
+konsekuensi software yang dirancang dari awal untuk kecepatan.
+
+2. Tidak mahal. MySQL adalah cuma-cuma di bawah lisensi GPL open source,
+
+sementara pembiayaan untuk lisensi komersialnya sangatlah pantas.
+
+3. Mudah  digunakan.  Pengguna  dapat  membangun  dan  berinteraksi  dengan
+
+database MySQL hanya dengan menggunakan sedikit pernyataan (statement)
+
+sederhana  di  dalam  bahasa  SQL,  yang  menjadi  bahasa  standar  untuk
+
+komunikasi dengan RDMS.  
+
+4. Dapat berjalan dengan beberapa sistem operasi. MySQL berjalan pada sistem
+
+operasi yang beragam, seperti Windows, Linux, Mac OS, kebanyakan variasi
+
+Unix  (termasuk  Solaris,  AIX,  dan  DEC Unix),  FreeBSD,  OS/2,  Irix  dan
+
+lainnya.
+
+5. Dukungan teknis secara luas tersedia. MySQL menyediakan dukungan cuma-
+
+cuma untuk pengguna  via  mailing list.  Pengguna dapat membeli dukungan
+
+teknis dari MySQL AB.
+
+6. Aman.  MySQL  adalah sistem otorisasi fleksibel yang mengijinkan beberapa
+
+atau semua privilege database sebagai contoh (sebagai contoh privilege untuk
+
+menciptakan suatu  database  atau menghapus data) untuk pengguna khusus
+
+atau kelompok pengguna.
+
+7. Mendukung  database  yang besar.  MySQL  menangani  database  sampai  50
+
+juta baris atau lebih. Batas ukuran file secara default untuk table adalah 4 GB,
+
+tetapi dapat menaikkannya (jika sistem operasi dapat menanganinya ) hingga
+
+8 juta terabytes (TB).
+
+8. Customizable.  Lisensi  GPL  open  source  mengijinkan  pemrograman  untuk
+
+memodifikasi  software MySQL  untuk mencocokkannya dengan lingkungan
+
+tertentu.
+
+
+
+23
+
+2.11 Pengujian Perangkat Lunak
+
+Pengujian perangkat lunak adalah proses menjalankan dan mengevaluasi
+
+sebuah perangkat lunak secara manual maupun otomatis untuk menguji apakah
+
+perangkat  lunak  sudah  memenuhi  persyaratan  atau  belum  (Clune  dan  Rood,
+
+2011).
+
+Pengujian perangkat lunak mempunyai beberapa sasaran penting, yaitu (1)
+
+pengujian  dilaksanakan  dengan maksud menemukan kesalahan,  (2)  kesuksesan
+
+pengujian adalah kemampuan dalam menemukan kesalahan yang belum pernah
+
+ditemukan sebelumnya dan (3) kasus uji yang baik adalah sebuah kasus uji yang
+
+mempunyai probabilitas tinggi untuk menemukan kesalahan yang belum pernah
+
+ditemukan sebelumnya (Pressmaan, 2010).
+
+2.11.1 Pengujian Siklus Case Based Reasoning (CBR)
+
+Komponen penyelesaian masalah CBR memiliki dua bagian utama, yaitu
+
+case retriever dan case reasoner. Case retriever bertugas untuk mencari masalah-
+
+masalah yang mirip dengan masalah yang dimasukkan pengguna didalam basis
+
+pengetahuan (case base), sementara case reasoner bertugas untuk mencari solusi
+
+masalah  pengguna  dengan  melihat  atau  menyesuaikan  solusi  masalah  yang
+
+ditemukan  case retriever.  Dalam eksekusinya, ada empat tahapan dalam proses
+
+CBR (Pal dan Shiu, 2004):
+
+1. Retrieve:  mengambil  kasus-kasus  lama  dari  case  base  yang  mirip  dengan
+
+kasus yang dihadapi,
+
+2. Reuse:  menggunakan solusi  kasus-kasus  lama hasil  retrieve tersebut  untuk
+
+menyelesaikan kasus yang baru tersebut,
+
+3. Revise: jika diperlukan, mengadaptasi solusi kasus lama agar sesuai dengan
+
+kondisi masalah baru, dan
+
+4. Retain:  menyimpan solusi  hasil  revise  yang telah divalidasi  kedalam basis
+
+data,  agar  dapat  digunakan  untuk  menyelesaikan  masalah  serupa  di  masa
+
+depan.
+
+Tidak semua bagian  case retriever  dan  case reasoner  harus diotomatis.
+
+Ada banyak program aplikasi  CBR yang hanya melakukan  case retriever  dan
+
+memberikan hasil case retriever ke pengguna. Pengguna sendiri yang selanjutnya
+
+menafsirkan data tersebut dan mengambil keputusan. Dalam hal ini proses  case
+
+retrieve  dikerjakan  oleh  komputer,  namun  case  reasoning  diserahkan  pada
+
+pengguna (Montani dan Jain, 2010).
+
+
+
+24
+
+2.11.2 Pengujian Kuesioner
+
+Kuesioner  merupakan  teknik  pengumpulan  data  dengan  cara  memberi
+
+seperangkat  pertanyaan  atau  pernyataan  tertulis  kepada  responden  untuk
+
+menjawabnya (Sugiyono, 2010).
+
+Kuesioner adalah daftar pertanyaan yang akan digunakan seseorang untuk
+
+memperoleh  data  dari  sumbernya  baik  secara  langsung  atau  diberikan  secara
+
+pribadi, disuratkan pada responden, atau disebarkan secara elektronik. Kuesioner
+
+berisi beberapa pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan
+
+dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat lunak, aspek
+
+fungsionalitas, dan aspek komunikasi visual.
+
+2.11.3 Teknik Pengukuran Skala
+
+Pengukuran  merupakan  suatu  proses  kuantifikasi  dalam  bentuk  usaha
+
+mencantumkan bilangan pada sebuah sistem materi  yang bukan bilangan untuk
+
+menyatakan sifat-sifat yang dipunyai oleh materi tersebut berdasarkan peraturan
+
+yang sesuai dengan sifat-sifat itu.
+
+Teknik  penskalaan  sering  digunakan  adalah  Likert’s  Summated  Rating
+
+(LSR).  Skala  Likert  merupakan  metode  pengukuran  yang  digunakan  untuk
+
+mengukur sikap, pendapat,  dan persepsi sesorang atau kelompok orang tentang
+
+fenomena sosial (Sugiyono, 2012). LSR sangat bermanfaat untuk membandingkan
+
+skor sikap seseorang dengan distribusi skala dari sekelompok orang lainnya.
+
+Tahap-tahap perancangan LSR adalah sebagai berikut:
+
+a. Tentukan sikap terhadap topik apa yang akan diukur.
+
+b. Tentukan dimensi yang menyusun sikap tersebut.
+
+c. Susun  pernyataan-pernyataan  atau  item  yang  merupakan  alat  pengukur
+
+dimensi yang menyusun sikap yang akan diukur sesuai dengan indikator.
+
+d. Setiap item diberi pilihan respon yang bersifat tertutup.
+
+e. Untuk setiap pilihan respon, jawaban diberikan skor dengan kriteria apabila
+
+item positif maka angka terbesar diletakkan pada sangat setuju sedangkan jika
+
+item negatif maka angka terbesar diletakkan pada sangat tidak setuju. Skor
+
+yang diberikan pada jawaban untuk setiap item kemudian dijumlahkan. Dan
+
+
+
+25
+
+dapat diukur berapa skor terkecil dan terbesar untuk satu orang responden dan
+
+total semua responden.
+
+Adapun perhitungan skor dengan metode Likert’s Summated Rating (LSR)
+
+sebagai berikut.
+
+a. Jumlah skor untuk setiap responden:
+
+ skor maksimal = (5 x jumlah item)
+
+ skor minimal = (1 x jumlah item)
+
+ skor median = (3 x jumlah item)
+
+ skor kuartil I = (2 x jumlah item)
+
+ skor kuartil III = (4 x jumlah item)
+
+b. Jumlah skor untuk seluruh responden:
+
+ Maksimal = (jumlah responden x skor maksimal)
+
+ Minimal = (jumlah responden x skor minimal)
+
+ Median = (jumlah responden x skor median)
+
+ Kuartil I = (jumlah responden x skor kuartil I)
+
+ Kuartil III = (jumlah responden x skor kuartil III)
+
+c. Interpretasi jumlah skor tersebut adalah:
+
+ Kuartil  III  <  Skor  <  Maksimal,  artinya  sangat  positif  (program dinilai
+
+berhasil)
+
+ Median  <  Skor  <  Kuartil  III,  artinya  positif  (program  dinilai  cukup
+
+berhasil)
+
+ Kuartil  I  <  Skor  <  Median,  artinya  negatif  (program  dinilai  kurang
+
+berhasil)
+
+ Minimal < Skor < Kuartil I, artinya sangat negatif (program dinilai tidak
+
+berhasil)
+
+Gambar 2.3 Interpretasi Jumlah Skor
+
+
+
+41
+
+Gambar 3.7 Class Diagram
+
+
+
+BAB III
+
+METODOLOGI PENELITIAN
+
+3.1 Data Penelitian
+
+Data  penelitian  berupa  kumpulan  kasus  resep  masakan  nusantara  yang
+
+bersumber dari buku resep dan situs di internet. Data kasus yang dimaksud adalah
+
+bahan dan bumbu. Data kasus yang digunakan pada penelitian ini sebanyak 60
+
+kasus yang terdiri dari 20 kasus masakan kering, 20 kasus masakan basah dan 20
+
+kasus uji.
+
+3.2 Alat yang Dipergunakan
+
+3.2.1 Alat Penelitian
+
+a. Unified Modeling Language (UML)
+
+UML  digunakan  untuk  menggambarkan  batasan  sistem  dan  fungsi-fungsi
+
+sistem  secara  umum,  menggambarkan  kegiatan  atau  proses bisnis yang
+
+dilaksanakan  secara  umum,  menggambarkan  representasi  struktur statik
+
+sebuah  sistem. Diagram yang akan digunakan dalam pengembangan sistem
+
+ini adalah use case diagram, activity diagram, dan class diagram.
+
+b. Simple Matching Coefficient (SMC)
+
+SMC  merupakan  salah  satu  metode  perhitungan  yang  digunakan  untuk
+
+menghitung  tingkat  similaritas  dua  buah  objek  yang  bersifat  biner.  Pada
+
+penalaran berbasis kasus, SMC digunakan untuk membandingkan fitur-fitur
+
+yang terdapat pada basis kasus dengan fitur yang terdapat pada kasus baru.
+
+3.2.2 Perangkat Lunak
+
+Perangkat lunak yang digunakan dalam penelitian ini adalah:
+
+a. Sistem Operasi Windows 10 Pro, 64-bit
+
+b. XAMPP  Control  Panel  v3.2.2  sebagai  aplikasi  untuk  membangun  server
+
+lokal.
+
+c. PhpMyAdmin 4.7.4 sebagai pengelola basis data MySql
+
+d. Atom 1.29.0 sebagai aplikasi text editor
+
+e. Browser Google Chrome 68.0.3440.84 sebagai aplikasi browser
+
+f. Microsoft Visio 2013 sebagai aplikasi perancangan diagram alir 
+
+27
+
+
+
+28
+
+g. Astah Community 6.6.4 sebagai aplikasi untuk membuat UML.
+
+3.2.3 Perangkat Keras
+
+Perangkat  keras  yang  digunakan  untuk  merancang  aplikasi  yang  akan
+
+dibangun  adalah  satu  unit  laptop  ASUS  X450CC  dengan  spesifikasi  sebagai
+
+berikut :
+
+a. Processor Intel Core i3-3217U CPU @ 1.80GHz
+
+b. RAM 6GB
+
+3.3 Metode Penelitian
+
+3.3.1 Diagram Alir Penelitian
+
+Langkah-langkah penelitian yang dilakukan dapat dilihat pada Gambar 3.1
+
+berikut:
+
+Gambar 3.1 Diagram Alir Penelitian
+
+Dari  Gambar  3.1  dapat  dijelaskan  langkah-langkah  penelitian  yang
+
+dilakukan adalah sebagai berikut:
+
+a. Studi Literatur
+
+
+
+29
+
+Studi literatur dilakukan dengan mencari referensi ilmu pengetahuan yang
+
+berhubungan dengan sistem yang akan dibuat  seperti  referensi  tentang konsep
+
+penalaran berbasis kasus (CBR), metode  Similarity Simple Matching Coefficient
+
+(SMC),  serta  Unified  Modelling  Language (UML).  Referensi  yang  digunakan
+
+untuk penelitian ini yaitu referensi yang di unduh dari buku, jurnal, maupun situs
+
+di internet.
+
+b. Analisis Kebutuhan
+
+Pada tahapan ini dilakukan dengan menganalisis data-data apa saja yang
+
+diperlukan untuk membangun sistem. Data-data  yang diperlukan tersebut  yaitu
+
+bahan, bumbu, beserta resep lengkap yang dijadikan sebagai rekomendasi resep
+
+masakan kepada pengguna.
+
+c. Pengumpulan Data
+
+Pada  tahapan  ini  data-data  bahan,  bumbu  beserta  resep  lengkap
+
+dikumpulkan. Data tersebut didapat dari buku resep dan situs di internet. 
+
+d. Perancangan Sistem
+
+Perancangan  sistem  diawali  dengan  menentukan  fitur  berdasarkan  data
+
+kasus yang telah dilakukan pada tahapan sebelumnya. Fitur yang digunakan dalam
+
+menentukan  rekomendasi  resep  masakan  adalah  bahan  dan  bumbu.  Tahap
+
+selanjutnya  adalah  merancang  basis  data,  perancangan  sistem  dan  antarmuka
+
+sistem, serta  merancang  penerapan  konsep  Case  Based  Reasoning  (CBR) dan
+
+metode  similaritas Simple  Matching  Coefficient.  Perancangan  sistem
+
+menggunakan UML (Unified Modelling Language) untuk menggambarkan sistem
+
+yang akan dibangun yang terdiri dari perancangan use case diagram, perancangan
+
+activity diagram  dan perancangan class diagram.
+
+e. Pembuatan Perangkat Lunak
+
+Pada tahap ini  dilakukan pembuatan antarmuka  sistem dan pemrograman
+
+perangkat lunak  untuk menerapkan konsep  Case  Based  Reasoning  agar berjalan
+
+sesuai perencanaan. Sistem akan dibuat dengan bahasa pemrograman PHP dengan
+
+Laravel sebagai framework.
+
+f. Pengujian Sistem
+
+Pengujian sistem dilakukan dengan menggunakan metode pengujian Case
+
+Based  Reasoning yaitu  retrieve,  reuse,  revise  dan  retain yang  sering  dikenal
+
+dengan pengujian 4R, pengujian metode  similaritas Simple Matching Coefficient
+
+
+
+30
+
+dan  pengujian  kuesioner.  Pengujian  ini  dilakukan  bertujuan  untuk mengetahui
+
+seberapa layak metode ini dapat digunakan.
+
+g. Analisis Hasil Pengujian
+
+Analisis dilakukan untuk mengetahui kesesuaian perancangan sistem yang
+
+telah dibuat sebelumnya. Hasil analisis akan digunakan sebagai dasar penarikan
+
+kesimpulan.
+
+h. Penarikan Kesimpulan
+
+Kesimpulan  dirumuskan  berdasarkan  pengujian  yang  telah  dilakukan,
+
+mengenai  kemampuan  sistem  CBR  dalam  menentukan  rekomendasi  resep
+
+masakan dengan metode Simple Matching Coefficient.
+
+3.4 Perancangan Sistem
+
+Perancangan sistem dilakukan dengan bertahap, yaitu sebagai berikut :
+
+a. Perancangan desain arsitektur sistem pemilihan resep masakan
+
+Tahapan  desain  arsitektur  sistem  pemilihan  resep  masakan  menampilkan
+
+struktur-struktur  perangkat  lunak  yang  digunakan  dalam  membangun
+
+perangkat lunak sistem operasi.
+
+b. Perancangan basis kasus
+
+Tahapan  perancangan  basis  kasus  bertujuan  untuk  mendapatkan  fitur-fitur
+
+yang  digunakan  pengguna  untuk  memilih  bahan  dan  bumbu  dalam
+
+menentukan rekomendasi resep masakan.
+
+c. Perancangan diagram alir sistem pemilihan resep masakan
+
+Tahapan  perancangan  diagram  alir  sistem  pemilihan  resep  masakan
+
+menunjukkan diagram alir dari proses sistem secara keseluruhan. 
+
+d. Perancangan Unified Modeling Language (UML)
+
+Tahapan perancangan UML terdiri dari  use case diagram, activity diagram,
+
+dan class diagram.
+
+e. Perancangan basis data
+
+Tahapan perancangan basis data terdiri dari spesifikasi tabel basis data dan
+
+diagram hubungan antar tabel
+
+f. Perancangan antarmuka sistem
+
+Pada  tahap  ini  dilakukan  perancangan  struktur  antarmuka  sistem  serta
+
+perancangan layout dan komponen antarmuka sistem.
+
+
+
+31
+
+3.4.1 Perancangan Arsitektur Sistem Pemilihan Resep Masakan
+
+Adapun  arsitektur sistem pemilihan resep masakan yang akan dibangun
+
+dapat dilihat pada Gambar 3.2 berikut.
+
+Gambar 3.2 Arsitektur Sistem Pemilihan Resep Masakan
+
+Pada Gambar 3.2 di dalam aplikasi terdapat proses 4R dari metode Case
+
+Based  Reasoning  (CBR)  yaitu  proses  retrieve,  reuse,  revise,  dan  retain.
+
+Pengguna melakukan interaksi dengan meng-input-kan data kasus baru ke dalam
+
+aplikasi dan aplikasi akan memberikan hasil rekomendasi dari kasus yang paling
+
+mirip  dengan  kasus  baru  tersebut.  Interaksi  antara  database  dengan  aplikasi
+
+terjadi saat admin melakukan manajemen data yang terdapat di aplikasi.
+
+3.4.2 Perancangan Basis Kasus
+
+Berdasarkan  40 data  resep  masakan  nusantara yang  telah  dikumpulkan
+
+untuk disimpan di basis kasus, data tersebut di analisis sehingga mendapatkan 55
+
+fitur  yang  dibutuhkan  sebagai  pilihan  kepada  pengguna  dalam  menentukan
+
+rekomendasi resep masakan. Masing-masing fitur tersebut memiliki kode sesuai
+
+dengan kategori  bahan dan bumbu dimana kategori  tersebut  terdiri  dari  bahan
+
+kering, bumbu kering, bahan basah, bumbu basah, bahan kering basah dan bumbu
+
+kering basah. Fitur-fitur tersebut dapat dilihat pada Tabel 3.1.
+
+
+
+32
+
+Tabel 3.1  Fitur pada Aplikasi
+
+No Kode Kategori Fitur
+1 BAK01 Kering Air Kelapa
+2 BAK02 Kering Tepung Terigu
+3 BAK03 Kering Kacang Tanah
+4 BAK04 Kering Jeruk Limau
+5 BUK01 Kering Cabai Hijau Keriting
+6 BAB01 Basah Tepung Beras
+7 BAB02 Basah Tepung Maizena
+8 BAB03 Basah Susu Cair
+9 BAB04 Basah Saus Tomat
+10 BAB05 Basah Saus Sambal
+11 BAB06 Basah Saus Tiram
+12 BAB07 Basah Cuka
+13 BAB08 Basah Daun Kemangi
+14 BAB09 Basah Daun Bawang
+15 BAB10 Basah Seledri
+16 BAB11 Basah Daun Kucai
+17 BAB12 Basah Kentang
+18 BAB13 Basah Wortel
+19 BUB01 Basah Bawang Bombay
+20 BUB02 Basah Cabai Rawit Hijau
+21 BUB03 Basah Adas Manis
+22 BUB04 Basah Kayu Manis
+23 BUB05 Basah Cengkeh
+24 BUB06 Basah Bunga Pekak
+25 BUB07 Basah Kapulaga
+26 BUB08 Basah Daun Kunyit
+27 BAKB01 Kering Basah Santan
+28 BAKB02 Kering Basah Kelapa Parut
+29 BAKB03 Kering Basah Minyak Goreng
+30 BAKB04 Kering Basah Margarin
+31 BAKB05 Kering Basah Gula Merah
+32 BAKB06 Kering Basah Kecap Manis
+33 BAKB07 Kering Basah Terasi
+34 BAKB08 Kering Basah Jeruk Nipis
+35 BAKB09 Kering Basah Tomat Hijau
+36 BAKB10 Kering Basah Tomat Merah
+37 BUKB01 Kering Basah Bawang Putih
+38 BUKB02 Kering Basah Bawang Merah
+39 BUKB03 Kering Basah Cabai Merah Besar
+40 BUKB04 Kering Basah Cabai Merah Keriting
+41 BUKB05 Kering Basah Cabai Rawit Merah
+42 BUKB06 Kering Basah Kunyit
+
+
+
+33
+
+No Kode Kategori Fitur
+43 BUKB07 Kering Basah Jahe
+44 BUKB08 Kering Basah Kencur
+45 BUKB09 Kering Basah Lengkuas
+46 BUKB10 Kering Basah Merica
+47 BUKB11 Kering Basah Kemiri
+48 BUKB12 Kering Basah Ketumbar
+49 BUKB13 Kering Basah Jintan
+50 BUKB14 Kering Basah Pala
+51 BUKB15 Kering Basah Serai
+52 BUKB16 Kering Basah Asam Kandis
+53 BUKB17 Kering Basah Asam Jawa
+54 BUKB18 Kering Basah Daun Jeruk Purut
+55 BUKB19 Kering Basah Daun Salam
+
+3.4.3 Perancangan Diagram Alir Sistem Pemilihan Resep Masakan
+
+Berikut ini adalah diagram alir sistem pemilihan resep masakan yang akan
+
+dibangun dapat dilihat pada Gambar 3.3 berikut.
+
+
+
+34
+
+Gambar 3.3 Diagram Alir Sistem Pemilihan Resep Masakan
+
+Diagram alir  sistem pemilihan resep masakan pada Gambar 3.3 dimulai
+
+dengan  pilih  kategori  resep,  kemudian  input kasus  baru.  Sistem  melakukan
+
+perbandingan  kasus  baru  dengan  kasus  lama  (basis  kasus)  yang  tersimpan  di
+
+dalam database. Proses perbandingan ini akan menghasilkan nilai similaritas yang
+
+dihitung dengan metode Simple Matching Coefficient. Jika nilai similaritas  sama
+
+dengan 1, maka proses selesai. Jika nilai similaritas tidak sama dengan 1, maka
+
+kasus  baru  akan  disimpan  ke  dalam  tabel  kasus  baru.  Tabel  kasus  baru
+
+menyimpan seluruh data kasus baru yang telah di-input-kan ke dalam sistem yang
+
+mana data tersebut dapat diolah oleh admin. Admin dapat merevisi dan me-retain
+
+data  kasus  baru  agar  dapat  menjadi  basis  kasus.  Basis  kasus  akan  digunakan
+
+sistem sebagai acuan solusi atas kasus baru lainnya.
+
+3.4.4 Perancangan Unified Modeling Language (UML)
+
+UML yang digunakan pada penelitian ini adalah use case diagram, activity
+
+diagram, dan class diagram.
+
+3.4.4.1  Use Case Diagram
+
+
+
+35
+
+Use case diagram menggambarkan pemodelan untuk kegiatan (behavior)
+
+sistem yang akan  dibuat.  Sebuah  use  case  mempresentasikan  sebuah interaksi
+
+antara satu atau lebih aktor dengan sistem yang akan dibuat. Use case digunakan
+
+untuk mengetahui fungsi apa yang sudah ada didalam sebuah sistem dan siapa
+
+saja yang berhak menggunakan fungsi-fungsi itu.
+
+1. Definisi Aktor
+
+Berikut  adalah  deskripsi  pendefinisian aktor  pada  aplikasi pemilihan  resep
+
+masakan :
+
+a. Nama Aktor : Pengguna
+
+Pengguna merupakan masyarakat  umum yang berinteraksi  terhadap sistem
+
+dan melakukan seluruh aktifitas secara formal pada sistem yang ada dengan cara
+
+mengakses  website.  Interaksi  yang  dilakukan  oleh  pengguna  terhadap  sistem
+
+yaitu:  memilih  masakan  kering  atau  masakan  basah  untuk  mendapatkan
+
+rekomendasi  resep  masakan,  melihat  daftar  resep,  melihat  keterangan  bumbu,
+
+melihat tentang informasi umum pengembang aplikasi.
+
+b. Nama Aktor : Admin
+
+Admin  merupakan  seseorang  yang  memiliki  hak  akses  penuh  untuk
+
+memanajemen aplikasi secara keseluruhan. Interaksi yang dilakukan oleh admin
+
+terhadap  aplikasi yaitu : memanajemen basis kasus, memanajemen kasus baru,
+
+memanajemen resep, memanajemen admin dan mengubah bahan dan bumbu
+
+2. Deskripsi Use Case Diagram
+
+Berikut adalah deskripsi pendefinisian use case pada aplikasi pemilihan resep
+
+masakan :
+
+Tabel 3.2 Deskripsi Use Case Diagram
+
+Nama Usecase Keterangan
+
+Login Proses yang dilakukan admin agar dapat masuk
+
+ke dalam sistem.
+
+Logout Proses yang dilakukan admin agar dapat keluar
+
+ke dari sistem.
+
+Manajemen Admin Merupakan  proses  yang  didalamnya  terdapat
+
+proses  tambah  admin,  ubah  admin,  dan  hapus
+
+
+
+36
+
+admin.
+
+Manajemen Resep Merupakan  proses  yang  didalamnya  terdapat
+
+proses  tambah  resep,  ubah  resep,  dan  hapus
+
+resep.
+
+Manajemen Basis Kasus Merupakan  kumpulan  pilihan  proses  untuk
+
+mengatur  basis  kasus  yang  terdiri  dari  proses
+
+melihat atau mengubah data pengetahuan kasus.
+
+Manajemen Kasus Baru Merupakan  kumpulan  pilihan  proses  untuk
+
+mengatur  kasus  baru  yang  terdiri  dari  proses
+
+melihat data pengetahuan kasus baru, revisi data
+
+kasus  baru,  retain data  kasus  baru,  dan  hapus
+
+data kasus baru.
+
+Mengubah Bahan dan Bumbu Proses untuk mengubah data bahan dan bumbu.
+
+Melihat Beranda Proses untuk melihat beranda.
+
+Melihat Tentang Proses untuk melihat tentang aplikasi dan tentang
+
+pengembang aplikasi.
+
+Melihat Daftar Resep Proses untuk melihat daftar resep.
+
+Memilih Masakan Kering Merupakan  proses  yang  didalamnya  terdapat
+
+proses  memilih  bahan  dan  bumbu  masakan
+
+kering.
+
+Memilih Masakan Basah Merupakan  proses  yang  didalamnya  terdapat
+
+proses  memilih  bahan  dan  bumbu  masakan
+
+basah.
+
+Melihat Keterangan Bumbu Proses untuk melihat keterangan bumbu.
+
+3. Use Case Diagram
+
+Deskripsi use case diagram dalam aplikasi dapat dilihat pada Gambar 3.4.
+
+
+
+37
+
+Gambar 3.4 Use Case Diagram
+
+Pada Gambar 3.4, dapat dilihat bahwa pengguna dapat melihat beranda,
+
+melihat tentang, melihat daftar resep, memilih masakan kering kemudian memilih
+
+bahan dan bumbu masakan kering,  memilih masakan basah kemudian memilih
+
+bahan dan bumbu masakan basah,  dan  melihat  keterangan  bumbu.  Sedangkan
+
+tugas admin yaitu dapat memanajemen admin seperti tambah admin, ubah admin,
+
+dan  hapus  admin;  memanajemen  resep  seperti  tambah  resep,  ubah  resep,  dan
+
+hapus  resep;  memanajemen  basis  kasus seperti  melihat  atau  mengubah  data
+
+pengetahuan; memanajemen kasus baru seperti  melihat data pengetahuan kasus
+
+
+
+38
+
+baru, melakukan revisi data kasus baru, melakukan retain data kasus baru, dan
+
+hapus data kasus baru; serta mengubah bahan dan bumbu. Semua tugas tersebut
+
+hanya dapat dilakukan melalui proses login dan menekan tombol logout jika ingin
+
+keluar dari aplikasi.
+
+3.4.4.2  Activity Diagram
+
+Activity diagram menggambarkan alur kerja pada sistem yang bertujuan
+
+untuk  melihat  alur  proses  sistem  secara  bertahap.  Activity  diagram dibuat
+
+berdasarkan sebuah atau beberapa use case pada use case diagram.
+
+1. Activity Diagram Rekomendasi Resep
+
+Pengguna  memilih  menu  masakan  basah  atau  kering  kemudian  aplikasi
+
+menampilkan  halaman  bahan  dan  bumbu  masakan  yang  dipilih.  Selanjutnya
+
+pengguna  memilih  bahan  dan  bumbu  masakan  berdasarkan  kategori  untuk
+
+mendapatkan rekomendasi resep lalu menekan tombol cari.  Setelah itu aplikasi
+
+melakukan tahap proses penalaran berbasis kasus yaitu retrieve dan reuse.
+
+Berikut ini activity diagram rekomendasi resep pada Gambar 3.5.
+
+
+
+39
+
+Gambar 3.5 Activity Diagram Rekomendasi Resep
+
+2. Activity Diagram Kasus Baru
+
+Pada  activity diagram ini,  admin  memilih  menu  kasus  baru  lalu  aplikasi
+
+menampilkan halaman kasus baru. Selanjutnya admin dapat memilih data kasus
+
+baru,  lalu  admin memilih  button  pengetahuan  untuk melihat  data  pengetahuan
+
+kasus  baru.  Selanjutnya  jika admin  memilih  button  hapus,  maka  sistem  akan
+
+menghapus  data  kasus  baru,  jika  tidak,  maka  admin  membuat  pilihan  untuk
+
+memilih  button  retain.  Jika  admin  memilih  button  retain,  maka  aplikasi
+
+menyimpan  data  dari  kasus  baru  ke  basis  kasus.  Jika  tidak,  maka  admin
+
+melakukan revisi data kasus baru dengan cara memilih button revisi, kemudian
+
+
+
+40
+
+aplikasi menyimpan revisi kasus baru tersebut, dan admin dapat melakukan retain
+
+kasus  baru  yang  telah  di  revisi  pada  tombol  retain,  kemudian  aplikasi  akan
+
+menyimpan data dari kasus baru ke basis kasus..Berikut ini activity diagram kasus
+
+baru pada Gambar 3.6.
+
+Gambar 3.6 Activity Diagram Kasus Baru
+
+3.4.4.3  Class Diagram
+
+Class  diagram digunakan  untuk  menggambarkan  perancangan  struktur
+
+kelas-kelas dan hubungannya antara satu dengan yang lain, serta memiliki atribut
+
+dan operasi yang terdapat dalam sistem yang akan dibuat. 
+
+Class Diagram dari  aplikasi pemilihan resep masakan dapat dilihat pada
+
+Gambar 3.7.
+
+
+
+41
+
+KOSONG BUAT CLASS PAKAI A3
+
+Berdasarkan Gambar 3.7, dapat diketahui bahwa Aplikasi Pemilihan Resep
+
+memiliki  16  class,  yaitu  MasakanKeringController,  MasakanBasahController,
+
+PengetahuanController,  BasisKasusController,  BahanBumbuController,
+
+KasusBaruController,  PengetahuanBaruController,  ResepBaruController,
+
+
+
+42
+
+ResepController,  HomeController,  LoginController,  WelcomeController,
+
+AboutController, ListResepController, KeteranganBumbuController.
+
+WelcomeController,  About  Controller,  ListResepController  dan
+
+KeteranganBumbuController  merupakan  class yang  digunakan  untuk
+
+menampilkan halaman depan aplikasi yang dapat diakses oleh pengguna.
+
+Class LoginController  digunakan untuk proses  Admin masuk ke dalam
+
+admin  panel  untuk  mengelola  aplikasi.  Class  LoginController  mengarahkan
+
+admin  menuju  class HomeController  dimana  class ini  menampilkan  halaman
+
+beranda admin panel.
+
+Objek yang berupa bahan bumbu di  class MasakanKeringController dan
+
+MasakanBasahController  hasil  inputan  pengguna  dicocokkan  menggunakan
+
+fungsi   yang  terdapat  di  class PengetahuanBaruController.  Fungsi  tersebut
+
+mencocokkan objek yang terdapat  di  class BasisKasusController,  dimana  class
+
+BasisKasusController  memiliki  objek  yang  berasal  dari  class
+
+PengetahuanController,  class ResepController dan class BahanBumbuController.
+
+Pada  class PengetahuanBaruController,  sistem  mencari  nilai  similaritas  objek,
+
+agar  dapat  menghasilkan  output  resep masakan yang memiliki  nilai  similaritas
+
+yang  paling  tinggi  dan  digunakan  sebagai  rekomendasi  resep  masakan.  Objek
+
+berupa resep masakan yang memiliki nilai similaritas yang paling tinggi, masuk
+
+kedalam  class KasusBaruController.  Objek tersebut selanjutnya dapat di revisi.
+
+Hasil  revisi  objek  tersebut,  di  proses  pada  class ResepBaruController.  Setelah
+
+direvisi, objek tersebut di retain dan tersimpan kedalam class ResepController.
+
+3.4.5 Perancangan Basis Data
+
+3.4.5.1 Spesifikasi Tabel Basis Data
+
+Sistem ini memiliki 6 tabel, yang dapat dilihat pada rincian berikut.
+
+a. Spesifikasi Tabel Admin
+
+Nama database : resepmasakan
+
+Nama tabel : users
+
+Keterangan : tabel admin
+
+
+
+43
+
+Tabel 3.3 Spesifikasi Tabel Admin
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id Int Tidak Primary key
+Name Varchar Tidak
+Email Varchar Tidak
+password Varchar Tidak
+remember_token Varchar Boleh
+created_at Timestamp Boleh
+updated_at Timestamp Boleh
+
+b. Spesifikasi Tabel Bahan dan Bumbu
+
+Nama database : resepmasakan
+
+Nama tabel : tbbahanbumbus
+
+Keterangan : tabel bahan dan bumbu
+
+Tabel 3.4 Spesifikasi Tabel Bahan dan Bumbu
+
+Nama Field Tipe Boleh Kosong Keterangan
+id_bahanbumbu Int Tidak Primary key
+kode_bahanbumbu Varchar Tidak
+nama_bahanbumbu Varchar Tidak
+kategori_bahanjenis Varchar Tidak
+Gambar Varchar Boleh
+keterangan Text Boleh
+kategori_bahanbumbu Varchar Tidak
+created_at Timestamp Boleh
+updated_at Timestamp Boleh
+
+c. Spesifikasi Tabel Resep
+
+Nama database : resepmasakan
+
+Nama tabel : tbreseps
+
+Keterangan : tabel resep
+
+Tabel 3.5 Spesifikasi Tabel Resep
+
+Nama Field Tipe Boleh Kosong Keterangan
+id_resep Int Tidak Primary key
+kategori_resepkeringbasa
+h
+
+Varchar Tidak
+
+nama_resep Varchar Tidak
+
+
+
+44
+
+Nama Field Tipe Boleh Kosong Keterangan
+bahanbumbu_lengkap Text Boleh
+cara_membuat Text Boleh
+Gambar Varchar Boleh
+created_at Timestamp Boleh
+updated_at Timestamp Boleh
+
+d. Spesifikasi Tabel Resep Baru
+
+Nama database : resepmasakan
+
+Nama tabel : tbresepbarus
+
+Keterangan : tabel resep baru
+
+Tabel 3.6 Spesifikasi Tabel Resep Baru
+
+Nama Field Tipe Boleh Kosong Keterangan
+id_resepbaru Int Tidak Primary key
+resep_id Int Boleh Foreign key
+kategori_resepkeringbasa
+h
+
+Varchar Tidak
+
+nama_resep Varchar Tidak
+bahanbumbu_lengkap Text Boleh
+cara_membuat Text Boleh
+Gambar Varchar Boleh
+Similaritas Double Boleh
+created_at Timestamp Boleh
+updated_at Timestamp Boleh
+
+e. Spesifikasi Tabel Basis Kasus
+
+Nama database : resepmasakan
+
+Nama tabel : tbbasiskasuses
+
+Keterangan : tabel basis kasus
+
+Tabel 3.7 Spesifikasi Tabel Basis Kasus
+
+Nama Field Tipe Boleh Kosong Keterangan
+id_basiskasus Int Tidak Primary key
+resep _id Int Tidak Foreign key
+bahanbumbu_id Int Tidak Foreign key
+
+
+
+45
+
+Nama Field Tipe Boleh Kosong Keterangan
+Nilai Int Tidak
+created_at Timestamp Boleh
+updated_at Timestamp Boleh
+
+f. Spesifikasi Tabel Kasus Baru
+
+Nama database : resepmasakan
+
+Nama tabel : tbkasusbarus
+
+Keterangan : tabel kasus baru
+
+Tabel 3.8 Spesifikasi Tabel Kasus Baru
+
+Nama Field Tipe Boleh Kosong Keterangan
+id_kasusbaru Int Tidak Primary key
+resepbaru _id Int Tidak Foreign key
+bahanbumbu_id Int Tidak Foreign key
+Nilai Int Tidak
+created_at Timestamp Boleh
+updated_at Timestamp Boleh
+
+3.4.5.2 Diagram Hubungan Antar Tabel
+
+Berikut ini adalah relasi antar tabel dalam perancangan sistem yang dibuat
+
+pada Gambar 3.8
+
+
+
+46
+
+Gambar 3.8 Relasi Antar Tabel
+
+Gambar 3.8 merupakan relasi antar tabel, pada kolom id_bahanbumbu dari
+
+tabel  tbbahanbumbus  memiliki  hubungan  one  to  many dengan  kolom
+
+bahanbumbu_id  dari  tabel  tbkasusbarus  dan  memiliki  hubungan  one to  many
+
+dengan  kolom  bahanbumbu_id  dari  tabel  tbbasiskasuses.  Pada  kolom
+
+id_resepbaru memiliki hubungan one to one dengan kolom resepbaru_id dari tabel
+
+tbkasusbarus. Selanjutnya, kolom id_resep pada tabel tbreseps memiliki hubungan
+
+one  to  one dengan  kolom  resep_id  dari  tabel  tbbasiskasuses,  dan   memiliki
+
+hubungan one to one  dengan kolom resep_id dari tabel tbresepbarus.
+
+3.4.6 Perancangan Antarmuka Aplikasi
+
+Merancang  antarmuka  merupakan  bagian  yang  paling  penting  dari
+
+merancang suatu aplikasi.  Merancang antarmuka bertujuan untuk memudahkan
+
+pembaca dalam mengetahui gambaran tentang aplikasi yang akan dibangun.
+
+3.4.6.1  Perancangan Struktur Antarmuka Aplikasi
+
+
+
+47
+
+Antarmuka  aplikasi dirancang  memiliki  fungsi  tertentu  sesuai  dengan
+
+proses-proses  yang  ada.  Struktur  antarmuka  aplikasi yang  dirancang  sebagai
+
+berikut.
+
+1. Halaman Utama Pengguna
+
+Halaman utama pengguna merupakan tampilan awal website. Pengguna dapat
+
+mengakses halaman lain melalui menu halaman ini.
+
+2. Halaman Login
+
+Halaman ini berisi halaman login untuk masuk ke halaman utama admin.
+
+3. Halaman Utama Admin
+
+Halaman utama admin merupakan tampilan awal pada  website dengan hak
+
+akses sebagai admin.  Admin dapat  mengakses  halaman lain melalui  menu
+
+halaman ini.
+
+Rancangan  struktur  antarmuka  aplikasi untuk  pengguna  tampak  seperti
+
+Gambar 3.9 berikut.
+
+Gambar 3.9 Struktur Antarmuka Aplikasi untuk Pengguna
+
+Penjelasan  Gambar  3.9 bahwa  pengguna  dapat  langsung  mengakses
+
+berbagai  halaman  yang  tersedia,  yaitu  halaman  beranda,  halaman  pilih  resep,
+
+halaman tentang aplikasi dan pengembang aplikasi, halaman daftar resep, halaman
+
+masakan  kering,  halaman  masakan  basah,  halaman  rekomendasi  resep,  serta
+
+halaman keterangan bumbu.
+
+Rancangan  struktur  antarmuka  aplikasi untuk  admin tampak  seperti
+
+Gambar 3.10 berikut.
+
+
+
+48
+
+Gambar 3.10 Struktur Antarmuka Aplikasi untuk Admin
+
+Penjelasan  Gambar  3.10  bahwa  setelah  login,  admin  dapat  mengakses
+
+halaman khusus  admin yaitu  halaman beranda admin,  halaman resep,  halaman
+
+basis kasus, halaman kasus baru, serta halaman bahan dan bumbu. Setelah selesai,
+
+admin dapat logout dari aplikasi.
+
+3.4.6.2  Perancangan Layout Aplikasi
+
+Tabel 3.9 Perancangan layout aplikasi
+
+
+
+49
+
+Form Antarmuka Keterangan
+
+B
+er
+
+a
+n
+
+d
+a
+
+ Ketika  aplikasi
+dijalankan,
+halaman  yang
+dilihat  pertama
+kali  yaitu
+halaman beranda.
+
+ Terdapat  menu
+beranda,  tentang,
+daftar resep, jenis
+resep,  keterangan
+bumbu,  dan
+button coba.
+
+ Ketika  button
+pilih  resep  di
+tekan, maka akan
+muncul  tampilan
+seperti  pada
+gambar (2). 
+
+ Tampil  ketika
+pengguna
+menekan  button
+pilih  resep  pada
+halaman beranda.
+
+ Ketika  tombol
+resep  kering  atau
+resep  basah
+ditekan,  maka
+akan  muncul
+tampilan  seperti
+gambar (5).
+
+T
+en
+
+ta
+n
+
+g
+
+ Tampil  ketika
+pengguna
+mengakses
+halaman tentang.
+
+ Terdapat  gambar
+beserta
+keterangan
+tentang  aplikasi
+yang  dibuat  dan
+tentang
+pengembang
+aplikasi. 
+
+
+
+50
+
+Form Antarmuka Keterangan
+
+D
+a
+ft
+
+a
+r 
+
+R
+es
+
+ep
+ Tampilan  ketika
+
+pengguna
+memilih  menu
+daftar resep.
+
+ Terdapat  gambar,
+nama  resep
+masakan  dan
+tombol  resep
+lengkap.
+
+ Terdapat  daftar
+resep  terbaru
+yang  terletak  di
+sebelah kanan.
+
+M
+a
+sa
+
+k
+a
+n
+
+ K
+er
+
+in
+g
+/ 
+
+M
+a
+sa
+
+k
+an
+
+B
+a
+sa
+
+h
+
+ Tampilan  ketika
+pengguna
+memilih  menu
+masakan  kering/
+masakan basah.
+
+ Pengguna  dapat
+memilih  bahan
+dan bumbu . Dan
+jika  telah  selesai,
+pengguna
+menekan  button
+Cari. 
+
+R
+ek
+
+o
+m
+
+en
+d
+
+as
+i 
+
+M
+a
+sa
+
+k
+a
+n
+
+ Tampilan  ketika
+pengguna
+menekan  button
+Cari. 
+
+ Terdapat nama,
+persentase
+kemiripan,
+gambar,
+rekomendasi
+resep masakan 
+
+ Pengguna  dapat
+menekan  tombol
+resep  lengkap
+untuk  melihat
+resep lengkap.
+
+
+
+51
+
+Form Antarmuka Keterangan
+
+K
+et
+
+er
+a
+n
+
+g
+a
+n
+
+ B
+u
+
+m
+b
+
+u
+ Tampilan  ketika
+
+pengguna
+memilih  menu
+keterangan
+bumbu.
+
+ Terdapat gambar,
+nama,  serta
+keterangan
+bumbu.
+
+A
+d
+
+m
+in
+
+ L
+o
+
+g
+in
+
+ Tampilan  ketika
+pengguna
+mengakses
+halaman  login
+pada admin.
+
+ Ketika  admin
+menekan  tombol
+login,  maka  akan
+muncul  gambar
+(2).
+
+
+
+52
+
+Form Antarmuka Keterangan
+
+B
+er
+
+a
+n
+
+d
+a
+ A
+
+d
+m
+
+in
+ Tampilan  ketika
+
+pengguna  telah
+melakukan  login.
+Halaman  pertama
+yang  akan
+ditampilkan
+adalah  halaman
+dashboard.
+
+ Terdapat  total
+data  resep  dan
+total  data  bahan
+dan  bumbu  di
+dalam aplikasi.
+
+ Ketika  pengguna
+menekan  tombol
+logout,  maka
+akan  muncul
+gambar  (1)  yaitu
+halaman login.
+
+ Pengguna  dapat
+menekan  tombol
+tambah  data,  dan
+akan
+menampilkan
+gambar (3).
+
+ Pengguna  dapat
+menekan  tombol
+edit  dan  akan
+menampilkan
+gambar (4).
+
+ Pengguna  dapat
+menekan  tombol
+hapus  dan  akan
+menampilkan
+gambar (5).
+
+
+
+53
+
+Form Antarmuka Keterangan
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+tambah  data di
+form  Beranda
+Admin.
+
+ Terdapat  kolom
+nama  email  dan
+password.
+
+ Pengguna  dapat
+menambahkan
+data  admin yang
+baru  melalui
+halaman  ini
+dengan  mengisi
+semua  data  yang
+diminta dan
+menekan  tombol
+simpan.
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+edit data di Form
+Beranda Admin.
+
+ Terdapat  kolom
+nama  email  dan
+password.
+
+ Pengguna  dapat
+mengubah data
+admin melalui
+halaman  ini
+dengan  mengisi
+data  yang  ingin
+dirubah  dan
+menekan  tombol
+simpan.
+
+
+
+54
+
+Form Antarmuka Keterangan
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+hapus  data di
+Form  Beranda
+Admin.
+
+ Pengguna  dapat
+memilih  hapus
+jika  yakin  data
+akan dihapus, dan
+dapat  memilih
+batal jika  data
+tidak  ingin
+dihapus.
+
+R
+es
+
+ep
+ A
+
+d
+m
+
+in
+
+ Tampilan  ketika
+pengguna
+memilih  menu
+resep.
+
+ Terdapat  table
+yang  berisi
+kategori  resep,
+nama  resep,
+bahan  bumbu
+lengkap,  cara
+membuat  dan
+gambar.
+
+ Pengguna  dapat
+menekan  tombol
+tambah  data,  dan
+akan
+menampilkan
+gambar (2).
+
+ Pengguna  dapat
+menekan  tombol
+edit  dan  akan
+menampilkan
+gambar (3).
+
+ Pengguna  dapat
+menekan  tombol
+hapus  dan  akan
+menampilkan
+gambar (4).
+
+
+
+55
+
+Form Antarmuka Keterangan
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+tambah  data di
+form  Resep
+Admin.
+
+ Terdapat  kolom
+kategori  resep,
+nam resep, bahan
+bumbu  lengkap,
+cara  memasak,
+dan gambar.
+
+ Pengguna  dapat
+menambahkan
+data  resep yang
+baru  melalui
+halaman  ini
+dengan  mengisi
+semua  data  yang
+diminta dan
+menekan  tombol
+simpan.
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+edit data di  form
+Resep Admin.
+
+ Terdapat  kolom
+kategori  resep,
+nama  resep,
+bahan  bumbu
+lengkap,  cara
+memasak,  dan
+gambar.
+
+ Pengguna  dapat
+mengubah data
+resep melalui
+halaman  ini
+dengan  mengisi
+data  yang  ingin
+dirubah  dan
+menekan  tombol
+simpan.
+
+
+
+56
+
+Form Antarmuka Keterangan
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+hapus  data di
+Form  Resep
+Admin.
+
+ Pengguna  dapat
+memilih  hapus
+jika  yakin  data
+akan dihapus, dan
+dapat  memilih
+batal jika  data
+tidak  ingin
+dihapus.
+
+B
+a
+si
+
+s 
+K
+
+a
+su
+
+s 
+A
+
+d
+m
+
+in
+
+ Tampilan  ketika
+pengguna
+memilih  menu
+basis kasus.
+
+ Terdapat  table
+yang  berisi
+kategori  resep
+dan nama resep.
+
+ Pengguna  dapat
+menekan  tombol
+pengetahuan dan
+akan
+menampilkan
+gambar (2).
+
+
+
+57
+
+Form Antarmuka Keterangan
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+pengetahuan  di
+form Basis Kasus
+Admin.
+
+ Terdapat  daftar
+checkbox  yang
+berisi  kode  dan
+bahan  bumbu
+yang  terdapat
+didalam aplikasi.
+
+ Pengguna  dapat
+mencentang
+ataupun
+menghilangkan
+centang  pada
+daftar  checkbox
+dan  menekan
+tombol  update
+pengetahuan
+untuk  merubah
+data pengetahuan.
+
+
+
+58
+
+Form Antarmuka Keterangan
+
+K
+a
+su
+
+s 
+B
+
+a
+ru
+
+ A
+d
+
+m
+in
+
+ Tampilan  ketika
+pengguna
+memilih  menu
+kasus baru.
+
+ Terdapat  table
+yang  berisi
+kategori  kasus,
+nama  kasus,
+similaritas  dan
+kemiripan
+terhadap resep.
+
+ Pengguna  dapat
+menekan  tombol
+pengetahuan dan
+akan
+menampilkan
+gambar (2).
+
+ Pengguna  dapat
+menekan  tombol
+revisi dan  akan
+menampilkan
+gambar (3).
+
+ Pengguna  dapat
+menekan  tombol
+hapus  dan  akan
+menampilkan
+gambar (4).
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+pengetahuan  di
+form Kasus  Baru
+Admin.
+
+ Terdapat  daftar
+checkbox  yang
+berisi  kode  dan
+bahan  bumbu
+yang  terdapat
+didalam aplikasi.
+
+
+
+59
+
+Form Antarmuka Keterangan
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+revisi  di  form
+Kasus  Baru
+Admin.
+
+ Terdapat  kolom
+kategori  resep,
+nama  resep,
+Bahan  bumbu
+lengkap,  cara
+memasak,  dan
+gambar.
+
+ Pengguna  dapat
+merevisi data
+kasus  baru
+melalui  halaman
+ini  dengan
+mengisi data yang
+ingin dirubah dan
+menekan  tombol
+simpan.
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+hapus  data di
+Form Kasus Baru
+Admin.
+
+ Pengguna  dapat
+memilih  hapus
+jika  yakin  data
+akan dihapus, dan
+dapat  memilih
+batal jika  data
+tidak  ingin
+dihapus.
+
+
+
+60
+
+Form Antarmuka Keterangan
+
+B
+a
+h
+
+a
+n
+
+ d
+an
+
+ B
+u
+
+m
+b
+
+u
+ A
+
+d
+m
+
+in
+ Tampilan  ketika
+
+pengguna
+memilih  menu
+bahan  dan
+bumbu.
+
+ Terdapat  table
+yang  berisi  kode,
+nama, jenis bahan
+bumbu,
+keterangan,
+kategori  bahan &
+bumbu  dan
+gambar.
+
+ Pengguna  dapat
+menekan  tombol
+edit  dan  akan
+menampilkan
+gambar (2).
+
+ Tampil  ketika
+pengguna
+menekan  tombol
+edit  di  form
+Bahan  dan
+Bumbu Admin.
+
+ Terdapat  kolom
+kategori  bahan
+dan bumbu, kode,
+nama,  kategori
+jenis  bahan  dan
+bumbu,
+keterangan  dan
+gambar.
+
+ Pengguna  dapat
+merubah data
+bahan dan bumbu
+melalui  halaman
+ini  dengan
+mengisi data yang
+ingin dirubah dan
+menekan  tombol
+simpan.
+
+3.4.7 Perancangan Pengujian
+
+Berdasarkan 60 kasus resep masakan nusantara yang telah dikumpulkan,
+
+40 kasus resep masakan nusantara akan di-input-kan ke dalam basis kasus, yang
+
+
+
+61
+
+terdiri dari 20 kasus resep masakan kering, 20 kasus resep masakan basah, dan 20
+
+kasus uji yang digunakan sebagai  input-an untuk pengujian tahapan CBR. Data
+
+kasus uji berupa resep masakan nusantara diperoleh dari buku resep masakan yang
+
+diambil  secara  acak.  Sistem akan  diuji  dengan pengujian  tahapan  Case Based
+
+Reasoning dan pengujian kuesioner. Adapun pengujian sistem sebagai berikut :
+
+Tabel 3.10 Data Kasus yang akan Diuji
+
+No Nama
+
+Kasus
+
+Kategori
+
+Masakan
+
+Bahan dan Bumbu
+
+1 Kasus 1 Masakan
+
+kering
+
+Santan, daun jeruk purut, serai,  lengkuas, daun
+
+salam, asam jawa, bawang merah, bawang putih,
+
+kemiri, ketumbar, jahe, cabai merah besar, kecap
+
+manis, cabai rawit merah, jeruk limau. 
+
+2 Kasus 2 Masakan
+
+basah
+
+Serai,  daun  jeruk  purut,  asam  jawa,  santan,
+
+lengkuas,  minyak  goreng,  bawang putih,  cabai
+
+merah besar,  bawang merah,  ketumbar,  kunyit,
+
+kemiri.
+
+3 Kasus 3 Masakan
+
+basah
+
+Bawang  bombay,  cabai  merah  besar,  tomat
+
+merah,  gula  merah,  minyak  goreng,  bawang
+
+merah, bawang putih, cabai merah besar, jahe.
+
+4 Kasus 4 Masakan
+
+basah
+
+Lengkuas,  daun  salam,  bawang  merah,  cabai
+
+rawit  merah,  kecap  manis,  minyak  goreng,
+
+bawang putih, ketumbar, jahe, merica.
+
+5 Kasus 5 Masakan
+
+basah
+
+Bunga  pekak,  kayu  manis,  cengkeh,  kecap
+
+manis,  minyak  goreng,  asam  jawa,  bawang
+
+merah,  bawang  putih,  jahe,  merica,  pala,
+
+kapulaga.
+
+6 Kasus 6 Masakan
+
+basah
+
+Bawang merah, cabai rawit merah, cabai merah
+
+keriting, serai, cuka, bawang putih, merica, jahe,
+
+kunyit, kemiri.
+
+7 Kasus 7 Masakan
+
+basah
+
+Ketumbar,  lengkuas,  daun  salam,  minyak
+
+goreng, cabai merah keriting, cabai rawit merah,
+
+bawang merah, bawang putih, terasi, asam jawa.
+
+8 Kasus 8 Masakan
+
+basah
+
+Cabai  merah  besar,  merica,  daun  jeruk  purut,
+
+saus tomat, saus sambal, bawang merah, bawang
+
+
+
+62
+
+No Nama
+
+Kasus
+
+Kategori
+
+Masakan
+
+Bahan dan Bumbu
+
+putih.
+
+9 Kasus 9 Masakan
+
+basah
+
+Jeruk nipis, minyak goreng, tomat merah, daun
+kemangi,  kunyit,  jahe,  lengkuas,  serai,  bawang
+merah, cabai merah keriting.
+
+10 Kasus 10 Masakan
+
+basah
+
+Santan, serai,  lengkuas, jahe,  daun jeruk purut,
+daun  salam,  cabai  merah  besar,  cabai  merah
+keriting,  kemiri,  bawang merah,  bawang putih,
+tomat merah.
+
+11 Kasus 11 Masakan
+
+basah
+
+Jeruk nipis, tomat hijau, bawang merah, bawang
+putih, merica, jahe, serai, daun jeruk purut, cabai
+rawit merah, daun kemangi.
+
+12 Kasus 12 Masakan
+
+basah
+
+Minyak  goreng,  jeruk  nipis,  cabai  merah
+keriting,  bawang merah,  bawang putih,  kemiri,
+jahe, kunyit, serai, daun kunyit, daun jeruk, daun
+salam, asam kandis, lengkuas.
+
+13 Kasus 13 Masakan
+
+basah
+
+Kecap  manis,  cabai  rawit  hijau,  cabai  merah
+keriting,  bawang  merah,  bawang  putih,  serai,
+daun salam, lengkuas, asam jawa.
+
+14 Kasus 14 Masakan
+
+kering
+
+Daun salam, lengkuas, serai, gula merah, santan,
+air kelapa, bawang merah, bawang putih, kemiri,
+ketumbar,  jintan,  cabai  merah  keriting,  terasi,
+jeruk limau, gula merah.
+
+15 Kasus 15 Masakan
+
+kering
+
+Jeruk nipis, minyak goreng, serai, asam kandis,
+daun  jeruk  purut,  daun  salam,  santan,  bawang
+merah,  bawang  putih,  kemiri,  cabai  merah
+keriting, jahe, lengkuas, kunyit, merica.
+
+16 Kasus 16 Masakan
+
+kering
+
+Lengkuas, daun salam, daun jeruk purut, tomat
+merah,  kecap  manis,  minyak  goreng,  cabai
+merah  keriting,  bawang  merah,  bawang  putih,
+jahe, kemiri, terasi.
+
+17 Kasus 17 Masakan
+
+kering
+
+Lengkuas,  jahe,  kunyit,  tomat  merah,  cabai
+merah  keriting,  bawang  merah,  bawang  putih,
+daun jeruk purut, minyak goreng, kecap manis,
+kencur, ketumbar, gula merah.
+
+18 Kasus 18 Masakan
+
+kering
+
+Jeruk nipis, minyak goreng, cabai hijau keriting,
+bawang merah, tomat hijau, bawang putih
+
+19 Kasus 19 Masakan
+
+kering
+
+Santan, daun salam, lengkuas, serai, daun jeruk
+purut, jahe, cabai merah keriting, bawang putih,
+
+
+
+63
+
+No Nama
+
+Kasus
+
+Kategori
+
+Masakan
+
+Bahan dan Bumbu
+
+bawang merah, kemiri, kunyit, ketumbar
+
+20 Kasus 20 Masakan
+
+kering
+
+Gula  merah,  minyak  goreng,  cabai  merah
+keriting,  bawang  merah,  bawang  putih,  daun
+jeruk purut, daun salam, lengkuas, asam jawa
+
+3.4.7.1 Pengujian Tahapan Case Based Reasoning (CBR)
+
+Pada  tahapan  Case  Based  Reasoning ini  akan  dilakukan  pengecekkan
+
+apakah sistem yang dibangun dapat melakukan keseluruhan tahapan Case Based
+
+Reasoning  yaitu  tahapan  retrieve,  tahapan reuse,  tahapan revise,  dan  tahapan
+
+retain.
+
+a. Pengujian Tahapan Retrieve
+
+Pengujian  tahapan  retrieve  dilakukan  dengan  pencarian  dan  mendapatkan
+
+kasus-kasus dalam basis  kasus yang mirip dengan kasus baru.  Kasus baru
+
+tersebut didapatkan berdasarkan data kasus yang terdapat pada Tabel 3.10.
+
+Berikut  merupakan  hasil  dari  pengujian  tahapan  retrieve  dengan
+
+menggunakan data Kasus 1.
+
+Tabel 3.11  Hasil Pengujian Tahapan Retrieve
+
+No Kasus Similarita
+s
+
+Kasus Mirip
+
+1 Kasus 1
+
+Tabel pengujian terdiri dari 3 kolom, yaitu:
+
+1. Kolom kasus berisi kasus yang akan dilakukan pengujian terhadap sistem.
+
+2. Kolom similaritas berisi nilai similaritas kasus baru terhadap kasus lama.
+
+3. Kolom kasus  mirip  berisi  nomor  kasus  lama  yang  similaritas  terhadap
+
+kasus baru.
+
+b. Pengujian Tahapan Reuse
+
+Pengujian tahapan  reuse  dilakukan dengan mencari solusi dari kasus serupa
+
+pada kondisi sebelumnya untuk permasalahan baru.
+
+c. Pengujian Tahapan Revise
+
+
+
+64
+
+Pengujian  tahapan  revise  dilakukan  dengan  meninjau  kembali  untuk
+
+perbaikan  data  hasil  rekomendasi  resep.  Kasus  yang  ada  ditinjau  kembali
+
+nama resep, cara memasak, bahan bumbu lengkap, serta gambar.
+
+d. Pengujian Tahapan Retain
+
+Pengujian tahapan retain dilakukan dengan memindahkan data kasus baru ke
+
+basis kasus. 
+
+Kemudian perhitungan similaritas dilakukan oleh sistem menggunakan 20
+
+kasus  uji  (kasus  baru)  terhadap kasus  lama  (basis  kasus) yang  data  hasil
+
+perhitungan  similaritas  tersebut  akan  dirangkum  pada  sebuah  tabel.  Adapun
+
+rancangan tabel tersebut dapat dilihat pada Tabel 3.12.
+
+Tabel 3.12  Hasil Pengujian Metode Simple Matching Coefficient
+
+No Kasus Similaritas Kasus Mirip
+
+1 Kasus 1
+
+2 Kasus 2
+
+Tabel pengujian terdiri dari 3 kolom, yaitu:
+
+1. Kolom kasus berisi kasus yang akan dilakukan pengujian terhadap sistem.
+
+2. Kolom similaritas berisi nilai similaritas kasus baru terhadap kasus lama.
+
+3. Kolom kasus  mirip berisi nomor kasus lama yang similaritas terhadap kasus
+
+baru.
+
+3.4.7.2  Pengujian Kuesioner
+
+Pengujian kuesioner yaitu menguji tingkat penerimaan pengguna terhadap
+
+sistem melalui  kuesioner.  Kuesioner  berisi  10 pertanyaan yang dikelompokkan
+
+menjadi 3 aspek yang digunakan dalam pengujian aplikasi tersebut, yaitu aspek
+
+rekayasa  perangkat  lunak,  aspek  fungsionalitas,  dan  aspek  komunikasi  visual.
+
+Kuesioner dibagikan  kepada  30 responden.  Responden akan  mencoba  aplikasi
+
+untuk dapat mengetahui kapabilitas dan kelancaran jalannya aplikasi itu sendiri.
+
+Pengujian  kuesioner  dapat  digunakan  untuk  menentukan  tingkat
+
+penerimaan  pengguna  dan  keberhasilan  aplikasi  yang  terlah  dibuat.  Hasil
+
+kuesioner dirangkum berdasarkan tiga aspek yang diujikan, yaitu:
+
+3.4.7.2.1 Aspek Rekayasa Perangkat Lunak
+
+
+
+65
+
+Hasil kuesioner aspek rekayasa perangkat lunak dirangkum dalam sebuah
+
+tabel seperti pada Tabel 3.13 berikut.
+
+Tabel 3.13 Hasil Kuesioner Aspek Rekayasa Perangkat Lunak
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan Total
+
+1 2 3 4 5
+
+1 Kemudahan menjalankan aplikasi
+
+2 Kelancaran menjalankan aplikasi
+
+3 Kenyamanan dalam menggunakan 
+aplikasi secara keseluruhan
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup Baik
+
+4 = Baik 5 = Sangat Baik
+
+3.4.7.2.2 Aspek Fungsionalitas
+
+Hasil kuesioner aspek fungsionalitas dirangkum dalam sebuah tabel seperti
+
+pada Tabel 3.14 berikut.
+
+Tabel 3.14 Hasil Kuesioner Aspek Fungsionalitas
+
+No Aspek Fungsionalitas
+Tanggapan Total
+
+1 2 3 4 5
+
+1 Kemudahan menjalankan tombol 
+menu pada aplikasi
+
+2 Tingkat kesesuaian aplikasi dalam 
+menampilkan hasil rekomendasi 
+resep masakan
+
+3 Tingkat pentingnya hasil 
+rekomendasi yang didapatkan dalam 
+aplikasi
+
+
+
+66
+
+4 Kemudahan dalam mendapatkan 
+informasi tentang resep masakan 
+pada aplikasi
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup Baik
+
+4 = Baik 5 = Sangat Baik
+
+3.4.7.2.3 Aspek Komunikasi Visual
+
+Hasil kuesioner aspek komunikasi visual dirangkum dalam sebuah tabel 
+
+seperti pada Tabel 3.15 berikut.
+
+Tabel 3.15 Hasil Kuesioner Aspek Komunikasi Visual
+
+No Aspek Komunikasi Visual
+Tanggapan Total
+
+1 2 3 4 5
+
+1 Kemudahan memahami informasi 
+yang ditampilkan pada aplikasi
+
+2 Tampilan antarmuka aplikasi
+
+3 Tingkat kemudahan melihat hasil 
+rekomendasi
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup Baik
+
+4 = Baik 5 = Sangat Baik
+
+Hasil  kuesioner  yang  telah  dirangkum  berdasarkan  aspek  pengujian
+
+tersebut  akan  dihitung  jumlah  dan  persentase  (%)  dari  tanggapan  seluruh
+
+responden. 
+
+3.4.7.2.4 Likert’s Summated Rating (LSR)
+
+Untuk mengetahui tingkat keberhasilan aplikasi dari pengujian kuesioner,
+
+digunakan metode Likert’s Summated Rating (LSR) untuk mengukur skor terkecil
+
+dan terbesar dari 10 pertanyaan kuesioner yang ditanggapi oleh responden.
+
+Skor  tanggapan  dari  10  pertanyaan  untuk  setiap  responden  dirangkum
+
+dalam sebuah tabel seperti pada Tabel 3.16 berikut.
+
+
+
+67
+
+Tabel 3.16 Total Skor Responden
+
+Responde
+n
+
+Item
+Total1 2 3 4 5 6 7 8 9 10
+
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+AA
+BB
+CC
+DD
+Total Skor
+
+Keterangan :
+
+Item 1 = Pertanyaan nomor 1 pada aspek rekayasa perangkat lunak
+
+Item 2 = Pertanyaan nomor 2 pada aspek rekayasa perangkat lunak
+
+Item 3 = Pertanyaan nomor 3 pada aspek rekayasa perangkat lunak
+
+Item 4 = Pertanyaan nomor 1 pada aspek fungsionalitas
+
+Item 5 = Pertanyaan nomor 2 pada aspek fungsionalitas
+
+
+
+68
+
+Item 6 = Pertanyaan nomor 3 pada aspek fungsionalitas
+
+Item 7 = Pertanyaan nomor 4 pada aspek fungsionalitas
+
+Item 8 = Pertanyaan nomor 1 pada aspek komunikasi visual
+
+Item 9 = Pertanyaan nomor 2 pada aspek komunikasi visual
+
+Item 10 = Pertanyaan nomor 3 pada aspek komunikasi visual.
+
+Data  yang  diperoleh  dari  hasil  pengujian  dengan  kuesioner  kemudian
+diukur dengan metode Likert’s Summated Rating (LSR)
+
+1. Jumlah skor untuk setiap responden:
+
+ Skor Maksimal = 50 (5 x 10 item)
+
+ Skor Minimal = 10 (1 x 10 item)
+
+ Skor Median = 30 (3 x 10 item)
+
+ Skor Kuartil I = 20 (2 x 10 item)
+
+ Skor Kuartil III = 40 (4 x 10 item)
+
+2. Jumlah skor untuk seluruh responden:
+
+ Maksimal = 1500 (30 x 50)
+
+ Minimal = 300 (30 x 10)
+
+ Median = 900 (30 x 30)
+
+ Kuartil I = 600 (30 x 20)
+
+ Kuartil III = 1200 (30 x 40)
+
+3. Interpretasi jumlah skor tersebut adalah:
+
+ 1200 < Skor < 1500, artinya sangat positif (program dinilai berhasil)
+
+ 900 < Skor < 1200, artinya positif (program dinilai cukup berhasil)
+
+ 600 < Skor < 900, artinya negatif (program dinilai kurang berhasil)
+
+ 300 < Skor < 600, artinya sangat negatif (program dinilai tidak berhasil)
+
+
+
+BAB IV
+
+HASIL DAN ANALISIS
+
+4.1 Hasil Perancangan
+
+Berdasarkan hasil  analisis  dan pengujian  terhadap aplikasi  pemilihan  resep
+
+masakan  dapat  disimpulkan  bahwa  sistem  dapat  memberikan  rekomendasi  resep
+
+masakan dan memberikan keluaran 3 rekomendasi resep masakan berdasarkan bahan
+
+masakan yang di-input-kan  pengguna.
+
+4.1.1 Antarmuka Halaman Utama Pengguna
+
+Antarmuka halaman utama pengguna merupakan form pertama yang muncul
+
+saat pengguna mengakses website. Antarmuka halaman utama pengguna terdiri dari 6
+
+menu  yang  terdiri  dari  beranda,  tentang,  daftar  resep,  masakan  kering,  masakan
+
+basah, keterangan bumbu. Fungsi dan masing-masing menu dapat dilihat pada Tabel
+
+4.1 berikut.
+
+Tabel 4.1 Daftar Menu Pengguna dan Fungsinya
+
+Menu Fungsi
+Beranda Menampilkan  halaman  utama  pada
+
+website
+Pilih Resep Untuk  memilih  resep  masakan  kering
+
+atau basah.
+Tentang Melihat informasi tentang aplikasi  dan
+
+pengembang aplikasi
+Daftar Resep Melihat daftar-daftar resep yang ada di
+
+dalam aplikasi.
+Resep Selengkapnya Melihat  lebih  lanjut  informasi  dari
+
+daftar resep.
+Masakan Kering Menampilkan  bahan  dan  bumbu
+
+masakan  kering  untuk  menjadi
+masukan pengguna.
+
+Masakan Basah Menampilkan  bahan  dan  bumbu
+masakan basah untuk menjadi masukan
+pengguna.
+
+Rekomendasi Resep Menampilkan  rekomendasi-
+
+70
+
+
+
+71
+
+Menu Fungsi
+rekomendasi  resep  berdasarkan
+masukan pengguna.
+
+Keterangan Bumbu Melihat  informasi  tentang  bumbu-
+bumbu.
+
+4.1.1.1  Antarmuka Halaman Beranda
+
+Halaman beranda merupakan halaman yang dapat diakses oleh pengguna saat
+
+pertama kali mengakses website.
+
+Gambar 4.1 Antarmuka Halaman Beranda
+
+4.1.1.2 Antarmuka Halaman Pilih Resep
+
+Halaman pilih resep merupakan halaman yang dapat diakses oleh pengguna,
+
+berisi tentang pilihan untuk memilih rekomendasi masakan kering atau basah.
+
+
+
+72
+
+Gambar 4.2 Antarmuka Halaman Pilih Resep
+
+4.1.1.3  Antarmuka Halaman Tentang
+
+Halaman  tentang  merupakan  halaman  yang  dapat  diakses  oleh  pengguna,
+
+berisi  tentang  informasi  aplikasi  dan  pengembang  aplikasi.  Antarmuka  halaman
+
+tentang dapat dilihat pada Gambar 4.3.
+
+
+
+73
+
+Gambar 4.3 Antarmuka Halaman Tentang
+
+4.1.1.4  Antarmuka Halaman Daftar Resep
+
+
+
+74
+
+Halaman daftar resep merupakan halaman yang dapat diakses oleh pengguna,
+
+berisi daftar-daftar resep yang terdapat pada aplikasi.
+
+Gambar 4.4 Antarmuka Halaman Daftar Resep
+
+4.1.1.5  Antarmuka Halaman Resep Selengkapnya
+
+Halaman  resep  selengkapnya  merupakan  halaman  yang dapat  diakses  oleh
+
+pengguna berisi informasi lebih lanjut tentang daftar resep yang dipilih.
+
+
+
+75
+
+Gambar 4.5 Antarmuka Halaman Resep Selengkapnya
+
+4.1.1.6 Antarmuka Halaman Masakan Kering
+
+Halaman  masakan  kering  merupakan  halaman  yang  dapat  diakses  oleh
+
+pengguna, berisi bahan dan bumbu masakan kering untuk mejadi masukan pengguna.
+
+
+
+76
+
+Gambar 4.6 Antarmuka Halaman Masakan Kering
+
+4.1.1.7  Antarmuka Halaman Masakan Basah
+
+Halaman  masakan  basah  merupakan  halaman  yang  dapat  diakses  oleh
+
+pengguna, berisi bahan dan bumbu masakan basah untuk mejadi masukan pengguna.
+
+
+
+77
+
+Gambar 4.7 Antarmuka Halaman Masakan Basah
+
+4.1.1.8  Antarmuka Halaman Rekomendasi Resep
+
+Halaman  rekomendasi  resep  merupakan  halaman  yang  dapat  diakses  oleh
+
+pengguna,  berisi  rekomendasi-rekomendasi  resep berdasarkan masukan pengguna..
+
+Antarmuka halaman rekomendasi resep dapat dilihat pada Gambar 4.8.
+
+
+
+78
+
+Gambar 4.8 Antarmuka Halaman Rekomendasi Resep
+
+4.1.1.9  Antarmuka Halaman Keterangan Bumbu
+
+Halaman  keterangan  bumbu  merupakan  halaman  yang  dapat  diakses  oleh
+
+pengguna, berisi informasi tentang bumbu-bumbu. Antarmuka halaman keterangan
+
+bumbu dapat dilihat pada Gambar 4.9.
+
+
+
+79
+
+Gambar 4.9 Antarmuka Halaman Keterangan Bumbu
+
+4.1.2 Antarmuka Halaman Login
+
+Antarmuka  halaman  login  merupakan  form  pertama  yang  muncul  saat
+
+pengelola  menjalankan halaman  admin  pada website.  Antarmuka  halaman  login
+
+digunakan untuk proses  autentikasi  pengelola  sebelum mengakses  halaman admin
+
+pada  website  dengan  memasukkan  identitas  e-mail  dan  password  .  Antarmuka
+
+halaman login dapat dilihat pada Gambar 4.10.
+
+
+
+80
+
+Gambar 4.10 Antarmuka Halaman Login
+
+4.1.3 Antarmuka Halaman Utama Admin
+
+Halaman  utama  admin  merupakan  halaman  yang  pertama  muncul  ketika
+
+admin  berhasil  melakukan  login.  Terdapat  beberapa  menu  pada  halaman  admin,
+
+daftar menu dapat dilihat pada Tabel 4.2.
+
+Tabel 4.2 Daftar Menu Admin dan Fungsinya
+
+Menu Sub Menu Fungsi
+
+Beranda
+
+Tambah Data Admin Memasukkan data admin
+
+Ubah Data Admin Mengubah data admin
+
+Hapus Data Admin Menghapus data admin
+
+Resep
+
+Tambah Data Resep Memasukkan data resep
+
+Ubah Data Resep Mengubah data resep
+
+Hapus Data Resep Menghapus data resep
+
+Basis Kasus
+
+Memanajemen  Data
+
+Pengetahuan Basis Kasus
+
+Melihat  dan  mengubah  data
+
+pengetahuan basis kasus
+
+Kasus Baru
+
+Lihat Data Pengetahuan Kasus
+
+Baru
+
+Melihat data pengetahuan  kasus
+
+baru
+
+Revisi Data Kasus Baru Merevisi data kasus baru
+
+Retain Data Kasus Baru Memasukkan  data  kasus  baru
+
+menjadi data basis kasus
+
+Hapus Data Kasus Baru Menghapus data kasus baru
+
+
+
+81
+
+Menu Sub Menu Fungsi
+
+Bahan  dan
+
+Bumbu
+
+Ubah Data Bahan dan Bumbu Mengubah  data  bahan  dan
+
+bumbu
+
+4.1.4 Antarmuka Halaman Manajemen Admin
+
+Halaman manajemen admin merupakan halaman yang hanya dapat  diakses
+
+oleh admin. Pada halaman manajemen admin ini admin dapat menambah , mengubah
+
+dan  menghapus  data  admin.  Antarmuka  halaman  manajemen  admin  dapat  dilihat
+
+pada Gambar 4.11.
+
+Gambar 4.11 Antarmuka Halaman Manajemen Admin
+
+4.1.4.1 Antarmuka Halaman Tambah Data Admin
+
+Antarmuka halaman tambah data admin digunakan untuk memasukkan data
+
+admin.  Dalam proses memasukkan data admin tidak boleh ada data yang kosong.
+
+Antarmuka halaman tambah data admin dapat dilihat pada Gambar 4.12.
+
+
+
+82
+
+Gambar 4.12 Antarmuka Halaman Tambah Data Admin
+
+4.1.4.2 Antarmuka Halaman Ubah Data Admin
+
+Halaman  ubah  data  admin digunakan  untuk  mengubah   data  admin.
+
+Antarmuka halaman ubah data admin dapat dilihat pada Gambar 4.13
+
+Gambar 4.13 Antarmuka Halaman Ubah Data Admin
+
+4.1.4.3 Antarmuka Halaman Hapus Data Admin
+
+Antarmuka  halaman  hapus  data  admin digunakan  untuk  menghapus   data
+
+admin. Antarmuka halaman hapus data admin dapat dilihat pada Gambar 4.14.
+
+
+
+83
+
+Gambar 4.14 Antarmuka Halaman Hapus Data Admin
+
+4.1.5 Antarmuka Halaman Manajemen Resep
+
+Halaman  manajemen  resep merupakan  halaman  yang  hanya  dapat  diakses
+
+oleh  admin. Pada  halaman  manajemen  resep  ini  admin  dapat  menambah  dan
+
+mengubah  data  resep.  Antarmuka  halaman  manajemen  resep  dapat  dilihat  pada
+
+Gambar 4.15.
+
+Gambar 4.15 Antarmuka Halaman Manajemen Resep
+
+4.1.5.1 Antarmuka Halaman Tambah Data Resep
+
+Antarmuka halaman tambah data  resep digunakan untuk memasukkan data
+
+resep.  Dalam proses  memasukkan  data  resep  tidak  boleh  ada  data  yang  kosong.
+
+Antarmuka halaman tambah data resep dapat dilihat pada Gambar 4.16.
+
+
+
+84
+
+Gambar 4.16 Antarmuka Halaman Tambah Data Resep
+
+4.1.5.2 Antarmuka Halaman Ubah Data Resep
+
+Halaman ubah data resep digunakan untuk mengubah  data resep. Antarmuka
+
+halaman ubah data resep dapat dilihat pada Gambar 4.17
+
+
+
+85
+
+Gambar 4.17 Antarmuka Halaman Ubah Data Resep
+
+4.1.5.3 Antarmuka Halaman Hapus Data Resep
+
+Halaman  hapus data  resep digunakan  untuk  menghapus  data  resep.
+
+Antarmuka halaman hapus data resep dapat dilihat pada Gambar 4.18
+
+Gambar 4.18 Antarmuka Halaman Hapus Data Resep
+
+
+
+86
+
+4.1.6 Antarmuka Halaman Manajemen Basis Kasus
+
+Halaman  manajemen  basis  kasus merupakan  halaman  yang  hanya  dapat
+
+diakses oleh admin. Pada halaman manajemen basis kasus ini admin dapat melihat
+
+data basis kasus dan mengakses data pengetahuan. Antarmuka halaman manajemen
+
+basis kasus dapat dilihat pada Gambar 4.19.
+
+Gambar 4.19 Antarmuka Halaman Manajemen Basis Kasus
+
+4.1.6.1 Antarmuka Halaman Data Pengetahuan Basis Kasus
+
+Halaman data pengetahuan basis kasus merupakan halaman yang hanya dapat
+
+diakses oleh admin.  Pada halaman data pengetahuan basis  kasus digunakan untuk
+
+mengubah  data  pengetahuan  basis  kasus  berupa  bahan  dan  bumbu. Antarmuka
+
+halaman data pengetahuan basis kasus dapat dilihat pada Gambar 4.20.
+
+
+
+87
+
+Gambar 4.20 Antarmuka Halaman Data Pengetahuan Basis Kasus
+
+4.1.7 Antarmuka Halaman Manajemen Kasus Baru
+
+Halaman  manajemen  kasus  baru  merupakan  halaman  yang  hanya  dapat
+
+diakses oleh admin.  Pada halaman manajemen kasus baru ini admin dapat melihat
+
+data  kasus  baru,  melakukan  revisi  data  kasus  baru,  retain  data  kasus  baru,  dan
+
+mengakses  data  pengetahuan.  Antarmuka  halaman  manajemen  kasus  baru  dapat
+
+dilihat pada Gambar 4.21.
+
+
+
+88
+
+Gambar 4.21 Antarmuka Halaman Manajemen Kasus Baru
+
+4.1.7.1 Antarmuka Halaman Data Pengetahuan Kasus Baru
+
+Halaman data pengetahuan kasus baru merupakan halaman yang hanya dapat
+
+diakses  oleh  admin.  Pada  halaman  data  pengetahuan  kasus  baru  digunakan untuk
+
+melihat data pengetahuan kasus baru. Antarmuka halaman data pengetahuan kasus
+
+baru dapat dilihat pada Gambar 4.22.
+
+
+
+89
+
+Gambar 4.22 Antarmuka Halaman Data Pengetahuan Kasus Baru
+
+4.1.7.2 Antarmuka Halaman Revisi Data Kasus Baru
+
+Halaman revisi data kasus baru digunakan untuk mengubah data kasus baru
+
+berupa data resep masakan seperti nama resep, bahan bumbu lengkap, cara membuat,
+
+dan gambar. Antarmuka halaman revisi data kasus baru dapat dilihat pada Gambar
+
+4.23.
+
+
+
+90
+
+Gambar 4.23 Antarmuka Halaman Revisi Data Kasus Baru
+
+4.1.7.3 Antarmuka Halaman Retain Data Kasus Baru
+
+Halaman  retain data  kasus  baru  digunakan  untuk memasukkan  data  kasus
+
+baru  sebagai  data  basis  kasus.  Antarmuka  halaman  retain data  kasus  baru  dapat
+
+dilihat pada Gambar 4.24.
+
+Gambar 4.24 Antarmuka Halaman Retain Data Kasus Baru
+
+
+
+91
+
+4.1.7.4 Antarmuka Halaman Hapus Data Kasus Baru
+
+Halaman hapus data kasus baru digunakan untuk menghapus data kasus baru.
+
+Antarmuka halaman hapus data kasus baru dapat dilihat pada Gambar 4.25.
+
+Gambar 4.25 Antarmuka Halaman Hapus Data Kasus Baru
+
+4.1.8 Antarmuka Halaman Bahan dan Bumbu
+
+Halaman bahan dan bumbu merupakan halaman yang hanya dapat  diakses
+
+oleh admin. Pada halaman bahan dan bumbu ini admin dapat membuka halaman ubah
+
+data bahan dan bumbu.  Antarmuka halaman bahan dan bumbu dapat dilihat  pada
+
+Gambar 4.26.
+
+
+
+92
+
+Gambar 4.26 Antarmuka Halaman Bahan dan Bumbu
+
+4.1.8.1 Antarmuka Halaman Ubah Data Bahan dan Bumbu
+
+Halaman ubah data bahan dan bumbu digunakan untuk mengubah data bahan
+
+dan  bumbu.  Antarmuka  halaman  ubah  data  bahan  dan  bumbu dapat  dilihat  pada
+
+Gambar 4.27.
+
+
+
+93
+
+Gambar 4.27 Antarmuka Halaman Ubah Data Bahan dan Bumbu
+
+4.2 Hasil Pengujian Sistem
+
+4.2.1 Pengujian Tahapan Case Based Reasoning (CBR)
+
+4.2.1.1 Pengujian Tahapan Retrieve
+
+Pengujian tahapan  retrieve  untuk menelusuri  dan mendapatkan kasus-kasus
+
+yang mirip dalam basis kasus dengan kasus baru. Berikut proses didalam tahapan
+
+retrieve.
+
+1. Melakukan  input data bahan bumbu dan melakukan pengecekan data terhadap
+
+basis kasus. Sebagai contoh pengujian dilakukan pada kasus uji no 1 (Tabel 3.10)
+
+dapat dilihat pada Gambar 4.28.
+
+Gambar 4.28 Input Kasus Uji Nomor 1
+
+
+
+94
+
+2. Mencari  tingkat  kemiripan antara kasus uji  (kasus baru) dengan kasus-kasus
+
+yang  terdapat  didalam  basis  kasus.  Pencarian  tingkat  kemiripan  dilakukan
+
+dengan perhitungan similaritas menggunakan metode SMC. Pada pengujian ini
+
+menampilkan  3  nilai  similaritas  tertinggi.  Nilai  similaritas  tertinggi  tersebut
+
+dihitung berdasarkan data basis kasus yang terlampir pada lampiran A.
+
+Tabel 4.3 Hasil Pengujian Tahapan Retrieve
+
+No Kasus Similaritas Kasus Mirip
+
+1 Kasus 1
+0.87 Masakan Panggang Bumbu Rujak
+0.84 Masakan Goreng Berbumbu
+0.8 Masakan Bacem
+
+Berikut  perhitungan  Kasus  1  menggunakan  metode  Similarity  Simple
+
+Matching Coefficient (SMC):
+
+a. Similaritas Kb1 dan K33 ( Masakan Panggang Bumbu Rujak)
+
+M11 = 10, M10 = 2, M01 = 5, M00= 38
+
+Maka,
+
+SMC(X,Y) =   
+10+38
+
+2+5+10+38
+ = 
+
+48
+55
+
+ = 0,87
+
+b. Similaritas Kb1 dan K30 (Masakan Goreng Berbumbu)
+
+M11 = 8, M10 = 2, M01 = 7, M00= 38
+
+Maka,
+
+SMC(X,Y) =   
+8+38
+
+2+7+8+38
+ = 
+
+46
+55
+
+ = 0,84
+
+c. Similaritas Kb1 dan K40 (Masakan Bacem)
+
+M11 = 7, M10 = 3, M01 = 8, M00= 37
+
+Maka,
+
+SMC(X,Y) =   
+7+37
+
+3+8+7+37
+ = 
+
+44
+55
+
+ = 0,8
+
+Tingkat kemiripan kasus uji no 1 dengan basis kasus dengan nilai similaritas 3
+
+tertinggi dapat dilihat pada Gambar 4.29.
+
+
+
+95
+
+Gambar 4.29 Tingkat Kemiripan Kasus Baru dengan Kasus Lama  dari Nilai
+
+Tertinggi Hingga Nilai Terendah
+
+4.2.1.2 Pengujian Tahapan Reuse
+
+Pengujian  tahapan  reuse  menggunakan  kembali  kasus-kasus  yang  ada  dan
+
+dicoba  untuk  menyelesaikan  suatu permasalahan  baru.  Tahapan  ini  memberikan
+
+output  yang  dihasilkan  dari  perhitungan  metode  SMC yaitu  rekomendasi  resep
+
+
+
+96
+
+masakan sebagai solusi dalam memilih resep masakan. Hasil pengujian tahapan reuse
+
+dapat dilihat pada Gambar 4.30
+
+Gambar  4.30 merupakan  kasus  lama  yang  digunakan  sebagai  hasil  perbandingan
+
+antara kasus baru dan kasus lama
+
+Gambar 4.30 Kasus Lama yang Digunakan Sebagai Solusi
+
+4.2.1.3 Pengujian Tahapan Revise
+
+Pengujian tahapan revise dilakukan dengan meninjau kembali untuk perbaikan
+
+data  resep  masakan. Kasus  yang  ada  ditinjau  kembali  seperti  nama  resep,  bahan
+
+bumbu lengkap, cara membuat, dan gambar. Data yang ditinjau disesuaikan dengan
+
+data pengetahuan baru yang di-input oleh pengguna. Tahapan revise kasus baru dapat
+
+dilihat pada Gambar 4.31 sebagai berikut.
+
+
+
+97
+
+Gambar 4.31 Revise Kasus Baru
+
+4.2.1.4 Pengujian Tahapan Retain
+
+Pengujian tahapan retain dilakukan dengan memindahkan data kasus baru ke
+
+basis  kasus.  Kasus baru ini  telah  di revisi  sehingga resep masakan tersebut  dapat
+
+menjadi  solusi  untuk kasus-kasus selanjutnya.  Tahapan  retain kasus baru kedalam
+
+basis kasus dapat dilihat pada Gambar 4.32, lalu data pengetahuan yang di retain ke
+
+basis kasus dapat dilihat pada Gambar 4.33 dan data resep yang telah di retain dapat
+
+dilihat pada Gambar 4.34.
+
+
+
+98
+
+Gambar 4.32 Retain Kasus Baru ke dalam Basis Kasus
+
+ 
+
+Gambar 4.33 Data Pengetahuan yang Telah di Retain ke dalam Basis Kasus
+
+
+
+99
+
+Gambar 4.34 Data Resep yang Telah di Retain
+
+Hasil Pengujian Metode Simple Matching Coefficient merujuk pada lampiran
+
+A sebagai data basis kasus yang cara perhitungannya dapat dilihat pada keterangan
+
+Tabel 4.3  dan hasil perhitungan similaritas uji kasus dilihat pada Tabel 4.4 sebagai
+
+berikut:
+
+Tabel 4.4 Hasil Pengujian Metode Simple Matching Coefficient
+
+No Kasus Similaritas Kasus Mirip
+
+1 Kasus 1
+0.87 Masakan Panggang Bumbu Rujak
+0.84 Masakan Goreng Berbumbu
+0.8 Masakan Bacem
+
+2 Kasus 2
+0.91 Masakan Rendang
+0.89 Gulai Ikan
+0.85 Masakan Asam Pedas
+
+3 Kasus 3
+0.89 Masakan Asam Pedas
+0.87 Masakan Rendang
+0.85 Gulai Ikan
+
+4 Kasus 4
+0.91 Gulai Sayuran
+0.89 Masakan Sambal Goreng
+0.87 Masakan Rendang
+
+5 Kasus 5
+0.89 Masakan Taliwang
+0.85 Masakan Goreng Balut Kelapa
+0.85 Ikan Bakar Bumbu Kuning
+
+6 Kasus 6 0.93 Masakan Cabai Hijau
+0.89 Gepuk Karapitan
+
+
+
+100
+
+No Kasus Similaritas Kasus Mirip
+
+0.87 Masakan Bakar Bumbu Kecap
+
+7 Kasus 7
+0.89 Daging Bumbu Tongseng
+0.87 Ikan Pindang Kecap
+0.82 Besengek Daging
+
+8 Kasus 8
+0.84 Daging Masak Tomat
+0.84 Sop Ikan
+0.84 Masakan Saus Padang
+
+9 Kasus 9
+0.85 Masakan Opor
+0.84 Masakan Rendang
+0.84 Masakan Kari Pedas
+
+10 Kasus 10
+0.89 Masakan Goreng Balut Kelapa
+0.89 Masakan Bakar Bumbu Kecap
+0.89 Masakan Bakar Rica Rica
+
+11 Kasus 11
+0.85 Daging Masak Tomat
+0.85 Daging Bumbu Tongseng
+0.85 Masakan Saus Padang
+
+12 Kasus 12
+0.93 Masakan Asam Pedas
+0.91 Masakan Rendang
+0.89 Gulai Ikan
+
+13 Kasus 13
+0.91 Masakan Panggang Bumbu Rujak
+0.89 Ikan Bakar Bumbu Kuning
+0.87 Masakan Goreng Berbumbu
+
+14 Kasus 14
+0.89 Masakan Cabai Hijau
+0.89 Masakan Panggang Kacang
+0.87 Masakan Bakar Bumbu Kecap
+
+15 Kasus 15
+0.82 Ikan Pindang Kecap
+0.82 Serapah Daging Bali
+0.80 Masakan Opor
+
+16 Kasus 16
+0.85 Besengek Daging
+0.85 Masakan Opor
+0.85 Daging Bumbu Tongseng
+
+17 Kasus 17
+0.87 Masakan Bumbu Bali
+0.87 Sate Daging Bumbu Kelapa
+0.85 Masakan Sambal Kering
+
+18 Kasus 18
+0.96 Masakan Asam Pedas
+0.87 Masakan Rendang
+0.85 Besengek Daging
+
+19 Kasus 19
+0.98 Gepuk Karapitan
+0.95 Masakan Goreng Berbumbu
+0.91 Masakan Bacem
+
+
+
+101
+
+No Kasus Similaritas Kasus Mirip
+
+20 Kasus 20
+0.89 Masakan Sambal Kering
+0.84 Masakan Goreng Berbumbu
+0.84 Masakan Panggang Bumbu Rujak
+
+Penjelasan Tabel 4.4, nilai dibawah 1 pada kolom similaritas merupakan nilai
+
+similaritas kasus baru atas basis kasus. Nilai dibawah 1 terjadi karena data kasus uji
+
+yang dimasukkan sebagai pengujian, belum memiliki kasus yang sama dengan kasus
+
+yang telah ada di basis kasus. Sistem memberikan 3 nilai similaritas tertinggi yang
+
+paling mendekati angka 1. Kasus tersebut dapat menjadi basis kasus setelah melalui
+
+tahapan-tahapan proses 4R pada CBR.
+
+Berdasarkan  data  20  kasus  yang  diuji,  nilai  keberhasilan  sistem  diukur
+
+menggunakan rata-rata dari nilai similaritas tertinggi pada masing-masing kasus uji
+
+yang dapat dihitung sebagai berikut.
+
+Tabel 4.5 Perhitungan Rata-Rata Nilai Similaritas Tertinggi pada Kasus Uji
+
+No Kasus Nilai Similaritas Tertinggi
+
+1 Kasus 1 0.87
+
+2 Kasus 2 0.91
+
+3 Kasus 3 0.89
+
+4 Kasus 4 0.91
+
+5 Kasus 5 0.89
+
+6 Kasus 6 0.93
+
+7 Kasus 7 0.89
+
+8 Kasus 8 0.84
+
+9 Kasus 9 0.85
+
+10 Kasus 10 0.89
+
+11 Kasus 11 0.85
+
+12 Kasus 12 0.93
+
+13 Kasus 13 0.91
+
+14 Kasus 14 0.89
+
+15 Kasus 15 0.82
+
+16 Kasus 16 0.85
+
+17 Kasus 17 0.87
+
+18 Kasus 18 0.96
+
+
+
+102
+
+No Kasus Nilai Similaritas Tertinggi
+
+19 Kasus 19 0.98
+
+20 Kasus 20 0.89
+
+Jumlah 0
+
+Rata-Rata 0.89
+
+Persentase 89%
+
+Berdasarkan nilai rata-rata pada Tabel 4.5, didapat nilai persentase rata-rata
+
+similaritas  tertinggi  terhadap  kasus  uji  sebesar  89%  yang  digunakan  untuk
+
+mengetahui keberhasilan sistem. 
+
+4.2.2 Perhitungan dan Penyajian Data Hasil Kuesioner
+
+4.2.2.1 Aspek Rekayasa Perangkat Lunak
+
+Pilihan responden terhadap Aspek Rekayasa Perangkat Lunak sesuai dengan
+
+kriteria masing-masing ditunjukkan pada Tabel 4.6.
+
+Tabel 4.6 Hasil Kuesioner Aspek Rekayasa Perangkat Lunak
+
+No Aspek Rekayasa Perangkat
+Lunak
+
+Tanggapan Total
+
+1 2 3 4 5
+
+1 Kemudahan menjalankan aplikasi 0 0 4 11 15 30
+
+2 Kelancaran menjalankan aplikasi 0 0 1 14 15 30
+
+3 Kenyamanan dalam menggunakan 
+aplikasi secara keseluruhan
+
+0 0 0 12 18 30
+
+Jumlah 0 0 5 37 48 90
+
+Persentase (%) 0 0 5,5 41,1 53,3 100
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup Baik
+4 = Baik 5 = Sangat Baik
+
+Pada tabel tersebut dapat diketahui informasi bahwa dari 3 pertanyaan, jumlah
+
+tanggapan yang paling tinggi terdapat pada pertanyaan poin ke 3 yaitu  kenyamanan
+
+dalam menggunakan aplikasi  secara keseluruhan dengan jumlah tanggapan Sangat
+
+Baik sebanyak 18. 
+
+
+
+103
+
+Secara keseluruhan, sebagian besar responden menilai  aplikasi  Sangat Baik
+
+dengan jumlah tanggapan Sangat Baik 48 dan memiliki persentase 53,3%. Hal ini
+
+menunjukkan  bahwa  sebagian  besar  responden  telah  menanggapi  aspek  rekayasa
+
+perangkat lunak pada sistem Sangat Baik.
+
+4.2.2.2 Aspek Fungsionalitas
+
+Pilihan  responden  terhadap  aspek  fungsionalitas  sesuai  dengan  kriteria
+
+masing-masing ditunjukkan pada Tabel 4.7.
+
+Tabel 4.7 Hasil Kuesioner Aspek Fungsionalitas
+
+No Aspek Fungsionalitas
+Tanggapan Total
+
+1 2 3 4 5
+1 Kemudahan menjalankan tombol 
+
+menu pada aplikasi
+0 0 0 14 16 30
+
+2 Tingkat kesesuaian aplikasi dalam 
+menampilkan hasil rekomendasi 
+resep masakan
+
+0 0 1 17 12 30
+
+3 Tingkat pentingnya hasil 
+rekomendasi yang didapatkan 
+dalam aplikasi
+
+0 0 4 13 13 30
+
+4 Kemudahan dalam mendapatkan 
+informasi tentang resep masakan 
+pada aplikasi
+
+0 0 0 14 16 30
+
+Jumlah 0 0 5 58 57 120
+
+Persentase (%) 0 0 4,2 48,3 47,5 100
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup Baik
+4 = Baik 5 = Sangat Baik
+
+Pada tabel tersebut dapat diketahui informasi bahwa dari 4 pertanyaan, jumlah
+
+tanggapan  yang  paling  tinggi  terdapat  pada  pertanyaan  poin  ke  2  yaitu  tingkat
+
+kesesuaian  aplikasi  dalam menampilkan  hasil  rekomendasi  resep masakan dengan
+
+jumlah tanggapan Baik sebanyak 17. 
+
+Secara keseluruhan, sebagian besar responden menilai aplikasi Baik dengan
+
+jumlah  tanggapan  Baik  58  dan memiliki  persentase  48,3%.  Hal  ini  menunjukkan
+
+
+
+104
+
+bahwa sebagian besar responden telah menanggapi aspek fungsionalitas pada sistem
+
+Baik.
+
+4.2.2.3 Aspek Komunikasi Visual
+
+Pilihan responden terhadap aspek  komunikasi  visual sesuai  dengan kriteria
+
+masing-masing ditunjukkan pada Tabel 4.8.
+
+Tabel 4.8 Hasil Kuesioner Aspek Komunikasi Visual
+
+No Aspek Komunikasi Visual
+Tanggapan Total
+
+1 2 3 4 5
+1 Kemudahan memahami informasi 
+
+yang ditampilkan pada aplikasi
+0 0 0 20 10 30
+
+2 Tampilan antarmuka aplikasi 0 0 1 8 21 30
+
+3 Tingkat kemudahan melihat hasil 
+rekomendasi
+
+0 0 1 12 17 30
+
+Jumlah 0 0 2 40 48 90
+
+Persentase (%) 0 0 2,2 44,4 53,3 100
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup Baik
+4 = Baik 5 = Sangat Baik
+
+Pada tabel tersebut dapat diketahui informasi bahwa dari 3 pertanyaan, jumlah
+
+tanggapan  yang  paling  tinggi  terdapat  pada  pertanyaan  poin  ke  2  yaitu  tampilan
+
+antarmuka aplikasi dengan jumlah tanggapan Sangat Baik sebanyak 21. 
+
+Secara keseluruhan, sebagian besar responden menilai  aplikasi  Sangat Baik
+
+dengan  jumlah  tanggapan  Baik  48  dan  memiliki  persentase  53,3%.  Hal  ini
+
+menunjukkan bahwa sebagian besar responden telah menanggapi  aspek  komunikasi
+
+visual pada sistem Sangat Baik.
+
+4.2.3 Likert’s Summated Rating (LSR)
+
+
+
+105
+
+Hasil  penelitian  untuk  melihat  skor  terbesar  dan  terkecil  dari  satu  orang
+
+responden dan total semua responden terlihat pada Tabel 4.9 berikut.
+
+Tabel 4.9 Total skor responden
+
+Responde
+n
+
+Item
+Total1 2 3 4 5 6 7 8 9 10
+
+A 5 4 5 5 4 5 5 5 5 5 48
+B 4 5 4 5 4 3 5 4 5 4 43
+C 4 4 5 5 4 4 4 4 5 4 43
+D 3 4 4 4 5 5 4 4 5 5 43
+E 3 4 4 5 4 4 4 4 4 5 41
+F 4 4 4 4 4 3 4 4 4 4 39
+G 5 4 5 4 4 5 5 4 5 5 46
+H 5 5 5 5 5 5 4 4 5 4 47
+I 4 5 5 4 4 5 4 4 5 5 45
+J 3 3 4 4 3 4 5 5 3 3 37
+K 5 5 5 5 4 5 5 5 5 5 49
+L 5 5 4 5 5 5 4 4 5 5 47
+M 5 5 4 4 5 5 4 5 5 4 46
+N 4 4 5 4 4 5 5 4 4 4 43
+O 5 5 5 5 5 4 5 5 5 5 49
+P 5 4 4 5 4 4 4 4 4 4 42
+Q 4 4 5 5 4 4 5 4 4 4 43
+R 4 4 5 4 5 4 5 4 5 5 45
+S 4 4 5 5 4 4 4 4 4 4 42
+T 4 5 4 5 4 5 5 5 5 4 46
+U 3 4 5 5 5 4 4 4 5 4 43
+V 4 5 5 4 5 4 4 4 5 5 45
+W 5 5 5 4 5 5 5 5 5 5 49
+X 4 5 5 5 5 4 4 4 5 5 46
+Y 5 4 4 4 4 3 4 4 4 4 40
+Z 5 4 5 4 5 4 5 5 5 5 47
+
+AA 5 5 5 5 5 5 5 4 5 5 49
+BB 5 5 4 5 4 4 5 4 4 5 45
+CC 5 5 5 4 4 5 5 5 5 5 48
+DD 5 5 5 5 4 3 5 5 5 5 47
+
+Total Skor 1343
+
+Keterangan :
+Item 1 = Pertanyaan nomor 1 pada aspek rekayasa perangkat lunak
+Item 2 = Pertanyaan nomor 2 pada aspek rekayasa perangkat lunak
+Item 3 = Pertanyaan nomor 3 pada aspek rekayasa perangkat lunak
+
+
+
+106
+
+Item 4 = Pertanyaan nomor 1 pada aspek fungsionalitas
+Item 5 = Pertanyaan nomor 2 pada aspek fungsionalitas
+Item 6 = Pertanyaan nomor 3 pada aspek fungsionalitas
+Item 7 = Pertanyaan nomor 4 pada aspek fungsionalitas
+Item 8 = Pertanyaan nomor 1 pada aspek komunikasi visual
+Item 9 = Pertanyaan nomor 2 pada aspek komunikasi visual
+Item 10 = Pertanyaan nomor 3 pada aspek komunikasi visual.
+
+Data yang diperoleh dari hasil pengujian dengan kuesioner kemudian diukur
+dengan metode Likert’s Summated Rating (LSR)
+
+1. Jumlah skor untuk setiap responden:
+
+ Skor Maksimal = 50 (5 x 10 item)
+
+ Skor Minimal = 10 (1 x 10 item)
+
+ Skor Median = 30 (3 x 10 item)
+
+ Skor Kuartil I = 20 (2 x 10 item)
+
+ Skor Kuartil III = 40 (4 x 10 item)
+
+2. Jumlah skor untuk seluruh responden:
+
+ Maksimal = 1500 (30 x 50)
+
+ Minimal = 300 (30 x 10)
+
+ Median = 900 (30 x 30)
+
+ Kuartil I = 600 (30 x 20)
+
+ Kuartil III = 1200 (30 x 40)
+
+3. Interpretasi jumlah skor tersebut adalah:
+
+ 1200 < Skor < 1500, artinya sangat positif (program dinilai berhasil)
+
+ 900 < Skor < 1200, artinya positif (program dinilai cukup berhasil)
+
+ 600 < Skor < 900, artinya negatif (program dinilai kurang berhasil)
+
+ 300  <  Skor  <  600,  artinya  sangat  negatif  (program  dinilai  tidak
+
+berhasil)
+
+  1343 (hasil penelitian)
+
+        300 600   900       1200 1500
+
+Gambar 4.35 Hasil penelitian pada interpretasi LSR
+
+
+
+107
+
+Gambar tersebut menunjukkan bahwa hasil penelitian berada di antara skor 
+
+1200 – 1500 yang artinya, hasil kuisioner menandakan responden menilai aplikasi 
+
+sangat positif dan dinilai berhasil.
+
+4.3 Analisis Hasil Pengujian
+
+Analisis  hasil  pengujian  aplikasi  pemilihan  resep  masakan  berdasarkan
+
+ketersediaan  bahan  masakan  dengan  metode  Simple  Matching  Coefficient  (SMC)
+
+dapat disimpulkan sebagai berikut:
+
+a. Hasil  pengujian  tahapan  proses  Case  Based  Reasoning menunjukkan  bahwa
+
+sistem ini dapat melakukan tahapan 4R pada CBR. Tahapan retrieve (menelusuri
+
+dan mendapatkan kasus-kasus dalam basis kasus yang mirip dengan kasus baru),
+
+reuse  (menggunakan  kembali  kasus-kasus  yang  ada  dan  dicoba  untuk
+
+menyelesaikan suatu permasalahan baru),  revise (mengubah dan menyesuaikan
+
+output yang ditawarkan jika diperlukan), dan  retain  (proses penyimpanan data
+
+kasus baru ke basis kasus).
+
+b. Hasil  pengujian  Metode  Simple  Matching  Coefficient  (SMC),  menunjukkan
+
+bahwa  berdasarkan  hasil  perhitungan  persentase  rata-rata  nilai  similaritas
+
+tertinggi,  didapat  nilai  sebesar  89%   yang  digunakan  untuk  mengetahui
+
+keberhasilan sistem. Nilai tersebut diperoleh karena kasus uji memiliki banyak
+
+kesamaan dengan bahan bumbu yang terdapat pada basis kasus, sehingga sistem
+
+memberikan  rekomendasi  masakan  dengan  nilai  similaritas  tinggi  yang
+
+mendekati nilai 1.
+
+c. Berdasarkan  hasil  kuesioner  menunjukkan  bahwa  sistem  dinilai  sangat  baik
+
+berdasarkan aspek rekayasa perangkat lunak dengan persentase 53,3%.
+
+d. Berdasarkan hasil kuesioner menunjukkan bahwa sistem dinilai baik berdasarkan
+
+aspek fungsionalitas dengan persentase 48,3%.
+
+e. Berdasarkan  hasil  kuesioner  menunjukkan  bahwa  sistem  dinilai  sangat  baik
+
+berdasarkan aspek komunikasi visual dengan persentase 53,3%.
+
+f. Berdasarkan hasil  perhitungan dengan menggunakan metode  Likert  Summated
+
+Rating  (LSR), didapatkan  hasil  penelitian  diangka  1343  dari  1500  yang
+
+menunjukkan bahwa hasil kuisioner responden menilai aplikasi sangat positif dan
+
+dinilai berhasil.
+
+
+
+BAB V
+
+PENUTUP
+
+5.1 Kesimpulan
+
+Berdasarkan hasil  analisis  dan  pengujian  pada  aplikasi  pemilihan  resep
+
+masakan  berdasarkan  ketersediaan  bahan  masakan  dengan  metode  Simple
+
+Matching Coefficient (SMC), dapat disimpulkan bahwa:
+
+1. Sistem  yang  dibuat  dapat  melakukan  proses  4R  (retrieve,  reuse,  revise,
+
+retain) pada Case Based Reasoning (CBR). Tahapan retrieve (menelusuri dan
+
+mendapatkan kasus-kasus dalam basis kasus yang mirip dengan kasus baru),
+
+reuse  (menggunakan  kembali  kasus-kasus  yang  ada  dan  dicoba  untuk
+
+menyelesaikan  suatu  permasalahan  baru),  revise  (mengubah  dan
+
+menyesuaikan  output  yang ditawarkan jika  diperlukan),  dan retain  (proses
+
+penyimpanan data kasus baru ke basis kasus)
+
+2. Berdasarkan  hasil  pengujian  Metode  Simple  Matching  Coefficient (SMC)
+
+dengan menggunakan 20 kasus  uji,  menunjukkan bahwa hasil  perhitungan
+
+persentase  rata-rata  nilai  similaritas  tertinggi  didapat  nilai  sebesar  89%
+
+sehingga sistem ini dapat memberikan rekomendasi resep masakan terbaik.
+
+3. Sistem  Case  Based  Reasoning (CBR)  dengan  perhitungan  similaritas
+
+menggunakan  metode  Simple  Matching  Coefficient (SMC) yang  dibangun
+
+pada aplikasi dapat menentukan rekomendasi resep masakan.
+
+4. Berdasarkan pengujian kuesioner dengan metode  Likert’s Summated Rating
+
+(LSR), didapatkan skor sebesar 1343 dari 1500 yang artinya, hasil pengujian
+
+kuesioner menandakan responden menilai aplikasi sangat positif dan dinilai
+
+berhasil.
+
+5.2 Saran
+
+Adapun  hal-hal  yang  menjadi  saran  dalam  pengembangan  aplikasi  ini
+
+adalah:
+
+1. Aplikasi pemilihan resep masakan dapat dikembangkan dengan menggunakan
+
+metode perhitungan similaritas biner lainnya.
+
+2. Aplikasi  pemilihan  resep  masakan  dapat  dikembangkan  dengan  platform
+
+berbasis mobile.
+
+110
+
+

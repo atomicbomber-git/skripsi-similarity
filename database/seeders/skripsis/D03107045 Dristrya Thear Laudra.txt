@@ -1,0 +1,5336 @@
+
+BAB I
+PENDAHULUAN
+
+1.1 Latar Belakang
+
+Perkembangan sarana dan prasarana jalan mempengaruhi keberhasilan
+
+pembangunan suatu daerah. Jalan adalah salah satu infrastruktur penting dalam
+
+sebuah  Negara,  karena  merupakan  pendukung  kemajuan  ekonomi  yang
+
+mempunyai fungsi sebagai sarana untuk melakukan semua kegiatan manusia di
+
+darat. Seperti  dijelaskan  dalam Undang-undang  Nomor 38 tahun 2004 tentang
+
+jalan, bahwa peran infrastruktur jalan adalah sebagai bagian prasarana transportasi
+
+yang mempunyai peran penting dalam bidang ekonomi, sosial budaya, lingkungan
+
+hidup,  politik,  pertahanan  dan  keamanan,  serta  dipergunakan  sebesar-besarnya
+
+untuk  kemakmuran  rakyat.  Selain  itu,  jalan  sebagai  prasarana  bagi  distribusi
+
+barang dan jasa merupakan urat  nadi  bagi  kehidupan masyarakat,  bangsa,  dan
+
+Negara.  Suatu Negara  dikatakan  maju  apabila  Negara  tersebut  memiliki
+
+infrastruktur jalan yang bagus dan tertata dengan rapi, tanpa adanya jalan tentunya
+
+tidak akan terjadikan transaksi bahkan bisa menyebabkan terjadinya kelumpuhan
+
+sistem perekonomian. 
+
+Dinas  Pekerjaan  Umun  (PU)  merupakan  instansi  pemerintah  yang
+
+mempunyai bagian kerja untuk menangani masalah infrastruktur umum ataupun
+
+pemerintahan. Dinas ini memiliki beberapa  satuan kerja atau pembagian lingkup
+
+kerja seperti  Satuan Kerja (Satker)  Cipta Karya yang menangani masalah jalan
+
+gang atau  komplek,  kemudian Satuan Kerja  Bina Marga yang menangani jalan
+
+Provinsi, jalan  Nasional dan jalan  Kota. 
+
+Jalan  sama  seperti  barang  atau  alat  pada  umumnya  yang  perlu
+
+perawatan atau pemeliharaan agar kondisinya semakin baik dan dapat digunakan
+
+masyarakat  dengan  nyaman,  sehingga  mempermudah  mobilisasi  masyarakat
+
+dalam  melakukan  kegiatannya  masing-masing. Banyaknya  jalan  yang  harus
+
+diperbaharui  menyebabkan  diperlukannya  anggaran  pembelanjaan  yang  tidak
+
+sedikit, bahkan dana besar yang sudah disediakan pemerintah pusat masih belum
+
+cukup untuk memelihara semua jalan khususnya di kota Pontianak. Padahal, jalan
+
+harusnya  secara  rutin  atau  berkala  diperbaharui  agar  tidak  rusak  ataupun
+
+membahayakan pengguna. 
+
+1
+
+
+
+2
+
+Seiring dengan perkembangan teknologi informasi yang sangat pesat
+
+di segala bidang maka banyak pekerjaan yang dapat didukung atau diselesaikan
+
+dengan  penerapan  teknologi  informasi  seperti  halnya  Sistem  Pendukung
+
+Keputusan  (SPK)  yang  merupakan  sistem  berbasis  komputer  yang  dapat
+
+membantu  mengambil  keputusan  dalam  menentukan  keputusan  dengan  lebih
+
+objektif. Selain  itu,  analisa  data  yang  dilakukan  oleh  SPK lebih  cepat  karena
+
+menggunakan modelbase yang dapat membantu manager (Pengambil Keputusan)
+
+dalam  menyelesaikan  masalah  (Dedi  Crismanto,  2009).  Berdasarkan  fungsi
+
+tersebut  SPK  dapat  membantu  Dinas  PU  untuk  menentukan  prioritas
+
+pemeliharaan jalan dengan cepat dan tepat.
+
+Permasalahan  pemeliharaan  jalan  kota  Pontianak  merupakan
+
+permasalahan yang harus dilakukan dengan prioritas tertentu melihat keterbatasan
+
+anggaran  dan  sumber  daya  lainnya.  Pemilihan  prioritas  pemeliharan  yang
+
+dilakukan  oleh  Dinas  PU  berdasarkan  hasil  survei  lapangan  yang  dilakukan.
+
+Sedangkang survei sendiri ada 2 jenis yaitu survei rutin dan survei berdasarkan
+
+komplain dari masyarakat, akan tetapi untuk mendapatkan keputusan penentukan
+
+jalan yang menjadi prioritas utama dilakukannya pemeliharaan masih sangat sulit
+
+dan  masih  terdapat  resiko  menghasilkan  keputusan  yang  tidak  tepat  sasaran.
+
+Seharusnya  ada  beberapa  kriteria  agar  sebuah  jalan  dapat  dikatakan  menjadi
+
+prioritas  utama  pemeliharaan.  Seperti  kepadatan  lalu  lintas,  luasan kerusakan,
+
+kepadatan penduduk, daya perusakan jalan (damage factor)  dan mungkin masih
+
+ada beberapa kriteria lagi yang dapat ditambahkan berdasarkan kebutuhan kriteria.
+
+Seperti telah yang diungkapkan oleh A. Faiz, dalam “Jurnal Aplikasi ISSN” pada
+
+tahun 2009, untuk melakukan penentuan pemeliharaan jalan dibutuhkan beberapa
+
+kriteria, yaitu : kerusakan pada jalan, kerusakan samping jalan, perilaku lalu lintas
+
+dan  komplain  dari  masyarakat.  Dengan kriteria-kriteria  tersebut  berarti
+
+pembobotan  tiap  kriteria  dapat  dihitung  dengan  sistem  yang  akan  dirancang
+
+sehingga  dapat  menghasilkan keputusan  yang  memiliki  presisi  tinggi  tidak
+
+berdasarkan subjektifitas untuk melakukan pemeliharaan terhadap jalan. 
+
+SPK  yang  akan  dibuat  menggunakan  metode logika  fuzzy dengan
+
+fuzzy inferensi  sistem (FIS)  Tsukamoto  yang dapat  memetakan  suatu  input  ke
+
+dalam suatu output tanpa mengabaikan faktor-faktor yang ada. Dengan kata lain
+
+
+
+3
+
+logika fuzzy memiliki toleransi terhadap data-data yang tersedia. Pada metode ini
+
+sebuah permasalah yang tidak memiliki ukuran pasti (kriteria-kriteria yang telah
+
+disebutkan) atau penilaian secara individu (menilai berdasarkan penilaian pribadi)
+
+dapat  diselesaikan  dengan  perhitungan  matematis  sehingga  dari  masalah  yang
+
+tidak  pasti  tersebut  menghasilkan  sebuah  keputusan  atau  solusi  dan  akan
+
+menjawab sebuah keragu-raguan yang terjadi. Dengan menggunakan logika fuzzy
+
+prediksi yang dihasilkan bukan prediksi asal yang tidak mendasar karena hasil
+
+prediksi berdasarkan perhitungan matematis sehingga tingkat keakuratannya bisa
+
+diukur (Ganjar,  2005).  Keputusan  yang  dihasilkan  oleh  SPK merupakan  hasil
+
+perhitungan  kriteria-kriteria   yang  telah  ditentukan,  kemudian  kriteria  fuzzy
+
+diterjemahkan dalam bilangan crisp, sehingga dapat dilakukan proses perhitungan
+
+(Henry Wibowo dkk, 2009).
+
+Dalam  permasalahan  yang  terjadi  pada  Dinas  PU  kerusakan  jalan
+
+merupakan salah satu faktor  yang tidak memiliki  ukuran yang pasti,  selain itu
+
+penarikan  keputusan  dari  hasil  survei masih  memakan  waktu  yang  lama  dan
+
+dinilai  masih  kurang  efektif,  terkadang  keputusan  yang  diambil  kurang  tepat
+
+sasaran. Berdasarkan sifatnya yang telah dijelaskan, metode  logika  fuzzy sangat
+
+memungkinkan  untuk  menyelesaikan  masalah  pada  Dinas  PU.  Selain  untuk
+
+mengatasi  masalah yang telah  dijelaskan,  sistem yang akan dirancang ini  juga
+
+menyediakan beberapa informasi seputar pemeliharaan jalan. Seperti rekam jejak
+
+(track record) jalan, mulai dari pemeliharaan terakhir, kondisi jalan sekarang dan
+
+kelengkapan  jalan   dan  lain  sebagainya.  Berdasarkan  latar  belakang  tersebut
+
+sehingga  dibuat  sebuah  Sistem  Pendukung  Keputusan  Penentuan  Prioritas
+
+Pemeliharaan Jalan Kota Pontianak.
+
+1.2 Perumusan Masalah
+
+Dinas  PU  membutuhkan  suatu  sistem  yang  dapat  memberikan
+
+alternatif keputusan kepada Kepala Satker Bina Marga. Alternatif keputusan itu
+
+berupa  keputusan  tentang  penentuan  prioritas  pemeliharaan  jalan. Berdasarkan
+
+kebutuhan tersebut maka,  dapat dirumuskan permasalahan dari penelitian yang
+
+akan  dilakukan   yaitu:   Bagaimana  sistem pendukung  keputusan  yang
+
+menggunakan  metode  logika  fuzzy  dapat  membuat  keputusan  prioritas
+
+pemeliharaan jalan berdasarkan data hasil survei. 
+
+
+
+4
+
+1.3 Tujuan Penelitian
+
+Adapun  tujuan  dari  penelitian  yang  dilakukan  adalah  untuk
+
+merancang sistem pendukung keputusan yang dapat memberikan urutan prioritas
+
+pemeliharaan  jalan  di Kota Pontianak menggunakan metode  Logika  Fuzzy dan
+
+Fuzzy Inferensi Sistem Tsukamoto serta metode pengurutan Technique for Order
+
+Preference by Similarity to Ideal Solution (TOPSIS).
+
+1.4 Pembatasan Masalah
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah:
+
+1. Aplikasi yang dibangun terdiri dari 2 bagian, yaitu bagian informasi jalan, dan
+
+bagian penarikan keputusan yang dilakukan oleh Kabag Bina Marga Kota 
+
+Pontianak.
+
+2. Keputusan yang dihasilkan merupakan hasil dari perhitungan inferensi setiap 
+
+kriteria kemudian diurutkan menggunakan metode TOPSIS.
+
+3. Semua keputusan yang dihasilkan oleh aplikasi berdasarkan perhitungan dari 
+
+himpunan fuzzy setiap parameter.
+
+1.5 Sistematika Penulisan Skripsi
+
+Adapun sistematika dari penulisan tugas akhir ini disusun dalam lima
+
+bab  yang  terdiri  dari  Bab  I  Pendahuluan,  Bab  II  Tinjauan  Pustaka,  Bab  III
+
+Metodologi  Penelitian  dan  Perancangan  Sistem,  Bab  IV  Hasil  dan  Analisis
+
+Aplikasi serta Bab V Penutup. Bab I Pendahuluan adalah bab yang berisi :
+
+1. Latar belakang, pada bagian ini dijelaskan bahwa Dinas PU membutuhkan 
+
+suatu sistem yang dapat memberikan keputusan prioritas pemeliharaan jalan.
+
+2. Perumusan masalah, pada bagian ini dijelaskan bahwa masalah yang ada pada 
+
+Dinas PU adalah pemilihan prioritas pemeliharaan jalan.
+
+3. Tujuan penelitian, pada bagian ini dijelaskan tentang tujuan dari Sistem 
+
+Pendukung Keputusan yang akan dihasilkan.
+
+4. Pembatasan masalah, pada bagian ini dijelaskan batasan-batasan sistem yang 
+
+nantinya akan dirancang.
+
+5. Sistematika penulisan, pada bagian ini dijelaskan tentang urutan dan gambaran
+
+awal tiap BAB.
+
+
+
+5
+
+Bab II Tinjauan Pustaka adalah bab yang berisi landasan teori yang
+
+ada hubungannya dengan penelitian yang akan dilakukan dan uraian sistematis
+
+tentang hasil-hasil penelitian yang didapat oleh peneliti terdahulu. Beberapa teori
+
+yang  dijelaskan  yaitu  :  SPK  (Sistem  Pendukung  Keputusan),  tentang
+
+Pemeliharaan  Jalan,  Fuzzy,  Fuzzy  Inferensi  Sistem Tsukamoto,  TOPSIS,  PHP,
+
+Database, Pengujian Perangkat Lunak. 
+
+Bab  III  Metodologi  Penelitian  dan  Perancangan  Sistem  adalah  bab
+
+yang berisi tentang:
+
+1. Bahan Penelitian berupa data jalan yang diperoleh dari Dinas PU.
+
+2. Alat yang Dipergunakan dalam penelitian seperti : perangkat lunak, perangkat 
+
+keras.
+
+3.  Metode Penelitian adalah tahapan penelitian yang dilakukan
+
+4. Perancangan Sistem berisikan tentang DFD (Data Flow Diagram) dan ERD 
+
+(Entity Relationship Data) dari sistem yang akan dirancang.
+
+Bab IV Hasil dan Analisis Aplikasi adalah bab yang berisi data hasil
+
+percobaan, pengamatan, survei dan sebagainya yang telah dirancang pada Bab III.
+
+Setiap hasil yang disajikan akan dilakukan analisis untuk mengarah kepada suatu
+
+kesimpulan.
+
+Bab V Penutup adalah bab yang berisi kesimpulan dari penelitian yang
+
+telah dilakukan dan saran atau rekomendasi untuk perbaikan, pengembangan atau
+
+kesempurnaan atau kelengkapan penelitian yang telah dilakukan.
+
+
+
+BAB II
+TINJAUAN PUSTAKA
+
+2.1  Sistem Pendukung Keputusan
+
+2.1.1 Pengertian Sistem Pendukung Keputusan
+
+Konsep  Sistem Pendukung Keputusan (SPK)  atau  Decision Support
+
+System (DSS) pertama kali diungkapkan pada awal tahun 1970-an oleh Michael S.
+
+Scott  Morton  dengan  istilah  Management  Decision  Sistem (Khoirudin,  2008).
+
+Sistem tersebut adalah suatu sistem yang berbasis komputer yang bertujuan untuk
+
+membantu pengambil keputusan dengan memanfaatkan data dan model tertentu
+
+untuk  memecahkan  berbagai  persoalan  yang  semi terstruktur. Istilah  SPK
+
+mengacu pada suatu sistem yang memanfaatkan dukungan komputer dalam proses
+
+pengambilan keputusan
+
+SPK sebagai sebuah sistem berbasis komputer yang membantu dalam
+
+proses pengambilan keputusan. SPK sebagai sistem informasi berbasis komputer
+
+yang  adaptif,  interaktif,  fleksibel,  yang  secara  khusus  dikembangkan  untuk
+
+mendukung  solusi  dari  pemasalahan  manajemen  untuk  meningkatkan  kualitas
+
+pengambilan keputusan. Dengan demikian dapat disimpulkan satu definisi tentang
+
+SPK yaitu sebuah sistem berbasis komputer yang adaptif, fleksibel, dan interaktif
+
+yang digunakan untuk memecahkan masalah-masalah tidak terstruktur sehingga
+
+meningkatkan nilai keputusan yang diambil (Khoirudin, 2008).
+
+Selain itu,  SPK didefinisikan sebagai sekumpulan prosedur berbasis
+
+model  untuk  data  pemrosesan  dan  penilaian  guna  membantu  para  manajer
+
+mengambil  keputusan.  SPK harus  sederhana,  cepat,  mudah  dikontrol,  adaptif,
+
+lengkap dengan isu-isu penting, dan mudah berkomunikasi.
+
+Sistem  pendukung  keputusan  memiliki  tujuan  sebagai  berikut
+
+(Kusumadewi, 2006) :
+
+1. Membantu manajer membuat keputusan untuk memecahkan masalah.
+
+2. Mendukung penilaian manajer bukan mencoba menggantikannya.
+
+3. Meningkatkan efektifitas pengambilan keputusan manajer.
+
+7
+
+
+
+8
+
+2.1.2 Komponen Sistem Pendukung Keputusan
+
+Sistem pembuat keputusan mempunyai komponen yang terbagi dalam
+
+4 subsistem, yaitu (Wulandari, 2005):
+
+1. Subsistem data : meliputi basis data yang berisi data-data yang relevan dengan
+
+keadaan dan dikelola oleh DBMS (Database Management System)
+
+2. Subsistem Model : merupakan paket software yang berisi model-model seperti
+
+finasial,  statistik,  manajemen  science,  atau  model  kuantitatif,  yang
+
+menyediakan kemampuan analisa dan manajemen software yang cocok. Pada
+
+subsitem inilah metode Logika Fuzzy dan Fuzzy Inferensi Sistem Tsukamoto
+
+diterapkan.
+
+3. Subsistem dialog : user dapat berkomunikasi dan memberi perintah sistem.
+
+4. Subsistem Knowledge : merupakan subsistem pilihan (optional) yang dapat 
+
+mendukung subsistem lain atau berlaku sebagai komponen yang independent.
+
+Dari subsistem tersebut dapat digambarkan hubungan antar subsistem 
+
+sehingga membentuk model dari Sistem Pendukung Keputusan. Model dari SPK 
+
+dapat dilihat pada Gambar 2.1.
+
+ Gambar 2.1 Model SPK
+
+
+
+9
+
+2.1.3 Proses Pengambilan Keputusan
+
+Proses  pengambilan  keputusan  melibatkan  tiga  tahap  utama  yaitu
+
+tahap intelegensi (Intelligence Phase), tahap perencanaan (Design Phase), tahap
+
+pilihan (choice phase), dan tahap implementasi (Implementation). Seperti tampak
+
+pada Gambar 2.2 Tahap-tahap dalam proses pengambilan keputusan di bawah ini.
+
+Gambar 2.2 Tahapan Pengambilan Keputusan (Turban,2001)
+
+1. Tahap Intelegensi (Intelligence Phase)
+
+Merupakan  tahap  identifikasi  masalah  serta  identifikasi  informasi  yang
+
+dibutuhkan,  berkaitan dengan persoalan yang dihadapi  serta keputusan yang
+
+akan  diambil,  tentunya  persoalan  yang  dihadapi  harus  dirumuskan  terlebih
+
+dahulu secara jelas.
+
+2. Tahap Perancangan (Design Phase)
+
+Merupakan  tahap  analisa  dalam kaitan  mencari  atau  merumuskan  alternatif
+
+keputusan.  Setelah  permasalahan  dirumuskan  dengan  baik,  maka  tahap
+
+berikutnya adalah merancang atau membangun model pemecahan masalahnya
+
+dan menyusun berbagai alternatif pemecahan masalah.
+
+3. Tahap Pilihan (Choice Phase)
+
+
+
+10
+
+Pada tahap ini dilakukan proses pemilihan diantara berbagai alternatif tindakan
+
+yang  mungkin  dijalankan.  Hasil  pemilihan  tersebut  kemudian
+
+diimplementasikan dalam proses pengambilan keputusan.
+
+4. Tahap Implementasi (Implementation)
+
+Merupakan tahap solusi dengan menarik keputusan dalam kaitannya masalah
+
+yang terjadi.
+
+2.1.4 Karakteristik Sistem Pendukung Keputusan
+
+Karakteristik dan kapabilitas kunci dari SPK adalah (Turban, 2005):
+
+1. Dukungan untuk pengambil keputusan, terutama pada situasi semiterstruktur,
+
+dengan  menyertakan  penilaian  manusia  dan  informasi  terkomputerisaasi.
+
+Masalah-masalah  tersebut  tidak  dapat  dipecahkan  dengan  konvenien  oleh
+
+sistem komputer lain atau oleh metode atau alat kuantitatif standar.
+
+2. Dukungan  untuk  semua  level  manajerial,  dari  eksekutif  puncak  samapai
+
+manajer lini.
+
+3. Dukungan  untuk  individu  dan kelompok.  Masalah  yang  kurang  terstruktur
+
+sering  memerlukan  keterlibatan  individu  dari  departemen  dan  tingkat
+
+organisasional  yang  berbeda  atau  bahkan  dari  organisasi  lain.  SPK
+
+mendukung tim virtual melalui alat-alat Web kolaboratif.
+
+4. Dukungan untuk keputusan independen dan atau sekuensial. Keputusan dapat
+
+dibuat satu kali, beberapa kali, atau berulang (dalam interval yang sama).
+
+5. Dukungan pada semua  fase  proses  pengambilan  keputusan:  inteligensia,
+
+desain,pilihan dan implementasi.
+
+6. Dukungan diberbagai proses dan gaya pengambilan keputusan.
+
+7. Adaptivitas  sepanjang  waktu.  Pengambilan  keputusan  seharusnya  reaktif,
+
+dapat menghadapi perubahan kondisi secara cepat, dan dapat mengadaptasikan
+
+SPK untuk memenuhi perubahan tersebut. SPK bersifat fleksibel dan arena itu
+
+pengguna dapat menambahkan, menghapus, menggabungkan, mengubah, atau
+
+menyusun kembali elemen-elemen dasar. SPK juga fleksibel dalam hal dapat
+
+dimodifikasi untuk memecahkan masalah lain yang sejenis.
+
+8. Pengguna merasa seperti di rumah. Ramah pengguna, kapabilitas grafis yang
+
+sangat  kuat,  dan  antar  muka  manusia-mesin  interaktif  dengan  satu  bahasa
+
+
+
+11
+
+alami dapat sangat meningkatkan keefektifan SPK. Kebanyakan aplikasi SPK
+
+yang baru menggunakan antarmuka berbasis Web.
+
+9. Peningkatan terhadap keefektifan pengambilan keputusan (akurasi, timeliness,
+
+kualitas) ketimbang pada efisiensinya (biaya pengambilan keputusan). Ketika
+
+SPK  disebarkan,  pengambilan  keputusan  sering  membutuhkan  waktu  lebih
+
+lama, namun keputusannya lebih baik.
+
+10. Kontrol  penuh  oleh  pengambil  keputusan  terhadap  semua  langkah  proses
+
+pengambilan  keputusan  dalam  memecahkan  suatu  masalah.  SPK  secara
+
+khusus  menenkankan  untuk  mendukung  pengambilan  keputusan,  bukannya
+
+menggantikan.
+
+11. Pengguna  akhir  dapat  mengembangkan  dan  memodifikasi  sendiri  sistem
+
+sederhana. Sistem yang lebih besar dapat dibangun dengan bantuan ahli sistem
+
+informasi.  Perangkat  lunak  OLAP dalam kaitannya  dengan  data  wareshop
+
+membolehkan  pengguna  untuk  membangun  SPK  yang  cukuop  besar  dan
+
+kompleks.
+
+12. Biasanya  model-model  digunakan  untuk  menganalisis  situasi  pengambilan
+
+keputusan.  Kapabilitas  pemodelan  memungkinkan  eksperimen  dengan
+
+berbagai  strategi  yang  berbeda  di  bawah  konfigurasi  yang  berbeda.
+
+Sebenarnya, model-model membuat suatu SPK berbeda dari kebanyakan MIS.
+
+13. Akses disediakan untuk berbagai  sumber data,  format,  dan tipe,  mulai  dari
+
+sistem infromasi geografis (GIS), sampai sistem berorientasi-objek.
+
+14. Dapat  dilakukan  sebagai  alat  standalone  yang  digunakan  oleh  seorang
+
+pengambil  keputusan  padalokasi  atau  didistribusikan  pada suatu  organisasi
+
+keseluruhan  dan  beberapa  organisasi  sepanjang  rantai  persediaan.  Dapat
+
+diintregasikan dengan  SPK lain atau aplikasi lain, dan  didistribusikan  secara
+
+internal dan eksternal dengan menggunakan networking dan teknologi Web.
+
+2.2 Pemeliharaan Jalan
+
+
+
+12
+
+2.2.1 Pengertian Pemeliharaan Jalan
+
+Pemeliharaan jalan adalah penanganan jalan yang meliputi perawatan,
+
+rehabilitasi,  penunjang,  dan  peningkatan  (PP  26  tahun  1985  tentang  jalan).
+
+Terdapat 3 jenis pemeliharaan jalan yaitu (Dirjen Bina Marga, 1990) :
+
+1. Pemeliharaan Rutin
+
+Pemeliharaan rutin adalah penanganan yang diberikan hanya terhadap lapis
+
+permukaan yang sifatnya untuk meningkatkan kualitas berkendaraan (riding
+
+quality),  tanpa  meningkatkan  kekuatan  struktural,  dan  dilakukan  sepanjang
+
+tahun.
+
+2. Pemeliharaan Berkala
+
+Pemeliharaan berkala adalah pemeliharaan terhadap jalan pada waktu tertentu
+
+dan sifatnya meningkatkan kemampuan struktural.
+
+3. Peningkatan 
+
+Peningkatan adalah penanganan jalan guna memperbaiki pelayanan jalan yang
+
+berupa peningkatan struktural dan atau geometriknya agar mencapai tingkat
+
+pelayanan yang direncanakan.
+
+2.2.2 Tahapan Survei Jalan
+
+Untuk melakukan  pemeliharan  jalan  tentunya  terlebih  dahulu  Dinas
+
+PU harus melakukan survei terhadap jalan yang ada. Hal ini dilakukan agar Dinas
+
+PU dapat memantau keadaan jalan di wilayah kerjanya. Adapun tahapan survei
+
+yang dilakukan oleh Dinas PU adalah sebagai berikut (Dirjen Bina Marga, 1990) :
+
+1. Survei Pendahuluan
+
+Survei awal guna mendapatkan informasi yang diperlukan dalam penentuan
+
+langkah-langkah selanjutnya, seperti: survei geometrik, struktur, kondisi jalan,
+
+pemanfaatan jalan, lalu lintas, dan sebagainya.
+
+2. Survei Inventarisasi Jalan
+
+Survei ini  dilakukan  untuk mendapatkan  data  teknis  dan  non teknis.  Hasil
+
+survei  ini  dipakai  sebagai  salah  satu  masukan  dalam  menentukan  jenis
+
+penanganan  yang  diperlukan  terhadap  ruas  jalan  dan  jembatan  yang
+
+bersangkutan.
+
+3. Survei Lalu Lintas
+
+
+
+13
+
+Survei ini dilakukan untuk mendapatkan data lalu lintas yang meliputi  data
+
+volume, komposisi kendaraan, frekuensi kendaraan, dan arah perjalanan. Hasil
+
+survei  ini  dipakai  sebagai  masukan dalam penyusunan program pembinaan
+
+jalan, antara lain dalam hal penetapan geometrik dan tebal jalan.
+
+4. Survei Kecepatan Kendaraan
+
+Survei ini  dilakukan  untuk  mendapatkan  data  kecepatan  kendaraan  yang
+
+melalui ruas jalan.Dengan mengetahui kecepatan jalan maka dapat diketahui
+
+kelancaran pergerakan lalu lintas.
+
+2.3 Logika Fuzzy
+
+2.3.1 Pengertian Fuzzy
+
+Logika  fuzzy pertama kali  diperkenalkan  oleh  Prof.  Lotfi  A.  Zadeh
+
+pada  tahun  1965.Dasar  logika  fuzzy adalah  teori  himpunan  fuzzy.  Pada  teori
+
+himpunan fuzzy, peranan derajat keanggotaan sebagai penentu keberadaan elemen
+
+dalam  suatu  himpunan  sangat  penting.  Teori  himpunan  fuzzy  merupakan
+
+kerangka matematis  untuk  merepresentasikan  ketidakpastian, ketidakjelasan,
+
+ketidaktepatan, kekurangan  informasi,  dan  kebenaran  parsial  (Kusumadewi,
+
+2006).  Dengan  fuzzy  proses penentuan nilai  suatu kriteria  yang subjektif  akan
+
+memberikan hasil yang sangat baik. Penentuan nilai diperoleh dengan membuat
+
+fungsi keanggotaan terlebih dahulu.
+
+Logika fuzzy memiliki beberapa keunggulan sehingga membuat orang
+
+sering  menggunakan  metode  ini  untuk  menyelesaikan  suatu  masalah  ataupun
+
+pengambilan keputusan. Berikut ini perbandingan antara logika  fuzzy dan AHP
+
+antara lain (Cox, 1994):
+
+Tabel 2.1 Perbandingan Metode Logika Fuzzy dan AHP
+
+Berdasarkan
+
+(1)
+
+Logika Fuzzy
+
+(2)
+
+AHP
+
+(3)
+
+Konsep Dasar
+
+(1)
+
+Konsep logika fuzzy mudah
+dimengerti. Karena logika fuzzy
+
+(2)
+
+menggunakan  dasar  teori
+
+Konsep perhitungan AHP 
+menggunakan matriks
+
+(3)
+
+perbadingan kriteria dan 
+
+
+
+14
+
+himpunan,  maka  konsep
+matematis  yang  mendasari
+penalaran  fuzzy tersebut  cukup
+mudah untuk dimengerti.
+
+subkriteria.
+
+Sifat Logika  fuzzy sangat  fleksibel,
+artinya  mampu  beradaptasi
+dengan  perubahan-perubahan,
+dan  ketidakpastian  yang
+menyertai permasalahan.
+
+Tidak  dapat
+memperhitungan
+ketidakpastian  yang
+menyertai permasalahan
+
+Model Logika  fuzzy mampu
+memodelkan  fungsi-fungsi
+nonlinier yang sangat kompleks.
+
+Model  SPK  berdasarkan
+hirarki,  mulai  dari  kriteria
+sampai subkriteria
+
+Kriteria Memetakan kriteria yang bersifat
+subjektif  ke  dalam  himpunan
+keanggotaan  antara  0  sampai
+dengan 1.
+
+Tidak  dapat  memetakan
+kriteria  subjektif  karena
+sulit  untuk  menentukan
+nilai bobot
+
+2.3.2 Fungsi keanggotaan
+
+Fungsi keanggotaan (membership function)  adalah suatu kurva yang
+
+menunjukan pemetaan  titik-titik  input  data  ke dalam nilai  keanggotaan.  Salah
+
+satu  cara  yang  dapat  digunakan  untuk  mendapatkan  nilai  keanggotaan  adalah
+
+dengan  melalui  pendekatan  fungsi.  Ada  beberapa  fungsi  yang  bisa  digunakan
+
+antara lain:
+
+a. Representasi linear
+
+Pada  representasi  linear,  pemetaan  input  ke  derajat  keanggotaannya
+
+digambarkan  sebagai  suatu  garis  lurus.  Bentuk  ini  paling  sederhana  dan
+
+menjadi pilihan yang baik untuk mendekati suatu konsep yang kurang jelas.
+
+Ada 2 keadaan himpunan  fuzzy yang linear.  Pertama,  kenaikkan himpunan
+
+dimulai pada nilai domain yang memiliki derajat keanggotaan nol (0) bergerak
+
+ke kanan kenuju nilai domain yang memiliki derajat keanggotaan lebih tinggi
+
+seperti pada Gambar 2.3.
+
+
+
+15
+
+Gambar 2.3 Representasi linear naik
+
+Fungsi keanggotaan :
+
+µ(x)=
+
+0; x ≤ a
+
+(x-a)/(b-a); a ≤ x ≤ b
+
+1; x ≥ b
+
+………………………...............(2.1)
+
+Kedua, merupakan kebalikan dari  yang pertama.  Garis  lurus dimulai  dari  nilai
+
+domain dengan derajat  keanggotaan tertinggi pada sisi kiri,  kemudian bergerak
+
+menurun ke nilai domain yang memiliki derajat keanggotaan lebih rendah seperti
+
+pada Gambar 2.4.
+
+Gambar 2.4 Representasi linear turun
+
+
+
+16
+
+Fungsi keanggotaan :
+
+µ(x)=
+
+ (b-x)/(b-a); a ≤ x ≤ b
+
+0;x≥b
+
+………………………...............(2.2)
+
+b. Representasi kurva segitiga
+
+Kurva  segitiga  pada  dasarnya  merupakan  gabungan  antara  2  garis
+
+(representasi linear) seperti pada Gambar 2.5.
+
+Gambar 2.5 Representasi kurva segitiga
+
+Fungsi keanggotaan :
+
+µ(x)=
+
+ 0; x ≤ a / x ≥ c
+
+(x-a)/(b-a); a ≤ x ≤ b
+
+(b-x)/(c-b); b ≤ x ≤ c
+
+………………………....(2.3)
+
+c. Representasi kurva bentuk bahu
+
+Kurva bentuk bahu merupakan gabungan antara lebih dari 2 kurva segitiga.
+
+Untuk itu  maka fungsi  keanggotaan kurva bentuk bahu akan sama dengan
+
+kurva segitiga. Kurva bentuk bahu seperti pada Gambar 2.6.
+
+
+
+17
+
+Gambar 2.6 Representasi kurva bentuk bahu
+
+2.3.3 Fuzzy Inference System
+
+Pada Dasarnya  Fuzzy Inference System  terdiri  dari  beberapa bagian
+
+sebagai berikut (Jang, 2004) :
+
+1. Basis aturan berisi sejumlah aturan fuzzy IF-THEN
+
+2. Basis  data  yang  mendefinisikan  fungsi  keanggotaan  himpunan  fuzzy
+
+digunakan dalam aturan-aturan fuzzy.
+
+3. Unit  pembuat  keputusan  yang  mentransformasikan  operasi  inferensi  dalam
+
+aturan-aturan.
+
+4. Mentransformasikan masukan yang bernilai tunggal (crips) ke dalam derajat
+
+keanggotaan sesuai dengan nilai linguistiknya
+
+2.3.3.1 Fuzzy Inference System Tsukamoto
+
+Metode  tsukamoto  merupakan  perluasan  dari  penalaran  monoton,
+
+Pada metode Tsukamoto, setiap konsekuen pada aturan yang berbentuk IF-Then
+
+harus  direpresentasikan  dengan  suatu  himpunan  fuzzy dengan  fungsi
+
+keanggotaannya yang monoton. Sebagai hasilnya, output hasil inferensi dari tiap-
+
+tiap aturan diberikan secara tegas (crisp) berdasarkan  α-predikat (fire strenght).
+
+Hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot (Kusumadewi,
+
+2002).
+
+Misalkan ada 2 variabel input, Var-1 (x) dan Var-2 (y), serta 1 variabel
+
+output, Var-3 (z), di mana Var-1 terbagi atas 2 himpunan yaitu A1 dan A2 terbagi
+
+atas 2 himpunan B1 dan B2, Var-3 juga terbagi atas 2 himpunan yaitu C1 dan C2
+
+(C1 dan C2 harus monoton). Ada aturan yang digunakan, yaitu:
+
+
+
+18
+
+[R1] IF (x is A1) and (y is B2) THEN (z is C1)
+
+ [R1] IF (x is A2) and (y is B1) THEN (z is C2)
+
+2.4 Metode TOPSIS
+
+2.4.1 Pengertian Metode TOPSIS
+
+Metode  TOPSIS  (Technique  for  Order  Preference  by  Similarity  to
+
+Ideal  Solution)  adalah  sebuah  teknik  pembobotan  linier  yang  pertama  kali
+
+ditawarkan  dalam  bentuk  bilangan  crisp.  Sejak  itu,  metode  ini  telah  banyak
+
+digunakan untuk mengatasi  masalah-masalah diberbagai bidang meliputi  desain
+
+robot untuk pemilihan bahan, dari evaluasi kinerja perusahaan hingga penaksiran
+
+kualitas  pelayanan  dalam  industri  penerbangan.  Ini  merupakan  perluasan  dari
+
+sistem  pendukung  keputusan  kelompok  di bawah  lingkungan  fuzzy (Bottani,
+
+2006).
+
+2.4.2 Langkah-Langkah Perhitungan Metode TOPSIS
+
+Secara umum TOPSIS mengikuti langkah-langkah sebagai berikut :
+
+1. Membuat matriks keputusan yang ternormalisasi.
+
+2. Membuat matriks keputusan yang ternormalisasi terbobot.
+
+3. Menentukan matriks solusi ideal positif dan matriks solusi ideal negatif.
+
+4. Menentukan jarak antara nilai setiap alternatif dengan matriks solusi ideal 
+
+positif dan matriks solusi ideal negatif.
+
+5. Menentukan nilai preferensi untuk setiap alternatif.
+
+2.4.3 Perhitungan Metode TOPSIS
+
+Metode ini mulai dari membuat matriks keputusan yang ternormalisasi
+
+yaitu matriks R (matriks perbandingan berpasangan).
+
+Xij
+
+rij = .............................................................................(2.4)
+m 2
+
+¥~ Xij
+i=1
+
+Di mana rij adalah rating kinerja ternormalisasi dari alternatif Ai pada atribut Cj;
+
+i=1,2,…,m dan j=1,2,…,n
+
+
+
+19
+
+Selanjutnya  membuat  matriks  Y  yang  merupakan  bobot  setiap  kriteria  yang
+
+dikalikan dengan matriks R.
+
+Yij = WjXij .................................................................................................................................(2.5)
+
+Menentukan solusi idela positif A+ dan solusi ideal negatif A- berdasarkan rating
+
+bobot ternormalisasi (Yij) sebagai :
+
+A+ = (y1+, y2+,…, yn+); ................................................................................(2.6)
+
+A- = (y1-, y2-,…, yn-); ................................................................................(2.7)
+
+Menentukan jarak antara nilai setiap alternatif dengan matriks solusi ideal positif
+
+dan matriks solusi ideal negatif :
+
+Di+ = ¥~( yi+ - yij) i = 1,2,…,m. ................................................................................(2.8)
+J = 1  n
+
+n
+
+Di - = ¥~( yij - yi-) i = 1,2,…,m. ................................................................................(2.9)
+J = 1
+
+Menentukan nilai preferensi untuk setiap alternatif :
+
+......................................................(2.10)
+
+Nilai Vi  yang lebih besar yang akan dipilih.
+
+2.5 Hypertext Preprosesor
+
+Hypertext Preprosesor (PHP) merupakan bahasa berbentuk skrip yang
+
+ditempatkan dalam  server  dan diproses  pada server.  Hasilnya yang dikirim ke
+
+client,  tempat  pemakai  menggunakan  browser.  Secara  khusus  PHP  dirancang
+
+untuk  membentuk  web  dinamis.  PHP  dapat  membentuk  suatu  tampilan
+
+berdasarkan permintaan terkini (Kadir, 2003).
+
++ 
+Di - + Di
+
+i  =  1,2,
+…,m.
+
+-
+Di
+
+
+
+20
+
+Gambar 2.7 Skema PHP
+
+Adapun kelebihan dari PHP sehingga menjadi pilihan adalah antara lain :
+
+1. Bahasa pemrograman PHP adalah sebuah bahasa script yang tidak melakukan
+
+sebuah kompilasi dalam penggunaanya.
+
+2. Web Server yang mendukung PHP dapat ditemukan dimana - mana dari mulai
+
+apache,  IS,  Lighttpd,  nginx,  hingga  Xitami  dengan konfigurasi  yang relatif
+
+mudah.
+
+3. Dalam sisi pengembangan lebih mudah, karena banyaknya  milis - milis  dan
+
+developer yang siap membantu dalam pengembangan.
+
+4. Dalam sisi pemahamanan, PHP adalah bahasa  scripting  yang paling mudah
+
+karena memiliki referensi yang banyak.
+
+5. PHP  adalah  bahasa  open  source  yang  dapat  digunakan  di  berbagai  mesin
+
+(Linux,  Unix,  Macintosh,  Windows)  dan  dapat  dijalankan  secara  runtime
+
+
+
+21
+
+melalui console serta juga dapat menjalankan perintah-perintah sistem.
+
+2.6 Database
+
+Database yang digunakan pada sistem pendukung keputusan ini adalah
+
+MySQL. MySQL adalah suatu  Structured Query Language Relational Database
+
+Management System (RDBMS) yang memiliki fasilitas Multithreaded dan multi-
+
+user.  MySQL  AB  membuat  MySQL  sebagai  perangkat  lunak  yang  gratis  di
+
+bawah  lisensi  GNU  General  Public  License  (GPL),  tetapi  mereka  juga
+
+menjualnya dengan lisensi konvensional (Chairani, 2007).
+
+Beberapa  keunggulan  MySQL  sebagai  database  server  adalah
+
+(Chairani, 2007) :
+
+1. Open source.
+
+MySQL didistribusikan secara gratis di bawah lisensi GPL  (General Public
+
+License)  sehingga dapat menggunakannya secara cuma-cuma tanpa dipungut
+
+biaya dan dapat diunduh secara gratis melalui situs resmi MySQL, yaitu http://
+
+www.mysql.com.
+
+2. Cepat, handal, dan mudah digunakan.
+
+MySQL dapat memproses banyak SQL per satuan waktu, mampu menangani
+
+database  dalam skala besar, dengan jumlah record lebih dari 50 juta dan 60
+
+ribu tabel serta 5 milyar baris. Tersedia berbagai  toolsyang dapat digunakan
+
+untuk administrasi database.
+
+3. Dapat bekerja pada client/server atau sebagai sistem yang terintegrasi. 
+
+MySQLdapat  melakukan  koneksi  dengan  client  menggunakan
+
+protokolTCP/IP, Unix Socket (Unix) atau Named Pipes (NT).
+
+4. Portability
+
+MySQL dapat berjalan stabil pada berbagai sistem operasi yang diantaranya
+
+adalah Windows, Linux, FreeBSD, Mac OS X Server, Solaris, Amiga, HP- UX
+
+dan masih banyak lainnya.
+
+2.7 Flowchart
+
+
+
+22
+
+Menurut Zarlis et al (2007) Flowchart merupakan gambar atau bagan
+
+yang memperlihatkan urutan dan hubungan antar proses beserta pernyataannya.
+
+Gambaran  ini  dinyatakan  dengan  simbol  dan  dengan  demikian  setiap  simbol
+
+menggambarkan  proses  tertentu.  Hubungan  antar  proses  digambarkan  dengan
+
+garis  penghubung.  Flowchart  disebut  juga  dengan  diagram  alir.  Dengan
+
+menggunakan  flowchart  akan  memudahkan  kita  untuk  melakukan  pengecekan
+
+bagian-bagian yang terlupakan dalam analisis masalah. Di samping itu, flowchart
+
+juga berguna sebagai fasilitas untuk dapat berkomunikasi antara pemrogram yang
+
+bekerja dalam tim suatu proyek.
+
+Dalam pembuatan suatu flowchart tidak ada rumus atau patikan yang
+
+bersifat  mutlk.  Karena  flowchart  merupakan  gambaran  hasil  pemikiran  dalam
+
+menganalisis  suatu  masalah  dengan komputer.  Oleh  karena itu  flowchart  yang
+
+dihasilkan dapat bervariasi antara suatu pemrogram dengan yang lainnya. Secara
+
+garis  besar,  setiap pengolahan dalam  flowchart  terbagi  atas tiga bagian utama,
+
+yaitu input, proses pengolahan dan output. 
+
+2.8 Data Flow Diagram (DFD)
+
+Pada  saat  informasi  mengalir  melalui  perangkat  lunak,  dan
+
+dimodifikasi oleh suatu deretan transformasi. Diagram alir data atau  Data Flow
+
+Diagram  (DFD)  adalah  sebuah  teknik  grafis  yang  menggambarkan  aliran
+
+informasi dan transformasi yang diaplikasikan pada saat data bergerak dari input
+
+menjadi output (Pressman, 2002).
+
+DFD juga  sering  digunakan  untuk menggambarkan  suatu  sistem  yang
+
+telah  ada  atau  sistem  baru  yang  akan  dikembangkan  secara  logika  tanpa
+
+mempertimbangkan  lingkungan fisik  dimana  data  tersebut  disimpan.  DFD
+
+merupakan  alat  yang  digunakan  pada  metodologi  pengembangan  sistem  yang
+
+terstruktur (structure analysis and desaign).
+
+DFD mempunyai  keterbasan yaitu  tidak  menunjukan proses  perulangan
+
+atau  loop,  tidak  menunjukan  proses  keputusan  (decision),  tidak  menunjukan
+
+proses perhitungan. Keterbatasan DFD ini dapat dipecahkan dengan menambah
+
+penggunaan  operasional  operator  sehingga  kemampuan  DFD  dapat  lebih
+
+ditingkatkan (Jogiyanto, 2001).
+
+
+
+23
+
+2.9 Entity Relationship Diagram (ERD)
+
+Dalam rekayasa perangkat  lunak, sebuah  Entity-Relationship Model
+
+(ERM) merupakan abstrak dan konseptual representasi data.  Entity-Relationship
+
+adalah  salah  satu  metode  pemodelan  basis  data  yang  digunakan  untuk
+
+menghasilkan skema konseptual untuk jenis/model data semantik sistem. Dimana
+
+sistem  seringkali memiliki basis data relasional, dan ketentuannya bersifat top-
+
+down.  Diagram  untuk  menggambarkan  model  Entitiy-Relationship ini  disebut
+
+Entitiy-Relationship  Diagram,  ER  diagram,  atau  ERD.  ERD  memiliki  tiga
+
+komponen, yaitu :
+
+1. Entitas
+
+Entitas adalah sesuatu dalam dunia nyata dengan keberadaan yang bebas baik
+
+fisik  maupun  abstrak.  Entitas  dengan  keberadaan  secara  fisik  dapat
+
+didefinisikan sebagai orang, benda,  tempat,  misalnya pegawai,  negara,  dan
+
+kendaraan.  Sedangkan  entitas  dengan  keberadaan  secara  abstrak  adalah
+
+kejadian  dan  konsep,  misalnya  jasa,  mata  kuliah. Masing-masing  entitas
+
+diberikan nama yang mewakili  satu kelas dan biasanya menggunakan kata
+
+benda.
+
+2. Relationship
+
+Relationship merupakan hubungan yang terjadi  antara  satu  atau  lebih  tipe
+
+entitas.  Di  dalam  relationship  terdapat  Derajat  Relationship,  yaitu  jumlah
+
+entitas  yang berpartisipasi dalam suatu relationship,  yang dibagi  menjadi  :
+
+berderajat satu (unary), berderajat dua (binary) dan berderajat tiga (ternary).
+
+3. Atribut.  Tipe-tipe  entitas  memiliki  sekumpulan  atribut  yang  berkaitan
+
+dengannya. Maka atribut merupkan sifat atau karakteristik suatu entitas yang
+
+menyediakan penjelasan detail tentang entitas tersebut. 
+
+Di dalam relationship juga terdapat kardinalitas, yaitu jumlah instance
+
+suatu entitas yang dapat atau dihubungkan dengan tiap entitas yang terdapat dalam
+
+entitas lainnya. Kardinalitas yang umum adalah :
+
+1. Satu-ke-Satu (One-to-One)
+
+2. Satu-ke-Banyak (One-to-Many)
+
+3. Banyak-ke-Banyak (Many-to-Many)
+
+
+
+24
+
+2.10 Pengujian Perangkat Lunak
+
+Pengujian  merupakanproses  menjalankan  program  dengan  maksud
+
+menemukan  kesalahan  (try  and  error).  Berdasarkan  definisi  tersebut,  aktivitas
+
+yang terjadi dalam pengujian perangkat lunak terdiri dari pengujian kode program
+
+hingga  kegiatan  percobaan  terhadap  perangkat  lunak  yang  sudah  berfungsi.
+
+Adapun tujuan dari pengujian perangkat lunak adalah sebagai berikut
+
+(Pressman, 2001):
+
+1. Untuk  mengidentifikasi  dan  menyatakan  sebanyak  mungkin  error  yang
+
+dimiliki oleh perangkat lunak yang diuji.
+
+2. Untuk membawa perangkat lunak yang diuji  ke tingkat kualitas yang dapat
+
+diterima, setelah perangkat lunak tersebut mengalami pembetulan atau koreksi
+
+atas error yang ditemukan.
+
+3. Untuk melaksakan uji-uji yang dibutuhkan secara efisien dan efektif,  dalam
+
+keterbatasan budget dan waktu penjadwalan.
+
+Pentingnya pengujian perangkat lunak dan implikasinya yang mengacu
+
+pada  kualitas  perangkat  lunak  tidak  dapat  terlalu  ditekan  karena  melibatkan
+
+deretan aktivitas produksi di mana peluang terjadinya kesalahan manusia sangat
+
+besar dan arena ketidakmampuan manusia untuk melakukan dan berkomunikasi
+
+dengan sempurna maka pengembangan perangkat lunak diiringi dengan aktivitas
+
+jaminan kualitas. Dalam pengujian, kualitas dari data pengujian lebih penting dari
+
+pada jumlah datanya. Ada beberapa metode yang dapat digunakan untuk memilih
+
+data pengujian, salah satunya adalah metode black box.  Metode Black-Box yaitu
+
+data  pengujian  dipilih  berdasarkan  spesifikasi  masalah  tanpa  memperhatikan
+
+detail internal dari program (Rosa A.S, 2009), untuk memeriksa apakah program
+
+dapat berjalan dengan benar. Pemilihan data pengujian paling tidak harus dipilih
+
+dengan cara berikut (Rosa A.S, 2009):
+
+a. Easy values, yaitu data yang mudah diperiksa.
+
+b. Typical realistic value, yaitu mencoba program dengan data pengujian untuk
+
+melihat bagaimana program menggunakannya. Data ini harus cukup sederhana
+
+sehingga hasilnya dapat dihitung secara manual.
+
+c. Extreme values, banyak program error pada suatu batas range dari aplikasi.
+
+
+
+25
+
+d. Ilegal  values,  yaitu  suatu data  atau nilai  yang tidak diperbolehkan maupun
+
+data yang tidak berguna.
+
+Ujicoba  blackbox berusaha  untuk  menemukan  kesalahan  dalam
+
+beberapa  kategori,  diantaranya fungsi-fungsi  yang salah atau hilang,  kesalahan
+
+interface, kesalahan dalam struktur data atau akses database eksternal, kesalahan
+
+performa dan kesalahan inisialisasi dan terminasi. Salah satu pengujian blackbox
+
+adalah  Uji  Ketahanan  (Endurance  Testing)yaitu  melibatkan  kasus  uji  yang
+
+diulang-ulang dengan jumlah tertentu dengan tujuan untuk mengevaluasi program
+
+apakah sesuai dengan kebutuhan (Rosa A.S, 2009).
+
+2.10.1 Black Box
+
+Metode Black Box merupakan metode pengujian yang memungkinkan
+
+merekayasa  perangkat  lunak  mendapatkan  serangkaian  kondisi  input  yang
+
+sepenuhnya  menggunakan  semua  persyaratan  fungsional  untuk  suatu  program
+
+(Pressman, 2001).
+
+Ujicoba  Black  Box  berusaha  untuk  menemukan  kesalahan  dalam
+
+beberapa kategori yaitu fungsi-fungsi yang salah atau hilang, kesalahan interface,
+
+kesalahan dalam struktur data atau akses database eksternal, kesalahan performa,
+
+dan kesalahan inisialisasi dan terminasi.
+
+2.10.2 User Acceptance Text
+
+User Acceptance  Test  (UAT) merupakan pengujian  yang dilakukan
+
+oleh pengguna yang bertujuan untuk menguji apakah sistem sudah sesuai dengan
+
+apa  yang  tertuang  dalam  spesifikasi  fungisonal  sistem  (validation).  Langkah-
+
+langkah  yang  diambil  untuk  UAT  adalah  antara  lain:  perencanaan  User
+
+Acceptance  Test  (UAT),  merancang  uji  kasus,  pelaksana  uji  kasus,
+
+pengadministrasian yang cacat ditemukan selama UAT, menyelesaikan masalah
+
+(Bug Fixing) dan Sign Of.
+
+2.10.3 Kuesioner
+
+Kuesioner adalah  merupakan daftar pertanyaan yang akan digunakan
+
+oleh  seseorang  untuk  memperoleh  data  dari  sumbernya  baik  secara  lansung
+
+maupun secara proses komunikasi atau mengajukan pertanyaan. Kuesioner dapat
+
+
+
+26
+
+diberikan  secara  pribadi, disuratkan  kepada  responden,  atau  disebarkan  secara
+
+elektronik. Berdasarkan definisi-definisi tersebut.
+
+Menurut Sekaran (2006), kuesioner adalah daftar pertanyaan tertulis
+
+yang telah dirumuskan sebelumnya yang akan responden jawab, biasanya dalam
+
+alternative  yang  didefinisikan  dengan  jelas.  Kuesioner  merupakan  suatu
+
+mekanisme pengumpulan data yang efiien jika peneliti mengetahui dengan tepat
+
+apa yang diperlukan dan bagaimana mengukur variabel penelitian.
+
+2.11 Pengujian Validitas dan Reliabilitas
+
+Menurut  Sugiyono (2006),  uji  validitas  adalah  suatu  langkah
+
+pengujian  yang  dilakukan  terhadap  isi  (content)  dari  suatu  instrumen,  dengan
+
+tujuan  untuk  mengukur  ketepatan  instrumen  yang  digunakan  dalam  suatu
+
+penelitian.  Tujuan  dari  uji  validitas  adalah  untuk  mengetahui  sejauh  mana
+
+ketepatan dan kecermatan suatu instrumen pengukuran dalam melakukan fungsi
+
+ukurnya. 
+
+Pengertian  Uji  Reliabilitas menurut  Husaini  (2003),  uji  reliabilitas
+
+adalah  proses pengukuran terhadap ketepatan  (konsisten)  dari  suatu instrumen.
+
+Tujuan dari uji reliabilitas ini  adalah untuk menunjukkan konsistensi skor-skor
+
+yang diberikan skorer satu dengan skorer lainnya.
+
+Kedua uji  tersebut  di  atas  biasanya dilakukan pada penelitian yang
+
+nilai  masing-masing  variabelnya  merupakan  penjumlahan  dari  item-item
+
+pertanyaan per variabel yang diajukan (model skor).
+
+2.11.1 Pengujian Validitas
+
+Hasil penelitian dikatakan valid apabila terdapat kesamaan antara data
+
+yang terkumpul dengan data yang sesungguhnya terjadi pada obyek yang diteliti.
+
+Validitas menunjukkan sejauh mana skor/nilai/ukuran yang diperoleh benar-benar
+
+menyatakan hasil pengukuran/pengamatan yang ingin diukur (Riyanto, 2009).
+
+Secara  umum ada dua  rumus  atau  cara  Uji  Validitas  yaitu  dengan
+
+Korelasi Bevariate  Pearson dan Correlated  Item-Total  Correlation. Korelasi
+
+Bevariate  Pearson  adalah  salah  satu  rumus  yang  dapat  digunakan  untuk
+
+melakukan uji validitas data dengan program SPSS. Menurut Widiyanto (2010)
+
+http://www.konsistensi.com/2013/03/uji-validitas-data-dengan-rumus-pearson.html
+http://www.konsistensi.com/2013/03/uji-validitas-data-dengan-correlated.html
+
+
+27
+
+koefisien  korelasi  dalam  uji  validitas  dapat  dilakukan  dengan  rumus  pearson
+
+dengan angka kasar sebagai berikut:
+
+.......................................(2.11)
+
+Keterangan:
+
+rxy = koefisien korelasi
+
+x = skor item
+
+y = skor total
+
+n = banyaknya subjek
+
+Dasar pengambilan keputusan dalam uji validitas adalah:
+
+1. Jika nilai rhitung > rtabel, maka item pertanyaan atau pernyataan dalam
+
+angket  berkorelasi  signifikan  terhadap  skor  total  (artinya  item  angket
+
+dinyatakan valid).
+
+2. Jika nilai rhitung < rtabel, maka item pertanyaan atau pernyataan dalam
+
+angket tidak berkorelasi signifikan terhadap skor total (artinya item angket
+
+dinyatakan tidak valid).
+
+2.11.2 Pengujian Reliabilitas
+
+Reliabilitas merupakan indeks yang menunjukkan sejauh mana suatu
+
+alat  pengukur dapat  dipercaya atau dapat  diandalkan (Singarimbun,  1989).  Uji
+
+reliabilitas  digunakan  untuk  mengetahui  konsistensi  alat  ukur,  apakah  alat
+
+pengukur yang digunakan dapat diandalkan dan tetap konsisten jika pengukuran
+
+tersebut diulang.
+
+Uji  signifikansi  dilakukan  pada  taraf  signifikansi  0,05,  artinya
+
+instrumen dapat dikatakan reliabel bila nilai alpha lebih besar dari r kritis product
+
+moment.  Atau  kita  bisa  menggunakan  batasan  tertentu  seperti  0,6.  Menurut
+
+Sekaran (1992),  reliabilitas  kurang dari  0,6 adalah kurang baik,  sedangkan 0,7
+
+dapat diterima dan di atas 0,8 adalah baik. Rumus Alpha sebagai berikut:
+
+.................................................................(2.12)
+
+Keterangan :
+
+
+
+28
+
+α = Koefisien reliabilitas Alpha Cronbach
+
+K = Jumlah item pertanyaan yang diuji
+
+∑si2 = Jumlah varians skor item
+
+SX2 = Varians skor-skor tes (seluruh item K)
+
+Nilai reliabilitas dari Alpha adalah sebagai berikut :
+
+a. Jika alpha > 0,90 maka reliabilitas sempurna
+
+b. Jika alpha antara 0,70 – 0,90 maka reliabilitas tinggi
+
+c. Jika alpha antara 0,50 – 0,70 maka reliabilitas moderat
+
+d. Jika alpha < 0,50 maka reliabilitas rendah
+
+2.12 Teknik Pengukuran Skala
+
+Pengukuran merupakan suatu proses kuantifikasi dalam bentuk usaha
+
+mencantumkan bilangan pada sebuah sistem materi  yang bukan bilangan untuk
+
+menyatakan sifat-sifat yang dipunyai oleh materi tersebut berdasarkan peraturan
+
+yang sesuai dengan sifat-sifat itu.
+
+Teknik penskalaan sering digunakan adalah Likert’s Summated Rating
+
+(LSR).  LSR  adalah  skala  atau  pengukuran  sikap  responden.  LSR  sangat
+
+bermanfaat untuk membandingkan skor sikap seseorang dengan distribusi skala
+
+dari sekelompok orang lainnya.
+
+Tahap-tahap perancangan LSR adalah sebagai berikut:
+
+1. Tentukan sikap terhadap  topik apa yang akan diukur.
+
+2. Tentukan dimensi yang menyusun sikap tersebut.
+
+3. Susun  pernyataan-pernyataan  atau   item  yang  merupakan  alat  pengukur
+
+dimensi yang menyusun sikap yang akan diukur sesuai dengan indikator.
+
+4. Setiap item diberi  pilihan respon yang bersifat tertutup.
+
+5. Untuk setiap pilihan respon, jawaban diberikan skor dengan kriteria apabila
+
+item positif maka angka terbesar diletakkan pada sangat setuju sedangkan jika
+
+item negatif maka angka terbesar diletakkan pada sangat tidak setuju. Skor
+
+yang diberikan pada jawaban untuk setiap item kemudian dijumlahkan. Dan
+
+dapat diukur berapa skor terkecil dan terbesar untuk satu orang responden dan
+
+total semua responden. 
+
+
+
+29
+
+6. Adapun perhitungan skor dengan metode  Likert’s  Summated Rating (LSR)
+
+sebagai berikut.
+
+a. Jumlah skor untuk setiap responden: 
+
+- skor maksimal  =  (5 x jumlah item)  
+
+- skor minimal  = (1 x jumlah item) 
+
+- skor median  = (3  x jumlah item) 
+
+- skor kuartil I  =  (2 x jumlah item) 
+
+- skor kuartil III  = (4 x jumlah item) 
+
+b. Jumlah skor untuk seluruh responden: 
+
+- Maksimal  =  (jumlah responden x skor maksimal)  
+
+- Minimal  = (jumlah responden x skor minimal) 
+
+- Median  = (jumlah responden x skor median) 
+
+- Kuartil I  = (jumlah responden x skor kuartil I) 
+
+- Kuartil III  = (jumlah responden x skor kuartil III) 
+
+c. Interpretasi jumlah skor tersebut adalah:
+
+- Kuartil  III  < Skor  < Maksimal,  artinya  sangat  positif
+
+(program dinilai  berhasil)
+
+- Median < Skor < Kuartil  III,  artinya positif  (program
+
+dinilai cukup berhasil)
+
+- Kuartil  I  <  Skor  <  Median,  artinya  negatif  (program
+
+dinilai kurang berhasil)
+
+- Minimal  <  Skor  <  Kuartil  I,  artinya  sangat  negatif
+
+(program dinilai tidak berhasil)
+
+Gambar 2.8 Interpretasi jumlah skor
+
+
+
+BAB III
+
+METODOLOGI PENELITIAN dan PERANCANGAN SISTEM
+
+3.1 Bahan Penelitian dan Alat Penelitian
+
+3.1.1 Bahan Penelitian
+
+Bahan  penelitian  berupa  data  sampel  beberapa  jalan  yang  terdapat
+
+pada  kota  Pontianak  pada  tahun  2012.  Data  yang  didapat  dari  Dinas  PU
+
+merupakan data hasil survei tim survei Bina Marga. Selain itu, juga terdapat data
+
+pendukung dari Badan Pusat Statistik (BPS) untuk data kepadatan penduduk dan
+
+dari  Dinas  Perhubungan  LLAJ  (Lalu  Lintas  dan  Angkutan  Jalan)  untuk  data
+
+kepadatan jalan.  Di mana dari  data tersebut dapat  menjadi  sampel perhitungan
+
+dalam sistem pendukung keputusan yang dibangun.
+
+3.1.2 Alat Penelitian
+
+3.1.2.1 Perangkat Lunak
+
+Perangkat lunak yang digunakan dalam penelitian ini adalah:
+
+- Sistem operasi Windows 7 Ultimate 64-bit
+
+- Notepad ++ v5.9.4
+
+- MYSQL Server 5.0.7
+
+- Apache HTTP Server 2.2.17
+
+- PHP 5.3.5
+
+- Browser Mozilla Firefox 20.0
+
+- Adobe Photoshop CS 
+
+3.1.2.2 Perangkat Keras
+
+Perangkat keras yang digunakan dalam penelitian ini adalah notebook,
+
+dengan spesifikasi :
+
+- Intel Pentium Core i5 2.4 GHz
+
+- Harddisk 500 GB
+
+- DDR3 4.00 GB
+
+- Mouse
+
+31
+
+
+
+32
+
+3.1.2.3 Alat Bantu Penelitian
+
+Alat bantupenelitian yang digunakan dalam penelitian ini adalah: 
+
+1. Data Flow Diagram (DFD), untuk menggambarkan aliran data pada system
+
+2. Entity Relationship Diagram (ERD), untuk menjelaskan hubungan antardata
+
+dalam  basis  data  berdasarkan  objek-objek  dasar  data  yang  mempunyai
+
+hubungan antarrelasi.
+
+3.2 Metode Penelitian
+
+Metode penelitian yang akan dilakukan adalah:
+
+3.2.1 Studi Literatur
+
+Studi  literatur  dilakukan  guna  memahami  materi-materi  yang
+
+berkaitan dari  beberapa literatur.  Literatur  yang digunakan berupa buku, karya
+
+ilmiah  maupun  jurnal  Internasional.  literatur  digunakan  pula  untuk
+
+membandingkan sistem pendukung keputusan yang akan dibuat  dengan sistem
+
+pendukung  keputusan  yang  sudah  ada  agar  dapat  menjadi  sebuah  sistem
+
+pendukung keputusan yang lebih baik. 
+
+3.2.2 Pengumpulan Data
+
+Pengumpulan  data  sebagai  sampel  berupa  data  jalan,  kepadatan
+
+penduduk, dan kepadatan jalan, lalu lintas harian rataan (LHR) yang terdapat pada
+
+kota Pontianak. Data ini diperoleh dari Dinas PU Kota Pontianak khususnya pada
+
+satuan kerja Bina Marga yang memang menangani masalah pemeliharaan jalan
+
+kota Pontianak, BPS dan yang terakhir Dinas Perhubungan LLAJ.
+
+Data yang didapat dari Dinas PU antara lain: nama jalan, jenis jalan,
+
+letak  jalan,  panjang  jalan,  lebar  jalan,  kelengkapan  jalan  dan kerusakan jalan.
+
+Sedangkan dari  BPS adalah  data  kepadatan  penduduk dan Dinas  Perhubungan
+
+LLAJ adalah data  kepadatan jalan.
+
+3.2.3 Analisis Kebutuhan Sistem
+
+Dinas  PU  memiliki  peranan  penting  dalam  pembangunan  ataupun
+
+pemeliharaan  infrastruktur  pemerintahan.  Dinas  PU  terbagi  menjadi  beberapa
+
+subbagian kerja diantaranya PJU (Penerangan Jalan Umum), Cipta Karya, Bina
+
+Marga. 
+
+Untuk  pemeliharaan  jalan  Provinsi,  jalan  Nasional  dan  jalan  Kota
+
+ditangani  khusus  oleh  satuan  kerja  Bina  Marga.  Untuk  memulai  proses
+
+pemeliharaan Bina Marga melakukan survei terhadap setiap jalan Provinsi, jalan
+
+Nasional, dan jala Kota yang berada di Kota Pontianak. Terdapat 2 jenis survei
+
+
+
+33
+
+yang dilakukan oleh Bina Marga yaitu melalui  hasil  komplain masyarakat  dan
+
+survei rutin/berkala (tahunan).
+
+Masyarakat  sebagai  pengguna  utama  dari  jalan  tentukan
+
+menginginkan jalan  yang bagus sehingga mempermudah mobilisasi.  Jika jalan
+
+yang digunakan rusak atau mempersulit kegiatan masyarakat, maka masyarakat
+
+akan melakukan komplain ke Pemerintah khususnya dinas PU agar jalan tersebut
+
+segera diperbaiki. Nantinya tim survei Bina Marga akan meninjau langsung jalan
+
+yang mendapat  komplain.  Setelah adanya hasil  survei  yang membenarkan jika
+
+jalan tersebut memang rusak maka Bina Marga akan menghubungi konsultan dan
+
+akan langsung melakukan proses perbaikan setelah melalui proses administrasi.
+
+Tentunya Bina Marga tidak hanya bergerak disaat ada komplain dari
+
+masyarakat. Tim survei Bina Marga secara rutin melakukan survei terhadap jalan
+
+yang terdapat di kota Pontianak. Dari laporan hasil survei tersebut nantinya akan
+
+ditelaah oleh Kabag Bina Marga kemudian dirundingkan kepada Kepala Dinas
+
+PU.  Sebagai  pejabat  dinas  mereka  punya  hak  untuk  menentukan  keputusan.
+
+Tentunya keputusan itu berdasarkan data yang valid. Namun walau menggunakan
+
+data  yang  valid,  tidak  menjamin  keputusan  tersebut  dapat  tepat  sararan,
+
+dikarenakan manusia masih mempunyai sifat subjektif.  Dari kedua cara di atas
+
+Dinas  PU  tentunya  masih  membutuhkan  suatu  sistem  yang  dapat  membantu
+
+penarikan  keputusan  berdasarkan  data  yang  disediakan.  Berikut  ini  flowchart
+
+sistem berjalan pada Dinas PU.
+
+
+
+34
+
+Gambar 3.1 Flowchart sistem pemeliharaan jalan Dinas PU
+
+Dari analisis tersebut sistem baru yang ditambahkan untuk membantu
+
+penarikan keputusan adalah:
+
+1. Komputerisasi  proses  pemilihan  pemeliharaan  jalan  dengan  menggunakan
+
+metode logika fuzzy.
+
+2. Perankingan nilai setiap jalan berdasarkan data survei sehinggan didapat urutan
+
+jalan mulai dari prioritas paling tinggi ke prioritas paling rendah.
+
+3. Penyimpanan track record jalan.
+
+3.3 Perancangan Konseptual dari Sistem yang Dibangun
+
+3.3.1 Perancangan Sistem
+
+
+
+35
+
+Perancangan  Sistem  Pendukung  Keputusan  ini  akan  dipisahkan
+
+menjadi 4 tahapan yaitu:
+
+1. Perancangan Alir Informasi
+
+Merupakan  tahap  identifikasi  masalah  untuk  menghasilkan  informasi  dari
+
+permasalahan yang telah dirumuskan.
+
+2. Perancangan Subsistem Model
+
+Merupakan tahap olah data hasil dari tahap pertama. Pada tahap ini Metode
+
+Fuzzy  dan FIS Tsukamoto  bekerja.  Untuk mendapatkan  sebuah keputusan
+
+harus ditentukan kriteria-kriterianya.  Dari  kriteria  tersebut  diurai  ke dalam
+
+beberapa  parameter.  Setiap  parameter  terdiri  dari  nilai  keanggotaan  fuzzy.
+
+Kemudian, nilai dari setiap parameter diimplementasikan ke dalam rumus IF-
+
+AND-THEN berdasarkan  metode  Tsukamoto,  sehingga  didapatkan  nilai
+
+ketegasan  (crips)  setiap  jalan.  Untuk  mendapatkan  urutan  prioritas  yang
+
+terakhir digunakan metode TOPSIS. Hasil dari perhitungan metode tersebut
+
+maka akan terlihat urutas prioritas pemeliharaan jalan di Kota Pontianak
+
+3. Perancangan Subsistem Basisdata
+
+Sebagai  media  penyimpanan  informasi  baik  dari  hasil  survei  maupun
+
+perhitungan tentu harus dirancang basisdata terlebih dahulu. Basisdata yang
+
+dirancang harus memuat semua entitas yang dibutuhkan dalam keselurahan
+
+sistem.
+
+4. Perancangan Subsistem Antarmuka
+
+Pada  bagian  ini  user akan  berinteraksi  langsung  ke  dalam  sistem  untuk
+
+melakukan olah data. Untuk mempermudah  user mengolah data, antarmuka
+
+antara  user dan sistem harus mudah digunakan dan fungsional  (memenuhi
+
+fungsi-fungsi yang dibutuhkan sistem)
+
+Secara keseluruhan, SPK yang dirancang seperti pada Gambar 3.2.
+
+
+
+36
+
+Gambar 3.2. Rancangan SPK Prioritas Pemeliharaan Jalan di Kota Pontianak
+3.3.2 Data Flow Diagram Context Level (Diagram Konteks)
+
+Sistem ini  dapat  diakses oleh 2 hak akses user.  Pertama,  Pimpinan
+
+(pengambil keputusan) yang memiliki hak ases untuk menentukan kriteria yang
+
+akan  digunakan  untuk  proses  penentuan  prioritas  pemeliharaan  jalan,  setelah
+
+melakukan  pemilihan  kriteria  maka  sistem  akan  menghitung  dengan  metode
+
+logika  fuzzy dari hasil perhitungan tersebut dilanjutkan dengan proses inferensi
+
+dengan  metode  FIS  Tsukamoto  setiap  parameter  dan  yang  terakhir  adalah
+
+perangkingan  dengan  menggunakan  metode  TOPSIS  sehingga  dihasilkan
+
+perankingan  jalan  dengan  urutan  derajat  keanggotaan  yang  tinggi  ke  rendah
+
+(prioritas tinggi ke prioritas rendah). Kedua, staf Bina Marga selaku operator yang
+
+memiliki hak ases untuk manajemen data jalan dari hasil survei tim survei Dinas
+
+PU, mulai dari input nama jalan, letak jalan, kepadatan jalan, kepadatan penduduk
+
+di sekitar jalan, kondisi jalan dan kelengkapan jalan. 
+
+
+
+37
+
+Gambar 3.3 Data flow diagram context SPK prioritas pemeliharaan jalan 
+kota Pontianak
+
+3.3.3 Data Flow Diagram Level 0 (nol)
+
+Data  Flow Diagram Level 0  (nol)  merupakan  gambaran  rinci  dari
+
+proses yang dilakukan pada diagram konteks. Arus data dapat di lihat dengan jelas
+
+pada diagram tersebut. Proses-proses yang terjadi digambarkan sebagai berikut :
+
+Gambar 3.4 Data flow diagram level 0 (nol) SPK prioritas pemeliharaan jalan
+kota Pontianak
+1. Proses 1.0 login, yaitu pimpinan dan operator harus melakukan proses login
+
+dengan cara mengisi  username dan  password  pada halaman  login terlebih
+
+dahulu agar dapat mengakses ke dalam sistem.
+
+
+
+38
+
+2. Proses 2.0 manajemen data jalan, yaitu proses operator melakukan tugasnya
+
+diantaranya: tambah, edit dan hapus data jalan pada tabel master_jalan. Pada
+
+proses ini  pimpinan dan operator dapat  melihat  informasi jalan yang telah
+
+ditambah oleh operator.
+
+3. Proses  3.0  manajemen  data  jalan  hasil  survey,  yaitu  proses  operator
+
+melakukan  tugasnya  diantaranya:  tambah,  edit dan  hapus  data  jalan  pada
+
+tabel  survei_jalan.  Pada  proses  ini  pimpinan  dan  operator  dapat  melihat
+
+informasi jalan yang telah ditambah oleh operator.
+
+4. Proses 4.0 manajemen kriteria,  yaitu proses pimpinan dapat menambahkan
+
+kriteria yang akan digunakan dalam proses penentuan prioritas pemeliharaan
+
+jalan.
+
+5. Proses 5.0 SPK Logika Fuzzy dan FIS Tsukamoto,  yaitu proses penarikan
+
+keputusan  yang  dilakukan  oleh  pimpinan  berdasarkan  jalan  yang  telah
+
+dilakukan survei untuk menghasilkan prioritas pemeliharaan jalan.
+
+6. Proses  6.0  manajemen  tender  jalan,  yaitu  proses  tindak  lanjut  dari  hasil
+
+perangkingan  jalan,  yang  kemudia  akan  dilanjutkan  ke  dalam  proses
+
+pelelangan  proyek  pemeliharaan  jalan  tersebut.  Pada  proses  ini  pimpinan
+
+hanya  melakukan  pemilihan  jalan  yang  akan  dilakukan  pemeliharaan
+
+sedangkan  operator  yaitu  input data  pemenenang  tender  berikut  data
+
+kelengkapannya.
+
+7. Proses  7.0  manajemen  pengguna,  yaitu  proses  pimpinan  dapat  melakukan
+
+tambah, edit, dan delete pengguna aplikasi SPK.
+
+3.3.4 Diagram Rinci Sistem
+
+Diagram rinci  menguraikan lebih  lanjut  mengenai  proses  dari  data
+
+flow diagram level 0 (nol), yang memperlihatkan arus data masuk dan arus data
+
+keluar. Berdasarkan data flow diagram level 0 (nol) di atas, maka diagram rinci
+
+digambarkan sebagai berikut.
+
+1. Proses 1.0 login
+
+Proses ini merupakan pintu masuk pengguna baik sebagai pimpinan maupun
+
+operator. 
+
+2. Proses 2.0 Manajemen Jalan
+
+Proses ini terdiri dari 3 proses yaitu :
+
+a) Proses 2.1 Tambah data jalan
+
+
+
+39
+
+Melalui proses ini, operator dapat memasukan data-data jalan seperti nama
+
+jalan, jenis jalan, letak jalan, kelengkapan jalan, dan fungsi jalan.
+
+b) Proses 2.2 Ubah data jalan
+
+Melalui proses ini, operator dapat mengubah data jalan disesuaikan dengan
+
+hasil survei yang dilakukan oleh tim survei.
+
+c) Proses 2.3 Lihat data jalan
+
+Melalui proses ini, pimpinan dan operator dapat melihat data jalan yang
+
+telah dimasukan ke dalam basisdata.
+
+Gambar 3.5  Diagram rinci proses 2.0 (manajemen jalan)
+3. Proses 3.0 Manajemen Data hasil survei
+
+Proses ini terdiri dari 3 proses, yaitu :
+
+a) Proses 3.1 Tambah data jalan
+
+Melalui proses ini operator dapat menambahkan data jalan hasil  survei.
+
+Data  tersebut  antara  lain:  luas  kerusakan  jalan,  kepadatan  jalan,  dan
+
+kepadatan penduduk.
+
+b) Proses 3.2 Ubah data jalan
+
+Melalui proses ini operator dapat mengubah data jalan yang telah ada di
+
+dalam basisdata
+
+c) Proses 3.3 hapus data jalan
+
+
+
+40
+
+Melalui proses ini operator dapat menghapus data jalan yang telah ada di
+
+dalam basisdata.
+
+Gambar 3.6  Diagram rinci proses 3.0 (manajemen jalan hasil survei)
+
+4. Proses 4.0 Manajemen Kriteria
+
+Proses ini terdiri dari 2 proses, yaitu :
+
+a) Proses 4.1 Tambah kriteria
+
+Melalui  proses  ini,  pimpinan  dapat  menambah  kriteria  yang  akan
+
+digunakan dalam proses penentuan prioritas pemeliharaan jalan.
+
+b) Proses 4.2 Ubah kriteria
+
+Melalui proses ini, pimpinan dapat menguah kriteria digunakan dalam
+
+proses perhitungan prioritas pemeliharaan jalan.
+
+Gambar 3.7  Diagram rinci proses 4.0 (manajemen kriteria)
+
+
+
+41
+
+Gambar 3.8 Flowchart SPK penentuan prioritas pemeliharaan jalan kota 
+Pontianak
+3.3.5 Kriteria dan Fungsi Keanggotaan Fuzzy
+
+Dalam  proses  penentuan  prioritas  pemeliharaan  jalan  dibutuhkan
+
+beberapa kriteria. Kriteria tersebut diantaranya: kerusakan jalan (C1), kepadatan
+
+jalan (C2), kepadatan penduduk (C3), daya perusakan jalan (C4) dan masih ada
+
+kemungkinan  terjadi  penambahan  kriteria.  Kriteria  tersebut  berdasarkan  SOP
+
+(Standard Operating Procedure) Bina Marga untuk melakukan pemeliharaan anta
+
+lain:  kriteria  kerusakan  jalan,  kepadatan  jalan  dan  kepadatan  penduduk,  daya
+
+perusakan jalan. 
+
+Berikut ini merupakan fungsi keanggotaan setiap kriteria:
+
+1. Kerusakan jalan 
+
+Penentuan skala untuk kriteria kerusakan jalan ditentukan menggunakan
+
+fungsi keanggotaan kurva bentuk bahu sebagai berikut :
+
+
+
+42
+
+Gambar 3.9 Fungsi keanggotaan kriteria kerusakan jalan
+
+Untuk  mendapatkan  nilai  kerusakan  jalan  Dinas  PU  melakukan  survei
+
+langsung ke setiap jalan yang terdapat di Kota Pontianak. Nilai kerusakan
+
+jalan adalah berupa akumulasi(jumlah) luasan setiap jalan
+
+Lr=∑ ( p x l) ...............................................................................(3.1)
+
+Lr = Luasan kerusakan setiap jalan
+
+p = panjang kerusakan jalan
+
+l = lebar kerusakan jalan
+
+2. Kepadatan penduduk 
+
+Penentuan  skala  untuk  kriteria  kepadatan  penduduk  sekitar  jalan
+
+ditentukan menggunakan fungsi keanggotaan kurva bentuk bahu sebagai
+
+berikut :
+
+
+
+43
+
+Gambar 3.10 Fungsi keanggotaan kriteria kepadatan penduduk sekitar jalan
+
+Kepadatan  penduduk  yang  dimaksud  adalah  kepadatan  penduduk  pada
+
+setiap  kecamatan  yang  berada  di  Kota  Pontianak.  Karena  kepadatan
+
+penduduk  tidak  setiap  tahun  dilakukan  survei  maka  dilakukan
+
+pembangkitan  data  dari  data  sebelumnya  dengan  pertumbuhan  sebesar
+
+6,5% (berdasarkan laju pertumbuhan penduduk).
+
+3. Kepadatan jalan 
+
+Penentuan skala untuk kriteria kepadatan jalan ditentukan menggunakan
+
+fungsi keanggotaan kurva bentuk bahu sebagai berikut :
+
+Gambar 3.11 Fungsi keanggotaan kriteria kepadatan jalan
+
+Kepadatan jalan adalah volume kendaraan dibagi luas jalan
+
+
+
+44
+
+Pj=
+Vk
+Lj
+
+...............................................................(3.2)
+
+Pj = Kepadatan Jalan
+
+Vk = Volume Kendaraan(Lalu Lintas Harian Rata-rata)
+
+Lj = Luas Jalan
+
+4. Daya Perusakan Jalan
+
+Penentuan  skala  untuk  kriteria  daya  perusakan  jalan  ditentukan
+
+menggunakan fungsi keanggotaan kurva bentuk bahu sebagai berikut :
+
+Gambar 3.12 Fungsi keanggotaan kriteria daya perusakan jalan
+
+Daya  perusakan  jalan  (damage  factor)  adalah  dampak  negatif  muatan
+
+kendaraan  terhadap  perkerasaan  jalan.  Nilai  daya  perusak  sebanding
+
+dengan pangkat 4 sumbu kendaraan seperti terlihat pada rumus Liddle di
+
+bawah ini:
+
+E=k x [
+beban
+8.160 ]
+
+4 ...........................................................................(3.3)
+
+E= angka ekivalen beban (ESAL)
+
+k= tetapan (1 untuk sumbu tunggal; 0.086 untuk sumbu ganda; 0,026 
+
+untuk sumbu tripel).
+
+Menteri Perhubungan RI telah menetapkan MST(Masa Sumbu Terberat)
+
+untuk  kendaraan  bermuatan  melalui  Surat  Keputusan  Menteri
+
+Perhubungan No. 461/Aj.403/PHB.82 tanggal 13 Desember 1982 tentang
+
+MST yang diizinkan yaitu:
+
+a) MST sumbu tunggal sebesar 8,16 ton.
+
+b) MST sumbu ganda sebesar 15 ton.
+
+
+
+45
+
+c) MST sumbu tripel sebesar 20 ton.
+
+Berdasarkan ketetapan di atas maka ESAL sumbu tunggal adalah sebesar
+
+1,  sumbu  ganda  sebesar  0.982,  dan  sumbu  tripel  sebesar  0.9383.  Jika
+
+ESAL kendaraan bermuatan melebihi ESAL tersebut maka akan semakin
+
+besar kemungkinan terjadi kerusakan jalan akibat dari tidak kuatnya data
+
+tahan jalan terhadap beban yang diterimanya.
+
+Dari setiap kriteria di atas, nilai awal, tengah dan akhir disesuaikan
+
+dengan  kondisi  survei.  Jadi,  bentuk  kurva  akan  selalu  berubah-ubah  jika  data
+
+survei telah di-input ke dalam system
+
+3.3.6 Sistem Perhitungan
+
+Dari  fungsi-fungsi  keanggotaan  di  atas  dapat  dihitung  nilai
+
+keanggotaan dari setiap parameter kriteria. Berikut ini merupakan contoh system
+
+perhitungan,  mulai  dari  proses  menghitung  nilai  keanggotaan  fuzzy  sampai
+
+perangkingan dengan metode TOPSIS.
+
+Table 3.1 Sampel data jalan di Kota Pontianak
+
+No Nama jalan C1 C2 C3 C4
+1 Jalan A. Yani 31.45 145.36 700.05 1.7194
+2 Jalan Veteran 48.35 103.1 445.74 0.1406
+3 Jalan Tanjungpura 74.19 240.78 1200.45 3.1289
+4 Jalan Pahlawan 40.21 125.65 578.35 0.0578
+5 Jalan Adi Sucipto 75.13 241.55 1300.35 3.3569
+
+Dari data pada Tabel 3.1 akan dicari nilai keanggotaan fuzzy-nya masing-masing 
+
+kriteria dengan kurva bahu sebagai berikut: 
+
+1. Kriteria Kerusakan Jalan (C1)
+
+
+
+46
+
+Gambar 3.13 Kurva hasil survei kerusakan jalan
+
+J. A. Yani J. Veteran J. Tanjungpura J. Pahlawan J. Adi Sucipto
+
+Berdasarkan kurva pada Gambar 3.13 maka nilai keanggotaan fuzzy kriteria
+
+kerusakan jalan masing-masing jalan adalah:
+
+1. Jalan A. Yani
+
+Pada  kriteria  kerusakan  jalan,  jalan  A.  Yani  merupakan  jalan  yang
+
+memiliki kerusakan jalan paling sedikit yaitu sebesar 31,45 m2. Dengan
+
+demikian maka nilai keanggotan fuzzy-nya adalah :
+
+µsedikit =(53.29-31.45)/(53.29-31.45)
+
+=1
+
+µsedang =0
+
+µbanyak =0
+
+2. Jalan Veteran
+
+Kerusakan  jalan  Veteran  adalah  48.35  m2,  artinya  keanggotaan  jalan
+
+Veteran berada pada µsedang max dan µsedikit min. Dengan demikian
+
+nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =(53.29-48.35)/(53.29-31.45)
+
+=0.23
+
+µsedang =(48.35-31.45)/(53.29-31.45)
+
+=0.77
+
+µbanyak =0
+
+3. Jalan Tanjungpura
+
+Kerusakan  Jalan  Tanjungpura  adalah  74.19  m2,  artinya  keanggotaan
+
+jalan Tanjungpura berada pada µsedang min dan µbanyak max. Dengan
+
+demikian nilai keanggotaan fuzzy-nya adalah:
+
+
+
+47
+
+µsedikit =0
+
+µsedang =(75.13-74.19) /( 75.13-53.29)
+
+=0.04
+
+µbanyak =(74.19-53.29)/(75.13-53.29)
+
+=0.96
+
+4. Jalan Pahlawan
+
+Kerusakan Jalan Pahlawan adalah 40.21 m2, artinya keanggotaan jalan
+
+Tanjungpura  berada  pada  µsedikit  min  dan  µsedang  max.  Dengan
+
+demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =(53.29-40.21)/(53.29-31.45)
+
+=0.59
+
+µsedang =(40.21 -31.45)/(53.29-31.45)
+
+=0.41
+
+µbanyak =0
+
+5. Jalan Adi Sucipto
+
+Kerusakan  Jalan  Adi  Sucipto  adalah  kerusakan  paling  banyak  yaitu
+
+sebesar 75.13. Dengan demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =0
+
+µbanyak =(75.13-53.29)/(75.13-53.29)
+
+=1
+
+2. Kriteria Kepadatan Penduduk (C2)
+
+
+
+48
+
+Gambar 3.14 Kurva hasil kepadatan penduduk
+
+J. A. Yani J. Veteran J. Tanjungpura J. Pahlawan J. Adi Sucipto
+
+Berdasarkan kurva pada Gambar 3.14 maka nilai keanggotaan fuzzy kriteria
+
+kepadatan penduduk di sekitar jalan adalah:
+
+1. Jalan A. Yani
+
+Kepadatan  penduduk  di  sekitar  jalan  A.  Yani  adalah  145.36,  artinya
+
+keanggotaan jalan A. Yani berada pada µsedang max dan µsedikit min.
+
+Dengan demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =(172.33-145.36)/(172.33-103.1)
+
+=0.39
+
+µsedang =(145.36-103.1)/(172.33-103.1)
+
+=0.61
+
+µbanyak =0
+
+2. Jalan Veteran
+
+Pada kriteria kepadatan penduduk, jalan Veteran merupakan jalan yang
+
+memiliki  kepadatan  penduduk  paling  sedikit  yaitu  sebesar  103.1.
+
+Dengan demikian maka nilai keanggotan fuzzy-nya adalah :
+
+µsedikit =(172.33-103.1)/( 172.33-103.1)
+
+=1
+
+µsedang =0
+
+µbanyak =0
+
+
+
+49
+
+3. Jalan Tanjungpura
+
+Kepadatan penduduk di sekitar jalan Tanjungpura adalah 240.78, artinya
+
+keanggotaan jalan Tanjungpura berada pada µsedang min dan µbanyak
+
+max. Dengan demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =(241.55-240.78) /( 241.55-172.33)
+
+=0.11
+
+µbanyak =(240.78-172.33)/( 241.55-172.33)
+
+=0.89
+
+4. Jalan Pahlawan
+
+Kepadatan penduduk di sekitar jalan Pahlawan adalah 125.65, artinya
+
+keanggotaan jalan Tanjungpura berada pada µsedikit min dan  µsedang
+
+max. Dengan demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =(172.33-125.65)/(172.33-103.1)
+
+=0.67
+
+µsedang =(125.65 -103.1)/( 172.33-103.1)
+
+=0.33
+
+µbanyak =0
+
+5. Jalan Adi Sucipto
+
+Kepadatan  penduduk  jalan  Adi  Sucipto  adalah  kepadatan  penduduk
+
+paling banyak yaitu sebesar 241.55. Dengan demikian nilai keanggotaan
+
+fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =0
+
+µbanyak =(241.55-172.33)/( 241.55-172.33)
+
+=1
+
+3. Kriteria Kepadatan Jalan (C3)
+
+
+
+50
+
+Gambar 3.15 Kurva hasil kepadatan Jalan
+J. A. Yani J. Veteran J. Tanjungpura J. Pahlawan J. Adi Sucipto
+
+Berdasarkan kurva pada Gambar 3.15 maka nilai keanggotaan fuzzy kriteria
+
+kerusakan jalan masing-masing jalan adalah:
+
+1. Jalan A. Yani
+
+Kepadatan jalan A. Yani adalah 700.05, artinya keanggotaan jalan A.
+
+Yani berada pada µsedang max dan µsedikit min. Dengan demikian nilai
+
+keanggotaan fuzzy-nya adalah:
+
+µsedikit =(873.045-700.05)/(873.045-445.74)
+
+=0.41
+
+µsedang =(700.05-445.74)/(873.045-445.74)
+
+=0.59
+
+µbanyak =0
+
+2. Jalan Veteran
+
+Pada  kriteria  kepadatan  jalan,  jalan  Veteran  merupakan  jalan  yang
+
+memiliki  kepadatan jalan paling sedikit  yaitu sebesar 445.74. Dengan
+
+demikian maka nilai keanggotan fuzzy-nya adalah :
+
+µsedikit =(873.045-445.74)/( 873.045-445.74)
+
+=1
+
+µsedang =0
+
+µbanyak =0
+
+
+
+51
+
+3. Jalan Tanjungpura
+
+Kepadatan Jalan Tanjungpura adalah 1200.45, artinya keanggotaan jalan
+
+Tanjungpura  berada  pada  µsedang  min  dan  µbanyak  max.  Dengan
+
+demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =(1300.35-1200.45) /( 1300.35-873.045)
+
+=0.23
+
+µbanyak =(1200.45-873.045)/( 1300.35-873.045)
+
+=0.77
+
+4. Jalan Pahlawan
+
+Kepadatan  Jalan  Pahlawan  adalah  578.35,  artinya  keanggotaan  jalan
+
+Tanjungpura  berada  pada  µsedikit  min  dan  µsedang  max.  Dengan
+
+demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =(873.035-578.35)/(873.035-445.74)
+
+=0.69
+
+µsedang =(578.35 -445.74)/(873.035-445.74)
+
+=0.31
+
+µbanyak =0
+
+5. Jalan Adi Sucipto
+
+Kepadatan Jalan Adi Sucipto adalah kepadatan jalan paling banyak yaitu
+
+sebesar 1300.35. Dengan demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =0
+
+µbanyak =(1300.35-873.035)/( 1300.35-873.035)
+
+=1
+
+4. Kriteria Daya Perusakan Jalan (C4)
+
+
+
+52
+
+Gambar 3.16 Kurva hasil daya perusakan jalan
+J. A. Yani J. Veteran J. Tanjungpura J. Pahlawan J. Adi Sucipto
+
+Berdasarkan kurva pada Gambar 3.16 maka nilai keanggotaan fuzzy kriteria
+
+kerusakan jalan masing-masing jalan adalah:
+
+1. Jalan A. Yani
+
+Pada  kriteria  daya  perusakan  jalan,  jalan  A.  Yani  memiliki  daya
+
+perusakan  jalan  sebesar  1.7194.  Dengan  demikian  maka  nilai
+
+keanggotan fuzzy-nya adalah :
+
+µsedikit =0
+
+µsedang =(3.3569-1.7194)/( 3.3569-1.70735)
+
+=0.98
+
+µbanyak =(1.7194-1.70735)/( 3.3569-1.70735)
+
+=0.02
+
+2. Jalan Veteran
+
+Daya perusakan jalan Veteran adalah 0.1406, artinya keanggotaan jalan
+
+Veteran berada pada µsedang max dan µsedikit min. Dengan demikian
+
+nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =(1.70735-0.1406)/(1.70735-0.0578)
+
+=0.92
+
+µsedang =(0.1406-0.0578)/( 1.70735-0.0578)
+
+=0.08
+
+µbanyak =0
+
+3. Jalan Tanjungpura
+
+
+
+53
+
+Daya perusakan Jalan Tanjungpura adalah 3.1289, artinya keanggotaan
+
+jalan Tanjungpura berada pada µsedang min dan µbanyak max. Dengan
+
+demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =(3.3569-3.1289) /( 3.3569-1.70735)
+
+=0.01
+
+µbanyak =(3.1289-1.70735)/( 3.3569-1.70735)
+
+=0.99
+
+4. Jalan Pahlawan
+
+Kerusakan Jalan Pahlawan adalah  0.30578,  artinya  keanggotaan jalan
+
+Tanjungpura  adalah  yang  paling  sedikit.  Dengan  demikian  nilai
+
+keanggotaan fuzzy-nya adalah:
+
+µsedikit =(1.70735-0.30578)/( 1.70735-0.30578)
+
+=1
+
+µsedang =0
+
+µbanyak =0
+
+5. Jalan Adi Sucipto
+
+Daya perusakan Jalan Adi Sucipto memiliki nilai  paling banyak yaitu
+
+sebesar 3.1289. Dengan demikian nilai keanggotaan fuzzy-nya adalah:
+
+µsedikit =0
+
+µsedang =0
+
+µbanyak =(3.1289-1.70735)/( 3.1289-1.70735)
+
+=1
+
+Table 3.2 Hasil perhitungan parameter tiap kriteria
+
+Nama jalan
+(1)
+
+C10
+(2)
+
+C11
+(3)
+
+C12
+(4)
+
+C20
+(5)
+
+C21
+(6)
+
+C22
+(7)
+
+C30
+(8)
+
+C31
+(9)
+
+C32
+(10)
+
+C40
+(11)
+
+C41
+(12)
+
+C42
+(13)
+
+Adi Sucipto 0 0 1 0 0 1 0 0 1 0 0 1
+
+A. Yani 1 0 0 0.39 0.61 0 0.41 0.59 0 0 0.98 0.02
+
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13)
+
+Veteran 0.23 0.77 0 1 0 0 1 0 0 0.92 0.08 0
+
+Pahlawan 0.59 0.41 0 0.67 0.33 0 0.69 0.31 0 0.97 0.03 0
+
+Tanjungpura 0 0.04 0.96 0 0.11 0.89 0 0.23 0.77 1 0 0
+
+
+
+54
+
+Dari hasil perhitungan keanggotaan  fuzzy pada Tabel 3.2 maka pimpinan dapat
+
+mendapatkan keputusan. Sebelum mendapatkan keputusan ada dua (2) proses lagi
+
+yang akan dilalui, yaitu :
+
+1. Perhitungan Setiap Keanggotaan fuzzy dengan metode inferensi MIN
+
+Pada  tahap  ini  sitem  akan  secara  otomatis  menghitung  setiap  parameter.
+
+Perhitungan yang dilakukan ada sistem inferensi  di  mana setiap  parameter
+
+akan  berperan  di  dalam  perhitungan.  Sistem  inferensi  terdiri  dari  aturan-
+
+aturan. Banyaknya aturan-aturan tersebut adalah 
+
+Ru=∑ PAR1 x∑ PAR 2 ……∑ PARn ..............................................................3.4
+
+RU = Jumlah aturan
+
+PAR1 = Parameter kriteria ke-1
+
+PAR2 = Parameter kriteria ke-2
+
+PARn = Parameter kriteria ke-n
+
+Berikut merukana contoh aturan(RULES) :
+
+[R1]  IF  C11 AND C21 AND C31 AND 41 THEN PEMELIHARAAN =
+
+MIN(C11,C21,C31,41)
+
+[R2]  IF  C11 AND C21 AND C31 AND 42 THEN PEMELIHARAAN =
+
+MIN(C11,C21,C31,42)
+
+[R3]  IF  C11 AND C21 AND C31 AND 43 THEN PEMELIHARAAN =
+
+MIN(C11,C21,C31,43)
+
+..............................................................................................................................
+
+[R79] IF C13 AND C23 AND C33 AND 41 THEN PEMELIHARAAN =
+
+MIN(C13,C23,C33,41)
+
+[R80] IF C13 AND C23 AND C33 AND 41 THEN PEMELIHARAAN =
+
+MIN(C13,C23,C33,42)
+
+[R81] IF C13 AND C23 AND C33 AND 41 THEN PEMELIHARAAN =
+
+MIN(C13,C23,C33,43)
+
+Hasil dari setiap aturan maka hasil perhitungan dapat dilihat pada Tabel 3.3
+
+Tabel 3.3 Hasil Inferensi
+
+Nama Jalan
+
+(1)
+
+C1
+
+(2)
+
+C2
+
+(3)
+
+C3
+
+(4)
+
+C4
+
+(5)
+
+Min
+
+(C1,C2,C3,C4)
+
+(6)
+
+Predikat
+
+(7)
+
+Turun Naik
+
+Adi Sucipto 1 1 1 1 1 0.9
+
+
+
+55
+
+A. Yani 1
+0.3
+
+9
+0.41 0.98 0.38953 0.344188
+
+1
+0.3
+
+9
+0.41 0.02 0.0244 0.49024
+
+1
+0.3
+
+9
+0.59 0.98 0.38953 0.344188
+
+1
+0.3
+
+9
+0.59 0.02 0.0244 0.49024
+
+1
+0.6
+
+1
+0.41 0.98 0.40485 0.33806
+
+1
+0.6
+
+1
+0.41 0.02 0.0244 0.49024
+
+1
+0.6
+
+1
+0.59 0.98 0.59515 0.26194
+
+1
+0.6
+
+1
+0.59 0.02 0.0244 0.49024
+
+Veteran 0.23 1 1 0.92 0.22619 0.409524
+
+0.23 1 1 0.08 0.08377 0.466492
+
+0.77 1 1 0.92 0.77381 0.409524 0.590476
+
+0.77 1 1 0.08 0.08377 0.133508 0.866492
+
+Pahlawan 0.59
+0.6
+
+7
+0.69 0.97 0.5989 0.26044
+
+0.59
+0.6
+
+7
+0.69 0.03 0.5989 0.486224
+
+0.59
+0.6
+
+7
+0.31 0.97 0.31034 0.375864
+
+(1) (2) (3) (4) (5) (6) (7)
+
+0.59
+0.6
+
+7
+0.31 0.03 0.03444 0.486224
+
+0.59
+0.3
+
+3
+0.69 0.97 0.32575 0.3697
+
+0.59
+0.3
+
+3
+0.69 0.03 0.03444 0.486224
+
+
+
+56
+
+0.59
+0.3
+
+3
+0.31 0.97 0.31034 0.375864
+
+0.59
+0.3
+
+3
+0.31 0.03 0.03444 0.486224
+
+0.41
+0.6
+
+7
+0.69 0.97 0.4011 0.26044  0.73956
+
+0.41
+0.6
+
+7
+0.69 0.03 0.03444 0.113776  0.886224
+
+0.41
+0.6
+
+7
+0.31 0.97 0.31034 0.224136  0.775864
+
+0.41
+0.6
+
+7
+0.31 0.03 0.03444 0.113776  0.886224
+
+0.41
+0.3
+
+3
+0.69 0.97 0.32575 0.2303  0.7697
+
+0.41
+0.3
+
+3
+0.69 0.03 0.03444 0.113776  0.886224
+
+0.41
+0.3
+
+3
+0.31 0.97 0.31034 0.224136  0.775864
+
+0.41
+0.3
+
+3
+0.31 0.03 0.03444 0.113776  0.886224
+
+Tanjungpur
+a
+
+0.04
+0.1
+
+1
+0.23 1 0.01112 0.104448  0.895552
+
+0.04
+0.1
+
+1
+0.77 1 0.01112 0.104448  0.895552
+
+0.04
+0.8
+
+9
+0.23 1 0.04304 0.117216  0.882784
+
+0.04
+0.8
+
+9
+0.77 1 0.04304 0.117216  0.882784
+
+0.96
+0.1
+
+1
+0.23 1 0.01112 0.504448
+
+0.96
+0.1
+
+1
+0.77 1 0.01112 0.504448
+
+0.96
+0.8
+
+9
+0.23 1 0.23379 0.593516
+
+
+
+57
+
+0.96
+0.8
+
+9
+0.77 1 0.76621 0.806484
+
+Selanjutnya dari tabel inferensi di atas akan didapatkan nilai ketegasan (fire
+
+strength). Melalui persamaan
+
+Fr=
+∑(MINn x Pn)
+
+∑ (MINn)
+----------------------------------------------------------------(3.5)
+
+Fr = Nilai ketegasan(fire strength)
+
+MIN = Nilai minimum setiap aturan
+
+P = Predikat dari setiap aturan
+
+Hasil dari perhitungan persamaan 3.3 dapat di lihat pada Tabel 3.4
+
+Tabel 3.4 Nilai ketegasan setiap jalan
+
+Nama Jalan Fire strength
+
+Adi sucipto 0.9
+
+A. Yani 0.31821865150694
+
+Veteran 0.48884188793448
+
+Pahlawan 0.43798531703923
+
+Tanjungpura 0.70727845699341
+
+Sampai  di  sini  perhitungan  logika  fuzzy  menggunakan  sistem  inferensi
+
+selesai. Untuk tahap selanjutnya akan dilakukan perankingan jalan tersebut
+
+menggunakan metode TOPSIS.
+
+2. Perankingan Metode TOPSIS
+
+Langkah  pertama  yang  dilakukan  sebelum  melakukan  perhitungan  adalah
+
+dengan membuat matrik hasil query fuzzy. Maka hasil dari query fuzzy di atas,
+
+sebagai berikut:
+
+Pertama menentukan nilai ideal positif dan ideal negatif dari tabel 3.4. Nilai
+
+ideal positif dan nilai ideal negatif didapatkan sebagai berikut:
+
+= Maks (0.9 ;0.31821865150694 ;0.48884188793448;              
+
+0.43798531703923; 0.70727845699341)
+
+= 0.9
+
+= Min (0.9 ;0.31821865150694 ;0.48884188793448;
+
+ 0. 43798531703923; 0.70727845699341)
+
+
+
+58
+
+= 0. 31821865150694
+
+Setelah  didapatkan  nilai  ideal  positif  dan  nilai  ideal  negatif.  Selanjutnya
+
+menentukan  jarak  antara  nilai  setiap  alternatif  dengan  matriks  solusi  ideal
+
+positif dan matriks solusi ideal negatif.
+
+Di+ = √∑( yi+ - yij)       jarak setiap alternatif dengan solusi ideal positif
+
+Di- = √∑( yij - yi-)            jarak setiap alternatif dengan solusi ideal negatif
+
+i = 1,2,…,m
+
+Jarak setiap alternatif dengan solusi ideal positif didapatkan:
+
+D1+ = √( (0.9-0.9)2)
+
+D1+ = 0
+
+ D2+= √ ((0.9-0.31821865150694)2)
+
+D2+ = 0.58178 
+
+D3+ = √ ((0.9-0.48884188793448)2)
+
+D3+ = 0.41116 
+
+D4+ = √ (0.9-0.43798531703923)2)
+
+D4+ = 0.46201 
+
+D5+ = √ ((0.9-0.70727845699341) )
+
+D5+ = 0.19272 
+
+Jarak setiap alternatif dengan solusi ideal negatif didapatkan:
+
+D1- = √( (0.9-0. 31821865150694)2  )
+
+D1- = 0.58178 
+
+D2- = √ ((0. 31821865150694-0. 31821865150694)2)
+
+D2- = 0.58178 
+
+D3- = √ ((0. 48884188793448-0. 31821865150694)2)
+
+D3- = 0.41116 
+
+D4- = √ (0. 43798531703923-0. 31821865150694)2)
+
+D4- = 0.46201 
+
+D5- = √ ((0. 70727845699341-0. 31821865150694)2)
+
+D5- = 0.19272 
+
+Dari perhitungan jarak antara setiap nilai alternatif dengan nilai solusi ideal
+
+positif dan nilai solusi ideal negatif maka didapatkan:
+
+J=1
+
+n
+J=1
+
+n
+
+
+
+     0. 58178 + 0
+
+    0. 58178 
+
+     0 + 0. 58178 
+
+   0.0000
+
+   0.17062 +   0.41116 
+
+   0.17062 
+
+  0.11977+ 0,46201 
+
+      0.11977 
+
+     0.38906 + 0.38906 
+
+   0.38906 
+
+59
+
+Tabel 3.5 Nilai solusi ideal negatif dan nilai solusi ideal positif
+
+No Nama jalan D+ D-
+
+1 Jalan Adi Sucipto 0 0.58178 
+2 Jalan A. Yani 0.58178  0
+3 Jalan Veteran 0.41116  0.17062 
+4 Jalan Pahlawan 0.46201  0.11977 
+5 Jalan Tanjungpura 0.19272  0.38906 
+
+Terakhir dari proses perhitungan adalah menentukan nilai preferensi untuk 
+
+setiap alternatif:
+
+Vi =          i = 1,2,…,m.
+
+V1 =          
+
+V2 =          
+
+V3 = 
+
+V4 =          
+
+V5 =          
+
+Dari perhitungan di atas maka didapatkan nilai akhir pada Tabel 3.6:
+
+Tabel 3.6 Perankingan pemeliharaan jalan kota Pontianak
+
+No Nama jalan Keputusan
+1 Jalan Adi Sucipto 1
+
+     Di-
+
+     Di- + Di+
+
+
+
+60
+
+2 Jalan A.yani 0.0000
+3 Jalan Veteran 0.29327237099935
+4 Jalan Pahlawan 0.20586819760047
+5 Jalan Tanjungpura 0.66874076111245
+
+Dari  5  sampel  data  yang  dihitung  maka  dapat  disimpulkan  bahwa  urutan
+
+prioritas  pemeliharaan  jalan  adalah  mulai  dari  jalan  Adi  Sucipto,  jalan
+
+Tanjungpura, jalan Veteran, jalan Pahlawan dan yang terakhir jalan A. Yani.
+
+3.4 Perancangan Basis Data
+
+3.4.1 Perancangan Entity Relationship Diagram
+
+Entity Relationship Diagram (ERD) merupakan gambaran hubungan
+
+antar-entitas yang dipergunakan dalam sistem. Perancangan ERD meliputi tahap
+
+penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi, dan
+
+konektivitas antar-entitas. Relasi-relasi dan konektifitas yang terjadi dari entitas-
+
+entitas yang ada adalah sebagai berikut:
+
+a) Hubungan  antara  entitas  master  jalan  dan  hasil  survei   jalan   adalah
+
+hubungan one to many karena beberapa jalan memiliki banyak hasil survei.
+
+b) Hubungan antara entitas hasil  survei dan bilangan  crips adalah hubungan
+
+one  to  one karena  setiap  hasil  survei  hanya  menghasilkan  satu  bilangan
+
+crips.
+
+c) Hubungan  antara  entitas  bilangan  crips dan  entitas  hasil  SPK  adalah
+
+hubungan  one to one karena setiap bilangan  crips akan menghasilkan satu
+
+nilai hasil perhitungan SPK.
+
+d) Hubungan antara entitas hasil  SPK dan entitas  pemeliharaan jalan adalah
+
+hubungan one to one karena setiap satu hasil SPK hanya akan dilakukan satu
+
+kali pemeliharaan.
+
+e) Hubungan antara entitas kriteria dan entitas hasil survei adalah many to one
+
+karena beberapa kriteria menghasilkan satu hasil survei.
+
+f) Hubungan antara entitas kriteria dan entitas parameter adalah hubungan one
+
+to many karena setiap kriteria satu memiliki beberapa parameter.
+
+Keterkaitan dan hubungan antar-entitas digambarkan melalui Diagram
+
+ER seperti terlihat pada Gambar 3.17 berikut.
+
+
+
+61
+
+Gambar 3.17 Entity relationship diagram
+
+3.4.1.1 Spesifikasi Tabel Basis Data
+
+Semua  tabel  yang  ada  dalam  basisdata  spk_jalan  akan  dijelaskan
+
+secara spesifik  mulai  dari  nama  field,  type,  keterangan dan fungsinya.  Berikut
+
+tabel-tabel yang ada pada basisdata spk_jalan.
+
+Tabel 3.7 Spesifikasi tabel master_jalan
+Nama Field Tipe Keterangan Fungsi
+
+id_jalan num(5) Kunci primer Menyimpan kode jalan
+nama_jalan varchar(200) Menyimpan nama jalan
+id_jenis num(5) Kunci tamu Menyimpan kode jenis jalan
+id_letak num(5) Kunci tamu Menyimpan kode letak jalan
+lebar_jalan float Menyimpan lebar jalan
+panjang_jalan float Menyimpan panjang jalan
+lengkap_jalan varchar(200) Menyimpan kelengkapan jalan
+
+Tabel 3.8 Spesifikasi tabel jenis_jalan
+Nama Field Tipe Keterangan Fungsi
+
+id_jenis num(5) Kunci primer Menyimpan kode jenis jalan
+nama_jenis varchar(20) Menyimpan nama jenis jalan
+
+Tabel 3.9 Spesifikasi tabel letak_jalan
+Nama Field Tipe Keterangan Fungsi
+
+id_letak num(5) Kunci primer Menyimpan kode letak jalan
+nama_letak varchar(200) Menyimpan nama letak jalan
+
+Tabel 3.10 Spesifikasi tabel kriteria
+Nama Field Tipe Keterangan Fungsi
+
+id_kriteria Num(5) Kunci primer Menyimpan kode kriteria
+
+
+
+62
+
+nama_kriteria varchar(25) Menyimpan nama kriteria
+
+Tabel 3.11 Spesifikasi tabel parameter_kriteria
+Nama Field Tipe Keterangan Fungsi
+
+id_par num(5) Kunci primer Menyimpan kode parameter 
+id_kriteria num(5) Kunci tamu Menyimpan kode kriteria
+nama_par varchar(25) Menyimpan nama parameter
+bts_par varchar(255) Menyimpan batas parameter
+
+Tabel 3.12 Spesifikasi tabel user
+Nama Field Tipe Keterangan Fungsi
+
+Username varchar(25) Kunci primer Menyimpan nama user
+Password varchar(32) Menyimpan password user
+Level varchar(10) Menyimpan level user
+Status varchar(10) Menyimpan status user
+Ip varchar(10) Menyimpan ip user
+
+Tabel 3.13 Spesifikasi Tabel survey_jalan
+Nama Field Tipe Keterangan Fungsi
+
+no_id num(5) Kunci primer Menyimpan kode nomor
+id_jalan num(5) Kunci tamu Menyimpan kode jalan
+lebar_jalan float Menyimpan lebar jalan
+rusak float Menyimpan luasan kerusakan
+pduduk float Menyimpan kepadatan penduduk
+pjalan float Menyimpan kepadatan lalu lintas
+df float Menyimpan daya perusakan jalan
+tahun float Menyimpan waktu survei
+
+Tabel 3.14 Spesifikasi tabel perhitungan
+Nama Field Tipe Keterangan Fungsi
+id_per num(5) Kunci primer Menyimpan kode nomor 
+id_jalan num(5) Kunci tamu Menyimpan kode jalan
+tahun varchar(4) Kunci tamu Menyimpan waktu survei
+
+C10 float
+Menyimpan nilai kriteria kerusakan 
+jalan(sedikit)
+
+C11 float
+Menyimpan nilai kriteria kerusakan 
+jalan(sedang)
+
+C12 float
+Menyimpan nilai kriteria kerusakan 
+jalan(tinggi)
+
+C20 float
+Menyimpan nilai kriteria kepadatan 
+penduduk(sedikit)
+
+C21 float
+Menyimpan nilai kriteria kepadatan 
+penduduk(sedang)
+
+C22 float
+Menyimpan nilai kriteria kepadatan 
+penduduk(banyak)
+
+C30 float
+Menyimpan nilai kriteria kepadatan 
+jalan(sedikit)
+
+
+
+63
+
+C31 float
+Menyimpan nilai kriteria kepadatan 
+jalan(sedang)
+
+C33 float
+Menyimpan nilai kriteria kepadatan 
+jalan(banyak)
+
+C40 float
+Menyimpan nilai kriteria daya perusakan 
+jalan(kecil)
+
+C41 float
+Menyimpan nilai kriteria daya perusakan 
+jalan(sedang)
+
+C42 float
+Menyimpan nilai kriteria daya perusakan 
+jalan(besar)
+
+Tabel 3.15 Spesifikasi tabel hasil_spk
+Nama Field Tipe Keterangan Fungsi
+
+id_hasil num(5) Kunci primer Menyimpan kode hasil spk
+id_jalan num(5) Kunci tamu Menyimpan kode jalan
+hasil float Menyimpan hasil perhitungan
+tahun varchar(4) Menyimpan tahun survey
+jenis_pemeliharaa
+n
+
+varchar(20) Menyimpan jenis pemeliharaan
+
+Tabel 3.15 Spesifikasi tabel tender
+Nama Field Tipe Keterangan Fungsi
+
+id_tender num(5) Kunci primer Menyimpan kode tender
+id_jalan num(5) Kunci tamu Menyimpan kode jalan
+Nama_perusahaan float Menyimpan nama perusahaan
+biaya float Menyimpan biaya
+tahun varchar(4) Menyimpan tahun survey
+
+3.4.1.2 Diagram Hubungan Antar Tabel
+
+Berikut  ini  hubungan  antar  tabel  pada  database spk_jalan.  Pada
+
+diagram ini dapat dilihat dengan jelas alur data basisdata.
+
+
+
+64
+
+Gambar 3.18 Diagram hubungan antar tabel
+
+3.4.1.3 Perancangan Antar Muka
+
+Antarmuka   merupakan  media  interaksi  antar  masyarakat,  manajer,
+
+operator  maupun pimpinan dengan sistem. Berikut perancangan  layout  sistem
+
+yang akan dibangun.
+
+3.4.1.3.1 Perancangan Struktur Antar Muka Sistem
+
+SPK penentuan prioritas pemeliharaan jalan kota Pontianak merupakan
+
+aplikasi  berbasis  web. Antarmuka  aplikasi dirancang  dalam  bentuk  halaman-
+
+halaman (webpage) yang memiliki  fungsi  tertentu  sesuai  dengan proses-proses
+
+yang ada. Halaman-halaman tersebut diakses melalui menu pada halaman utama
+
+bagian  pimpinan  dan  operator.  Struktur  antarmuka  aplikasi yang  dirancang
+
+sebagai berikut.
+
+
+
+65
+
+Gambar 3.19 Struktur antarmuka aplikasi
+
+3.4.1.3.2 Layout Antarmuka Halaman Login
+
+Gambar 3.20  Halaman login
+
+Gambar di atas merupakan tampilan halaman  login untuk pimpinan
+
+dan  operator.  Unuk  dapat  masuk  ke  dalam  sistem  sebelumnya  pimpinan  dan
+
+operator harus terlebih dahulu mengisi  field username dan  field password. Jika
+
+
+
+66
+
+username dan  password sesuai  dengan  yang  terdapat  dalam  basisdata,  maka
+
+sistem dapat diakses.
+
+3.4.1.3.3 Layout Antarmuka Halaman Pimpinan
+
+Gambar 3.21  Halaman pimpinan
+
+Pada halaman ini terdapat beberapa menu, diantaranya : 
+
+a. Menu data jalan dan menu rekap jalan
+
+Pada menu ini  pimpinan dapat  melihat  data  jalan  beserta  rekap data  jalan.
+
+Pimpinan  juga  dapat  melakukan  perubahan  data  jalan  disesuaikan  dengan
+
+kebutuhan  perubahan.  Pada  menu  rekap  jalan  pimpinan  dapat  melakukan
+
+pencarian data jalan hasil survei yang sebelumnya.
+
+b. Menu tambah user
+
+Pada  menu  ini  pimpinan  dapat  melakukan  manajemen  data  user
+
+(menambahkan,  mengurangi  ataupun  mengubah)  seperti  username dan
+
+privilege (hak akses).
+
+c. Menu input kriteria
+
+Pada menu ini pimpinan dapat melakukan manajemen krieria yang nantinya
+
+akan digunakan untuk keperluan survei. 
+
+
+
+67
+
+d. Menu keputusan SPK 
+
+Pada menu ini pimpinan dapat melakukan menghitung nilai setiap jalan yang
+
+telah  dilakukan  survei.  Pada  menu  ini  himpunan  keanggotaan  fuzzy setiap
+
+kriteria  akan dihitung kembali  dengan metode FIS Tsukamoto.  Setelah  itu,
+
+akan dilanjutkan dengan metode TOPSIS.
+
+e. Menu lihat tender
+
+Pada menu ini pimpinan melihat detail proyek pemeliharaan jalan yang telah
+
+dihitung melalui SPK.
+
+3.4.1.3.4 Layout Antarmuka Halaman Operator
+
+Gambar 3.22  Halaman operator
+
+Pada halaman ini terdapat beberapa menu, diantaranya :
+
+a. Menu input master jalan dan input survei jalan
+
+Pada menu input master jalan, operator memasukan data jalan yang terdapat di
+
+kota  Pontianak.  Sedangkan  menu  input  survei  jalan,  operator  dapat
+
+memasukan data hasil survei mengenai jalan kota Pontianak.
+
+b. Menu master jalan dan rekap jalan
+
+Pada menu ini operator dapat melihat data yang telah dimasukan ke dalam
+
+basisdata. Master jalan adalah data utama mengenai jalan,  sedangkan rekap
+
+jalan adalah data hasil survei.
+
+c. Menu logout 
+
+Menu ini digunakan operator untuk keluar dari sistem.
+
+d. Menu search
+
+Pada  menu  ini  operator  dapat  melakukan  pencarian  data  jalan.  Dengan
+
+memasukan nama jalan pada field yang telah disediakan.
+
+3.5 Pengujian dan Validasi Sistem
+
+
+
+68
+
+Pengujian  dilakukan  dengan  menggunakan  metode  Black  Box  dan
+
+kuesioner untuk mengetahui tingkat keberhasilan sustu sistem.
+
+3.5.1 Pengujian Black Box
+
+Pengujian Black Box ini merupakan metode pengujian di mana input
+
+berupa  suatu  set  data  digunakan  untuk  menguji  validitas  dari  integrasi  dan
+
+konsistensi sistem. Adapun teknik uji coba yang digunakan dalam pengujian black
+
+box  pada aplikasi ini, yaitu menggunakan teknik  sample testing.  Sample testing
+
+melibatkan  beberapa  nilai  yang  terpilih  dari  sebuah  kelas  ekivalen,
+
+mengintegrasikan nilai pada kasus uji dan nilai-nilai yang terpilih mungkin dipilih
+
+dengan urutan tertentu atau interval tertentu.
+
+Hasil  pengujian  akan  dirangkum  dalam  sebuah  tabel  seperti  pada
+
+Tabel 3.15 berikut.
+
+Tabel 3.15 Hasil pengujian Black Box
+
+Input Contoh Data Hasil Eksekusi Keterangan
+
+Tabel pengujian terdiri dari 4 kolom, yaitu :
+
+1. Input :  berisi  jenis masukan yang digunakan sebagai bahan pengujian,
+
+contohnya input data kosong,  input data salah, input data ekstrim, input
+
+data benar, dll.
+
+2. Contoh data :  berisi contoh masukan yang digunakan dalam pengujian
+
+langsung  pada  aplikasi.  Jumlah  contoh  data  disesuaikam  dengan
+
+banyaknya  masukan  yang  dapat  dimasukkan  oleh  pengguna  pada
+
+aktivitas tersebut.
+
+3. Hasil  eksekusi  :  merupakan hasil  dari  pengujian  yang telah dilakukan
+
+dengan masukan data  pada kolom contoh data.  Berupa status  berhasil
+
+atau tidaknya proses input data tersebut.
+
+4. Keterangan : merupakan penjelasan dari hasil eksekusi pengujian, berupa
+
+pesan kesalahan atau respon balik dari aplikasi.
+
+Pengujian  Black  Box  ini  akan  dilakukan  pada  aktivitas  input  data
+
+calon nasabah,  input  data survei  dan  input  bobot  parameter setiap kriteria.  Input
+
+yang digunakan dalam pengujian adalah input data kosong, input salah satu data
+
+kosong, input data salah, dan input data benar.
+
+
+
+69
+
+3.5.2 Pengujian Kuesioner
+
+Pengujian terakhir yang akan dilakukan adalah  user acceptance test,
+
+yaitu  menguji  tingkat  penerimaan  user terhadap  sistem  melalui  kuesioner.
+
+Kuesioner   berisi  20  pertanyaan  yang  dikelompokkan  menjadi  3  aspek  yang
+
+digunakan  dalam  pengujian  aplikasi  tersebut,  yaitu  aspek  rekayasa  perangkat
+
+lunak, aspek fungsionalitas,  dan aspek komunikasi visual.  Kuesioner dibagikan
+
+kepada 30 responden. Responden akan mencoba aplikasi untuk dapat mengetahui
+
+kapabilitas dan kelancaran jalannya aplikasi itu sendiri.
+
+Setelah mendapat hasil dari semua kuesioner yang telah disebar, maka
+
+dilakukan uji validitas dan reliabilitas terlebih dahulu untuk mengetahui apakah
+
+kuesioner  yang  telah  disusun  itu  valid  dan  dapat  dipercaya.  Perhitungan  uji
+
+validitas dan reliabilitas menggunakan aplikasi SPSS.
+
+Pengujian validitas menggunakan koefisien korelasi Pearson (Pearson
+
+Corellation)  dengan  membandingkan  nilai  korelasi  antara  setiap  variabel
+
+pertanyaan kuesioner dengan total  dari  kuesioner.  Suatu pertanyaan dinyatakan
+
+valid jika memiliki probabilitas korelasi < 0,050 (di bawah 5%). Hasil uji validitas
+
+ditampilkan dalam sebuah tabel seperti berikut :
+
+Tabel 3.16 Hasil pengujian Validitas Kuesioner
+
+Korelasi antara Nilai Korelasi
+
+(Pearson
+
+Corellation)
+
+Probabilitas
+
+Korelasi [sig.(2-
+
+tailed)]
+
+Kesimpulan
+
+Variabel No.1 dengan Total
+
+Variabel No.2 dengan Total
+
+Variabel No.3 dengan Total
+
+Variabel No.4 dengan Total
+
+Variabel No.5 dengan Total
+
+Variabel No.6 dengan Total
+
+Variabel No.7 dengan Total
+
+Variabel No.8 dengan Total
+
+Variabel No.9 dengan Total
+
+Variabel No.10 dengan Total
+
+Variabel No.11 dengan Total
+
+Variabel No.12 dengan Total
+
+Variabel No.13 dengan Total
+
+
+
+70
+
+Korelasi antara Nilai Korelasi
+
+(Pearson
+
+Corellation)
+
+Probabilitas
+
+Korelasi [sig.(2-
+
+tailed)]
+
+Kesimpulan
+
+Variabel No.14 dengan Total
+
+Variabel No.15 dengan Total
+
+Variabel No.16 dengan Total
+
+Variabel No.17 dengan Total
+
+Variabel No.18 dengan Total
+
+Variabel No.19 dengan Total
+
+Variabel No.20 dengan Total
+
+Sedangkan pengujian reliabilitas menggunakan rumus Alpha Conbach
+
+untuk  mengukur  kestabilan  dan  konsistensi  responden  dalam  menjawab
+
+pertanyaan. Uji reliabilitas dilakukan secara bersama-sama terhadap seluruh butir
+
+pertanyaan dan suatu kuesioner dikatakan reliabel jika memiliki nilai > 0,60. 
+
+Jika hasil  pengujian kuesioner sudah valid  dan reliabel,  maka hasil
+
+kuesioner  dapat  digunakan  untuk  menentukan  tingkat  penerimaan  user  dan
+
+keberhasilan aplikasi yang telah dibuat. Hasil kuesioner dirangkum berdasarkan
+
+tiga aspek yang diujikan, yaitu:
+
+3.5.2.1 Aspek Rekayasa Perangkat Lunak
+
+Hasil  kuesioner  aspek  rekayasa  perangkat  lunak  dirangkum  dalam
+
+sebuah tabel seperti pada Tabel 3.17 berikut.
+
+Tabel 3.17 Hasil Kuesioner Aspek Rekayasa Perangkat Lunak
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Kemudahan menjalankan aplikasi
+
+2 Kompabilitas aplikasi pada browser
+
+3 Kelancaran menjalankan aplikasi 
+
+4
+Kemudahan mengakses fitur-fitur pada 
+
+aplikasi
+
+5
+Kemudahan kontrol komponen-
+
+komponen aplikasi
+
+6
+Kenyamanan dalam penggunaan 
+
+aplikasi secara keseluruhan
+
+
+
+71
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat buruk 2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat baik
+
+3.5.2.2 Aspek Fungsionalitas
+
+Hasil kuesioner aspek fungsionalitas dirangkum dalam sebuah tabel 
+
+seperti pada Tabel 3.18 berikut.
+
+Tabel 3.18 Hasil Kuesioner Aspek Fungsionalitas
+
+No Aspek Fungsionalitas
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Kinerja proses input data 
+
+2
+Kinerja proses pengambilan 
+keputusan
+
+3 Tingkat kesesuaian keputusan
+
+4 Sistematika input survei
+
+5
+Sistematika pengambilan 
+keputusan
+
+6 Sistematika login sistem
+
+7
+Tingkat kepentingan 
+pengambilan keputusan
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat buruk 2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat baik
+
+3.5.2.3 Aspek Komunikasi Visual
+
+Hasil  kuesioner  aspek  komunikasi  visual  dirangkum  dalam  sebuah
+
+tabel seperti pada Tabel 3.19 berikut.
+
+Tabel 3.19 Hasil Kuesioner Aspek Komunikasi Visual
+
+No
+Aspek Rekayasa Perangkat
+
+Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Tampilan (antarmuka) aplikasi
+
+2 Tampilan menu aplikasi
+
+
+
+72
+
+3
+Tingkat kemudahan melihat 
+hasil keputusan
+
+4
+Jenis dan ukuran huruf yang 
+digunakan mudah dibaca
+
+5
+Kombinasi warna pada tampilan
+aplikasi
+
+6
+Kehalusan perpindahan halaman
+dalam aplikasi
+
+7
+Respon (feedback) aplikasi 
+terhadap input yang dilakukan
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat buruk 2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat baik
+
+Hasil  kuesioner  yang telah dirangkum berdasarkan aspek pengujian
+
+tersebut  akan  dihitung  jumlah  dan  persetase  (%)  dari  tanggapan  seluruh
+
+responden.  Dari  persentase  yang telah  didapat,  akan  dibuat  diagram lingkaran
+
+sebagai visualisasi setiap aspek hasil kuesioner.
+
+3.5.2.4 User Acceptence Test
+
+Untuk  mengetahui  tingkat  keberhasilan  aplikasi  dari  pengujian
+
+kuesioner, digunakan metode  Likert’s Summated Rating (LSR) untuk mengukur
+
+skor  terkecil  dan  terbesar  dari  20  pertanyaan  kuesioner  yang  ditanggapi  oleh
+
+responden.
+
+Skor tanggapan dari 20 pertanyaan untuk setiap responden dirangkum
+
+dalam sebuah tabel seperti pada Tabel 3.20 berikut.
+
+Tabel 3.20 Total Skor Responden
+
+Responden Item Total
+
+1 2 3 4 5 6 7 8 9 10 1
+
+1
+
+12 13 14 15 16 17 18 19 20
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+
+
+73
+
+Responden Item Total
+
+1 2 3 4 5 6 7 8 9 10 1
+
+1
+
+12 13 14 15 16 17 18 19 20
+
+I
+
+J
+
+K
+
+L
+
+M
+
+N
+
+O
+
+P
+
+Q
+
+R
+
+S
+
+T
+
+U
+
+V
+
+W
+
+X
+
+Y
+
+Z
+
+Aa
+
+Bb
+
+Cc
+
+Dd
+
+Total
+
+Data yang diperoleh dari hasil pengujian dengan kuesioner kemudian 
+
+diukur dengan metode Likert’s Summated Rating (LSR). 
+
+1. Jumlah skor untuk setiap responden:
+
+a. skor maksimal = 100 (5 x 20 item) 
+
+b. skor minimal = 20 (1 x 20 item) 
+
+c. skor median = 60 (3 x 20 item) 
+
+d. skor kuartil I = 40 (2 x 20 item) 
+
+e. skor kuartil III = 80 (4 x 20 item)
+
+
+
+74
+
+2. Jumlah skor untuk seluruh responden:
+
+a. Maksimal = 3000 (30 x 100) 
+
+b. Minimal = 600 (30 x 20)
+
+c.  Median = 1800 (30 x 60) 
+
+d. Kuartil I = 1200 (30 x 40) 
+
+e. Kuartil III = 2400 (30 x 80)
+
+3. Interpretasi jumlah skor tersebut adalah:
+
+a. 2400 < Skor < 3000, artinya sangat positif (program dinilai berhasil) 
+
+b. 1800 < Skor < 2400, artinya positif (program dinilai cukup berhasil) 
+
+c. 1200 < Skor < 1800, artinya negatif (program dinilai kurang berhasil) 
+
+d. 600 < Skor < 1200, artinya sangat negatif (program dinilai tidak 
+
+berhasil)
+
+
+
+BAB IV
+HASIL DAN ANALISIS
+
+4.1 Hasil Perancangan Sistem
+
+Sistem  yang  dirancang  merupakan  Sistem  Pendukung  Keputusan
+
+untuk menentukan prioritas pemeliharaan jalan di kota Pontianak berbasis  web
+
+yang bertujuan untuk  membantu  kinerja pengambil  keputusan  yaitu  dinas PU
+
+dalam  menentukan  jalan  mana  yang  lebih  diprioritaskan  untuk  dipelihara.
+
+Antarmuka SPK  ini dirancang terdiri  dari  dua bagian utama yaitu bagian yang
+
+dapat  diakses  oleh  staf atau  antarmuka  halaman  operator,  bagian  yang  dapat
+
+diakses oleh  kabag Bina Marga adalah  halaman pimpinan. Adapun perancangan
+
+antarmuka tersebut adalah sebagai sebagai berikut.
+
+4.1.1 Halaman Operator
+
+Halaman  Operator berisi  modul-modul  pengaturan  sistem  yang
+
+dibangun, Antarmuka halaman operator langsung  menuju antamuka sub lihat data
+
+master jalan. Adapun modul-modul tersebut adalah sebagai berikut :
+
+a. Data Master
+
+a. Input Data
+
+b. Lihat Data
+
+c. Riwayat Jalan
+
+b. Survei
+
+a. Tambah Survei
+
+b. Lihat Data
+
+c. Tender
+
+a. Input Tender
+
+b. Rekap Tender
+
+d. Akun
+
+a. Ubah Password
+
+b. Log Out
+
+76
+
+
+
+77
+
+4.1.2 Halaman Pimpinan
+
+Halaman antarmuka pimpinan berisi modul-modul pengaturan sistem
+
+yang dibangun. Halaman antarmuka pimpinan lansung ke menuju antamuka sub
+
+lihat data master jalan. Adapun modul-modul tersebut adalah sebagai berikut:
+
+1. Data Master
+
+a. Lihat Data 
+
+b. Riwayat Jalan
+
+2. Survei
+
+a. Lihat Data
+
+3.  Kriteria
+
+a. Input Kriteria
+
+b. Lihat Parameter
+
+4. Tender
+
+a. Rekap Tender
+
+5. Keputusan
+
+a. Hitung Keputusan
+
+b. Lihat Keputusan
+
+6. Akun
+
+a. Ubah Password
+
+b. Tambah User
+
+c. Log Out
+
+4.1.3 Antarmuka Login Operator dan Pimpinan
+
+Antarmuka  halaman  login  operator  dan  pimpinan   berfungsi  pintu
+
+masuk ke dalam sistem. Agara dapat mengakses halaman operator dan pimpinan,
+
+pengguna   harus  login  terlebih  dahulu  dengan  memasukkan  username  dan
+
+password  dengan benar, dengan begitu  operator dan pimpinan dapat masuk ke
+
+halaman utama  operator dan pimpinan.  Antarmuka halaman  login  operator dan
+
+pimpinan dapat dilihat pada Gambar 4.1.
+
+
+
+78
+
+Gambar 4.1. tampilan antarmuka halaman login operator dan pimpinan
+
+4.1.4 Antarmuka Halaman Data Master pada Operator dan Pimpinan
+
+Antarmuka  halaman  lihat  data  master  pada  operator  dan  pimpinan
+
+memberikan informasi berupa data seluruh jalan yang berada di kota. Terdapat
+
+proses  edit data  jalan  jika  terjadi  kesalahan  atau  perubahan  pada  jalan  yang
+
+dipilih. Disetiap antarmuka sistem terdapat field pencarian yang dapat digunakan
+
+untuk mencari jalan seperti yang terlihat pada gambar 4.2
+
+Gambar 4.2. antarmuka halaman lihat data master pada operator dan pimpinan
+
+4.1.5 Antarmuka Halaman Input Master Jalan pada Operator
+
+Antarmuka halaman input master jalan adalah sebuah form isian yang
+
+diisikan oleh operator. Data yang di-input-kan adalah seluruh data jalan yang ada
+
+di kota Pontianak, seperi terlihat pada Gambar 4.3.
+
+
+
+79
+
+Gambar 4.3 tampilan antarmuka halaman input data master pada operator
+
+4.1.6  Antarmuka Halaman Input Data Survei pada Operator
+
+Antarmuka  halaman  input data  survei  adalah  form  tempat  operator
+
+memasukan  data-data  hasil  survei  lapangan  setiap  jalan,  seperi  terlihat  pada
+
+Gambar 4.4
+
+Gambar 4.4 tampilan input data survei pada operator
+
+
+
+80
+
+4.1.7    Antarmuka Halaman Input Data Tender pada Operator
+
+Antarmuka  halaman  input  data  tender  adalah  halaman  di  mana
+
+operator memasukan data jalan yang akan dilakukan pemeliharaan, seperi terlihat
+
+pada Gambar 4.5
+
+Gambar 4.5 tampilan input data tender pada operator
+
+4.1.8   Antarmuka Halaman Input Kriteria pada Pimpinan
+
+Antarmuka halaman input kriteria  berfungsi sebagai  halaman untuk
+
+menambahkan kriteria pemeliharaan. Di mana dari setiap kriteria tersebut yang
+
+nantinya akan dilakukan survei, seperti pada Gambar 4.6.
+
+Gambar 4.6 tampilan input kriteria
+
+
+
+81
+
+4.1.9   Antarmuka Halaman Hitung Keputusan pada Pimpinan
+
+Antarmuka halaman hitung keputusan pimpinan dapat memilih jalan
+
+yang  akan  dilakukan  perhitungan  untuk  menghasilkan  prioritas,  seperti  pada
+
+Gambar 4.7. Setelah itu, pimpinan dapat menambahkan jalan hasil perhitungan ke
+
+dalam proses tender, seperti pada Gambar 4.8.
+
+Gambar 4.7 tampilan hitung keputusan
+
+Gambar 4.8 tampilan pilih jalan ke dalam proses tender
+
+4.1.10   Antarmuka Halaman Rekap Tender pada Pimpinan
+
+Antarmuka  halaman  rekap  tender  adalah  di  mana  pimpinan  dapat
+
+melihat setiap tender pemeliharaan yang dilakukan oleh Dinas PU, seperti pada
+
+Gambar 4.9.
+
+
+
+82
+
+Gambar 4.9 tampilan rekap tender pada pimpinan
+
+4.1.11   Antarmuka Halaman Riwayat Jalan pada Pimpinan
+
+Antarmuka  halaman  riwayat  jalan  adalah  di  mana  pimpinan  dapat
+
+melihat  detail  pemeliharaan  setiap  jalan  mulai  dari  pertama  kali  pemeliharaan
+
+dilakukan sampai kondisi jalan sekarang, seperti pada Gambar 4.10.
+
+Gambar 4.10 tampilan riwayat jalan pada pimpinan 
+
+
+
+83
+
+4.2 Pengujian
+
+Pengujian  Sistem  Pendukung  Keputusan  Penentuan  Prioritas
+
+Pemeliharaan  Jalan  di  Kota  Pontianak menggunakan  teknik  ujicoba  yang
+
+digunakan dalam pengujian black box, yaitu menggunakan teknik sample testing.
+
+Pengujian ini dilakukan pada proses input data. Pengujian juga dilakukan dengan
+
+metode UAT (User Acceptance Test) dimana pengujian dilakukan oleh pengguna
+
+secara  langsung  yang  akan  memeriksa  apakah  sistem  yang  dibangun  dapat
+
+berjalan dengan benar sesuai dengan yang diharapkan. 
+
+Data  pengujian  dipilih  berdasarkan  data  real  dari  kuesioner  tanpa
+
+memperhatikan detel internal dari program. Pengujian yang telah dilakukan antara
+
+lain :
+
+4.2.1 Pengujian Input Data
+
+4.2.1.1 Pengujian Login
+
+Pengujian  berikut  dilakukan  pada aktivitas login.  Hasil  pengujian
+
+dapat dilihat pada Tabel 4.1 sebagai berikut :
+
+Tabel 4.1 Pengujian login
+
+Input Contoh Data Hasil Eksekusi Keterangan
+
+Input data
+kosong
+
+username
+
+Tidak Berhasil
+
+Terjadi
+Kesalahan
+”username/
+password
+
+belum diisi”
+
+password
+
+Input salah satu username pimpinan Tidak Berhasil
+Terjadi
+
+Kesalahan
+
+data  kosong password
+”username/
+password
+
+belum diisi”
+
+Input salah data username pimpinan Tidak Berhasil
+Terjadi
+
+Kesalahan
+
+password 12345
+”username/
+
+password tidak
+tersedia”
+
+Input data benar username pimpinan Berhasil
+password pimpinan
+
+
+
+84
+
+4.2.1.2 Pengujian Input Master Jalan
+
+Pengujian berikut dilakukan pada aktivitas input master jalan. Hasil 
+
+pengujian dapat dilihat pada Tabel 4.2 sebagai berikut :
+
+Tabel 4.2 Pengujian Input master jalan 
+
+Input Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Nama Jalan
+Jenis Jalan
+Panjang 
+Ruas
+
+Kode 
+Administrasi
+
+Muncul Pesan
+Peringatan di
+
+setiap 
+
+Input data Fungsi Ruas
+Tidak
+
+Berhasil
+Field Data
+
+Kosong
+kosong Kecamatan
+
+Lajur
+Lebar
+Tipe
+
+Nama Jalan Adi Sucipto
+Jenis Jalan Jalan Nasional
+Panjang 
+Ruas
+
+Tiga ratus meter
+
+Kode 
+Administrasi
+
+BM
+Tidak
+
+Berhasil
+Muncul Pesan
+
+Peringatan  
+
+Input data Fungsi Ruas A
+Field Data
+
+Harus Angka
+salah Kecamatan Pontianak Kota
+
+Lajur 1
+Lebar Enam meter
+Tipe Aspal
+
+Tabel 4.2 Pengujian Input master jalan (Lanjutan)
+
+
+
+85
+
+Input Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Nama Jalan Adi Sucipto
+Jenis Jalan Jalan Nasional
+Panjang 
+Ruas
+
+310
+
+Kode 
+Administrasi
+
+BM
+
+Input data Fungsi Ruas A Berhasil
+benar Kecamatan Pontianak Kota
+
+Lajur 2
+Lebar 6
+Tipe Aspal
+
+4.2.1.3 Pengujian Input Kriteria
+
+Pengujian  berikut  dilakukan  pada aktivitas input kriteria.  Hasil
+
+pengujian dapat dilihat pada Tabel 4.3 sebagai berikut :
+
+Tabel 4.3 Pengujian Input detail kriteria
+
+Input Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Input data
+kosong
+
+Nama Kriteria
+
+Tidak
+Berhasil
+
+Data Tidak di
+Eksukusi dan
+Tidak Masuk
+
+Kedalam
+Database
+
+Nama Kolom
+
+Input data Nama Kriteria abcde Tidak Peringatan
+salah satu
+Kosong
+
+Nama Kolom Berhasil
+Feild data 
+Kosong
+
+Input data Nama Kriteria abcde Tidak Data Sudah
+lebih dari
+satu kali
+
+Nama Kolom fghij Behasil
+Ada 
+digunakan
+
+Input data Nama Kriteria abcdef Berhasil Masuk ke hal
+benar Nama Kolom ghijk parameter
+
+4.2.1.4 Pengujian Hasil Keputusan
+
+Pengujian  berikut  dilakukan  dengan  Microsoft  Excel berdasarkan
+
+sampel data yang terdapat pada BAB III. Pada Tabel 4.4 dapat dilihat perhitungan
+
+setiap  parameter  masing-masing  kriteria.  Kode  C10,  C11,  C12  merupakan
+
+parameter dari kriteria kerusakan jalan, kode C20, C21, C22 merupakan parameter
+
+dari kriteria kepadatan penduduk, kode C31, C32, C33 merupakan parameter dari
+
+
+
+86
+
+kriteria kepadatan jalan, sedanag kode C40, C41, C42 merupakan parameter dari
+
+kriteria daya perusakan jalan.
+
+Tabel 4.4 nilai keanggotaan fuzzy setiap jalan
+
+Nama jalan
+(1)
+
+C10
+(2)
+
+C11
+(3)
+
+C12
+(4)
+
+C20
+(5)
+
+C21
+(6)
+
+C22
+(7)
+
+C30
+(8)
+
+C31
+(9)
+
+C32
+(10)
+
+C40
+(11)
+
+C41
+(12)
+
+C42
+(13)
+
+Adi Sucipto 0 0 1 0 0 1 0 0 1 0 0 1
+
+A. Yani 1 0 0 0.39 0.61 0 0.41 0.59 0 0 0.98 0.02
+
+Veteran 0.23 0.77 0 1 0 0 1 0 0 0.92 0.08 0
+
+Pahlawan 0.59 0.41 0 0.67 0.33 0 0.69 0.31 0 0.97 0.03 0
+
+Tanjungpura 0 0.04 0.96 0 0.11 0.89 0 0.23 0.77 1 0 0
+
+Selanjutnya  adalah  proses  fuzzyfikasi  yaitu  proses  inferensi  setiap
+
+nilai parameter kriteria ke dalam rules yang telah ditentukan. Pada tabel 4.5 dapat
+
+dilihat hasil fuzzyfikasi setiap jalan
+
+Tabel 4.5 nilai hasil inferensi berdasarkan rules yang telah ditentukan
+
+Nama Jalan C1 C2 C3 C4 Min Predikat
+        (C1,C2,C3,C4)  
+
+(1) (2) (3) (4) (5) (6) (7)
+  Turun Naik
+
+Adi Sucipto 1 1 1 1 1 0.9  
+
+A. Yani 1  0.39 0.41 0.98 0.39 0.34  
+  1 0.39 0.41 0.02 0.02 0.49  
+  1 0.39 0.59 0.98 0.39 0.34  
+  1 0.39 0.59 0.02 0.02 0.49  
+  1 0.61 0.41 0.98 0.41 0.34  
+  1 0.61 0.41 0.02 0.02 0.49  
+  1 0.61 0.59 0.98 0.59 0.26  
+  1 0.61 0.59 0.02 0.02 0.49  
+
+Veteran 0.23 1 1 0.92 0.27 0.41  
+  0.23 1 1 0.08 0.08 0.47  
+  0.77 1 1 0.92 0.77 0.41 0.59
+  0.77 1 1 0.08 0.08 0.13 0.87
+
+Pahlawan 0.59 0.67 0.69 0.97 0.59 0.26  
+  0.59 0.67 0.69 0.03 0.59 0.49  
+  0.59 0.67 0.31 0.97 0.31 0.38  
+  0.59 0.67 0.31 0.03 0.03 0.49  
+  0.59 0.33 0.69 0.97 0.33 0.37  
+  0.59 0.33 0.69 0.03 0.03 0.49  
+  0.59 0.33 0.31 0.97 0.31 0.38  
+
+(1) (2) (3) (4) (5) (6) (7)
+
+  0.59 0.33 0.31 0.03 0.03 0.486224  
+
+
+
+87
+
+  0.41 0.67 0.69 0.97 0.40 0.26044  0.74
+
+  0.41 0.67 0.69 0.03 0.03 0.113776  0.89
+  0.41 0.67 0.31 0.97 0.31 0.224136  0.78
+  0.41 0.67 0.31 0.03 0.03 0.113776  0.89
+  0.41 0.33 0.69 0.97 0.33 0.2303  0.77
+  0.41 0.33 0.69 0.03 0.03 0.113776  0.89
+  0.41 0.33 0.31 0.97 0.31 0.224136  0.77
+  0.41 0.33 0.31 0.03 0.03 0.113776  0.89
+
+Tanjungpura 0.04 0.11 0.23 1 0.01 0.104448  0.89
+  0.04 0.11 0.77 1 0.01 0.104448  0.89
+  0.04 0.89 0.23 1 0.04 0.117216  0.88
+  0.04 0.89 0.77 1 0.04 0.117216  0.88
+  0.96 0.11 0.23 1 0.01   0.50
+  0.96 0.11 0.77 1 0.01   0.50
+  0.96 0.89 0.23 1 0.23   0.59
+  0.96 0.89 0.77 1 0.77   0.81
+
+Selanjutnya adalah tabel nilai ketegasan setiap jalan yang dapat dilihat
+
+pada Tabel 4.6. Nilai ketegasan dihitung berdasarkan nilai inferensi setiap jalan.
+
+Tabel 4.6 nilai ketegasan setiap jalan
+
+Nama Jalan Fire strength
+
+Adi sucipto 0.9
+
+A. Yani 0.32
+
+Veteran 0.49
+
+Pahlawan 0.44
+
+Tanjungpura 0.71
+
+Proses selanjutnya adalah proses pengurutan menggunakan metode 
+
+TOPSIS. Pada Tabel 4.7 dapat dilihat hasil pengurutan menggunakan perhitungan 
+
+dengan Microsoft Excel dan pengurutan menggunakan perhitungan dengan Sistem
+
+Pendukung Keputusan (SPK).
+
+Tabel 4.7 pengurutan perhitungan Microsoft Excel dan perhitungan SPK
+
+No Nama jalan Keputusan Keputusan
+
+
+
+88
+
+(dengan Microsoft Excel) (secara sistem)
+1 Jalan Adi Sucipto 1 1
+2 Jalan Tanjungpura 0.67 0.66874076111245
+3 Jalan Veteran 0.29 0.29327237099935
+4 Jalan Pahlawan 0.21 0.20586819760047
+5 Jalan A.yani 0 0
+
+Pada Tabel 4.7 dapat dilihat jika hasil perhitungan dengan Microsoft
+
+Excel dan  dengan  SPK memiliki  hasil  yang dapat  dikatakan  sama(perbedaaan
+
+dikarenakan faktor pembulatan).
+
+4.2.2 Pengujian Validitas dan Reliabilitas Kuesioner
+
+4.2.2.1 Pengujian Validitas Kuesioner
+
+Hasil  pengujian validitas  kuesioner menggunakan koefisien korelasi
+
+Pearson (Pearson Corellation) dapat dilihat pada Tabel 4.8.
+
+Tabel 4.8 Hasil Pengujian Validitas Kuesioner
+
+Korelasi antara
+
+(1)
+
+Nilai Korelasi
+(Pearson
+
+Corellation)
+(2)
+
+Probabilitas
+Korelasi [sig.
+
+(2-tailed)]
+(3)
+
+Kesimpulan
+
+(4)
+Variabel No.1 dengan Total 0,493 0,0006 Valid
+
+Variabel No.2 dengan Total 0,184 0,0003 Valid
+
+Variabel No.3 dengan Total 0,309 0,0069 Valid
+
+Variabel No.4 dengan Total 0,505 0,0004 Valid
+
+Variabel No.5 dengan Total 0,373 0,0062 Valid
+
+Variabel No.6 dengan Total 0,200 0,0028 Valid
+
+Variabel No.7 dengan Total 0,514 0,0004 Valid
+
+Variabel No.8 dengan Total 0,544 0,0002 Valid
+
+Variabel No.9 dengan Total 0,588 0,0001 Valid
+
+Variabel No.10 dengan Total 0,499 0,0005 Valid
+
+Variabel No.11 dengan Total 0,495 0,0005 Valid
+
+Variabel No.12 dengan Total 0,726 0,0000 Valid
+
+Variabel No.13 dengan Total 0,628 0,0000 Valid
+
+(1) (2) (3) (4)
+
+Variabel No.14 dengan Total 0,538 0,0002 Valid
+
+
+
+89
+
+Variabel No.15 dengan Total 0,592 0,0001 Valid
+
+Variabel No.16 dengan Total 0,502 0,0005 Valid
+
+Variabel No.17 dengan Total 0,495 0,0005 Valid
+
+Variabel No.18 dengan Total 0,493 0,0006 Valid
+
+Variabel No.19 dengan Total 0,726 0,0002 Valid
+
+Variabel No.20 dengan Total 0,514 0,0004 Valid
+
+4.2.2.2 Pengujian Reliabilitas Kuesioner
+
+Hasil  pengujian  reliabilitas  kuesioner  menggunakan  rumus  Alpha
+
+Conbach  menghasilkan  nilai  koefisien  sebesar  0,931.  Sesuai  kriteria,  nilai  ini
+
+sudah lebih besar dari  0,600, maka hasil  data  hasil  kuesioner memiliki  tingkat
+
+reliabilitas yang baik (dapat dipercaya).
+
+4.2.3 Perhitungan dan Penyajian Data Hasil Kuesioner
+
+4.2.3.1 Aspek Rekayasa Perangkat Lunak
+
+Pilihan  responden  terhadap  aspek  rekayasa  perangkat  lunak  sesuai
+
+dengan kriteria masing-masing ditunjukkan pada Tabel 4.9.
+
+Tabel 4.9 Hasil Kuesioner Aspek Rekayasa Perangkat Lunak
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Kemudahan menjalankan aplikasi 0 1 8 12 9 30
+2 Kompabilitas aplikasi pada browser 0 0 8 17 5 30
+3 Kelancaran menjalankan aplikasi 0 0 10 16 4 30
+
+4
+Kemudahan mengakses fitur-fitur 
+pada aplikasi
+
+0 0 9 18 3 30
+
+5
+Kemudahan kontrol komponen-
+komponen aplikasi
+
+0 0 14 11 5 30
+
+6 Kenyamanan dalam penggunaan 
+aplikasi secara keseluruhan
+
+0 0 8 13 9 30
+Jumlah 0 1 57 87 35 180
+Persentase (%) 0 0,57 31,66 48,33 19,44 100
+
+Keterangan : 1 = Sangat buruk  2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat baik
+
+
+
+90
+
+Pada Tabel 4.9 dapat diketahui hasil kuesioner bahwa sebagian besar
+
+responden menilai aplikasi baik dengan jumlah tanggapan baik 87 dan memiliki
+
+persentase 48,33%. 
+
+4.2.3.2 Aspek Fungsionalitas
+
+Pilihan responden terhadap aspek fungsionalitas sesuai dengan kriteria
+
+masing-masing ditunjukkan pada Tabel 4.10.
+
+Tabel 4.10 Hasil Kuesioner Aspek Fungsionalitas
+
+No Aspek Fungsionalitas
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Kinerja proses input data 0 0 8 15 7 30
+
+2
+Kinerja proses pengambilan 
+keputusan
+
+0 0 8 16 6 30
+
+3 Tingkat kesesuaian keputusan 0 0 10 14 6 30
+4 Sistematika input survei 0 0 8 13 9 30
+
+5
+Sistematika pengambilan 
+keputusan
+
+0 0 6 13 11 30
+
+6 Sistematika login sistem 0 0 7 12 11 30
+
+7
+Tingkat kepentingan 
+pengambilan keputusan
+
+0 0 9 14 7 30
+
+Jumlah 0 0 56 97 57 210
+Persentase (%) 0 0 26,67 46,19 27,14 100
+
+Keterangan : 1 = Sangat buruk 2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat baik
+
+Pada  Tabel  4.10  dapat  diketahui  hasil  kuesioner  pada  aspek
+
+fungsionalitas  tersebut  dapat  diketahui  bahwa  sebagian  besar  responden
+
+menanggapi aplikasi baik dengan total tanggapan 97 dengan persentase 46,19%.
+
+Hal  ini  menunjukkan  bahwa  rata-rata  responden  merasa  kinerja  proses  sistem
+
+telah baik dan menilai penting hasil survei yang diberikan oleh sistem.
+
+
+
+91
+
+4.2.3.3 Aspek Komunikasi Visual
+
+Pilihan  responden terhadap  aspek komunikasi  visual  sesuai  dengan
+
+kriteria masing-masing ditunjukkan pada Tabel 4.11.
+
+Tabel 4.11 Hasil Kuesioner Aspek Komunikasi Visual
+
+No
+Aspek Rekayasa Perangkat
+
+Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Tampilan (antarmuka) aplikasi 0 0 6 13 11 30
+2 Tampilan menu aplikasi 0 0 7 14 9 30
+
+3
+Tingkat kemudahan melihat 
+hasil keputusan
+
+0 0 7 11 12 30
+
+4
+Jenis dan ukuran huruf yang 
+digunakan mudah dibaca
+
+0 0 7 9 14 30
+
+5
+Kombinasi warna pada 
+tampilan aplikasi
+
+0 0 9 9 12 30
+
+6
+Kehalusan perpindahan 
+halaman dalam aplikasi
+
+0 0 9 11 10 30
+
+7
+Respon (feedback) aplikasi 
+terhadap input yang dilakukan
+
+0 0 6 14 10 30
+
+Jumlah 0 0 51 81 78 210
+Persentase (%) 0 0 24,29 38,57 34,14 100
+
+Pada  Tabel  4.11  dapat  diketahui  hasil  kuesioner  responden
+
+menanggapi  aspek  komunikasi  visual  dengan  pilihan  baik  dengan  persentase
+
+38,57% dengan total tanggapan 81. Hal ini menunjukkan bahwa sebagian besar
+
+responden telah menanggapi aspek komunikasi visual pada sistem baik.
+
+4.2.3.4 User Acceptence Text
+
+Hasil  penelitian  untuk  melihat  skor  terbesar  dan  terkecil  dari  satu
+
+orang  responden  dan  total  semua  responden  terlihat  pada  Tabel  4.12  sebagai
+
+berikut :
+
+Tabel 4.12 Total Skor Responden
+Res
+pon
+den
+
+Item
+
+Total
+
+1 2 3 4 5 6 7 8 9
+1
+0
+
+1
+1
+
+1
+2
+
+1
+3
+
+1
+4
+
+1
+5
+
+16
+1
+7
+
+1
+8
+
+1
+9 20
+
+A
+3 4 3 4 3 5 5 4 3 4 4 5 4 4 4 5 5 5 5 4 83
+
+B
+
+3 3 3 3 3 3 3 5 3 3 5 5 3 5 4 4 3 4 5 4 74
+
+
+
+92
+
+Res
+pon
+den
+
+Item
+
+Total1
+2 3 4 5 6 7 8 9
+
+1
+0
+
+1
+1
+
+1
+2
+
+1
+3
+
+1
+4
+
+1
+5
+
+16
+1
+7
+
+1
+8
+
+1
+9 20
+
+C
+4 4 4 4 4 5 4 3 4 4 4 4 4 3 3 3 4 4 3 3 75
+
+D
+4 4 4 4 4 4 3 3 3 3 4 3 3 4 4 3 3 4 4 4 72
+
+E
+5 4 4 5 5 4 4 4 4 4 4 4 4 5 5 4 5 5 4 4 87
+
+F
+4 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 62
+
+G
+3 3 4 4 3 4 3 4 3 5 3 4 4 4 4 4 5 4 4 4 76
+
+H
+2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 5 3 3 3 61
+
+I
+3 3 3 3 3 3 3 4 4 3 3 3 3 4 4 4 3 4 3 4 67
+
+J
+4 4 4 4 4 4 4 4 5 4 4 4 4 5 3 5 4 3 4 5 82
+
+K
+3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 74
+
+L
+5 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 4 94
+
+M
+4 4 3 4 3 3 4 4 3 3 3 3 4 4 4 5 3 5 5 3 74
+
+N
+4 4 4 4 4 4 4 4 4 4 4 5 4 5 4 4 5 4 3 4 82
+
+O
+4 4 4 4 3 4 4 5 4 4 5 4 4 4 3 3 3 5 3 3 77
+
+P
+4 5 4 4 5 5 5 5 4 4 5 5 5 5 5 5 4 5 4 4 92
+
+Q
+5 4 5 5 4 5 5 4 4 3 4 4 4 5 4 5 5 3 5 5 88
+
+R
+5 5 4 4 3 5 4 4 3 4 4 4 3 4 4 4 5 5 4 5 83
+
+S
+5 3 4 3 3 4 4 4 4 3 4 5 3 3 5 5 5 4 5 5 81
+
+T
+3 3 3 4 3 4 3 3 4 4 4 4 5 5 5 4 4 5 5 5 80
+
+U
+3 4 5 4 4 5 5 5 5 5 5 5 4 4 5 4 5 5 5 5 92
+
+V
+5 5 5 4 5 4 5 3 5 5 5 4 5 5 4 5 3 4 5 4 90
+
+W
+3 3 5 5 5 4 4 4 4 4 4 3 5 3 4 5 4 5 4 5 83
+
+X
+5 5 4 4 3 4 4 4 5 5 5 5 3 5 5 5 5 5 5 4 90
+
+Y
+4 4 3 4 4 3 5 4 3 4 3 4 4 3 3 4 4 4 4 3 74
+
+Z
+4 4 4 3 5 5 4 3 3 4 5 4 3 4 5 4 5 5 4 5 83
+
+AA
+5 5 4 3 4 5 4 3 4 5 5 5 5 4 3 5 5 4 3 5 86
+
+BB
+4 4 4 4 4 5 4 5 4 5 4 5 4 3 4 3 4 3 4 4 81
+
+CC
+5 4 3 4 4 4 3 4 4 4 5 5 5 4 5 4 5 4 4 5 85
+
+DD
+4 4 4 3 3 3 4 4 5 3 5 5 4 4 4 5 4 3 5 4 80
+
+Total Skor 2408
+
+
+
+93
+
+Data yang diperoleh dari hasil pengujian dengan kuesioner kemudian
+
+diukur dengan metode Likert’s Summated Rating (LSR). 
+
+1. Jumlah skor untuk setiap responden:
+
+a. skor maksimal = 100 (5 x 20 item) 
+
+b. skor minimal = 20 (1 x 20 item) 
+
+c. skor median = 60 (3 x 20 item) 
+
+d. skor kuartil I = 40 (2 x 20 item) 
+
+e. skor kuartil III = 80 (4 x 20 item)
+
+2. Jumlah skor untuk seluruh responden:
+
+a. Maksimal = 3000 (30 x 100) 
+
+b. Minimal = 600 (30 x 20)
+
+c.  Median = 1800 (30 x 60) 
+
+d. Kuartil I = 1200 (30 x 40) 
+
+e. Kuartil III = 2400 (30 x 80)
+
+3. Interpretasi jumlah skor tersebut adalah:
+
+a. 2400 < Skor < 3000, artinya sangat positif (program dinilai berhasil) 
+
+b. 1800 < Skor < 2400, artinya positif (program dinilai cukup berhasil) 
+
+c. 1200 < Skor < 1800, artinya negatif (program dinilai kurang berhasil) 
+
+d. 600  <  Skor  <  1200,  artinya  sangat  negatif  (program  dinilai  tidak
+
+berhasil)
+
+Gambar 4.11 interpretasi jumlah skor kuesioner 
+
+4.3 Analisis Hasil Perangcangan dan Pengujian Perangkat Lunak
+
+Berikut ini adalah hasil perancangan dan pengujian Sistem Pendukung
+
+Keputusan Penentuan Prioritas Pemeliharaan Jalan di Kota Pontanak :
+
+1. Proses  pengurutan  prioritas  pemeliharaan  jalan  yang  tadinya  memiliki
+
+kesulitan karena kriteria yang mengandung unsur subjektif sekarang dapat
+
+dipetakan secara matematis sehingga dapat dilakukan lebih objektif.
+
+2408 (Hasil Penelitian)
+
+600 1200 1800 2400 3000
+
+
+
+94
+
+2. Sistem  dibangun  dapat  mengantisipasi  penambahan  kriteria  dan  detail
+
+kriteria untuk setiap kriteria.
+
+3. Pada  sistem  ini,  batas  nilai  setiap  kriteria  ditentukan  oleh  sistem
+
+berdasarkan nilai hasil survey.
+
+4. Pengujian  input  data  dengan  menggunakan  metode  Black  Box
+
+menunjukkan  bahwa  input  data  kosong  pada  sistem  menyebabkan
+
+eksekusi tidak berhasil.
+
+5. Pengujian dengan input data yang tidak sesuai pada sistem menyebabkan
+
+eksekusi tidak berhasil.
+
+6. Sistem  akan  mengeksekusi  data  bila  data  yang  dimasukkan  benar  dan
+
+sesuai dan data akan lansung disimpan di dalam basis data.
+
+7. Hasil  pengujian  hasil  perhitungan  sistem  dan  perhitungan  dengan
+
+Microsoft Excel  dapat dikatakan equivalen karena perbedaan pembulatan
+
+yang masih dapat ditoleransi.
+
+8. Hasil  pengujian  validitas  kuesioner  menunjukkan  bahwa  semua
+
+pertanyaan  dalam  kuesioner  adalah  valid  untuk  digunakan  dalam
+
+pengumpulan data.
+
+9. Hasil  pengujian  reliabilitas  kuesioner  menunjukkan  bahwa  kuesioner
+
+memiliki  memiliki  tingkat  reliabilitas  yang  baik  dan  hasilnya  dapat
+
+dipercaya
+
+10. Berdasarkan hasil  kuesioner,  dapat  disimpulkan bahwa perangkat  lunak
+
+yang dirancang dinilai berhasil.
+
+
+
+95 
+ 
+
+BAB V 
+
+PENUTUP 
+
+5.1   Kesimpulan 
+
+Setelah dilakukan analisis dan pengujian terhadap Sistem Pendukung 
+
+Keputusan Penentuan Prioritas Pemeliharaan Jalan di Kota Pontianak, dapat 
+
+disimpulkan bahwa: 
+
+1. Metode Fuzzy dan TOPSIS dapat digunakan untuk mengurutkan prioritas 
+
+pemeliharaan jalan dengan kriteria yang bersifat subjektif. 
+
+2. Sistem yang dibangun menampilkan pengurutan prioritas dari nilai 
+
+tertinggi ke nilai terendah. 
+
+3. Sistem yang dikembangkan dapat ditambah dengan kriteria baru dengan 
+
+detail kriteria tertentu sehingga akan lebih memudahkan dalam 
+
+pengembangan. 
+
+4. Berdasarkan penilaian dari responden(UAT aspek fungsionalitas), aplikasi 
+
+yang dirancang dapat menghasilkan keputusan yang sudah sesuai dengan 
+
+sistematika sistem yang sedang berjalan dan hasil keputusan yang 
+
+dihasilkan sudah sesuai dengan data hasil survey. 
+
+5.2   Saran 
+
+Adapun beberapa hal yang perlu ditambahkan dalam pengembangan 
+
+SPK ini adalah sebagai berikut: 
+
+1. Agar mendapatkan nilai presisi yang makin akurat, Sistem Pendukung 
+
+Keputusan(SPK) dapat dikembangakan dengan metode lain, sehingga 
+
+dapat dibandingkan hasil perhitungannya. 
+
+2. Intregasi sistem secara online akan mempermudah tim survey dalam 
+
+proses input data. 
+
+3. Penambahan Sistem Informasi Geografis(SIG) akan menambah nilai 
+
+tersendiri pada sistem ini dengan tujuan dapat mempermudah masyarakat 
+
+mengetahui jalan mana saja yang sedang rusak maupun tidak. 
+
+ 
+
+

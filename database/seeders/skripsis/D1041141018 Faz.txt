@@ -1,0 +1,4940 @@
+
+ 
+
+ 
+
+1 
+
+ 
+
+BAB I 
+
+PENDAHULUAN 
+
+1.1 Latar Belakang 
+
+ Syarat untuk menyelesaikan studi di Program Studi Informatika Universitas 
+
+Tanjungpura adalah menyelesaikan tugas akhir (skripsi). Mahasiswa diwajibkan 
+
+untuk menentukan judul tugas akhir terlebih dahulu, kemudian judul tersebut akan 
+
+dikelompokkan ke kelompok keahlian yang diberikan oleh Program Studi 
+
+Informatika Universitas Tanjungpura. 
+
+ Terdapat beberapa faktor yang dapat menentukan bidang keahlian 
+
+mahasiswa, seperti nilai akademik, minat mahasiswa, dan kemampuan (skill) 
+
+mahasiswa itu sendiri. Dalam hal ini mahasiswa memerlukan pertimbangan untuk 
+
+memilih bidang keahlian yang sesuai bagi mereka. Oleh karena itu, mahasiswa 
+
+harus benar-benar membuat keputusan untuk mempertimbangkan pilihan yang 
+
+sesuai pada kelompok keahlian yang disediakan. 
+
+ Berdasarkan masalah tersebut, salah satu solusinya adalah dengan membuat 
+
+sistem pendukung keputusan dapat menentukan bidang keahlian mahasiswa 
+
+Program Studi Informatika Universitas Tanjungpura. Sistem pendukung keputusan 
+
+diharapkan dapat memberikan hasil rekomendasi kepada mahasiswa untuk 
+
+menentukan bidang keahlian di Program Studi Informatika Universitas 
+
+Tanjungpura. Selain itu sistem pendukung keputusan ini menerapkan kurikulum 
+
+Program Studi Informatika Universitas Tanjungpura KKNI Tahun 2016 dengan 
+
+membatasi mata kuliah yang diambil adalah dari semester 1 hingga semester 5, 
+
+karena pada semester 6 ke atas mahasiswa sudah diberi pilihan mata kuliah 
+
+konsentrasi untuk topik skripsi. 
+
+ Model yang digunakan dalam sistem pendukung keputusan ini adalah Multi 
+
+Attribute Decision Making (MADM) dengan metode Elimination Choice of 
+
+Translating Reality (ELECTRE). Metode ELECTRE dipilih karena metode ini 
+
+melakukan pengurutan dari rekomendasi yang tertinggi ke terendah dengan 
+
+membandingkan alternatif secara berpasangan. Suatu alternatif dikatakan 
+
+mendominasi alternatif lain jika satu atau lebih kriterianya melebihi dan sama 
+
+dengan kriteria yang tersisa, dalam hal ini alternatif yang dimaksud adalah bidang 
+
+
+
+2 
+
+ 
+
+ 
+
+ 
+
+keahlian bagi mahasiswa berdasarkan kriteria yang disediakan. Metode 
+
+perankingan tersebut diharapkan penilaian akan lebih tepat dan membuktikan 
+
+bahwa metode ELECTRE dapat menjadi salah satu cara untuk menentukan bidang 
+
+keahlian mahasiswa Program Studi Informatika Universitas Tanjungpura. 
+
+1.2 Perumusan Masalah 
+
+ Berdasarkan hal yang telah disampaikan, maka yang dapat dijadikan sebagai 
+
+rumusan masalah dari penelitian ini adalah bagaimana membuat sistem pendukung 
+
+keputusan dan menghasilkan rekomendasi untuk menentukan bidang keahlian 
+
+mahasiswa Program Studi Teknik Informatika Universitas Tanjungpura dengan 
+
+menggunakan metode ELECTRE. 
+
+1.3 Tujuan Penelitian 
+
+ Adapun tujuan dari penelitian yang dilakukan adalah menghasilkan 
+
+rekomendasi dalam menentukan bidang keahlian mahasiswa di Program Studi 
+
+Informatika Universitas Tanjungpura. 
+
+1.4 Pembatasan Masalah 
+
+ Pembatasan masalah dari penelitian yang dilakukan adalah, 
+
+1. Data mata kuliah merujuk ke Kurikulum Program Studi Informatika KKNI 
+
+Tahun 2016. 
+
+2. Data yang digunakan adalah nilai mata kuliah mahasiswa Program Studi 
+
+Informatika Universitas Tanjungpura angkatan 2014. 
+
+3. Aplikasi yang dibangun berbasis web. 
+
+4. Kriteria yang digunakan adalah rata-rata nilai mata kuliah, minat mahasiswa dan 
+
+kemampuan (skill) mahasiswa. 
+
+5. Alternatif yang direkomendasikan adalah kelompok keahlian di Program Studi 
+
+Informatika Universitas Tanjungpura. 
+
+1.5 Sistematika Penulisan 
+
+ Sistematika laporan tugas akhir ini disusun dalam 5 (lima) bab yang terdiri 
+
+dari Bab I Pendahuluan, Bab II Tinjauan Pustaka, Bab III Metodologi Penelitian, 
+
+Bab IV Hasil dan Analisis, dan Bab V Penutup. 
+
+
+
+3 
+
+ 
+
+ 
+
+ 
+
+ Bab I Pendahuluan adalah bab yang berisi latar belakang, perumusan 
+
+masalah, tujuan penelitian, pembatasan masalah, dan sistematika penulisan laporan 
+
+tugas akhir. 
+
+ Bab II tinjauan pustaka adalah bab yang membahas mengenai gambaran 
+
+umum tentang penelitian yang didapat oleh peneliti sebelumnya serta perangkat 
+
+lunak yang melandasi pembangunan sistem dan landasan teori yang berhubungan 
+
+dalam proses analisis permasalahan penelitian yang akan dilakukan. 
+
+ Bab III metodologi penelitian adalah bab yang membahas mengenai data dan 
+
+perangkat penelitian, metode yang akan digunakan pada penelitian, diagram alir 
+
+penelitia, dan perancangan sistem. 
+
+ Bab IV hasil dan analisis adalah bab yang berisi tentang hasil perancangan, 
+
+pengoperasian sistem, pengujian dan analisis pengujian yang mengarah kepada 
+
+suatu kesimpulan. 
+
+ Bab V penutup adalah bab yang berisi kesimpulan dari penelitian yang telah 
+
+dilakukan dan saran atau rekomendasi untuk perbaikan maupun pengembangan 
+
+serta kelengkapan penelitian.
+
+
+
+4 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+4 
+
+ 
+
+BAB II  
+
+TINJAUAN PUSTAKA 
+
+ 
+
+2.1 Kajian Terkait 
+
+  Beberapa penelitian terkait dengan penelitian ini diantaranya sebagai berikut: 
+
+  Yumarlin (2016) melakukan penelitian dengan judul Sistem Pendukung 
+
+Keputusan Konsentrasi dan Peminatan Prodi Teknik Informatika Universitas 
+
+Janabadra Yogyakarta menjelaskan tujuan penelitian tersebut adalah untuk 
+
+mempermudah mahasiswa Teknik Informatika Universitas Janabadra untuk 
+
+menentukan topik tugas akhir. 
+
+  Setiawan (2015) melakukan penelitian dengan judul Implementasi Metode 
+
+ELECTRE Pada Sistem Pendukung Keputusan SNMPTN Jalur Undangan 
+
+menjelaskan kriteria yang digunakan untuk mendukung keputusan SNMPTN jalur 
+
+undangan adalah nilai mata pelajaran, peringkat siswa, nilai UN, prestasi, akreditasi 
+
+sekolah, dan rasio SNMPTN sebelumnya untuk mendapatkan hasil perangkingan 
+
+calon mahasiswa yang lulus SNMPTN jalur undangan. 
+
+  Madinah (2014) melakukan penelitian dengan judul Pengembangan Aplikasi 
+
+Pendukung Keputusan Untuk Membantu Mahasiswa Teknik Informatika Dalam 
+
+Memilih Konsentrasi Berbasis Web. Pemilihan konsentrasi ditentukan berdasarkan 
+
+kriteria minat, nilai mata kuliah tertentu, dan tes kemampuan dasar. 
+
+  Pradana (2017) melakukan penelitian dengan judul Sistem Pendukung 
+
+Keputusan Pemilihan Konsentrasi Mahasiswa Informatika Universitas AMIKOM 
+
+Yogyakarta Menggunakan Algoritma SAW Berbasis Website. Komponen kriteria 
+
+yang dibutuhkan untuk mendapatkan rekomendasi keputusan dalam penelitian ini 
+
+adalah minat, nilai mata kuliah, dan jurusan sekolah menengah. 
+
+  Jati (2017) dengan penelitian yang berjudul Rancang Bangun Alat Bantu 
+
+Sistem Pendukung Pengambilan Keputusan Dengan Metode ELECTRE. Pengujian 
+
+yang dilakukan pada penelitian ini adalah dengan menguji aplikasi berdasarkan 
+
+kasus dan membandingkan hasil output aplikasi dan hasil perhitungan manual. 
+
+Kajian terkait dapat dilihat pada Tabel 2.1 
+
+ 
+
+ 
+
+
+
+5 
+
+ 
+
+ 
+ 
+
+Tabel 2.1 Tabel Perbandingan Penelitian 
+
+No. Penulis Judul Penelitian Keterangan 
+
+1. Yumarlin 
+
+(2016) 
+
+Sistem Pendukung 
+
+Keputusan Konsentrasi dan 
+
+Peminatan Prodi Teknik 
+
+Informatika Universitas 
+
+Janabadra Yogyakarta 
+
+Menggunakan nilai akademik 
+
+sebagai kriteria pendukung 
+
+keputusan. 
+
+2. Fahmi 
+
+Setiawan 
+
+(2015) 
+
+Implementasi Metode 
+
+ELECTRE Pada Sistem 
+
+Pendukung Keputusan 
+
+SNMPTN Jalur Undangan 
+
+Kriteria yang digunakan adalah 
+
+mata pelajaran, peringkat siswa, 
+
+nilai UN, prestasi, akreditasi 
+
+sekolah, dan rasio SNMPTN 
+
+sebelumnya. 
+
+3. Auliya 
+
+Madinah 
+
+(2014) 
+
+Pengembangan Aplikasi 
+
+Pendukung Keputusan 
+
+Untuk Membantu 
+
+Mahasiswa Teknik 
+
+Informatika Dalam 
+
+Memilih Konsentrasi 
+
+Berbasis Web. 
+
+Kriteria yang digunakan adalah 
+
+minat, nilai mata kuliah, dan tes 
+
+kemampuan dasar. 
+
+4. Musthofa 
+
+Galih 
+
+Pradana 
+
+(2017) 
+
+Sistem Pendukung 
+
+Keputusan Pemilihan 
+
+Konsentrasi Mahasiswa 
+
+Informatika Universitas 
+
+AMIKOM Yogyakarta 
+
+Menggunakan Algoritma 
+
+SAW Berbasis Website 
+
+Meggunakan nilai mata kuliah, 
+
+minat, dan jurusan sekolah 
+
+menengah sebagai kriteria 
+
+5. Antonius 
+
+Prabowo 
+
+Jati (2017) 
+
+Rancang Bangun Alat 
+
+Bantu Sistem Pendukung 
+
+Pengambilan Keputusan 
+
+Dengan Metode ELECTRE 
+
+Pengujian dilakukan dengan 
+
+menerapkan tiga kasus dalam 
+
+aplikasi dan membandingkan hasil 
+
+perhitungan aplikasi dan 
+
+perhitungan manual. 
+
+
+
+6 
+
+ 
+
+ 
+ 
+
+3. Faz 
+
+Faidhani 
+
+(2018) 
+
+Sistem Pendukung 
+
+Keputusan Penentu Bidang 
+
+Keahlian Mahasiswa 
+
+Program Studi Teknik 
+
+Informatika Universitas 
+
+Tanjungpura Dengan 
+
+Metode ELECTRE. 
+
+Kriteria yang digunakan adalah 
+
+rata-rata nilai mata kuliah 
+
+kelompok keahlian, minat 
+
+mahasiswa, dan kemampuan 
+
+mahasiswa (hard skill). 
+
+ 
+
+2.2 Program Studi Informatika Universitas Tanjungpura 
+
+  Program Studi Informatika merupakan salah satu program studi jenjang 
+
+sarjana (S1) di lingkungan Fakultas Teknik Universitas Tanjungpura, berdiri pada 
+
+tanggal 18 Mei 2014 dengan SK Dirjen DIKTI Nomor 1664/D/T/2004. Saat ini 
+
+penyelenggaraan Program Studi Informatika berdasarkan SK Penyelenggaraan 
+
+Nomor7325/D/T/K-N/2011 tanggal 6 Juni 2011, dan Terakreditasi B sesuai 
+
+SKBAN-PTNomor0770/SK/BAN-PT/Akred/S/III/2017 pada 21 Maret 2017 
+
+(Teknik Informatika, 2016). 
+
+  Penyelenggaraan pendidikan, Program Studi Informatika melaksanakan dua 
+
+program studi pendidikan, yaitu program S1 Regular A dan program S1 Regular B. 
+
+Kedua program ini melaksanakan kurikulum pendidikan yang sama, hanya 
+
+dibedakan waktu pelaksanaan. Program Studi Informatika hingga saat ini masih 
+
+menggunakan Kurikulum Kerangka Kualifikasi Nasional Indonesia (KKNI) tahun 
+
+2016. Program Studi Informatika Universitas Tanjungpura mempersiapkan 
+
+lulusannya untuk terjun di masyarakat sesuai dengan standar kompetensi kerja baik 
+
+nasional maupun internasional, khususnya bidang Informatika. Program Studi 
+
+Informatika mempersyaratkan pembelajaran baik teori untuk penguasaan 
+
+pengetahuan, praktek di laboratorium/lapangan untuk penguasaan kemampuan 
+
+kerja (skills), mapun kecapakan hidup dan  kemampuan manajerial (Teknik 
+
+Informatika, 2016). 
+
+  Program Studi Informatika Universitas Tanjungpura memiliki 4 kelompok 
+
+keahlian sebagai berikut: 
+
+1. Computation and Artificial Intelligent 
+
+2. Network and Security 
+
+
+
+7 
+
+ 
+
+ 
+ 
+
+3. Software Engineering & Mobile Computing 
+
+4.  Information System & Data Spatial 
+
+2.3 Sistem Pendukung Keputusan 
+
+2.3.1 Pengertian Sistem Pendukung Keputusan 
+
+  Sistem Pendukung Keputusan (SPK) atau Decision Support System (DSS) 
+
+adalah suatu sistem informasi spesifik yang ditujukan untuk membantu manajemen 
+
+dalam mengambil keputusan yang berkaitan dengan persoalan yang bersifat semi 
+
+terstruktur (Daihani, 2001). Sistem ini memiliki fasilitas untuk menghasilkan 
+
+berbagai alternatif yang secara interaktif dapat digunakan oleh pemakai. Little 
+
+dalam Turban (2005) mendefinisikan sistem pendukung keputusan (DSS) sebagai 
+
+sekumpulan prosedur berbasis model untuk data pemrosesan dan penilaian guna 
+
+membantu para manajer mengambil keputusan. 
+
+2.3.2 Fase Pengambilan Keputusan 
+
+  Subakti (2002) mengemukakan bahwa proses pengambilan keputusan 
+
+meliputi beberapa fase, yaitu: 
+
+1. Intelligence 
+
+Pada langkah ini dilakukan pencarian kondisi-kondisi yang dapat menghasilkan 
+
+keputusan. 
+
+2. Design 
+
+Tahap ini akan menemukan, mengembangkan, dan menganalisis materi-materi 
+
+yang mungkin untuk dikerjakan. 
+
+3. Choice 
+
+Setelah pada tahap desain ditentukan berbagai alternatif model beserta variabel-
+
+variabelnya, pada tahapan ini akan dilakukan pemilihan modelnya. 
+
+2.3.3 Komponen-komponen Sistem Pendukung Keputusan 
+
+  Menurut Turban (2005), sistem pendukung keputusan terdiri dari beberapa 
+
+komponen subsistem, yaitu: 
+
+1. Subsistem Manajemen Data 
+
+Subsitem yang memasukkan satu database yang berisi data yang relevan dan 
+
+dikelola oleh perangkat lunak, yang disebut dengan Database Management 
+
+System (DBMS). Subsistem manajemen data dapat diinterkoneksikan dengan 
+
+
+
+8 
+
+ 
+
+ 
+ 
+
+data warehouse perusahaan, suatu repositori untuk data perusahaan yang relevan 
+
+untuk pengambilan keputusan. 
+
+2. Subsistem Manajemen Model 
+
+Subsistem ini merupakan paket perangkat lunak yang memasukkan model 
+
+keuangan statistik, ilmu manajemen atau model kuantitatif lainnya yang 
+
+memberikan kapabilitas analitik dan menajemen perangkat lunak yang tepat. 
+
+3. Subsistem Antarmuka Pengguna 
+
+Pengguna berkomunikasi dan memerintahkan SPK melalui subsistem ini. 
+
+Pengguna adalah bagian yang dipertimbangkan dari sistem. Beberapa kontribusi 
+
+unik antarmuka pengguna SPK berasal dari interaksi yang intensif antara 
+
+komputer dan pembuat keputusan. 
+
+4. Subsistem Manajemen Berbasis Pengetahuan 
+
+Subsistem ini dapat mendukung subsistem lain dan bertindak sebagai suatu 
+
+komponen independen. Subsistem ini memberikan intelegensi untuk 
+
+memperbesar pengetahuan pengambil keputusan. Subsistem ini dapat 
+
+diinterkoneksikan dengan repositori pengetahuan dan disebut basis pengetahuan 
+
+organisasional. 
+
+   Skema dari sistem pendukung keputusan dan komponennya ditunjukkan 
+
+pada Gambar 2.1 (Turban, 2005) sebagai berikut : 
+
+ 
+
+Gambar 2.1 Skema Sistem Pendukung Keputusan 
+
+ 
+
+
+
+9 
+
+ 
+
+ 
+ 
+
+2.4 MySQL 
+
+2.4.1 Pengertian MySQL 
+
+  MySQL adalah salah satu jenis database server yang dikembangkan oleh 
+
+sebuah perusahaan Swedia bernama MySQL AB. MySQL menggunakan SQL 
+
+sebagai bahasa dasar untuk mengakses database-nya sehingga mudah untuk 
+
+digunakan, kinerja query cepat, dan mencukupi untuk kebutuhan database 
+
+perusahaan-perusahaan skala menengah-kecil. MySQL bersifat open source dan 
+
+free pada berbagai platform (kecuali Windows, yang bersifat shareware). MySQL 
+
+didistribusikan dengan lisensi open source GPL (General Public License) mulai 
+
+versi 3.23 pada bulan Juni 2000 (Solichin, 2016). 
+
+2.4.2 Kelebihan MySQL 
+
+Menurut Solichin (2016), MySQL juga memiliki beberapa kelebihan 
+
+diantaranya: 
+
+a) Bersifat open source. 
+
+b) Sistem yang digunakan oleh perangkat lunak ini tidak akan memberatkan 
+
+ kerja dari server, karena dapat bekerja di background. 
+
+c) Mempunyai koneksi yang stabil dan kecepatan yang tinggi. 
+
+2.4.3 Operasi-operasi Pada MySQL 
+
+  Menurut Raharjo (2011) dalam memanajemen data pada database, MySQL 
+
+memiliki beberapa operasi penting diantaranya, 
+
+1. Membuat Database 
+
+Sebelum melakukan proses pembuatan tabel dan manipulasi data, database 
+
+harus dibuat terlebih dahulu, perintah untuk membuat database adalah sebagai 
+
+berikut: CREATE DATABASE nama_database; 
+
+Sedangkan perintah untuk mengetahui daftar database yang terdapat pada 
+
+MySQL adalah sebagai berikut: 
+
+SHOW DATABASES; 
+
+2. Membuat Tabel 
+
+Suatu tabel ditempati oleh tabel-tabel yang merupakan tempat untuk menyimpan 
+
+data. Mengubah tabel di dalam database MySQL dapat dilakukan dengan 
+
+mengetikkan perintah SQL berikut: 
+
+
+
+10 
+
+ 
+
+ 
+ 
+
+CREATE TABLE nama_tabel( 
+
+Nama_field1 tipe_data1 [(ukuran/nilai) atribut], 
+
+Nama_field2 tipe_data2 [(ukuran/nilai) atribut], 
+
+...); 
+
+3. Memasukkan Data 
+
+Memasukkan data pada suatu tabel yang telah dibuat dilakukan dengan 
+
+menggunakan pernyataan insert, dengan sintaks penulisan sebagai berikut: 
+
+INSERT INTO nama_tabel (field1, field2,...) VALUES 
+
+(nilai_field1, nilai_field2,...); 
+
+4. Menampilkan Data 
+
+Perintah yang digunakan untuk menampilkan data dari tabel adalah select. 
+
+Sintaks penulisannya sebagai berikut: 
+
+SELECT field1,field2,... FROM nama_tabel; 
+
+Perintah diatas akan menampilkan semua data yang terdapat pada field yang 
+
+telah ditentukan, untuk melihat semua data yang ada pada suatu tabel, sintaks 
+
+penulisannya adalah: 
+
+SELECT * FROM nama_tabel; 
+
+5. Mengubah Data 
+
+Pengubahan data pada tabel berfungsi untuk memodifikasi nilai kolom (field) 
+
+dari suatu record. Perintah SQL yang digunakan untuk mengubah data adalah 
+
+sebagai berikut: 
+
+UPDATE nama_tabel SET nama_field1=nilai_baru1, 
+
+nama_field2=nilai_baru2,... WHERE kriteria; 
+
+Untuk memodifikasi nilai suatu kolom secara keseleruhan, digunakan perintah 
+
+update tanpa menentukan kriterianya. 
+
+6. Menghapus Data 
+
+Penghapusan data pada tabel berfungsi untuk menghapus suatu record dengan 
+
+kriteria tertentu. Perintah SQL untuk menghapus data pada tabel adalah delete, 
+
+dengan sintaks penulisan sebagai berikut: 
+
+DELETE FROM nama_tabel WHERE kriteria; 
+
+Untuk menghapus seluruh record pada suatu tabel, digunakan perintah delete 
+
+tanpa menentukan kriterianya: 
+
+
+
+11 
+
+ 
+
+ 
+ 
+
+DELETE FROM nama_tabel; 
+
+2.5 Hypertext Preprocessor (PHP) 
+
+  PHP (Hypertext Preprocessor) adalah bahasa server-side scripting yang 
+
+menyatu dengan HTML untuk membuat halaman web yang dinamis. PHP 
+
+merupakan server-side scripting maka sintaks dan perintah-perintah PHP akan 
+
+dieksekusi di server kemudian hasilnya akan dikirimkan ke browser dalam format 
+
+HTML. PHP termasuk dalam Open Source Product, sehingga source code PHP 
+
+dapat diubah dan didistribusikan secara bebas. PHP juga bersifat lintas platform, 
+
+artinya PHP dapat berjalan di banyak sistem operasi yang beredar saat ini 
+
+diantaranya: Windows, Linux, Mac OS, dan Solaris (Arief, 2011).   
+
+PHP memiliki beberapa keunggulan diantaranya: 
+
+a) Dapat melakukan koneksi ke berbagai macam software sistem manajemen basis 
+
+data (DBMS) sehingga dapat menciptakan suatu halaman web yang dinamis. 
+
+b) Mempunyai koneksi yang baik dengan beberapa DBMS antara lain Oracle, 
+
+Sybase, Msql, MySQL, Microsoft SQL Server, Solid, PostgreSQL, Adabas, 
+
+FilePro, dBase, dan ODBC. 
+
+c) Dapat melakukan integrasi dengan beberapa library eksternal seperti membuat 
+
+dokumen PDF hingga mem-parse format XML. 
+
+d) Mendukung komunikasi dengan layanan lain melalui protokol IMAP, SNMP, 
+
+NNTP, POP3, atau bahkan HTTP. 
+
+2.6 Flowchart Diagram 
+
+  Menurut Indrajani (2011), flowchart merupakan penggambaran secara grafik 
+
+dari langkah-langkah dan urutan prosedur suatu program. Biasanya mempermudah 
+
+penyelesaian masalah yang khususnya perlu dipelajari dan dievaluasi lebih lanjut. 
+
+  Menurut Jogiyanto (2005), bagan alir (flowchart) adalah bagan yang 
+
+menunjukkan arus di dalam program atau prosedur sistem secara logika. Berikut ini 
+
+adalah beberapa notasi atau simbol-simbol dalam penggambaran flowchart yang 
+
+dipaparkan pada Tabel 2.2 (Jogiyanto, 2005) berikut, 
+
+ 
+
+ 
+
+ 
+
+
+
+12 
+
+ 
+
+ 
+ 
+
+Tabel 2.2 Notasi pada Flowchart 
+
+Simbol Keterangan 
+
+ Symbol Connector (simbol untuk keluar/masuk prosedur atau 
+
+proses dalam lembar yang sama) 
+
+ Symbol Process (simbol yang menunjukkan pengolahan yang 
+
+dilakukan oleh komputer) 
+
+ Symbol Decision (simbol untuk kondisi yang akan 
+
+menghasilkan beberapa kemungkinan jawaban/aksi) 
+
+ Symbol Input-Output (simbol yang menyatakan proses input 
+
+dan output tanpa tergantung jelas dengan peralatannya) 
+
+ Symbol Display (sumbol yang menyatakan peralatan output 
+
+yang digunakan yaitu layar, plotter, printer, dan sebagainya) 
+
+ Symbol Document (simbol yang menyatakan input berasal 
+
+dari dokumen dalam bentuk kertas atau output dicetak ke 
+
+kertas) 
+
+ 
+
+2.7 Data Flow Diagram (DFD) 
+
+  Menurut Kristanto (2004) DFD (Data Flow Diagram) adalah suatu model 
+
+logika data atau proses yang dibuat untuk menggambarkan darimana asal data dan 
+
+kemana tujuan data yang keluar dari sistem, dimana data disimpan, proses apa yang 
+
+menghasilkan data tersebut dan interaksi antara data yang tersimpan dan proses 
+
+yang dikenakan pada data tersebut. 
+
+  Diagram Alir Data (DAD) atau Data Flow Diagram (DFD) adalah suatu 
+
+diagram yang menggunakan notasi-notasi untuk menggambarkan arus dari data 
+
+sistem, yang penggunaannya sangat membantu untuk memahami sistem secara 
+
+logika, terstruktur dan jelas. DFD sering disebut juga dengan nama Bubble Chart, 
+
+Bubble Diagram, model proses, diagram alur kerja, atau model fungsi. 
+
+2.7.1 Notasi DFD 
+
+  DFD menggambarkan penyimpanan data dan proses mentransformasikan 
+
+data. DFD menunjukkan hubungan antara data pada sistem dan proses pada Sistem. 
+
+Dalam DFD, terdapat 4 komponen utama yang tertera pada tabel 2.3 (Indrajani, 
+
+2011) berikut ini: 
+
+
+
+13 
+
+ 
+
+ 
+ 
+
+Tabel 2.3 Simbol-simbol DAD 
+
+ 
+
+No 
+
+ 
+
+Keterangan Komponen 
+
+ 
+
+Simbol De Marco 
+
+dan Yourdan 
+
+ 
+
+Simbol Gane dan 
+
+Sarson 
+
+ 
+
+1. 
+
+External Agents. 
+
+Agen external 
+
+mendefiisikan orang atau 
+
+sebuah organisasi, sistem 
+
+lain, atau organisasi yang 
+
+berada diluar sistem proyek 
+
+tapi dapat mempengaruhi 
+
+kerja sistem. 
+
+ 
+ 
+
+ 
+
+2. 
+
+Process. 
+
+Proses adalah 
+
+penyelenggaraan kerja atau 
+
+jawaban, datangnya aliran 
+
+data atau kondisi. 
+
+ 
+ 
+
+ 
+
+3. 
+
+Data Stores. 
+
+Data Stores adalah sebuah 
+penyimpanan data 
+
+  
+
+ 
+
+ 
+
+4. 
+
+Data Flow. 
+
+Data Flow 
+
+merepresentasikan sebuah 
+
+input data ked alam sebuah 
+
+proses atau output 
+
+(informasi) pada sebuah 
+
+proses. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2.7.2 Tingkatan DFD 
+
+   DFD memiliki 3 level (tingkatan) diantaranya sebagai berikut: 
+
+1. Diagram Konteks (Context Diagram) 
+
+Menggambarkan satu lingkaran besar yang dapat mewakili seluruh proses yang 
+
+terdapat di dalam suatu sistem. Merupakan tingkatan tertinggi dalam DFD dan 
+
+Menggambarkan satu lingkaran besar yang dapat mewakili seluruh proses yang 
+
+terdapat di dalam suatu sistem. Diagram ini sama sekali tidak memuat 
+
+penyimpanan data dan tampak sederhana untuk diciptakan. 
+
+
+
+14 
+
+ 
+
+ 
+ 
+
+2. Diagram Nol 
+
+ Merupakan satu lingkaran besar yang mewakili lingkaran-lingkaran kecil yang 
+
+ada di dalamnya. Diagram Nol merupakan pemecahan dari diagram konteks. 
+
+3. Diagram Rinci 
+
+ Merupakan diagram yang menguraikan proses apa yang ada di dalam diagram 
+
+Nol. 
+
+2.8 Elimination and Choice Translating Reality (ELECTRE) 
+
+   Elimination and Choice Translating Reality (ELECTRE) adalah metode yang 
+
+didasarkan pada konsep perankingan melalui perbandingan berpasangan antar 
+
+alternatif pada kriteria yang sesuai. Metode ELECTRE sebagai salah satu metode 
+
+Multiple Attribute Decision Making (MADM) secara luas diakui memiliki performa 
+
+yang baik untuk menganalisis kebijakan yang melibatkan kriteria kualitatif dan 
+
+kuantitatif. 
+
+  Metode ELECTRE sangat terkenal terutama di Eropa dan banyak digunakan 
+
+dalam bidang teknik sipil dan lingkungan. Metode ELECTRE dikembangkan 
+
+dengan konsep perangkingan, yaitu dengan menggunakan perbandingan 
+
+berpasangan antar alternatif pada kriteria yang sesuai. Suatu alternatif dikatakan 
+
+mendominasi alternatif lainnya jika satu atau lebih kriterianya melebihi 
+
+dibandingkan dengan kriteria dari alternatif yang lain dan sama dengan kriteria 
+
+yang tersisa. 
+
+2.8.1 Langkah-langkah Perhitungan Metode ELECTRE 
+
+Menurut Kusumadewi (2006) langkah-langkah dalam pengerjaan metode  
+
+ELECTRE meliputi: 
+
+1. Membentuk perbandingan berpasangan setiap alternative di setiap kriteria(xij). 
+
+Nilai ini harus dinormalisasikan ke dalam suatu skala yang dapat 
+
+diperbandingkan (rij). Dalam prosedur ini, setiap atribut diubah menjadi nilai 
+
+yang comparable. Setiap normalisasi dari nilai rij dapat dilakukan dengan rumus 
+
+(2.1) : 
+
+rij = 
+𝑥𝑖𝑗
+
+√∑ 𝑥𝑖𝑗2
+𝑚
+𝑖=1
+
+ untuk i = 1,2,3,…,m dan j=1,2,3,…n       (2.1) 
+
+
+
+15 
+
+ 
+
+ 
+ 
+
+2. Pembobotan pada matrik yang telah dinormalisasi. Setelah dinormalisasi setiap 
+
+kolom dari matrik R dikalikan dengan bobot-bobot (wj) yang ditentukan oleh 
+
+pembuat keputusan. Sehingga, weighted normalized matrix adalah V=RW yang 
+
+ditulis dalam rumus (5.2) ini : 
+
+V = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mnmm
+
+n
+
+n
+
+vvv
+
+vvv
+
+vvv
+
+21
+
+22221
+
+11211
+
+...
+
+...
+
+...
+
+ =  RW = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mnnmm
+
+nnr
+
+nnr
+
+rwrwrw
+
+wrwrw
+
+wrwrw
+
+2211
+
+222211
+
+122111
+
+...
+
+2...
+
+1...
+
+      (2.2) 
+
+3.  Menentukan matriks concordance dan discordance. 
+
+a) Concordance 
+
+Untuk menentukan nilai dari elemen-elemen pada matriks concordance 
+
+adalah dengan menjumlahkan bobot-bobot yang termasuk dalam subset 
+
+concordance, secara matematisnya adalah: 
+
+ckl= ∑ 𝑤𝑗𝑗𝐶𝑤                     (2.3) 
+
+sehingga matriks concordance yang dihasilkan adalah: 
+
+  C = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+
+...
+
+321
+
+22321
+
+11312
+
+mmm
+
+N
+
+n
+
+ccc
+
+ccc
+
+ccc
+
+                (2.4) 
+
+b) Discordance 
+
+Untuk menentukan nilai dari elemen-elemen pada matriks discordance adalah 
+
+dengan membagi maksimum selisih nilai kriteria yang termasuk dalam subset 
+
+discordance dengan maksimum selisih nilai seluruh kriteria yang ada. 
+
+4. Menentukan aggregate dominance matrix. 
+
+ Langkah selanjutnya adalah menentukan aggregate dominance matrix sebagai 
+
+matriks E, yang setiap elemennya merupakan perkalian antara elemen matriks F 
+
+dengan elemen matriks G, sebagai berikut : 
+
+ekl = fkl x gkl                     (2.5) 
+
+5. Eliminasi elemen yang less favourable. 
+
+ Matriks E memberikan urutan pilihan dari setiap alternatif, yaitu bila ekl = 1 maka 
+
+alternative Ak merupakan pilihan yang lebih baik daripada Al. sehingga baris 
+
+
+
+16 
+
+ 
+
+ 
+ 
+
+dalam matriks E yang memiliki jumlah ekl = 1 paling sedikit dapat dieliminasi. 
+
+Dengan demikian alternatif terbaik adalah yang mendominasi alternatif lainnya. 
+
+2.8.2 Contoh Perhitungan Dalam Metode ELECTRE 
+
+  Terdapat beberapa alternatif A1, A2, dan A3 dengan kriteria C1, C2, C3, C4, 
+
+dan C5 dan bobot preferensi W = (4,3,2,1) yang direpresentasikan dalam tabel 
+
+sebagai berikut, 
+
+Tabel 2.4 Tabel Alternatif 
+
+Alternatif C1 C2 C3 C4 
+
+A1 4 2 3 4 
+
+A2 5 3 4 5 
+
+A3 3 3 2 3 
+
+  Ketentuan dari nilai bobot W yaitu 4 = Penting, 3 = Cukup Penting, 2 = 
+
+Kurang Penting, 1 = Tidak Penting. Matriks R merupakan normalisasi dari Matriks 
+
+X atau matriks keputusan yaitu dengan cara sebagai berikut: 
+
+|X1| = √42 + 52 + 32 = 7,0711 
+
+r11 = 
+𝑋11
+
+𝑋1
+=  
+
+4
+
+7,0711
+= 0,5657 
+
+r21 = 
+𝑋21
+
+𝑋1
+=  
+
+5
+
+7,0711
+= 0,7071 
+
+r31 = 
+𝑋31
+
+𝑋1
+=  
+
+3
+
+7,0711
+= 0,4243 
+
+Demikian seterusnya terakhir diperoleh matriks X ternormalisasi yang disebut 
+
+dengan matriks R. 
+
+0,5657 0,4264 0,5571 0,5657 
+
+0,7071 0,6396 0,7428 0,7071 
+
+0,4243 0,6396 0,3714 0,4243 
+
+Matriks R merupakan matriks normalisasi yang berasal dari hasil perhitungan 
+
+pada langkah pertama dalam metode ELECTRE. Nilai-nilai tersebut diperoleh dari 
+
+matriks keputusan pada Tabel 2.4 yang kemudian dilakukan perhitungan sesuai 
+
+Persamaan 2.1. Matriks V, dihitung dengan persamaan 2.3 yaitu sebagai berikut : 
+
+V11 = W1R11 = (4) (0,5657) = 2,2628 
+
+V12 = W2R11 = (3) (0,4264) = 1,2792 
+
+V13 = W3R13 = (2) (0,5571) = 1,1142 
+
+V14 = W4R14 = (1) (0,5657) = 2,2627 
+
+Dan seterusnya, hingga diperoleh matriks V sebagai berikut : 
+
+
+
+17 
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+
+4243,07428,09188,16972,1
+
+7071,04856,19188,18284,2
+
+5657,01142,12792,12628,2
+
+V  
+
+  Matriks V merupakan hasil dari perkalian bobot dengan matriks normalisasi 
+
+sesuai dengan Persamaan 2.3 matriks weighted normalized decision disebut juga 
+
+matriks V. setelah ditemukan matriks V maka selanjutnya ditentukan himpunan 
+
+concordance. Himpunan concordance adalah sebagai berikut: 
+
+Tabel 2.5 Himpunan Concordance 
+
+Ckl Himpunan 
+
+C12 {} 
+
+C13 (1,3,4} 
+
+C21 {1.2,3,4} 
+
+C23 {1,2,3,4} 
+
+C31 {2} 
+
+C32 {2} 
+
+  Tabel 2.5 merupakan hasil perhitungan yang merupakan himpunan 
+
+concordance. Himpunan concordance ditentukan dari matriks V sesuai dengan 
+
+Persamaan 2.4, setelah itu ditentukan untuk himpunan discordance sesuai dengan 
+
+Persamaan 2.4, yaitu sebagai berikut : 
+
+Tabel 2.6 Himpunan Discordance 
+
+Dkl Himpunan 
+
+D12 {1,2,3,4} 
+
+D13 (2} 
+
+D21 {} 
+
+D23 {} 
+
+D31 {1,3,4} 
+
+D32 {1,3,4} 
+
+Tabel 2.6 merupakan hasil perhitungan yang merupakan himpunan 
+
+discordance. Himpunan discordance juga ditentukan dari matriks V sesuai dengan 
+
+Persamaan 4. Untuk menentukan matriks c sesuai persamaan 5 yaitu sebagai 
+
+berikut: 
+
+C12 = tidak ada 0 = 0 
+
+C12 = W1 + W3 + W4 = 4 + 2 + 1 = 7 
+
+C13 = W1 + W2 + W3 + W4 = 4 + 3 + 2 + 1 = 10 
+
+C23 = W1 + W2 + W3 + W4 = 4 + 3 + 2 + 1 = 10 
+
+
+
+18 
+
+ 
+
+ 
+ 
+
+C31 = W2 = 3 C32 = W2 = 3 
+
+Maka, hasil dari matriks C adalah sebagai berikut : 
+
+C = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+33
+
+1010
+
+70
+
+ 
+
+  Matriks C merupakan matriks concordance. Matriks C diperoleh dari 
+
+himpunan concordance dengan menambah bobot yang termasuk dalam himpunan 
+
+concordance sehingga diperoleh nilai-nilai seperti pada Matriks C tersebut. 
+
+  Matriks D merupakan matriks discordance, untuk menentukan matriks D 
+
+diperoleh dari himpunan discordance dengan menggunakan elemen dkl yaitu 
+
+sebagai berikut : 
+
+D12 = 
+max{|2,2627−28284|;|1,2792−1,9188|;|1,1142−1,4856|;|0,5657−0,7071|}
+
+max{|2,2627−28284|;|1,2792−1,9188|;|1,1142−1,4856|;|0,5657−0,7071|}
+ 
+
+= 
+max{|0,5657|;|0,6396|;|0,3714|;|0,1414|}
+
+max{|0,5657|;|0,6396|;|0,3714|;|0,1414|}
+ = 
+
+0,6396
+
+0,6396
+  = 1 
+
+D13 = 
+max{|1,2792−1,9188|}
+
+max{|2,2627−1,6972|;|1,2792−1,9188|;|1,1142−0,7428|;|0,5657−0,4243|}
+ 
+
+= 
+max{|06396|}
+
+max{|0,5657|;|0,6396|;|0,3714|;|0,1414|}
+ = 
+
+0,6396
+
+0,6396
+  = 1 
+
+D21 = 
+max{|1,2792−1,9188|}
+
+max{|2,2627−1,6972|;|1,2792−1,9188|;|1,1142−0,7428|;|0,5657−0,4243|}
+ 
+
+= 
+max{|06396|}
+
+max{|0,5657|;|0,6396|;|0,3714|;|0,1414|}
+ = 
+
+0,6396
+
+0,6396
+  = 1 
+
+D23 = 
+max{0}
+
+max{|2,8284−1,6972|;|1,9188−1,9188|;|1,4856−0,7428|;|0,7071−0,4243|}
+ 
+
+= 
+max{0}
+
+max{|1,1312|;|0|;|0,7428|;|0,2828|}
+ = 
+
+0
+
+1,1312
+ = 0 
+
+D31 = 
+max{|1,6972−2,2627|;|0,7428−1,1142|;|0,4243−0,5657|}
+
+max{|1,6972−2,2627|;|1,9188−1,2792|;|0,7428−1,1142|;|0,4243−0,5657|}
+ 
+
+= 
+max{|0,5655|;|0,3714|;|0,1414|}
+
+max{|0,5657|;|0,6396|;|0,3714|;|0,1414|}
+ = 
+
+0,5655
+
+0,6396
+ = 0,8843 
+
+D32 = 
+max{|1,6972−2,2627|;|0,4243−0,7071|}
+
+max{|1,6972−2,8284|;|1,9188−1,9188|;|0,7428−1,4856|;|0,4243−0,7071|}
+ 
+
+= 
+max{|1,1312|;|0,2828|}
+
+max{|1,1312|;|0|;|0,7428|;|0,2828|}
+ = 
+
+1,1312
+
+1,1312
+ = 1 
+
+Maka matriks discordance adalah : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+=
+
+18843,0
+
+00
+
+11
+
+D  
+
+
+
+19 
+
+ 
+
+ 
+ 
+
+  Matriks D merupakan matriks discordance. Matriks concordance dan 
+
+discordance diketahui, maka selanjutnya dilakukan perhitungan untuk mencari 
+
+nilai dari matriks F. 
+
+  Nilai-nilai dari matriks dominan concordance atau matriks F diperoleh dari 
+
+persamaan dengan membandingkan setiap nilai elemen matriks concordance 
+
+dengan nilai threshold. Setelah itu tiap elemen pada matriks C dibandingkan dengan 
+
+nilai threshold dengan ketentuan Ckl  ≥ nilai threshold, sedangkan untuk matriks 
+
+dominan discordance, 
+
+c = 
+0+7+10+ 10+3+3
+
+3 (3−1)
+ = 
+
+33
+
+6
+ = 6 
+
+maka diperoleh matriks concordance dominan yaitu matriks F sebagai berikut :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+=
+
+00
+
+11
+
+10
+
+F  
+
+Nilai-nilai dari matriks dominan discordance atau matriks G didapatkan dengan 
+
+membandingkan setiap nilai elemen matriks discordance dengan nilai threshold dari 
+
+matriks discordance. 
+
+d = 
+1+1+0+0+0 + 0,8843+1
+
+3 (3−1)
+ = 
+
+3,8843
+
+6
+ = 0,6474 
+
+Maka matriks discordance dominan yaitu matriks G sebagai berikut : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+=
+
+00
+
+00
+
+10
+
+G  
+
+Matriks E merupakan matriks terakhir yang menyarankan bahwa A1 > A3 nilai e13 
+
+= 1 berarti bahwa A1 lebih dipilih dibandingkan dengan A3. 
+
+2.9 Entity Relationship Diagram (ERD) 
+
+2.9.1 Pengertian ERD 
+
+  Menurut Kristanto (2004), ERD merupakan suatu model untuk menjelaskan 
+
+hubungan antar data dan entitas dalam basis data berdasarkan objek-objek dasar 
+
+data yang mempunyai hubungan antar relasi. ERD untuk memodelkan struktur data 
+
+dan hubungan antar data, untuk menggambarkannya digunakan beberapa notasi dan 
+
+simbol. ERD merupakan diagram yang menggunakan entitas dan atribut. Entitas 
+
+adalah objek yang mempunyai eksistensi dan terdefinisi dengan baik. Himpunan 
+
+
+
+20 
+
+ 
+
+ 
+ 
+
+entitas yang sejenis disebut entity set. Untuk model dari ERD digambarkan dengan 
+
+simbol 4 persegi panjang. Sedangkan relationship set yang merupakan hubungan 
+
+yang terjadi antara entity set digambarkan dengan simbol layang-layang. 
+
+2.9.2 Notasi ERD 
+
+  Pada umumnya banyak sekali model yang digunakan dalam ERD (Entity 
+
+Relationship Diagram). Berikut ini adalah notasi dan simbol tersebut seperti yang 
+
+tertera di Tabel 2.7 (Sartim, 2014) berikut: 
+
+Tabel 2.7 Notasi ERD 
+
+Simbol Keterangan 
+
+ 
+
+ 
+
+Entitas 
+
+ Entitas lemah 
+
+ Relationship 
+
+ Identifying Relationship 
+
+ Atribut 
+
+ Atribut kunci 
+
+ Atribut Multivalue 
+
+ 
+
+2.10   Pengujian Sistem 
+
+2.10.1 Pengujian Black Box 
+
+       Menurut Pressman (2002:551) pengujian Black Box berfokus pada persyaratan 
+
+fungsional perangkat lunak. Pengujian black box berusaha untuk menemukan kesalahan 
+
+dalam beberapa kategori, diantaranya fungsi-fungsi yang salah atau hilang, kesalahan 
+
+interface, kesalahan dalam struktur data atau akses database eksternal, kesalahan 
+
+performa dan kesalahan inisialisasi dan terminasi. 
+
+
+
+21 
+
+ 
+
+ 
+ 
+
+      Menurut Sukamto (2013), metode pengujian black box merupakan pengujian 
+
+yang dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari 
+
+program, pengujian dilakukan untuk memeriksa apakah program dapat berjalan dengan 
+
+benar. 
+
+Menurut Sukamto (2013) beberapa teknik pengujian secara Black Box antara 
+
+lain sebagai berikut: 
+
+a. Requirement Testing adalah spesifikasi kebutuhan yang terasosiasi dengan 
+
+perangkat lunak (input, output, fungsi, performansi) diidentifikasi pada tahap 
+
+spesifikasi kebutuhan dan desain. Requirement testing melibatkan pembuatan 
+
+kasus uji untuk setiap spesifikasi kebutuhan yang terkait dengan program 
+
+(Sukamto, 2013). 
+
+b. Performance Testing adalah mengevaluasi kemampuan program untuk 
+
+beroperasi dengan benar dipandang dari sisi acuan kebutuhan misalnya: aliran 
+
+data, ukuran pemakaian memori, kecepatan eksekusi dan lain-lain. Untuk 
+
+mencari tahu beban kerja atau kondisi konfigurasi program dan dapat digunakan 
+
+untuk menguji batasan lingkungan program (Sukamto, 2013). 
+
+c. Scenario Testing adalah pengujian yang realistis, kredibel dan memotivasi 
+
+stakeholder, tantangan untuk program dan mempermudah pengujian untuk 
+
+melakukan evaluasi. Pengujian ini menyediakan koombinasi variable-variable 
+
+dan fungsi yang sangat berarti daripada kombinasi buatan yang didapatkan 
+
+dengan pengujian domain atau desain pengujian kombinasi. 
+
+2.10.2 Pengujian Akurasi 
+
+    Akurasi artinya informasi harus mencerminkan keadaan yang sebenarnya. 
+
+Pengujian akurasi dilakukan oleh dua orang maupun sumber atau lebih  yang 
+
+berbeda, apabila pengujian tersebut menghasilkan hasil yang sama maka data 
+
+tersebut dianggap akurat (Susanto, 2008). Melalui cara tersebut, analisis akan 
+
+dilakukan untuk memberikan kesimpulan dari hasil pengujian akurasi. Pengujian 
+
+akurasi digunakan untuk menentukan besar nilai kebenaran suatu data yang diuji 
+
+dengan data yang sebenarnya dengan membagi hasil data yang sesuai dengan 
+
+jumlah data total yang diuji dengan persamaan berikut, 
+
+Nilai Akurasi = 
+jumlah data yang benar
+
+jumlah data total
+ 𝑥 100%              (2.6) 
+
+
+
+ 
+
+ 
+
+22 
+
+ 
+
+BAB III 
+
+METODOLOGI PENELITIAN DAN PERANCANGAN SISTEM 
+
+3.1  Metodologi Penelitian 
+
+3.1.1 Bahan Penelitian 
+
+  Bahan penelitian adalah nilai mahasiswa angkatan 2014 dari Program Studi  
+
+Informatika Universitas Tanjungpura. Data mata kuliah merujuk ke Kurikulum 
+
+Program Studi Informatika Universitas Tanjungpura Kurikulum KKNI Tahun 
+
+2016. 
+
+3.1.2   Alat yang Digunakan 
+
+3.1.2.1 Alat Penelitian 
+
+Alat penelitian yang digunakan dalam penelitian ini adalah: 
+
+1. Data Flow Diagram (DFD), untuk menggambarkan darimana asal data dan 
+
+kemana tujuan data yang keluar dari sistem, dimana data disimpan, proses apa 
+
+yang menghasilkan data tersebut dan interaksi antara data yang tersimpan dan 
+
+proses yang dikenakan pada data tersebut. 
+
+2. Entity Relationship Diagram (ERD), untuk menjelaskan hubungan antar data 
+
+dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan 
+
+antar relasi. 
+
+3. Flowchart Diagram, untuk menggambarkan alur sistem yang berjalan dari tahap 
+
+awal hingga mendapatkan hasil akhir. 
+
+3.1.2.2 Perangkat Lunak 
+
+Perangkat lunak yang digunakan dalam penelitian ini adalah: 
+
+1. Sistem Operasi Windows 10, Sistem operasi Windows berfungsi untuk 
+
+mengendalikan kerja perangkat keras seperti CPU, harddisk, monitor, dan lain-
+
+lain dan mengatur fungsi program software agar terhubung dengan  perangkat 
+
+keras tersebut. 
+
+2. XAMPP Versi 7.0.27, XAMPP adalah sebuah program yang berfungsi  sebagai 
+
+local server dalam membangun sebuah aplikasi khususnya yang  berbasis web. 
+
+XAMPP terdiri dari beberapa program seperti Apache server, dan MySQL 
+
+server untuk mendukung penulisan program dengan bahasa pemrograman PHP. 
+
+
+
+23 
+ 
+
+ 
+
+ 
+
+3. MySQL 5.0.12, MySQL adalah sebuah Database Management System (DBMS) 
+
+yang digunakan sebagai basis data aplikasi. 
+
+4. Web Browser Mozilla Firefox, Web Browser Mozilla Firefox pada penelitian ini 
+
+digunakan untuk mengakses aplikasi. 
+
+5. Sublime Text Editor, Sublime Text Editor digunakan untuk menuliskan kode 
+
+program dalam proses pembangunan aplikasi. 
+
+6. Microsoft Excel 2016, Microsoft Excel 2016 digunakan untuk melakukan 
+
+perhitungan metode ELECTRE sebelum ditulis ke bahasa pemrograman. 
+
+7.  DrawIO, DrawIO adalah aplikasi berbasis web yang membantu dalam membuat 
+
+diagram perancangan seperti Data Flow Diagram (DFD), Flowchart Diagram 
+
+dan Entity Relationship Diagram (ERD). 
+
+3.1.2.3 Perangkat Keras 
+
+     Perangkat keras yang digunakan dalam penelitian ini adalah: PC/Laptop 
+
+ASUS A456U dengan spesifikasi prosesor Intel Core i5-7200U, RAM 4 GB, HDD 
+
+1 TB, VGA NVIDIA Geforce 930 MX untuk pengembangan sistem. 
+
+3.1.3 Metode Penelitian 
+
+  Langkah-langkah penelitian yang dilakukan seperti terlihat pada Gambar 3.1 
+
+dapat dijelaskan sebagai berikut 
+
+
+
+24 
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.1 Diagram Alir Metodologi Penelitan 
+
+
+
+25 
+ 
+
+ 
+
+ 
+
+ Beberapa tahapan dalam penelitian yang memenuhi tugas akhir ini adalah 
+
+sebagai berikut : 
+
+1. Identifikasi Masalah 
+
+Mengidentifikasi masalah adalah tahap awal yang dilakukan untuk menentukan 
+
+apa saja latar belakang, rumusan masalah, tujuan, dan menentukan batasan yang 
+
+akan diterapkan pada sistem. 
+
+2. Pengumpulan Data 
+
+Pengumpulan data dilakukan untuk memperoleh informasi mengenai gambaran 
+
+sistem yang akan dibangun. Pengumpulan data dilakukan melalui wawancara 
+
+dan observasi terhadap Program Studi Informatika Universitas Tanjungpura. 
+
+3. Analisis Kebutuhan Aplikasi 
+
+Analisis kebutuhan dilakukan untuk menentukan batasan yang akan diberikan 
+
+pada aplikasi serta menentukan kebutuhan fungsional yang akan diberikan pada 
+
+aplikasi. 
+
+4. Perancangan Aplikasi 
+
+Perancangan aplikasi digunakan untuk menggambarkan sistem yang akan 
+
+dibangun. Perancangan sistem dimulai dari pembangunan basis data 
+
+menggunakan ERD (Entity Relationship Diagram), perancangan diagram arus 
+
+data, antarmuka sistem, perancangan sistematis metode yang akan diterapkan 
+
+pada aplikasi. 
+
+5. Pembangunan Aplikasi 
+
+Pembangunan aplikasi adalah proses pembuatan aplikasi menggunakan bahasa 
+
+pemrograman berdasarkan perancangan yang sudah dilakukan.  
+
+6. Pengujian Aplikasi 
+
+Tahap ini menggunakan dua cara, yaitu black box, dan pengisian kuesioner . Jika 
+
+pengujian belum memenuhi kriteria yang ditentukan, maka kembali ke 
+
+perancangan aplikasi agar memenuhi kriteria yang diinginkan. 
+
+7. Hasil Analisis Pengujian 
+
+Analisis dilakukan untuk mengidentifikasi karakteristik aplikasi yang dibuat 
+
+untuk menentukan jika terjadi sesuatu yang tidak konsisten pada aplikasi. 
+
+ 
+
+ 
+
+
+
+26 
+ 
+
+ 
+
+ 
+
+8. Penarikan Kesimpulan 
+
+Penarikan kesimpulan dirumuskan dari hasil analisis pengujian yang telah 
+
+dilakukan. Kesimpulan akan menghasilkan pernyataan apakah sistem yang 
+
+dirancang mampu memberikan solusi atas permasalahan yang ada atau tidak. 
+
+3.1.4    Variabel dan Data 
+
+3.1.4.1 Data Primer 
+
+     Data primer adalah data yang pertama kali diperoleh secara langsung dari 
+
+objek penelitian. Pada penelitian ini, yang menjadi data primer adalah nilai 
+
+mahasiswa dan data mata kuliah yang telah dikelompokkan berdasarkan kelompok 
+
+keahlian di Program Studi Informatika Universitas Tanjungpura. 
+
+3.1.4.2 Data Sekunder 
+
+     Data sekunder adalah data yang tidak diperoleh langsung dari objek 
+
+penelitian, yaitu merupakan hasil studi pustaka dan referensi mengenai teori-teori 
+
+dan ilmu pengetahuan yang mendukung sebuah penelitian. Referensi yang 
+
+digunakan dalam penelitian ini adalah buku, jurnal, serta referensi dari internet. 
+
+3.1.5  Analisis Sistem 
+
+3.1.5.1 Sistem yang Berjalan Sebelumnya 
+
+   Sebelumnya mahasiswa Program Studi Informatika Universitas 
+
+Tanjungpura diwajibkan mengajukan judul penelitian tanpa ada faktor pendukung 
+
+untuk pengambilan konsentrasi ke kelompok keahlian yang dituju. Faktor-faktor 
+
+yang dapat menentukan bidang keahlian mahasiswa adalah dengan menggunakan 
+
+nilai akademik, minat terhadap bidang keahlian yang ditawarkan, dan kemampuan 
+
+(skill) yang berhubungan dengan bidang keahlian di Program Studi Informatika 
+
+UNTAN. Sebelumnya tidak ada teknologi pendukung yang digunakan untuk 
+
+memberikan rekomendasi bidang keahlian kepada mahasiswa Program Studi 
+
+Informatika UNTAN. 
+
+3.2  Perancangan Sistem 
+
+Perancangan sistem dibagi menjadi 5 tahapan diantaranya, 
+
+1. Perancangan Diagram Alir Sistem. Perancangan Diagram Alir Sistem digunakan 
+
+untuk menggambarkan tahap kerja sistem secara umum. Diagram alir sistem 
+
+
+
+27 
+ 
+
+ 
+
+ 
+
+yang digunakan ada dua, yaitu diagram alir sistem untuk admin dan untuk 
+
+mahasiswa. 
+
+2. Perancangan Arsitektur Sistem. Perancangan Arsitektur Sistem digunakan untuk 
+
+menggambarkan  kerja sistem beserta atribut apa saja yang terlibat di dalamnya. 
+
+3. Perancangan Diagram Arus Data. Perancangan Diagram Arus Data digunakan 
+
+untuk menggambarkan proses apa saja yang terjadi pada sistem dan ke arah 
+
+mana saja data mengalir. 
+
+4. Perancangan Basis Data. Pada tahapan ini terdiri atas perancangan Entity 
+
+Relationship Diagram (ERD), spesifikasi tabel, dan relasi antar tabel. 
+
+5. Perancangan Antarmuka. Perancangan antarmuka menggambarkan bagaimana 
+
+layout (tata letak) komponen-komponen yang akan dibuat di penulisan kode 
+
+program. 
+
+3.2.1 Perancangan Diagram Alir Sistem 
+
+  Perancangan diagram alir sistem digambarkan pada diagram flowchart pada 
+
+Gambar 3.2 sebagai berikut, 
+
+ 
+
+Gambar 3.2 Diagram Alir Sistem 
+
+
+
+28 
+ 
+
+ 
+
+ 
+
+Berikut ini penjelasan mengenai diagram alir diatas: 
+
+a. Mahasiswa pertama kali memasukkan NIM untuk mulai mengakses sistem. 
+
+b. Memasukkan nilai atribut keputusan, setelah mahasiswa memasukkan NIM 
+
+diarahkan untuk memasukkan nilai atribut keputusan pada kolom yang 
+
+disediakan untuk mendapatkan hasil rekomendasi bidang keahlian. 
+
+c. Kalkulasi nilai masukan, adalah proses untuk menghasilkan sebuah 
+
+rekomendasi setelah nilai atribut diinputkan, nilai yang diinputkan akan 
+
+dihitung. 
+
+d. Hasil Rekomendasi, keluaran ini akan menghasilkan sebuah rekomendasi 
+
+bidang keahlian untuk mahasiswa. 
+
+3.2.2 Perancangan Arsitektur Sistem 
+
+  Arsitektur sistem pendukung keputusan penentu bidang keahlian mahasiswa 
+
+Program Studi Informatika Universitas Tanjungpura digambarkan pada Gambar 3.4 
+
+sebagai berikut, 
+
+ 
+
+        Gambar 3.3 Arsitektur Sistem 
+
+  Berdasarkan Gambar 3.3 proses yang terjadi adalah sebelum mendapatkan 
+
+rekomendasi, mahasiswa diharuskan menginputkan NIM terlebih dahulu, 
+
+kemudian mahasiswa akan masuk ke halaman dashboard. Kemudian mahasiswa 
+
+diharuskan menginputkan nilai mata kuliah yang tersedia, setelah nilai mata kuliah 
+
+dimasukkan dan tersimpan, mahasiswa akan diarahkan ke halaman penginputan 
+
+nilai kriteria untuk setiap kelompok keahlian. Setelah semua isian terpenuhi, 
+
+mahasiswa akan mendapatkan hasil rekomendasi dalam perankingan dari nilai yang 
+
+terbesar hingga terkecil dimana kelompok keahlian yang memiliki ranking tertinggi 
+
+adalah bidang keahlian yang direkomendasikan. 
+
+
+
+29 
+ 
+
+ 
+
+ 
+
+3.2.3  Perancangan Diagram Arus Data 
+
+3.2.3.1Perancangan Diagram Konteks 
+
+      Diagram konteks adalah diagram yang menggambarkan alir data sistem 
+
+secara keseluruhan, alir data menjelaskan dari mana data berasal hingga diproses 
+
+dan menghasilkan keluaran berupa informasi kepada entitas yang ada pada 
+
+sistem. Diagram konteks sistem dapat dilihat pada Gambar 3.4 sebagai berikut, 
+
+ 
+
+       Gambar 3.4 Diagram Konteks Sistem 
+
+    Proses yang pertama kali dilakukan oleh mahasiswa adalah memasukkan 
+
+NIM untuk masuk ke sistem. Setelah memasukkan NIM, mahasiswa disediakan 
+
+beberapa kriteria yang telah dibobotkan beserta isian untuk mengisi nilai 
+
+kepentingan. Setelah itu mahasiswa disediakan sebuah tombol untuk memulai 
+
+proses perhitungan pada aplikasi untuk mendapatkan hasil rekomendasi bidang 
+
+keahlian. 
+
+3.2.3.2 Diagram Overview Sistem 
+
+     Diagram overview sistem menggambarkan proses-proses utama yang 
+
+terjadi pada sistem. Adapun diagram overview sistem digambarkan seperti pada 
+
+gambar 3.5 sebagai berikut, 
+
+
+
+30 
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.5 Diagram Overview Sistem 
+
+  Berdasarkan Gambar 3.5 dapat dijelaskan proses yang terjadi pada diagram 
+
+overview sistem pendukung keputusan penentu bidang keahlian mahasiswa 
+
+Program Studi Informatika UNTAN sebagai berikut, 
+
+1. Proses 1.0 Memasukkan NIM, proses ini adalah proses untuk memulai masuk ke 
+
+sistem. Memasukkan NIM digunakan untuk memfilter data yang dimasukkan 
+
+user berdasarkan NIM mahasiswa. 
+
+2. Proses 2.0 Memasukkan Nilai Mata Kuliah, pada proses ini mahasiswa 
+
+menginputkan nilai mata kuliah dengan tujuan untuk memanggil data kriteria 
+
+yaitu nilai rata-rata mata kuliah per kelompok keahlian. 
+
+3. Proses 3.0 Menghitung Nilai Rata-rata Mata Kuliah, pada proses ini nilai rata-
+
+rata mata kuliah yang dimasukkan user dirata-ratakan dari hasil pengkategorian 
+
+mata kuliah berdasarkan kelompok keahlian. 
+
+4. Proses 4.0 Memasukkan Nilai Kriteria, pada proses ini mahasiswa 
+
+menginputkan nilai kriteria berdasarkan kelompok keahlian. Nilai yang 
+
+dimasukkan adalah berdasarkan kriteria minat, dan kemampuan yang dimiliki 
+
+mahasiswa. 
+
+
+
+31 
+ 
+
+ 
+
+ 
+
+5. Proses 5.0 Menghasilkan Rekomendasi, pada proses ini setelah nilai kriteria 
+
+dimasukkan, mahasiswa akan mendapatkan hasil rekomendasi bidang keahlian 
+
+yang telah diranking dari hasil perhitungan metode ELECTRE. 
+
+3.2.3.3 Diagram Rinci Sistem 
+
+     Diagram rinci menjelaskan lebih lanjut mengenai proses dari diagram 
+
+overview, yang memperlihatkan arus data masuk dan arus data keluar. Berikut ini 
+
+adalah diagram rinci dari Proses 4.0 yang ditampilkan pada Gambar 3.6 sebagai 
+
+berikut. 
+
+ 
+
+Gambar 3.6 Diagram Rinci Proses 4.0 
+
+ Proses 4.0 terdiri dari 5 (lima) sub proses, 
+
+a. Proses 4.1 Memanggil Nilai Rata-rata Mata Kuliah. Setelah mahasiswa 
+
+memasukkan nilai mata kuliah pada Proses 2.0, nilai mata kuliah dipanggil 
+
+ke form input kriteria pada masing-masing kelompok keahlian. 
+
+b. Proses 4.2 Memasukkan Nilai Kriteria KK Information System and Data 
+
+Spatial. Pada proses ini, mahasiswa menginputkan nilai kriteria berupa minat, 
+
+dan skill.  
+
+
+
+32 
+ 
+
+ 
+
+ 
+
+c. Proses 4.3 Memasukkan Nilai Kriteria KK Mobile and Software Computing. 
+
+Pada proses ini, mahasiswa menginputkan nilai kriteria berupa minat, dan 
+
+skill. 
+
+d. Proses 4.4 Memasukkan Nilai Kriteria KK Network and Security. Pada proses 
+
+ini, mahasiswa menginputkan nilai kriteria berupa minat, dan skill. 
+
+e. Proses 4.5 Memasukkan Nilai Kriteria KK Computation and Artificial 
+
+Intelligent. Pada proses ini, mahasiswa menginputkan nilai kriteria berupa 
+
+minat, dan skill. 
+
+3.2.4  Perancangan Basis Data 
+
+3.2.4.1 Perancangan ERD 
+
+     Entity Relationship Diagram (ERD) merupakan suatu model untuk 
+
+menjelaskan hubungan antar data dan entitas dalam basis data berdasarkan objek-
+
+objek dasar data yang mempunyai hubungan antar relasi. Entity Relationship 
+
+Diagram Sistem Pendukung Keputusan Penentu Bidang Keahlian Mahasiswa 
+
+Program Studi Informatika Universitas Tanjungpura dapat ditampilkan pada 
+
+Gambar 3.7 sebagai berikut. 
+
+ 
+
+       Gambar 3.7 Entity Relationship Diagram 
+
+Keterangan : * adalah primary key. 
+
+  Pada diagram diatas, terdapat beberapa entitas yang terlibat di diagram 
+
+tersebut yaitu mahasiswa, kelompok keahlian, dan nilai. Masing-masing entitas 
+
+memiliki atribut yang mewakili nama field pada database. Nilai memiliki hubungan 
+
+
+
+33 
+ 
+
+ 
+
+ 
+
+one-to-many ke semua entitas, yang artinya pada field nilai dibutuhkan kunci tamu 
+
+(foreign key) dari masing-masing entitas agar memiliki relasi pada database. 
+
+3.2.4.2 Spesifikasi Tabel Basis Data 
+
+     Berikut adalah spesifikasi dari tabel-tabel yang digunakan dalam sistem 
+
+pendukung keputusan penentu bidang keahlian mahasiswa Program Studi 
+
+Informatika Universitas Tanjungpura : 
+
+Tabel 3.1 Tabel Spesifikasi Kriteria 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+Id_kriteria int(5) Tidak  Auto Increments, 
+
+Primary Key 
+
+namakriteria varchar(50) Tidak  
+
+bobot double Tidak  
+
+ 
+
+Tabel 3.2 Tabel Spesifikasi Alternatif (Kelompok Keahlian) 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_alternatif int(10) Tidak Auto Increments, 
+
+Primary Key 
+
+nama_alternatif varchar(191) Tidak   
+
+ 
+
+Tabel 3.3 Tabel Spesifikasi Nilai Atribut Keputusan 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_nilai int(5) Tidak Auto Increments, 
+
+Primary Key 
+
+nim int(11) Tidak Foreign Key 
+
+id_alternatif int(10) Tidak Foreign Key 
+
+id_kriteria varchar(191) Tidak Foreign Key 
+
+Nilai varchar(191) Tidak   
+
+ 
+
+Tabel 3.4 Tabel Spesifikasi Nilai Mata Kuliah 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_nilaimk int(5) Tidak Auto Increments, 
+
+Primary Key 
+
+id_mhs int(11) Tidak Foreign Key 
+
+Namakk varchar(50) Tidak  
+
+Namamk varchar(50) Tidak  
+
+Nilai decimal(10,2) Tidak   
+
+ 
+
+
+
+34 
+ 
+
+ 
+
+ 
+
+Tabel 3.5 Tabel Spesifikasi Mata Kuliah 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_mk int(5) Tidak  Auto Increment, 
+
+Primary Key 
+
+Namakk varchar(50) Tidak  
+
+Namamk varchar(50) Tidak  
+
+ 
+
+3.2.4.3 Relasi Antar Tabel 
+
+     Relasi antar tabel merupakan gambaran hubungan antar tabel yang 
+
+dipergunakan dalam perancangan sistem. Relasi antar tabel dapat dilihat pada 
+
+gambar 3.8. 
+
+ 
+
+        Gambar 3.8 Relasi Antar Tabel 
+
+ 
+
+3.2.5  Perancangan Antarmuka 
+
+3.2.5.1Perancangan Struktur Antarmuka Sistem 
+
+    Pada perancangan struktur antarmuka sistem, mahasiswa memasukkan NIM 
+
+untuk masuk ke halaman dashboard dimana akan ditampilkan petunjuk 
+
+penggunaan aplikasi, kemudian halaman selanjutnya adalah halaman untuk 
+
+menginputkan nilai mata kuliah perkategori kelompok keahlian, nilai keputusan 
+
+berdasarkan kriteria dan alternatif yang tertera. Setelah nilai diinputkan, maka akan 
+
+dilanjutkan dengan hasil rekomendasi dimana akan ditampilkan hasil rekomendasi 
+
+
+
+35 
+ 
+
+ 
+
+ 
+
+kelompok keahlian sesuai dengan proses perhitungan dengan metode ELECTRE. 
+
+Berikut adalah struktur perancangan antarmuka sistem yang akan dibangun dapat 
+
+dilihat pada Gambar 3.9,  
+
+ 
+
+Gambar 3.9 Struktur Perancangan Antarmuka Sistem 
+
+3.2.5.2 Perancangan Halaman Awal 
+
+     Pada halaman login terdapat dua form input yang harus diisi oleh admin dan 
+
+mahasiswa. Admin diminta untuk mengisi username dan password, sedangkan 
+
+mahasiswa diminta untuk mengisi NIM dan password. Jika terjadi kesalahan dalam 
+
+pengisian form, maka akan ditampilkan pemberitahuan diatas form. Berikut 
+
+rancangan antarmuka login pada Gambar 3.10. 
+
+ 
+
+Gambar 3.10 Perancangan Antarmuka Halaman Awal 
+
+3.2.5.3 Perancangan Halaman Dashboard 
+
+     Pada tampilan halaman dashboard, disajikan informasi berupa definisi 
+
+singkat sistem yang digambarkan pada Gambar 3.11 sebagai berikut, 
+
+
+
+36 
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.11 Perancangan Antarmuka Dashboard 
+
+3.2.5.4 Perancangan Halaman Input Nilai Mata Kuliah 
+
+     Halaman ini adalah halaman untuk user memasukkan nilai mata kuliah. 
+
+Berikut gambar perancangan halaman input data mata kuliah yang ditampilkan di 
+
+Gambar 3.12. 
+
+ 
+
+Gambar 3.12 Perancangan Antarmuka Halaman Input Data Mata Kuliah 
+
+
+
+37 
+ 
+
+ 
+
+ 
+
+3.2.5.5 Perancangan Halaman Input Data Kriteria 
+
+     Halaman ini digunakan untuk menginputkan data kriteria dari keempat 
+
+kelompok keahlian. Berikut gambar perancangan halaman data kriteria yang 
+
+ditampilkan pada gambar berikut: 
+
+ 
+
+Gambar 3.13 Perancangan Antarmuka Halaman Input Data Kriteria 
+
+3.2.5.6 Perancangan Halaman Rekomendasi 
+
+     Pada halaman ini, mahasiswa akan mendapatkan rekomendasi bidang 
+
+keahlian berdasarkan nilai keputusan yang diinputkan. Berikut gambar 
+
+perancangan halaman rekomendasi yang ditampilkan di Gambar 3.14. 
+
+
+
+38 
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.14 Perancangan Antarmuka Halaman Rekomendasi 
+
+3.2.6    Perancangan Perhitungan Metode ELECTRE 
+
+3.2.6.1 Diagram Alir Metode ELECTRE 
+
+     Adapun diagram alir (flowchart diagram) metode ELECTRE digambarkan 
+
+pada Gambar 3.15 sebagai berikut, 
+
+
+
+39 
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.15 Diagram Alir Perhitungan Metode ELECTRE 
+
+  Gambar diatas menjelaskan bagaimana proses perhitungan terjadi pada 
+
+metode ELECTRE. Setelah semua nilai atribut keputusan terpenuhi, nilai akan 
+
+ditampilkan dalam bentuk matriks kemudian dinormalisasi hingga mendapatkan 
+
+Matriks Ternormalisasi (R). Matriks Ternormalisasi (R) kemudian dikalikan 
+
+dengan bobot sesuai dengan kriterianya sehingga menghasilkan Matriks 
+
+
+
+40 
+ 
+
+ 
+
+ 
+
+Normalisasi Terbobot (V). Tahap selanjutnya adalah membandingkan alternatif 
+
+satu dengan yang lainnya secara berpasangan. Jika alternatif i lebih besar atau sama 
+
+dengan alternatif j maka masuk ke himpunan concordance, sebaliknya maka akan 
+
+masuk ke himpunan discordance. Setelah masing-masing himpunan terpenuhi, 
+
+maka mulai dibentuk Matriks Concordance dan Matriks Discordance. Setelah 
+
+kedua matriks dibentuk, kedua matriks tersebut dikonversikan ke matriks agregat 
+
+concordance (F) dan matriks agregat discordance (G) yang didapatkan melalui nilai 
+
+threshold masing-masing matriks. Kedua matriks agregat kemudian dikali dan 
+
+menghasilkan matriks akhir yang dimana jika baris (alternatif) yang memiliki angka 
+
+1 paling banyak maka alternatif tersebut yang direkomendasikan. 
+
+3.2.6.2 Alternatif yang dibutuhkan 
+
+     Alternatif yang dibutuhkan dalam menentukan bidang keahlian mahasiswa 
+
+Program Studi Informatika Universitas Tanjungpura adalah kelompok keahlian 
+
+yang tersedia di Program Studi Informatika diantaranya, 
+
+- A1 = Information System and Data Spatial. 
+
+- A2 = Mobile and Software Computing. 
+
+- A3 = Network and Security. 
+
+- A4 = Computation and Artificial Intelligent. 
+
+3.2.6.3 Kriteria yang dibutuhkan 
+
+     Dalam penentuan bidang keahlian untuk mahasiswa Program Studi 
+
+Informatika UNTAN dibutuhkan beberapa kriteria. Kriteria tersebut diantaranya: 
+
+rata-rata nilai kelompok keahlian (C1), minat mahasiswa terhadap bidang keahlian 
+
+(C2), dan kemampuan (skill) mahasiswa (C3). 
+
+Berikut ini penjelasan dari setiap kriteria : 
+
+1. Rata-rata Nilai Kelompok Keahlian 
+
+Penggunaan nilai mahasiswa dalam menentukan bidang keahlian mahasiswa di 
+
+sistem ini adalah dengan mengkategorikan mata kuliah berdasarkan kelompok 
+
+keahlian di Program Studi Informatika UNTAN. Pengkategorian ini dijelaskan 
+
+pada Tabel 3.6 sebagai berikut, 
+
+ 
+
+ 
+
+ 
+
+
+
+41 
+ 
+
+ 
+
+ 
+
+Tabel 3.6 Pengelompokkan Mata Kuliah Berdasarkan Kelompok Keahlian  
+
+ 
+
+ 
+
+ 
+
+ 
+
+Information System and Data 
+
+Spatial 
+
+Logika Matematika 
+
+Pengantar Teknik Informatika 
+
+Dasar Rekayasa Perangkat Lunak 
+
+Struktur Data dan Algoritma 
+
+Perancangan Basis Data 
+
+Analisis dan Perancangan Sistem 
+
+Sistem Informasi 
+
+Manajemen Proyek Perangkat Lunak 
+
+Pemrograman Web 
+
+ 
+
+ 
+
+ 
+
+Mobile Computing and 
+
+Software Engineering 
+
+Logika Informatika 
+
+Dasar Pemrograman 
+
+Dasar Rekayasa Perangkat Lunak 
+
+Struktur Data dan Algoritma 
+
+Strategi Algoritma 
+
+Pemrograman Berorientasi Objek 
+
+Manajemen Perangkat Lunak 
+
+ 
+
+ 
+
+ 
+
+Network and Security 
+
+Dasar Pemrograman 
+
+Jaringan Komputer 
+
+Sistem Operasi 
+
+Pemrograman Berorientasi Objek 
+
+Sistem Informasi 
+
+Pemrograman Web 
+
+Pemrograman Jaringan 
+
+Computation and Artificial 
+
+Intelligent 
+
+Matematika Dasar 1 
+
+Logika Matematika 
+
+Dasar Pemrograman 
+
+Probabilitas dan Statistik 
+
+Matematika Dasar 2 
+
+Struktur Data dan Algoritma 
+
+Teori Graf 
+
+Matematika Diskrit 
+
+Metode Numerik 
+
+Strategi Algoritma 
+
+Otomata 
+
+Sistem Pendukung Keputusan 
+
+Kecerdasan Buatan 
+
+ 
+
+Untuk mendapatkan nilai mata kuliah yang akan menjadi nilai antara kriteria 
+
+nilai akademik mahasiswa dan alternatif adalah dengan merata-ratakan nilai 
+
+mata kuliah berdasarkan kelompok keahliannya dengan persamaan sebagai 
+
+berikut, 
+
+XAn.C1 = 
+∑ nilai mata kuliah per kelompok keahlian
+
+∑mata kuliah per kelompok keahlian
+        (3.1) 
+
+
+
+42 
+ 
+
+ 
+
+ 
+
+Dimana, 
+
+ X  = matriks rating kecocokan 
+
+ C1  = kriteria nilai akademik mahasiswa 
+
+ An = Alternatif  
+
+Adapun bobot penilaian yang digunakan untuk nilai mata kuliah adalah sebagai 
+
+berikut,  
+
+Tabel 3.7 Bobot Nilai Mata Kuliah 
+
+Bobot Nilai Keterangan 
+
+5 A Sangat Baik 
+
+4 B Baik 
+
+3 C Cukup 
+
+2 D Kurang 
+
+1 E Sangat Kurang 
+
+ 
+
+2. Minat Mahasiswa 
+
+Penentuan skala minat mahasiswa diukur dengan menggunakan rating 
+
+kecocokan yang dijelaskan dalam Tabel 3.8 sebagai berikut, 
+
+Tabel 3.8 Tingkat Kepentingan Minat Mahasiswa 
+
+Bobot Keterangan 
+
+4 Sangat Berminat 
+
+3 Berminat 
+
+2 Kurang Berminat 
+
+1 Sangat Tidak Berminat 
+
+ 
+
+3. Kemampuan (skill) 
+
+Penentuan skala kemampuan (skill) diukur dengan menggunakan tingkat 
+
+kepentingan yang dijelaskan dalam Tabel 3.9 sebagai berikut, 
+
+Tabel 3.9 Pemetaan Kemampuan Mahasiswa 
+
+Kelompok Keahlian Jenis Kemampuan 
+
+Information System and Data 
+
+Spatial 
+
+- Pemrograman Delphi (Desktop) 
+- Pemrograman Java (Desktop) 
+- Pemrograman Android 
+- Pemrograman PHP dan HTML 
+- Perancangan UML 
+- Pemrograman ArcGIS 
+- Pemrograman QuantumGIS 
+
+ 
+
+Mobile and Software Computing - Pemrograman Android 
+- Pemrograman Java 
+
+
+
+43 
+ 
+
+ 
+
+ 
+
+- Pemrograman Delphi (Desktop) 
+- Perancangan UML 
+
+Network and Security - Mengoperasikan OS Linux 
+- Web Server 
+- Setting Jaringan 
+
+Computation and Artificial 
+
+Intelligent 
+
+- Pemrograman Java 
+- Pemrograman Python 
+- Pemrograman Curl 
+- Pemrograman PHP dan HTML 
+
+  
+
+ Nilai masukan dari kriteria kemampuan mahasiswa adalah penjumlahan 
+
+masing-masing kemampuan yang dipilih mahasiswa dengan nilai 1 (satu) yang 
+
+kemudian dibagi dengan jumlah maksimal kemampuan per kelompok keahlian. 
+
+3.2.6.4 Contoh Perhitungan Metode ELECTRE 
+
+- Menentukan matriks rating kecocokan 
+
+Nilai rating kecocokan adalah hasil masukkan yang diinput oleh user yang 
+
+dikonversi dalam bentuk matriks. 
+
+Tabel 3.10 Matriks Rating Kecocokan 
+
+ 
+
+Alternatif 
+
+Kriteria 
+
+C1 C2 C3 
+
+A1 4.33 4 0 
+
+A2 4,57 3 3 
+
+A3 4,71 1 0 
+
+A4 4,57 3 2 
+ 
+
+- Menentukan nilai matriks ternormalisasi 
+
+Rumus : 
+𝑋𝑖𝑗
+
+√∑ 𝑥𝑖𝑗2𝑚𝑖=1
+
+ , dengan i = 1,2,…,m; dan j = 1,2,…,n.    (3.2) 
+
+X1   = √4,332 + 4,572 + 4,712 + 4,572 
+
+   = 9,094107983 
+
+X2   = √42 + 32 + 12 + 32 
+
+   = 5,916079783 
+
+X3   = √32 + 42 + 22 + 32 
+
+   = 6,164414003 
+
+X4   = √02 + 32 + 02 + 22 
+
+   = 3,605551275 
+
+Hasil matriks ternormalisasi (R) : 
+
+
+
+44 
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+554700196,0507092553,0502523173,0
+
+0169030851,0517917756,0
+
+832050294,0507092553,0502527173,0
+
+0676123404,0476132459,0
+
+ 
+
+- Menentukan Matriks Normalisasi Terbobot 
+
+Rumus : vij = wj xij                  (3.3) 
+
+v11 = w1 x r11 = (0.31) (0,476132459) = 0,147601062 
+
+v12 = w2 x r12 = (0.35) (0,502527173) = 0,155782184 
+
+dan seterusnya hingga diproleh matriks V: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+45999279,1177482393,0155782184,0
+
+973328527,0059160798,0160554504,0
+
+946657054,1177482393,0155782184,0
+
+45999279,1236643191,0147601062,0
+
+ 
+
+- Menentukan himpunan concordance dan discordance 
+
+Himpunan concordance ditentukan dengan persamaan, 
+
+Ckl = { j | Vkj ≥ Vlj }                    (3.4) 
+
+Sedangkan himpunan discordance ditentukan dengan persamaan, 
+
+Dkl = { j | Vkj < Vlj }                   (3.5) 
+
+Dari kedua persamaan diatas maka himpunan corcordance dan discordance 
+
+yang diperoleh dari matriks V adalah sebagai berikut, 
+
+C12  = {1,2}       D12 = {3,4} 
+
+C13  = {2,3}       D13 = {1,4} 
+
+C14  = {1,2,3}      D14 = {4} 
+
+C21  = {3,4}       D21  = {1,2} 
+
+C23  = {2,3,4}      D23 = {1} 
+
+C24  = {2,3,4}      D23 = {1} 
+
+C31  = {1,4}       D23 = {2,3} 
+
+C32  = {1,2}       D23 = {3,4} 
+
+C34  = {1,2,4}      D23 = {3} 
+
+C41  = {3,4}       D23 = {1,2} 
+
+C42  = {1,2}       D23 = {3,4} 
+
+C43  = {2,3,4}      D23 = {1} 
+
+
+
+45 
+ 
+
+ 
+
+ 
+
+ 
+
+- Membentuk matriks concordance 
+
+Matriks concordance dibentuk dari concordance index yang berhubungan 
+
+dengan bobot melalui persamaan, 
+
+ckl = ∑ 𝑤𝑗𝑗∊𝑐𝑘𝑙                     (3.6) 
+
+maka matriks concordance yang dibentuk adalah sebagai berikut,  
+
+dari perhitungan diatas maka dapat dibentuk matriks concordance sebagai 
+
+berikut,  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+69,066,065,0
+
+31,065,0
+
+69,065,0
+
+69,035,0
+
+ 
+
+- Membentuk Matriks Discordance 
+
+Pada matriks discordance, elemen dkl dibentuk dari persamaan berikut,  
+
+dkl =  
+{|𝑚𝑎𝑥𝑣𝑘𝑙−𝑚𝑎𝑥𝑣𝑙𝑗|}∈𝑑𝑘𝑙
+
+{|𝑚𝑎𝑥𝑣𝑘𝑙−𝑚𝑎𝑥𝑣𝑙𝑗|}∀𝑗
+               (3.7) 
+
+d12 =  
+
+max{|1,999953 − 1,909157|; |2,773500981 − 1,644100589|}
+
+max {|1,999953 − 1,909157|; |2,773500981 − 1,664100589|; |1,45999279|; |1,622214 − 3,244428|}
+ 
+
+d13 =  
+
+max{|2,773500981 − 1,664100589|; |1,45999279 − 1,946657074|}
+
+max {|1,999953 − 1,909157|; |2,773500981 − 1,664100589|; |1,45999279|; |1,622214 − 3,244428|}
+ 
+
+Perhitungan dilakukan seterusnya hingga didapatkan matriks discordance 
+
+sebagai berikut, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+025304187,00313687191,0
+
+11
+
+016869458,0209124794,0
+
+072984377,01
+
+ 
+
+- Menghitung Nilai Threshold 
+
+Nilai threshold concordance didapatkan dari persamaan berikut, 
+
+c = 
+∑ 𝑐𝑘𝑙𝑚𝑙=1
+
+𝑚(𝑚−1)
+                       (3.8) 
+
+dan nilai threshold discordance didapatkan dari persamaan berikut, 
+
+d = 
+∑𝑚𝑘=1 ∑ 𝑑𝑘𝑙
+
+𝑚
+𝑙=1
+
+𝑚(𝑚−1)
+    
+
+
+
+46 
+ 
+
+ 
+
+ 
+
+dari persamaan diatas maka, 
+
+c = 
+0,35+0,69+0,65+0,69+0,65+0,31+0,65+0,66+0,69
+
+4(4−1)
+= 0,445 
+
+d = 
+
+ 
+1+0,072984377+0,016869458+1+1+0,313687191+0,025304187
+
+4(4−1)
+= 0,30316417 
+
+ 
+
+- Menghitung matriks dominan 
+
+Matriks dominan concordance dan discordance didapatkan dari persamaan, 
+
+fkl = 1, jika ckl ≥ c                   (3.9) 
+
+    0. jika ckl < c 
+
+gkl = 1, jika dkl ≥ d                     (3.10) 
+
+  0. jika dkl < d 
+
+Maka didapatkan matriks sebagai berikut,  
+
+F = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+111
+
+01
+
+11
+
+10
+
+  G = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+001
+
+11
+
+00
+
+01
+
+ 
+
+- Menentukan Matriks Agregasi Dominan 
+
+Matriks agregasi dominan ditentukan dengan persamaan, 
+
+ekl = fkl x gkl                      (3.11) 
+
+maka hasilnya adalah, 
+
+E = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+
+−
+
+−
+
+001
+
+01
+
+00
+
+00
+
+ 
+
+Dari hasil perhitungan diatas, dapat disimpulkan bahwa A3 dan A4 sama-sama 
+
+direkomendasikan. 
+
+3.2.7    Perancangan Pengujian Sistem 
+
+      Pengujian dilakukan dengan menggunakan metode Black Box, dan pegujian 
+
+akurasi untuk mengetahui tingkat akurasi sistem. 
+
+
+
+47 
+ 
+
+ 
+
+ 
+
+3.2.7.1 Pengujian Black Box 
+
+     Untuk mengetahui apakah sistem berjalan dengan baik, maka dibutuhkan 
+
+sebuah pengujian pada sistem. Adapun pengujian sistem yang dilakukan adalah 
+
+dengan menggunakan metode black box. Pengujian black box adalah pengujian 
+
+yang mengamati hasil eksekusi melalui data uji dan memeriksa fungsionalitas dari 
+
+aplikasi. Hasil pengujian akan dirangkum dalam beberapa tabel diantaranya sebagai 
+
+berikut. 
+
+1. Rancangan Pengujian Halaman Awal 
+
+Pada rancangan pengujian halaman awal dilakukan proses input NIM di halaman 
+
+awal. Berikut rancangan pengujian halaman awal yang dapat dilihat pada tabel 
+
+3.11 
+
+Tabel 3.11 Rancangan Pengujian Halaman Awal 
+
+Fungsi Contoh 
+
+Fungsi 
+
+Hasil 
+
+Eksekusi 
+
+Keterangan 
+
+Memasukkan 
+
+NIM 
+
+Field Kosong   
+
+Field terisi 
+
+NIM 
+
+  
+
+ 
+
+2. Rancangan Pengujian Halaman Input Nilai Mata Kuliah 
+
+Berikut rancangan pengujian halaman mahasiswa yang dapat dilihat pada tabel 
+
+3.12. 
+
+Tabel 3.12 Rancangan Pengujian Halaman Input Data Mata Kuliah 
+
+Fungsi Contoh 
+
+Fungsi 
+
+Hasil 
+
+Eksekusi 
+
+Keterangan 
+
+ 
+
+ 
+
+ 
+
+Input Data Mata 
+
+Kuliah 
+
+Mengosongkan 
+
+semua kolom 
+
+isian 
+
+  
+
+Mengosongkan 
+
+salah satu 
+
+kolom 
+
+  
+
+Tidak ada isian 
+
+yang kosong 
+
+  
+
+ 
+
+3. Rancangan Pengujian Input Data Kriteria 
+
+Berikut rancangan pengujian halaman kriteria yang dapat dilihat pada Tabel 
+
+3.13. 
+
+
+
+48 
+ 
+
+ 
+
+ 
+
+Tabel 3.13 Rancangan Pengujian Input Data Kriteria 
+
+Fungsi Contoh Fungsi Hasil Eksekusi Keterangan 
+
+ 
+
+ 
+
+ 
+
+Input Data Kriteria 
+
+Mengosongkan 
+
+semua kolom 
+
+isian 
+
+  
+
+Mengosongkan 
+
+salah satu kolom 
+
+  
+
+Tidak ada isian 
+
+yang kosong 
+
+  
+
+ 
+
+3.2.7.2 Pengujian Akurasi 
+
+     Pengujian akurasi dilakukan untuk membandingkan kelompok keahlian 
+
+yang telah diambil oleh mahasiswa dengan hasil rekomendasi bidang keahlian dari 
+
+input yang dimasukkan oleh mahasiswa untuk melihat sesuai atau tidaknya 
+
+kelompok keahlian yang diambil mahasiswa dengan hasil rekomendasi sistem. 
+
+  Adapun pengujian akurasi dipaparkan pada Tabel 3.14 sebagai berikut, 
+
+Tabel 3.14 Rancangan Pengujian Akurasi 
+
+ 
+
+  Tabel 3.14 menjelaskan rancangan pengujian akurasi yang dilakukan, jika 
+
+terjadi kesesuaian antara kelompok keahlian yang telah dipilih mahasiswa dengan 
+
+bidang keahlian hasil rekomendasi sistem, maka nilai kesesuaian akan diberi angka 
+
+1 (satu), sebaliknya jika terjadi ketidaksesuaian, maka akan diberi angka 0 (nol). 
+
+Hasil akurasi didapatkan dari pembagian antara jumlah data yang sesuai dibagi 
+
+dengan jumlah data keseluruhan. Hasil akurasi sistem yang didapatkan adalah 
+
+berupa persentase. Alasan memilih kelompok keahlian digunakan untuk 
+
+No Kelompok 
+
+ Keahlian 
+
+yang 
+
+ Telah Dipilih 
+
+Alasan  
+
+Memilih  
+
+Kelompok  
+
+Keahlian 
+
+Bidang  
+
+Keahlian 
+
+Hasil  
+
+Rekomendasi 
+
+Sistem 
+
+Kesesu
+
+aian 
+
+Nilai 
+
+1. (Nama 
+
+kelompok 
+
+keahlian yang 
+
+telah dipilih) 
+
+(Alasan 
+
+memilih 
+
+kelompok 
+
+keahlian) 
+
+(Bidang 
+
+keahlian hasil 
+
+rekomendasi 
+
+sistem) 
+
+(Sesuai 
+
+/ Tidak 
+
+sesuai) 
+
+(1/0) 
+
+Jumlah data  
+
+Jumlah data yang sesuai  
+
+Persentase (%) (%) 
+
+
+
+49 
+ 
+
+ 
+
+ 
+
+menganalisis kriteria apa yang sebenarnya mempengaruhi mahasiswa memilih 
+
+kelompok keahlian. 
+
+
+
+ 
+ 
+
+50 
+ 
+
+BAB IV 
+
+HASIL DAN ANALISIS 
+
+4.1   Hasil Rancangan 
+
+  Berdasarkan hasil analisis dan pengujian terhadap sistem pendukung 
+
+keputusan penentu bidang keahlian mahasiswa Program Studi Informatika 
+
+Universitas Tanjungpura dengan menggunakan metode ELECTRE dapat 
+
+disimpulkan bahwa aplikasi ini dapat menghasilkan rekomendasi bidang keahlian 
+
+dengan melakukan perangkingan yang mana nilai tertinggi yang akan 
+
+direkomendasikan ke mahasiswa. Berikut adalah penjelasan dari hasil perancangan 
+
+antarmuka aplikasi yang dirancang. 
+
+4.1.1 Antarmuka Halaman Awal 
+
+  Sebelum memulai masuk ke sistem, mahasiswa memasukkan NIM terlebih 
+
+dahulu untuk masuk ke halaman selanjutnya. Adapun hasil antarmuka halaman 
+
+awal sistem disajikan pada Gambar 4.1 sebagai berikut, 
+
+ 
+
+Gambar 4.1 Halaman Awal 
+
+4.1.2 Antarmuka Halaman Dashboard 
+
+  Ketika mahasiswa sudah memasukkan NIM ke aplikasi, maka mahasiswa 
+
+akan diarahkan ke halaman dashboard. Halaman dashboard admin berisi informasi 
+
+mengenai definisi singkat sistem dan kriteria yang digunakan dalam aplikasi. 
+
+Gambar tampilan halaman dashboard dapat dilihat di Gambar 4.3. 
+
+ 
+
+
+
+51 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+Gambar 4.2 Halaman Dashboard 
+
+4.1.3 Antarmuka Halaman Input Nilai Mata Kuliah 
+
+     Pada halaman input nilai mata kuliah, mahasiswa menginputkan nilai mata 
+
+kuliah yang tertera. Tampilan halaman input nilai mata kuliah dapat dilihat pada 
+
+Gambar 4.3. 
+
+ 
+
+Gambar 4.3 Halaman Input Nilai Mata Kuliah 
+
+4.1.4 Antarmuka Halaman Input Data Kriteria 
+
+      Pada halaman input data kriteria kelompok keahlian, mahasiswa 
+
+memasukkan nilai-nilai kriteria pada masing-masing kelompok keahlian. Tampilan 
+
+input data kriteria dapat dilihat pada Gambar 4.4 sebagai berikut, 
+
+ 
+
+
+
+52 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.4 Halaman Input Data Kriteria 
+
+4.1.5 Antarmuka Halaman Hasil Rekomendasi 
+
+      Halaman hasil rekomendasi menampilkan keluaran dari hasil perhitungan 
+
+input nilai-nilai kriteria kelompok keahlian yang diinputkan mahasiswa. Tampilan 
+
+hasil rekomendasi dapat dilihat pada Gambar 4.5. 
+
+ 
+
+Gambar 4.5 Halaman Hasil Rekomendasi 
+
+4.2  Hasil Perhitungan Sistem 
+
+  Berikut adalah hasil perhitungan sistem pendukung keputusan penentu 
+
+bidang keahlian mahasiswa Program Studi Informatika Universitas Tanjungpura 
+
+
+
+53 
+ 
+
+ 
+ 
+
+dengan menggunakan metode ELECTRE berdasarkan hasil pengumpulan data 
+
+adalah sebagai berikut, 
+
+4.2.1 Hasil Input Nilai Mata Kuliah 
+
+  Hasil input nilai mata kuliah pada sistem ditampilkan pada Tabel 4.1 berikut, 
+
+Tabel 4.1 Hasil Input Data Mata Kuliah 
+
+Nama Mata Kuliah Nilai Bobot 
+
+Matematika Dasar 1 B 4 
+
+Logika Informatika A 5 
+
+Dasar Pemrograman B 5 
+
+Pengantar Teknik Informatika A 5 
+
+Probabilitas dan Statistika A 5 
+
+Matematika Dasar 2 A 5 
+
+Dasar Rekayasa Perangkat Lunak A 5 
+
+Struktur Data dan Algoritma B 5 
+
+Perancangan Basis Data C 3 
+
+Teori Graf A 5 
+
+Matematika Diskrit A 5 
+
+Metode Numerik A 5 
+
+Jaringan Komputer A 5 
+
+Strategi Algoritma A 5 
+
+Otomata A 5 
+
+Pemrograman Berorientasi Objek A 5 
+
+Analisis dan Perancangan Sistem A 5 
+
+Sistem Informasi A 5 
+
+Sistem Pendukung Keputusan A 5 
+
+Pemrograman Web B 5 
+
+Pemrograman Jaringan A 5 
+
+Kecerdasan Buatan C 5 
+
+Manajemen Proyek Perangkat Lunak B 5 
+
+Rata-rata Nilai KK Information System and Data Spatial 4,33 
+
+Rata-rata Nilai KK Mobile and Software Computing 4,57 
+
+Rata-rata Nilai KK Network and Security 4,71 
+
+Rata-rata Nilai KK Computation and Artificial Intelligent 4,57 
+ 
+
+Hasil masukkan nilai minat dan kemampuan mahasiswa ke sistem ditampilkan 
+
+pada Tabel 4.2 sebagai berikut, 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+54 
+ 
+
+ 
+ 
+
+Tabel 4.2 Hasil Inputan Data Kriteria Minat dan Kemampuan 
+
+Kelompok Keahlian Kriteria Masukan 
+
+ 
+
+Information System and 
+
+Data Spatial 
+
+Minat Berminat 
+
+Kemampuan Pemrograman 
+
+Delphi, 
+
+Pemrograman PHP 
+
+dan HTML 
+
+ 
+
+Mobile and Software 
+
+Computing 
+
+Minat Berminat 
+
+Kemampuan Pemrograman Java, 
+
+Pemrograman Delphi 
+
+(Desktop) 
+
+Network and Security Minat Sangat Tidak 
+
+Berminat 
+
+Kemampuan Tidak Ada Pilihan 
+
+Computation and Artificial 
+
+Inteligent 
+
+Minat Berminat 
+
+Kemampuan Pemrograman Java 
+
+4.2.2 Hasil Input Data Kriteria 
+
+  Hasil input data kriteria pada sistem ditampilkan pada Tabel 4.3 berikut, 
+
+Tabel 4.3 Hasil Input Data Kriteria 
+
+Kelompok Keahlian Kriteria Nilai 
+
+Information System and 
+
+Data Spatial 
+
+Minat 3 
+
+Kemampuan 0,28571429 
+
+Rata-rata Nilai 4,33 
+
+Mobile and Software 
+
+Computing 
+
+Minat 2 
+
+Kemampuan 0,25 
+
+Rata-rata Nilai 4,57 
+
+Network and Security Minat 1 
+
+Kemampuan 0 
+
+Rata-rata Nilai 4,71 
+
+Computation and Artificial 
+
+Intelligent 
+
+Minat 4 
+
+Kemampuan 0,25 
+
+Rata-rata Nilai 4,57 
+
+4.2.3 Hasil Matriks Keputusan 
+
+  Hasil matriks keputusan dari hasil input nilai mata kuliah dan input data 
+
+kriteria kelompok keahlian ditampilkan pada Tabel 4.4 sebagai berikut, 
+
+Tabel 4.4 Hasil Matriks Keputusan 
+
+ C1 C2 C3 
+
+A1 4,33 3 0,28571429 
+
+A2 4,57 2 0,25 
+
+A3 4,71 1 0 
+
+A4 4,57 4 0,25 
+
+
+
+55 
+ 
+
+ 
+ 
+
+4.2.4 Hasil Matriks Ternormalisasi 
+
+  Matriks keputusan kemudian dibuat menjadi matriks yang ternormalisasi 
+
+sehingga didadapatkan hasil seperti pada Tabel 4.5 sebagai berikut, 
+
+Tabel 4.5 Hasil Matriks Ternormalisasi 
+
+ C1 C2 C3 
+
+A1 0,476132459 0,547722558 0,628539367 
+
+A2 0,502523173 0,365148372 0,549971938 
+
+A3 0,517917756 0,182574186 0 
+
+A4 0,502523173 0,730296743 0,549971938 
+
+4.2.5 Hasil Matriks Normalisasi Terbobot 
+
+  Hasil Matriks Normalisasi yang dibuat kemudian dikalikan dengan bobot 
+
+masing-masing kriteria yang menghasilkan matriks normalisasi terbobot seperti 
+
+pada Tabel 4.6 berikut,  
+
+Tabel 4.6 Hasil Matriks Ternormalisasi Terbobot 
+
+ C1 C2 C3 
+
+A1 0,147601062 0,191702895 0,213703385 
+
+A2 0,155782184 0,12780193 0,186990459 
+
+A3 0,160554504 0,063900965 0 
+
+A4 0,155782184 0,25560386 0,186990459 
+
+4.2.6 Hasil Himpunan Concordance 
+
+  Hasil Matriks Normalisasi kemudian dibandingkan berdasarkan alternatif 
+
+yang satu dan yang lain secara berpasangan yang mana alternatif masuk ke 
+
+himpunan concordance lebih besar atau sama dengan alternatif pasangannya. Hasil 
+
+dari himpunan concordance ditampilkan pada Tabel 4.7 sebagai berikut, 
+
+Tabel 4.7 Hasil Himpunan Concordance 
+
+ C1 C2 C3 
+
+A1  2, 3 2, 3 
+
+A2 1  2, 3 
+
+A3 1 1  
+
+A4 1,2 1, 2,3 2, 3 
+
+4.2.7 Hasil Himpunan Discordance 
+
+  Hasil Matriks Normalisasi kemudian dibandingkan berdasarkan alternatif 
+
+yang satu dan yang lain secara berpasangan yang mana alternatif masuk ke 
+
+himpunan discordance lebih kecil dari alternatif pasangannya. Hasil dari himpunan 
+
+discordance ditampilkan pada Tabel 4.8 sebagai berikut, 
+
+
+
+56 
+ 
+
+ 
+ 
+
+Tabel 4.8 Hasil Himpunan Discordance 
+
+ C1 C2 C3 
+
+A1  1 1 
+
+A2 2,3  1 
+
+A3 2, 3 2, 3  
+
+A4 3 0 1 
+
+4.2.8 Hasil Matriks Concordance 
+
+  Himpunan matriks concordance yang dihasilkan kemudian dikonversi ke 
+
+bobot yang sesuai yang kemudian akan dijumlahkan berdasarkan indeks himpunan 
+
+yang didapat sehingga menghasilkan matriks concordance pada Tabel 4.9 sebagai 
+
+berikut, 
+
+Tabel 4.9 Hasil Matriks Concordance 
+
+ C1 C2 C3 
+
+A1  0,69 0.69 
+
+A2 0,31  0,69 
+
+A3 0,31 0,31  
+
+A4 0,66 1 0,69 
+
+4.2.9 Hasil Matriks Discordance 
+
+  Himpunan matriks Discordance yang dihasilkan kemudian dikonversi ke 
+
+bobot yang sesuai yang kemudian akan dijumlahkan berdasarkan indeks himpunan 
+
+yang didapat sehingga menghasilkan matriks discordance pada Tabel 4.10 sebagai 
+
+berikut, 
+
+Tabel 4.10 Hasil Matriks Discordance 
+
+ C1 C2 C3 
+
+A1  0,058939919318822 0.046660769460734 
+
+A2 1  0,034381619602646 
+
+A3 1 1  
+
+A4 1 0 0,024894359168323 
+
+4.2.10 Hasil Matriks Agregat Concordance 
+
+   Matriks concordance yang dibentuk kemudian dikonversi ke matriks 
+
+agregat concordance yang dibandingkan dengan nilai threshold nya sehingga 
+
+didapatkan matriks agregat pada Tabel 4.11 sebagai berikut, 
+
+Tabel 4.11 Hasil Matriks Agregat Concordance 
+
+ C1 C2 C3 
+
+A1  1 1 
+
+A2 0  1 
+
+
+
+57 
+ 
+
+ 
+ 
+
+A3 0 0  
+
+A4 1 1 1 
+
+4.2.11 Hasil Matriks Agregat Discordance 
+
+   Matriks discordance yang dibentuk kemudian dikonversi ke matriks 
+
+agregat discordance yang dibandingkan dengan nilai threshold nya sehingga 
+
+didapatkan matriks agregat pada Tabel 4.12 sebagai berikut, 
+
+Tabel 4.12 Hasil Matriks Agregat Discordance 
+
+ C1 C2 C3 
+
+A1  0 0 
+
+A2 1  0 
+
+A3 1 1  
+
+A4 1 0 0 
+
+4.2.12 Hasil Matriks Agregat Akhir 
+
+   Hasil dari matriks agregat concordance dan matriks agregat discordance 
+
+kemudian dikalikan sehingga menghasilkan matriks agregat akhir seperti pada 
+
+Tabel 4.13 sebagai berikut, 
+
+Tabel 4.13 Hasil Matriks Agregat Akhir 
+
+ C1 C2 C3 
+
+A1  0 0 
+
+A2 0  0 
+
+A3 0 0 0 
+
+A4 1 0 0 
+
+Hasil perhitungan diatas menunjukkan bahwa mahasiswa tersebut 
+
+direkomendasikan ke alternatif A4 yaitu ke bidang keahlian Computation and 
+
+Artificial Intelligent. 
+
+4.3  Hasil Pengujian Sistem 
+
+4.3.1 Hasil Pengujian Black Box 
+
+  Pengujian dengan metode black box pada perangkat lunak dilakukan untuk 
+
+menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi. 
+
+Berikut ini ada hasil dari pengujian perangkat lunak dengan metode black box 
+
+yang telah dilakukan. 
+
+4.3.1.1 Pengujian Halaman Awal 
+
+     Pengujian dilakukan pada proses input halaman login. Berikut hasil 
+
+pengujian dapat dilihat pada Tabel 4.14 sebagai berikut. 
+
+
+
+58 
+ 
+
+ 
+ 
+
+Tabel 4.14 Pengujian Proses Memasukkan NIM 
+
+Fungsi Contoh Fungsi Hasil Eksekusi Keterangan 
+
+ 
+
+ 
+
+Fungsi 
+
+Memasukkan 
+
+NIM  
+
+Field Kosong Tidak Berhasil Diperintahkan 
+
+untuk mengisi 
+
+kolom yang 
+
+belum terisi 
+
+Field berisi NIM Berhasil Masuk ke 
+
+halaman 
+
+dashboard 
+
+  Berdasarkan Tabel 4.13,  jika field NIM kosong maka akan muncul 
+
+keterangan untuk mengisi kolom terlebih dahulu sebelum dapat melanjutkan ke 
+
+halaman selanjutnya. Jika field NIM sudah terisi, maka user dapat masuk ke 
+
+halaman selanjutnya. 
+
+4.3.1.2  Pengujian Halaman Input Nilai Mata Kuliah  
+
+   Pada halaman ini, fungsi yang akan diuji adalah proses tambah data 
+
+mahasiswa di halaman mahasiswa. Hasil dari pengujian ini dapat dilihat pada Tabel 
+
+4.15 sebagai berikut, 
+
+Tabel 4.15 Pengujian Proses Input Nilai Mata Kuliah 
+
+Fungsi Contoh Fungsi Hasil Eksekusi Keterangan 
+
+ 
+
+ 
+
+Fungsi Proses 
+
+Input Data Mata 
+
+Kuliah 
+
+Mengosongkan 
+
+semua kolom 
+
+isian 
+
+Tidak Berhasil ‘Pilih salah satu 
+
+dari item pada 
+
+daftar’ 
+
+Mengosongkan 
+
+salah satu kolom 
+
+Tidak Berhasil ‘Pilih salah satu 
+
+dari item diatas’ 
+
+Tidak ada isian 
+
+yang kosong 
+
+Berhasil Data berhasil 
+
+ditambah 
+
+  Berdasarkan Tabel 4.14,  jika semua kolom tidak diisi dan mengosongkan 
+
+salah satu kolom maka user akan diminta untuk mengisi semua field terlebih 
+
+dahulu, dan jika semua kolom terisi dengan benar, maka nilai mata kuliah berhasil 
+
+ditambah. 
+
+4.3.1.3  Pengujian Halaman Input Data Kriteria 
+
+   Pada halaman ini, fungsi yang akan diuji adalah proses tambah data 
+
+kriteria di halaman kriteria. Hasil dari pengujian ini dapat dilihat pada Tabel 4.16. 
+
+ 
+
+
+
+59 
+ 
+
+ 
+ 
+
+Tabel 4.16 Pengujian Proses Tambah Kriteria 
+
+Fungsi Contoh Fungsi Hasil Eksekusi Keterangan 
+
+ 
+
+ 
+
+Fungsi Proses 
+
+Tambah Data 
+
+Kriteria 
+
+Mengosongkan 
+
+semua kolom 
+
+isian 
+
+Tidak Berhasil ‘Pilih salah satu 
+
+dari item pada 
+
+daftar’ 
+
+Mengosongkan 
+
+salah satu kolom 
+
+Tidak Berhasil ‘Pilih salah satu 
+
+dari item pada 
+
+daftar’ 
+
+Tidak ada isian 
+
+yang kosong 
+
+Berhasil Data berhasil 
+
+ditambah 
+
+  Berdasarkan Tabel 4.16,  jika semua kolom tidak diisi dan mengosongkan 
+
+salah satu kolom maka user akan diminta untuk mengisi semua field dengan 
+
+lengkap dan benar terlebih dahulu, dan jika semua kolom terisi dengan benar, maka 
+
+data kriteria berhasil ditambah. 
+
+4.3.2 Hasil Pengujian Akurasi 
+
+  Pengujian akurasi dilakukan untuk melihat kesesuaian antara kelompok 
+
+keahlian yang telah dipilih mahasiswa dengan hasil yang direkomendasikan oleh 
+
+sistem. Adapun hasil pengujian akurasi sistem ditampilkan pada Tabel 4.17 
+
+sebagai berikut, 
+
+Tabel 4.17 Hasil Pengujian Akurasi Sistem 
+
+No Kelompok 
+
+ Keahlian yang 
+
+ Telah Dipilih 
+
+Alasan  
+
+Memilih  
+
+Kelompok  
+
+Keahlian 
+
+Bidang  
+
+Keahlian 
+
+Hasil  
+
+Rekomendasi 
+
+Sistem 
+
+Kesesu
+
+aian 
+
+Nilai 
+
+1. Computation and 
+
+ Artificial 
+
+Intelligent 
+
+Sesuai 
+
+Minat 
+
+Computation 
+
+and Artificial 
+
+Intelligent 
+
+Sesuai 1 
+
+2. Computation and  
+
+Artificial 
+
+Intelligent 
+
+Sesuai 
+
+Minat dan 
+
+Saran 
+
+Dosen 
+
+Computation 
+
+and Artificial 
+
+Intelligent 
+
+Sesuai 1 
+
+3. Information 
+
+System  
+
+and Data Spatial 
+
+Sesuai 
+
+Minat 
+
+Network and 
+
+Security, 
+
+Computation 
+
+and Artificial 
+
+Intelligent 
+
+Tidak 
+
+Sesuai 
+
+0 
+
+
+
+60 
+ 
+
+ 
+ 
+
+4.4  Analisis Hasil Pengujian 
+
+  Analisis hasil pengujian aplikasi sistem pendukung keputusan penentu bidang 
+
+keahlian mahasiswa Program Studi Teknik Informatika Universitas Tanjungpura 
+
+dengan metode ELECTRE adalah sebagai berikut: 
+
+1. Hasil pengujian dengan metode black box didapat melalui percobaan input ke 
+
+beberapa fungsi untuk menghasilkan output yang diiginkan. Dari beberapa 
+
+percobaan tersebut disimpulkan aplikasi dapat memberikan output yang 
+
+diharapkan dari input yang diberikan, sehingga dapat dikatakan aplikasi ini 
+
+berhasil melalui pengujian black box. 
+
+4. Information 
+
+System and Data 
+
+Spatial 
+
+Sesuai 
+
+Minat 
+
+Network and 
+
+Security 
+
+Tidak 
+
+Sesuai 
+
+0 
+
+5. Mobile and 
+
+Software 
+
+Computing 
+
+Sesuai 
+
+Minat 
+
+Network and 
+
+Security, 
+
+Computation 
+
+and Artificial 
+
+Intelligent 
+
+Tidak 
+
+Sesuai 
+
+0 
+
+6. Computation and 
+
+Artificial 
+
+Intelligent 
+
+Sesuai 
+
+Minat 
+
+Network and 
+
+Security 
+
+Tidak 
+
+Sesuai 
+
+0 
+
+7. Computation and 
+
+Artificial 
+
+Intelligent 
+
+Saran 
+
+Dosen 
+
+Tidak 
+
+direkomendasi
+
+kan 
+
+Tidak 
+
+Sesuai 
+
+0 
+
+8. Computation and 
+
+Artificial 
+
+Intelligent 
+
+Saran 
+
+Dosen 
+
+Computation 
+
+and Artificial 
+
+Intelligent 
+
+Sesuai 1 
+
+9. Computation and 
+
+Artificial 
+
+Intelligent 
+
+Saran 
+
+Dosen 
+
+Computation 
+
+and Artificial 
+
+Intelligent, 
+
+Mobile and 
+
+Software 
+
+Computing 
+
+Sesuai 1 
+
+10. Network and 
+
+Security 
+
+Sesuai 
+
+Minat 
+
+Computation 
+
+and Artificial 
+
+Intelligent, 
+
+Mobile and 
+
+Software 
+
+Computing 
+
+Tidak 
+
+Sesuai 
+
+0 
+
+Jumlah data 10 
+
+Jumlah data yang sesuai 4 
+
+Persentase (%) 40% 
+
+
+
+61 
+ 
+
+ 
+ 
+
+2. Hasil pengujian akurasi pada 10 (sepuluh) mahasiswa memberikan hasil akurasi 
+
+dengan kesesuaian rekomendasi sistem dengan kelompok keahlian sebesar 40% 
+
+yang mana 4 (empat) mahasiswa kelompok keahlian yang dipilih sesuai,  5 
+
+(lima) mahasiswa tidak memiliki kesesuaian dikarenakan hasil rekomendasi 
+
+bidang keahlian tidak cocok, dan 1 (satu) mahasiswa tidak direkomendasikan 
+
+karena output sistem tidak memberikan hasil rekomendasi. Rekomendasi tidak 
+
+dihasilkan dikarenakan alternatif yang digunakan terlalu sedikit, karena metode 
+
+ELECTRE baik digunakan dalam kasus yang memiliki alternatif yang banyak 
+
+dan kriteria yang sedikit (Kusumadewi, 2006). Berdasarkan hasil wawancara 
+
+mengenai faktor pemilihan judul skripsi, ada 7 (tujuh) mahasiswa memilih judul 
+
+skripsi berdasarkan minat dan 4 (empat) mahasiswa memilih judul skripsi karena 
+
+saran dosen. 
+
+

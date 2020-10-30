@@ -1,0 +1,5240 @@
+
+1 
+ 
+
+BAB I 
+
+PENDAHULUAN 
+
+ 
+
+1.1 Latar  Belakang 
+
+Stroke merupakan penyakit tidak menular dengan prevalensi terbanyak 
+
+nomor satu di dunia sekaligus angka kematian dan pengidap tertinggi (WHO, 
+
+2016). Stroke merupakan suatu penyakit yang menyebabkan kehilangan fungsi 
+
+pada otak, dimana otak sebagai organ pusat pengatur kontrol fungsi fisiologi 
+
+tubuh manusia (Hughes, 2011). Penyakit ini merupakan salah satu penyebab 
+
+utama kematian di negara-negara ASEAN dengan prevalensi kejadian 50-100 
+
+mortalitas per 100.000 kejadian stroke (Venkutasebramanian, 1998). Angka 
+
+kejadian stroke di Inggris adalah lebih dari 130.000 orang terserang stroke tiap 
+
+tahunnya dan sebanyak 450.000 pasien stroke hidup dengan kerusakan fisik baik 
+
+tingkat sedang hingga berat (Departement of Health, 2005, dikutip oleh Welch, 
+
+2008).   
+
+Penderita stroke paling sering dirawat oleh anggota keluarga dekat sebagai 
+
+pemberi asuhan (care giver), pemberi asuhan terdekat yang paling sering 
+
+mendampingi adalah pasangan. Sekitar 40 % pasien pasca fase akut stroke gagal 
+
+menjalani tahap rehabilitasi karena ketidaktahuan, ketidaksiapan, dan 
+
+kekhawatiran caregivers dalam melaksanakan fungsi perawatan sejak kembali ke 
+
+rumah. Sebanyak 85,3% caregiver tidak memiliki kesiapan dalam merawat 
+
+pasien, hal ini menyebabkan risiko terjadinya gejala distres dan berkontribusi pada 
+
+tingginya risiko disabilitas pasien pasca stroke yang menandakan kegagalan 
+
+terapi.  
+
+Perawat dan dokter sebagai petugas kesehatan di ruang rawat inap sering 
+
+tidak menyampaikan informasi yang diharapkan oleh pasien dan keluarga. 
+
+Fenomena yang ditemukan di Ruang Perawatan Saraf RSUD Dr. Soedarso 
+
+Pontianak bahwa keluarga menyatakan tidak mendapatkan informasi yang jelas 
+
+dari dokter tentang perkembangan kondisi pasien dan tidak mendapatkan 
+
+informasi dari perawat tentang perawatan terhadap kebutuhan pasien. Beberapa 
+
+keluarga menyatakan bahwa ada beberapa prosedur tindakan perawatan yang 
+
+dapat dibantu dilakukan oleh keluarga namun tidak diajarkan secara tepat oleh 
+
+
+
+2 
+
+ 
+
+ 
+
+ 
+
+tenaga kesehatan. Keluarga tidak mendapatkan informasi dan pendidikan 
+
+kesehatan khusus dari perawat dan dokter selama pasien berada dalam masa 
+
+seminggu hingga dua minggu pertama perawatan, melainkan baru mendapatkan 
+
+discharge planning dan lembar kontrol sesaat akan pulang ke rumah. Konsep 
+
+virtual dapat menggunakan media elektronik sebagai pengirim dan penyimpan 
+
+pesan, diasumsikan dapat menjadi alternatif dalam inovasi pemberian discharge 
+
+planning.  
+
+Definisi virtual menurut kamus besar Merriam-Webster (2015 adalah 
+
+suatu hal yang menyerupai benda nyata tanpa eksistensi nyata, sesuatu yang 
+
+terjadi di dalam sistem komputer. Menurut Holyoke (2011), Konsep virtual 
+
+learning adalah suatu perangkat alat pembelajaran yang didesain untuk 
+
+memperbesar pengalaman belajar yang menggunakan media komputer dan 
+
+internet. Holyoke (2011) menyatakan bahwa setiap pengalaman mendapatkan 
+
+informasi melalui media visual akan meningkatkan esensi pengalaman belajar 
+
+individu. Pendekatan dengan metode virtual seperti menggantikan model 
+
+penyuluhan konvensional antara perawat dengan pasien dan keluarga yang 
+
+mendampingi. 
+
+Berdasarkan uraian di atas, penulis menggunakan konsep virtual learning 
+
+sebagai media pembelajaran serta mengimplementasikan konsep virtual learning 
+
+untuk pendamping dan pasien penderita stroke agar dapat memberikan 
+
+pengarahan yang baik dan diasumsikan dapat menjadi alternatif dalam inovasi 
+
+pembelajaran yang masih berbentuk konvensional. Sehingga dengan adanya 
+
+virtual learning ini diharapkan menjadi proses belajar dan proses inovasi asuhan 
+
+keperawatan. 
+
+ 
+
+1.2 Rumusan Masalah 
+
+Berdasarkan latar belakang yang telah dipaparkan, dapat dirumuskan 
+
+permasalahan yang diangkat dalam penelitian ini yaitu bagaimana 
+
+mengimplementasikan virtual learning bagi pendamping dan pasien stroke. 
+
+ 
+
+ 
+
+ 
+
+
+
+3 
+
+ 
+
+ 
+
+ 
+
+1.3 Tujuan Penelitian 
+
+Tujuan dari penelitian ini adalah untuk mengimplementasikan virtual 
+
+learning yang diharapkan dapat menjadi alternatif proses belajar dan inovasi 
+
+asuhan keperawatan bagi pendamping dan pasien stroke. 
+
+ 
+
+1.4 Pembatasan Masalah 
+
+Penelitian ini dibatasi hal-hal sebagai berikut : 
+
+1. Pada penelitian ini fokus pada implementasi virtual learning berbasis website. 
+
+2. Konten pembelajaran virtual learning yang akan ditampilkan berbentuk 
+
+Animasi. 
+
+3. Visualiasi objek pembelajaran yang ditampilkan dalam bentuk Animasi 2D. 
+
+4. Konten animasi dibuat berdasarkan standar perawatan pasien pasca stroke. 
+
+1.5 Sistematika Penulisan Skripsi 
+
+Adapun sistematika penulisan dari tugas akhir ini disusun dalam lima bab 
+
+yang terdiri dari Bab I Pendahuluan, Bab II Tinjauan Pustaka, Bab III Metodologi 
+
+Penelitian, Bab IV Hasil dan Analisis Aplikasi serta Bab V Penutup. 
+
+Bab I Pendahuluan adalah bab yang berisi latar belakang, perumusan 
+
+masalah, tujuan penelitian, pembatasan masalah dan sistematika penulisan. 
+
+Bab II Tinjauan Pustaka adalah bab yang berisikan landasan teori yang 
+
+ada hubungannya dengan penelitian yang dilakukan dan uraian sistematis tentang 
+
+hasil-hasil penelitian yang didapat oleh peneliti terdahulu. 
+
+Bab III Metodologi Penelitian dan Perancangan Sistem adalah bab 
+
+yang berisi tentang Alat Penelitian, Metode Penelitian, Analisis Kebutuhan, serta 
+
+Diagram Alir Penelitian. 
+
+Bab IV Hasil Perancangan dan Pengujian Aplikasi adalah bab yang 
+
+berisi data hasil percobaan, pengamatan, dan analisis hasil untuk mengarah 
+
+kepada suatu kesimpulan. 
+
+Bab V Penutup adalah bab yang berisi kesimpulan dari penelitian yang 
+
+telah dilakukan dan saran / rekomendasi untuk perbaikan, pengembangan atau 
+
+kesempurnaan / kelengkapan penelitian yang telah dilakukan. 
+
+
+
+4 
+ 
+
+BAB II 
+
+TINJAUAN PUSTAKA 
+
+ 
+
+2.1 Stroke 
+
+ Definisi yang paling banyak diterima secara luas adalah bahwa stroke 
+
+adalah suatu sindrom yang ditandai dengan gejala dan atau tanda klinis yang 
+
+berkembang dengan cepat yang berupa gangguan fungsional otak fokal maupun 
+
+global yang berlangsung lebih dari 24 jam (kecuali ada intervensi bedah atau 
+
+membawa kematian), yang tidak disebabkan oleh sebab lain selain penyebab 
+
+vaskuler (Mansjoer, 2000). Menurut Geyer (2009) stroke adalah sindrom klinis 
+
+yang ditandai dengan berkembangnya tiba-tiba defisit neurologis persisten fokus 
+
+sekunder terhadap peristiwa pembuluh darah.  
+
+ Stroke merupakan penyebab kecacatan nomor satu di dunia dan penyebab 
+
+kematian nomor dua di dunia. Duapertiga stroke terjadi di negara berkembang. 
+
+Pada masyarakat barat, 80% penderita mengalami stroke iskemik dan 20% 
+
+mengalami stroke hemoragik. Insiden stroke meningkat seiring pertambahan usia 
+
+(Dewanto dkk, 2009) 
+
+ 
+
+2.1.1 Jenis-Jenis Stroke 
+
+a. Stroke Iskemik 
+
+ Stroke iskemik terjadi bila pembuluh darah yang memasok darah ke otak 
+
+tersumbat. Jenis stroke ini yang paling umum (hampir 90% stroke adalah 
+
+iskemik). 
+
+ Kondisi yang mendasari stroke iskemik adalah  penumpukan lemak yang 
+
+melapisi dinding pembuluh darah (disebut aterosklerosis). Kolesterol, 
+
+homocysteine dan zat lainnya dapat melekat pada dinding arteri,membentuk zat 
+
+lengket yang disebut plak. Seiring waktu, plak menumpuk. Hal inisering membuat 
+
+darah sulit mengalir denganbaik dan menyebabkan bekuan darah (trombus) 
+
+(Farida 2009). 
+
+b. Stroke hemoragik 
+
+ Stroke hemoragik disebabkan oleh pembuluh darah yang bocor atau pecah 
+
+didalam atau di sekitar otak sehingga menghentikan suplai darah ke jaringan otak 
+
+
+
+5 
+
+ 
+
+ 
+
+ 
+
+yang dituju. Selain itu, darah membanjiri dan memampatkan jaringan otak 
+
+sekitarnya sehingga mengganggu atau mematikan fungsinya (Farida 2009). 
+
+ 
+
+2.2  Multimedia 
+
+Istilah multimedia pertama kali dicetuskan oleh Bob Goldstein, seorang 
+
+musisi dan seniman, pada akhir tahun 1960 dalam rangka mempertunjukkan 
+
+“LightWorks at L'Oursin” di Southhampton, Long Island. Dalam pertunjukkan 
+
+tersebut, Bob Goldstein mencampurkan beberapa seni pertunjukkan dan 
+
+menggunakan istilah multimedia untuk pertama kali (Suyanto, 2003). 
+
+Pada dasarnya, multimedia dapat diartikan sebagai kombinasi antara teks, 
+
+foto, seni grafis, suara, animasi atau elemen-elemen video yang dapat 
+
+dimanipulasi secara digital dan disampaikan melalui perangkat komputer. 
+
+Multimedia juga dapat diartikan sebagai berikut: 
+
+1. Multimedia secara umum merupakan kombinasi tiga elemen, yaitu 
+
+suara, gambar, dan teks (McCormick, 1996). 
+
+2. Multimedia merupakan alat yang dapat menciptakan presentasi yang 
+
+dinamis dan interaktif yang mengkombinasikan teks, grafik, animasi, 
+
+audio, dan gambar video (Robin dan Linda, 2001). 
+
+3. Multimedia adalah pemanfaatan komputer untuk membuat dan 
+
+menggabungkan teks, grafik, audio, gambar bergerak (video dan 
+
+animasi) dengan menggabungkan link dan tool yang memungkinkan 
+
+pemakai melakukan navigasi, berinteraksi, berkreasi, dan 
+
+berkomunikasi (Hofstetter, 2001) 
+
+Dari definisi di atas, dapat disimpulkan bahwa terdapat empat komponen 
+
+penting dalam multimedia. Pertama, harus ada komputer yang mengkoordinasikan 
+
+apa yang dilihat dan didengar, yang berinteraksi dengan kita. Kedua, harus ada 
+
+link yang menghubungkan kita dengan informasi. Ketiga, harus ada alat navigasi 
+
+yang memandu kita menjelajah informasi yang saling terhubung. Dan yang 
+
+keempat, multimedia menyediakan tempat kepada kita untuk mengumpulkan, 
+
+memproses, dan mengkomunikasikan informasi dan ide kita sendiri. 
+
+ 
+
+ 
+
+
+
+6 
+
+ 
+
+ 
+
+ 
+
+2.3 Virtual Learning 
+
+2.3.1 Pengertian Virtual Learning 
+
+ Virtual learning mengacu pada proses pembelajaran yang terjadi di kelas 
+
+maya yang berada dalam cyberspace melalui jaringan Internet (Pannen, 1999). 
+
+Penerapan virtual learning ditujukan untuk mengatasi masalah keterpisahan ruang 
+
+dan waktu antara siswa dan pengajar melalui media komputer. Siswa dapat 
+
+memperoleh bahan belajar yang sudah dirancang dalam paket-paket pembelajaran 
+
+yang tersedia dalam situs internet. 
+
+ Dengan menerapkan virtual learning, siswa dapat mempelajari bahan 
+
+belajar sendiri atau jika diperlukan siswa meminta bantuan dalam bentuk interaksi 
+
+yang difasilitasi oleh komputer, seperti belajar berbantuan computer (computer-
+
+based learning/CAL) atau interactive web pages, belajar berbantuan pengajar atau 
+
+tutor secara synchronous (dalam titik waktu yang sama) dan asynchronous (dalam 
+
+titik waktu yang berbeda), atau belajar berbantuan sumber belajar lain seperti 
+
+dengan siswa lain atau pakar, e-mail, dan sebagainya. Dari penjelasan tersebut, 
+
+dapat dicermati bahwa ciri-ciri pembelajaran yang menerapkan konsep virtual 
+
+learning adalah : 
+
+- Adanya keterpisahan antara pendidik dan peserta didik 
+
+- Sistem belajar terbuka (akses yang terbuka dan kebebasan memilih ragam 
+
+sumber belajar serta alur proses belajar) 
+
+- Berbasis jaringan. 
+
+ Konsep virtual learning dikembangkan bukan untuk menggantikan 
+
+pembelajaran tatap muka. Penggabungan pembelajaran tatap muka dengan konsep 
+
+virtual learning akan memungkinkan terjadinya peningkatan kualitas 
+
+pembelajaran, di samping peningkatan efektivitas dan efisiensi pendidikan. 
+
+Virtual learning dikembangkan untuk menunjang pembelajaran tatap muka. 
+
+Virtual learning dapat diterapkan sebagai satu-satunya proses belajar dalam 
+
+pendidikan jarak jauh atau digabungkan dengan pembelajaran langsung (tatap 
+
+muka di kelas). 
+
+ 
+
+ 
+
+ 
+
+
+
+7 
+
+ 
+
+ 
+
+ 
+
+2.3.2 Manfaat Virtual Learning 
+
+ Virtual learning atau e-learning dapat membawa suasana baru dalam 
+
+ragam pengembangan pembelajaran. Pemanfaatan virtual learning dengan baik 
+
+dapat meningkatkan hasil pembelajaran dengan maksimal. Beberapa manfaat dari 
+
+virtual learning diantaranya menurut Rohmah (2016) : 
+
+1. Dengan adanya virtual learning maka dapatmempersingkat waktu 
+
+pembelajaran dan membuat biaya studi lebih ekonomis 
+
+2. Virtual learning mempermudah interaksi antara peserta didik dengan bahan 
+
+materi 
+
+3. Peserta didik dapat saling berbagi informasi dan dapat mengakses bahan-
+
+bahan belajar setiap saat dan berulang-ulang, dengan kondisi yang demikian 
+
+itu peserta didik dapat lebih memantapkan penguasaannya terhadap materi 
+
+pembelajaran 
+
+4. Dengan virtual learning proses pengembangan pengetahuan tidak hanya 
+
+terjadi di dalam ruangan kelas saja, tetapi dengan bantuan peralatan komputer 
+
+dan jaringan, para peserta didik dapat secara aktif dilibatkan dalam proses 
+
+belajar-mengajar. 
+
+2.3.3 Konsep Virtual Learning Stroke 
+
+Definisi virtual menurut kamus besar Merriam-Webster (2015), istilah 
+
+virtual adalah suatu hal yang menyerupai benda nyata tanpa eksistensi nyata; 
+
+sesuatu yang terjadi di dalam sistem komputer. Menurut Holyoke (2011), 
+
+Penggunaan media virtual sebagai pendekatan bagi perawatan hingga rehabilitasi 
+
+pasien stroke dapat meningkatkan fungsi limbik dan aktivitas pasien. Secara 
+
+khusus bahkan meningkatkan fungsi kognitif, fungsi motorik, hingga 
+
+memperbaiki kualitas hidup pasien dan keluarga pasien stroke (Laver, KE, 2015). 
+
+Holyoke (2011) menyatakan bahwa setiap pengalaman mendapatkan informasi 
+
+melalui medial visual akan meningkatkan esensi pengalaman belajar individu. 
+
+Pendekatan dengan metode virtual seperti menggantikan model penyuluhan 
+
+konvensional antara perawat dengan pasien dan keluarga yang mendampingi. 
+
+Konsep virtual dapat menggunakan media elektronik sebagai pengirim dan 
+
+penyimpan pesan. Konsep belajar secara virtual oleh pasien atau keluarga dan 
+
+konsep caring secara riil dari perawat dimodifikasi dalam bentuk program desain 
+
+
+
+8 
+
+ 
+
+ 
+
+ 
+
+komputerisasi yang membuat seolah-olah pasien dan keluarga merupakan bagian 
+
+dari kondisi tersebut, sehingga diharapkan menjadi proses belajar pasien dan 
+
+proses inovasi asuhan keperawatan (Laver, KE, 2015). 
+
+2.4 Model ADDIE 
+
+Desain pembelajaran model ADDIE adalah salah satu desain pembelajaran 
+
+yang berorientasi sistem, yakni sebuah desain yang menghasilkan sistem 
+
+pembelajaran yang mencakup seluruh komponen pembelajaran. Menurut  Endang  
+
+Mulyatiningsih  (2016),  model  ADDIE  merupakan singkatan dari  Analysis, 
+
+Design, Development, Implementation dan Evalutation. 
+
+Model pengembangan ADDIE merupakan model desain pembelajaran 
+
+yang berlandasan pada pendekatan sistem yang efektif dan efisien serta prosesnya 
+
+yang bersifat interaktif yakni hasil evaluasi setiap fase dapat membawa 
+
+pengembangan pembelajaran ke fase selanjutnya. Hasil akhir dari suatu fase 
+
+merupakan produk awal bagi fase berikutnya. Model ini terdiri atas 5 fase atau 
+
+tahap utama yaitu Analisis, Desain, Pengembangan Implementasi dan Evaluasi 
+
+(Reyzal Ibrahim, 2011). 
+
+Model ADDIE (Analysis, Design, Development, Implementation, 
+
+Evaluations) berawal dari konsep model desain pembelajaran serta teori yang 
+
+digunakan untuk angkatan darat AS pada tahun 1950. Selanjutnya, pada tahun 
+
+1975 dikembangkan lagi oleh Florida State University bidang Educational 
+
+Technology untuk digunakan pada semua angkatan bersenjata AS. 
+
+Praktisi pendidikan selanjutnya membuat beberapa revisi sehingga sekitar 
+
+pertengahan 1980-an muncullah model yang lebih interaktif dan dinamis dari 
+
+aslinya. Model ini kemudian dapat digunakan untuk berbagai macam bentuk 
+
+pengembangan produk seperti strategi dan metode pembelajaran, media dan bahan 
+
+ajar. Model ADDIE dapat menjadi pedoman dalam mengembangkan perangkat 
+
+dan infrastruktur program pelatihan atau pembelajaran yang efektif, dinamis dan 
+
+mendukung proses pembelajarn dengan beberapa tahapan. 
+
+Berikut  ini  diberikan  contoh kegiatan pada setiap tahapan pengembangan 
+
+model pembelajaran, yaitu: 
+
+ 
+
+ 
+
+
+
+9 
+
+ 
+
+ 
+
+ 
+
+ 
+
+           Gambar 2.1 Tahapan Metode Pembelajaran Model ADDIE (Endang,2016) 
+
+Tahapan-tahapan model ADDIE menurut Chaeruman (2008) adalah 
+
+sebagai berikut : 
+
+a. Tahap analisis: suatu proses mendefinisikan apa yang akan dipelajari oleh 
+
+peserta belajar. Maka untuk mengetahui atau menentukan apa yang harus 
+
+dipelajari, kita harus melakukan beberapa kegiatan, diantaranya adalah 
+
+melakukan needs assessment (analisis kebutuhan), mengidentifikasi masalah 
+
+(kebutuhan), dan melakukan analisis tugas (task analysis). Oleh karena itu, 
+
+output yang akan kita hasilkan adalah berupa karakteristik atau profil calon 
+
+peserta belajar, identifikasi kesenjangan, identifikasi kebutuhan dan analisis 
+
+tugas yang rinci didasarkan atas kebutuhan.  
+
+b. Tahap desain: tahap ini dikenal juga dengan istilah membuat rancangan. 
+
+Ibarat bangunan, maka sebelum dibangun gambar rancang bangun (blue-print) 
+
+diatas kertas harus ada terlebih dahulu. Apa yang kita lakukan dalam tahap 
+
+desain ini? Pertama kita merumuskan tujuan pembelajaran. Selanjutnya 
+
+menyusun tes, dimana tes tersebut harus didasarkan pada tujuan pembelajaran 
+
+yag telah dirumuskan tadi. Kemudian menentukan strategi pembelajaran yang 
+
+tepat harusnya seperti apa untuk mencapai tujuan tersebut. Dalam hal ini ada 
+
+
+
+10 
+
+ 
+
+ 
+
+ 
+
+banyak pilihan kombinasi metode dan media yang dapat kita pilih dan 
+
+tentukan yang paling relevan. Disamping itu, pertimbangkan pula sumber-
+
+sumber pendukung lain, misalnya sumber belajar yang relevan, lingkungan 
+
+belajar yang seperti apa seharusnya. 
+
+c. Tahap pengembangan: pengembangan adalah proses mewujudkan blue-print 
+
+atau desain tadi menjadi kenyataan. Jika dalam desain diperlukan suatu 
+
+perangkat lunak berupa multimedia pembelajaran, maka multimedia tersebut 
+
+harus dikembangkan, atau diperlukan modul cetak, maka modul tersebut perlu 
+
+dikembangkan. Begitu pula halnya dengan lingkungan belajar lain yang akan 
+
+mendukung proses pembelajaran semuanya harus disiapkan dalam tahap ini. 
+
+Satu langkah penting dalam tahap pengembangan adalah uji coba sebelum 
+
+diimplementasikan. Tahap uji coba ini memang merupakan bagian dari salah 
+
+satu langkah ADDIE, yaitu evaluasi. Lebih tepatnya evaluasi formatif, karena 
+
+hasilnya digunakan untuk memperbaiki sistem pembelajaran yang 
+
+dikembangkan.  
+
+d. Tahap implementasi: langkah nyata untuk menerapkan sistem pembelajaran 
+
+yang sedang kita buat. Artinya, pada tahap ini semua yang telah 
+
+dikembangkan diset sedemikian rupa sesuai dengan peran atau fungsinya agar 
+
+bisa diimplementasikan. Misalnya, jika memerlukan perangkat lunak tertentu 
+
+maka perangkat lunak tersebut harus sudah diinstal. Jika penataan lingkungan 
+
+harus tertentu, maka lingkungan dibuat tertentu dan juga harus ditata. Barulah 
+
+diimplementasikan sesuai skenario atau desain awal. 
+
+e. Tahap evaluasi: evaluasi adalah proses untuk melihat apakah sistem 
+
+pembelajaran yang sedang dibangun berhasil, sesuai dengan harapan awal atau 
+
+tidak. Sebenarnya tahap evaluasi bisa terjadi pada setiap empat tahap di atas. 
+
+Evaluasi yang terjadi pada setiap empat tahap diatas itu dinamakan evaluasi 
+
+formatif, karena tujuannya untuk kebutuhan revisi. Misalnya, pada tahap 
+
+rancangan, mungkin kita memerlukan salah satu bentuk evaluasi formatif 
+
+misalnya review ahli untuk memberikan input terhadap rancangan yang 
+
+sedang kita buat. Pada tahap pengembangan, mungkin perlu uji coba dari 
+
+produk yang kita kembangkan atau mungkin perlu evaluasi kelompok kecil. 
+
+
+
+11 
+
+ 
+
+ 
+
+ 
+
+Dalam aplikasinya di lapangan, model ADDIE ini tentu saja mempunyai 
+
+kelebihan dan kekurangan, kelebihan dan kekurangan desain pembelajaran model 
+
+ADDIE ini diantaranya : 
+
+a. Kelebihan model ini sederhana dan mudah dipelajari serta strukturnya yang 
+
+sistematis. 
+
+Seperti kita ketahui bahwa model ADDIE ini terdiri dari 5 komponen 
+
+yang saling berkaitan dan terstruktur secara sistematis, artinya dari tahapan 
+
+yang pertama sampai tahapan yang kelima dalam pengaplikasiannya harus 
+
+secara sistematik, tidak bisa diurutkan secara acak atau kita bisa memilih 
+
+mana yang menurut kita ingin di dahulukan. Karena kelima tahap/langkah ini 
+
+sudah sangat sederhana jika dibandingkan dengan model desain yang lainnya. 
+
+Sifatnya yang sederhana dan terstruktur dan sistematis maka model desain ini 
+
+akan mudah dipelajari oleh para pendidik. 
+
+b. Kekurangan model desain ini adalah dalam tahap analisis memerlukan waktu 
+
+yang lama. 
+
+2.5 Storyboard 
+
+  Vaughan (2011:295), Storyboard dapat menggambarkan proyek dengan 
+
+detail menggunakan tulisan dan sketsa gambar yang digunakan untuk pilihan layar 
+
+gambar, suara, dan navigasi setiap layarnya. Selain itu di dalam storyboard juga 
+
+dapat mengatur warna dan corak, isi teks, atribut, font dan bentuk tombol, style, 
+
+tanggapan serta perubahan suara. Metode yang akan digunakan tergantung pada 
+
+apakah orang yang sama akan mengerjakan semua nya atau apakah implementasi 
+
+akan ditugaskan dan dikerjakan oleh tim baru yang akan membutuhkan spesifikasi 
+
+secara detail seperti storyboard dan sketsa. Disamping itu, semakin banyak 
+
+rencana yang ada dikertas, semakin baik dan mudah dalam mengerjakan suatu 
+
+proyek. 
+
+   Storyboard memiliki banyak bentuk, yaitu tergantung pada pembuatnya. 
+
+Beberapa bentuk storyboard yang paling umum digunakan, yaitu:  
+
+a. Bentuk kasar yang berfungsi untuk menjelaskan produk secara abstrak. 
+
+Concept storyboard, yaitu storyboard yang penuh dengan warna dan 
+
+fullatmosphere. 
+
+
+
+12 
+
+ 
+
+ 
+
+ 
+
+b. Color storyboard, yaitu memetakan gambaran dengan penuh warna, bahkan 
+
+terkesan lebih mengutamakan warna daripada urutan animasi. 
+
+c. Animation storyboard, yang berfungsi untuk menggambarkan secara detail 
+
+animasi itu sendiri.  
+
+d. Presentation storyboard, yaitu bentuk storyboard yang di rancang dengan 
+
+rapi dan sangat terencana, berfungsi untuk menjual suatu ide kepada klien.  
+
+ 
+
+Gambar 2.2 Format Animation Storyboard 
+
+ 
+
+2.6 Aplikasi Berbasis Website 
+
+Menurut Pressman (2012), aplikasi web merupakan sekumpulan file 
+
+hypertext yang saling terhubung untuk menunjukkan informasi tertentu dengan 
+
+menggunakan grafis yang sifatnya terbatas dan menampilkan informasi tertentu 
+
+dengan menggunakan teks. Sedangkan menurut Powell (1998), aplikasi web pada 
+
+dasarnya menyertakan campuran antara penerbitan media cetak dan 
+
+pengembangan perangkat lunak, antara pemasaran dan komputasi, antara 
+
+komunikasi internal dan hubungan eksternal, antara seni dan teknologi.  
+
+Dalam pembuatan aplikasi berbasis web diperlukan beberapa dokumen 
+
+web, bahasa pemrograman dan database, seperti berikut: 
+
+
+
+13 
+
+ 
+
+ 
+
+ 
+
+2.6.1    PHP 
+
+PHP adalah sebuah bahasa script server-side yang menyatu dengan HTML 
+
+untuk membuat halaman web yang dinamis. Karena PHP merupakan script 
+
+server-side maka sintaks dan perintah-perintah PHP akan dieksekusi di server 
+
+kemudian hasilnya dikirim ke browser dalam format HTML. (Arief, 2011:43) 
+
+PHP pertama kali  di kembangkan pada tahun 1995 oleh Rasmus Lerdorf, 
+
+namun sekarang di ambil oleh The PHP Group. Pada awalnya PHP adalah 
+
+singkatan dari Personal Home Page, namun dalam perkembangannya, di ubah 
+
+menjadi PHP: Hypertext Preprocessor, sebuah kepanjangan rekursif. 
+
+Jika anda ingin membuat web yang dinamis, bisa menyimpannya ke 
+
+dalam database, membuat halaman yang berubah-ubah sesuai input dari user, 
+
+maka pada saat itulah PHP dibutuhkan. Untuk pembuatan web, 
+
+kode PHP biasanya di sisipkan kedalam dokumen HTML. Karena hal inilah 
+
+PHP  disebut juga sebagai Scripting Language atau bahasa pemograman script. 
+
+2.6.2  CSS 
+
+CSS digunakan dalam kode HTML untuk menciptakan suatu kumpulan 
+
+style yang terkadang dapat digunakan untuk memperluas kemampuan HTML. 
+
+Sebagai contoh, kode HTML murni tidak memungkinkan untuk menggunakan 
+
+sebuah definisi font yang diterapkan pada sebuah sel dan bahkan tag 
+
+<BASEFONT> pun tak berpengatuh pada sel-sel label. (Kadir, 2002:212) 
+
+Misalnya, diinginkan untuk mengatur ukuran font pada setiap sel sebesar 
+
+dua. Dengan menggunakan tag <FONT>, semua sel harus diformat dengan 
+
+menggunakan <FONT SIZE = “2”>. Tentu saja tindakan seperti ini tidak praktis. 
+
+Namun, dengan menggunakan CSS, anda hanya perlu mendefinisikan style sekali 
+
+saja dan style akan berlaku untuk setiap sel dalam label. 
+
+2.6.3      Javascript 
+
+Javacript adalah bahasa script yang ditempelkan pada kode HTML dan 
+
+diproses pada sisi klien. Dengan adanya bahasa ini, kemampuan dokumen HTML 
+
+menjadi lebih luas. Sebagai contoh, dengan menggunakn JavaScript 
+
+memungkinkan untuk memvalidasi masukan-masukan pada formulir sebelum 
+
+formulir dikirimkan ke server. (Kadir, 2002:268) 
+
+
+
+14 
+
+ 
+
+ 
+
+ 
+
+Perlu diketahui bahwa JavaScript bukanlah bahasa Java. JavaScript dan 
+
+Java adalah dua bahasa yang berbeda. JavaScript diinterpretasikan oleh klien, 
+
+sedangkan Java dikomplasi oleh pemrogram dan hasil kompilasinyalah yang 
+
+dijalankan oleh klien. 
+
+2.6.4    MySQL 
+
+ MySQL merupakan database server yang awalnya hanya berjalan pada 
+
+sistem Unix dan Linux. Seiring berjalannya waktu dan banyaknya peminat yang 
+
+menggunakan database ini, MySQL merilis versi yang dapat diinstal pada hampir 
+
+semua platform, termasuk Windows. (Nugroho, 2007:2) 
+
+Lisensi MySQL adalah freeware, artinya kita dapat mendownload dan 
+
+menggunakannya tanpa harus membayarnya. Meskipun kita menjual produk 
+
+menyertakan produk MySQL, kita tidak melanggar hak cipta. 
+
+MySQL memiliki beberapa keistimewaan, antara lain: 
+
+1. Portabilitas, MySQL dapat berjalan stabil pada berbagai sistem operasi 
+
+seperti Windows, Linux, FreeBSD, Mac Os X Server, Solaris, Amiga, dan 
+
+masih banyak lagi. 
+
+2. Multi-User, MySQL dapat digunakan oleh beberapa pengguna dalam waktu 
+
+yang bersamaan tanpa mengalami masalah atau konflik. 
+
+3. Ragam Tipe Data, MySQL memiliki ragam tipe data yang sangat kaya, 
+
+seperti signed / unsigned integer, float, double, char, text, date, timestamp, 
+
+dan lain-lain. 
+
+4. Perintah dan Fungsi, MySQL memiliki operator dan fungsi secara penuh yang 
+
+mendukung perintah Select dan Where dalam perintah (query). 
+
+5. Keamanan, MySQL memiliki beberapa lapisan keamanan seperti 
+
+level subnetmask, nama host, dan izin akses user dengan sistem perizinan 
+
+yang mendetail serta sandi terenkripsi. 
+
+Skalabilitas dan Pembatasan, MySQL mampu menangani basis data dalam 
+
+skala besar, dengan jumlah rekaman (records) lebih dari lima puluh juta dan enam 
+
+puluh ribu tabel serta lima milyar baris. Selain itu batas indeks yang dapat 
+
+ditampung mencapai tiga puluh dua indeks pada tiap tabelnya. 
+
+http://id.wikipedia.org/w/index.php?title=Subnetmask&action=edit&redlink=1
+http://id.wikipedia.org/w/index.php?title=Host&action=edit&redlink=1
+http://id.wikipedia.org/w/index.php?title=Records&action=edit&redlink=1
+
+
+15 
+
+ 
+
+ 
+
+ 
+
+2.7 Perancangan UML (Unified Modeling Language) 
+
+Menurut Sri Dharwiyanti (2003), “Unified Modelling Language (UML) 
+
+adalah sebuah "bahasa" yang telah menjadi standar dalam industri untuk 
+
+visualisasi, merancang dan mendokumentasikan sistem piranti lunak. UML 
+
+menawarkan sebuah standar untuk merancang model sebuah sistem”. Dengan 
+
+menggunakan UML kita dapat membuat model untuk semua jenis aplikasi piranti 
+
+lunak, dimana aplikasi tersebut dapat berjalan pada piranti keras, sistem operasi 
+
+dan jaringan apapun, serta ditulis dalam bahasa pemrograman apapun. Tetapi 
+
+karena UML juga menggunakan class dan operation dalam konsep dasarnya, 
+
+maka UML lebih cocok untuk penulisan piranti lunak dalam bahasa-bahasa 
+
+berorientasi objek seperti C++, Java, C#, atau VB.NET.  
+
+Dari hasil analisa, dibuat rancangan sistem berdasarkan metode 
+
+berorientasi objek dengan menggunakan Unified Modeling Language (UML). 
+
+Diagram UML yang digunakan dalam perancangan aplikasi ada empat diagram, 
+
+yaitu : 
+
+2.7.1    Use Case Diagram 
+
+Use Case Diagram menggambarkan fungsionalitas yang diharapkan dari 
+
+sebuah sistem. Yang ditekankan adalah “apa” yang diperbuat sistem, dan bukan 
+
+“bagaimana”. Sebuah use case merepresentasikan sebuah interaksi antara aktor 
+
+dengan sistem. 
+
+Tabel 2.1 Deskripsi Notasi pada Use Case Diagram 
+
+Notasi Deskripsi 
+
+Use Case 
+
+ 
+
+Fungsionalitas yang disediakan sistem sebagai 
+
+unit-unit yang saling bertujuan pesan antar unit 
+
+atau aktor. Biasanya dinyatakan dengan 
+
+menggunakan kata kerja di nama use case. 
+
+Aktor 
+
+ 
+
+Orang, proses, atau sistem lain yang berinteraksi 
+
+dengan sistem informasi yang akan dibuat. 
+
+Biasanya dinyatakan dengan menggunakan kata 
+
+benda di nama aktor. 
+
+ 
+
+
+
+16 
+
+ 
+
+ 
+
+ 
+
+Notasi Deskripsi 
+
+Asosiasi 
+
+ 
+
+Komunikasi antara aktor dan use case yang 
+
+berpartisipasi pada use case atau use case 
+
+memiliki interaksi dengan aktor. 
+
+Extend 
+
+ 
+
+ 
+
+Relasi use case tambahan ke sebuah use case 
+
+dimana use case tambahan dapat berdiri sendiri 
+
+walau tanpa use case yang ditambahkan. Arah 
+
+panah mengarah kepada use case yang 
+
+ditambahkan. 
+
+Include 
+
+ 
+
+ 
+
+ 
+
+Relasi use case tambahan ke sebuah use case 
+
+dimana use case yang ditambahkan 
+
+membutuhkan use case tambahan ini untuk 
+
+menjalankan fungsinya. Arah panah mengarah 
+
+kepada use case yang ditambahkan dan use case 
+
+yang ditambahkan akan selalu dijalankan saat 
+
+use case tambahan dijalankan. 
+
+2.7.2 Activity Diagram 
+
+Activity diagrams menggambarkan berbagai alir aktivitas dalam sistem 
+
+yang sedang dirancang, bagaimana masing-masing alir berawal, decision yang 
+
+mungkin terjadi, dan bagaimana mereka berakhir. 
+
+Tabel 2.2 Deskripsi Notasi pada Activity Diagram 
+
+Notasi Deskripsi 
+
+Status awal 
+
+ 
+
+Status awal aktivitas sistem, sebuah diagram 
+
+aktivitas memiliki sebuah status awal. 
+
+ 
+
+ 
+
+Status akhir 
+
+ 
+
+Status akhir yang dilakukan sistem, sebuah 
+
+diagram aktivitas memiliki sebuah status 
+
+akhir. 
+
+ 
+
+ 
+
+
+
+17 
+
+ 
+
+ 
+
+ 
+
+Notasi Deskripsi 
+
+Aktivitas 
+
+ 
+
+Aktivitas yang dilakukan sistem, aktivitas 
+
+biasanya diawali dengan kata kerja. 
+
+ 
+
+ 
+
+ 
+
+Percabangan 
+
+ 
+
+Asosiasi percabangan dimana jika ada pilihan 
+
+aktivitas lebih dari satu. 
+
+Penggabungan 
+
+ 
+
+Asosiasi penggabungan dimana lebih dari 
+
+satu aktivitas digabungkan menjadi satu. 
+
+ 
+
+2.7.3 Class Diagram 
+
+Class adalah sebuah spesifikasi yang jika diinstansiasi akan menghasilkan 
+
+sebuah objek dan merupakan inti dari pengembangan dan desain berorientasi 
+
+objek. Class menggambarkan keadaan (atribut/properti) suatu sistem, sekaligus 
+
+menawarkan layanan untuk memanipulasi keadaan tersebut (metoda/fungsi). 
+
+Tabel 2.3 Deskripsi Notasi pada Class Diagram 
+
+Notasi Deskripsi 
+
+Kelas 
+
+ 
+
+Kelas pada struktur sistem. Kelas 
+
+memiliki 3 area pokok, yaitu nama, 
+
+atribut, dan metoda. 
+
+Antarmuka / Interface 
+
+ 
+
+Kumpulan operasi berupa implementasi 
+
+dari suatu class. Atau dengan kata lain 
+
+implementasi operasi dalam interface 
+
+dijabarkan oleh operasi di dalam class. 
+
+ 
+
+Asosiasi 
+
+ 
+
+Relasi antar kelas dengan makna umum. 
+
+
+
+18 
+
+ 
+
+ 
+
+ 
+
+Notasi Deskripsi 
+
+Asosiasi berarah 
+
+ 
+
+Relasi antar kelas dengan makna kelas 
+
+yang satu digunakan oleh kelas yang 
+
+lain. 
+
+Generalisasi 
+
+ 
+
+Relasi antar kelas dengan makna 
+
+generalisasi-spesialisasi. 
+
+Kebergantungan 
+
+ 
+
+Relasi antar kelas dengan makna 
+
+kebergantungan antar kelas. 
+
+Agregasi 
+
+ 
+
+Relasi antar kelas dengan makna 
+
+semua-bagian (whole-part). 
+
+2.7.4 Sequence Diagram 
+
+Sequence diagram menggambarkan interaksi antar objek di dalam dan di 
+
+sekitar sistem (termasuk pengguna, display, dan sebagainya) berupa message yang 
+
+digambarkan terhadap waktu. Sequence diagram terdiri atar dimensi vertikal 
+
+(waktu) dan dimensi horizontal (objek-objek yang terkait). 
+
+Tabel 2.4 Deskripsi Notasi pada Sequence Diagram 
+
+Notasi Deskripsi 
+
+Aktor 
+
+ 
+
+Orang, proses, atau sistem lain yang berinteraksi 
+
+dengan sistem informasi yang akan dibuat. 
+
+Biasanya dinyatakan dengan menggunakan kata 
+
+benda di nama aktor. 
+
+ 
+
+Objek 
+
+ 
+
+ 
+
+Menyatakan objek yang berinteraksi pesan. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+19 
+
+ 
+
+ 
+
+ 
+
+Notasi Deskripsi 
+
+Garis hidup 
+
+ 
+
+Menyatakan kehidupan suatu objek. 
+
+Waktu aktif 
+
+ 
+
+Menyatakan objek dalam keadaaan aktif dan 
+
+berinteraksi. Semua yang terhubung dalam 
+
+waktu aktif ini adalah sebuah tahapan yang 
+
+dilakukan di dalamnya. 
+
+Pesan call 
+
+ 
+
+ 
+
+Menyatakan suatu objek memanggil operasi 
+
+atau metode yang ada pada objek lain atau 
+
+dirinya sendiri. Arah panah mengarah pada 
+
+objek yang memiliki metode. Metode yang 
+
+dipanggil harus ada pada diagram kelas sesuai 
+
+dengan kelas objek yang berinteraksi. 
+
+Pesan send 
+
+ 
+
+ 
+
+Menyatakan bahwa suatu objek mengirimkan 
+
+data masukan ke objek lainnya. Arah panah 
+
+mengarah pada objek yang dikirim 
+
+Pesan return 
+
+ 
+
+Menyatakan bahwa suatu objek yang telah 
+
+menjalankan suatu operasi atau metode 
+
+menghasilkan suatu kembalian ke objek 
+
+tertentu. Arah panah mengarah pada objek yang 
+
+menerima kembalian. 
+
+ 
+
+2.8     Metode Pengujian 
+
+Pengujian perangkat lunak adalah elemen kritis dari jaminan kualitas 
+
+perangkat lunak dan merepresentasikan kajian pokok dari spesifikasi, desain, dan 
+
+pengkodean. Pengujian menyajikan anomaly yang menarik bagi perekayasa 
+
+perangkat lunak. Pada proses perangkat lunak, perekayasa pertama-tama berusaha 
+
+membangun perangkat lunak dari konsep abstrak ke implementasi yang dapat 
+
+dilihat, baru kemudian dilakukan pengujian. Perekayasa menciptakan sederetan 
+
+
+
+20 
+
+ 
+
+ 
+
+ 
+
+test case yang dimaksudkan untuk “membongkar” perangkat lunak yang sudah 
+
+dibangun. Pada dasarnya, pengujian merupakan satu langkah dalam proses 
+
+rekayasa perangkat lunak yang dapat dianggap (paling tidak secara psikologis) 
+
+sebagai hal yang destruktif daripada konstruktif (Pressman, 2002). 
+
+2.8.1 User Acceptance Test (UAT) 
+
+Pengujian yang dilakukan adalah user acceptance test (UAT), yaitu 
+
+menguji tingkat penerimaan user terhadap sistem melalui kuesioner. Kuesioner 
+
+berisi beberapa pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan 
+
+dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat lunak, aspek 
+
+fungsionalitas, dan aspek komunikasi visual. 
+
+Gagasan utama pada User Acceptance Testing adalah untuk memastikan 
+
+bahwa produk akhir yang dibuat mendukung kebutuhan user. Dalam bidang 
+
+bisnis, artinya produk yang dibuat dapat membantu dan memudahkan user dalam 
+
+melakukan bisnis. Untuk aplikasi personal, artinya user bisa mendapatkan 
+
+informasi yang dibutuhkan melalui website dengan mudah (Perry, 2006). 
+
+2.8.2 Skala Likert 
+
+Skala Likert digunakan untuk mengukur sikap, pendapat, dan persepsi 
+
+seseorang atau sekelompok tentang kejadian atau gejala sosial. Dalam penelitian 
+
+gejala sosial ini telah ditetapkan secara spesifik oleh peneliti, yang selanjutnya 
+
+disebut sebagai variabel penelitian (Melky, 2015) 
+
+2.9 Penelitian Terkait 
+
+ Hesti Lukitaningrum (2016) melakukan penelitian dan pengembangan 
+
+media pembelajaran menggunakan web-based learning pada materi Basis Data 
+
+berbasis web di Sekolah Menengah Kejuruan Kelas XI. Model pengembangan 
+
+ADDIE (Analysis, Design, Development, Implementation dan Evaluation) dan 
+
+pengujian menggunakan skala likert dengan 3 aspek usability , functionality dan 
+
+komunikasi visual. 
+
+ Berkah Destri Puspitasari (2013) melakukan penelitian tentang 
+
+pengembangan e-learning Pada Mata Pelajaran Simulasi Digital Paket Keahlian 
+
+Teknik Mekantronika di SMK. Model pengembangan menggunakan model 
+
+ADDIE (Analysis, Design, Development, Implementation, Evaluation). Pengujian 
+
+
+
+21 
+
+ 
+
+ 
+
+ 
+
+menggunaka skala Likert. 
+
+ Moh. Anis Syafi’i (2014) melakukan penelitian tentang aplikasi virtual 
+
+learning content menggunakan metode agile sebagai metode pengembangan. 
+
+Masalah pada penelitian ini yaitu bagiamana merancang sebuah aplikasi 
+
+multimedia dengan konsep virtual learning yang layak bagi anak-anak belajar 
+
+yang lebih menyenkangkan. Pada penelitian ini, content yang dibuat berbasis web 
+
+portal yang berisikan game edukasi, modul interaktif dan atikel yan dimainkan 
+
+secara streaming dan di unduh secara online. Pengujian menggunakan blackbox 
+
+untuk pengujian sistem.  
+
+Tabel 2.5 Kajian Terkait 
+
+No Nama Judul Keterangan 
+
+1 Hesti 
+
+Lukitaningr
+
+um 
+
+PENGEMBANGA
+
+N MEDIA 
+
+PEMBELAJARAN 
+
+BERBASIS WEB 
+
+PADA MATERI 
+
+BASIS DATA DI 
+
+SEKOLAH 
+
+MENENGAH 
+
+KEJURUAN 
+
+KELAS XI 
+
+- Pada penelitian ini, penulis  melakukan 
+
+penelitian dan pengembangan media 
+
+pembelajaran menggunakan web-based 
+
+learning. Model pengembangan 
+
+ADDIE (Analysis, Design, 
+
+Development, Implementation dan 
+
+Evaluation) dan pengujian 
+
+menggunakan skala likert dengan 3 
+
+aspek usability, functionality dan 
+
+komunikasi visual. 
+
+2 Berkah 
+
+Destri 
+
+Puspitasari 
+
+PENGEMBANGA 
+
+N E-LEARNING 
+
+PADA MATA 
+
+PELAJARAN 
+
+SIMULASI 
+
+DIGITAL PAKET 
+
+KEAHLIAN 
+
+MEKATRONIKA 
+
+DI SMK 
+
+Pada penelitian ini, penulis melakukan 
+
+penelitian pengembangan media 
+
+pembelejaran e-learning menggantikan 
+
+metode konvensional. Penelitian 
+
+menggunakan model pengembangan 
+
+ADDIE. 
+
+ 
+
+ 
+
+
+
+22 
+
+ 
+
+ 
+
+ 
+
+No Nama Judul Keterangan 
+
+3 Muhammad 
+
+Anis Syafi’i 
+
+RANCANG 
+
+BANGUN 
+
+VIRTUAL 
+
+LEARNING 
+
+CONTENT 
+
+MENGGUNAKAN 
+
+METODE AGILE 
+
+Pada penelitian ini, penulis membuat 
+
+virtual learning content   metode agile. 
+
+Pada aplikasi ini di desain 
+
+menggunakan DFD (Data Flow 
+
+Diagram) dan dikembangkan 
+
+menggunakan PHP dan Database 
+
+MySQL. Hasil penelitian berupa 
+
+sebuah web potal yang berisikan game 
+
+edukasi, modul interaktif dan artikel 
+
+yang dapat dimainkan secara streaming 
+
+dan di unduh secara online. 
+
+ 
+
+Tabel 2.6 berikut merupakan penjelasan mengenai penelitian yang dilakukan : 
+
+Tabel 2.6 Penelitian yang dilakukan 
+
+1 Ikhwan 
+
+Maulana 
+
+Akbana 
+
+IMPLEMENTASI 
+
+VIRTUAL 
+
+LEARNING BAGI 
+
+PENDAMPING 
+
+DAN PASIEN 
+
+STROKE  
+
+Pada penelitian ini, penulis mencoba 
+
+melakukan penelitian tentang virtual 
+
+Learning sebagai media pembelajaran 
+
+bagi pasien stroke dan caregivers / 
+
+pendamping yang diimplementasikan 
+
+dalam bentuk website yang 
+
+menampilkan animasi sebagai 
+
+pengganti discharge planning dan 
+
+lembar kontrol. Model pengembangan 
+
+menggunakan model ADDIE dan 
+
+pengujian menggunakan skala likert 
+
+dengan menggunakan 3 aspek yaitu 
+
+aspek rekayasa perangkat lunak, aspek 
+
+fungsionalitas dan aspek komunikasi 
+
+visual. 
+
+ 
+
+
+
+ 
+ 
+
+23 
+ 
+
+BAB III 
+
+METODOLOGI PENELITIAN DAN PERANCANGAN SISTEM 
+
+ 
+
+3.1 Metodologi Penelitian 
+
+3.1.1 Pengumpulan Data 
+
+Data penelitian berupa data pasien stroke yang ada di Rumah Daerah Sakit 
+
+Soedarso yaitu berupa data pasien. 
+
+ 
+
+3.1.2 Alat yang digunakan 
+
+3.1.2.1 Alat Penelitian 
+
+Alat penelitian yang digunakan dalam penelitian ini adalah: 
+
+a. Aset animasi sebagai objek-objek gambar yang nantikan akan digerakkan ke 
+
+dalam animasi. 
+
+b. Unified Modeling Language, digunakan untuk menggambarkan alur proses 
+
+yang terjadi pada pembuatan aplikasi. Diagram UML yang digunakan adalah 
+
+use case diagram, activity diagram dan sequence diagram. 
+
+c. Perancangan antarmuka, digunakan untuk memberikan gambaran tentang 
+
+tampilan dari aplikasi yang dibangun. 
+
+ 
+
+3.1.2.2 Perangkat Lunak 
+
+Perangkat lunak yang dipergunakan dalam penelitian ini ialah: 
+
+a. Sistem Operasi Windows 10. 
+
+b. Sublime sebagai edit source code. 
+
+c. XAMPP sebagai localhost. 
+
+d. Inkscape dan Photoshop CC sebagai alat desain aset animasi. 
+
+e. Videoscribe sebagai alat desain untuk menggerakan gambar animasi. 
+
+f. Draw.io sebagai alat bantu desain diagram. 
+
+ 
+
+3.1.2.3 Perangkat Keras 
+
+Perangkat keras yang dipergunakan dalam penelitian ini adalah : 
+
+a. Laptop ASUS TUF FX505DY dengan spesifikasi berikut : 
+
+- Prosesor AMD Ryzen 5 3550H 2.1 Ghz 
+
+
+
+24 
+ 
+
+- RAM 16GB 
+
+- SSD 256GB 
+
+b. 1 Unit headset yang dilengkapi dengan microphone, digunakan dalam 
+
+merekam suara ( dubbing ) dan mendengarkan suara yang akan dimasukkan 
+
+ke dalam animasi, serta mengetes suara yang keluar dari aplikasi. 
+
+ 
+
+3.2 Diagram Alir Penelitian 
+
+Metodologi penelitian yang akan dilakukan dapat dilihat pada Gambar 
+
+3.1 berikut:  
+
+ 
+
+Gambar 3.1 Diagram Alir Penelitian 
+
+
+
+25 
+ 
+
+Berdasarkan Gambar 3.1, metode penelitian yang akan dilakukan adalah 
+
+sebagai berikut: 
+
+1. Studi Literatur 
+
+Studi literatur merupakan metode yang digunakan untuk memahami dan 
+
+mempelajari materi terkait dengan masalah yang dibahas dengan cara membaca 
+
+literatur seperti buku, jurnal, artikel dan lain-lain. Data yang didapat yaitu seperti 
+
+apa yang ditampilkan pada tinjauan pustaka. 
+
+2. Analisis Kebutuhan 
+
+Analisis kebutuhan merupakan metode yang digunakan untuk menganalisa 
+
+kebutuhan apa saja yang akan digunakan dalam membuat aplikasi virtual learning 
+
+ini. Penjelasan lebih spesifik dapat dilihat pada subbab (3.4). 
+
+3. Pengumpulan Data 
+
+Setelah mendapatkan kebutuhan yang sesuai, kemudian melakukan teknik  
+
+pengumpulan data-data yang diperlukan untuk penelitian. Pengumpulan data 
+
+dilakukan untuk memperoleh informasi mengenai aplikasi yang akan dibangun 
+
+dan yang akan diterapkan di dalam aplikasi. Pengumpulan data dilakukan dengan 
+
+melakukan wawancara dengan pihak perawat, referensi buku maupun referensi 
+
+dari media online. 
+
+4. Perancangan Animasi 
+
+Setelah mengetahui kebutuhan apa saja yang diperlukan, melakukan 
+
+perancangan materi animasi yang akan ditampilkan pada aplikasi. Dimulai dari 
+
+perancangan storyboard dan perancangan aset. 
+
+5. Perancangan Aplikasi 
+
+Setelah mendesain animasi, tahap selanjutnya melakukan perancangan 
+
+aplikasi agar berjalan sesuai kebutuhan pengguna melalui perancangan, analisa, 
+
+observasi, perancangan UML dan merancang antarmuka aplikasi untuk 
+
+memberikan gambaran tentang aplikasi yang akan dibangun. 
+
+6. Pembuatan Aplikasi 
+
+Setelah melakukan perancangan aplikasi, animasi tersebut akan ditampilkan 
+
+dalam bentuk aplikasi yang dirancang berbasis web yang terintegrasi bahasa 
+
+pemrograman PHP dengan Framework Laravel dan MySQL sebagai basis data. 
+
+ 
+
+
+
+26 
+ 
+
+7. Pengujian Aplikasi  
+
+Aplikasi yang telah dibangun akan dilakukan pengujian dengan 
+
+menggunakan metode pengujian yaitu: 
+
+- UAT yang dirancang sebagai uji terima perangkat lunak yang melibatkan 
+
+pengujian dengan data dari pengguna sistem. 
+
+8. Analisis Hasil Pengujian 
+
+Pada tahapan ini, pengujian yang telah dilakukan pada tahapan sebelumnya 
+
+akan dilakukan analisis terhadap hasil dari pengujian tersebut.  
+
+9. Penarikan Kesimpulan 
+
+Kesimpulan dirumuskan berdasarkan pengujian yang telah dilakukan 
+
+apakah sistem yang dirancang dan dibangun sudah mencapai tujuan. 
+
+ 
+
+3.3 Analisis Kebutuhan 
+
+Analisis kebutuhan dilakukan untuk mencari informasi mengenai konsep 
+
+virtual learning bagi pendamping dan penderita stroke. Selama ini keluarga tidak 
+
+mendapatkan informasi dan pendidikan kesehatan khusus dari perawat dan dokter 
+
+selama pasien berada selama di rumah sakit, tetapi baru diberikan sesaat akan 
+
+pulang ke rumah. Selain itu, keluarga juga diberi browsur dan booklet sebagai 
+
+media informasi dan pendidikana kesehatan untuk penyakit stroke. 
+
+Kemudian analisis kebutuhan dilakukan dalam bentuk wawancara kepada 
+
+perawat ahli, yaitu Ibu Arina Nurfianti, S.Kep, Ns., M.Kep. 
+
+Berikut rangkuman hasil dari wawancara kepada perawat ahli : 
+
+1. Keluarga sebagai caregiver membutuhkan media alternatif yang 
+
+menggantikan tenaga kesehatan untuk menyampaikan informasi dan 
+
+pendidikan setelah masa perawatan pasien dari rumah sakit. 
+
+2. Keluarga membutuhkan ruang diskusi antara tenaga kesehatan untuk 
+
+memahami apa-apa saja yang perlu dilakukan setelah masa perawatan 
+
+pasien dari rumah sakit. 
+
+3. Keluarga sebagai caregiver membutuhkan sarana untuk mengingat dan 
+
+memahami kembali tentang materi yang telah disampaikan.  
+
+ 
+
+
+
+27 
+ 
+
+Berdasarkan hasil wawancara diatas diketahui kebutuhan fungsional dari 
+
+aplikasi yang ditampilkan dari Tabel berikut ini : 
+
+Tabel 3.1 Kebutuhan Fungsional 
+
+No. Kebutuhan Fungsional Keterangan 
+
+1. Fitur Materi Proses menampilkan materi animasi 
+
+pembelajaran, terdiri dari beberapa lesson, 
+
+setiap lesson terdiri dari beberapa materi 
+
+animasi 
+
+2. Fitur Tanya Jawab Proses komunikasi antara user dengan admin 
+
+dalam berdiskusis seputar materi animasi 
+
+stroke 
+
+3.  Fitur Kuis Proses user dapat menjawab pertanyaan 
+
+seputar materi stroke 
+
+ 
+
+3.4 Perancangan Animasi 
+
+Dalam melakukan perancangan animasi terdapat tahapan-tahapan yang 
+
+dilakukan yaitu : 
+
+1. Perancangan storyboard 
+
+Pada tahapan ini dirancang storyboard untuk menjelaskan secara detail setiap 
+
+scene di dalam animasi yang dibuat.  
+
+2. Perancangan aset animasi 
+
+Tahapan perancangan aset terdiri dari objek-objek gambar yang akan 
+
+digerakkan ke dalam animasi. 
+
+ 
+
+3.4.1 Perancangan Storyboard 
+
+Perancangan storyboard materi animasi dibuat berdasarkan dari 
+
+wawancara dan literatur yang dipelajari yang kemudian ditulisankan dalam bentuk 
+
+naskah. Naskah yang dibuat berdasarkan standar perawatan stroke. Materi animasi 
+
+yang dibuat dikelompokkan dalam beberapa kategori. Berikut storyboard untuk 
+
+materi animasi dapat dilihat pada tabel 3.2. 
+
+ 
+
+ 
+
+
+
+28 
+ 
+
+Tabel 3.2 Perancangan Storyboard 
+
+Kategori 1 Perkenalan Stroke 
+
+Scene Sequence Board Durasi Naskah 
+
+1 1 
+
+ 
+
+00:00 ~ 
+
+00:48 
+
+Perkenalan Virtual 
+
+Learning Stroke 
+
+Kateogri 2 Pengertian, Klasifikasi dan Komplikasi Stroke 
+
+Scene Sequence Board Durasi Naskah 
+
+1 1 
+
+ 
+
+00:00 ~ 
+
+00:30 
+
+Pengertian penyakit 
+
+stroke 
+
+ 2 
+
+ 
+
+00:31 ~ 
+
+00:46 
+
+Penyebab stroke 
+
+adanya penyumbatan 
+
+dipembuluh darah 
+
+otak dan atau 
+
+terjadinya pecah 
+
+pembuluh darah otak 
+
+ 3 
+
+ 
+
+00:47 ~ 
+
+01:32 
+
+Faktor penyebab 
+
+stroke : hipertensi, 
+
+atrial fibrilasi, 
+
+diabetes mellitus, 
+
+obesitas, perokok 
+
+2 1 
+
+ 
+
+00:00 ~ 
+
+01:06 
+
+Klasifikasis jenis 
+
+stroke : TIA, stroke 
+
+iskemia, stroke 
+
+hemoragik 
+
+ 
+
+
+
+29 
+ 
+
+Scene Sequence Board Durasi Naskah 
+
+ 2 
+
+ 
+
+01:07 ~ 
+
+01:36 
+
+Ciri-ciri awal 
+
+serangan stroke 
+
+3 1 
+
+ 
+
+00:00 ~ 
+
+01:55 
+
+Komplikasi pasca 
+
+stroke terdiri dari : 
+
+thrombosis vena, luka 
+
+tekan, risiko infeksi, 
+
+kecacatan, perubahan 
+
+memori, perubahan 
+
+fungsi luhur, 
+
+peningkatam tekanan 
+
+di otak, kematian 
+
+Kategori 3 Mencegah Stroke 
+
+Scene Sequence Board Durasi Naskah 
+
+1 1 
+
+ 
+
+00:00 ~ 
+
+01:53 
+
+Mencegah stroke, 
+
+mencegah stroke 
+
+berulang dan 
+
+mencegah komplikasi 
+
+stroke 
+
+Kategori 4 Caregiver 
+
+Scene Sequence Board Durasi Naskah 
+
+1 1 
+
+ 
+
+00:00 ~ 
+
+00:49 
+
+Pengertian care giver 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+30 
+ 
+
+Scene Sequence Board Durasi Naskah 
+
+ 2 
+
+ 
+
+00:50 ~ 
+
+01:33 
+
+Yang terlibat dalam 
+
+keberhasilan 
+
+pengobatan dan 
+
+perawatan pasien 
+
+stroke 
+
+ 
+
+2 1 
+
+ 
+
+00:00 ~ 
+
+00:41 
+
+Fakta recovery dan 
+
+rehabilitasi dini pasca 
+
+stroke  
+
+ 2 
+
+ 
+
+00:42 ~ 
+
+01:08 
+
+Persentase kerusakan 
+
+fungsi tubuh pasca 
+
+stroke 
+
+3 1 
+
+ 
+
+00:00 ~ 
+
+00:48 
+
+Apa-apa saja peran 
+
+keluarga atau care 
+
+giver setelah pulang 
+
+ke rumah 
+
+Kategori 5 Perawatan Stroke Pasca Akut 
+
+Scene Sequence Board Durasi Naskah 
+
+1 1 
+
+ 
+
+00:00 ~ 
+
+00:40 
+
+Pengertian stroke 
+
+pasca akut, stroke 
+
+yang terjadi dalam 
+
+jangka waktu sejak 
+
+pertama serangan 
+
+hingga berlangsung 
+
+sampai satu minggu. 
+
+ 
+
+
+
+31 
+ 
+
+Scene Sequence Board Durasi Naskah 
+
+ 2 
+
+ 
+
+00:41 ~ 
+
+01:19 
+
+Hal-hal yang sangat 
+
+penting dalam 
+
+keberhasilan terapi  
+
+pasien stroke pasca 
+
+akut & Pencegahan 
+
+Stroke berulang: obat 
+
+stroke, perawatan 
+
+tekanan darah tinggi, 
+
+kontrol kolesterol, 
+
+kontrol diabetes, 
+
+kontrol faktor gaya 
+
+hidup 
+
+2 1 
+
+ 
+
+00:00 ~ 
+
+00:58 
+
+Perawatan pasca akut 
+
+dan pencegahan 
+
+kembali, penjelasan 
+
+medikasi atau 
+
+pengobatan stroke 
+
+ 2 
+
+ 
+
+00:58 ~ 
+
+01:36 
+
+Perawatan pasca akut 
+
+dan pencegahan 
+
+kembali, penjelasan 
+
+tekanan darah 
+
+ 3 
+
+ 
+
+01:37 ~ 
+
+02:45 
+
+Perawatan pasca akut 
+
+dan pencegahan 
+
+kembali, penjelasan 
+
+kolesterol 
+
+ 4 
+
+ 
+
+02:46 ~ 
+
+04:36 
+
+Perawatan pasca akut 
+
+dan pencegahan 
+
+kembali, penjelasan 
+
+diabetes mellitus 
+
+ 
+
+ 
+
+
+
+32 
+ 
+
+Scene Sequence Board Durasi Naskah 
+
+ 5 
+
+ 
+
+04:37 ~ 
+
+05:13 
+
+Perawatan pasca akut 
+
+dan pencegahan 
+
+kembali, penjelasan 
+
+factor gaya hidup 
+
+Kategori 6 Faktor Keberhasilan Perawatan Pasca Stroke 
+
+Scene Sequence Board Durasi Naskah 
+
+1 1 
+
+ 
+
+00:00 ~ 
+
+00:13 
+
+Keberhasilan 
+
+perawatan pasien 
+
+stroke didukung oleh 
+
+banyak faktor yang 
+
+dapat dimodifikasi 
+
+atau dapat dilakukan 
+
+oleh pihak keluarga 
+
+ 2 
+
+ 
+
+00:14 ~ 
+
+02:05 
+
+Pertama, 
+
+mempertahankan 
+
+kesehatan kulit 
+
+pasien, terdiri dari : 
+
+mengenali area 
+
+tertekan, mengenali 
+
+thrombosis vena, 
+
+tempat tidur anti 
+
+decubitus, menjaga 
+
+kesehatan kulit, 
+
+nutrisi adekuat, 
+
+gerakan terjadwal 
+
+ 3 
+
+ 
+
+02:06 ~ 
+
+02:52 
+
+Kedua, meningkatkan 
+
+fungsi ekstrimitas dan 
+
+mobilisasi, penjelasan 
+
+kegiatan mobilisasi 
+
+yaitu ROM ( Range of 
+
+Motion ) 
+
+
+
+33 
+ 
+
+Scene Sequence Board Durasi Naskah 
+
+2 1 
+
+ 
+
+00:00 ~ 
+
+26:44 
+
+Simulasi ROM,  
+
+3 1 
+
+ 
+
+00:00 ~ 
+
+01:39 
+
+Lanjutan, faktor 
+
+keberhasilan 
+
+perawatan pasca 
+
+stroke : meningkatkan 
+
+koping keluarga, 
+
+mencegah nyeri bahu, 
+
+latihan wicara 
+
+terstruktur, latihan 
+
+menelan 
+
+ 2 
+
+ 
+
+01:40 ~ 
+
+02:12 
+
+Faktor terakhir, 
+
+pasien membutuhkan 
+
+pendampingan oleh 
+
+pihak keluarga, 
+
+perawat, dokter dan 
+
+terapis secara 
+
+berkesinambungan 
+
+dengan penuh 
+
+kesabaran dan 
+
+motivasi tinggi 
+
+ 
+
+3.4.2 Perancangan Aset Animasi 
+
+Perancangan aset animasi dibuat menggunakan Photoshop dan Inkscape 
+
+dan nantinya digerakkan ke dalam program animasi Videoscribe. Aset dibuat 
+
+berdasarkan visualiasi dari penyakit stroke. Berikut kumpulan aset yang dibuat 
+
+dalam animasi dapat dilihat di Tabel 3.3. 
+
+ 
+
+ 
+
+
+
+34 
+ 
+
+Tabel 3.3 Perancangan Aset Animasi 
+
+No Gambar Aset Keterangan 
+
+1 
+
+ 
+
+Gambar otak 
+
+2 
+
+ 
+
+Gambar penyebab terjadinya 
+
+stroke, pecah pembuluh darah dan 
+
+sumbatan pembuluh darah di otak 
+
+3 
+
+ 
+
+Gambar ciri-ciri stroke 
+
+4 
+
+ 
+
+Gambar luka tekan 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+35 
+ 
+
+No Gambar Aset Keterangan 
+
+5 
+
+ 
+
+Gambar persentase kerusakan 
+
+fungsi tubuh pasca stroke 
+
+6 
+
+ 
+
+Gambar care giver atau pemberi 
+
+asuhan 
+
+7 
+
+ 
+
+Gambar gerakan ROM ( Range of 
+
+Motion ) pasif A 
+
+8 
+
+ 
+
+Gambar gerakan ROM ( Range of 
+
+Motion ) pasif B 
+
+ 
+
+9 
+
+ 
+
+Gambar gerakan ROM ( Range of 
+
+Motion ) pasif C 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+36 
+ 
+
+No Gambar Aset Keterangan 
+
+10 
+
+ 
+
+Gambar gerakan ROM ( Range of 
+
+Motion ) pasif D 
+
+ 
+
+11 
+
+ 
+
+Gambar gerakan ROM ( Range of 
+
+Motion ) pasif E 
+
+12 
+
+ 
+
+Gambar kebersihan diri 
+
+13 
+
+ 
+
+Gambar tempat tidur anti dekubitus 
+
+14 
+
+ 
+
+Gambar pengecekan tekanan darah 
+
+
+
+37 
+ 
+
+No Gambar Aset Keterangan 
+
+15 
+
+ 
+
+Gambar pengecekan gula darah 
+
+16 
+
+ 
+
+Gambar deep vein thrombosis atau 
+
+thrombosis vena 
+
+17 
+
+ 
+
+Gambar perubahan emosi 
+
+18 
+
+ 
+
+Gambar kegiatan sehari-hari 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+38 
+ 
+
+3.5 Perancangan Aplikasi 
+
+3.5.1 Arsitektur Aplikasi 
+
+Arsitektur aplikasi merupakan sebuah teknologi spesifikasi yang akan 
+
+digunakan untuk mengimplementasikan sistem informasi. Arsitektur aplikasi 
+
+menjadi suatu desain aplikasi yang terdiri dari komponen-komponen yang saling 
+
+berinteraksi antara satu dengan yang lain.  
+
+Aplikasi yang dibangun adalah aplikasi yang bertujuan menggantikan 
+
+pembelajaran oleh tenaga kesehatan yang masih bersifat konvensional. Selain 
+
+pengguna dapat belajar dari aplikasi ini, pengguna juga dapat bertanya dan 
+
+mengisi kuis terkait dengan masalah stroke. Admin juga dapat mengelola aplikasi 
+
+seperti menambahkan, mengubah atau menghapus data pada aplikasi ini. Aplikasi 
+
+ini berjalan melalui media internet, dimana tiap pengguna website memiliki hak 
+
+akses yang sama dan dapat mengakses aplikasi dalam waktu yang bersamaan. 
+
+Berikut Gambar 3.2 menjelaskan secara umum gambaran tentang aplikasi yang 
+
+dapat di akses oleh pengguna.  
+
+ 
+
+Gambar 3.2 Arsitektur Aplikasi 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+39 
+ 
+
+3.5.2 Flowchart  
+
+Berikut ini adalah gambaran aliran data atau flowchart pada aplikasi 
+
+virtual learning stroke : 
+
+ 
+Gambar 3.3 Flowchart aplikasi virtual learning stroke 
+
+ 
+
+
+
+40 
+ 
+
+Flowchart di atas dapat dibaca sebagai berikut: 
+
+1. Mulai. 
+
+2. Pengguna mengakses halaman website. 
+
+3. Apabila aplikasi sudah terkoneksi internet, maka aplikasi akan menampilkan 
+
+halaman website.  
+
+4. Aplikasi menampilkan menu materi, menu tanya jawab dan menu kuis. 
+
+5. Pengguna dapat memilih materi animasi pada menu materi. 
+
+6. Pengguna dapat memilih menu tanya jawab. 
+
+7. Pengguna mengisi email, judul dan pertanyaan pada menu tanya jawab. 
+
+8. Setelah pengguna mengisi pertanyaan, pengguna dapat mengirim pertanyaan 
+
+yang telah diisi. 
+
+9. Pengguna dapat memilih menu kuis. 
+
+10. Pengguna dapat menjawab pertanyaan yang tertera. 
+
+11. Aplikasi menampilkan jawaban kuis. 
+
+12. Pengguna menutup aplikasi. 
+
+13. Selesai. 
+
+Berikut ini adalah gambaran aliran data atau flowchart pada halaman 
+
+admin virtual learning stroke : 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+41 
+ 
+
+ 
+
+Gambar 3.4 Flowchart halaman admin 
+
+
+
+42 
+ 
+
+Flowchart di atas dapat dibaca sebagai berikut: 
+
+1. Mulai. 
+
+2. Pengguna memasukkan email dan password pada halaman login. 
+
+3. Aplikasi akan memvalidasi hasil login. 
+
+4. Apabila data berhasil divalidasi, maka akan masuk kedalam halaman admin 
+
+yang terdiri dari 3 menu utama yaitu kategori materi, kuis dan tanya jawab. 
+
+5. Apabila data tidak berhasil divalidasi, pengguna diminta memasukkan kembali 
+
+email dan password. 
+
+6. Apabila pengguna memilih menu kategori materi, maka aplikasi menampilkan 
+
+data kategori materi. 
+
+7. Pengguna dapat mengelola data kategori materi. 
+
+8. Apabila data sesuai validasi, maka aplikasi akan menampilkan notifikasi data 
+
+berhasil disimpan. 
+
+9. Apabila pengguna memilih menu materi, maka aplikasi menampilkan data 
+
+materi animasi. 
+
+10. Pengguna dapat mengelola data materi 
+
+11. Apabila data sesuai validasi, maka aplikasi akan menampilkan notifikasi data 
+
+berhasil disimpan. 
+
+12. Apabila pengguna memilih menu kuis, maka aplikasi menampilkan data kuis. 
+
+13. Pengguna dapat mengelola data kuis. 
+
+14. Apabila data sesuai validasi, maka aplikasi akan menampilkan notifikasi data 
+
+berhasil disimpan. 
+
+15. Apabila pengguna memilih menu tanya jawab, maka aplikasi menampilkan 
+
+data tanya jawab. 
+
+16. Pengguna dapat mengelola data tanya jawab. 
+
+17. Apabila data sesuai validasi, maka aplikasi akan menampilkan notifikasi 
+
+pertanyaan sudah dijawab. 
+
+18. Pengguna memilih menu logout 
+
+19. Selesai. 
+
+ 
+
+ 
+
+ 
+
+
+
+43 
+ 
+
+3.5.3 Perancangan Unified Modeling Language (UML) 
+
+3.5.3.1 Use Case Diagram 
+
+ Diagram use case berikut menggambarkan interaksi aktor yang terlibat 
+
+dalam sistem atau aplikasi. Dalam aplikasi ini user dapat melakukan interaksi 
+
+yaitu memilih materi, tanya jawab dan menjawab kuis. Sedangkan admin dapat 
+
+melakukan kelola materi, kuis dan tanya jawab. Use case diagram pada penelitian 
+
+ini dapat dilihat pada Gambar 3.5. 
+
+ 
+
+Gambar 3.5. Use Case Diagram 
+
+ Dari use case diatas dapat diketahui definisi kebutuhan fungsional dan 
+
+operasional sistem. Definisi dari setiap use case diatas dapat dilihat pada Table 
+
+3.4. 
+
+ 
+
+ 
+
+
+
+44 
+ 
+
+Tabel 3.4. Definisi Usecase 
+
+Kode Use Case Deskripsi 
+
+UC-01 Memilih kategori lesson Pengguna memilih salah satu 
+
+kategori lesson di website 
+
+virtual learning 
+
+UC-02 Memilih video lesson Setelah pengguna memilih 
+
+kategori lesson, maka aplikasi 
+
+akan membuka halaman video 
+
+lesson. 
+
+UC-03 Mengajukan Tanya Jawab Pengguna dapat melalukan input 
+
+pertanyaan terkait dengan materi  
+
+UC-04 Menjawab Kuis Pengguna dapat menjawab kuis 
+
+terkait dengan materi 
+
+UC-06 Mengelola kategori lesson Admin melakukan pengelolaan 
+
+kategori lesson meliputi tambah, 
+
+edit dan hapus 
+
+UC-07 Mengelola video lesson Admin melakukan pengelolaan 
+
+video lesson meliputi tambah, 
+
+edit dan hapus 
+
+UC-08 Mengelola Tanya Jawab Admin melakukan pengelolaan 
+
+tanya jawab yang telah dikirim 
+
+dari pengguna 
+
+UC-09 Mengelola Kuis Admin melakukan pengelolaan 
+
+panel kuis meliputi tambah, edit 
+
+dan hapus 
+
+UC-10 Validasi Sistem melakukan validasi saat 
+
+admin melakukan login 
+
+UC-11 Login Admin melakukan login untuk 
+
+mengelola data website 
+
+UC-12 Logout Admin melakukan logout 
+
+ 
+
+ 
+
+
+
+45 
+ 
+
+3.5.3.2 Activity Diagram 
+
+Activity diagram menggambarkan alir aktivitas dalam sistem yang 
+
+dirancang yang melibatkan tindakan pengguna atau user dalam menggunakan 
+
+aplikasi. Dalam activity diagram berikut akan di perlihatkan tindakan pengguna 
+
+dalam menggunakan aplikasi yang dimulai dari awal aplikasi dijalankan kemudian 
+
+pengguna atau user dapat memilih menu materi, tanya jawab dan kuis. Sedangkan 
+
+admin dapat melakukan login, kelola data materi, kelola data kuis dan kelola data 
+
+tanya jawab. Selain itu dalam diagram tersebut juga akab menjelaskan aktivitas 
+
+yang akan dilakukan oleh sistem setelah pengguna melakukan tindakan atau 
+
+aktivitas. 
+
+ 
+Gambar 3.6 Activity See Lesson 
+
+Pada saat pengguna mengakses website, pengguna dapat memilih materi 
+
+animasi sesuai kategori yang ditampilkan di dalam website. Setelah pengguna 
+
+memilih salah satu materi animasi, maka website akan membuka halaman baru 
+
+berisikan materi animasi. 
+
+
+
+46 
+ 
+
+ 
+
+Gambar 3.7 Activity Tanya Jawab 
+
+Di halaman tanya jawab, user dapat mengirimkan pertanyaan seputar 
+
+materi animasi yang ditampilkan. 
+
+ 
+
+Gambar 3.8 Activity Admin Lesson Group Management 
+
+
+
+47 
+ 
+
+Admin dapat mengelola data kategori materi animasi dimana admin dapat 
+
+melakukan tambah, edit dan menghapus data. Setelah melakukan kelola data, 
+
+maka sistem akan menampilkan data pada bagian halaman depan website. 
+
+ 
+
+Gambar 3.9 Activity Admin Lesson Management 
+
+Admin dapat mengelola data video animasi yang terdapat dalam kategori 
+
+materi dimana admin dapat melakukan tambah, edit dan menghapus data.  
+
+
+
+48 
+ 
+
+ 
+
+Gambar 3.10 Activity Admin Quiz Management 
+
+Admin dapat mengelola data kuis dimana admin dapat melakukan tambah, 
+
+edit dan menghapus data kuis.  
+
+ 
+
+
+
+49 
+ 
+
+ 
+
+Gambar 3.11 Activity  Diagram Admin Tanya Jawab 
+
+Setelah user menginput tanya jawab, admin dapat melakukan kelola data 
+
+pertanyaan user. Pertanyaan akan ditandai bila telah terjawab oleh admin. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+50 
+ 
+
+3.5.3.3 Class Diagram 
+
+Class diagram digunakan untuk menampilkan kelas-kelas dan paket-paket 
+
+di dalam sistem. Berikut merupakan tabel pemetaan kelas terhadap use case yang 
+
+dapat dilihat pada gambar 3.12 dan gambar 3.13. 
+
+ 
+
+Gambar 3.12 Class Digram Controller 
+
+
+
+51 
+ 
+
+ 
+
+Gambar 3.13 Class Digram Model 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+52 
+ 
+
+3.5.3.4 Sequence Diagram 
+
+Sequence Diagram merupakan diagram yang menunjukkan sejumlah 
+
+contoh objek dan message (pesan) yang melakukan satu tugas atau aksi tertentu. 
+
+Komponen utama sequence diagram terdiri atas obyek yang dituliskan dengan 
+
+kotak segi empat. Message diwakili oleh garis dengan tanda panah, dan waktu 
+
+yang ditunjukkan dengan progres vertikal. 
+
+a. Admin 
+
+• Login 
+
+ 
+
+Gambar 3.14 Sequence Login 
+
+Gambar 3.14 Merupakan Sequence Login dimana Admin dapat 
+
+memasukan user atau email dan password yang sesuai di database server agar 
+
+dapat mengakses langsung ke halaman panel. 
+
+• Logout 
+
+ 
+Gambar 3.15 Sequence Logout 
+
+Gambar 3.15 Merupakan Sequence Logout dimana Admin dapat 
+
+menekan tombol logout agar dapat keluar dari halaman panel. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+53 
+ 
+
+• Create : Group Lesson 
+
+ 
+
+Gambar 3.16 Sequence Create : Group Lesson 
+
+Gambar 3.16 Merupakan Sequence Create : Group Lesson dimana 
+
+Admin dapat membuat kelompok kategori lesson video untuk visitor. 
+
+ 
+
+• Edit : Group Lesson 
+
+ 
+
+Gambar 3.17 Sequence Edit : Group Lesson 
+
+Gambar 3.17 Merupakan Sequence Edit : Group Lesson dimana Admin 
+
+dapat mengubah kelompok kategori lesson video untuk visitor. 
+
+ 
+
+• Delete : Group Lesson 
+
+ 
+
+Gambar 3.18 Sequence Delete : Group Lesson 
+
+Gambar 3.18 Merupakan Sequence Delete : Group Lesson dimana 
+
+Admin dapat Menghapus kelompok kategori lesson video untuk visitor 
+
+ 
+
+
+
+54 
+ 
+
+• Create : Lesson 
+
+ 
+
+Gambar 3.19 Sequence Create : Lesson 
+
+Gambar 3.19 Merupakan Sequence Create : Lesson dimana Admin dapat 
+
+menambah video pembelajaran untuk visitor pada masing-masing kategori. 
+
+ 
+
+• Edit : Lesson 
+
+ 
+
+Gambar 3.20 Sequence Edit : Lesson 
+
+Gambar 3.20 Merupakan Sequence Edit : Lesson dimana Admin dapat 
+
+mengubah video dan deskripsi pembelajaran untuk visitor pada masing-masing 
+
+kategori. 
+
+ 
+
+• Delete : Lesson 
+
+ 
+
+Gambar 3.21 Sequence Delete : Lesson 
+
+Gambar 3.21 Merupakan Sequence Delete : Lesson dimana Admin dapat 
+
+Menghapus video pembelajaran untuk visitor pada masing-masing kategori. 
+
+ 
+
+ 
+
+ 
+
+
+
+55 
+ 
+
+• Answer Question 
+
+ 
+
+Gambar 3.22 Sequence Mark Question as Answered 
+
+Gambar 3.22 Merupakan Sequence Mark Question as Answered dimana 
+
+Admin menandai pertanyaan yang telah di jawab sesuai dengan id pertanyaan 
+
+yang ada di database server. 
+
+ 
+
+• Create : Quiz 
+
+ 
+
+Gambar 3.23 Sequence Create : Quiz 
+
+Gambar 3.23 Merupakan Sequence Create : Quiz dimana Admin dapat 
+
+Membuat daftar quiz yang ada di database server. 
+
+ 
+
+• Edit :Quiz 
+
+ 
+
+Gambar 3.24 Sequence Edit : Quiz 
+
+Gambar 3.24 Merupakan Sequence Edit : Quiz dimana Admin dapat 
+
+mengubah quiz yang ada di database server. 
+
+ 
+
+
+
+56 
+ 
+
+• Delete :  Quiz 
+
+ 
+
+Gambar 3.25 Sequence Delete : Quiz 
+
+Gambar 3.25 Merupakan Sequence Delete : Quiz dimana Admin dapat 
+
+menghapus quiz yang ada di database server. 
+
+ 
+
+• Create :  Choice quiz 
+
+ 
+
+Gambar 3.26 Sequence Create : Choice Quiz 
+
+Gambar 3.26 Merupakan Sequence Create : Choice Quiz dimana Admin 
+
+dapat membuat pilihan jawaban pada quiz yang ada di database server. 
+
+ 
+
+• Edit : Choice quiz 
+
+ 
+
+Gambar 3.27 Sequence Edit : Choice Quiz 
+
+Gambar 3.27 Merupakan Sequence Edit : Quiz dimana Admin dapat 
+
+mengubah pilihan jawaban pada quiz yang ada di database server. 
+
+ 
+
+ 
+
+
+
+57 
+ 
+
+• Delete Choice : quiz 
+
+ 
+
+Gambar 3.28 Sequence Delete : Choice Quiz 
+
+Gambar 3.28 Merupakan Sequence Delete : Quiz dimana Admin dapat 
+
+menghapus pilihan jawaban pada quiz yang ada di database server. 
+
+ 
+
+b. User 
+
+• See : Group Lesson 
+
+ 
+
+Gambar 3.29 Sequence See : Group Lesson 
+
+Gambar 3.29 Merupakan Sequence See : Group Lesson dimana user 
+
+dapat melihat kategori kelompok video pembelajaran. 
+
+ 
+
+• See : Lesson 
+
+ 
+Gambar 3.30 Sequence See : Lesson 
+
+Gambar 3.30 Merupakan Sequence See : Lesson dimana user dapat 
+
+melihat video pembelaran yang ada di halaman utama. 
+
+
+
+58 
+ 
+
+ 
+
+• Create : Question 
+
+ 
+
+Gambar 3.31 Sequence Create Question 
+
+Gambar 3.31 Merupakan Sequence Create Question dimana user dapat 
+
+mengajukan pertanyaan terkait dengan video pembelajaran. 
+
+ 
+
+• Answer Quiz 
+
+ 
+
+Gambar 3.32 Sequence Answer Quiz 
+
+Gambar 3.32 Merupakan Sequence Sequence Answer Quiz dimana visitor 
+
+dapat melihat dan menjawab quiz yang tersedia. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+59 
+ 
+
+3.6 Perancangan Aplikasi 
+
+3.6.1   Perancangan Antarmuka Aplikasi 
+
+ Perancangan antarmuka aplikasi ini menggambarkan tentang tampilan 
+
+aplikasi virtual Learning yang di bangun dengan berbasis web yang didukung 
+
+dengan framework laravel. 
+
+Tabel 3.5 Perancangan Antarmuka Aplikasi 
+
+Form Antarmuka Aplikasi Keterangan 
+
+1. 
+
+ 
+
+Halaman Utama, 
+
+berisikan halaman  judul 
+
+dan menu tampilan yang 
+
+terdiri atas : 
+
+1. Materi 
+
+2. Kuis 
+
+3. Tanya Jawab 
+
+2. 
+
+ 
+
+Halaman Materi vitual 
+
+learning terdiri dari 
+
+beberapa tampilan : 
+
+1. Materi animasi, user 
+
+dapat memutar dan 
+
+menjeda materi animasi. 
+
+2. Deskripsi Materi 
+
+animasi 
+
+3. List kategori materi 
+
+animasi 
+
+ 
+
+ 
+
+ 
+
+
+
+60 
+ 
+
+Form Antarmuka Aplikasi Keterangan 
+
+3. 
+
+ 
+
+Halaman tanya jawab 
+
+terdiri dari 4 menu, yaitu 
+
+: 
+
+1. Email user  
+
+2. Judul pertanyaan 
+
+3. Isi peratanyaan 
+
+4. Post pertanyaan 
+
+4. 
+
+ 
+
+Halaman Kuis user, user 
+
+Memilih jawaban dari 
+
+peratanyaan yang 
+
+disediakan 
+
+5. 
+
+ 
+
+Halaman Login Admin, 
+
+terdiri dari 3 menu : 
+
+1. Login email 
+
+2. Password Admin 
+
+3. Tombol Login 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+61 
+ 
+
+Form Antarmuka Aplikasi Keterangan 
+
+6. 
+
+ 
+
+Admin Question 
+
+Dashboard, terdiri dari 4 
+
+menu : 
+
+1. List pertanyaan 
+
+2. Pindah halaman 
+
+pertanyaan setelahnya 
+
+3. Pindah halaman 
+
+pertanyaan sebelumnya 
+
+4. Menandai pertanyaan 
+
+yang sudah dijawab 
+
+7. 
+
+ 
+
+Admin Kategori Video 
+
+Dashboard, terdiri dari : 
+
+1. Tambah Kategori 
+
+2. Edit Kategori 
+
+3. Edit Judul Kategori 
+
+4. Edit Deskripsi 
+
+Kategori 
+
+5. Masuk ke video 
+
+dashboard 
+
+1.  
+
+8. 
+
+ 
+
+Admin Video 
+
+Dashboard, terdiri dari : 
+
+1. Tambah video 
+
+2. Edit video 
+
+3. Edit judul video 
+
+4. Edit video 
+
+5. Edit deskripsi video 
+
+6. Edit link lesson video 
+
+ 
+
+ 
+
+ 
+
+
+
+62 
+ 
+
+Form Antarmuka Aplikasi Keterangan 
+
+9. 
+
+ 
+
+Admin Quiz Dashboard, 
+
+terdiri dari menu : 
+
+1. Tambah quiz 
+
+2. Tampilan Edit dan 
+
+delete quiz 
+
+3. Tampilan edit atau 
+
+tambah quiz 
+
+4. Tampilan edit atau 
+
+tambah judul lesson 
+
+ 
+
+  
+
+3.7 Tahapan Pembuatan Aplikasi 
+
+3.7.1 Pembuatan Animasi 
+
+3.7.1.1 Animating 
+
+Animating merupakan proses menggerakan objek-objek 2D. Gerakan yang 
+
+dibuat sesuai dengan aset dan storyboard yang sudah dibuat.  Proses animating  
+
+menggunakan software videoscribe. Videoscribe merupakan perangkat lunak 
+
+untuk membuat animasi papan tulis secara otomatis. Contoh animating dapat 
+
+dilihat pada gambar 3.29. 
+
+ 
+
+Gambar 3.33 Proses Animating 
+
+ 
+
+
+
+63 
+ 
+
+3.7.1.2 Rendering 
+
+Setelah proses animating, tahap selanjutnya ialah rendering. Rendering 
+
+merupakan proses membuat image dari sebuah model pada komputer grafik. 
+
+Untuk proses rendering ini, output yang dikeluarkan berupa video. Objek-objek 
+
+gambar yang diekstrak akan disatukan menjadi sebuah video. Proses output video 
+
+menggunakan resolusi 720p 24 fps. Proses rendering dapat dilihat pada gambar 
+
+3.30. 
+
+ 
+
+Gambar 3.34 Proses Rendering 
+
+ 
+
+3.7.2 Pembuatan Aplikasi 
+
+Setelah animasi dibuat, tahapan berikutnya yang dilakukan yaitu 
+
+pembuatan aplikasi. Pembuatan aplikasi dilakukan dengan memasukkan kode-
+
+kode bahasa pemrograman ke dalam teks editor. Aplikasi dibangun menggunakan 
+
+bahasa pemrograman PHP dengan menggunakan framework Laravel dan 
+
+javascript. Didalam aplikasi, konten animasi kemudian di upload melalui via 
+
+youtube dan kemudian ditampilkan pada aplikasi yang telah dibuat. 
+
+ 
+
+3.8       Pengujian Aplikasi 
+
+3.8.1 Pengujian User Acceptance Test (UAT) 
+
+Pengujian yang dilakukan adalah user acceptance test (UAT), yaitu 
+
+menguji tingkat penerimaan user terhadap sistem melalui kuesioner. Kuesioner 
+
+berisi beberapa pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan 
+
+
+
+64 
+ 
+
+dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat lunak, aspek 
+
+fungsionalitas, dan aspek komunikasi visual. Pengguna akan diberikan lembar 
+
+kuesioner yang memiliki 13 pertanyaan. Perhitungan dilakukan dengan 
+
+menggunakan skala likert, dimana setiap pertanyaan memiliki bobot nilai. Adapun 
+
+bobot jawaban yang diberikan adalah sebagai berikut: 
+
+Tabel 3.6 Bobot jawaban 
+
+Keterangan Jawaban Bobot Nilai 
+
+Sangat Baik 5 
+
+Baik 4 
+
+Cukup Baik 3 
+
+Kurang Baik 2 
+
+Tidak Baik 1 
+
+ 
+
+3.8.1.1 Aspek Rekayasa Perangkat Lunak 
+
+Hasil kuesioner aspek rekayasa perangkat lunak dirangkum dalam sebuah 
+
+tabel seperti pada tabel 3.7 berikut. 
+
+Tabel 3.7 Tabel Hasil Kuesioner Aspek Rekayasa Perangkat Lunak 
+
+No. Aspek 
+Nilai Pengujian Persentase 
+
+Likert TB KB CB B SB 
+
+Aspek Rekayasa Perangkat Lunak 
+
+1. 
+Tombol menu dapat 
+
+digunakan dengan baik 
+      
+
+2. 
+Aplikasi dapat menampilkan 
+
+video animasi 
+      
+
+3. 
+Aplikasi dapat diakses oleh 
+
+pengguna dengan mudah 
+      
+
+4. 
+Fungsi fitur-fitur pada 
+
+aplikasi berjalan dengan baik 
+      
+
+Jumlah(%)  
+
+ 
+
+3.8.1.2 Aspek Fungsionalitas 
+
+Hasil kuesioner aspek fungsionalitas dirangkum dalam sebuah tabel seperti 
+
+pada tabel 3.8 berikut. 
+
+ 
+
+ 
+
+ 
+
+
+
+65 
+ 
+
+Tabel 3.8 Tabel Hasil Kuesioner Aspek Fungsionalitas 
+
+No. Aspek 
+Nilai Pengujian Persentase 
+
+Likert TB KB CB B SB 
+
+Aspek Fungsionalitas 
+
+1. 
+Materi animasi yang 
+
+ditampilkan mudah dipahami 
+      
+
+2. 
+Audio materi animasi 
+
+terdengar jelas 
+      
+
+3. Materi animasi tidak 
+
+membosanakan 
+      
+
+4. Aplikasi ini dapat menjadi 
+
+suatu sarana diskusi antara 
+
+keluarga dan perawat 
+
+ 
+
+      
+
+5. Aplikasi ini menjadi solusi 
+
+untuk menggantikan 
+
+pembelajaran  konvesional 
+
+terkait penyakit stroke 
+
+      
+
+Jumlah(%)  
+
+ 
+
+3.8.1.3 Aspek Komunikasi Visual 
+
+Hasil kuesioner aspek rekayasa perangkat lunak dirangkum dalam sebuah 
+
+tabel seperti pada tabel 3.9 berikut. 
+
+Tabel 3.9 Tabel Hasil Kuesioner Aspek Komunikasi Visual 
+
+No. Aspek 
+Nilai Pengujian Persentase 
+
+Likert TB KB CB B SB 
+
+Aspek Komunikasi Visual 
+
+1. Tampilan antarmuka aplikasi 
+
+mudah dipahami 
+      
+
+2. Jenis dan ukuran huruf yang 
+
+digunakan mudah dibaca 
+      
+
+3. Tampilan menu aplikasi 
+
+sudah baik 
+      
+
+4. Kombinasi warna pada video 
+
+animasi sudah baik 
+      
+
+Jumlah(%)  
+
+ 
+
+Nilai persentase skala likert dihitung dengan rumus berikut ini: 
+
+𝐿 =
+(SB x 5)+(B x 4)+(CB x 3)+(KB x 2)+(TB x1)
+
+NB
+x100  
+
+    
+
+    
+
+
+
+66 
+ 
+
+Keterangan : 
+
+- L : Nilai persentase likert 
+
+- SB : Jumlah responden yang memilih pilihan sangat baik 
+
+- B : Jumlah responden yang memilih pilihan baik 
+
+- CB : Jumlah responden yang memilih pilihan cukup baik 
+
+- KB : Jumlah responden yang memilih pilihan kurang baik 
+
+- TB : Jumlah responden yang memilih pilihan tidak baik 
+
+- NB : 5 (bobot tertinggi) x jumlah responden 
+
+Untuk menyimpulkan hasil akhir dari aplikasi, harus diketahui terlebih dahulu 
+
+nilai interval total persentase dengan metode pencarian nilai interval pada 
+
+persamaan berikut ini: 
+
+I = 100 / 5 = 20             
+
+Nilai 5 didapat dari jumlah pilihan yang diberikan dalam kuesioner. 
+
+Nilai interval persentase pada kuesioner ini yaitu: 
+
+- X <= 19,99% dikategorikan tidak baik 
+
+- 20% >= X <= 39,99% dikategorikan kurang baik  
+
+- 40% >= X <= 59,99% dikategorikan cukup baik 
+
+- 60% >= X <= 79,99% dikategorikan baik 
+
+- X >= 80% dikategorikan sangat baik 
+
+ 
+
+
+
+67 
+ 
+
+BAB IV 
+
+HASIL PERANCANGAN DAN PENGUJIAN APLIKASI 
+
+ 
+
+Pada bab ini akan menjelaskan tentang hasil perancangan aplikasi virtual 
+
+learning pada studi kasus RSUD. Dr. Soedarso yang akan dipaparkan melalui 
+
+gambar atau screenshot dan penjelasan yang diberikan. Selain itu, pada bab ini 
+
+juga akan menjelaskan tentang hasil pengujian yang dilakukan pada aplikasi 
+
+dengan menggunakan kuesioner untuk menguji operasional aplikasi yang 
+
+dijalankan oleh pengguna. 
+
+ 
+
+4.1 Hasil Perancangan Antarmuka 
+
+4.1.1 Hasil Perancangan Antarmuka Aplikasi User 
+
+Berikut adalah pemaparan hasil perancangan aplikasi virtual learning 
+
+stroke. Antarmuka aplikasi ini terdiri dari menu tanya jawab, kuis dan materi yang 
+
+terdiri dari kategori video animasi. Fungsi dari masing-masing menu dapat dilihat 
+
+pada Tabel 4.1. 
+
+Tabel 4.1 Daftar menu aplikasi virtual learning dan fungsinya 
+
+Menu Fungsi 
+
+Menu Utama Menampilkan halaman utama, terdiri dari materi, 
+
+tanya jawab dan kuis 
+
+Menu Materi Menampilkan materi animasi. Materi animasi tersebut 
+
+dikelompokkan dalam beberapa kategori dan kategori 
+
+tersebut terdiri dari beberapa video animasi. 
+
+Menu Kuis Menampilkan daftar kuis 
+
+Menu Admin Mengolah isi yang akan di tampilkan di menu materi. 
+
+Menu Tanya Jawab User dapat bertanya sesuai dengan materi 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+68 
+
+ 
+
+ 
+
+ 
+
+1. Antarmuka utama aplikasi 
+
+Ketika pengguna mengakses website, maka akan tampil menu materi yang 
+
+akan dilihat pengunjung. Website akan menampilkan isi materi yang akan 
+
+ditampilkan beruba video dan deskripsi tentang video tersebut. Antarmuka 
+
+utama aplikasi dapat dilihat pada Gambar 4.1.  
+
+ 
+Gambar 4.1 Tampilan antarmuka 
+
+ 
+
+2. Antarmuka Kategori Video Animasi 
+
+Berikut ini tampilan kategori video animasi. Masing-masing kategori 
+
+memiliki beberapa materi dan deskripsi. Antarmuka kategori video 
+
+animasi dapat dilihat pada Gambar 4.2 
+
+ 
+Gambar 4.2 Antarmuka kategori video animasi 
+
+
+
+69 
+
+ 
+
+ 
+
+ 
+
+3. Antarmuka Tampilan Video Animasi 
+
+Pada menu ini, pengguna dapat meng-klik tombol play materi yang ada 
+
+pada tampilan menu utama web. Kemudian aplikasi akan menampilkan 
+
+video yang dipilih pengguna. Antarmuka tampilan video dapat dilihat pada 
+
+Gambar 4.3 
+
+                             
+Gambar 4.3 Antarmuka materi video animasi 
+
+ 
+
+4. Antarmuka Menu Tanya Jawab 
+
+Pada menu ini, visitor dapat bertanya sesuai materi video animasi yang 
+
+ditampilkan. Visitor dapat mengisi form email, judul serta pertanyaan yang 
+
+akan ditanyakan. Pertanyaaan tersebut akan dijawab oleh admin melalui 
+
+email visitor. Antarmuka tanya jawab dapat dilihat pada Gambar 4.4. 
+
+ 
+
+Gambar 4.4 Antarmuka menu tanya jawab 
+
+
+
+70 
+
+ 
+
+ 
+
+ 
+
+5. Antarmuka Menu Quiz 
+
+Berikut ini tampilan quiz untuk visitor. Menu quiz ini dibuat untuk 
+
+menguji pemahaman visitor dari materi yang dipaparkan. Antarmuka 
+
+menu quiz dapat dilihat pada Gambar 4.5 
+
+ 
+
+Gambar 4.5 Antarmuka menu quiz 
+
+ 
+
+4.1.2 Hasil Perancangan Antarmuka Aplikasi Admin 
+
+ Berikut adalah pemaparan hasil dari perancangan aplikasi virtual learning 
+
+stroke. Antarmuka aplikasi ini terdiri dari menu lesson, quiz dan question. Fungsi 
+
+dari masing-masing menu dapat dilihat pada Tabel 4.2. 
+
+Tabel 4.2 Daftar menu halaman admin dan fungsinya 
+
+Menu Fungsi 
+
+Lesson Menampilkan halaman daftar materi animasi, terdiri 
+
+dari kategori lesson dan video animasi, data dapat 
+
+diolah 
+
+Quiz Menampilkan data daftar kuis, data dapat diolah 
+
+Question Menampilkan data daftar pertanyaan, data dapat 
+
+diolah 
+
+ 
+
+ 
+
+
+
+71 
+
+ 
+
+ 
+
+ 
+
+1. Antarmuka halaman login 
+
+Sebelum pengguna dapat mengakses halaman admin, pengguna harus login 
+
+terlebih dahulu dengan memasukkan email dan password. Antarmuka 
+
+halaman login dapat dilihat pada gambar 4.6. 
+
+ 
+
+ Gambar 4.6 Antarmuka halaman login 
+
+ 
+
+2. Antarmuka halaman group lesson 
+
+Pada halaman ini berisi group lesson yang akan ditampilkan, pengguna dapat 
+
+mengolah data berupa tambah, edit dan hapus data. Pengguna juga dapat 
+
+melihat isi dari group lesson yang nantinya dapat diisi dengan video animasi. 
+
+Antarmuka halaman lesson dapat dilihat pada gambar 4.7. 
+
+ 
+
+Gambar 4.7 Antarmuka halaman group lesson 
+
+ 
+
+ 
+
+
+
+72 
+
+ 
+
+ 
+
+ 
+
+3. Antarmuka tambah data group lesson 
+
+Pengguna dapat menambahkan data group lesson dengan mengisi judul group 
+
+lesson dan deskripsi group lesson. Antarmuka tambah data lesson dapat 
+
+dilihat pada gambar 4.8. 
+
+ 
+
+Gambar 4.8 Antarmuka tambah data group lesson 
+
+ 
+
+4. Antarmuka edit data group lesson 
+
+Pengguna dapat mengubah atau meng-edit data group lesson dengan 
+
+mengubah judul group lesson dan deskripsi group lesson. Antarmuka edit 
+
+data group lesson dapat dilihat pada gambar 4.9. 
+
+ 
+
+Gambar 4.9 Antarmuka edit data group lesson 
+
+
+
+73 
+
+ 
+
+ 
+
+ 
+
+5. Antarmuka hapus data group lesson 
+
+Pengguna dapat menghapus data group lesson dengan menekan tombol hapus 
+
+yang terdapat pada kotak group lesson. Antarmuka hapus data group lesson 
+
+dapat dilihat pada gambar 4.10. 
+
+ 
+Gambar 4.10 Antarmuka hapus data group lesson 
+
+ 
+
+6. Antarmuka halaman lesson 
+
+Pada halaman ini berisi lesson yang akan ditampilkan, lesson nantinya akan 
+
+menampilkan video animasi. Pengguna dapat mengolah data berupa tambah, 
+
+edit dan hapus data. Antarmuka halaman lesson dapat dilihat pada gambar 
+
+4.11. 
+
+ 
+Gambar 4.11 Antarmuka halaman lesson 
+
+
+
+74 
+
+ 
+
+ 
+
+ 
+
+7. Antarmuka tambah data lesson 
+
+Pengguna dapat menambahkan data lesson dengan mengisi judul, deskripsi, 
+
+thumbnail, dan video url lesson. Antarmuka tambah data lesson dapat dilihat 
+
+pada gambar 4.12. 
+
+ 
+
+Gambar 4.12 Antarmuka tambah data lesson 
+
+ 
+
+8. Antarmuka edit data lesson 
+
+Pengguna dapat mengubah atau meng-edit data lesson dengan mengisi judul, 
+
+deskripsi, thumbnail, dan video url lesson. Antarmuka edit data lesson dapat 
+
+dilihat pada gambar 4.13. 
+
+ 
+
+Gambar 4.13 Antarmuka edit data lesson 
+
+ 
+
+ 
+
+ 
+
+
+
+75 
+
+ 
+
+ 
+
+ 
+
+9. Antarmuka hapus data lesson 
+
+Pengguna dapat menghapus data lesson dengan menekan tombol hapus yang 
+
+terdapat pada kotak lesson. Antarmuka hapus data lesson dapat dilihat pada 
+
+gambar 4.14. 
+
+ 
+
+Gambar 4.14 Antarmuka hapus data lesson 
+
+ 
+
+10. Antarmuka halaman quiz 
+
+Pada halaman menu quiz terdapat tabel yang berisi data kuis. Pengguna dapat 
+
+mengolah data berupa tambah, edit dan hapus. Antarmuka halaman quiz dapat 
+
+dilihat pada gambar 4.15. 
+
+ 
+
+Gambar 4.15 Antarmuka halaman quiz 
+
+ 
+
+11. Antarmuka tambah quiz 
+
+Pengguna dapat menambahkan kuis dengan mengisi di kolom pertanyaan. 
+
+Antarmuka tambah quiz dapat dilihat pada gambar 4.16. 
+
+ 
+
+ 
+
+
+
+76 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.16 Antarmuka tambah quiz 
+
+ 
+
+12. Antarmuka tambah pilihan jawaban quiz 
+
+Pengguna dapat menambahkan pilihan jawaban pada kuis dengan mengisi di 
+
+kolom jawaban dan juga dapat memilih jawaban yang benar. Antarmuka 
+
+tambah pilihan jawabn quiz dapat dilihat pada gambar 4.17. 
+
+ 
+
+Gambar 4.17 Antarmuka tambah pilihan jawaban quiz 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+77 
+
+ 
+
+ 
+
+ 
+
+13. Antarmuka edit quiz 
+
+Pengguna dapat mengubah atau meng-edit quiz dengan mengisi di kolom 
+
+pertanyaan. Antarmuka edit quiz dapat dilihat pada gambar 4.18. 
+
+ 
+
+Gambar 4.18 Antarmuka edit quiz 
+
+ 
+
+14. Antarmuka edit pilihan jawaban quiz 
+
+Pengguna dapat mengubah atau meng-edit pilihan jawaban pada kuis dengan 
+
+mengisi di kolom jawaban dan juga dapat mengubah jawaban yang benar. 
+
+Antarmuka edit pilihan jawabn quiz dapat dilihat pada gambar 4.19. 
+
+ 
+
+Gambar 4.19 Antarmuka edit pilihan jawaban quiz 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+78 
+
+ 
+
+ 
+
+ 
+
+15. Antarmuka hapus quiz 
+
+Pengguna dapat menghapus kuis dengan menekan tombol hapus yang 
+
+terdapat pada kotak quiz. Antarmuka hapus quiz dapat dilihat pada gambar 
+
+4.20. 
+
+ 
+
+Gambar 4.19 Antarmuka hapus quiz 
+
+ 
+
+16. Antarmuka hapus pilihan jawaban quiz 
+
+Pengguna dapat menghapus pilihan jawaban kuis dengan menekan tombol 
+
+hapus yang terdapat pada kotak quiz. Antarmuka hapus pilihan jawaban quiz 
+
+dapat dilihat pada gambar 4.21. 
+
+ 
+
+Gambar 4.21 Antarmuka hapus pilihan jawaban quiz 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+79 
+
+ 
+
+ 
+
+ 
+
+17. Antarmuka halaman question 
+
+Pada halaman menu question terdapat tabel yang berisi data tanya jawab. 
+
+Pengguna dapat melihat pertanyaan yang masuk dan menjawab pertanyaan. 
+
+Antarmuka halaman quiz dapat dilihat pada gambar 4.22. 
+
+ 
+
+Gambar 4.22 Antarmuka halaman question 
+
+4.2 Pengujian Aplikasi 
+
+ Pengujian aplikasi dilakukan untuk mendapatkan informasi dan 
+
+mengetahui apakah aplikasi sudah dapat berjalan dengan baik dan apakah aplikasi 
+
+sudah mencapai tujuan atau tidak. Pengujian yang dilakukan menggunakan 
+
+metode User Acceptance Test (UAT) untuk menguji operasional aplikasi. 
+
+ 
+
+4.2.2 Pengujian User Acceptance Test (UAT) 
+
+ Pengujian ini dilakukan dengan membagikan lembar pengujian UAT 
+
+kepada 52 responden untuk melihat pendapat dan repon dari pengguna terhadap 
+
+operasional aplikasi. Pengujian dilakukan pada tanggal 27 Juni – 2 Juli 2019 
+
+dengan tahapan pengujian sebagai berikut : 
+
+- Penulis memberikan lembar pengujian UAT kepada responden melalui 
+
+google form. Lembar pengujian UAT berisi tentang pertanyaan  seputar 
+
+aplikasi yang dijalankan yang terdiri dari 3 aspek yaitu aspek rekayasa 
+
+perangkat lunak, aspek fungsionalitas dan aspek komunikasi visual 
+
+- Penulis menunjukkan aplikasi virtual learning stroke kepada responden 
+
+ 
+
+
+
+80 
+
+ 
+
+ 
+
+ 
+
+- Penulis menjelaskan alur dan konten yang ada pada aplikasi 
+
+- Responden mengisi lembar kuesioner yang terdiri dari identitas dan 
+
+pertanyaan seputar aplikasi. 
+
+Berikut ini adalah hasil dari rekapitulasi penilaian terhadap pengguna 
+
+menggunakan perhitungan skala likert : 
+
+a) Aspek Rekayasa Perangkat Lunak 
+
+Pilihan responden terhadap aspek rekayasa perangkat lunak sesuai dengan 
+
+kriteria masing-masing ditunjukkan pada tabel berikut 
+
+Tabel 4.3 Tabel Hasil Kuesioner Aspek Rekayasa Perangkat Lunak 
+
+No. Aspek 
+Nilai Pengujian Persentase 
+
+Likert TB KB CB B SB 
+
+Aspek Rekayasa Perangkat Lunak 
+
+1. 
+Tombol menu dapat 
+
+digunakan dengan baik 
+0 0 3 15 36 95,77% 
+
+2. 
+Aplikasi dapat menampilkan 
+
+video animasi 
+1 1 2 14 34 90,38% 
+
+3. 
+Aplikasi dapat diakses oleh 
+
+pengguna dengan mudah 
+0 0 1 19 32 91,92% 
+
+4. 
+Fungsi fitur-fitur pada 
+
+aplikasi berjalan dengan baik 
+0 0 3 13 35 90,77% 
+
+Jumlah(%) 92,21% 
+
+ 
+
+Dari Tabel 4.3 dapat dilihat bahwa untuk Aspek Rekayasa Perangkat Lunak 
+
+perhitunganya sebagai berikut ; 
+
+Point 1= 𝐿 =
+(36x 5)+(15 x 4)+(3 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 95,77% 
+
+Point 2= 𝐿 =
+(34 x 5)+(14 x 4)+(2 x 3)+(1 x 2)+(1 x1)
+
+260
+x100 = 90,38% 
+
+Point 3= 𝐿 =
+(32x 5)+(19 x 4)+(1 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 91,92% 
+
+Point 4= 𝐿 =
+(35x 5)+(13 x 4)+(3 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 90,77% 
+
+ Dari tabel hasil kuesioner aspek rekayasa perangkat lunak diatas dapat 
+
+diambil kesimpulan bahwa dari 4 point pertanyaan yang diisi oleh responden 
+
+setelah melihat cara kerja dan fitur-fitur pada aplikasi memiliki total rata-rata 
+
+92,21%. Berdasarkan persentase tersebut, responden merasa aplikasi mudah 
+
+digunakan. 
+
+ 
+
+
+
+81 
+
+ 
+
+ 
+
+ 
+
+b) Aspek Fungsionalitas 
+
+Pilihan responden terhadap aspek fungsionalitas sesuai dengan kriteria 
+
+masing-masing ditunjukkan pada tabel berikut 
+
+Tabel 4.4 Tabel Hasil Kuesioner Aspek Fungsionalitas 
+
+No. Aspek 
+Nilai Pengujian Persentase 
+
+Likert TB KB CB B SB 
+
+Aspek Fungsionalitas 
+
+1. 
+Materi animasi yang 
+
+ditampilkan mudah dipahami 
+0 0 3 21 28 89,62% 
+
+2. 
+Audio materi animasi 
+
+terdengar jelas 
+1 0 5 14 32 89,23% 
+
+3. Materi animasi tidak 
+
+membosankan 
+0 1 7 21 23 85,38% 
+
+4. Aplikasi ini dapat menjadi 
+
+suatu sarana diskusi antara 
+
+keluarga dan perawat 
+
+0 0 1 24 27 90% 
+
+5. Aplikasi ini menjadi solusi 
+
+untuk menggantikan 
+
+pembelajaran  konvesional 
+
+terkait penyakit stroke 
+
+5 0 5 25 17 78,85% 
+
+Jumlah(%) 86,62% 
+
+ 
+
+Dari Tabel 4.4 dapat dilihat bahwa untuk Aspek Fungsionalitas perhitunganya 
+
+sebagai berikut ; 
+
+Point 1= 𝐿 =
+(28 x 5)+(21 x 4)+(3 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 89,62% 
+
+Point 2= 𝐿 =
+(32 x 5)+(14 x 4)+(5 x 3)+(0 x 2)+(1 x1)
+
+260
+x100 = 89,23% 
+
+Point 3= 𝐿 =
+(23 x 5)+(21 x 4)+(7 x 3)+(1 x 2)+(0 x1)
+
+260
+x100 = 85,38% 
+
+Point 4= 𝐿 =
+(27 x 5)+(24 x 4)+(1 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 90% 
+
+Point 5= 𝐿 =
+(17 x 5)+(25 x 4)+(5 x 3)+(0 x 2)+(5 x1)
+
+260
+x100 = 78,85% 
+
+ Dari tabel hasil kuesioner aspek fungsionalitas diatas dapat diambil 
+
+kesimpulan bahwa dari 5 point pertanyaan yang diisi oleh responden setelah 
+
+melihat kinerja dan sistematika pada aplikasi memiliki total rata-rata 86,62%. 
+
+Berdasarkan persentase tersebut, responden merasa kinerja dan sistematika 
+
+aplikasi sudah maksimal. 
+
+ 
+
+
+
+82 
+
+ 
+
+ 
+
+ 
+
+c) Aspek Komunikasi Visual 
+
+ Pilihan responden terhadap aspek komunikasi visual sesuai dengan 
+
+kriteria masing-masing ditunjukkan pada tabel berikut 
+
+Tabel 4.5 Tabel Hasil Kuesioner Aspek Komunikasi Visual 
+
+No. Aspek 
+Nilai Pengujian Persentase 
+
+Likert TB KB CB B SB 
+
+Aspek Komunikasi Visual 
+
+1. Tampilan antarmuka aplikasi 
+
+mudah dipahami 
+0 0 5 20 27 88,46% 
+
+2. Jenis dan ukuran huruf yang 
+
+digunakan mudah dibaca 
+0 0 3 14 35 92,31% 
+
+3. Tampilan menu aplikasi 
+
+sudah baik 
+0 0 9 19 24 85,77% 
+
+4. Kombinasi warna pada video 
+
+animasi sudah baik 
+0 0 6 22 24 86,92% 
+
+Jumlah(%) 88,36% 
+
+ 
+
+ Dari Tabel 4.5 dapat dilihat bahwa untuk Aspek Komunikasi Visual 
+
+perhitunganya sebagai berikut ; 
+
+Point 1= 𝐿 =
+(27 x 5)+(20 x 4)+(5 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 88,46% 
+
+Point 2= 𝐿 =
+(35 x 5)+(14 x 4)+(3 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 92,31% 
+
+Point 3= 𝐿 =
+(24 x 5)+(19 x 4)+(9 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 85,77% 
+
+Point 4= 𝐿 =
+(24 x 5)+(22 x 4)+(6 x 3)+(0 x 2)+(0 x1)
+
+260
+x100 = 86,92%  
+
+ Dari tabel hasil kuesioner aspek komunikasi visual diatas dapat diambil 
+
+kesimpulan bahwa dari 4 point pertanyaan yang diisi oleh responden setelah 
+
+melihat cara kerja dan fitur-fitur pada aplikasi memiliki total rata-rata 88,36%. 
+
+Berdasarkan persentase tersebut, responden merasa tampilan aplikasi cukup 
+
+menarik. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+83 
+
+ 
+
+ 
+
+ 
+
+ Adapun hasil dari keseluruhan semua aspek dapat ditunjukkan oleh tabel 
+
+4.6 sebagai berikut : 
+
+Tabel 4.6 Tabel Hasil Keseluruhan Aspek Pengujian 
+
+No. Aspek Pengujian Persentase Likert 
+
+1 Aspek Rekayasa Perangkat Lunak 92,21% 
+
+2 Aspek Fungsionalitas 86,62% 
+
+3 Aspek Komunikasi Visual 88,36% 
+
+Jumlah(%) 89,06% 
+
+ 
+
+ Berdasarkan hasil perhitungan skala likert di atas, diketahui bahwa dari 
+
+52 responden termasuk penderita dan pendamping dari tabel 4.6 dapat dilihat dari 
+
+aspek rekayasa perangkat lunak 92,21%, aspek fungsionalitas 86,62% sedangkan 
+
+dari aspek komunikasi visual sebesar 88,36% sehingga didapat rata-rata total 
+
+persentase yaitu 89,06%. Berikut ini perbandingan chart yang menunjukkan 
+
+jumlah responden : 
+
+ 
+
+Gambar 4.23 Chart jumlah responden penderita stroke 
+
+
+
+84 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.24 Chart jumlah responden pendamping 
+
+ 
+
+ Untuk mengetahui hasil akhir dari pengujian UAT, dilakukan pencarian 
+
+nilai interval. Persentase yang dihitung menggunakan skala likert dengan rata-rata 
+
+persentase 89,06% untuk keseluruhan responden, masuk kedalam kategori sangat 
+
+baik yang berarti aplikasi ini berhasil dibangun sesuai dengan tujuan. 
+
+  Pada pengujian ini, responden diberikan beberapa pertanyaan tambahan 
+
+yang berupa usia dan pernah mendapatkan penyuluhan tentang stroke dan device 
+
+yang digunakan ketika membuka website virtual learning stroke. Chart dari 
+
+beberapa pertanyaan tersebut dapat dilihat sebagai berikut : 
+
+ 
+
+ 
+
+Gambar 4.25 Chart usia para responden 
+
+
+
+85 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.26 Chart responden pernah mendapat penyuluhan stroke 
+
+ 
+
+4.3  Analisis Hasil Pengujian 
+
+  Berikut ini adalah hasil pengujian aplikasi virtual learning stroke yang 
+
+dilakukan melalui pengujian UAT : 
+
+a. Dari hasil pengujian UAT oleh 52 responden, diketahui terdapat 42 
+
+orang tidak pernah merawat pasien stroke dan 10 orang pernah 
+
+merawat pasien stroke. 
+
+b. Dari hasil pengujian UAT didapat rata-rata untuk setiap aspek yaitu 
+
+aspek rekayasa perangkat lunak 92,21% masuk dalam kategori sangat 
+
+baik, aspek fungsionalitas 86,62% masuk dalam kategori sangat baik 
+
+sedangkan dari aspek komunikasi visual sebesar 88,36% masuk dalam 
+
+kategori sangat baik.  
+
+c. Dari hasil pengujian UAT didapatkan rata-rata persentase semua 
+
+aspek yaitu 89,06% dan berada didalam kategori sangat baik. 
+
+d. Dari hasil pengujian UAT dapat dlihat bahwa rata-rata persentase dari 
+
+responden yang pernah mendapat penyuluhan tentang penyakit stroke 
+
+masih sedikit. 
+
+
+
+ 
+
+86 
+
+ 
+
+BAB V 
+
+PENUTUP 
+
+ 
+
+5.1 Kesimpulan 
+
+Berdasarkan dari hasil analisis dan pengujian aplikasi Virtual Learning 
+
+Stroke, maka dapat disimpulkan bahwa: 
+
+1. Aplikasi virtual learning yang dibangun dapat diimplementasikan untuk 
+
+menggantikan media penyuluhan yang masih berupa konvensional. 
+
+2. Aplikasi yang dibangun dapat membantu para pendamping dan penderita 
+
+stroke yang diketahui berdasarkan pengujian UAT yang dihitung 
+
+menggunakan skala likert dengan hasil rata-rata setiap aspek  yaitu aspek 
+
+rekayasa perangkat lunak 92,21%, aspek fungsionalitas 86,62% sedangkan 
+
+dari aspek komunikasi visual sebesar 88,36%, sehingga didapat rata rata 
+
+persentase dari semua aspek yaitu 89,06% dan berada didalam kategori sangat 
+
+baik. 
+
+ 
+
+5.2 Saran 
+
+Adapun hal-hal yang menjadi saran sebagai bahan pertimbangan dan 
+
+masukan untuk pengembangan aplikasi agar menjadi lebih baik adalah sebagai 
+
+berikut: 
+
+1. Materi yang disediakan bisa ditambah, tidak hanya berfokus pada penyakit 
+
+stroke. 
+
+2. Mengembangkan aplikasi virtual learning stroke agar di gunakan seluruh 
+
+rumah sakit yang ada di Pontianak. 
+
+

@@ -1,0 +1,4144 @@
+
+1 
+ 
+
+BAB I 
+
+PENDAHULUAN 
+
+1.1 Latar Belakang 
+
+Menurut Mulyono (2006), anak berkebutuhan khusus (ABK) adalah 
+
+anak-anak yang tergolong cacat atau tidak normal yang menyandang ketunaan. 
+
+Anak berkebutuhan khusus juga bisa tergolong sebagai anak yang berbakat. 
+
+Sedangkan menurut Mangunsong (2009), anak berkebutuhan khusus atau anak 
+
+luar biasa adalah anak yang menyimpang dari rata-rata anak normal dalam hal; 
+
+ciri-ciri mental, kemampuan-kemampuan sensorik, fisik dan neuromaskular, 
+
+perilaku sosial dan emosional, kemampuan berkomunikasi, maupun kombinasi 
+
+dua atau lebih dari hal yang sudah disebutkan; sejauh ia memerlukan modifikasi 
+
+dari tugas-tugas sekolah, metode belajar atau pelayanan terkait lainnya, yang 
+
+ditunjukkan untuk pengembangan potensi atau kapasitasnya secara maksimal. 
+
+Dalam proses pembelajaran di sekolah berkebutuhan khusus, salah satu 
+
+pembelajaran yang diajarkan adalah pengenalan tentang hewan dalam mata 
+
+pelajaran IPA. Materi pengenalan hewan juga diajarkan dalam terapi wicara untuk 
+
+anak berkebutuhan khusus. Pada proses materi pengenalan hewan terkadang anak 
+
+berkebutuhan khusus mengalami kesulitan untuk memahami materi tersebut. 
+
+Beberapa anak berkebutuhan khusus juga terkadang mengalami kesulitan dalam 
+
+mengeja dan melafalkan nama hewan yang akan mereka pelajari. Selama ini alat 
+
+penunjang yang guru gunakan hanya buku lembar kerja siswa (LKS) dan buku 
+
+yang khusus memuat materi tentang pengenalan hewan. Untuk kasus tertentu, 
+
+para terapis untuk anak berkebutuhan khusus menggunakan alat bantu berupa 
+
+kartu bergambar untuk mengenalkan hewan-hewan yang akan dipelajari anak 
+
+berkebutuhan khusus. Membawakan materi pengenalan hewan pada anak 
+
+berkebutuhan khusus tidak bisa menggunakan metode yang monoton. Karena 
+
+metode penyampaian yang monoton mengakibatkan anak malas bahkan sampai 
+
+tidak tertarik untuk belajar.  
+
+Dalam penyampaian pembelajaran untuk anak berkebutuhan khusus agar 
+
+menjadi menarik, dibutuhkan sebuah media dalam proses pembelajaran. Media 
+
+pembelajaran ini cenderung diartikan sebagai alat-alat grafis, photografis, atau 
+
+elektronis untuk menangkap, memproses, dan menyusun kembali informasi visual 
+
+
+
+2 
+ 
+
+ 
+ 
+
+atau verbal. Suatu proses pembelajaran yang baik dan berkualitas. Ada beberapa 
+
+komponen yang sangat menentukan, antara lain tujuan pembelajaran, bahan 
+
+belajar, metodologi pembelajaran, dan evaluasi pembelajaran. 
+
+Menurut Rivai dan Sudjana (2011), ada dua aspek yang amat penting 
+
+dalam metodologi pembelajaran. Yaitu model pembelajaran dan media 
+
+pembelajaran. Kedua aspek ini saling berkaitan satu sama lainnya. Pemilihan 
+
+salah satu model pembelajaran tertentu akan mempengaruhi jenis media 
+
+pembelajaran yang sesuai. 
+
+Berdasarkan latar belakang tersebut maka muncul gagasan untuk 
+
+membuat aplikasi CAI pembelajaran interaktif dalam pengenalan hewan pada 
+
+anak berkebutuhan khusus. Model pembelajaran yang akan disampaikan ini 
+
+adalah model tutorial dan game sehingga anak berkebutuhan khusus dapat belajar 
+
+tentang pengenalan hewan dan dapat bermain dengan sebuah game selingan.  
+
+Software yang akan digunakan pada pembuatan aplikasi ini adalah 
+
+Adobe Animate di mana aplikasi ini dapat menggabungkan teks, suara, animasi, 
+
+gambar, dan video. Sehinga aplikasi yang dihasilkan lebih menarik dan 
+
+diharapkan aplikasi tersebut menghasilkan aplikasi yang interaktif dan efektif 
+
+untuk anak-anak dalam mengenal hewan berdasarkan jenis makanan dan suara 
+
+hewan tersebut. 
+
+1.2 Rumusan Masalah 
+
+Berdasarkan latar belakang yang telah dipaparkan, maka permasalahan 
+
+yang dapat diambil adalah bagaimana membuat Aplikasi CAI untuk mengenalkan 
+
+hewan berdasarkan jenis makanan dan suara hewan tersebut pada anak 
+
+berkebutuhan khusus.   
+
+1.3 Tujuan Penelitian 
+
+Tujuan dari penelitian ini adalah menghasilkan aplikasi yang 
+
+memanfaatkan teknologi multimedia CAI sebagai media untuk mengenalkan 
+
+hewan berdasarkan jenis makanan hewan tersebut, yaitu karnivora, herbivora, dan 
+
+omnivora, mengenalkan hewan berdasarkan suara hewan, serta cara mengeja dan 
+
+tahapan dalam menyebutkan (pelafalan) nama hewan tersebut. 
+
+ 
+
+
+
+3 
+ 
+
+ 
+ 
+
+1.4 Batasan Masalah 
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah : 
+
+1. Aplikasi dibangun berbasis desktop. 
+
+2. Aplikasi ini hanya menggunakan objek – objek multimedia berupa teks, 
+
+gambar / grafik, dan suara. 
+
+3. Aplikasi ini hanya memperkenalkan hewan dengan 3 kategori berdasarkan 
+
+jenis makanannya. Yaitu Karnivora (hewan pemakan daging), Herbivora 
+
+(hewan pemakan tumbuhan), dan Omnivora (hewan pemakan daging dan 
+
+tumbuhan). 
+
+4. Aplikasi ini dibuat dalam model tutorial dan game selingan. 
+
+5. Aplikasi ini akan diujikan ke siswa di SBK Bina Anak Bangsa Pontianak. 
+
+6. Aplikasi ini ditunjukkan untuk Anak Berkebutuhan Khusus (ABK). 
+
+1.5 Sistematika Penulisan Skripsi 
+
+Sistematika dari penulisan tugas akhir ini disusun dalam 5 (lima) bab 
+
+yang terdiri dari Bab I Pendahuluan, Bab II Tinjauan Pustaka, Bab III Metodologi 
+
+Penelitian dan Perancangan Aplikasi, Bab IV Hasil dan Analisi, serta Bab V 
+
+penutup. 
+
+BAB I. PENDAHULUAN 
+
+Berisi latar belakang, rumusan masalah, tujuan penelitian, pembahasan 
+
+masalah dan sistematika penulisan. 
+
+BAB II. TINJAUAN PUSTAKA 
+
+Berisi landasan teori dan prinsip - prinsip penunjang yang berguna dalam 
+
+pengerjaan tugas akhir ini, yaitu meliputi teori dasar mengenai anak berkebutuhan 
+
+khusus, media pembelajaran berbasis komputer, storyboard, dan Adobe Animate 
+
+2018. 
+
+BAB III. METODOLOGI Berisi tentang pengumpulan data / informasi, 
+
+alat yang digunakan pada penelitian, metode penelitian, diagram alir penelitian, 
+
+desain produk yang berupa perancangan arsitektur sistem, flowchart aplikasi, 
+
+storyboard, dan perancangan antarmuka aplikasi, serta penjelasan mengenai 
+
+pembuatan aplikasi uji coba serta penarikan kesimpulan. 
+
+ 
+
+ 
+
+
+
+4 
+ 
+
+ 
+ 
+
+BAB IV. HASIL DAN ANALISIS 
+
+Berisi penjelasan mengenai implementasi aplikasi, screenshot tampilan 
+
+antarmuka aplikasi yang sudah jadi, serta analisa hasil uji coba aplikasi. Setiap 
+
+aplikasi yang ditampilkan akan dilakukan analisis terlebih dahulu untuk mengaraj 
+
+kepada suatu kesimpulan. 
+
+BAB V. PENUTUP 
+
+Berisi kesimpulan dari penelitian telah dilakukan dan saran / rekomendasi 
+
+untuk perbaikan, pengembangan atau kesempurnaan / kelengkapan penelitian 
+
+yang telah dilakukan. 
+
+
+
+5 
+
+BAB II 
+
+TINJAUAN PUSTAKA 
+
+2.1 Literatur Review 
+
+Beberapa peneliti terdahulu yang telah melakukan penelitian tentang 
+
+pembelajaran berbasis Computer Assisted Instruction (CAI), salah satunya adalah 
+
+salah satunya Dewi (2012) yang telah mengembangan game edukasi pengenalan nama 
+
+hewan dalam Bahasa Inggris sebagai media pembelajaran siswa SD berbasis 
+
+Macromedia Flash. Dewi menjelaskan bahwa dari uji kelayakan penelitian, diperoleh 
+
+hasil yang baik. Di antaranya dari aspek navigasi diperoleh hasil penilaian dengan nilai 
+
+rata-rata 6 pada kategori Sangat Layak, dari aspek Kemudahan diperoleh hasil 
+
+penilaian dengan nilai rata-rata 4 pada kategori Sangat Layak, dari aspek tulisan rata-
+
+rata 3.38 sangat layak, dan dari aspek tampilan 3.93 sangat layak. Jadi, secara 
+
+keseluruhan hasil penilaian dari ahli media pada game edukasi animal dikatakan 
+
+sangat layak dengan rata-rata 4.32. 
+
+Sedangkan Nurkholis (2015) membuat aplikasi CAI pengembangan game 
+
+edukasi pengenalan nama hewan dalam Bahasa Inggris untuk anak SD dengan 
+
+berbasis Adobe Flash CS6. Aplikasi tersebut berbasis desktop, model pembelajaran 
+
+yang digunakan berupa game,  permainan yang ditawarkan berupa permainan susun 
+
+kata dan puzzle. Elemen multimedia yang digunakan berupa teks, suara, gambar dan 
+
+animasi. 
+
+Kemudian Putranto (2015) mengembangkan game edukasi klasifikasi hewan 
+
+dengan menggunakan Adobe Flash Professional CS5 sebagai media pembelajaran 
+
+biologi kelas VII di SMPN 15 Yogyakarta. Pembelajaran hewan yang berfokus pada 
+
+ilmu biologi, tingkat kelayakan media pada pembelajaran tersebut sebesar 86,68%, 
+
+presentase kelayakan pada materi sebesar 76,56% dan penilaian uji coba keseluruhan 
+
+hasil siswa memperoleh presentase sebesar 92,94%. Dapat disimpulkan bahwa uji 
+
+kelayakan pada aplikasi tersebut dihasilkan dengan sangat baik. 
+
+Berikut ini adalah tabel perbandingan kajian terkait yang dapat dilihat pada 
+
+Tabel 2.1. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+6 
+ 
+
+ 
+ 
+
+Tabel 2.1 Tabel Pembanding Kajian Terkait. 
+
+No. Penulis  Judul Keterangan 
+
+1. Ghea Putri Fatma 
+
+Dewi (2012) 
+
+Pengembangan Game 
+
+Edukasi Pengenalan Nama 
+
+Hewan Dalam Bahasa 
+
+Inggris Sebagai Media 
+
+Pembelajaran Siswa SD 
+
+Berbasis Macromedia Flash 
+
+  Menggunakan model 
+
+game sebagai 
+
+pembelajaran  
+
+ Permainan yang 
+
+ditawarkan berupa 
+
+permainan susun kata 
+
+ Elemen multimedia yang 
+
+digunakan berupa teks, 
+
+suara, gambar dan 
+
+animasi 
+
+ Aplikasi berbasis desktop 
+
+ Materi yang disajikan 
+
+pengenalan nama hewan 
+
+dalam bahasa inggris 
+
+2. Diar Fatkhu 
+
+Nurkholis (2015) 
+
+Pengembangan Game 
+
+Edukasi Pengenalan Nama 
+
+Hewan Dalam Bahasa 
+
+Inggris Untuk Anak SD 
+
+Berbasis Adobe Flash CS6 
+
+ Menggunakan model 
+
+game sebagai 
+
+pembelajaran  
+
+ Permainan yang 
+
+ditawarkan berupa 
+
+permainan susun kata dan 
+
+puzzle 
+
+ Elemen multimedia yang 
+
+digunakan berupa teks, 
+
+suara, gambar dan 
+
+animasi 
+
+ Aplikasi berbasis desktop 
+
+ Materi yang disajikan 
+
+pengenalan nama hewan 
+
+dalam bahasa inggris 
+
+ 
+
+
+
+7 
+ 
+
+ 
+ 
+
+No. Penulis  Judul Keterangan 
+
+3. Adhi Putranto 
+
+(2015) 
+
+Pengembangan Game 
+
+Edukasi Klasifikasi Hewan 
+
+Menggunakan Adobe Flash 
+
+Professional CS5 
+
+Sebagai Media Pembelajaran 
+
+Biologi Kelas VII 
+
+Di SMP N 15 Yogyakarta 
+
+ Menggunakan model 
+
+game sebagai 
+
+pembelajaran  
+
+ Permainan yang 
+
+ditawarkan berupa kuis 
+
+ Elemen multimedia yang 
+
+digunakan berupa teks, 
+
+suara, gambar dan 
+
+animasi 
+
+ Aplikasi berbasis desktop 
+
+ Materi yang disajikan 
+
+berupa pengenalan hewan 
+
+klasfikasi dalam 
+
+pembelajaran biologi 
+
+yang meliputi filum, 
+
+kelas, ordo, familia, 
+
+genus, dan spesies. 
+
+ 
+
+Peneliti melakukan penelitian tentang aplikasi Computer Assisted Instruction 
+
+(CAI) yang berfungsi untuk mengenalkan hewan berdasarkan klasifikasi makanannya 
+
+dan bertujuan untuk anak berkebutuhan khusus. Model yang digunakan pada aplikasi 
+
+CAI ini yaitu tutorial dan instructional games. Tujuan dari aplikasi ini  adalah 
+
+menghasilkan sebuah aplikasi pembelajaran dengan model Computer Assisted 
+
+Instruction (CAI) yang diharapkan dapat membantu anak-anak di sekolah 
+
+berkebutuhan khusus dalam memahami, mempelajari pengenalan nama-nama hewan, 
+
+serta dapat mengucapkan nama-nama hewan tersebut. 
+
+2.2 Anak Berkebutuhan Khusus 
+
+Anak berkebutuhan khusus (ABK) diartikan sebagai individu-individu yang 
+
+mempunyai karakteristik yang berbeda dari individu lainnya yang dipandang normal 
+
+oleh masyarakat pada umumnya. Secara lebih khusus anak berkebutuhan khusus 
+
+menunjukkan karakteristik fisik, intelektual, dan emosional yang lebih rendah atau 
+
+
+
+8 
+ 
+
+ 
+ 
+
+lebih tinggi dari anak normal sebayanya atau berada di luar standar normal yang 
+
+berlaku di masyarakat. Sehingga mengalami kesulitan dalam meraih sukses baik dari 
+
+segi sosial, personal, maupun aktivitas pendidikan (Bachri, 2010). Kekhususan yang 
+
+mereka miliki menjadikan ABK memerlukan pendidikan dan layanan khusus untuk 
+
+mengoptimalkan potensi dalam diri mereka secara sempurna (Hallahan dan Kauffman, 
+
+1986 (dalam Hadis, 2006)). 
+
+Heward (2003) mendefinisikan ABK sebagai anak dengan karakteristik 
+
+khusus yang berbeda dengan anak pada umumnya tanpa selalu menunjukkan pada 
+
+ketidak mampuan mental, emosi, atau fisik. Definisi tentang anak berkebutuhan 
+
+khusus juga diberikan oleh Suran dan Rizzo (dalam Semiawan dan Mangunson, 2010) 
+
+ABK adalah anak yang secara signifikan berbeda dalam beberapa dimensi yang 
+
+penting dari fungsi kemanusiaannya. Mereka yang secara fisik, psikologis, kognitif, 
+
+atau sosial terlambat dalam mencapai tujuan-tujuan atau kebutuhan dan potensinya 
+
+secara maksimal, meliputi mereka yang tuli, buta, gangguan bicara, cacat tubuh, 
+
+retardasi mental, gangguan emosional, juga anak-anak berbakat dengan inteligensi 
+
+tinggi termasuk kedalam kategori anak berkebutuhan khusus karena memerlukan 
+
+penanganan dari tenaga profesional terlatih. Mangunsong (2009), menyebutkan 
+
+penyimpangan yang menyebabkan ABK berbeda terletak pada perbedaan ciri mental, 
+
+kemampuan sensori, fisik dan neuromoskuler, perilaku sosial dan emosional, 
+
+kemampuan berkomunikasi, maupun kombinasi dua atau tiga dari hal-hal tersebut. 
+
+Berdasarkan beberapa definisi yang telah diberikan, ABK dapat didefinisikan 
+
+sebagai individu yang memiliki karakteristik fisik, intelektual, maupun emosional, di 
+
+atas atau di bawah rata-rata individu pada umumnya. 
+
+2.2.1 Klasifikasi Anak Berkebutuhan Khusus 
+
+Klasifikasi gangguan anak berkebutuhan khusus menurut Davidson, Neale 
+
+dan Kring (2006) terdiri dari gangguan pemusatan perhatian atau hiperaktivitas, 
+
+gangguan tingkah laku, disabilitas belajar, retardasi mental, dan gangguan autistik. 
+
+Sedangkan Syamsul (2010) mengklasifikasikan anak berkebutuhan khusus apabila 
+
+termasuk kedalam salah satu atau lebih dari kategori berikut ini. 
+
+1. Kelainan sensori, seperti cacat penglihatan atau pendengaran. 
+
+2. Deviasi mental, termasuk gifted dan retardasi mental. 
+
+3. Kelainan komunikasi, termasuk problem bahasa dan ucapan. 
+
+
+
+9 
+ 
+
+ 
+ 
+
+4. Ketidak mampuan belajar, termasuk masalah belajar yang serius karena kelainan 
+
+fisik. 
+
+5. Perilaku menyimpang, termasuk gangguan emosional. 
+
+6. Cacat  fisik  dan  kesehatan,  termasuk  kerusakan  neurologis, ortopedis, dan 
+
+penyakit lainnya seperti leukimia dan gangguan perkembangan. 
+
+Adapun anak berkebutuhan khusus yang paling banyak mendapat perhatian 
+
+guru menurut Kauff dan Hallahan (dalam Bandi, 2006), antara lain Tunagrahita, 
+
+Kesulitan Belajar (Learning Disability), Hiperaktif (ADHD dan ADD), Tunalaras, 
+
+Tunawicara, Tunanetra, Autis, Tunadaksa, Tunaganda dan Anak Berbakat. 
+
+1. Tunagrahita atau Retardasi Mental 
+
+Menurut Bandi (2006), Tunagrahita adalah sebuah individu yang memiliki 
+
+intelegensi yang signifikan berada dibawah rata-rata dan disertai dengan ketidak-
+
+mampuan dalam adaptasi prilaku, yang muncul dalam masa perkembangan. 
+
+2. Kesulitan Belajar (Learning Disability) 
+
+Menurut Hildebrand (2000), kesulitan belajar adalah kesulitan dalam 
+
+memproses informasi, khususnya dalam matematika dan konsep kebahasaan. 
+
+Kesulitan belajar tidak ada kaitannya dengan inteligensi yang rendah. National Joint 
+
+Committee on Learning Disability (NCLD) mendefinisikan kesulitan belajar sebagai 
+
+suatu istilah umum yang mengacu pada beragam kelompok gangguan yang terlihat 
+
+pada kesulitan dalam menguasai dan menggunakan kemampuan mendengarkan, 
+
+berbicara, membaca, menulis, berfikir, atau kemampuan matematis (Smith, 2006). 
+
+3. Hiperaktif (ADHD dan ADD) 
+
+Hiperaktivitas adalah salah satu aspek dari Attention Deficit with/without 
+
+Hyperactivity Disorder (ADD/HD) atau yang dikenal dengan istilah Gangguan 
+
+Pemusatan Perhatian dan Hiperaktivitas (GPPH). ADHD/GPPH mencakup gangguan 
+
+pada tiga aspek, yaitu sulit memusatkan perhatian, hiperaktif, dan impulsivitas. 
+
+Apabila gangguan hanya terjadi pada aspek yang pertama, maka dinamakan Gangguan 
+
+Pemusatan Perhatian (ADD) atau Attention Deficit Disorder (ADD), sedangkan bila 
+
+ketiga aspek terkena imbas gangguan barulah disebut GPPH /ADHD (Mangunsong, 
+
+2009). Hiperaktif adalah gangguan belajar yang sifatnya umum pada anak maupun 
+
+orang dewasa. Umumnya ditemukan pada usia TK sampai SD kelas permulaan, serta 
+
+terus dimilikinya sampai usia remaja, bahkan terkadang sampai usia dewasa 
+
+(Semiawan dan Mangunsong, 2010). 
+
+ 
+
+
+
+10 
+ 
+
+ 
+ 
+
+4. Tunalaras 
+
+Tunalaras adalah individu yang mengalami hambatan dalam mengendalikan 
+
+emosi dan kontrol sosial. individu tunalaras biasanya menunjukan prilaku 
+
+menyimpang yang tidak sesuai dengan norma dan aturan yang berlaku disekitarnya. 
+
+5. Tunarungu 
+
+Tunarungu adalah individu yang memiliki hambatan dalam pendengaran baik 
+
+permanen maupun tidak permanen. Setiap anak yang mengalami gangguan 
+
+pendengaran seringkali mengalami beberapa masalah lain, seperti gangguan bahasa. 
+
+Walaupun memiliki potensi yang sangat tinggi dan cara berfikir kreatif visualnya juga 
+
+tinggi, apabila kemampuan berbahasanya kurang, maka perkemangan kognitif, 
+
+prestasi akademik, dan kemampuan sosialpun akan terpengaruh (Semiawan dan 
+
+Mangunsong, 2010). 
+
+6. Tunanetra 
+
+Tunanetra adalah individu yang memiliki hambatan dalam penglihatan. 
+
+Tunanetra dapat diklasifikasikan kedalam dua golongan yaitu: buta total (Blind) dan 
+
+low vision. 
+
+7. Autisme 
+
+Mayoritas gangguan autisme di sebabkan karena abnormalitas di otak 
+
+(Coleman dalam Ormrod, 2008). Karakteristik umum dari gangguan ini ditandai 
+
+dengan adanya gangguan dalam kognisi sosial (misalnya kemampuan 
+
+mempertimbangkan perspektif orang lain), kemampuan sosial, dan interaksi sosial 
+
+(Baron dalam Ormrod, 2008). 
+
+8. Tunadaksa 
+
+Tunadaksa adalah individu yang memiliki gangguan gerak yang disebabkan 
+
+oleh kelainan neuro-muskular dan struktur tulang yang bersifat bawaan, sakit atau 
+
+akibat kecelakaan, termasuk celebral palsy, amputasi, polio, dan lumpuh. 
+
+9. Tunaganda 
+
+Tunaganda digunakan untuk menyebut anak- anak yang mengalami cacat 
+
+ganda atau lebih dari satu. Misalnya seorang anak yang mengalami kelainan 
+
+pengelihatan ringan, mungkin juga memerlukan bantuan khusus yang berkaitan 
+
+dengan penyesuaian sosial dan intelektual (Syamsul, 2010). 
+
+10. Anak Berbakat (Gifted) 
+
+Istilah gifted digunakan untuk menyebut anak-anak berbakat dengan IQ di 
+
+atas 135 dengan kreativitas, motivasi dan ketahanan kerja yang tinggi. 
+
+
+
+11 
+ 
+
+ 
+ 
+
+11. Gangguan Bicara dan Bahasa 
+
+American Speech-Language Hearing Association (ASHA) mendefinisikan 
+
+kelainan bicara sebagai kemunduran artikulasi pengucapan suara, kefasihan, dan atau 
+
+bunyi suara. Kelainan bahasa terjadi bila anak-anak mempunyai kesulitan dalam 
+
+mengembangkan dan menggunakan bahasa, bukan mengeluarkan ucapan. Kelainan 
+
+bahasa pada anak-anak sering berhubungan dengan keterlambatan bicara (speech 
+
+delayed). 
+
+2.3 Hewan 
+
+Hewan merupakan organisme eukariotik (organisme dengan sel kompleks) 
+
+yang multiseluler (memiliki banyak sel). Secara garis besar, hewan dapat 
+
+dikelompokkan menjadi dua golongan, yaitu golongan vertebrata (hewan bertulang 
+
+belakang) dan golongan invertebrata (hewan tak bertulang belakang). Berbeda dengan 
+
+tumbuhan, hewan tidak memiliki klorofil sehingga tidak dapat melakukan fotosintesis 
+
+untuk membuat makanannya sendiri. Oleh karena itu, hewan harus mencari 
+
+makanannya sendiri untuk mendapatkan energi kemudian makanan tersebut dicerna 
+
+di dalam tubuhnya. Proses ini membutuhkan oksigen dan mengeluarkan karbon 
+
+dioksida sebagai zat sisa.  
+
+2.3.1 Klasifikasi Hewan Berdasarkan Jenis Makanan 
+
+Berdasarkan makanannya, hewan digolongkan menjadi 3 jenis, yaitu hewan 
+
+karnivora, hewan herbivora, dan hewan omnivora. 
+
+a. Karnivora 
+
+Hewan karnivora adalah hewan-hewan pemakan daging. Hewan dalam 
+
+golongan ini menjadikan hewan lainnya sebagai makanannya. Dalam rantai makanan, 
+
+hewan karnivora umumnya bertindak sebagai predator atau pemangsa. Ciri-ciri 
+
+khusus dari hewan golongan karnivora adalah adanya gigi taring yang kuat dan tajam. 
+
+Gigi taring tersebut digunakan hewan karnivora sebagai alat untuk mencabik-cabik 
+
+daging mangsanya. Contoh hewan karnivora yang dapat kita temukan di sekitar 
+
+lingkungan kita misalnya anjing, kucing, singa, macan, serigala, dan lain sebagainya. 
+
+b. Herbivora 
+
+Hewan herbivora adalah hewan-hewan pemakan tumbuhan. hewan dalam 
+
+golongan ini menjadikan bagian dari tumbuhan, mulai dari daun, batang, hingga 
+
+ranting sebagai makanan dan sumber energinya. Ciri-ciri hewan herbivora dapat kita 
+
+
+
+12 
+ 
+
+ 
+ 
+
+identifikasi dari bentuk dan susunan giginya. Gigi hewan herbivora cenderung berupa 
+
+geraham yang rapat. Gigi geraham ini digunakan hewan herbivora untuk mengunyah 
+
+dan melumatkan makanannya yang berupa tumbuhan. Beberapa contoh hewan 
+
+herbivora yang dapat kita temukan di lingkungan kita misalnya kambing, sapi, rusa, 
+
+gajah, dan lain sebagainya.  
+
+c. Omnivora 
+
+Hewan omnivora adalah hewan-hewan pemakan daging dan tumbuhan, alias 
+
+pemakan segalanya. Manusia termasuk omnivora sejati. Manusia memakan daging-
+
+dagingan dan juga tumbuh-tumbuhan sebagai sayuran. Selain manusia, monyet, tikus, 
+
+babi, luwak, dan bekantan juga termasuk contoh hewan omnivora. Ciri-ciri dari hewan 
+
+dalam golongan ini adalah struktur giginya yang terdiri atas gigi seri, gigi taring, dan 
+
+gigi geraham secara lengkap. Gigi seri berbentuk pipih digunakannya untuk 
+
+memotong makanan, gigi taring digunakan untuk mencabik daging, sedangkan gigi 
+
+geraham digunakan untuk mengunyah. 
+
+2.4 Media Pembelajaran 
+
+Kata media berasal dari bahasa latin dan merupakan bentuk jamak dari kata 
+
+medium yang secara harfiah berarti perantara atau pengantar. Kata kunci media adalah 
+
+perantara. Dalam aktivitas pembelajaran, media dapat didefinisikan sebagai sesuatu 
+
+yang dapat membawa informasi dan pengetahuan dalam interaksi yang berlangsung 
+
+antara pendidik dengan peserta didik (Fathurrohman dan Sutikno, 2010). 
+
+Gagne (dalam Musfiqon, 2012) menyatakan bahwa media pembelajaran 
+
+adalah berbagai jenis komponen dalam lingkungan siswa yang dapat merangsang 
+
+siswa untuk belajar. Jadi, Media merupakan alat bantu yang digunakan guru dengan 
+
+desain yang disesuaikan untuk meningkatkan kualitas belajar yang berfungsi untuk 
+
+menjelaskan sebagian dari keseluruhan program pembelajaran yang sulit dijelaskan 
+
+secara verbal (Musfiqon, 2012).  
+
+Di lihat dari jenisnya media dibagi ke dalam beberapa bentuk yaitu media 
+
+auditif, media visual dan media audiovisual. Kata media berasal dari bahasa latin 
+
+medius yang secara harfiah berarti tengah, perantara atau pengantar. Dalam bahasa 
+
+arab media adalah perantara atau pengantar pesan dari pengirim kepada penerima 
+
+pesan.  
+
+Istilah ini menunjukkan segala sesuatu yang membawa atau menyalurkan 
+
+informasi antara sumber dan penerima, karena itu film, televisi, radio, rekaman, photo, 
+
+
+
+13 
+ 
+
+ 
+ 
+
+alat visual yang dipoyeksikan, barang cetakan, dan lain – lain sejenis itu adalah media 
+
+komunikasi untuk menyampaikan pesan, gagasan atau ide.  
+
+2.4.1 Jenis-Jenis Media Pembelajaran 
+
+Klasifikasi Media Pembelajaran menurut Leshin, dkk., (dalam Arsyad, 
+
+2008), meliputi: 
+
+1. Media Berbasis Visual 
+
+Media Berbasis Visual (image atau perumpamaan) memegang peranan yang 
+
+sangat penting dalam proses belajar. Media visual dapat memperlancar pemahaman 
+
+dan memperkuat ingatan. Visual dapat pula menumbuhkan minat siswa dan dapat 
+
+memberikan hubungan antara isi materi pelajaran dengan dunia nyata. 
+
+2. Media Berbasis Audio-Visual 
+
+Media visual yang menggabungkan penggunaan suara memerlukan 
+
+pekerjaan tambahan untuk memproduksinya. Salah satu pekerjaan penting yang 
+
+diperlukan dalam media audio-visual adalah penulisan naskah dan storyboard yang 
+
+memerlukan persiapan yang banyak, rancangan, dan penelitian. Contoh media yang 
+
+berbasis audio-visual adalah video, film, televisi, dll. 
+
+3. Media Berbasis Komputer 
+
+Komputer memiliki fungsi yang berbeda-beda dalam bidang pendidikan dan 
+
+latihan. Komputer berperan sebagai manajer dalam proses pembelajaran yang dikenal 
+
+dengan nama Computer-Managed Instruction (CMI). Adapula peran komputer 
+
+sebagai pembantu tambahan dalam belajar. Pemanfaatannya meliputi penyajian 
+
+informasi isi materi pelajaran, latihan, atau kedua-duanya.  
+
+Modus ini dikenal sebagai Computer-Assisted Instruction (CAI). CAI 
+
+mendukung pembelajaran dan pelatihan. Akan tetapi CAI bukanlah penyampai utama 
+
+materi pelajaran. Komputer dapat menyajikan informasi dan tahapan pembelajaran 
+
+lainnya disampaikan bukan dengan media komputer. 
+
+2.5 Pembelajaran Berbantuan Komputer CAI (Computer Assisted Instruction) 
+
+Istilah pembelajaran berbantuan komputer diterjemahkan dari CAI 
+
+(Computer-Assisted Instruction), sering juga digunakan secara bergantian dengan 
+
+istilah CBL (Computer-Based Learning) dan CBI (Computer-Based Instruction) 
+
+(Riyana, 2007). Pembelajaran berbasis komputer (Computer Based Instruction) 
+
+
+
+14 
+ 
+
+ 
+ 
+
+menunjuk pada semua software pendidikan yang diakses melalui komputer di mana 
+
+siswa dapat berinteraksi dengannya, salah satunya multimedia interaktif. 
+
+Sistem komputer menyajikan serangkaian program pengajaran kepada siswa 
+
+baik berupa informasi maupun latihan soal untuk mencapai tujuan pembelajaran 
+
+tertentu dan siswa melakukan aktivitas belajar dengan cara berinteraksi dengan sistem 
+
+komputer. 
+
+Porter (2008) menyatakan bahwa proses pembelajaran akan lebih efektif jika 
+
+melibatkan aktivitas indera. Hal tersebut merupakan modalitas yaitu audio, visual dan 
+
+kinestetik yang bila dioptimalkan dapat mempengaruhi konsentrasi siswa belajar 
+
+(Susanto, 2013). Dengan rancangan pembelajaran komputer yang bersifat interaktif, 
+
+akan mampu meningkatkan motivasi siswa dalam belajar, memberikan umpan balik 
+
+secara langsung, memberikan kesempatan siswa menentukan sendiri percepatan 
+
+belajarnya dan dapat melakukan self evaluation (evaluasi diri). 
+
+2.5.1 Karakteristik CAI 
+
+Istilah CAI merupakan salah satu pemanfaatan dari aplikasi multimedia 
+
+interaktif yang dirancang serta dibangun dengan menggabungkan berbagai media 
+
+yang dikemas menjadi file digital (komputerisasi). Menurut Munir (2012) 
+
+menjelaskan karakteristik multimedia interaktif dalam pembelajaran adalah: 
+
+1. Memiliki lebih dari satu media yang konvergen, misalnya menggabungkan 
+
+unsur audio dan visual. Seperti penggunaan instrumen pada program, suara narator, 
+
+penggunaan gambar atau animasi sesuai materi pembelajaran. 
+
+2. Bersifat interaktif, memiliki kemampuan untuk mengakomodasi respon 
+
+pengguna. Dalam media CAI di samping siswa dapat memperhatikan penyajian obyek 
+
+yang disertai tombol-tombol navigasi yang mudah digunakan, siswa dapat berinteraksi 
+
+dengan melalui pengisian tes untuk mengukur tingkat kemampuan siswa. 
+
+3. Bersifat mandiri, memberi kemudahan dan kelengkapan isi sehingga pengguna 
+
+bisa menggunakan tanpa bimbingan orang lain. Media CAI ini disajikan secara off-
+
+line sehingga dalam penggunaannya tidak terantung adanya akses internet, kegiatan 
+
+belajar juga bisa dilakukan kapan saja dan di mana saja, tidak hanya pada saat 
+
+pembelajaran di sekolah. 
+
+ 
+
+ 
+
+
+
+15 
+ 
+
+ 
+ 
+
+2.5.2 Ciri-Ciri CAI 
+
+Adapun ciri-ciri sistem CAI adalah sebagai berikut: 
+
+1. Pelajar dapat mengakses materi ajar; 
+
+a. Tanpa dibatasi waktu 
+
+b. Tanpa dibatasi ruang dan tempat 
+
+2. Dukungan komunikasi; 
+
+a. Sinkron (komunikasi online secara langsung) 
+
+b. Asinkron (komunikasi menggunakan perangkat dan dilakukan secara tunda) 
+
+c. Dapat direkam 
+
+3. Jenis materi ajar; multimedia (teks, gambar, audio, video dan animasi) 
+
+4. Paradigma pendidikan “Learning-Oriented”; 
+
+a. Asumsi; setiap pelajar ingin belajar dengan sebaik-baiknya. 
+
+b. Pelajar akan secara aktif terlibat dalam membangun pengetahuannya dan 
+
+mengaitkannya dengan apa-apa yang telah diketahuinya dan dialaminya. 
+
+2.5.3 Aspek-Aspek CAI 
+
+Menurut Simonson dan Thompson (1994), bebrapa aspek-aspek penting 
+
+dalam perancangan program CAI tersebut adalah umpan balik, percabangan, 
+
+penilaian, monitoring kemajuan, petunjuk dan tampilan. Berikut ini merupakan uraian 
+
+dari aspek-aspek tersebut antara lain: 
+
+1. Umpan Balik 
+
+Setelah memberikan respon, siswa harus segera diberi umpan balik. Umpan 
+
+balik bisa berupa komentar, pujian, peringatan atau perintah tertentu bahwa respon 
+
+siswa tersebut benar atau salah. Umpan balik akan semakin menarik dan menambah 
+
+motivasi belajar apabila disertai ilustrasi suara, gambar atau video-clip. Informasi 
+
+kemajuan belajar harus juga diberikan kepada siswa baik selama kegiatan belajarnya 
+
+atau setelah selesai suatu bagian pelajaran tertentu. Misalnya adalah pemberitahuan 
+
+jumlah skor yang benar dari sejumlah soal yang dikerjakan. 
+
+2. Percabangan 
+
+Percabangan adalah beberapa alternatif jalan yang perlu ditempuh oleh siswa 
+
+dalam kegiatan belajarnya melalui program CAI. Program memberikan percabangan 
+
+berdasarkan respon siswa. Misalnya, siswa yang selalu salah dalam menjawab 
+
+pertanyaan materi tertentu, maka program harus merekomendasikan untuk 
+
+
+
+16 
+ 
+
+ 
+ 
+
+mempelajari kembali bagian tersebut. Atau bila siswa mencapai skor tertentu, siswa 
+
+bisa langsung menuju ke tingkat atas dan sebaliknya. 
+
+3. Penilaian 
+
+Program CAI yang baik harus dilengkapi dengan aspek penelitian. Untuk 
+
+mengetahui seberapa jauh siswa memahami materi yang dipelajari, pada setiap sub-
+
+topik siswa perlu diberi tes atau soal latihan. Hasil penelitian bila perlu bisa 
+
+terdokumentasi secara otomatis, sehingga guru bisa memonitor setiap perkembangan 
+
+siswa. Bahkan dapat diakses setiap saat siswa belajar sehingga dapat diketahui grafik 
+
+kemajuan belajarnya. 
+
+4. Monitoring Kemajuan 
+
+Program CAI akan lebih efektif bila selalu memberi informasi kepada siswa 
+
+pada bagian mana siswa sedang bekerja dan materi yang sedang dipelajari, apa yang 
+
+akan dipelajari berikutnya, dan apa yang akan dicapai setelah pembelajaran selesai. 
+
+Penyampaian tujuan yang jelas pada awal materi berkaitan erat dengan hasil 
+
+percapaian belajar pada program CAI. Sebelum mengerjakan suatu materi, siswa 
+
+diberi ulasan singkat materi sebelumnya. Dan sebelum mengakhiri, siswa diberi pula 
+
+ulasan tentang materi yang akan datang. 
+
+5. Petunjuk 
+
+Pengajar yang baik adalah pengajar yang dapat memberi petunjuk kepada 
+
+peserta didiknya ke arah pencapaian jawaban yang benar. Demikian juga program CAI 
+
+yang efektif adalah suatu program yang dapat melakukan hal seperti itu. Variasi kata-
+
+kata petunjuk tersebut misalnya: “jawaban anda hampir benar”, “coba kerjakan 
+
+dengan cara lain” dan lain sebagainya. Di samping itu, adanya petunjuk dalam 
+
+program CAI berarti siswa dapat menggunakan atau mengoperasikan program secara 
+
+individual dengan mudah tanpa bantuan orang lain. Dan apabila mendapat kesulitan, 
+
+siswa bisa memanggil “HELP” menu dari program tersebut. 
+
+6. Tampilan 
+
+Karena program CAI dikerjakan melalui layar monitor, maka perlu 
+
+diperhatikan jenis informasi, komponen tampilan, dan keterbacaan. Jenis informasi 
+
+yang ditampilkan bisa berupa teks, gambar, suara, animasi atau video-clip. Ilustrasi 
+
+dan warna bisa menarik perhatian siswa, tetapi bila berlebihan akan mengecohkan. 
+
+ 
+
+
+
+17 
+ 
+
+ 
+ 
+
+2.5.4 Model-Model CAI 
+
+Model pembelajaran yang diterapkan dalam pembelajaran berbantuan 
+
+komputer secara umum dapat diklasifikasikan menjadi empat model, yaitu model 
+
+Tutorial (Penjelasan), model Drill and Practice (Latihan dan Praktek), model 
+
+Simulation (Simulasi), dan model Game (Permainan) (Padmanthara, 2007). Secara 
+
+rinci, model-model perangkat lunak pembelajaran berbantuan komputer dijabarkan 
+
+sebagai berikut: 
+
+a. Model Tutorial (Penjelasan) 
+
+Model tutorial adalah program yang didesain untuk berperan sebagai tutor 
+
+bagi siswa. Artinya bahwa model ini disajikan dalam format dialog dengan siswa. 
+
+Model tutorial berisi konsep, penjelasan, rumus-rumus, prinsip, bagan, tabel, definisi, 
+
+istilah dan latihan. 
+
+b. Model Drill and Pratice (Latihan dan Praktek) 
+
+Model drill and practice didasarkan pada asumsi bahwa konsep-konsep dasar 
+
+yang telah dikuasai oleh siswa dapat digunakan untuk menerapkan rumus-rumus, 
+
+bekerja dengan kasus-kasus konkret, dan menjelajahi daya tangkap mereka tentang 
+
+materi.  
+
+c. Model Simulation (Simulasi) 
+
+Model simulation adalah suatu gambaran atau model dari peristiwa, objek 
+
+atau beberapa fenomena yang disederhanakan yang meliputi unsur –unsur penting. 
+
+Simulasi dapat juga dipergunakan untuk melatih keterampilan, misalnya belajar 
+
+menerbangkan pesawat terbang atau mengendarai mobil, atau untuk memahami sistem 
+
+dalam ekonomi, ekologi, urban planning, dan disiplin ilmu lainnya. 
+
+d. Model Game (Permainan) 
+
+Model game adalah model pembelajaran yang didapatkan dari hasil bermain 
+
+sebuah game. Tujuan dibuatnya sebuah permainan adalah untuk menyediakan 
+
+pengalaman belajar yang memberikan fasilitas-fasilitas belajar untuk menambahkan 
+
+kemampuan siswa melalui bentuk permainan yang mendidik. 
+
+2.6 Game 
+
+Game adalah kata berbahasa Inggris yang berarti permainan atau 
+
+pertandingan, atau bisa diartikan sebagai aktifitas terstruktur yang biasanya dilakukan 
+
+untuk bersenang-senang. Menurut Anggra (dalam Rozi, 2010) game atau permainan 
+
+adalah sesuatu yang dapat dimainkan dengan aturan tertentu sehingga ada yang 
+
+
+
+18 
+ 
+
+ 
+ 
+
+menang dan ada yang kalah, biasanya dalam konteks tidak serius dengan tujuan 
+
+refreshing. Macam-macam game, antara lain: 
+
+1. Aksi 
+
+Genre ini merupakan macam game yang paling popular. Game jenis ini 
+
+membutuhkan kemampuan reflex pemain. Salah satu subgenre action yang popular 
+
+adalah First Person Shooter (FPS).  
+
+2. Role Playing Games (RPG) 
+
+Dalam RPG pemain dapat memilih satu karakter untuk dimainkan. Seiring 
+
+dengan naiknya level game, karakter tersebut dapat berubah, bertambah 
+
+kemampuannya, bertambah senjatanya, atau bertambah hewan peliharaannya. 
+
+3. Puzzle 
+
+Genre puzzle menyajikan teka-teki, menyamakan warna bola, perhitungan 
+
+matematika, menyusun balok, atau mengenal huruf dan gambar. 
+
+4. Permainan Kata 
+
+Word Game sering dirancang untuk menguji kemampuan dengan bahasa atau 
+
+untuk mengeksplorasi sifat-sifatnya. Word Game umumnya digunakan sebagai 
+
+sumber hiburan, tetapi telah dibuktikan untuk melayani suatu tujuan pendidikan juga. 
+
+5. Point and Click 
+
+Point and click adalah sebuah tindakan dari seorang pengguna komputer yang 
+
+menggerakkan sebuah cursor ke lokasi tertentu pada layar (pointing) dan kemudian 
+
+menekan tombol pada sebuah mouse, biasanya tombol kiri (click), atau perangkat 
+
+tekan lainnya  
+
+Berdasarkan uraian di atas dapat disimpulkan game adalah suatu hasil dari 
+
+proses multimedia berupa alat untuk bersenang-senang dan dapat digunakan sebagai 
+
+media untuk pembelajaran. 
+
+2.7 Instructional Games 
+
+Instructional games merupakan salah satu bentuk metode dalam 
+
+pembelajaran berbasis komputer. Tujuan instructional games adalah untuk 
+
+menyediakan pengalaman belajar yang memberikan fasilitas belajar untuk menambah 
+
+kemampuan siswa melalui bentuk permainan yang mendidik. Instructional games 
+
+tidak perlu menirukan realita, namun dapat memiliki karakter yang menyediakan 
+
+tantangan yang menyenangkan bagi siswa. 
+
+
+
+19 
+ 
+
+ 
+ 
+
+Instructional games dapat terlihat dengan mengenali pola pembelajaran 
+
+melalui permainan yang dirancang sedemikian rupa, sehingga pembelajaran lebih 
+
+menantang dan menyenangkan. Keseluruhan permainan memiliki komponen dasar 
+
+sebagai pembangkit motivasi dengan memunculkan cara berkompetensi untuk 
+
+mencapai sesuatu yang diharapkan, yaitu tujuan pembelajaran. 
+
+2.8 Adobe Flash 
+
+Adobe Flash (dahulu bernama Macromedia Flash) adalah salah satu 
+
+perangkat lunak komputer yang merupakan produk unggulan Adobe Systems. Adobe 
+
+Flash digunakan untuk membuat gambar vektor maupun animasi gambar tersebut. 
+
+Berkas yang dihasilkan dari perangkat lunak ini mempunyai file extension .swf dan 
+
+dapat diputar di penjelajah web yang telah dipasangi Adobe Flash Player. Flash 
+
+menggunakan bahasa pemrograman bernama ActionScript yang muncul pertama 
+
+kalinya pada Flash 5. 
+
+Sebelum tahun 2005, Flash dirilis oleh Macromedia. Flash 1.0 diluncurkan 
+
+pada tahun 1996 setelah Macromedia membeli program animasi vektor bernama 
+
+FutureSplash. Versi terakhir yang diluncurkan di pasaran dengan menggunakan nama 
+
+‘Macromedia’ adalah Macromedia Flash 8. Pada tanggal 3 Desember 2005 Adobe 
+
+Systems mengakuisisi Macromedia dan seluruh produknya, sehingga nama 
+
+Macromedia Flash berubah menjadi Adobe Flash. 
+
+Adobe Flash merupakan sebuah program yang didesain khusus oleh Adobe 
+
+dan program aplikasi standar authoring tool professional yang digunakan untuk 
+
+membuat animasi dan bitmap yang sangat menarik untuk keperluan pembangunan 
+
+situs web yang interaktif dan dinamis. Flash didesain dengan kemampuan untuk 
+
+membuat animasi 2 dimensi yang handal dan ringan sehingga flash banyak digunakan 
+
+untuk membangun dan memberikan efek animasi pada website, CD Interaktif dan 
+
+yang lainnya. Selain itu aplikasi ini juga dapat digunakan untuk membuat animasi 
+
+logo, movie, game, pembuatan navigasi pada situs web, tombol animasi, banner, menu 
+
+interaktif, interaktif form isian, e-card, screen saver dan pembuatan aplikasi-aplikasi 
+
+web lainnya. Dalam Flash, terdapat teknik-teknik membuat animasi, fasilitas action 
+
+script, filter, custom easing dan dapat memasukkan video lengkap dengan fasilitas 
+
+playback FLV. Keunggulan yang dimiliki oleh Flash ini adalah ia mampu diberikan 
+
+sedikit code pemograman baik yang berjalan sendiri untuk mengatur animasi yang ada 
+
+didalamnya atau digunakan untuk berkomunikasi dengan program lain seperti HTML, 
+
+
+
+20 
+ 
+
+ 
+ 
+
+PHP, dan Database dengan pendekatan XML, dapat dikolaborasikan dengan web, 
+
+karena mempunyai keunggulan antara lain kecil dalam ukuran file outputnya. 
+
+Movie-movie Flash memiliki ukuran file yang kecil dan dapat ditampilkan 
+
+dengan ukuran layar yang dapat disesuaikan dengan keingginan. Aplikasi Flash 
+
+merupakan sebuah standar aplikasi industri perancangan animasi web dengan 
+
+peningkatan pengaturan dan perluasan kemampuan integrasi yang lebih baik. Banyak 
+
+fiture-fiture baru dalam Flash yang dapat meningkatkan kreativitas dalam pembuatan 
+
+isi media yang kaya dengan memanfaatkan kemampuan aplikasi tersebut secara 
+
+maksimal. Fiture-fiture baru ini membantu kita lebih memusatkan perhatian pada 
+
+desain yang dibuat secara cepat, bukannya memusatkan pada cara kerja dan 
+
+penggunaan aplikasi tersebut. Flash juga dapat digunakan untuk mengembangkan 
+
+secara cepat aplikasi-aplikasi web yang kaya dengan pembuatan script tingkat lanjut. 
+
+Di dalam aplikasinya juga tersedia sebuah alat untuk men-debug script. Dengan 
+
+menggunakan Code hint untuk mempermudah dan mempercepat pembuatan dan 
+
+pengembangan isi ActionScript secara otomatis. 
+
+2.9 ActionScript 
+
+Action Script adalah bahasa pemrograman yang di pakai oleh software Flash 
+
+untuk mengendalikan object-object ataupun movie yang terdapat dalam Flash. 
+
+ActionScript  dibuat berdasarkan ECMAScript, yang digunakan dalam pengembangan 
+
+situs web dan perangkat lunak menggunakan platform Adobe Flash Player. 
+
+ActionScript juga dipakai pada beberapa aplikasi basis data, seperti Alpha Five. 
+
+Bahasa ini awalnya dikembangkan oleh Macromedia, tapi kini sudah dimiliki dan 
+
+dilanjutkan perkembangannya oleh Adobe, yang membeli Macromedia pada tahun 
+
+2005. Action Script terbaru saat ini adalah ActionScript 3.0. ActionScript 3.0 adalah 
+
+bahasa terbaru dari edisi yang sebelumnya dikenal dengan Action Script 2.0. Action 
+
+Script 3.0 memiliki beberapa kelebihan dibanding pendahulunya, antara lain fitur yang 
+
+ditawarkan adalah file pada Action Script 3.0 dapat dibuat terpisah saat runtime. 
+
+2.9.1 Fungsi ActionScript 
+
+ActionScript memeliki beberapa fungsi atau peran yang dapat membantu 
+
+dalam merancang situs atau Movie Flash, antara lain: 
+
+ 
+
+ 
+
+
+
+21 
+ 
+
+ 
+ 
+
+A. Membuat Sistem Navigasi Situs 
+
+Hal ini berkaitan dengan bagaimana ActionScript dapat mengatur user 
+
+menjelajahi situs atau program yang telah dibuat. Dengan demikian animasi situs yang 
+
+telah dibuat tidak hanya menjadi “film iklan” belaka, kecuali memang dinginkan 
+
+seperti itu (dalam kasus film kartun menggunakan Flash). 
+
+b.  Menambahkan Interaktivitas Dengan User 
+
+Dengan ActionScript, user dapat berinteraksi dengan setiap elemen di dalam 
+
+Movie Flash, baik itu tombol video klip maupun teks. 
+
+c.  Membuat Situs Atau Program Yang Dinamis 
+
+Action Script dapat digabungkan dengan berbagai bahasa lain, seperti 
+
+JavaScript, ASP, PHP, CGI, MySQL, atau XML untuk membuat barbagai aplikasi 
+
+yang sulit atau tidak dapat dibuat hanya dengan ActionScript saja. 
+
+2.10 Audacity 
+
+Audacity adalah program pengolah pengolah suara / audio open source 
+
+(gratis) yang disediakan oleh vendor Audacity, bagi para pengguna atau penggemar 
+
+Mixing lagu. Dibandingkan dengan pengolah Audio berbayar lainnya, Audacity bisa 
+
+dibilang cukup untuk mengolah audio, terutama bagi pemula. 
+
+2.11 Storyboard 
+
+Rusman (2013) mengatakan, storyboard adalah bentuk-bentuk gambar yang 
+
+disiapkan disertai dengan penjelasan-penjelasan atau narasi. Penulisan storyboard 
+
+sebaiknya diisi unsur visual terlebih dahulu baru kemudian unsur narasi dan audionya 
+
+yaitu untuk melengkapi hal-hal yang sulit diungkapkan dalam bentuk visual sehingga 
+
+harus diperkuat dengan narasi dan background audio atau sound FX.  
+
+Storyboard adalah rancangan umum suatu aplikasi yang disusun secara 
+
+berurutan layer demi layer serta dilengkapi dengan penjelasan dan spesifikasi dari 
+
+setiap gambar, layer, dan teks. Ini harus tetap mengikuti rancangan peta navigasi. 
+
+Storyboard digunakan untuk merancang antarmuka. Antarmuka atau interface 
+
+merupakan bagian dari program yang berhubungan atau berinteraksi langsung dengan 
+
+pemakai (user). 
+
+Antarmuka atau interface adalah segala sesuatu yang muncul pada layer 
+
+monitor pemakai (user) yang bertujuan agar program yang dihasilkan tidak terlihat 
+
+rumit (harus sederhana dan tidak membingungkan), mudah digunakan dan menarik. 
+
+
+
+22 
+ 
+
+ 
+ 
+
+Hal ini harus dipikirkan oleh perancang program karena setiap interaksi pemakai 
+
+(user) dengan aplikasi harus melalui suatu antarmuka. Storyboard merupakan 
+
+rancangan kasar dari suatu tampilan layer atau merupakan gambaran umum saja. 
+
+Penggunaan storyboard jelas akan mempermudah pelaksanaan dalam proses 
+
+produksi nantinya. Format apapun yang dipilih untuk storyboard, informasi berikut 
+
+harus dicantumkan, yaitu: 
+
+1.  Sketsa atau gambaran layar, halaman atau frame.  
+
+2.  Warna, penempatan dan ukuran grafik, jika perlu. 
+
+3.  Teks asli, jika ditampilkan pada halaman atau layar.  
+
+4.  Warna, ukuran dan tipe font jika ada teks.  
+
+5.  Narasi, jika ada.  
+
+6.  Animasi jika ada.  
+
+7.  Video, jika ada.  
+
+8.  Audio, jika ada.  
+
+9. Interaksi dengan penonton, jika ada.  
+
+Hal-hal yang perlu diketahui oleh staf produksi.  
+
+Daftar cek storyboard :  
+
+1. Harus ada storyboard untuk tiap halaman, layar atau frame.  
+
+2. Tiap storyboard harus dinomori.  
+
+3. Setiap detail yang berhubungan (warna, grafik, suara, tulisan, interativitas, dan 
+
+visual dicantumkan).  
+
+4. Setiap teks atau narasi dimasukkan dan diperiksa sesuai dengan nomor  
+
+storyboard yang berhubungan.  
+
+5. Setiap anggota produksi harus mempunyai salinan atau akses yang mudah ke 
+
+storyboard.  
+
+Storyboard tidak sulit untuk dibuat, bahkan cukup menggunakan poin-poin 
+
+saja asalkan bisa memberikan penjelasan yang jelas mengenai desain tentang 
+
+bagaimana materi yang diajarkan sudah lebih dari cukup. Cara membuatnya juga 
+
+cukup dengan software pengolah kata maupun spreadsheet, tidak perlu menggunakan 
+
+aplikasi pembuat storyboard professional. Beberapa alasan mengapa menggunakan 
+
+storyboard adalah sebagai berikut:  
+
+1. Storyboard harus dibuat sebelum tim membuat animasi.  
+
+2. Storyboard digunakan untuk mengingatkan animator. 
+
+3. Storyboard dibuat untuk memudahkan membaca cerita. 
+
+
+
+23 
+ 
+
+ 
+ 
+
+2.12 Metode Waterfall 
+
+Metode air terjun (waterfall) sering dinamakan sebagai siklus hidup klasik 
+
+(classic life cycle), di mana hal ini menggambarkan pendekatan yang sistematis dan 
+
+juga berurutan pada pengembangan perangkat lunak, dimulai dengan spesifikasi 
+
+kebutuhan pengguna lalu berlanjut melalui tahapan-tahapan perencanaan (planning), 
+
+permodelan (modeling), konstruksi (construction), serta penyerahan sistem ke para 
+
+pelanggan atau pengguna (deployment), yang diakhiri dengan dukungan pada 
+
+perangkat lunak lengkap yang dihasilkan (Pressman, 2012). Tahapan-tahapan model 
+
+waterfall dapat dilihat pada Gambar 2.1. 
+
+ 
+
+Gambar 2.1 Tahapan Model Waterfall 
+
+Berikut ini merupakan penjelasan dari tahapan-tahapan model Waterfall. 
+
+1. Analisis Kebutuhan (Requirement Analysis) 
+
+Tahap ini pengembang sistem diperlukan komunikasi yang bertujuan untuk 
+
+memahami perangkat lunak yang diharapkan oleh pengguna dan batasan perangkat 
+
+lunak tersebut. Informasi ini biasanya dapat diperoleh melalui wawancara, diskusi atau 
+
+survei langsung. Informasi dianalisis untuk mendapatkan data yang dibutuhkan oleh 
+
+penggunaan. 
+
+2. Desain Sistem (System Design)  
+
+Spesifikasi kebutuhan dari tahap sebelumnya akan dipelajari dalam fase ini 
+
+dan desain sistem disiapkan. Desain Sistem membantu dalam menentukan perangkat 
+
+keras (hardware) dan sistem persyaratan dan juga membantu dalam mendefinisikan 
+
+arsitektur sistem secara keseluruhan. 
+
+ 
+
+ 
+
+ 
+
+
+
+24 
+ 
+
+ 
+ 
+
+3. Pengembangan (Implementation) 
+
+Pada tahap ini, sistem pertama kali dikembangkan di program kecil yang 
+
+disebut unit, yang terintegrasi dalam tahap selanjutnya. Setiap unit dikembangkan dan 
+
+diuji untuk fungsionalitas yang disebut sebagai unit testing. 
+
+4. Pengujian dan Uji Coba (Integration and Testing) 
+
+Seluruh unit yang dikembangkan dalam tahap implementasi diintegrasikan 
+
+ke dalam sistem setelah pengujian yang dilakukan masing-masing unit. Setelah 
+
+integrasi seluruh sistem diuji untuk mengecek  setiap kegagalan maupun kesalahan. 
+
+5. Operasi dan Pemeliharaan (Operation and Maintenance) 
+
+Tahap akhir dalam model waterfall. Perangkat lunak yang sudah jadi,  
+
+dijalankan  serta dilakukan  pemeliharaan. Pemeliharaan termasuk dalam memperbaiki  
+
+kesalahan yang tidak ditemukan pada langkah sebelumnya. Perbaikan implementasi 
+
+unit sistem dan peningkatan jasa sistem sebagai kebutuhan baru.  
+
+2.13 Skala Guttman 
+
+Skala Guttman dikembangkan oleh Louis Guttman. Skala Guttman disebut 
+
+juga dengan Scalogram atau analisis skala (Scale Analysis). Louis Guttman 
+
+mengembangkan skala ini untuk mengatasi masalah yang dihadapi oleh Likert dan 
+
+Thurstone. Di samping itu, skala Guttman mempunyai asumsi menurut Babbie (dalam 
+
+Sukardi, 2011) bahwa dasar dari fakta di mana beberapa item di bawah pertimbangan 
+
+yang harus dibuktikan menjadi petunjuk kuat satu variabel dibanding variabel lainnya. 
+
+Skala Guttman memiliki beberapa ciri penting, yaitu : 
+
+1. Skala Guttman merupakan skala komulatif. Jika seseorang responden 
+
+mengiyakan pertanyaan atau pernyataan yang berbobot lebih berat, maka ia juga akan 
+
+mengiyakan pertanyaan atau pernyataan yang kurang berbobot lainya. 
+
+2. Skala Guttman mengukur satu dimensi saja dari suatu variabel yang 
+
+multidimensi, sehingga skala ini mempunyai sifat unidimensional. 
+
+Tujuan utama pembuatan skala Guttman pada prinsipnya untuk menentukan 
+
+jika sikap yang diteliti benar-benar mencakup berdimensi tunggal. Sikap dikatakan 
+
+berdimensi tunggal bila sikap tersebut menghasilkan skala komulatif. Sebagai misal, 
+
+jika seorang responden yang setuju terhadap item 2, maka ia berarti juga setuju 
+
+terhadap item 1. Jika seorang responden yang setuju dengan item 3, maka juga ia 
+
+setuju dengan item 2 dan 1, demikian seterusnya. 
+
+
+
+25 
+ 
+
+ 
+ 
+
+2.13.1 Skala Pengukuran Guttman untuk Validasi 
+
+Skala pengukuran merupakan kesepakatan yang digunakan sebagai acuan 
+
+untuk menentukan panjang pendeknya interval yang ada dalam alat ukur, sehingga 
+
+alat ukur tersebut bila digunakan dalam pengukuran akan menghasilkan data 
+
+kuantitatif (Sugiyono, 2012). Pada skala pengukuran Guttman akan didapat jawaban 
+
+yang tegas, yaitu "ya-tidak"; "benar-salah"; "pernah-tidak pernah"; "positif-negatif", 
+
+dan lain-lain. Data yang diperoleh dapat berupa data interval atau rasio dikhotomi (dua 
+
+alternatif).  
+
+Dalam skala Guttman hanya ada dua interval yaitu "setuju" atau "tidak 
+
+setuju". Penelitian menggunakan skala Guttman dilakukan bila ingin mendapatkan 
+
+jawaban yang tegas terhadap suatu perrnasalahan yang ditanyakan. Contoh : 
+
+1. Setujukah anda jika di mall terdapat hiburan berupa live music? 
+
+a.  Setuju 
+
+b.  Tidak setuju 
+
+2. Apakah karyawan Indomaret pernah menawarkan I-Saku terhadap pelanggan? 
+
+a. Tidak pernah 
+
+b. Pernah 
+
+Skala Guttman selain dapat dibuat dalam bentuk pilihan ganda, juga dapat 
+
+dibuat dalam bentuk checklist. Jawaban dapat dibuat skor tertinggi satu dan terendah 
+
+nol. Misalnya untuk jawaban setuju diberi skor 1 dan tidak setuju diberi skor 0. Analisa 
+
+dilakukan seperti pada skala Likert, yaitu dengan menggunakan rumus sebagai 
+
+berikut: 
+
+p =  (f / n ) * 100% 
+
+Keterangan: 
+
+p = Nilai persentase yang dicari 
+
+f = Jumlah frekuensi dikalikan dengan skor yang ditetapkan tiap jawaban 
+
+n = Skor ideal (skor tertinggi dikalikan dengan jumlah sampel) 
+
+Berikut ini adalah Gambar 2.2 pemetaan kebutuhan analisis validasi aplikasi 
+
+terhadap setiap hasil validasi: 
+
+ 
+
+Gambar 2.2 Skala pengukuran Guttman (Sugiyono, 2012) 
+
+
+
+ 
+ 
+
+26 
+
+BAB III 
+
+METODOLOGI PENELITIAN 
+
+3.1 Alat dan Bahan 
+
+Alat dan bahan yang digunakan dalam menunjang penelitian ini adalah alat 
+
+penelitian, perangkat keras, dan perangkat lunak. 
+
+3.1.1 Alat Penelitian  
+
+Alat penelitian yang digunakan dalam penelitian ini adalah. 
+
+a. Storyboard, untuk menggambarkan urutan alur cerita dari penggunaan 
+
+aplikasi dan objek-objek multimedia yang dimasukkan pada aplikasi 
+
+penelitian ini. 
+
+b. Hirarki antarmuka aplikasi, untuk menunjukkan langkah-langkah dan urutan 
+
+prosedur dari program aplikasi. 
+
+ 
+
+3.1.2 Perangkat Keras 
+
+Perangkat keras yang digunakan pada pembuatan aplikasi di penelitian ini 
+
+adalah: 
+
+a. 1 unit laptop HP Pavilion dm4 dengan spesifikasi berupa Intel(R) Core(TM) 
+
+i5-2450M CPU @ 2.50GHz, SSD 120 GB, RAM 4 GB. Laptop ini digunakan 
+
+sebagai hardware utama dalam pembuatan aplikasi, karena pada laptop ini 
+
+semua proses pembuatan aplikasi di software authoring dilakukan. 
+
+b. 1 unit earphone, digunakan untuk mendengarkan sounds yang akan 
+
+dimasukkan ke dalam aplikasi, serta untuk mengetes suara yang keluar dari 
+
+aplikasi. 
+
+c. 1 unit handphone Samsung Galaxy J1 Ace SM-J111F, digunakan untuk 
+
+merekam suara (dubbing). 
+
+d. 1 unit mouse, digunakan untuk mobilisasi klik dan drag di laptop selama 
+
+proses pembuatan aplikasi. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+
+27 
+
+ 
+
+3.1.3 Perangkat Lunak 
+
+Perangkat lunak yang digunakan pada pembuatan aplikasi di penelitian ini 
+
+adalah: 
+
+a. Sistem Operasi Windows 10 Lite (mod) x64, sebagai sistem operasional pada 
+
+laptop yang digunakan untuk membuat aplikasi. 
+
+b. Adobe Animate CC 2018, sebagai software authoring atau perangkat lunak 
+
+utama untuk membuat sekaligus mengedit aplikasi. 
+
+c. Voice Recorder, untuk merekam suara. 
+
+d. Audacity 2.3.2, unuk mengedit rekaman suara dan men-convert ekstensi file 
+
+suara.  
+
+3.1.4 Data Penelitian 
+
+Data yang dikumpulkan untuk menunjang penelitian ini adalah informasi 
+
+mengenai nama hewan, suara hewan, serta penggolongan jenis makanan hewan 
+
+tersebut. Berikut ini adalah data hewan pada Tabel 3.1. 
+
+Tabel 3.1 Data Hewan Beserta Kategori Jenis Makanan 
+
+No. Nama Hewan Jenis Makanan 
+
+1 Badak Herbivora 
+
+ 
+
+ 
+2 Banteng 
+
+3 Domba 
+
+4 Gajah 
+
+5 Jangkrik 
+
+6 Jerapah 
+
+7 Kambing 
+
+8 Keledai 
+
+9 Kelelawar 
+
+10 Kerbau 
+
+11 Kuda 
+
+12 Sapi 
+
+13 Unta 
+
+14 Zebra 
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+
+28 
+
+ 
+
+No. Nama Hewan Jenis Makanan 
+
+15 Anjing Karnivora 
+
+16 Anjing Laut 
+
+17 Bangau 
+
+18 Beruang Kutub 
+
+19 Buaya 
+
+20 Burung Hantu 
+
+21 Elang 
+
+22 Harimau 
+
+23 Kodok 
+
+24 Kucing 
+
+25 Kuda Nil 
+
+26 Musang 
+
+27 Paus 
+
+28 Pinguin 
+
+29 Serigala 
+
+30 Singa 
+
+31 Ular 
+
+32 Angsa Omnivora 
+
+33 Ayam 
+
+34 Babi 
+
+35 Bebek 
+
+36 Beruang 
+
+37 Gorila 
+
+38 Kalkun 
+
+39 Lalat 
+
+40 Landak 
+
+41 Monyet 
+
+42 Orangutan 
+
+43 Rubah 
+
+44 Tikus 
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+
+29 
+
+ 
+
+3.2 Langkah Penelitian 
+
+Langkah-langkah penelitian dalam pembuatan multimedia pembelajaran 
+
+dengan CAI sesuai dengan model Waterfall dapat dilihat pada Gambar 3.1. 
+
+ 
+
+Gambar 3.1 Diagram Alir Penelitian 
+
+Tahapan dalam penelitian untuk memenuhi penelitian ini adalah sebagai 
+
+berikut : 
+
+1. Observasi 
+
+Menurut Arifin (2011), observasi adalah suatu proses pengamatan dan 
+
+pencatatan secara sistematis, logis, objektif dan rasional mengenai berbagai 
+
+fenomena, baik dalam situasi yang sebenarnya maupun dalam situasi buatan untuk 
+
+mencapai tujuan tertentu. Di tahap ini akan ada pengumpulan data berupa 
+
+pengamatan secara langsung terhadap lokasi, serta pengamatan sistem mengajar 
+
+para guru SBK Bina Anak Bangsa. Dari observasi tersebut dapat disimpulkan 
+
+bahwa sistem mengajar dan penyampaian materi pengenalan hewan masih 
+
+dilakukan dengan cara mengikuti materi dari buku paket dan LKS (Lembar Kerja 
+
+Siswa), serta menggunakan kartu-kartu dengan gambar hewan sebagai alat bantu 
+
+terapi wicara untuk para siswa tersebut. 
+
+
+
+ 
+ 
+
+ 
+ 
+
+30 
+
+ 
+
+2. Wawancara  
+
+Wawancara dilakukan guna mengambil informasi dan data lebih lanjut, 
+
+serta mencari permasalahan dengan cara berbincang kepada guru dan tenaga kerja 
+
+di SBK Bina Anak Bangsa. Dari wawancara tersebut didapatkan bahwa para 
+
+pengajar memiliki rencana untuk memiliki sarana belajar-mengajar secara digital, 
+
+namun sampai detik ini belum terealisasikan. Contoh sarana yang direncanakan 
+
+adalah pengenalan huruf, angka, objek, dan makhluk hidup. 
+
+3. Perumusan Masalah 
+
+Berdasarkan hasil observasi dan wawancara, maka permasalahan yang 
+
+dapat diambil adalah bagaimana membuat aplikasi CAI untuk mengenalkan hewan 
+
+kepada anak berkebutuhan khusus dengan cara yang lebih kreatif dan menarik 
+
+minat belajar anak berkebutuhan khusus dalam mengenal hewan. 
+
+4. Desain Aplikasi 
+
+Desain aplikasi akan membuat sebuah rangka untuk diimplementasikan. 
+
+Desain aplikasi akan melibatkan pembuatan flowchart, storyboard, hierarki 
+
+antarmuka aplikasi, serta pengumpulan aset data (elemen-elemen pendukung 
+
+aplikasi) berupa  teks, gambar, suara, pengisi suara (dubbing), video dan animasi. 
+
+5. Implementasi 
+
+Implementasi merupakan langkah untuk mengembangkan semua 
+
+rancangan yang sudah didesain menjadi aplikasi yang sesungguhnya. 
+
+6. Pengujian 
+
+Pengujian dilakukan jika keseluruhan aplikasi telah diimplementasikan, 
+
+serta siap diujikan ke para siswa di SBK Bina Anak Bangsa Pontianak. Hasil 
+
+pengujian ini sangat penting, sehingga dapat menentukan apakah aplikasi yang telah 
+
+dibuat sudah sesuai dengan tujuan yang ingin dicapai apa tidak. 
+
+3.3 Analisis Kebutuhan Sistem 
+
+Analisis kebutuhan sistem dilakukan dengan melakukan observasi 
+
+terhadap sistem pembelajaran yang sedang berjalan pada sekolah. Dari hasil 
+
+observasi tersebut, didapatlah pembelajaran pengenalan nama-nama hewan yang 
+
+dilakukan secara manual, di mana guru menerangkan materi dari buku paket dan 
+
+LKS (Lembar Kerja Siswa). 
+
+
+
+ 
+ 
+
+ 
+ 
+
+31 
+
+ 
+
+Kebutuhan fungsional sistem adalah kebutuhan yang berisi proses apa saja 
+
+yang nantinya akan dilakukan oleh sistem. Dari sistem yang ada saat ini maka dapat 
+
+ditentukan kebutuhan fungsional yang diperlukan pada aplikasi Computer Assisted 
+
+Instruction (CAI) pengenalan hewan yang akan dibuat. Kebutuhan fungsional dapat 
+
+dilihat pada Tabel 3.2. 
+
+Tabel 3.2 Fungsionalitas Sistem 
+
+Kode Deskripsi 
+
+FR-01 Sistem dapat menampilkan logo dan animasi loading. 
+
+FR-02 Sistem dapat menampilkan judul, menu belajar pengenalan 
+
+hewan dan menu permainan tebak hewan. 
+
+FR-03 Sistem dapat menampilkan menu klasifikasi makanannya 
+
+berupa karnivora, herbivora, dan omnivora. 
+
+FR-04 Sistem dapat menampilkan beberapa objek hewan 
+
+berdasarkan klasifikasi makannya. 
+
+FR-05 Sistem dapat menampilkan keterangan dari salah satu objek 
+
+hewan. 
+
+FR-06 Sistem dapat menampilkan pilihan permainan Tebak Hewan. 
+
+FR-07 Sistem dapat menampilkan 10 pertanyaan tebak gambar 
+
+dalam bentuk seperti pilihan ganda. 
+
+FR-08 Sistem dapat menampilkan model permainan tebak gambar 
+
+dari salah satu level dengan skor pada aturan yang telah 
+
+ditentukan. 
+
+FR-09 Sistem dapat menampilkan tentang atau profil. 
+
+3.4. Perancangan Aplikasi 
+
+Perancangan aplikasi dalam menunjang penelitian ini berupa perancangan 
+
+arsitektur aplikasi, storyboard dan perancangan antarmuka aplikasi, serta hirarki 
+
+antarmuka aplikasi adalah sebagai berikut: 
+
+3.4.1 Perancangan Arsitektur Aplikasi 
+
+Aplikasi CAI Pengenalan Hewan Berdasarkan Klasifikasi Makanan ini 
+
+tidak perlu koneksi internet, para siswa langsung bisa memainkan aplikasi pada 
+
+laptop ataupun komputer, tanpa harus instal aplikasi (bersifat portable). Karena 
+
+aplikasi berbasis CAI yang pada dasarnya dapat digunakan secara mandiri, para 
+
+siswa dapat memainkan aplikasi sendiri. User siswa dapat bermain dan belajar pada 
+
+komputer atau PC yang terdapat aplikasi pengenalan hewan, namun juga harus 
+
+
+
+ 
+ 
+
+ 
+ 
+
+32 
+
+ 
+
+didampingi oleh guru yang mengajar. Aplikasi ini terdapat materi ajar yang akan 
+
+dimonitoring oleh user guru yang mengajar. Perancangan arsitektur sistem aplikasi 
+
+CAI untuk pengenalan nama hewan dapat dilihat pada Gambar 3.2. 
+
+ 
+
+Gambar 3.2 Arsitektur Aplikasi 
+
+3.4.2 Storyboard dan Perancangan Antarmuka Aplikasi 
+
+Storyboard dan perancangan antarmuka aplikasi dapat dilihat pada Tabel 
+
+3.3 berikut ini. 
+
+Tabel 3.3 Storyboard dan Perancangan Antarmuka Aplikasi 
+
+SCENE DESKRIPSI VISUAL AUDIO 
+
+ 
+
+L.1 
+
+ 
+
+Halaman Loading, yang 
+
+berisikan logo dan animasi 
+
+loading untuk masuk ke 
+
+halaman Judul. 
+
+ 
+
+ 
+ 
+
+ 
+
+- Tidak Ada 
+
+ 
+
+J.1 
+
+ 
+
+Halaman Judul, terdiri dari 
+
+beberapa tombol yaitu: 
+
+1. Tentang (T.1) 
+
+2. Ayo Belajar (AB.1) 
+
+3. Tebak Hewan (TH.1) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Audio pada 
+tombol 1, 2, dan 
+
+3 ketika di sorot. 
+
+- Lagu latar 
+
+
+
+ 
+ 
+
+ 
+ 
+
+33 
+
+ 
+
+SCENE DESKRIPSI VISUAL AUDIO 
+
+ 
+
+AB.1 
+
+ 
+
+Halaman Ayo Belajar.1, 
+
+terdiri dari beberapa 
+
+tombol, yaitu: 
+
+1. Kembali (J1) 
+2. Halaman Awal (J1) 
+3. Herbivora (AB.2) 
+4. Karnivora (AB.2) 
+5. Omnivora (AB.2) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Audio pada 
+tombol 1, 2, 3, 4, 
+
+dan 5 ketika di 
+
+sorot. 
+
+ 
+
+AB.2 
+
+ 
+
+Menu Ayo Belajar.2, terdiri 
+
+dari beberapa tombol, yaitu: 
+
+1. Kembali (AB.1) 
+2. Halaman Awal (J.1) 
+3. Pilihan Hewan (AB.3) 
+Tiap menu di AB.1 
+
+memiliki jumlah hewan 
+
+yang berbeda 
+
+ 
+
+ 
+
+ 
+
+- Audio pada 
+tombol 1, dan 2 
+
+ketika di sorot. 
+
+- Audio dubbing 
+pada tombol 3 
+
+ketika disorot. 
+
+ 
+
+AB.3 
+
+ 
+
+Menu Ayo Belajar 3, terdiri 
+
+dari beberapa tombol, yaitu: 
+
+1. Kembali (AB.2) 
+2. Halaman Awal (J.1)  
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+- Audio pada 
+tombol 1, 2, dan 
+
+gambar hewan 
+
+ketika di sorot. 
+
+- Audio hewan 
+pada gambar 
+
+hewan ketika 
+
+diklik. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+
+34 
+
+ 
+
+SCENE DESKRIPSI VISUAL AUDIO 
+
+ 
+
+TH.1 
+
+ 
+
+Menu Tebak Hewan, terdiri 
+
+dari 10 pertanyaan dan 
+
+memiliki beberapa tombol, 
+
+yaitu: 
+1. Kembali (AB.2) 
+2. Halaman Awal (J.1) 
+3. Ulangi Suara Hewan 
+4. Pilihan 1 
+5. Pilihan 2 
+6. Pilihan 3 
+7. Pilihan 4 
+
+ 
+
+ 
+
+ 
+
+- Audio Suara 
+Hewan pada 
+
+saat permainan 
+
+dimulai 
+
+- Audio pada 
+tombol 1 dan 2 
+
+ketika di sorot. 
+
+- Audio Suara 
+Hewan pada 
+
+tombol 3 ketika 
+
+di klik 
+
+ 
+
+TH.2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Menu Tebak Hewan 2, 
+
+menampilkan skor dari 
+
+permainan dan memiliki 
+
+beberapa tombol, yaitu: 
+1. Kembali (AB.2) 
+2. Halaman Awal (J.1) 
+3. Ulangi Permainan 
+
+(TH.1) 
+
+4. Kembali (AB.2) 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- Audio pada 
+tombol 1, 2, 3, 
+
+dan 4 ketika di 
+
+sorot. 
+
+ 
+
+ 
+
+TE.1 
+
+ 
+
+Menu Tentang, 
+
+menampilkan profil 
+
+pembuat aplikasi dan 
+
+memiliki tombol : 
+1. Kembali (J.1) 
+
+2. Halaman Awal (J.1) 
+
+ 
+
+ 
+
+ 
+
+- Audio pada 
+tombol 1 dan 2 
+
+ketika di sorot. 
+
+ 
+
+Pada tabel 3.3 terdapat beberapa scene yang terdapat pada aplikasi, scene 
+
+L.1 merupakan halaman loading. Kemudian masuk ke J.1 merupakan menu judul. 
+
+Judul aplikasinya adalah “Mengenal Hewan (By HUCAR Studio)” dan ada tombol 
+
+yang bertuliskan “Ayo Belajar!” yang akan masuk ke scene AB.1, dan “Tebak 
+
+Hewan” yang akan masuk ke scene TH.1.  
+
+Scene AB.1 merupakan menu dalam materi pembelajaran. Scene AB.1 
+
+memiliki tiga buah tombol yang disesuaikan dengan tipe makanan setiap hewan. 
+
+Yaitu tombol “Herbivora”, tombol “Karnivora” dan tombol menu “Omnivora” 
+
+
+
+ 
+ 
+
+ 
+ 
+
+35 
+
+ 
+
+yang akan mengarahkan ke scene AB.2. Setiap tombol tersebut akan memutarkan 
+
+audio jika kursor terarah pada tombol yang diinginkan.  
+
+Jika tombol menu “Karnivora”, “Herbivora”, dan “Omnivora” di-klik, 
+
+maka akan di hadapkan pada scene AB.2. Yaitu pemilihan binatang yang bisa 
+
+dipilih untuk ditampilkan detail hewan tersebut untuk materi pembelajaran. Pilihan 
+
+hewan pada menu akan berbeda-beda tergantung tipe makanan apa yang pengguna 
+
+pilih. Contoh pada saat pengguna memilih “Herbivora:, gambar yang akan muncul 
+
+adalah Kuda, Domba, dan lain lain. Audio dalam bahasa Indonesia akan muncul 
+
+pada saat kursor disorot ke gambar. Pada scene AB.3, terdapat halaman yang 
+
+berisikan gambar hewan tersebut, dan keterangan singkat dari hewan tersebut. 
+
+Audio berupa suara hewan tersebut akan diputar ketika pengguna meng-klik-kan 
+
+gambar hewan tersebut. Pada scene AB.3 terdapat tombol “kembali” untuk kembali 
+
+pada scene sebelumnya yaitu AB.2. Begitu pula di scene AB.2 dan AB.1 yang 
+
+memiliki logo kembali yang berfungsi untuk mengembalikan tampilan ke halaman 
+
+sebelumya. Di dalam AB.1, AB.2, dan AB.3 juga disediakan tombol “Halaman 
+
+Awal” yang akan mengembalikan tampilan ke scene J.1.  
+
+Pada scene TH.1 terdapat menu “Tebak Hewan”, sebuah permainan untuk 
+
+menebak suara hewan apa yang keluar dalam permainan. Pada permainan “Tebak 
+
+Hewan” tersebut, terdapat 10 pertanyaan dalam bentuk pilihan ganda. Setelah 
+
+permainan berakhir, terdapat beberapa tombol yang bisa dipilih, yaitu “Ulangi” 
+
+ketika ingin bermain lagi dan tombol “Kembali” untuk ke scene sebelumnya yaitu 
+
+scene J.1. 
+
+Pada scene TE.1, terdapat informasi singkat mengenai profil pembuat 
+
+aplikasi, serta memiliki tombol “Kembali” untuk balik ke scene J.1 
+
+3.4.3 Hirarki Antarmuka Aplikasi 
+
+Ketika aplikasi dibuka, aplikasi akan masuk ke halaman loading, 
+
+kemudian ke halaman judul. Di halaman judul ini terdapat dua buah tombol yang 
+
+terdiri dari tombol “Ayo Belajar” dan “Tebak Hewan”. Setelah memilih tombol 
+
+“Ayo Belajar”, di halaman tersebut terdapat tiga buah tombol, yaitu “Herbivora”, 
+
+“Karnivora”, dan “Omnivora”. Tiap klasifikasi memiliki daftar hewan yang 
+
+berbeda sesuai dengan jenis makanannya. Sedangkan halaman “Tebak Hewan” 
+
+akan menampilkan 10 pertanyaan dalam bentuk seperti pilihan ganda. Pengguna 
+
+
+
+ 
+ 
+
+ 
+ 
+
+36 
+
+ 
+
+akan mendengarkan suara hewan yang keluar, kemudian pengguna harus menjawab 
+
+dengan benar hewan apakah itu. 
+
+Hirarki antarmuka aplikasi dapat dilihat pada gambar 3.3. 
+
+ 
+Gambar 3.3 Hirarki Antarmuka Aplikasi 
+
+3.5  Implementasi  
+
+Implementasi merupakan tahap pengembangan rancangan menjadi 
+
+aplikasi yang sebenarnya. Untuk memperlihatkan hasil aplikasi akan ditunjukan 
+
+bagian implementasi yang akan dibuat. 
+
+Implementasi aplikasi ini terdapat model CAI yang digunakan pada 
+
+aplikasi CAI Pengenalan Hewan adalah model tutorial (penjelasan) dan model 
+
+instructional games (permainan). Aplikasi dibuat dengan menggunakan Adobe 
+
+Animate CC 2018 dengan bahasa pemograman ActionScript 3.0. ActionScript 3.0 
+
+digunakan untuk mengimplementasikan alur logika program, dan menampilkan 
+
+aset-aset berupa gambar dan suara sesuai dengan rancangan yang terdapat pada 
+
+storyboard. Semua aset akan diatur dalam file pengenalan_hewan.swf. File .swf 
+
+tersebut merupakan hasil kompilasi / building dari seluruh logika yang terdapat di 
+
+file-file .as. Berikut ini merupakan implementasi aplikasi CAI pada Pengenalan 
+
+Hewan dapat dilihat pada Tabel 3.4. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+
+37 
+
+ 
+
+Tabel 3.4 Implementasi Aplikasi CAI Pengenalan Hewan. 
+
+Scene Nama File Keterangan 
+
+Sc_1 LoadingScreen.as Halaman Loading. 
+
+Sc_2 MainMenuScreen
+
+.as 
+
+Halaman Judul, menampilkan pilihan untuk 
+
+belajar (Ayo Belajar!) atau bermain (Tebak 
+
+Hewan) 
+
+ 
+
+Sc_3 LearnAnimalsMe
+
+nuScreen.as 
+
+Halaman Ayo Belajar 1, menampilkan jenis 
+
+makanan yang mengelompokkan hewan yang 
+
+ingin dipelajari. 
+
+Sc_4 LearnAnimalsScr
+
+een.as 
+
+Halaman Ayo Belajar 2, terdiri dari pemilihan 
+
+hewan yang ditampilkan berdasarkan jenis 
+
+makanan. 
+
+Sc_5 LearnAnimalsDet
+
+ailScreen.as 
+
+Halaman Ayo Belajar 3, menampilkan hewan 
+
+yang sudah dipilih dan ingin dipelajari. Terdapat 
+
+audio hewan dan keterangan singkat tentang 
+
+hewan tersebut. 
+
+ 
+
+Sc_6 GuessAnimalsScr
+
+een.as 
+
+Halaman Tebak Hewan 1, memberikan 10 
+
+pertanyaan kepada pelajar, dengan menebak 
+
+hewan sesuai dengan suara hewan yang keluar.  
+
+Sc_7 GuessAnimalScor
+
+eScreen.as 
+
+Halaman Tebak Hewan 2, menampilkan skor 
+
+yang didapat pelajar setelah memainkan 
+
+permainan Tebak Hewan. 
+
+Sc_8 AboutScreen.as Halaman Tentang, menampilkan profil pembuat 
+
+aplikasi. 
+
+ 
+
+3.6 Uji Coba dan Validasi Aplikasi 
+
+Uji coba aplikasi dilakukan oleh siswa Bina Anak Bangsa dimulai dari 
+
+kelas VI SD sampai XII SMA, dua orang guru Bina Anak Bangsa untuk 
+
+membimbing user anak dalam menggunakan aplikasi, satu orang guru untuk 
+
+
+
+ 
+ 
+
+ 
+ 
+
+38 
+
+ 
+
+memvalidasi aplikasi yang bertujuan untuk mengecek kelayakan aplikasi sebagai 
+
+media pembelajaran yang ditinjau dari 2 sisi, yaitu materi (mata pelajaran IPA), dan 
+
+sisi CAI. Validasi penelitian ini menggunakan skala pengukuran Guttman. Setiap 
+
+pertanyaan untuk uji validasi diambil dari landasan teori yang dikemukakan oleh 
+
+para ahli.  
+
+1. Panduan untuk pertanyaan validasi dari sisi materi (mata pelajaran IPA) 
+
+berupa aspek pembelajaran dan aspek materi dan dapat dilihat pada Tabel 3.5. 
+
+Tabel 3.5 Panduan untuk Uji Kevalidan Media Pembelajaran dari Sisi Materi (Guru 
+
+SLB Bina Anak Bangsa). 
+
+Sumber: Kustandi, Cecep dan Bambang Sutjipto. 2011. Media Pembelajaran; 
+
+Manual dan Digital. Bogor: Ghalia Indonesia. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+No Aspek Penilaian Kriteria 
+
+1. Pembelajaran 
+
+ 
+
+ 
+
+ 
+
+Kesesuaian materi dengan kompetensi dasar 
+
+Kejelasan petunjuk belajar dan games 
+
+Pemberian games untuk memotivasi siswa 
+
+Memberikan kesempatan siswa untuk berlatih sendiri 
+
+2. Materi Kebenaran materi 
+
+Kedalaman materi 
+
+Konsep model tutorial salah satu model dari CAI 
+
+sebagai media pembelajaran 
+
+Kesesuaian gambar untuk memperjelas materi 
+
+Penyajian kata (tidak mengandung ambiguitas) 
+
+Penggunaan bahasa yang sederhana dan mudah 
+
+dipahami (komunikatif) 
+
+
+
+ 
+ 
+
+ 
+ 
+
+39 
+
+ 
+
+2. Panduan untuk pertanyaan pada user anak pada Tabel 3.6 
+
+Tabel 3.6 Panduan untuk Uji Angket pada user anak 
+
+No. Landasan Teori yang Bersesuaian dengan Pertanyaan 
+
+1. Karakteristik Aplikasi (CAI) yang digunakan dalam pembelajaran: 
+
+a. Kesesuaian isi dalam materi pembelajaran. 
+
+b. Visualisasi 2D dan animasi sesuai dengan materi pembelajaran. 
+
+c. Penggunaan warna yang menarik. 
+
+d. Tipe-tipe pembelajaran yang menarik. 
+
+e. Respon pembelajaran, memberikan respon terhadap stimulus yang 
+
+diberikan oleh siswa pada saat mengoperasikan komputer. 
+
+f. Mengembangkan prinsip self evaluation, menyediakan fasilitas di 
+
+mana siswa dapat melatih kemampuannya melalui games yang 
+
+disediakan. 
+
+2. Tujuan pembelajaran model tutorial: 
+
+a. Meningkatakan penguasaan pengetahuan para siswa sesuai dengan 
+
+yang dimuat dalam software pembelajaran. 
+
+b. Meningkatkan kemampuan dan keterampilan siswa tentang cara 
+
+memecahkan masalah, mengatasi kesulitan agar mampu membimbing 
+
+diri sendiri. 
+
+c. Meningkatkan kemampuan siswa tentang cara belajar mandiri. 
+
+3. Langkah-langkah pembelajaran model tutorial menurut Rusman  (2013): 
+
+a. Penyajian materi (presentation of information), berupa materi 
+
+pelajaran yang akan diperlajari siswa. 
+
+b. Pertanyaan dan respon (question of responses), berupa latihan yang 
+
+harus dikerjakan siswa. 
+
+4. Tujuan pembelajaran model instructional games untuk memotivasi 
+
+siswa dan membelajarkan siswa dalam hal memecahkan masalah. 
+
+5. Tahapan yang harus ditempuh dalam pembuatan instructional games 
+
+sebagai pembelajaran: 
+
+a. Aturan, penetapan setiap tindakan yang dapat dilakukan pemain dan 
+
+yang tidak dapat dilakukan oleh siswa. 
+
+b. Imajinasi, permainan sering bergantung pada pengembangan imajinasi 
+
+untuk memberikan motivasi kepada pemain. 
+
+c. Hiburan, selain menghibur, permainan dalam pembelajaran itu 
+
+berperan sebagai penumbuh motivasi. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+
+40 
+
+ 
+
+No. Landasan Teori yang Bersesuaian dengan Pertanyaan 
+
+6. Model instructional games dibagi ke dalam tiga komponen menurut 
+
+Rusman (2013): 
+
+a. Pendahuluan (introduction), berupa judul dan petunjuk permainan. 
+
+b. Bentuk instructional games (body of instructional games), ada 
+
+hubungan bermakna antara siswa dan pembelajaran serta tantangan 
+
+dalam pencapaian tujuan. 
+
+c. Penutup (closing), menyediakan informasi berupa feedback untuk 
+
+siswa dalam permainan. 
+
+Sumber: Rusman. 2013. Metode-Metode Pembelajaran (Mengembangkan. 
+
+Profesionalisme Guru). Jakarta: PT. Raja Grafindo Persada. 
+
+
+
+41 
+
+BAB IV 
+
+HASIL DAN ANALISIS 
+
+4.1 Implementasi Aplikasi 
+
+Aplikasi CAI yang berjudul “Aplikasi Computer Assisted Instruction 
+
+(CAI) Pengenalan Hewan Berdasarkan Klasifikasi Makanan Untuk Anak 
+
+Berkebutuhan Khusus” dapat diimplementasikan pada laptop atau komputer secara 
+
+offline dengan membuka aplikasi bernama “Mengenal Hewan.exe”. File aplikasi 
+
+ini bersifat portable dan dapat langsung dimainkan di laptop atau komputer setelah 
+
+menginstall Adobe AIR. Aplikasi ini juga terdapat audio sehingga laptop atau 
+
+komputer yang digunakan harus memiliki speaker agar user dapat mendengarkan 
+
+suara lafal pengucapan nama hewan dan suara hewan. 
+
+Berikut ini merupakan implementasi aplikasi dapat dilihat pada Tabel 4.1 
+
+Tabel 4.1 Storyboard dan Implementasi Aplikasi  
+
+Kode Storyboard Nama Scene 
+Implementasi 
+
+Aplikasi 
+Deskripsi 
+
+L.1 Sc_1 FR_01 Sistem dapat menampilkan 
+
+logo dan animasi loading. 
+
+J.1 Sc_2 FR_02 Sistem dapat menampilkan 
+
+judul, menu belajar 
+
+pengenalan hewan dan menu 
+
+permainan tebak hewan. 
+
+AB.1 Sc_3 FR_03 Sistem dapat menampilkan 
+
+menu klasifikasi makanannya 
+
+berupa karnivora, herbivora, 
+
+dan omnivora. 
+
+AB.2 Sc_4 FR_04 Sistem dapat menampilkan 
+
+beberapa objek hewan 
+
+berdasarkan klasifikasi 
+
+makannya. 
+
+AB.3 Sc_5 FR_05 Sistem dapat menampilkan 
+
+keterangan dari salah satu 
+
+objek hewan. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+42 
+ 
+
+ 
+ 
+
+Kode Storyboard Nama Scene 
+Implementasi 
+
+Aplikasi 
+Deskripsi 
+
+J.1 Sc_2 FR-06 Sistem dapat menampilkan 
+
+pilihan permainan Tebak 
+
+Hewan. 
+
+TH.1 Sc_6 FR_07 Sistem dapat menampilkan 10 
+
+pertanyaan tebak gambar 
+
+dalam bentuk seperti pilihan 
+
+ganda. 
+
+TH.2 Sc_7 FR_08 Sistem dapat menampilkan 
+
+model permainan tebak 
+
+gambar dari salah satu level 
+
+dengan skor pada aturan yang 
+
+telah ditentukan. 
+
+TE.1 Sc_8 FR_09 Sistem dapat menampilkan 
+
+tentang atau profil. 
+
+ 
+
+4.2 Implementasi Antar Muka Aplikasi 
+
+Implementasi antar muka pada aplikasi CAI yang berjudul “Aplikasi 
+
+Computer Assisted Instruction (CAI) Pengenalan Hewan Berdasarkan Klasifikasi 
+
+Makanan Untuk Anak Berkebutuhan Khusus” adalah sebagai berikut. 
+
+4.2.1 Antar Muka Halaman Loading 
+
+Halaman pertama saat aplikasi dibuka, user dapat melihat Halaman 
+
+Loading di mana aplikasi sedang memuat semua aset untuk masuk ke Halaman 
+
+Judul (J.1). 
+
+ 
+
+Gambar 4.1 Halaman Loading 
+
+ 
+
+ 
+
+
+
+43 
+ 
+
+ 
+ 
+
+4.2.2  Antar Muka Halaman Judul 
+
+Setelah Halaman Loading selesai, maka akan masuk pada Halaman Judul 
+
+(J.1). Judul dari aplikasi adalah “Mengenal Hewan by Hucar Studio”. Di halaman 
+
+ini terdapat tombol “Ayo Belajar!” untuk menuju ke Halaman Ayo Belajar 1 (AB.1) 
+
+dan tombol permainan “Tebak Hewan” untuk menuju ke Halaman Tebak Hewan 1 
+
+(TH.1). Di halaman ini juga terdapat tombol “About Me” untuk menampilkan 
+
+biodata pembuat aplikasi. Musik latar belakang akan mulai diputar sejak halaman 
+
+ini dimulai, dan akan diputar berulang-ulang (looping). Serta audio narasi akan 
+
+mulai terdengar setiap kursor diarahkan di salah satu tombol. 
+
+ 
+
+Gambar 4.2 Halaman Judul 
+
+4.2.3 Antar Muka Halaman Ayo Belajar 1 
+
+Ada tiga tombol pilihan yang ada pada halaman ini, yaitu: 
+
+1. Tombol “Herbivora”, untuk menampilkan daftar hewan pemakan tumbuhan. 
+
+2. Tombol “Karnivora”, untuk menampilkan daftar hewan pemakan daging. 
+
+3. Tombol “Omnivora”, untuk menampilkan daftar hewan pemakan segalanya 
+
+(pemakan tumbuhan dan pemakan daging). 
+
+Setiap pilihan tombol diatas akan menuju ke Halaman Ayo Belajar 2 
+
+(AB.2). Halaman Ayo Belajar 1 juga terdapat tombol “Kembali” untuk kembali ke 
+
+Halaman Judul (J.1) dan tombol “Rumah” untuk kembali ke Halaman Judul (J.1). 
+
+Audio narasi juga akan terdengar setiap kursor diarahkan di salah satu tombol. 
+
+
+
+44 
+ 
+
+ 
+ 
+
+ 
+
+Gambar 4.3 Halaman Ayo Belajar 1 
+
+4.2.4 Antar Muka Halaman Ayo Belajar 2 
+
+Halaman Ayo Belajar 2 akan menampilkan daftar hewan-hewan yang 
+
+ingin dipelajari sesuai dengan klasifikasi makanan yang telah dipilih di Halaman 
+
+Ayo Belajar 1 (AB.1). Halaman Ayo Belajar 2 juga terdapat tombol “Kembali” 
+
+untuk kembali ke Halaman Ayo Belajar 1 (AB.1) dan tombol “Rumah” untuk 
+
+kembali ke Halaman Judul (J.1). Audio narasi juga akan terdengar setiap kursor 
+
+diarahkan di salah satu tombol.  
+
+ 
+
+Gambar 4.4 Halaman Ayo Belajar 2 (Herbivora) 
+
+ 
+
+Gambar 4.5 Halaman Ayo Belajar 2 (Karnivora) 
+
+
+
+45 
+ 
+
+ 
+ 
+
+ 
+
+Gambar 4.6 Halaman Ayo Belajar 2 (Omnivora) 
+
+4.2.5 Antar Muka Halaman Ayo Belajar 3 
+
+Halaman Ayo Belajar 3 akan menampilkan hewan yang ingin dipelajari 
+
+secara spesifik, serta keterangan singkat dari hewan yang ingin dipelajari tersebut. 
+
+Halaman Ayo Belajar 3 disertai tombol “Kembali” untuk kembali ke Halaman Ayo 
+
+Belajar 2 (AB.2) dan tombol “Rumah” untuk kembali ke Halaman Judul (J.1). 
+
+Audio narasi juga akan terdengar setiap kursor diarahkan di salah satu tombol. Jika 
+
+kursor menekan gambar hewan tersebut, makan akan terdengar suara dari hewan 
+
+tersebut. 
+
+ 
+
+Gambar 4.7 Halaman Ayo Belajar 3 (Singa) 
+
+ 
+
+
+
+46 
+ 
+
+ 
+ 
+
+ 
+
+Gambar 4.8 Halaman Ayo Belajar 3 (Bebek) 
+
+4.2.6 Antar Muka Halaman Tebak Hewan 1 
+
+Dalam Halaman Tebak Hewan 1 ini, user akan dihadapi dalam sebuah 
+
+permainan tebak hewan berdasarkan suara hewan yang akan keluar. Pemain 
+
+diharuskan mencocoki antara audio suara hewan yang keluar dan tebakan hewan. 
+
+Pemain akan diberi 10 pertanyaan, serta 4 opsi jawaban yang bisa ditebak. Halaman 
+
+Tebak Hewan 1 disertai tombol “Rumah” untuk kembali ke Halaman Judul (J.1). 
+
+Audio hewan dapat diulang dalam tombol “Ulangi Suara”. 
+
+ 
+
+Gambar 4.9 Halaman Tebak Hewan 1 
+
+4.2.7 Antar Muka Halaman Tebak Hewan 2 
+
+Halaman Tebak Hewan 2 akan menampilkan skor user jika pengguna telah 
+
+menyelesaikan permainan. Halaman Tebak Hewan 2 disertai tombol “Ulangi 
+
+Permainan” untuk mengulangi permainan tebak hewan dan kembali ke Halaman 
+
+Tebak Hewan 1 (TH.1) dan tombol “Kembali” untuk kembali ke Halaman Judul 
+
+(J.1). Audio narasi juga akan terdengar setiap kursor diarahkan di salah satu tombol. 
+
+
+
+47 
+ 
+
+ 
+ 
+
+ 
+
+Gambar 4.10 Halaman Tebak Hewan 2 
+
+4.2.8 Antar Muka Halaman Tentang 
+
+Pada Halaman Tentang terdapat informasi singkat perihal pembuat 
+
+aplikasi. Halaman Tentang juga terdapat tombol “Kembali” untuk kembali ke 
+
+Halaman Judul (J.1) dan tombol “Rumah” untuk kembali ke Halaman Judul (J.1). 
+
+Audio narasi juga akan terdengar setiap kursor diarahkan di salah satu tombol. 
+
+ 
+
+Gambar 4.11 Halaman Tentang 
+
+4.3 Pengujian Hasil Validasi Aplikasi 
+
+Uji coba aplikasi dilakukan oleh satu orang ahli dan anak kelas VI SD 
+
+sampai XII SMA, untuk memvalidasi aplikasi yang bertujuan untuk mengecek 
+
+kelayakan aplikasi sebagai media pembelajaran yang ditinjau dari 2 sisi, yaitu: sisi 
+
+materi dan sisi CAI. Validasi penelitian dilakukan oleh satu orang validator ahli 
+
+materi (guru SLB Bina Anak Bangsa) dan pada anak kelas VI SD sampai XII SMA 
+
+dengan menggunakan skala pengukuran Guttman, yaitu setiap pertanyaan hanya 
+
+berisi dua pilihan jawaban, “Ya” atau “Tidak”. Jawaban “Ya” artinya setuju diberi 
+
+skor 1 dan jawaban “Tidak” artinya tidak setuju diberi skor 0. Analisis kemudian 
+
+dilakukan dengan menggunakan rumus perhitungan yaitu sebagai berikut: 
+
+
+
+48 
+ 
+
+ 
+ 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%   
+
+ 
+
+Pada penelitian ini jumlah frekuensi adalah banyaknya atau jumlah validator pada 
+
+setiap sisi uji validasi. Ada 1 orang validator pada setiap sisi, sehingga: 
+
+f  = 1 * jumlah jawaban “Ya”        
+
+n  =   Skor ideal pada setiap sisi uji validasi jika semua pertanyaan  dijawab “Ya”  
+
+atau jumlah pertanyaan dikalikan jumlah sampel (sampel penelitian ini adalah 
+
+validator pada setiap sisi pengujian). 
+
+n pada uji validasi dari sisi materi (guru SLB Bina Anak Bangsa) = 10 
+
+n pada uji validasi dari sisi CAI = 19 
+
+n pada uji pengguna dari sisi anak kelas VI SD sampai XII SMA = 18 
+
+Perhitungan yang digunakan adalah skala Guttman dengan pendekatan 
+
+kuantitatif hasil pengukuran di bawah 50% “mendekati tidak setuju” dan di atas 
+
+50% “mendekati setuju” (Husman, 2011).  
+
+1. Validasi Ahli Materi (Guru SLB Bina Anak Bangsa) 
+
+Pada pengujian dari sisi materi dilakukan oleh guru yang memberi 
+
+pelajaran dan menguasi aspek–aspek materi pembelajaran pada anak kelas VI SD 
+
+sampai XII SMA. Pada pengujian dari sisi materi diberikan sepuluh pertanyaan 
+
+yang sesuai dengan aspek penilaian dalam pembelajaran, di mana pada setiap aspek 
+
+tersebut terdapat indikator yang akan menilai apakah materi yang disajikan pada 
+
+aplikasi tersebut layak dan sesuai. Hasil validasi dapat dilihat pada Lampiran A. 
+
+Berikut ini tabel hasil uji kevalidan sisi materi dapat dilihat pada tabel 4.2. 
+
+Tabel 4.2 Tabel Validasi Ahli Materi (Guru SLB Bina Anak Bangsa) 
+
+ASPEK NO KRITERIA AHLI 
+
+MATERI 
+Pembelajaran 1 Kesesuaian materi untuk mendukung 
+
+pencapaian kompetensi dasar 
+1 
+
+2. Kejelasan petunjuk belajar 1 
+
+3. Pemberian games untuk memotivasi 
+
+anak 
+1 
+
+4. Memberikan kesempatan siswa untuk 
+
+berlatih sendiri 
+1 
+
+
+
+49 
+ 
+
+ 
+ 
+
+ASPEK NO KRITERIA AHLI 
+
+MATERI 
+
+Materi 5. Kebenaran materi sudah sesuai dengan 
+
+kompetensi dasar dalam belajar 
+1 
+
+6. Kedalaman materi sudah sesuai 1 
+
+7. Konsep tutorial sudah sesuai sebagai 
+
+media pembelajaran 
+1 
+
+8. Kesesuaian gambar seperti benda nyata 
+
+untuk memperjelas materi 
+1 
+
+9. Penyajian bahasa Indonesia sudah tepat 
+
+dan layak disajikan 
+0 
+
+10. Penggunaan bahasa sederhana dan 
+
+mudah dipahami (komunikatif) melalui 
+
+audio 
+
+1 
+
+TOTAL 9 
+
+Berikut ini adalah hasil persentase uji validasi pada ahli materi adalah: 
+
+𝑃 =  
+𝑓
+
+𝑛
+ 𝑥 100%              
+
+    =  
+(1𝑥 9)
+
+10
+ 𝑥 100%  
+
+    =  90% 
+
+Berikut ini merupakan pemetaan analisis uji validasi pada ahli materi pada Gambar 
+
+4.12. 
+
+                                       Mendekati Tidak Setuju          Mendekati Setuju 
+
+                      
+
+   90%  
+
+               0%    50%                          100% 
+
+Gambar 4.12 Pemetaan Analisis Validasi Ahli Materi 
+
+Berdasarkan persentase tersebut, maka dapat disimpulkan bahwa penilaian 
+
+terhadap sisi materi Guru SLB Bina Anak Bangsa pada aplikasi ini dirata-ratakan 
+
+adalah sebesar 90% yang bisa dikategorikan mendekati nilai 100%. Aplikasi ini 
+
+terbukti layak (mendekati setuju) dan telah memenuhi sebagian besar kriteria 
+
+aplikasi pembelajaran yang sesuai dengan siswa SLB Bina Anak Bangsa Pontianak. 
+
+2. Validasi Anak Kelas VI SD sampai XII SMA 
+
+Pada pengujian yang dilakukan oleh anak kelas VI SD sampai XII SMA 
+
+adalah sebanyak 11 siswa yang sebagai user aplikasi ini diberikan dengan 18 
+
+
+
+50 
+ 
+
+ 
+ 
+
+pertanyaan yang sesuai dengan aspek penilaian, di mana pada setiap aspek tersebut 
+
+yang akan dinilai apakah materi yang disajikan pada aplikasi tersebut layak dan 
+
+sesuai. Hasil validasi dapat dilihat pada Lampiran D. Berikut ini adalah nilai 
+
+persentase dari hasil uji media pembelajaran pada anak kelas VI SD sampai XII 
+
+SMA, yaitu: 
+
+a. Hasil dari Uji Anak Pertama: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+    =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ = 100  % 
+
+b. Hasil dari Uji Anak Kedua: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+    =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ =  100 % 
+
+c. Hasil dari Uji Anak Ketiga: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+    =  
+(1 𝑥 12)
+
+18
+ 𝑥 100%  
+
+ =  66,7 % 
+
+d. Hasil dari Uji Anak Keempat: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ =  100 % 
+
+e. Hasil dari Uji Anak Kelima: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 13)
+
+18
+ 𝑥 100%  
+
+ =  72,2 % 
+
+ 
+
+ 
+
+
+
+51 
+ 
+
+ 
+ 
+
+f. Hasil dari Uji Anak Keenam: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ =  100 % 
+
+g. Hasil dari Uji Anak Ketujuh: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ =  100 % 
+
+h. Hasil dari Uji Anak Kedelapan: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ =  100 % 
+
+i. Hasil dari Uji Anak Kesembilan: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 17)
+
+18
+ 𝑥 100%  
+
+ =  94,4 % 
+
+j. Hasil dari Uji Anak Kesepuluh: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ =  100 % 
+
+k. Hasil dari Uji Anak Kesebelas: 
+
+𝑷 =  
+𝒇
+
+𝒏
+ 𝒙 𝟏𝟎𝟎%              
+
+ =  
+(1 𝑥 18)
+
+18
+ 𝑥 100%  
+
+ = 100 % 
+
+ 
+
+ 
+
+ 
+
+
+
+52 
+ 
+
+ 
+ 
+
+Berikut ini merupakan hasil uji kelayakan user pada anak kelas VI SD sampai XII 
+
+SMA dapat dilihat pada Tabel 4.3. 
+
+Tabel 4.3 Hasil Uji Kelayakan User 
+
+No. Pertanyaan 
+Tanggapan Total 
+
+(%) YA TIDAK 
+
+1 Karakteristik Aplikasi (CAI) yang digunakan 
+
+dalam pembelajaran: 
+
+a. Apakah isi dalam aplikasi sesuai dengan materi 
+
+pembelajaran? 
+
+10 1 90,9% 
+
+b. Apakah aplikasi ini mengandung 2D dan 
+
+animasi sesuai dengan materi pembelajaran? 
+10 1 90,9% 
+
+c. Apakah aplikasi ini menggunakan warna yang 
+
+menarik? 
+10 1 90,9% 
+
+d. Apakah aplikasi ini terdapat tipe-tipe 
+
+pembelajaran yang bervariasi? 
+10 1 90,9% 
+
+e. Apakah respon pembelajaran pada aplikasi ini 
+
+dapat dipahami oleh siswa? 
+11 0 100% 
+
+f. Apakah permainan pada materi belajar dapat 
+
+dipahami oleh siswa? 
+11 0 100% 
+
+2. Tujuan model tutorial pada aplikasi (CAI): 
+
+a. Apakah aplikasi ini dapat menambah wawasan 
+
+dalam materi pembelajaran? 
+
+10 1 90,9% 
+
+b. Apakah aplikasi ini dapat meningkatkan 
+
+kemampuan dan keterampilan dalam 
+
+memecahkan masalah? 
+
+10 1 90,9% 
+
+c. Apakah aplikasi ini dapat membantu anda 
+
+dalam meningkatkan kemampuan belajar 
+
+secara mandiri? 
+
+11 0 100% 
+
+3. Langkah-langkah model tutorial pada apalikasi 
+
+(CAI): 
+
+a. Apakah materi pembelajaran sesuai dengan 
+
+materi yang dipelajari oleh siswa? 
+
+10 1 90,9% 
+
+b. Apakah permainan pada aplikasi ini sesuai 
+
+dengan latihan yang ada pada pembelajaran? 
+10 1 90,9% 
+
+4. Apakah permainan tebak hewan ini dapat 
+
+membantu siswa dalam memahami materi 
+
+pembelajaran? 
+
+ 
+
+ 
+
+9 2 81,8% 
+
+
+
+53 
+ 
+
+ 
+ 
+
+No. Pertanyaan 
+Tanggapan Total 
+
+(%) YA TIDAK 
+
+5. Langkah-langkah model instructional games pada 
+
+aplikasi (CAI): 
+
+a. Apakah aturan pada permainan dapat 
+
+dimengerti oleh siswa? 
+
+11 0 100% 
+
+b. Apakah permainan ini memberikan efek 
+
+imajinasi pada siswa? 
+11 0 100% 
+
+c. Apakah permainan ini memberikan efek hiburan 
+
+pada siswa? 
+11 0 100% 
+
+6. Komponen-komponen dalam instructional games 
+
+pada aplikasi (CAI): 
+
+a. Apakah pada permainan tebak hewan ini 
+
+terdapat pendahuluan, berupa judul dan 
+
+petunjukan permainan? 
+
+10 1 90,9% 
+
+b. Apakah bentuk permainan pada aplikasi ini 
+
+memberikan tantangan pada siswa? 
+10 1 90,9% 
+
+ c. Apakah pada aplikasi ini terdapat penutup yang 
+
+berisi tentang penilaian ketika permainan telah 
+
+selesai dimainkan? 
+
+11 0 100% 
+
+ TOTAL 176 12 - 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Presentase (%) 
+
+=    
+∑𝐽𝑢𝑚𝑙𝑎ℎ 𝑌𝐴
+
+∑ 𝐽𝑢𝑚𝑙𝑎ℎ 𝐽𝑎𝑤𝑎𝑏 𝑌𝐴 𝑥  ∑ 𝑅𝑒𝑠𝑝𝑜𝑛𝑑𝑒𝑛 
+ 𝑥 100 % 
+
+=    
+176
+
+18 𝑥  11
+ 𝑥 100 % 
+
+=    
+176
+
+198
+ 𝑥 100 %  
+
+=   88.9 % 
+
+
+
+54 
+ 
+
+ 
+ 
+
+Berikut ini merupakan pemetaan Analisis Validasi pada anak kelas IV SD 
+
+yang dapat dilihat pada Gambar 4.13. 
+
+                                       Mendekati Tidak Setuju          Mendekati Setuju 
+
+                      
+
+                          88,9%  
+
+               0%    50%                          100% 
+
+Gambar 4.13 Pemetaan Analisis Validasi pada Anak Kelas VI SD sampai XII 
+
+SMA 
+
+Berdasarkan hasil perhitungan dengan skala Guttman bahwa aplikasi yang 
+
+digunakan oleh anak kelas VI SD sampai XII SMA didapatkan rata-rata hasilnya 
+
+adalah 88,9% dan presentase tersebut, maka dapat disimpulkan bahwa penelian 
+
+terhadap kelayakan aplikasi yang digunakan oleh anak kelas VI SD sampai XII 
+
+SMA dapat dirata-ratakan adalah 88,9% dan bisa dikategorikan mendekati 100%. 
+
+Aplikasi ini terbukti layak (mendekati setuju) dan telah memenuhi sebagian besar 
+
+kriteria aplikasi pembelajaran yang sesuai dengan materi pembelajaran IPA tentang 
+
+pengenalan hewan.  
+
+4.4 Analisis Hasil Uji Coba Aplikasi 
+
+Aplikasi format Mengenal Hewan.exe dapat dioperasikan di semua jenis 
+
+laptop atau komputer. Uji coba aplikasi ini dilakukan oleh guru dan siswa pada 1 
+
+PC inti yang ada pada ruang kelas komputer sekolah tersebut. Jumlah siswa yang 
+
+minat berpartisipasi dalam mencoba aplikasi ini sebanyak 11 anak. Berikut ini 
+
+adalah analisis hasil pengujian Aplikasi CAI Pengenalan Hewan Berdasarkan 
+
+Klasifikasi Makanan Untuk Anak Berkebutuhan Khusus dapat disimpulkan sebagai 
+
+berikut. 
+
+1. Berdasarkan ahli materi, dapat disimpulkan bahwa presentase penilaian oleh 
+
+ahli materi sebesar 90% dengan jawaban skor “YA” berjumlah 9 dengan 
+
+aspek penilaian 10 pertanyaan. Skor hasil penilaian termasuk dalam kategori 
+
+baik, sehingga aplikasi dapat di nilai baik dan valid oleh ahli materi. 
+
+2. Berdasarkan hasil perhitungan uji coba angket kelayakan pada anak VI SD 
+
+sampai XII SMA dengan menggunakaan skala Guttman, rata-rata presentase 
+
+yang didapat dari hasil rata-rata kusioner adalah sebesar 88,9% dengan skor 
+
+
+
+55 
+ 
+
+ 
+ 
+
+jawaban “YA” berjumlah 18 pertanyaan dengan aspek-aspek CAI dan jumlah 
+
+anak sebanyak 11 anak. Maka dari itu bahwa dengan menggunakan aplikasi 
+
+pembelajaran CAI dengan model tutorial dan instructional games  ini dapat 
+
+lebih memudahkan oleh siswa dibandingkan dengan hanya membaca dan 
+
+mendengar atau metode belajar manual. Maka hasil skor penilaian 
+
+menunjukkan bahwa aplikasi tersebut valid dan layak digunakan pada kriteria 
+
+aplikasi pembelajaran yang sesuai dengan materi pembelajaran IPA tentang 
+
+pengenalan hewan.  
+
+
+
+ 
+
+56 
+
+ 
+
+BAB  V 
+
+PENUTUP 
+
+5.1. Kesimpulan 
+
+Berdasarkan hasil analisis uji coba dan validasi terhadap Aplikasi CAI 
+
+Pengenalan Hewan Berdasarkan Klasifikasi Makanan Untuk Anak Berkebutuhan 
+
+Khusus, dapat disimpulkan bahwa: 
+
+1. Penelitian berhasil membuat sebuah aplikasi CAI tentang pengenalan hewan 
+
+karena berdasarkan hasil uji aplikasi, aplikasi ini mendapatkan nilai 90% 
+
+untuk ahli Materi dan nilai 88,9% untuk uji coba pada anak kelas VI SD 
+
+sampai XII SMA. 
+
+2. Aplikasi pembelajaran berbasis CAI dengan model tutorial dan instructional 
+
+games lebih alternatif dibandingkan dengan metode belajar manual pada 
+
+materi pengenalan hewan dalam buku maupun alat bantu berupa kartu 
+
+bergambar. Aplikasi ini dapat membantu siswa SLB Bina Anak Bangsa 
+
+Pontianak dalam memahami materi pembelajaran pengenalan hewan dalam 
+
+mata pelajaran IPA. 
+
+5.2. Saran 
+
+Hal-hal yang menjadi saran untuk penelitian dan pengembangan aplikasi 
+
+ini agar menjadi lebih baik, yaitu: 
+
+1. Penelitian selanjutnya diharapkan dapat menambah jumlah hewan agar 
+
+pilihan belajar hewannya bisa semakin banyak.  
+
+

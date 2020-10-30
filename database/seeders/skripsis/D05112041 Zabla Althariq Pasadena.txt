@@ -1,0 +1,3515 @@
+
+BAB I
+
+PENDAHULUAN
+
+1.1 Latar Belakang
+
+Indonesia mempunyai keberagaman suku dan kesenian. Dari kesenian yang
+
+beragam itulah pada masa sekarang ini perlu upaya untuk melestarikan budaya
+
+tersebut agar kesenian itu tidak hilang dengan perkembangan ilmu dan teknologi
+
+yang berkembang sangat pesat saat ini.
+
+Salah  satu  dari  banyaknya  kesenian  daerah  yang  ada  di indonesia  yaitu
+
+suku  Dayak  yang  ada  di  Kalimantan  Barat.   Masyarakat  Dayak  merupakan
+
+masyarakat  yang  beragam  sub  suku,  bahasa  kesenian  dan  kebudayaan.
+
+Keberagaman  budaya  ini  merupakan  sebuah  cerminan  kekhasan  dan  identitas
+
+sosial  komunitas-komunitas  Dayak  yang  ada  di  Kalimantan  Barat.  Kesenian
+
+Dayak telah tumbuh dan berkembang dari  jaman ke jaman,  merupakan bagian
+
+dari kearifan lokal Masyarakat Dayak yang diwariskan dari generasi ke generasi,
+
+kesenian yang tumbuh di kalangan masyarakat  Dayak merupakan pengambaran
+
+masyarakat  Dayak  akan  pengalaman  –  pengalaman  hidup,  kehidupan  sosial,
+
+relegius  dan  kedekatannya  dengan  alam  sekitar.  Dengan kecerdasan  bersuara,
+
+bermusik, menari,  masyarakat  Dayak menuangkan kisah asal-usul suku mereka
+
+langsung dari ingatan.
+
+Masyarakat  Dayak Salako sendiri  merupakan  salah  satu  sub suku dayak
+
+yang  ada  di Kalimantan  Barat  khususnya  di  wilayah  kota  Singkawang  binua
+
+garantung. Yang dimana dalam kehidupan berladang masyarakat  Dayak Salako
+
+selalu  berpindah  pindah  dari  desa  ke  desa  bahkan  sampai  ke  binua  (wilayah
+
+kekuasaan) lain. Dalam hal ini masyarakat Dayak Salako tidak pernah lepas dari
+
+ritual adat dan musik tradisional yang selalu mengiringi setiap proses berladang
+
+dari  awal  sampai  masa  panen  atau  yang  disebut  naik  dango  oleh  masyarakat
+
+Dayak.  Sehingga  membuat  warna  musik  tradisonal Dayak  Salako memiliki
+
+kemiripan  dengan  musik  tradisional  Dayak  Kanayatn  di  binua  landak  karena
+
+proses perpindahan berladang itu sendiri. Karena Dau dan Gong adalah alat musik
+
+inti dari beberapa alat musik tradisional dayak dalam penggarapan sebuah karya
+
+seni musik, yang dimana Dau sebagai alat musik melodis dan Gong sebagai alat 
+
+1
+
+
+
+2
+
+musik Bass, menjadikan harmonisasi yang indah ketika alat musik Dau dan Gong
+
+dimainkan berdasarkan dasar – dasar tabuhan tradisi. sehingga sangat cocok jika
+
+Dau dan Gong dijadikan materi media pembelajaran. 
+
+Sampai  saat  ini  media  pembelajaran  tabuhan  musik  tradisi  suku  Dayak
+
+Salako  belum ada ditemukan  dimedia online dan  buku.  Membuat  masyarakat
+
+umum tidak dapat mempelajari tabuhan tradisi suku Dayak Salako secara online.
+
+Dalam  upaya pengembangan kesenian tentunya kita sadar bahwa kesenian dan
+
+kebudayaan  tidaklah  bersifat  statis,  melainkan  dinamis.  Pelestarian  dan
+
+pengembangan  khususnya  kesenian  daerah  juga ikut  menyesuaikan  diri  dalam
+
+perubahan jaman. “media pembelajaran online tabuhan musik tradisi suku Dayak
+
+Salako khususny  pada  alat  musik  dau  dan  gong  berbasis  web” adalah  media
+
+pembelajaran  secara  online,  yang dapat  membuka  wawasan masyarakat  secara
+
+umum  agar  lebih  memperhatikan  dan  menyadari  pentingnya  belajar  tabuhan
+
+tradisi sebagai identitas keberagaman adat dan budaya.
+
+1.2 Perumusan Masalah
+
+Berdasarkan latar  belakang  yang telah  diuraikan  diatas,  didapatkan  suatu
+
+perumusan  masalah,  yaitu  bagaimana  merancang  sebuah  media  pembelajaran
+
+tabuhan musik tradisi suku Dayak Salako khususnya pada alat musik dau dan gong
+
+berbasis Web studi kasus masyarakat Dayak Salako Singkawang Kalimantan Barat.
+
+1.3 Tujuan Penelitian
+
+Tujuan  dari  penelitian  ini  adalah  untuk  menghasilkan  aplikasi  media
+
+pembelajaran  tabuhan  musik  tradisi  suku  Dayak  Salako  khususnya  pada  alat
+
+musik dau dan gong berbasis Web.
+
+1.4 Batasan Masalah
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah:
+
+1. Aplikasi dibangun berbasis Web.
+
+2. Aplikasi  hanya  menggunakan  objek-objek  multimedia  berupa  teks,
+
+gambar/grafik, bunyi, dan video.
+
+
+
+3
+
+3. Aplikasi hanya mempelajari tabuhan musik tradisi Dayak Salako tidak dengan
+
+sub suku Dayak yang lain.
+
+4. Aplikasi hanya mempelajari alat musik dau dan gong.
+
+5. Aplikasi yang dibangun hanya untuk PC.
+
+1.5 Sistematika penulisan
+
+Sistematika dari penulisan tugas akhir ini disusun dalam 5 (lima) bab yang
+
+terdiri  dari  Bab  I  Pendahuluan,  Bab  II  Tinjauan  Pustaka,  Bab  III  Metodologi
+
+Penelitian  dan  Perancangan Aplikasi,  Bab IV   Hasil  dan Analisi,  serta  Bab V
+
+penutup.
+
+BAB  I  Pendahuluan  adalah  bab  yang  berisi  latar  belakang,  perumusan
+
+masalah, tujuan penelitian, pembatasan masalah, dan sistematika penulisan.
+
+BAB II Tinjauan Pustaka adalah bab yang berisi landasan teori dan prinsip –
+
+prinsip penunjang yang berguna dalam pengerjaan tugas akhir ini, yaitu meliputi
+
+teori dasar mengenai  kesenian suku Dayak, media pembelajaran, pembelajaran
+
+interaktif, multimedia pembelajaran interaktif, CAI, dan berbasis WEB.
+
+BAB III  Metodologi  Penelitian dan Perancangan Aplikasi adalah bab yang
+
+berisi tentang pengumpulan data/informasi, alat yang digunakan pada penelitian,
+
+metode  penelitian,  diagram  alir  penelitian,  desain  aplikasi yang  berupa
+
+perancangan  arsitektur  sistem,  dan  perancangan  antarmuka  aplikasi,  serta
+
+penjelasan mengenai pembuatan aplikasi uji coba serta penarikan kesimpulan.
+
+BAB IV  Hasil  dan  Analisis  adalah  bab yang berisi  penjelasan  mengenai
+
+implementasi aplikasi, screenshoot tampilan antarmuka aplikasi yang sudah jadi,
+
+serta  analisi  hasil  uji  coba  aplikasi.  Setiap  aplikasi  yang  ditampilkan  akan
+
+dilakukan analisis terlebih dahulu untuk mengarah kepada suatu kesimpulan.
+
+Bab  V penutup  adalah  bab  yang  berisi  kesimpulan  dari  penelitian  telah
+
+dilakukan  dan  saran/rekomendasi  untuk  perbaikan,  pengembangan  atau
+
+kesempurnaan / kelengkapan penelitian yang telah dilakukan.
+
+
+
+ BAB II 
+
+TINJUAN PUSTAKA
+
+2.1  Dayak Salako
+
+Dikabupaten  sambas  suku Dayak Salako menyebar  kearah  timur  bukit
+
+senujuh  dan  berhenti  di  sajingan  sebagai  kawasan  yang  berbatasan  dengan
+
+kelompok Austronesia  Kanayotn.  Arah utara kabupaten itu Austronesia  Salako
+
+berada dikawasan sungai bening hingga ke paloh sebagai kawasan yang paling
+
+ujung.  Sajingan  dan  paloh  yang  termasuk  benua  Bantanan  merupakan  daerah
+
+perbatasan dengan Malaysia Timur.
+
+Dalam  sebuah  peta  yang  dibuat  oleh  Residentie  Waster-Afdeeling  Van
+
+Borneo  1887   kampung-kampung  suku  Dayak  Salako  yang  masih  berada
+
+didaratan  tinggi  rangkaian  bukit  kawasan  sebelah  timur  Singkawang  sudah
+
+diterakan dalam peta itu. Adapun daerah penyebaran Dayak Salako dapat dilihat
+
+pada gambar 2.1  berikut ini:
+
+Gambar 2.1 Peta wilayah pemukiman Dayak Salako yang ditandai oleh garis-
+
+4
+
+
+
+5
+
+garis arsir dengan garis tebal yang disilangi sebagai batasnya.
+
+ Kampung-kampung itu  antara lain,  kampung bagak,  kampung pajintan
+
+dan kampung sango kulor, Mandor capala dan sebagainya. Peta itu menunjukan
+
+bahwa  pada  tahun  itu  kawasan-kawasan  perbukitan  itu  sudah  dihuni  jauh
+
+sebelumnya.  Bantang  orang  Salako  di  kawasan  rangkaian  perbukitan  Bagak
+
+Singkawang sendiri sudah pindah sampai ennam kali sejak leluhur mereka pindah
+
+dari  kawasan Salako.  Lokasi bantang Bagak yang terakhir  sekarang ini  berada
+
+dikaki rangkaian bukit tersebut. 
+
+Berdasarkan catatan Earl 1834 dan peta Residentie 1887 di atas dapat di
+
+asumsikan  bahwa  penyebaran  kelompok  suku  Dayak  Salako  ke  arah  dataran
+
+tinggi  dan rangkaian perbukitan dipedalaman sudah berlangsung lama.  Mereka
+
+mungkin  sudah bermukim di  kawasan  itu  sebelum kerajaan  Budhha-Sriwijaya
+
+Palembang mencaplok kawasan utara Kalimantan Barat sekitar abad 6 keatas. Ini
+
+ditunjukkan  oleh  pantak-pantak  yang  ada  dipedagi  salako  Singkawang  yaitu
+
+dibantang Bagak Singkawang, menurut cerita orang dulu yang berjumlah 49 buah
+
+yang  sebagian  besar  terbuat  dari  batu.  Artinya  berdasarkaan  peralatan  kerja
+
+mereka yang masih terbatas paling tidak mereka sudah ada dikawasan itu pada
+
+awal tarikh masehi. Mereka itu belum mampu membuat pantak dari kayu belian
+
+sehingga model pantaknya seperti pantak-pantak dipedagi dikawasan Salako yang
+
+terbuat dari batu.
+
+Di daratan tinggi bukit itu terdapat sebuah tempat pemujaan yang disebut
+
+padagi  (m,200).  Pedagi  biasa  juga  disebut  tempat  keramat  merupakan  sebuah
+
+tempat dialam terbuka untuk melaksanakan upacara ritual dari Religi Tradisional
+
+kelompok Austronesia Salako. Di pedagi itu terdapat dua buah pantak dari batu
+
+yang berbentuk semacam linngga agama hindu. Keduanya adalah pantak-pantak
+
+dari  suami-istri  yang bernama Nek sumpu (suami) dan Nek Badungkoh (istri).
+
+Masih  ada  beberapa  tempayan,  mangkuk,  pecahan  pecahan  keramik  dan  satu
+
+rumpun buluh di samping pantak pantak ini.  Letak salako buto’ tidak jauh dari
+
+salako awal  atau  Salako Tuho.  Dinamakan Salako Buto’  karena  di  daerah  itu
+
+menglair sebuah anak sungai yang berasal dari sungai besar Salako. Namun aliran
+
+anak  sungai  itu  panjangnya  sekitar  500m,  buntu  (buto)  tidak  ada  hilirnya,
+
+berbentuk seperti usus buntu.
+
+
+
+6
+
+Dibagian hulu Salako Buto’ terdapat sebuah Bantang permukiman yang
+
+bernama Gamuruh. Ada sebuah anak sungai mengalir ditempat itu yang melintasi
+
+salako  awal  yang  bermuara  kesungai  besar  Salako.  Anak  sungai  itu  memiliki
+
+sebuah lubuk yang dimana orang Austronesia Salako awal dulu pernah membuang
+
+beberapa buah Gong mereka. Tempat itu dinamakan lubuk Gong. Menurut cerita
+
+informan,  nama  awal  dari  bantang  itu  sudah  tidak  diketahui.  Komunitas  awal
+
+dibantang itu  hidup secara damai berabad-abad. Masalah muncul dibantang itu
+
+setelah masyarakat Salako melaksanakan upacara ritual penanaman kedua pantak
+
+Ne’ sumpu dan Ne’ Badungkoh dipedagi bukit salako buto’.
+
+Saat  itu  setiap  komunitas  di  masing  masing  bantang  dikawasan  salako
+
+sudah memiliki Dau (Gamelan) dan Gong. Masyarakat yang masih homogen itu
+
+sudah melakukan peraktek mengayau (memotong kepala manusia) dan notonkng
+
+(tarian  kepala  sehabis  mengayau)  yang  di  iringi  oleh  musik  dari  instrument-
+
+instrument Gendang besar dan panjang disebut Suben, gendang kecil dan panjang
+
+disebut Tumo’, Dau dan Gong. 
+
+2.1.1  Kesenian  Musik Dayak Salako
+
+Seni musik suku Dayak Salako didominasi musik-musik ritual. Musik itu
+
+merupakan  alat  berkomunikasi  dan  menyampaikan  pesan  kepada  roh-roh  para
+
+leluhur. Beberapa jenis alat musik suku Dayak Salako adalah: suben, tumo’, prahi,
+
+gimar, tuukng tuat, pampong, genikng, glunikng, jatung tutup, kadire, klentangan,
+
+dau dan gong.
+
+Pengertian alat musik dau dan gong dapat dilihat sebagai berikut:
+
+1. Dau  adalah  alat  musik  yang  berasal  dari  Kalimantan.  Seperti  yang  anda
+
+ketahui, Dau alat musik yang di pukul, tapi bukan alat musikmoderen seperti
+
+Drum,  alat  musik  ini sejenis  instrumen yang  juga  terdapat  di  Jawa  dengan
+
+sebutan Kenong, tapi Kangkanung lebih mengarah pada sejenis Bonang bila
+
+merujuk pada ensemble gamelan,  di  Bali  disebut  Reong, di  Minang disebut
+
+Talempong. 
+
+Cara  memainkannya  hampir  sama  dengan  alat  musik  sejenis  dari  daerah
+
+lainnya.  Jumlah  Dau  ada  4  buah,  yang  disusun  secara  berjejer  memanjang
+
+
+
+7
+
+diatas  rajutan tali  di  sebuah wadah kotak persegi panjang yang terbuat  dari
+
+kayu.
+
+a. Asal Dari: Kalimantan
+
+b. Jenis Instrument: Idiofon
+
+c. Nada: A,C,D dan G
+
+d. Jumlah: 4 buah
+
+e. Ukuran lingkar: Masing masing kurang lebih 20cm
+
+f. Ukuran lingkar tonjolan: 3-5cm
+
+g. Cara memainkan: Ditabuh dengan 2 Stick kayu
+
+h. Penempatan: Disusun  Berjejer Diatas rajutan tali disebuah kotak kayu
+
+i. Bahan: Campuran timah, tembaga dan kuningan
+
+j. Sikap pemusik: Duduk bersila pada saat memainkan
+
+k. Instumen sejenis: Bonang/Kenong (Jawa), Reong (Bali)
+
+Nada masing-masing Dau dihasilkan dari tebal tipisnya masing-masing buah
+
+Dau, nada tersebut yaitu A, C, D dan G, dengan klasifikasi nada pentatonik.
+
+Dau  dimainkan  dengan  cara  dipukul  dengan  dua  buah  pemukul  atau  stick,
+
+pemukul/stick terbuat dari bahan kayu yang kuat. Stick atau pemukul Dau tidak
+
+dibuat  benjolan  pada  ujungnya dan tidak  juga dilapisi  kain  atau  karet  pada
+
+ujung yang bersentuhan dengan Dau. Bahan Dau terbuat dari campuran timah,
+
+tembaga,  dan  kuningan.  Posisi  atau  sikap  pemain  Dau  pada  saat
+
+memainkannya, dengan sikap duduk bersila. Adapun gambar dau dapat dilihat
+
+pada gambar 2.2 seperti berikut:
+
+
+
+8
+
+Gambar 2.2 Alat Musik Dau
+
+2. Gong  adalah  alat  musik  tradisional  Kalimantan  Barat.  Alat  musik  yang
+
+dimainkan dengan cara ditabuh dengan stik kayu ini merupakan salah satu alat
+
+musik yang sering dianggap sakral. Gong dapat Anda temui hampir diseluruh
+
+sub suku Dayak. Intrumen ini dipercaya oleh suku Dayak dapat mengusir roh-
+
+roh jahat dan mendatangkan roh para leluhur. Hal ini disebabkan oleh suara
+
+Gong adalah bunyi yang agung untuk menyamput kedatangan roh. Ini yang
+
+membuat alat musik ini legendaris.  Gong termasuk kedalam jenis instrumen
+
+perkusi  yang terbuat  dari  logam. Intrumen ini  digunakan untuk menamakan
+
+instrumen perunggu dengan pencon di tengahnya. Gong juga merupakan alat
+
+musik  tradisional  Kalimantan  Barat  yang  multifungsi.  Selain  sebagai  alat
+
+musik, Gong juga bisa menjadi mas kawin, sebagai dudukan simbol semangat
+
+ketika pernikahan. Adapun gambar gong dapat dilihat pada gambar 2.3 sebagai
+
+berikut:
+
+Gambar 2.3 Alat musik Gong
+
+Masyarakat  Dayak  Salako  juga  memiliki  tabuhan  musik  tradisional  yang
+
+dikhususkan pada alat musik inti dari kesenian musik Dayak Salako yaitu Dau
+
+dan Gong,  sebagai  dasar  kesenian  musik  Dayak Salako dalam ritual  Religi
+
+Tradisional,  uapacara  kematian  dan  upacara-upacara  adat  dalam melakukan
+
+ritual berladang Suku Dayak Salako. Adapun tabuhan musik tradisional salako
+
+pada alat musik Dau dan Gong yaitu:
+
+1. Aek-Aek
+
+2. Amboyo
+
+3. Bawakng
+
+
+
+9
+
+4. Bawakng kadadakng
+
+5. Bawakng panca
+
+6. Dendo
+
+7. Ledakng
+
+8. Panabakng 
+
+9. Jubata
+
+10. Totokng
+
+11. Huruhari
+
+12. Samoko Batimakng
+
+13. Samoko Lajakng
+
+14. Ngajat 
+
+2.2 Media Pembelajaran
+
+Kata media berasal dari bahasa latin dan merupakan bentuk jamak dari kata
+
+medium yang secara harfiah berarti perantara atau pengantar. Kata kunci media
+
+adalah  perantara.  Dalam  aktivitas  pembelajaran,  media  dapat  didefinisikan
+
+sebagai sesuatu yang dapat membawa informasi dan pengetahuan dalam interaksi
+
+yang  berlangsung  antara  pendidik  dengan  peserta  didik.  Menurut  Pupuh  dan
+
+Sobry (2007).
+
+Pengertian media secara terminologi cukup beragam, sesuai dengan sudut
+
+pandang  para  pakar  media  pendidikan.  Sadiman  dalam  Musfiqon  (2012)
+
+mengatakan  media  adalah  perantara  dan  pengantar  pesan  dari  pengirim  ke
+
+penerima pesan. Asosiasi Teknologi dan Komunikasi Pendidikan (Association of
+
+Education and Communication Technology/AECT) di Amerika, membatasi media
+
+sebagai  segala  bentuk  yang  diprogramkan  untuk  suatu  proses  penyaluran
+
+informasi.
+
+Gagne  dalam  Musfiqon  (2012)  menyatakan  bahwa  media  pembelajaran
+
+adalah berbagai jenis komponen dalam lingkungan siswa yang dapat merangsang
+
+siswa  untuk  belajar.  Jadi,  Media  merupakan  alat  bantu  yang  digunakan  guru
+
+dengan  desain  yang  disesuaikan  untuk  meningkatkan  kualitas  belajar  yang
+
+berfungsi  untuk  menjelaskan  sebagian  dari  keseluruhan  program pembelajaran
+
+yang sulit dijelaskan secara verbal (Musfiqon, 2012). 
+
+
+
+10
+
+Di lihat dari jenisnya media dibagi ke dalam beberapa bentuk yaitu media
+
+auditif, media visual dan media audiovisual. Kata media berasal dari bahasa latin
+
+medius  yang  secara  harfiah  berarti  tengah,  perantara  atau  pengantar.  Dalam
+
+bahasa arab media adalah perantara atau pengantar pesan dari pengirim kepada
+
+penerima pesan. 
+
+Gerlach & Ely dalam Arsyad Azhar (2002), mengemukakan bahwa media
+
+adalah manusia, materi,  atau kejadian yang membangun kondisi yang membuat
+
+siswa mampu memperoleh pengetahuan, keterampilan dan sikap. Media adalah
+
+kata jamak dari medium yang dalam arti umum dipakai untuk menunjukkan alat
+
+komunikasi (Depdikbud, 1988). 
+
+Istilah ini  menunjukkan segala  sesuatu yang membawa atau menyalurkan
+
+informasi antara sumber dan penerima, karena itu film, televisi, radio, rekaman,
+
+photo, alat visual yang dipoyeksikan, barang cetakan, dan lain – lain sejenis itu
+
+adalah media komunikasi untuk menyampaikan pesan, gagasan atau ide. 
+
+2.2.1 Klasifikasi Media Pembelajaran
+
+Gagne  &  Briggs  dalam  Arsyad  (2002)  mengemukakan  bahwa  media
+
+pembelajaran meliputi alat yang secara fisik digunakan untuk menyampaikan isi
+
+materi  pembelajaran  yang terdiri  dari,  antara  lain:  buku,  tape-recorder  ,  kaset,
+
+video kamera, video recorder , film, slide (gambar bingkai), foto, gambar, grafik,
+
+televisi, dan komputer. 
+
+Berikut  ini  akan  diuraikan  klasifikasi  Media  Pembelajaran  menurut
+
+taksonomi Leshin, dkk., dalam (Arsyad, 2008), yaitu:
+
+1) Media berbasis visual
+
+Media  berbasis  visual  (image atau  perumpamaan)  memegang  peranan
+
+yang  sangat  penting  dalam  proses  belajar.  Media  visual  dapat  memperlancar
+
+pemahaman  dan  memperkuat  ingatan.  Visual  dapat  pula  menumbuhkan  minat
+
+siswa dan dapat memberikan hubungan antara isi materi pelajaran dengan dunia
+
+nyata.
+
+
+
+11
+
+2) Media berbasis Audio-visual
+
+Media  visual  yang  menggabungkan  penggunaan  suara  memerlukan
+
+pekerjaan tambahan untuk memproduksinya. Salah satu pekerjaan penting yang
+
+diperlukan  dalam  media  audio-visual  adalah  penulisan  naskah  dan  storyboard
+
+yang  memerlukan  persiapan  yang  banyak,  rancangan,  dan  penelitian.  Contoh
+
+media yang berbasis audio-visual adalah video, film, slide bersama tape, televisi.
+
+3) Media berbasis computer
+
+Komputer memiliki  fungsi yang berbeda-beda dalam bidang pendidikan
+
+dan latihan. Komputer berperan sebagai manajer dalam proses pembelajaran yang
+
+dikenal  dengan  nama  Computer-  Managed  Instruction  (CMI).  Adapula  peran
+
+komputer  sebagai pembantu tambahan dalam belajar;  pemanfaatannya meliputi
+
+penyajian informasi isi materi pelajaran, latihan, atau kedua-duanya. 
+
+Modus  ini  dikenal  sebagai  Computer-Assisted  Instruction  (CAI).CAI
+
+mendukung pembelajaran dan pelatihan akan tetapi ia bukanlah penyampai utama
+
+materi  pelajaran.  Komputer  dapat  menyajikan  informasi  dan  tahapan
+
+pembelajaran lainnya disampaikan bukan dengan media komputer.
+
+2.2.2 Media Pembelajaran Berbasis Komputer
+
+Komputer  memiliki  kemampuan untuk menyajikan proses pembelajaran
+
+interaktif.  Krisnadi  (2004)  menyebutkan  bahwa  aplikasi  komputer  dalam
+
+pembelajaran,  umumnya  dikenal  dengan  istilah  Computer  Assisted  Instruction
+
+(CAI) dalam bahasa Indonesia disebut Pembelajaran Berbasis Komputer. 
+
+Emithu (2010) dalam wahyudiono (2011) CAI adalah aplikasi komputer
+
+sebagai bagian integral dalam sistem pembelajaran terhadap proses belajar dan
+
+mengajar  yang bertujuan  membantu  siswa dalam belajarnya  bisa  melalui  pola
+
+interaksi dua arah melalui terminal komputer maupun multi arah yang diperluas
+
+melalui  jaringan  komputer  (baik  lokal  maupun  global)  dan  juga  diperluas
+
+fungsinya melalui interface (antarmuka) multimedia.
+
+CAI  merupakan  suatu  sistem  komputer  yang  dapat  menyampaikan
+
+pengajaran secara langsung kepada para siswa dengan cara berinteraksi dengan
+
+
+
+12
+
+mata pelajaran yang diprogramkan ke dalam sistem (Nana Sudjana dan A.Riva’i,
+
+(2007). CAI juga bermacam-macam bentuknya bergantung kecakapan pendesain
+
+dan  pengembang  pembelajarannya,  bisa  berbentuk  permainan  (games),
+
+mengajarkan konsep-konsep abstrak yang kemudian dikonkritkan dalam bentuk
+
+visual dan audio yang dianimasikan.
+
+Menurut  Krisnadi  (2004)  Istilah  CAI  umumnya  menunjuk  pada  semua
+
+software  pendidikan  yang  diakses  melalui  komputer  dimana  siswa  dapat
+
+berinteraksi  dengannya. Dari  teori  yang dikemukakan diatas dapat disimpulkan
+
+bahwa penggunaan komputer dalam pembelajaran membantu tercapainya tujuan
+
+pengajaran di karenakan siswa dapat langsung berinteraksi dengan materi yang di
+
+ajar.
+
+2.3 Multimedia Pembelajaran Interaktif
+
+Pengertian  Multimedia  Interaktif  menurut  Hamdani  (2014)  adalah
+
+multimedia yang dilengkapi dengan alat pengontrol yang dapat dioperasikan oleh
+
+pengguna sehingga pengguna dapat memilih apa yang dikehendaki untuk proses
+
+selanjutnya. Contoh multimedia interaktif adalah pembelajaran interaktif, aplikasi
+
+game, dan lain-lain.
+
+Aplikasi  multimedia  dalam  proses  pembelajaran  ditujukan  untuk
+
+menyalurkan  pesan  (pengetahuan,  keterampilan,  dan  sikap)  serta  merangsang
+
+pilihan, perasaan, perhatian, dan kemauan siswa sehingga proses belajar terarah
+
+dan terkendali. Multimedia terbagi menjadi dua kategori, yaitu : multimedia linier
+
+dan multimedia interaktif. 
+
+Multimedia linier adalah suatu multimedia yang tidak dilengkapi dengan alat
+
+pengontrol  apapun  yang  dapat  dioperasikan  oleh  pengguna.  Multimedia  ini
+
+berjalan  sekuensial  (berurutan),  contohnya:  TV dan film.  Multimedia  interaktif
+
+adalah  suatu  multimedia  yang  dilengkapi  dengan  alat  pengontrol  yang  dapat
+
+dioperasikan  oeh  pengguna  sehingga  pengguna  dapat  memilih  apa  yang
+
+dikehendaki  untuk  proses  selanjutnya.  Contoh  multimedia  interaktif  adalah
+
+pembelajaran interaktif, aplikasi game, dan lain-lain.
+
+Menurut  Hamdani  (2014)  Karakteristik  Multimedia  pembelajaran  adalah
+
+sebagai berikut :
+
+
+
+13
+
+1. Memiliki lebih dari satu media yang konvergen, misalnya    menggabungkan
+
+audio dan visual.
+
+2. Bersifat  interaktif,  dalam  pengertian  memiliki  kemampuan  untuk
+
+mengakomodasi respon pengguna. 
+
+3. Bersifat mandiri, dalam pengertian memberi kemudahan dan kelengkapan isi
+
+sedemikian  rupa  sehingga  pengguna  bisa  menggunakan  tanpa bimbingan
+
+orang lain.
+
+Selain  memenuhi  tiga  karakteristik  tersebut,  multimedia  pembelajaran
+
+sebaiknya memiliki fungsi berikut:
+
+1. Mampu memperkuat respons pengguna secepatnya dan sesering mungkin.
+
+2. Mampu  memberikan  kesempatan  kepada  siswa  untuk  mengontrol  laju
+
+kecepatan belajarnya.
+
+3. Memerhatikan  bahwa  siswa  mengikuti  suatu  urutan  yang  koheren  dan
+
+terkendali.
+
+4. Mampu  memberikan  kesempatan  adanya  partisipasi  dari  pengguna  dalam
+
+bentuk respons, baik berupa jawaban, pemilihan, keputusan, percobaan, dan
+
+lain-lain.
+
+2.4 Pembelajaran  Berbantuan  Komputer  CAI (Computer  Assisted
+
+Instruction)
+
+Istilah  pembelajaran  berbantuan  komputer  diterjemahkan  dari  CAI
+
+(Computer-Assisted Instruction), sering juga digunakan secara bergantian dengan
+
+istilah CBL (Computer-Based Learning) dan CBI (Computer-Based Instruction)
+
+(Riyana,  2007). Pembelajaran berbasis komputer  (Computer Based Instruction)
+
+menunjuk  pada  semua  software pendidikan  yang  diakses  melalui  komputer
+
+dimana siswa dapat berinteraksi dengannya, salah satunya multimedia interaktif.
+
+Sistem komputer menyajikan serangkaian program pengajaran kepada siswa
+
+baik berupa informasi maupun latihan soal untuk mencapai tujuan pembelajaran
+
+tertentu dan siswa melakukan aktivitas belajar dengan cara berinteraksi dengan
+
+sistem komputer.
+
+De Porter, et. al. (2004) menyatakan bahwa proses pembelajaran akan lebih
+
+efektif jika melibatkan aktivitas indera. Hal tersebut merupakan modalitas yaitu
+
+
+
+14
+
+audio,  visual  dan  kinestetik  yang  bila  dioptimalkan  dapat  mempengaruhi
+
+konsentrasi  siswa  belajar  (Susanto,2006).  Dengan  rancangan  pembelajaran
+
+komputer  yang  bersifat  interaktif,  akan  mampu  meningkatkan  motivasi  siswa
+
+dalam  belajar,  memberikan  umpan  balik  secara  langsung,  memberikan
+
+kesempatan siswa menentukan sendiri percepatan belajarnya dan dapat melakukan
+
+self evaluation (evaluasi diri).
+
+Tahapan pengembangan CAI pada aplikasi CAI berbasis multimedia untuk
+
+pembelajaran tabuhan musik tradisional suku Dayak Salako dibuat berdasarkan
+
+teori  tahapan pengembangan  CAI yang dikembangkan oleh  Alessi  dan  Trollip
+
+(2001), yang dapat dilihat pada Tabel 2.1 berikut:
+
+Tabel 2.1 Tahapan Pengembangan CAI Pada Aplikasi
+
+No
+.
+
+Tahapan Pengembangan
+CAI
+
+(Alessi dan Trollip, 2001)
+
+Tahapan Pengembangan CAI 
+Pada Aplikasi
+
+1. Menentukan Kebutuhan dan 
+Tujuan
+
+Kebutuhan: mengenalkan dan memberikan
+tutorial  tabuhan  musik  tradisional  suku
+Dayak Salako.
+Tujuan:  menghasilkan  aplikasi  komputer
+yang memanfaatkan teknologi multimedia
+dengan  konsep  CAI  untuk  mengenalkan
+dan  mempelajari  tabuhan  musik
+tradisional suku Dayak Salako khususnya
+alat musik dau dan gong. (Ada di Bab 1)
+
+
+
+15
+
+No
+.
+
+Tahapan Pengembangan
+CAI
+
+(Alessi dan Trollip, 2001)
+
+Tahapan Pengembangan CAI
+Pada Aplikasi
+
+2. Mengumpulkan Sumber Daya Sumber daya terkait dengan pokok materi:
+Kesenian suku dayak, seni musik, 
+pengenalan tabuhan musik tradisional, 
+media pembelajaran, multimedia, CAI, 
+metode penelitian, dan hal-hal yang 
+berkaitan yang bersumber dari jurnal, 
+buku referensi, website, wawancara 
+langsung kepada seniman musik 
+tradisional Dayak Salako dan lain 
+sebagainya. Sumber daya untuk desain 
+pembelajaran: flowchart dan storyboard. 
+(Ada di Bab 2)
+
+3. Mempelajari Materi Wawancara Seniman musik tradisional 
+Dayak Salako pada sanggar tengkawang 
+borneo, dan ahli CAI, membaca teks dan 
+materi pelajaran, mengamati video 
+tabuhan tradisi yang dijadikan landasan 
+untuk membuat animasi tabuhan musik 
+tradisional, aplikasi serupa yang sudah 
+dibuat oleh orang lain melalui kajian 
+terkait. (Ada di Bab 2 dan Bab 4)
+
+4. Menghasilkan Gagasan Aplikasi komputer (web) yang 
+memanfaatkan teknologi multimedia 
+dengan konsep Computer Assisted 
+Instruction (CAI) agar dapat digunakan 
+masyarakat umum  secara visual, yang 
+disertai dengan tutorial tabuhan musik 
+tradisional dan permainan alat musik 
+tradisional dau dan gong. (Ada di Bab 1)
+
+5. Mendesain Pembelajaran Desain pembelajaran pada aplikasi ini 
+terdapat pada subbab 3.2 Perancangan 
+sistem
+
+6 Membuat Bagan Alir Bagan Alir (flowchart) aplikasi ini 
+terdapat pada subbab 3.2.2 Flowchart 
+Aplikasi
+
+7. Memajang Storyboard Secara 
+Tertulis
+
+Storyboard aplikasi ini terdapat pada 
+subbab 3.2.3 Storyboard dan 
+Perancangan Antarmuka (Interface) 
+Aplikasi
+
+
+
+16
+
+No Tahapan Pengembangan
+CAI
+
+(Alessi dan Trollip, 2001)
+
+Tahapan Pengembangan CAI
+Pada Aplikasi
+
+8. Memprogram Pelajaran Pemrograman aplikasi ini menggunakan 
+bahasa pemrograman html5 dan javascript.
+
+9. Membuat Materi yang 
+Mendukung
+
+Materi pendukung aplikasi ini adalah 
+daftar nama tabuhan alat musik tradisional
+suku Dayak Salako khususnya pada alat 
+musik dau dan gong. 
+
+10. Mengevaluasi dan Meninjau 
+Kembali
+
+Evaluasi dan peninjauan kembali aplikasi 
+ini dilakukan dengan uji coba sistem yang 
+dilakukan oleh dua orang pakar atau ahli, 
+sebagai validator aplikasi untuk mengecek 
+kelayakan aplikasi. Validasi penelitian ini 
+menggunakan skala pengukuran Guttman 
+yang terdiri dari 2 jenis uji validasi, yaitu 
+uji kevalidan media pembelajaran dari sisi 
+seniman musik tradisional Dayak Salako , 
+dan uji kevalidan media pembelajaran dari
+sisi CAI. (Ada di Subbab 4.3)
+
+2.4.1 Model CAI
+
+Model  pembelajaran  yang  diterapkan  dalam  pembelajaran  berbantuan
+
+komputer  secara  umum  menurut  Patmanthara  (2007)  dapat diklasifikasikan
+
+menjadi  empat  model,  yaitu:  1)  model  Tutorial,  2)  model Drill  and  Practice
+
+(Latihan  dan  praktek),  3)  model  Simulation (Simulasi),  dan  4)   model  Game
+
+(Permainan). Secara rinci, model-model perangkat lunak pembelajaran berbantuan
+
+komputer dijabarkan sebagai berikut:
+
+a. Model Tutorial (Penjelasan)
+
+Model  tutorial  adalah program yang didesain untuk berperan sebagai tutor
+
+bagi siswa. Artinya bahwa model ini disajikan dalam format dialog dengan
+
+siswa. Model tutorial berisi konsep, penjelasan, rumus-rumus, prinsip, bagan,
+
+tabel, definisi, istilah dan latihan.
+
+b. Model Drill and practice
+
+Model drill and practice didasarkan pada asumsi bahwa konsep-konsep dasar
+
+yang telah dikuasai oleh siswa dapat digunakan untuk menerapkan rumus-
+
+rumus, bekerja  dengan kasus-kasus konkret,  dan menjelajahi  daya tangkap
+
+mereka tentang materi.
+
+
+
+17
+
+c. Model Simulation (simulasi)
+
+Model simulasi adalah suatu gambaran atau model dari peristiwa, objek atau
+
+beberapa fenomena yang disederhanakan yang meliputi unsur –unsur penting.
+
+Simulasi  dapat  juga  dipergunakan  untuk  melatih  keterampilan,  misalnya
+
+belajar menerbangkan pesawat terbang atau mengendarai mobil, atau untuk
+
+memahami sistem dalam ekonomi, ekologi, urban planning, dan disiplin ilmu
+
+lainnya.
+
+d. Model Game
+
+Model game adalah model pembelajaran yang didapatkan dari hasil bermain
+
+sebuah  game. Tujuan Game adalah untuk menyediakan pengalaman belajar
+
+yang memberikan fasilitas-fasilitas belajar untuk menambahkan kemampuan
+
+siswa melalui bentuk permainan yang mendidik.
+
+2.5 HTML5
+
+HTML5  merupakan  salah  satu  karya  Konsortium  Waring  Wera
+
+Wanua(World Wide Web Consortium, W3C) dan dan IETF (Internet Engineering
+
+Task  Force)  yaitu  sebuah  organisasi  yang  menangani  HTML sejak  versi  2.0.
+
+untuk mendefinisikan sebuah bahasa markah tunggal yang dapat ditulis dengan
+
+cara HTML ataupun XHTML. HTML5 merupakan jawaban atas pengembangan
+
+HTML  4.01  dan  XHTML  1.1  yang  selama  ini  berjalan  terpisah,  dan
+
+diimplementasikan  secara  berbeda-beda  oleh  banyak  perangkat  lunak  pembuat
+
+web.
+
+Kelompok  Kerja  Teknologi  Aplikasi  Web  Hyperteks (Web  Hypertext
+
+Application  Technology  Working  Group,  WHATWG)  mulai  membuat  standar
+
+baru  ini  pada  tahun  2004  ketika  Konsortium  W3C  sedang  fokus  pada
+
+pengembangan XHTML 2.0 di masa depan, sementara HTML 4.01 belum pernah
+
+diperbarui sejak tahun 2000.Sejak tahun 2009, W3C dan WHATWG bekerja sama
+
+dalam  pengembangan  HTML5  setelah  W3C  mengakhiri  Kelompok  Kerja
+
+Pengembangan  XHTML  2.0.Meskipun  HTML5  telah  dikenal  luas  oleh  para
+
+pengembang web sejak lama, HTML5 baru mencuat pada April 2010.
+
+
+
+18
+
+2.6 FlowChart
+
+Flowchart adalah  suatu  bagan  dengan  simbol-simbol  tertentu  yang
+
+menggambarkan urutan proses secara mendetail dan hubungan antara suatu proses
+
+(instruksi) dengan proses lainnya dalam suatu program.
+
+Berikut ini adalah beberapa simbol yang digunakan dalam menggambar suatu 
+flowchart pada gambar 2.4 : 
+
+Gambar 2.4 Simbol Flowchart.
+
+2.7 Storyboard
+
+Pengertian  storyboard  sendiri  Menurut  Halas  (Sutopo,  2003)  merupakan
+
+rangkaian  gambar  manual  yang  dibuat  secara  keseluruhan  sehingga
+
+menggambarkan  suatu  cerita.  Jenis  ini  banyak  digunakan  untuk  storyboard
+
+pembuatan  film.  Sedangkan  storyboard  menurut  Luther  (Sutopo,  2003)
+
+merupakan deskripsi  dari setiap scene yang secara jelas menggambarkan objek
+
+multimedia serta perilakunya
+
+Dari penjelasan di  atas  maka dapat diambil  kesimpulan bahwa storybord
+
+merupakan  suatu  sketsa  gambar  yang  disusun  secara  berurutan  sesuai  naskah
+
+
+
+19
+
+cerita. Atau storyboard yaitu naskah yang di sajikan dalam bentuk sketsa gambar
+
+yang  berurutan,  berguna  untuk  memudahkan  pembuatan  alur  cerita  maupun
+
+pengambilan gambar.
+
+2.8 Skala pengukuran Guttman Untuk validasi aplikasi
+
+Skala pengukuran merupakan kesepakatan yang digunakan sebagai  acuan
+
+untuk menentukan panjang pendeknya interval yang ada dalam alat ukur, sehingga
+
+alat  ukur  tersebut  bila  digunakan  dalam  pengukuran  akan  menghasilkan  data
+
+kuantitatif  (Sugiyono,  2012).  Pada  skala  pengukuran  Guttman  akan  didapat
+
+jawaban  yang  tegas,  yaitu  "ya-tidak";  "benar-salah";  "pernah-tidak  pernah";
+
+"positif-negatif' dan Iain-lain. Data yang diperoleh dapat berupa data interval atau
+
+rasio dikhotomi (dua alternatif). 
+
+Jika  pada  skala  pengukuran  lain,  contohnya  yaitu  skala  Likert  yang
+
+memiliki 3,4,5,6,7 interval, dari kata "sangat setuju" sampai "sangat tidak setuju",
+
+maka pada dalam skala Guttman hanya ada dua interval yaitu "setuju" atau "tidak
+
+setuju". Penelitian menggunakan skala Guttman dilakukan bila ingin mendapatkan
+
+jawaban yang tegas terhadap suatu perrnasalahan yang ditanyakan. Contoh:
+
+1.   Bagaimana pendapat anda, bila orang itu menjabat Kepala Sekolah di sini?
+
+a.    Setuju
+
+b.   Tidak setuju
+
+2.   Pernahkah Penilik Sekolah  melakukan pemeriksaan di ruang kelas anda?
+
+a.   Tidak pernah
+
+b.   Pernah
+
+Skala Guttman selain dapat dibuat dalam bentuk pilihan ganda, juga dapat
+
+dibuat  dalam  bentuk  checklist.  Jawaban  dapat  dibuat  skor  tertinggi  satu  dan
+
+terendah nol. Misalnya untuk jawaban setuju diberi skor 1 dan tidak setuju diberi
+
+skor 0. Analisa dilakukan seperti pada skala Likert, yaitu dengan menggunakan
+
+rumus sebagai berikut:
+
+p =  (f / n ) * 100%             (2.1)
+
+Keterangan:
+
+p = Nilai persentase yang dicari
+
+f = Jumlah frekuensi dikalikan dengan skor yang ditetapkan tiap jawaban
+
+
+
+20
+
+n = Skor ideal (skor tertinggi dikalikan dengan jumlah sampel)
+
+ 
+Jika nilai persentase yang dicari mendekati 100%, maka sistem/instrumen/
+
+aplikasi  yang  sedang  diujikan  terbukti  dapat  berjalan  dengan  baik  dan  sesuai
+
+dengan  aspek  yang  diperlukan  (Sugiyono,  2012).  Pada  penelitian  ini,  skala
+
+pengukuran Guttman digunakan untuk validasi  aplikasi  oleh pakar  atau  tenaga
+
+ahli yang akan menguji coba aplikasi yang telah dibuat.
+
+2.9 Pengujian Black Box Testing
+
+Blackbox testing  adalah tahap yang digunakan untuk menguji  kelancaran
+
+program yang  telah  dibuat.  Pengujian  ini  penting  dilakukan  agar  tidak  terjadi
+
+kesalahan alur program yang telah dibuat. Menurut Rosa dan Salahuddin (2015)
+
+“Blackbox testing  yaitu menguji perangkat lunak dari segi spesifikasi fungsional
+
+tanpa menguji desain dan kode program”.
+
+Black  Box  Testing juga  merupakan  suatu  bentuk  pengujian  yang
+
+menggunakan  metode  pengujian  yang  menguji  fungsionalitas  aplikasi  yang
+
+bertentangan dengan struktur internal atau kerjanya (berbanding terbalik dengan
+
+White  Box).  Berusaha  untuk  mengetahui  pengetahuan  khusus  darikode suatu
+
+aplikasi  atau struktur  internal dan  pengetahuan  pemrograman  yang  pada
+
+umumnya tidak diperlukan. Metode uji ini dapat diterapkan pada semua tingkat
+
+pengujian  perangkat  lunak,  seperti:  unit,  integrasi,  fungsional,  sistem  dan
+
+penerimaan. Pengujian ini  biasanya  sangat  sering  digunakan,  jika  tidak  semua
+
+pengujian  pada  tingkat  yang  lebih  tinggi.  Tetapi  juga  bisa  mendominasi  unit
+
+testingnya juga.
+
+Fungsi dari Black Box Testing:
+
+Setelah kalian mengetahui arti dan maksud dari Black Box Testing itu sendiri. 
+
+Berikut adalah fungsi-fungsi dari proses pengujian:
+
+1. Menemukan fungsi-fungsi yang tidak benar atau hilang di dalam suatu 
+
+software.
+
+2. Mencari kesalahan interface yang terjadi saat software dijalankan.
+
+3. Untuk mengetahui kesalahan dalam struktur data atau akses database 
+
+eksternal di dalam suatu aplikasi.
+
+
+
+21
+
+4. Menguji  kinerja dari software tersebut.
+
+5. Menginisialisasikan dan mencari kesalahan dari terminasi software itu 
+sendiri.
+
+Bagian Black box testing yang digunakan : 
+
+Robustness Testing 
+
+a. Data input dipilih diluar spesifikasi yang telah didefinisikan 
+
+b. Tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan 
+
+jika  masukan tidak valid 
+
+2.10 Kajian Terkait
+
+Berikut  ini  adalah  penelitian  –  penelitian  yang  telah  dilakukan  untuk
+
+mengkaji penggunaan media pembelajaran:
+
+1. Siti  Dwiliyana  Widiyanti  (2013)  yang  berjudul  Rancang  Bangun  Media
+
+Pembelajaran  Alat  Tradisional  Gamelan  Pada  SMPN  1  GABUS  Berbasis
+
+Multimedia. 
+
+2. Akbar  Kurniawan  (2015)  Yang  Berjudul  Media  Pembelajaran  Musik
+
+Keroncong Berbasis Smartphone Android.
+
+Berikut ini adalah hal – hal yang membedakan setiap kajian terkait  yang
+
+dijelaskan pada Tabel  2.2 berikut ini:
+
+Tabel 2.2 Kajian Terkait 
+
+No. Penulis Judul Keterangan
+
+1. Siti 
+Dwiliyana
+Widiyanti
+(2013)
+
+Rancang  Bangun  Media
+Pembelajaran  Alat
+Tradisional  Gamelan  Pada
+SMPN  1  GABUS  Berbasis
+Multimedia. 
+
+Menggunakan  model  game
+sebagai pembelajaran
+Aplikasi
+menggunakan  Macromedia
+Flas  8  dimana  program
+aplikasi yang dibuat berbasis
+animasi
+Aplikasi berbasis desktop.
+
+
+
+22
+
+No Penulis Judul Keterangan
+2. Akbar
+
+Kurniawan
+(2015)
+
+Media  Pembelajaran  Musik
+Keroncong  Berbasis
+Smartphone Android.
+
+Menggunakan  model  game
+sebagai pembelajaran 
+Aplikasi berbasis Android
+Materi yang disajikan 
+pengenalan  musik  kroncong
+sebagai  media  pembelajaran
+sebagai  pendamping
+pembelajaran  seni
+budaya.didapatkan  dari
+pembelajaran tutorial 
+Elemen  multimedia  yang
+digunakan  berupa  teks,  suara,
+gambar, dan animasi/
+
+Tabel 2.3 Penelitian yang telah dilakukan
+
+No. Penulis Judul Keterangan
+
+1. Zabla
+
+Althariq
+
+Pasadena
+
+Media  Pembelajaran
+
+Tabuhan Musik Tradisional
+
+Dayak  Salako  Khususnya
+
+Pada  Alat  Musik  dau  dan
+
+gong Berbasis Web.
+
+Menggunakan Model tutorial
+
+dan  game  sebagai
+
+pembelajaran
+
+Pembelajaran  tutorial  berisi
+
+pengenalan  tabuhan  tradisi
+
+alat musik dau dan gong.
+
+Pembelajaran  game  yang
+
+ditawarkan  yaitu  permainan
+
+tabuhan tradisi alat musik dau
+
+dan  gong  sebagai  evaluasi
+
+yang  didapatkan  dari
+
+pembelajaran tutorial.
+
+Elemen  multimedia  yang
+
+digunakan berupa teks, suara,
+
+gambar, animasi dan video.
+
+Aplikasi berbasis web
+
+
+
+BAB III
+METODOLOGI PENELITIAN 
+
+3.1 Metodologi Penelitian
+
+3.1.1    Bahan Penelitian
+
+Bahan penelitian berupa data tabuhan musik tradisional Dayak Salako
+
+yang berupa video tutorial, nama nama tabuhan musik tradisional Dayak Salako
+
+dan bunyi rekaman alat musik tradisional Dayak Salako yaitu dau dan gong.
+
+3.1.2 Alat yang Dipergunakan
+
+3.1.2.1  Alat Penelitian
+
+Alat penelitian yang digunakan dalam penelitian ini adalah: 
+
+a. Flowchart,  untuk  menunjukkan  langkah-langkah  dan  urutan  prosedur  dari
+
+program aplikasi.
+
+b. Storyboard, untuk menggambarkan urutan alur cerita dari penggunaan aplikasi
+
+dan objek-objek multimedia yang dimasukkan pada aplikasi penelitian ini.
+
+3.1.2.2  Perangkat Keras
+
+Perangkat keras yang digunakan pada pembuatan aplikasi di penelitian ini adalah:
+
+a. 1 unit laptop Acer aspire  47382   dengan spesifikasi berupa Intel Pentium Core
+
+2, hardisk 200 GB, RAM 1 GB, VGA Intel(R) HD Graphics 4000. Laptop ini
+
+digunakan sebagai  hardware utama dalam pembuatan  aplikasi,  karena  pada
+
+laptop ini semua proses pembuatan aplikasi di software authoring dilakukan.
+
+b. 1 unit headset yang dilengkapi dengan microphone, digunakan untuk merekam
+
+suara (dubbing) dan mendengarkan  sounds yang akan dimasukkan ke dalam
+
+aplikasi, serta untuk mengetes suara yang keluar dari aplikasi.
+
+3.1.2.3  Perangkat Lunak
+
+Perangkat lunak yang digunakan pada pembuatan aplikasi di penelitian ini adalah:
+
+a. Sistem Operasi  Windows  7 Home  32 bit,  sebagai  sistem operasional  pada
+
+laptop yang digunakan untuk membuat aplikasi.
+
+b. Adobe sublime text 3, sebagai software authoring atau perangkat lunak utama
+
+untuk membuat sekaligus mengedit aplikasi.
+
+23
+
+
+
+24
+
+c. Adobe Photoshop CS3, untuk mengedit gambar-gambar yang akan digunakan
+
+pada aplikasi.
+
+d. CorelDRAW X4, untuk mendesain atau membuat gambar-gambar yang akan
+
+digunakan pada aplikasi.
+
+e. Sound Recorder, untuk merekam suara.
+
+f. Any Video Converter, untuk mengedit video-video yang akan digunakan pada
+
+aplikasi  serta  meng-convert ekstensi  dari  file  suara  dan  video  yang  akan
+
+dimasukkan ke dalam aplikasi.
+
+3.1.3 Metode Penelitian
+
+Metode penelitian  yang digunakan adalah  metode  Research and Development,
+
+tahapannya adalah sebagai berikut:
+
+a). Studi Literatur
+
+Studi  literatur  dilakukan  dengan  mencari  refrensi  ilmu  pengetahuan
+
+dengan peneltian seperti  mendalami tentang tabuhan musik tradisi  suku Dayak
+
+Salako,  game edukasi,  media  pembelajaran,  serta  pemograman  web  maupun
+
+melalui  penelitian-penelitian  sebelumnya.  Refrensi  yang  didapat  untuk
+
+mendukung penelitian ini berasal dari jurnal.
+
+b). Analisi kebutuhan 
+
+Analisis  dilakukan  dengan  mengindentifikasi  masalah  serta  kebutuhan
+
+yang berkenan dengan sistem yang akan dibuat, antara lain adalah kebutuhan data,
+
+kebutuhan user, kebutuhan sistem dan kebutuhan fungsional.
+
+c). Pengumpulan Data
+
+Pengumpulan data dilakukan dengan mencari data-data yang menunjang
+
+dalam pembuatan game.
+
+d). Perancangan Sistem 
+
+Analisis dilakukan dengan menganalisis sistem yang berjalan pada kajian
+
+terkait  yang  telah  dilakukan  sedangkan  untuk  perancangan  aplikasi  dilakukan
+
+dengan  menggunakan  flowchart.  Kemudian  dilanjutkan  dengan  perancangan
+
+storyboard.
+
+e). Implementasi Sistem
+
+Implementasi  aplikasi  yang  dilakukan  berdasarkan  kepada  desain  dan
+
+perancangan  aplikasi  yang  telah  dilakukan  pada  tahapan  sebelumnya.  Pada
+
+tahapan ini, aplikasi akan dibuat dengan enginee Sublime text 3, menjadi program
+
+dengan bahasa HTML5 dan javascript.
+
+
+
+25
+
+f). Pengujian Sistem 
+
+Uji coba sistem atau aplikasi dilakukan oleh  dua orang pakar atau ahli,
+
+sekaligus sebagai validator aplikasi untuk mengecek kelayakan aplikasi. Validasi
+
+penelitian ini menggunakan skala pengukuran Guttman yang terdiri dari 2 jenis uji
+
+validasi. Uji validasi pertama adalah uji kevalidan media pembelajaran dari sisi
+
+seniman  musik  tradisional  Dayak  Salako,  validatornya  yaitu  pelatih  musik
+
+tradisional Dayak Salako di sanggar tengkawang borneo Singkawang. Uji validasi
+
+kedua adalah uji kevalidan media pembelajaran dari sisi CAI, validatornya yaitu
+
+dosen Teknik Informatika ahli CAI.
+
+g). Analisis Hasil Pengujian Sistem
+
+Analisis dilakukan terhadap hasil uji coba produk dan validasi yang telah
+
+dilakukan oleh pakar atau tenaga ahli. Pada analisis tersebut akhirnya akan ditarik
+
+kesimpulan apakah aplikasi sudah berjalan sesuai dengan perancangan yang telah
+
+dibuat dan apakah sudah sesuai dengan tujuan yang ingin dicapai. Namun, jika
+
+aplikasi  masih  memiliki  kekurangan  dan  kelemahan,  maka  akan  dilakukan
+
+pengecekan kembali pada perancangan atau desain sistem dan proses selanjutnya
+
+yang berkaitan dengan pembuatan aplikasi.
+
+h). Penarikan Kesimpulan
+
+Kesimpulan dirumuskan berdasarkan analisis hasil pengujian sistem yang
+
+telah dilakukan.
+
+3.1.4 Diagram Alir Penelitian
+
+Diagram alir  mengenai  metode penelitian ini  terdapat  pada Gambar 3.1
+
+berikut ini:
+
+
+
+26
+
+Gambar 3.1 Diagram Alir Penelitian
+
+3.2. Analisis Kebutuhan
+
+Tahap analisis  kebutuhan merupakan tahap menganilisis  kebutuhan dari
+
+perangkat lunak yang dikembangkan. Analisis kebutuhan dilakukan dengan tujuan
+
+untuk  memberikan  kemudahan.  Analisis  kebutuhan  dilakukan  dengan  tujuan
+
+untuk  memberikan  kemudahan  dalam  pengembangan  dan  pengoperasian
+
+perangkat  lunak  oleh  pengguna.  Kebutuhan  yang  dianalisis  antara  lain  adalah
+
+kebutuhan  data,  kebutuhan  user,  dan  kebutuhan  sistem.  Data  utama  pada
+
+perangkat  lunak  media  pembelajaran  ini  adalah  nama  serta  tutorial  tabuhan
+
+tradisional  dan  bagian  animasi  tabuhan  tradisional  akan  dijadikan  sebagai
+
+gameplay untuk mengenalkan apa saja tabuhan musik tradisional khususnya alat
+
+musik tradisional Dayak Salako.
+
+Kebutuhan selanjutnya adalah kebutuhan  user. Kebutuhan  user terdiri atas
+
+user interface dan fitur-fitur dalam game. Aplikasi media pembelajaran tabuhan
+
+musik tradisional ini ditujukan untuk semua kalangan, animasi pada game sebisa
+
+mungkin dibuat sederhana dan mudah dimengerti, dan juga menarik dan interaktif
+
+yang disenangi untuk masyarakat pada umumnya. Pemilihan warna untuk objek
+
+background dan objek lain yang sesuai dengan tema Dayak Salako.
+
+
+
+27
+
+Kebutuhan sistem dalam pengembangan  game ini dibuat dengan konsep
+
+bernuansa animasi. Perangkat lunak yang digunakan dalam pengemabangan game
+
+ini adalah Sublime text 3. Aplikasi ini nantinya akan digunakan untuk  platform
+
+web browser.
+
+3.2.1 Kebutuhan Data 
+
+Data  tabuhan  musik  tradisional  Dayak  Salako  yang  berupa  video  dan
+
+bunyi suara alat musik tradisional Dayak Salako berupa rekaman suara.
+
+3.2.2 Kebutuhan User
+
+Kebutuhan  user terdiri  atas  user interface  dan  fitur-fitur  dalam  game.
+
+Aplikasi media pembelajaran tabuhan musik tradisional ini ditujukan untuk semua
+
+kalangan,  animasi  pada  game  sebisa  mungkin  dibuat  sederhana  dan  mudah
+
+dimengerti,  dan  juga  menarik  dan  interaktif  yang  disenangi  untuk  masyarakat
+
+pada umumnya. Pemilihan warna untuk objek background dan objek lain yang
+
+sesuai dengan tema Dayak Salako.
+
+3.2.3 Kebutuhan Sistem
+
+Kebutuhan sistem dalam pengembangan game ini dibuat dengan konsep
+
+bernuansa animasi. Perangkat lunak yang digunakan dalam pengemabangan game
+
+ini adalah Sublime text 3. Aplikasi ini nantinya akan digunakan untuk  platform
+
+web browser.
+
+3.2.4 Kebutuhan Fungsional
+
+User dapat memainkan alat musik tradisional Dayak Salako yaitu dau dan
+
+gong . serta belajar tabuhan musik tradisional Dayak Salako dengan tutorial yang
+
+telah disediakan.
+
+3.3 Pengumpulan Data
+
+Data atau informasi yang dikumpulkan berupa hasil penelitian mengenai
+
+tabuhan musik tradisional Dayak Salako, nama-nama tabuhan musik tradisi Dayak
+
+Salako,  musik,  multimedia,  CAI,  storyboard, dan  hal-hal  yang berkaitan  yang
+
+bersumber dari jurnal,  buku referensi, website, dan sebagainya.
+
+
+
+28
+
+3.4 perancangan Sistem
+
+Pada  penelitian  ini,  perancangan  sistem berupa  perancangan  arsitektur
+
+sistem, flowchart aplikasi dan Storyboard.
+
+3.4.1 Perancangan Arsitektur Sistem
+
+Perancangan arsitektur sistem aplikasi CAI  media pembelajaran tabuhan
+
+musik tradisonal Dayak Salako khususnya pada alat musik dau dan gong berbasis
+
+web terdapat pada Gambar 3.2 berikut ini:
+
+Gambar 3.2 Perancangan Arsitektur Sistem
+
+Pada  dasarnya,  pembelajaran  dengan  bantuan  komputer  (CAI)  dapat
+
+dilakukan  secara  mandiri  atau  individual.  Jika  user yang  akan  menggunakan
+
+aplikasi  sudah  menguasai  pemakaian  komputer,  maka  user tersebut  dapat
+
+langsung memainkan aplikasi secara mandiri. 
+
+3.4.2 Flowchart Aplikasi
+
+Flowchart (Bagan  Alir)  dibuat  untuk  menggambarkan  urutan  operasi
+
+pelaksanaan aplikasi. Flowchart  Media Pembelajaran Tabuhan Musik Tradisional
+
+Suku Dayak Salako Berbasis Web terdapat pada Gambar 3.3 berikut ini:
+
+
+
+29
+
+Gambar 3.3 Flowchart Aplikasi
+
+Gambar 3.4 Flowchart Aplikasi (lanjutan)
+
+
+
+30
+
+Urutan operasi pelaksanaan aplikasi dimulai dari pilihan menu utama. Ada
+
+tiga menu utama berupa tombol yang bisa dipilih saat memulai apilikasi,  yaitu
+
+menu  bermain,  menu  tutorial,  dan  menu  panduan.  Jika  user memilih tombol
+
+bermain, maka akan  menampilkan menu  alat musik yaitu dau dan ngajat. Jika
+
+
+
+31
+
+user memilih dau maka  user akan ditampilkan jenis jenis tabuhan.  Kemudian
+
+user dapat memilih jenis tabuhan yang  ingin dimainkan, pada saat user bermain
+
+jika ada satu ketukan yang salah maka akan menampilkan skor hasil permainan,
+
+dan jika user memilih lanjut maka user dapat bermain kembali. Jika user memilih
+
+ngajat  user langsung  bermain  tabuhan  ngajat.  Pada  saat  bermain  jika  user
+
+melakukan  kesalahan  maka  akan  muncul  skor  hasil  permainan  dan  Jika  user
+
+memilih lanjut maka user dapat bermain kembali. 
+
+Pada saat  dimenu utama  user memilih  tombol tutorial, maka  user akan
+
+ditampilkan dua pilihan alat musik yaitu dau dan ngajat. Ketika user memilih dau
+
+maka user akan ditampilkan jenis jenis tabuhan tradisional. Setelah user memilih
+
+jenis jenis tabuhan maka akan di tampilkan video tutorial sesuai dengan tabuhan
+
+yang dipilih  oleh  user dan menampilkan simulasi  dau untuk dimainkan sesuai
+
+video tuutorial yang ada. Jika  user memilih ngajat maka  user akan ditampilkan
+
+video tutorial ngajat dan  user daapat memainkan simulasi ngajat yang di dasari
+
+oleh video yang ada. 
+
+Pada  saat  user di  menu  utama   memilih  tombol  panduan,  maka  akan
+
+ditampilkan cara-cara menggunakan aplikasi media pembelajaran tabuhan musik
+
+tradisional Dayak Salako.
+
+3.4.3 Storyboard dan Perancangan Antarmuka (Interface) Aplikasi
+
+Storyboard dan perancangan antarmuka (Interface) aplikasi dapat dilihat 
+
+pada Tabel 3.1 berikut ini.
+
+
+
+3
+6
+
+Tabel 3.1 Storyboard dan Perancangan Antarmuka (Interface) Aplikasi
+
+No Perancangan Interface Aplikasi Audio Animasi/
+Video
+
+Narasi Teks Durasi Keterangan
+
+1. Menu Utama Backsound 
+musik 
+tradisional 
+dayak
+
+Teks pada
+judul 
+aplikasi 
+dan 
+tombol-
+tombol 
+menu
+
+Terdapat tiga 
+tombol pilihan 
+menu, yaitu:
+ Menu Tutorial
+ Menu  Bermain
+ Menu panduan
+
+2. Menu Panduan
+Audio 
+penjelasan 
+panduan 
+untuk 
+memainkan
+aplikasi
+
+Animasi 
+tokoh guru 
+yang 
+bergerak
+
+Teks pada
+judul 
+tampilan 
+dan 
+panduan 
+Untuk 
+pengguna
+an 
+aplikasi
+
+Terdapat tiga 
+tombol pilihan 
+menu, yaitu:
+ Kembali
+ Lanjut
+ Home
+
+No Perancangan Interface Aplikasi Audio Animasi/ Narasi Teks Durasi Keterangan
+
+MEDIA PEMBELAJARAN MUSIK 
+TRADISIONAL DAYAK SALAKO
+
+TUTORIAL 
+!
+
+BERMAIN PANDUAN
+
+X-
+
+Petunjuk untuk Memainkan Aplikasi
+
+Kembali
+Back
+
+Text Penjelasan 
+
+Lanjut
+Next
+
+XHOM
+E
+
+
+
+3
+6
+
+Video
+3. Menu Pilihan Tutorial Animasi 
+
+tokoh 
+karakter 
+bergerak 
+melambaika
+n tangan
+
+Teks pada judul aplikasi
+dan tombol-tombol 
+menu
+
+Terdapat dua 
+tombol pilihan 
+menu, yaitu:
+ Dau
+ Ngajat
+
+4. Menu Tutoria daftar tabuhan tradisional 
+Dau
+
+Teks pada tombol 
+menu-menu yang berisi 
+nama-nama tabuhan 
+musik tradisional Dayak
+Salako.
+
+Terdapat tombol 
+pilihan, yaitu:
+ Kembali
+ Home
+ Tabuhan musik 
+
+No Perancangan Interface Aplikasi Audio Animasi/ Narasi Teks Durasi Keterangan
+
+X HOME  Back
+
+DAU
+
+NGAJAT
+
+XBack HOME
+DAFTAR 
+LAGUAEK AEK
+
+PANCA
+
+AMBOYO
+
+BAWANK
+
+DEND
+O
+LADAN
+K
+
+PANABAN
+K
+
+JUBATA
+
+TOTONK
+
+LAJANK
+
+HURUHA
+RI
+
+KADADAN
+K
+
+BATIMAN
+K
+
+
+
+3
+6
+
+Video
+5. Menu Tutorial tabuhan musik Dau Suara Alat 
+
+musik 
+tradisional 
+Dau
+
+Video 
+tutorial 
+tabuhan 
+musik 
+tradisional 
+Dau
+
+Penjelasan 
+nama 
+tabuhan 
+musik
+
+Terdapat  tombol 
+pilihan, yaitu:
+ Kembali
+ Home
+ Alat musik Dau
+
+6. Menu Tutorial tabuhan musik gong ngajat Suara alat 
+musik  
+tradisional 
+Gong
+
+Video 
+tutorial 
+tabuhan 
+musik 
+tradisional 
+Gong ngajat
+
+Terdapat  tombol 
+pilihan, yaitu:
+ Kembali
+ Home
+ Alat musik Gong
+
+No Perancangan Interface Aplikasi Audio Animasi/ Narasi Teks Durasi Keterangan
+
+XBack HOM
+E
+
+DAU 
+q
+
+DAU 
+W
+
+DAU 
+E
+
+DAU 
+R
+
+XBack HOME
+
+GONG 
+V
+
+GONG B
+GONG
+
+N
+
+VIDEO TUTORIAL
+TABUHAN MUSIK
+
+DAU
+
+VIDEO TUTORIAL
+TABUHAN MUSIK GONG
+
+(NGAJAT)
+
+
+
+3
+6
+
+Video
+7. Menu bermain Animasi 
+
+tokoh 
+karakter 
+bergerak 
+melambaika
+n tangan
+
+Teks pada 
+tampilan tombol-
+tombol menu
+
+Terdapat tiga tombol 
+pilihan menu, yaitu:
+ Kembali
+ Lanjut
+ Ulangi (muncul 
+setelah video selesai 
+diputar)
+
+8. Menu bermain daftar tabuhan musik 
+tradisional  Dau
+
+Teks pada tombol
+menu-menu yang 
+berisi nama-nama
+tabuhan musik 
+tradisional Dayak
+Salako.
+
+Terdapat tombol 
+pilihan, yaitu:
+ Kembali
+ Home
+ Tabuhan musik 
+
+DAU
+
+Back XHOME
+
+NGAJAT
+
+XBack HOME
+DAFTAR 
+LAGUAEK AEK
+
+PANCA
+
+AMBOYO
+
+BAWANK
+
+DEND
+O
+LADAN
+K
+
+PANABAN
+K
+
+JUBATA
+
+TOTONK
+
+LAJANK
+
+HURUHA
+RI
+
+KADADAN
+K
+
+BATIMAN
+K
+
+
+
+3
+6
+
+No Perancangan Interface Aplikasi Audio Animasi/
+Video
+
+Narasi Teks Durasi Keterangan
+
+9. Menu Bermain Dau Musik 
+yang 
+dihasilkan 
+dari 
+animasi 
+tabuhan 
+alat musik 
+tradisional 
+dau
+
+Animasi 
+bermain 
+tabuhan alat 
+musik 
+tradisional dau
+
+Teks pada score dan 
+durasi bermain
+
+20 detik Terdapat 
+tombol 
+pilihan 
+menu, yaitu:
+ Kembali
+ Home
+ Ulangi
+ Lanjutkan
+ Alat 
+
+musik dau
+
+10. Menu Bermain gong ngajat Musik 
+yang 
+dihasilkan 
+dari 
+animasi 
+tabuhan 
+alat musik 
+tradisional 
+gong 
+(ngajat)
+
+Animasi 
+bermain 
+tabuhan alat 
+musik 
+tradisional 
+gong (nagjat)
+
+Teks pada score dan 
+durasi bermain
+
+20 detik Terdapat 
+tombol 
+pilihan 
+menu, yaitu:
+ Kembali
+ Home
+ Ulangi
+ Lanjutkan
+ Alat 
+
+musik 
+gong
+
+ANIMASI BERMAIN 
+TABUHAN MUSIK 
+
+TRADISI DAU
+
+TIME XHOM
+ESCORE
+
+DA
+U 
+Q
+
+D
+AU 
+E
+
+DA
+U 
+W
+
+DA
+U 
+R
+
+XHOM
+E
+
+ANIMASI BERMAIAN 
+TABUHAN MUSIK 
+
+TRADISIONAL GONG (NGAJAT)
+
+GON
+G B
+
+GON
+G N
+
+HOM
+E
+
+TIME
+
+SCORE
+
+GON
+G M
+
+
+
+37
+
+  3.5 Implementasi Sistem
+
+Aplikasi  yang  dibuat  akan  diimplementasikan  pada  masyarakat  secara
+
+umum  untuk  dapat  bermainn  dan  belajar  taabuhan  musik  tradisional  Dayak
+
+Salako. Ada tiga fitur utama yang dapat digunakan oleh  user dalam aplikasi ini
+
+fitur fitur tersebut adalah sebagai berikut:
+
+1. Fitur  panduan  adalah  tata  cara  penggunaan  aplikasi  media  pembelajaran
+
+tabuhan musik tradisional Dayak Salako agar user dapat menggunakan aplikasi
+
+dan memainkannya sebagai media untuk belajar.
+
+2. Fitur  tutorial  adalah  berguna  untuk  user dapat  mempelajari  tabuhan  musik
+
+tradisional  Dayak  Salako  yang  di  outputkan  dengan  video  sebagai  dasar
+
+pembelajaran  tabuhan  musik  tradisional  Dayak Salako khususnya  pada  alat
+
+musik dau dan gong.
+
+3. Fitur  bermain  adalah  permainan  tabuhan  musik  tradisional  Dayak  Salako
+
+sebagai fitur yang dapat membuat user bermain sambil belajar sebagai konsep
+
+dasar CAI.
+
+3.6 Pengujian Sistem
+
+Pengujian  pada  aplikasi  media  pembelajaran  tabuhan  musik  tradisional
+
+Dayak Salako akan diuji dengan black box robustness testing dan pengujian dengan
+
+pakar untuk validasi aplikasi. Hasil pengujian dapat dilihat di BAB IV.
+
+3.6.1 Pengujian Black Box (Robustness Testing)
+
+Pengujian  pada  aplikasi  media  pembelajaran  tabuhan  musik  tradisional
+
+Dayak Salako dilakukan dengan menggunakan metode  black box dimana input
+
+berupa suatu set data yang digunakan untuk menguji validasi dari  integrase dan
+
+konsistensi sistem. Teknik uji coba aplikasi yang digunakan dalam penelitian ini
+
+adalah black box robustness testing. Pada aplikasi ini data inputan alat musik dau
+
+dan gong berjumlan tujuh inputan yang mana akan di  uji  satu persatu dengan
+
+pengujian  black box robustness testing apakah dau dan gong  yang di inputkan
+
+dapat  mengeluarkan  output  suara  pada  alat  musik  dau  dan  gong.  Lalu  setiap
+
+inputan  yang  benar  dapat  menghasilkan  point  untuk  melanjutkan  permainan
+
+sesuai yang saya harapkan. Dengan pengujian black box robustness testing dapat
+
+
+
+38
+
+menggambarkan  secara  jelas  apakah  aplikasi  yang  dibangun  sesuai  atau  tidak
+
+dengan hasil yang saya harpkan pada aplikasi ini.
+
+3.6.2 Pengujian Aplikasi Dengan pakar
+
+Uji coba sistem dilakukan oleh dua orang pakar atau ahli, sekaligus untuk
+
+memvalidasi aplikasi yang bertujuan untuk mengecek kelayakan aplikasi sebagai
+
+media pembelajaran yang ditinjau dari 2 sisi, yaitu: Media pembelajaran dari sisi
+
+seniman musik tradisional Dayak Salako dan sisi  pakar  CAI. Validasi penelitian
+
+ini menggunakan skala pengukuran Guttman. Berikut ini adalah daftar pertanyaan
+
+dan panduan untuk validasi aplikasi, yaitu:
+
+1) Uji Validitas Media Pembelajaran dari Sisi seniman musik tradisional Dayak
+
+Salako.
+
+Validator: Seniman musik  tradisional Dayak  Salako.
+
+Pertanyaan  untuk  uji  validitas  media  pembelajaran  dari  sisi  seniman  musik
+
+tradisional Dayak Salako dapat dilihat pada Tabel 3.2 berikut:
+
+Tabel 3.2  Pertanyaan untuk Uji Validitas Media Pembelajaran dari Sisi seniman
+
+musik daerah Dayak Salako.
+
+No. Pertanyaan Ya Tidak
+1. Apakah aplikasi  ini  sudah memenuhi  dasar pembelajaran
+
+musik tradisional Dayak Salako ?
+2. Apakah aplikasi  ini  sudah sesuai  dengan  pakem tabuhan
+
+musik tradisional Dayak Salako ?
+3. Apakah  aplikasi  ini  dapat  memahami  tabuhan  musik
+
+tradisional ?
+4. Apakah aplikasi ini  user sudah dapat mengenal bunyi dau
+
+dan gong ?
+
+5.
+Apakah dengan adanya aplikasi ini  user dapat menghafal
+tabuhan musik tradisional khususnya pada alat musik dau
+dan gong ?
+
+6. Apakah permainan animasi tabuahan musik tradisional dau
+dan gong sudah sesuai dengan tabuhan musik  tradisional
+yang diterapkan diDayak Salako?
+
+7. Apakah  pengenalan  nama  bagian-bagian  tabuhan  musik
+tradisional Dayak Salako khususnya pada alat musik dau
+dan gong sudah lengkap ? 
+
+8. Apakah dengan  adanya  aplikasi ini user dapat memahami
+tempo ketukan tabuhan musik tradisional Dayak Salako ? 
+
+
+
+39
+
+No. Pertanyaan Ya Tidak
+
+9. Apakah  aplikasi  ini  dapat  membantu  user untung
+menghitung 1x8 pola tabuhan musik tradisional ? 
+
+10 Apakah aplikasi ini memudahkan pengguna untuk belajar?
+
+Setiap pertanyaan untuk uji validitas media pembelajaran dari sisi seniman
+
+musik tradisional Dayak Salako diambil dari landasan teori yang bersumber dari
+
+buku-buku  dan  diskusi  langsung  bersama  seniman  musik  tradisional  Dayak
+
+Salako di sanggar tengkawang borneo Singkawang yang berkaitan tentang konsep
+
+kesenian  musik daerah  Dayak Salako.  Teori  yang dikemukakan oleh para ahli
+
+kesenian musik daerah Dayak Salako menjadi panduan untuk setiap pertanyaan
+
+untuk  uji  validitas  aplikasi  sebagai  media  pembelajaran.  Panduan  untuk  uji
+
+validitas media pembelajaran dari sisi  seniman musik tradisional Dayak Salako
+
+dapat dilihat pada Tabel 3.3 berikut.
+
+Tabel 3.3 Panduan untuk Uji Validitas Media Pembelajaran dari Sisi seniman 
+musik daerah Dayak Salako.
+
+No. Landasan Teori yang bersesuaian dengan pertanyaan yang telah 
+didiskusikan bersama seniman musik tradisional Dayak Salako
+
+1. Konsep kesenian musik tradisional Dayak Salako:
+a. Memahami  tabuhan musik tradisional sebagai dasar kesenian 
+
+musik tradisional Dayak Salako.
+b. Mengenal bunyi dau dan gong.
+c. Dapat menghafal jenis tabuhan tradisional.
+d. Dapat memahami tempo ketukan.
+e. Dapat menghitung 1x8 pola tabuhan.
+f. Kepekaan telinga terhadap suara alat musik tradisional yang 
+
+dihasilkaan dari alat musik dau dan gong.
+
+2) Uji Validitas Media Pembelajaran dari Sisi CAI
+
+Validator: Dosen Teknik Informatika Ahli CAI
+
+Pertanyaan untuk uji validitas media pembelajaran dari sisi CAI dapat dilihat pada
+
+Tabel 3.4 berikut.
+
+
+
+40
+
+Tabel 3.4 Pertanyaan untuk Uji validitas Media Pembelajaran dari Sisi CAI
+
+No. Pertanyaan Ya Tidak
+
+1. Apakah aplikasi ini sudah memenuhi konsep dasar CAI ?
+
+a. Komunikasi Interaktif ?
+
+b. Audio ?
+
+c. Video ?
+
+d. Penampilan Citra Image ?
+
+2.
+Apakah aplikasi ini sudah memiliki keuntungan dari sisi Computer Assisted
+Instruction (CAI)?
+
+a. Mampu mengurangi biaya pelatihan ?
+
+b. Fleksibelitas waktu ?
+
+c. Fleksibilitas kecepatan pembelajaran ?
+
+d. Standarisasi pembelajaran?
+
+e. Efektivitas pembelajaran ?
+
+3.
+Apakah aplikasi ini sudah memenuhi kriteria CAI dari sudut pandang dosen?
+
+a. Mudah digunakan ?
+
+b. Hanya memerlukan pelatihan minimal ?
+
+c. Memungkinkan pembelajaran dengan cara sendiri ?
+
+d. Memungkinkan pengendalian pembelajaran sesuai 
+dengan lingkungan ?
+
+
+
+41
+
+No. Pertanyaan Ya Tidak
+
+4.
+Apakah  aplikasi  ini  sudah  memenuhi  kriteria  CAI  dari  sudut  pandang
+pengguna?
+
+a. Fleksibilitas ?
+
+b. Bahan belajar lebih kaya dibandingkan 
+konvensional ?
+
+c. Berjalan pada komputer yang telah tersedia ?
+
+d. Memungkinkan kolaborasi yang memadai ?
+
+e. Memungkinkan kolaborasi yang memadai ?
+
+5.
+Apakah aplikasi  ini  sudah memenuhi  salah  satu atau
+beberapa  model  dari  Computer  Assisted  Instruction
+(CAI)?
+
+a. Tutorial  
+
+b. Latihan dan praktek  
+
+
+
+42
+
+No. Pertanyaan Ya Tidak
+
+c. Simulasi                     
+
+d. Permainan             
+
+Setiap  pertanyaan  untuk  uji  validitas  media  pembelajaran  dari  sisi  CAI
+
+diambil dari landasan teori yang bersumber dari buku-buku yang berkaitan tentang
+
+pembuatan aplikasi CAI. Teori yang dikemukakan oleh para ahli menjadi panduan
+
+untuk setiap pertanyaan untuk uji  validitas aplikasi  sebagai media pembelajaran.
+
+Panduan untuk uji validitas media pembelajaran dari sisi CAI dapat dilihat pada
+
+Tabel 3.5 berikut.
+
+Tabel 3.5 Panduan untuk uji validitas media pembelajaran dari sisi CAI
+
+No. Landasan Teori yang Bersesuaian dengan Pertanyaan
+
+1. Computer  Assisted  Instruction (CAI) merupakan  pengembangan  daripada
+teknologi informasi  terpadu  yaitu  komunikasi  (interaktif),  audio,  video,
+penampilan  citra  (image)  yang  dikemas  dengan  sebutan  teknologi
+multimedia.  CAI  mencakup  penggunaan   komputer   yang  berhubungan
+secara  langsung  dengan  siswa  maupun  pendidik  (Sri  Kusumadewi.  dkk,
+2000).
+
+2. Metode Computer Assisted Instruction (CAI) menurut Heinich (1993):
+a. Penjelasan (Tutorial)
+b. Latih dan Praktek (Drill and Practice)
+c. Simulasi (Simulation)
+d. Permainan (Game)
+e. Pemecahan Masalah (Problem-Solving)
+
+3. Keuntungan  penggunaan  komputer  sebagai  alat  bantu  pengajaran  atau
+Computer  Assisted  Instruction  (CAI)  menurut Heinich (1993):
+a. Mampu mengurangi biaya pelatihan 
+b. Fleksibilitas waktu 
+c. Fleksibilitas kecepatan pembelajaran 
+d. Standarisasi pembela
+e. jaran 
+
+Efektivitas pembelajaran
+
+
+
+43
+
+No. Landasan Teori yang Bersesuaian dengan Pertanyaan
+
+4. Kriteria CAI dari sudut pandang dosen/guru menurut Heinich (1993): 
+a. mudah digunakan (baik pembuatan maupun pemanfaatannya)
+b. hanya memerlukan pelatihan minimal
+c. memungkinkan pembelajaran dengan cara siswa sendiri
+d. memungkinkan pengendalian pembelajaran sesuai dengan lingkungan
+
+5. Kriteria CAI dari sudut pandang pengguna menurut Heinich (1993):
+a. fleksibilitas
+b. bahan belajar lebih kaya dibandingkan melalui kelas konvensional
+c. berjalan pada komputer yang telah tersedia
+d. memungkinkan kolaborasi yang memadai
+e. mencakup pengembangan materi lanjutan melalui diskusi kelas dan kerja
+
+kelompok
+
+Masing-masing pilihan jawaban pada setiap sisi  uji validasi  mempunyai
+
+nilai. Jawaban “Ya” artinya setuju diberi skor 1 dan jawaban “Tidak” artinya tidak
+
+setuju diberi  skor 0.  Analisa dilakukan seperti  pada skala Likert,  yaitu dengan
+
+menggunakan rumus sebagai berikut:
+
+p =  (f / n ) * 100%                                                                                             (3.1)
+
+Keterangan:
+
+p = Nilai persentase yang dicari
+
+f = Jumlah frekuensi dikalikan dengan skor yang ditetapkan tiap jawaban
+
+n = Skor ideal (skor tertinggi dikalikan dengan jumlah sampel)
+
+Jika  nilai  persentase  yang  dicari  mendekati  100%,  maka  aplikasi  yang
+
+sedang diujikan terbukti dapat berjalan dengan baik dan sesuai dengan aspek yang
+
+diperlukan.  Pada  penelitian  ini,  skala  pengukuran  Guttman  digunakan  untuk
+
+validasi aplikasi oleh pakar atau tenaga ahli yang akan menguji coba aplikasi yang
+
+telah dibuat.
+
+3.7 Analisis Hasil Pengujian Sistem
+
+Analisis dilakukan terhadap hasil uji coba produk dan validasi yang telah
+
+dilakukan oleh pakar atau tenaga ahli. Pada analisis tersebut akhirnya akan ditarik
+
+kesimpulan  apakah  produk  atau  aplikasi  sudah  berjalan  sesuai  dengan
+
+perancangan yang telah dibuat dan apakah sudah sesuai dengan tujuan yang ingin
+
+dicapai. Namun, jika aplikasi masih memiliki kekurangan dan kelemahan, maka
+
+
+
+44
+
+akan  dilakukan  pengecekan  kembali  pada  perancangan  sistem dan  proses
+
+selanjutnya yang berkaitan dengan pembuatan aplikasi.
+
+3.8 Penarikan Kesimpulan
+
+Penarikan kesimpulan didapatkan setelah dilakukan analisis hasil uji coba
+
+dan validasi,  sehingga dapat  diambil  kesimpulan mengenai  aplikasi  yang telah
+
+dibuat, apakah sudah layak sesuai dengan tujuan yang ingin dicapai.
+
+
+
+  BAB  IV
+
+HASIL DAN ANALISIS
+
+4.1. Implementasi Aplikasi
+
+Aplikasi CAI media pembelajaran tabuhan musik tradisional suku Dayak
+
+Salako khususnya pada alat musik dau dan gong berbasis web yang telah dibuat
+
+dapat  diimplementasikan  pada  laptop  atau  komputer  (menggunakan  koneksi
+
+internet) dengan sistem operasi  Windows. aplikasi ini  dapat di akses di domain
+
+yang  sudah  di  daftarkan,  dan  dapat  langsung  dimainkan  di  komputer  tanpa
+
+melewati  proses  install asi.  Komputer  yang  digunakan  juga  harus  memiliki
+
+speaker agar  user dapat  mendengarkan  suara  video  tutorial  tabuhan  musik
+
+tradisional,  animasi  alat  musik  Dau  dan  Gong  serta  animasi  bermain  tabuhan
+
+musik tradisional. 
+
+4.2. Implementasi Antar Muka Aplikasi
+
+4.2.1 Antar Muka Menu Utama
+
+Ada 3 tombol pilihan menu yang pada tampilan antar muka menu utama,
+
+yaitu:
+
+1. Tombol Tutorial jika tombol menu ini ditekan maka user akan masuk ke menu
+
+pilihan alat musik dau dan gong, jika user  memilih dau maka user akan di
+
+tampilkan daftar nama tabuhan musik tradisional dau lalu user bisa memilih
+
+tabuhan mana yang akan dipelajari, jika user memilih dari salah satu tabuhan
+
+tradisional  dau  maka user  akan di  tampilkan video tutorial   tabuhan musik
+
+tradisional dau dan animasi alat musik dau dan jika user memilih ngajat maka
+
+user langsung di arahkan ke tutorial tabuhan musik gong ngajat   yang berisi
+
+video tutorial tabuhan musik tradisional gong ngajaat dan animasi  gong.
+
+2. Tombol  Bermain, jika  tombol  menu  ini  ditekan  maka  user akan  masuk ke
+
+menu  alat  musik  dau  dan  gong  ketika  user  memilih  dau  maka  user  akan
+
+ditampilkan  daftar  tabuhan  musik  daerah  pada  alat  musik  dau  yang  berisi
+
+animasi  permainan  tabuhan  musik  tradisional  dau  dan  jika  user  menekan
+
+tombol  gong  maka  aplikasi  akan  menampilkan  permainan  tabuhan  musik
+
+tradisional gong.
+
+45
+
+
+
+5
+1
+
+46
+
+3. Tombol  Panduan,  jika  tombol  menu ini  ditekan  maka  user akan  masuk ke
+
+menu  panduan  yang  berisi  panduan  untuk  menggunakan  aplikasi  media
+
+pembelajaran tabuhan musik tradisional Dayak Salako kuhususnya pada alat
+
+musik dau dan gong berbasis web.
+
+Tampilan  menu  utama  aplikasi  dapat  dilihat  pada  Gambar  4.1
+
+berikut ini.
+
+Gambar 4.1 Tampilan Menu Utama Aplikasi
+
+4.2.2 Antar Muka Menu Petunjuk untuk Tutorial
+
+Pada menu petunjuk untuk tutorial, ada sebuah video  yang menjelaskan
+
+cara memainkan menu belajar. Ada 2 tombol pilihan pada tampilan antar muka
+
+menu untuk belajar alat musik dau dan ngajat yang akan muncul setelah menekan
+
+tombol tutorial dau dan ngajat yaitu:
+
+A. Dau 
+
+
+
+47
+
+Gambar 4.2 Tampilan Menu  alat musik untuk tutorial
+
+Pada gambar 4.2 di atas adalah tampilan tutorial terdapat du pilihan alat musik
+
+dau dan ngajat, dapat di jelaskan sebagai  berikut:
+
+1. Tombol Kembali , untuk kembali kemenu sebelumnya.
+
+2. Tombol  Dau,  untuk  kemenu  selajutnya   yaitu  daftar  nada  lagu  pada
+
+gambar 4.3 di bawah  ini:
+
+Gambar 4.3 Tampilan daftar tabuhan musik tradisional pada alat musik dau.
+
+Pada gambar di atas adalah daftar  tabuhan musik tradisional  dan memilih salah
+
+satu jenis tabuhan untuk melihat video tutorial tersebut:
+
+1. Tekan Tombol Aek – Aek, Maka aka muncul video tutorial alat musik dau
+
+nada lagu Aek – Aek, dapat di lihat pada gambar 4.4 di bawah ini:
+
+
+
+5
+3
+
+48
+
+Gambar 4.4 Tampilan video tutorial nada lagu alat musik dau
+
+Pada  gambar  di  atas  adalah  tampilan  tutorial  salah  satu  nada  lagu  yang telah
+
+dipilih kemudian ada beberapa tombol untuk memulai video tersebut dan kembali
+
+kemenu sebelumnya.
+
+B. Gong Ngajat
+
+Gambar 4.5 Tampilan video tutorial nada lagu alat musik 
+
+Pada gambar 4.5 di atas adalah tampilan tutorial terdapat dua pilihan alat musik
+
+dau dan ngajat, dapat di jelaskan sebagai  berikut.
+
+1. Tombol Kembali , untuk kembali kemenu sebelumnya.
+
+2. Tombol Ngajat, untuk kemenu selanjunya pada gambar 4.6 di bawah ini:
+
+Gambar 4.6 Tampilan video tutorial nada lagu alat musik gong ngajat
+
+4.2.3 Antar Muka Menu Pilihan Bermain
+
+Pada menu antar muka bermain, pada saat menekan tombol bermain maka
+
+akan masuk pada tampilan bermain ada 2 pilihan tombol yang dapat di pilih yaitu
+
+dau dan ngajat dapat di jelsakan sebagai berikut:
+
+
+
+49
+
+A. Dau
+
+ 
+
+Gambar 4.7 Tampilan pilihan menubermain alat musik dau dan ngajat
+
+Pada gambar 4.7 di atas adalah tampilan bermain terdapat dua pilihan alat musik
+
+dau dan ngajat, dapat di jelaska sebagai  berikut.
+
+1. Tombol Kembali , untuk kembali kemenu sebelumnya.
+
+2. Tombol Dau, untuk kemenu selanjunya pada gambar 4.8 di bawah ini:
+
+ 
+
+Gambar 4.8 Tampilan jenis jenis tabuhan alat musik dau  
+
+Pada tampilan 4.8 di atas adalah tampilan daftar lagu alat musik dau yang mana
+
+tiap - tiap judul lagu memiliki tabuhan yang berbeda - beda dapat di pilih dengan
+
+menekan tombol-tombol tersebut:
+
+
+
+5
+3
+
+50
+
+1. Tombol kembali, untuk kembali kemenu sebelumnya.
+
+2. Tombol Aek - aek, untuk kemenu selanjunya pada gambar 4.8 di bawah ini:
+
+Gambar 4.9 Tampilan mulai bermain tabuhan alat musik dau  
+
+Pada gambar di atas adalah tampilan mulai bermain tabuhan alat musik dau dan
+
+user  harus  memainkan permainan tabuhan musik tradisional  dau dengan benar
+
+tanpa kesalahan untuk menghasilkan nilai perfect agar menghasilkan output suara
+
+tradisional  yang  authentic  sebagai  pembelajaran  mendengarkan  bunyi  tabuhan
+
+tradisional yang benar.
+
+B. Gong Ngajat
+
+Gambar 4.10 Tampilan tombol pilihan bermai alat musik dau dan ngajat
+
+Pada gambar 4.10 di atas adalah tampilan bermain terdapat dua pilihan alat musik
+
+dau dan ngajat, dapat di jelaskan sebagai  berikut:
+
+1. Tombol Kembali , untuk kembali kemenu sebelumnya.
+
+
+
+51
+
+2. Tombol Gong Ngajat, untuk kemenu selanjunya pada gambar 4.11 di bawah
+
+ini:
+
+Gambar 4.11 Tampilan bermai alat musik ngajat
+
+Pada tampilan gambar di atas adalah lah tampilan bermain ngajat,  pada ngajat
+
+hanya ada satu pilihan jenis lagu, maka otomatis lagsung masuk pada tampilan
+
+bermain dan user harus memainkan permainan tabuhan musik tradisional Gong
+
+dengan  benar  tanpa  kesalahan  untuk  menghasilkan  nilai  perfect  agar
+
+menghasilkan  output suara  tradisional  yang  authentic  sebagai  pembelajaran
+
+mendengarkan bunyi tabuhan tradisional yang benar.
+
+4.2.4 Antar Muka Menu Panduan
+
+Pada menu panduan adalah tampila untuk menejelaska memberi panduan
+
+tentang aplikasi ini  yaitu memberi panduan penjelasan totorial, dan cara bermain 
+
+Gambar 4.12 Tampilan Panduan
+
+Pada gambar 4.12 di atas ada beberapa tombol untuk 
+
+1. Tombol lanjut, untuk melihan panduan-panduan aplikasi ini
+
+
+
+5
+1
+
+52
+
+4.3. Hasil Pengujian dan Validasi aplikasi
+
+4.3.1     Pengujian Black Box
+
+Saya disini mengunakan metode Black-Box, dimana data pengujian dipilih
+
+berdasarkan  spesifikasi  masalah  tanpa  memperhatikan  detail  internal  dari
+
+program, untuk memeriksa apakah program dapat berjalan dengan benar.
+
+4.3.1.1 Halaman Pengujian inputan Dau
+
+Untuk dapat bermaian di halaman tutorial dau,  user  harus menekan tombol
+
+pada keyboard yaitu tombol Q,W,E,R Sebagai inputan untuk simulasi alat musik
+
+dau. Pengujian dilakukan dengan mengacu kepada semua kriteria yang ada pada
+
+halaman tutorial Dau pada tabel 4.1 berikut.
+
+Tabel 4.1 :Pengujian inputan tutorial Dau 
+
+Input
+Data
+Dau
+
+Ditekan
+Hasil
+
+Eksekusi
+Keterangan
+
+Hasil yang
+Diharapkan
+
+Status
+
+Q  Dau Q
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+tombol Q
+
+pada
+keyboard
+
+Dau Q
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+W  Dau W
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+tombol W
+
+pada
+keyboard
+
+Dau W
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+E  Dau E
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+tombol E
+
+pada
+keyboard
+
+Dau E
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+R  Dau R
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+tombol R
+
+pada
+keyboard
+
+Dau R
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+
+
+5
+2
+
+53
+
+Tabel 4.2 Pengujian inputan tutorial Dau yang dikombinasikan
+
+Input
+Data
+Dau
+
+Ditekan
+Hasil
+
+Eksekusi
+Keterangan
+
+Hasil yang
+Diharapkan
+
+Status
+
+Q &
+W
+
+ Dau Q dan W
+Mengeluarkan
+bunyi secara
+bersamaan
+
+User
+menekan
+
+tombol Q dan
+W pada
+
+keyboard
+
+Dau Q dan W
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+Q, W
+& E
+
+ Dau Q, W dan
+E
+
+Mengeluarkan
+bunyi secara
+bersamaan
+
+User
+menekan
+
+tombol Q, W
+dan E pada
+keyboard
+
+Dau Q,W dan
+E
+
+Mengeluarkan
+bunyi
+
+Berhasil
+
+Q,
+W, E
+& R
+
+ Dau Q, W, E
+dan R
+
+Mengeluarkan
+bunyi
+
+bersamaan
+
+User
+menekan
+tombol
+
+Q,W,E dan R
+pada
+
+keyboard
+
+Dau Q,W,E
+dan R
+
+Mengeluarkan
+bunyi
+
+Berhasil
+
+4.3.1.2 Halaman pengujian inputan Gong
+
+Untuk  dapat  bermaian  di  halaman  tutorial Gong,  user   harus  menekan
+
+tombol pada keyboard yaitu tombol B,N,M, Sebagai inputan untuk simulasi  alat
+
+musik Gong. Pengujian dilakukan dengan mengacu kepada semua kriteria yang ada
+
+pada halaman tutorial Gong pada tabel 4.3 berikut:
+
+Tabel 4.3 Pengujian inputan tutorial Gong 
+
+Input
+Data
+Dau
+
+Ditekan
+Hasil
+
+Eksekusi
+Keterangan
+
+Hasil yang
+Diharapkan
+
+Status
+
+B  Gong B
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+tombol B
+
+pada
+keyboard
+
+Gong B
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+M  Gong M
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+
+Dau M pada
+keyboard
+
+Gong M
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+N  Gong N
+Mengeluarkan
+
+bunyi
+
+User
+menekan
+
+Dau N pada
+keyboard
+
+Gong N
+Mengeluarkan
+
+bunyi
+
+Berhasil
+
+
+
+5
+3
+
+54
+
+Tabel 4.4 Pengujian inputan Gong yang dikombinasikan
+
+Input
+Data
+Dau
+
+Ditekan
+Hasil
+
+Eksekusi
+Keteranga
+
+n
+Hasil yang
+
+Diharapkan
+Status
+
+B & N  Gong B dan N
+Mengeluarkan
+bunyi secara
+bersamaan
+
+User
+menekan
+tombol B
+
+dan N pada
+keyboard
+
+Gong B dan N
+Mengeluarkan
+bunyi secara
+bersamaan
+
+Berhasil
+
+B, M &
+N
+
+ Gong B, M
+Dan N
+
+Mengeluarkan
+bunyi secara
+bersamaan
+
+User
+menekan
+
+tombol B, N
+dan M pada
+keyboard
+
+Gong B, M
+Dan N
+
+Mengeluarkan
+bunyi secara
+bersamaan
+
+Berhasil
+
+4.3.2    Skala Pengukuran Guttman untuk Validasi Aplikasi
+
+Uji coba aplikasi dilakukan oleh dua orang pakar atau ahli, sekaligus untuk
+
+memvalidasi produk/aplikasi yang bertujuan untuk mengecek kelayakan aplikasi
+
+sebagai media pembelajaran yang ditinjau dari 2 sisi, yaitu:
+
+1. Sisi seniman musik tradisional Dayak Salako.
+
+2. Sisi Pakar ahli CAI.
+
+Uji  coba aplikasi  awalnya dilakukan di laptop pembuat  aplikasi  dengan
+
+metode pengjujian  black box dan aplikasi tersebut dapat berjalan dengan lancar.
+
+Kemudian uji coba aplikasi dilakukan pada laptop validator.
+
+Setelah aplikasi  dicoba  dimainkan pada laptop masing-masing validator,
+
+aplikasi dapat dimainkan dengan lancar tanpa hambatan. Foto penggiat seni musik
+
+tradisional  Dayak  Salako  yang  sedang  memainkan  aplikasi  dapat  dilihat  pada
+
+Gambar 4.13 berikut.
+
+
+
+55
+
+Gambar 4.13 Pengujian aplikasi dari sisi seniman musik tradisional Dayak
+
+Salako
+
+Uji  coba  aplikasi  yang  telah  dilakukan  kemudian  langsung  dilanjutkan
+
+dengan validasi atau uji validitas yang dilakukan oleh masing-masing validator
+
+sesuai  dengan  sisi  keahliannya.  Validasi  penelitian  ini  menggunakan  skala
+
+pengukuran Guttman, yaitu setiap pertanyaan hanya berisi dua pilihan jawaban,
+
+“Ya”  atau  “Tidak”.  Jawaban  “Ya”  artinya  setuju  diberi  skor  1  dan  jawaban
+
+“Tidak” artinya tidak setuju diberi skor 0. Analisis kemudian dilakukan dengan
+
+menggunakan rumus perhitungan skala Likert, yaitu sebagai berikut:
+
+    (4.1)
+
+Keterangan:
+
+p = Nilai presentase yang dicari
+
+f = Jumlah frekuensi dikalikan dengan skor yang ditetapkan tiap jawaban
+
+n = Skor ideal (skor tertinggi dikalikan dengan jumlah sampel)
+
+Pada penelitian ini jumlah frekuensi adalah banyaknya atau jumlah validator pada
+
+setiap sisi uji validasi. Ada 1 orang validator pada setiap sisi, sehingga:
+
+f  = 1 * jumlah jawaban “Ya”     (4.2)
+
+n  =   Skor ideal pada setiap sisi uji validasi jika semua pertanyaan  dijawab “Ya” 
+
+
+
+56
+
+atau  jumlah  pertanyaan  dikalikan  jumlah  sampel  (sampel  penelitian  ini
+
+adalah validator pada setiap sisi pengujian).
+
+n pada uji validasi dari sisi seniman musik tradisional Dayak Salako = 10
+
+n pada uji validasi dari sisi CAI = 5
+
+Berikut ini adalah hasil uji terhadap setiap hasil validasi:
+
+1) Hasil Uji  Validitas Media Pembelajaran dari Sisi  Seniman musik Tradisional
+
+Dayak Salako.
+
+Validator pada validasi sisi ini adalah beberapa seniman musik tradisional
+
+Dayak Salako.  Seniman musik tradisional  Dayak Salako  menggeluti  kesenian
+
+musik  Dayak Salako di  sanggar  tengkawang  borneo Singkawang.  Pengalaman
+
+seniman musik tradisional Dayak Salako yang sudah dari kecil mendalami musik
+
+tradisional Dayak Salako menjadi dasar baginya untuk mengetahui materi konsep
+
+dasar  dalam  mempelajari  tabuhan  musik  tradisional  Dayak  Salako  untuk
+
+menentukan apakah apliaksi yang dibuat sudah sesuai konsep dasar pembelajaran
+
+tabuhan  musik  tradisional  Dayak  Salako.  pelajaran  dan  cara  pengajaran  yang
+
+sesuai  dengan konsep dasar  musik  tradisional  Dayak Salako   menjadi  sasaran
+
+pengguna aplikasi ini. Karena pengalamannya tersebut, ia dapat menjadi validator
+
+yang  tepat  untuk  memvalidasi  aplikasi  ini  dari  sisi  seniman  musik  tradisional
+
+Dayak Salako agar  aplikasi  ini  tidak melenceng dari  pakem dan konsep dasar
+
+pembelajaran  musik  tradisional  Dayak  Salako. Hasil uji  validitas  media
+
+pembelajaran dari sisi seniman musik tradisional Dayak Salako dapat dilihat pada
+
+Tabel 4.5 berikut.
+
+Tabel  4.5 Hasil  Uji  validasi  media  pembelajaran  dari  sisi  seniman  musik
+
+tradisional Dayak Salako.
+
+validator Jumlah
+Jawaban
+
+Iya
+
+Jumlah
+Jawaban
+
+Tidak
+
+Jumlah
+Pertanyaan
+
+Nilai
+persentase
+
+A 10 0 10 100%
+
+B 8 2 10 80%
+
+C 9 1 10 90%
+
+D 10 0 10 100%
+
+
+
+57
+
+E 9 1 10 90%
+
+Hasil uji validasi media pembelajaran dari sisi seniman musik tradisional Dayak
+
+Salako:
+
+Validator  pada  validasi  sisi  ini  adalah  5  orang  seniman  musik  tradisional
+
+Dayak Salako. 
+
+1) validator pertama 100% 
+
+2) validator kedua 80 %
+
+3) validator ketiga 90 %
+
+4) validator keempat 100%
+
+5) validator kelima 90%
+secara keseluruhan nilai persentase akhir dari aplikasi ini, yaitu:
+
+= 92%                                           (4.3)
+
+2) Hasil Uji validasi Media Pembelajaran dari Sisi CAI
+
+Validator pada validasi sisi ini adalah dosen Teknik Informatika Ahli CAI
+
+yang pernah beberapa kali mengajar mata kuliah CAI. Hasil uji validitas media
+
+pembelajaran dari sisi CAI dapat dilihat pada Tabel 4.6 berikut ini:
+
+Tabel 4.6 Hasil Uji Validitas Media Pembelajaran dari Sisi CAI
+
+validator Jumlah
+
+Jawaban Iya
+
+Jumlah
+
+Jawaban
+
+Tidak
+
+Jumlah
+
+Pertanyaan
+
+Nilai
+
+persentase
+
+A 18 3 21 100%
+
+Berikut  ini  adalah  nilai  persentase  dari  hasil  uji  validitas  media
+
+pembelajaran dari sisi CAI, yaitu:
+
+                                                                                                  (4.4)
+
+
+
+58
+
+4.4.  Analisis Hasil Pengujian dan Validasi Aplikasi
+
+Dari dua pengujian yang telah dilakukan, dapat disimpulkan beberapa poin
+
+hasil analisis dari Media Pembelajaran Tabuhan Musik Tradisional Dayak Salako
+
+Khususnya Pada Alat Musik Dau Dan Gong Berbasis Web yang akan dijelaskan
+
+sebagai berikut:
+
+1. Berdasarkan  hasil  pengujian  Black  Box yang  telah  dilakukan  pada  aplikasi
+
+media pembelajaran tabuhan musik tradisional Dayak Salako khususnya pada
+
+alat musik dau dan gong berbasis web dapat disimpulkan bahwa aplikasi ini
+
+mampu menampilkan keluaran yang sesuai dengan masukan pengguna karena
+
+proses  pengolahan  masukan  dan  keluaran  data  yang  dilakukan  oleh  sistem
+
+berjalan dengan baik.
+
+2. Berdasarkan  hasil  pengujian  validasi  aplikasi  dengan  pengukuran  skala
+
+guttman maka dapat disimpulkan bahwa penilaian terhadap sisi materi seniman
+
+musik tradisional Dayak Salako ini sebagai media pembelajaran adalah sebesar
+
+92% yang bisa dikategorikan mendekati nilai 100% (diatas rata-rata atau diatas
+
+nilai 50%), yang juga berarti aplikasi ini terbukti layak dan telah memenuhi
+
+sebagian besar kriteria aplikasi  media  pembelajaran musik tradisional Dayak
+
+Salako.  Berdasarkan penilaian  terhadap  sisi  CAI aplikasi  ini  sebagai  media
+
+pembelajaran adalah sebesar  85,71%, yang berarti aplikasi ini terbukti layak
+
+dan  telah  memenuhi  standar  dari  aplikasi  yang  mengusung  konsep  CAI
+
+(Pembelajaran Berbantuan Komputer). 
+
+Secara keseluruhan nilai persentase akhir dari aplikasi ini, yaitu:
+
+            (4.5)
+
+.
+
+Jika  nilai  persentase  yang  dicari  mendekati  100%,  maka  aplikasi  yang
+
+sedang diujikan terbukti dapat berjalan dengan baik dan sesuai dengan aspek yang
+
+diperlukan  (Sugiyono,  2012).  Pada  penelitian  ini,  skala  pengukuran  Guttman
+
+digunakan untuk validasi aplikasi oleh pakar atau tenaga ahli yang telah menguji
+
+coba aplikasi yang telah dibuat.
+
+
+
+59
+
+Nilai persentase akhir aplikasi didapat dari penjumlahan nilai persentase
+
+uji  validitas dari  sisi  seniman  musik  tradisional  Dayak  Salako  dan  sisi  CAI,
+
+kemudian dibagi 2, sehingga didapatkan nilai  88,86% yang artinya aplikasi  ini
+
+secara  keseluruhan  terbukti  layak  menjadi  media  pembelajaran  tabuhan  musik
+
+tradisional Dayak Salako khususnya pada alat musik dau dan gong berbasis WEB
+
+
+
+BAB  V
+KESIMPULAN DAN SARAN
+
+5.1. Kesimpulan
+
+Berdasarkan  hasil  analisis  uji  coba  dan  validasi  terhadap  aplikasi  CAI
+
+Media pembelajaran tabuhan musik tradisional Dayak Salako khususnya pada alat
+
+musik dau dan gong berbasis web, dapat disimpulkan bahwa:
+
+1. Berdasarkan  hasil  validasi,  aplikasi  ini  mendapatkan  nilai  92%  untuk  sisi
+
+seniman musik tradisional Dayak Salako, dan nilai 85,71% untuk sisi CAI.
+
+2. Secara keseluruhan nilai persentase akhir dari aplikasi ini adalah 88,86% yang
+
+artinya  aplikasi  ini  secara  keseluruhan  terbukti  sudah  layak  menjadi  media
+
+pembelajaran  dan  sudah  memenuhi  kriteria  sebagai  aplikasi  CAI yang
+
+ditujukan untuk umum dalam mengenal nama-nama tabuhan musik tradisional
+
+Dayak Salako dan menguasai tabuhannya secara visual. 
+
+5.2. Saran
+
+Hal-hal yang menjadi saran untuk penelitian dan pengembangan  aplikasi
+
+ini agar menjadi lebih baik, yaitu:
+
+1. Adanya  penelitian  lanjutan  mengenai  masalah  suara  alat  musik  tradisional
+
+Dayak Salako yang kurang jernih  dan user lebih dapat mempelajari alat musik
+
+tradisional Dayak Salako yang lebih lengkap seperti sansaron, tengga, beduk
+
+dan ketubung.
+
+2. Mengembangkan aplikasi ke platform Android, sehingga aplikasi ini nantinya
+
+dapat dimainkan di smartphone atau tablet dengan sistem operasi Android yang
+
+sekarang sudah banyak digunakan oleh orang-orang pada umumnya.
+
+3. Menu bermain dau, permainan dapat dikombinasikan dua sampai lima tabuhan
+
+musik tradisional Dayak Salako dalam satu permainan.
+
+60
+
+

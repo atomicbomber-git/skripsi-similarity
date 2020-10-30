@@ -1,0 +1,7165 @@
+
+1
+
+BAB I
+
+PENDAHULUAN
+
+1.1. Latar Belakang
+
+Di era informasi ini,  hampir semua hal di dalam kehidupan seseorang
+
+telah menggunakan manfaat dari suatu teknologi. Persebaran teknologi tersebut
+
+berdampak  pada  semua  kalangan,  dari  anak-anak  hingga  orang  dewasa,  dari
+
+lingkungan cakupan kecil hingga lingkungan dengan cakupan lebih luas seperti
+
+institusi  Pendidikan.  Di  lingkungan  institusi  Pendidikan,  kemajuan  teknologi
+
+dapat dimanfaatkan sebagai penunjang kegiatan belajar mengajar, salah satunya
+
+adalah  menggunakan  teknologi  internet  untuk  mendapatkan  informasi  yang
+
+diperlukan secara luas dan lebih lengkap. Di kurikulum pendidikan sekarang pun
+
+siswa  dibebaskan  oleh  guru  untuk  menjelajah  materi  pelajaran  yang  ada  baik
+
+melalui  buku  maupun  internet  agar  siswa  mampu  berpikir  lebih  mandiri  dan
+
+fleksibel. Penggunaan teknologi didalam dunia pendidikan merupakan salah satu
+
+hal penting dalam mempelajari ilmu pengetahuan.
+
+Pendidikan adalah proses pengubahan sikap dan tata laku seseorang atau
+
+kelompok orang dalam usaha mendewasakan manusia melalui upaya pengajaran
+
+dan  pelatihan  (KBBI,  2018).  Pendidikan  merupakan  suatu  kebutuhan  bagi
+
+manusia  agar  dapat  lebih  berkembang  ke  depan  dengan  tujuan  untuk
+
+mencerdaskan.  Pendidikan  merupakan  suatu  aktivitas  belajar  dan  mengajar,
+
+dimana  seorang  atau  banyak  individu  belajar  dari  orang yang lebih  tahu agar
+
+mendapat  pengetahuan.  Dalam suatu proses  belajar  mengajar  di  ruang lingkup
+
+pendidikan, terdapat dua pihak yang saling berinteraksi, yaitu guru dan siswa.
+
+Guru  berperan  memberikan  dan  mengajarkan  materi-materi  pelajaran
+
+yang mereka miliki kepada siswa. Siswa yang telah mendapatkan ilmu dan materi
+
+tersebut kemudian mengembangkan pengetahuannya secara mandiri. Kemudian,
+
+guru akan menguji  kemampuan siswa tentang pengetahuan yang telah  didapat
+
+untuk memeriksa apakah siswa telah memahami materi dengan baik.
+
+Metode  pembelajaran  yang  digunakan  pada  kurikulum  pendidikan  di
+
+Indonesia saat ini  selain proses belajar  mengajar  secara langsung adalah siswa
+
+
+
+2
+
+yang dituntut untuk mandiri mencari informasi dan materi dari sumber lain yang
+
+tidak terbatas pada buku cetak. Oleh sebab itu, perlu untuk menyediakan tempat
+
+dimana  siswa  dapat  mengakses  materi-materi  pembelajaran  secara  terpusat.
+
+Tempat ini adalah wadah dimana guru dan siswa dapat saling memberikan dan
+
+menerima  materi  pembelajaran  tanpa  terikat  di  suatu  lingkungan  sekolah.  Di
+
+tempat itu tersedia materi pembelajaran yang terkategorisasi agar mempermudah
+
+siswa dalam mencari materi pembelajaran yang tersedia. Sehingga mempermudah
+
+siswa dalam mengakses hanya ke dalam suatu tempat yang terpusat.
+
+Berdasarkan  permasalahan  diatas,  maka  akan  dirancang  dan dibangun
+
+sebuah  Aplikasi  Bank  Materi  Pelajaran  Untuk  Jenjang  SMA.  Aplikasi  Bank
+
+Materi  Pelajaran  Untuk Jenjang SMA ini  merupakan  suatu  wadah yang dapat
+
+menampung serta menyebarkan materi-materi  pelajaran yang bersifat  digital  di
+
+lingkungan  pendidikan.  Materi-materi  pelajaran  tersebut  akan  diunggah  oleh
+
+guru-guru yang bersangkutan, kemudian akan diakses dan dijelajahi oleh siswa.
+
+1.2. Rumusan Masalah
+
+Berdasarkan  permasalahan  mengenai  pembelajaran  yang  ada  di
+
+lingkungan pendidikan, masalah yang diangkat dalam penelitian ini yaitu, wadah
+
+atau media yang dapat digunakan sebagai tempat untuk mengumpulkan materi-
+
+materi  pembelajaran  secara  terpusat  masih  terbatas.  Wadah  yang  diperlukan
+
+adalah  wadah  yang  dapat  bertindak  sebagai  penghubung  antara  pengajar  dan
+
+siswa tanpa terikat  dalam suatu lingkungan sekolah.  Wadah yang dibuat dapat
+
+memberikan materi-materi pembelajaran untuk siswa dari pengajar yang membuat
+
+materi-materi pembelajaran berdasarkan kurikulum yang sedang berlaku. Dari itu
+
+maka  akan  dibuat  wadah  yang  dapat  menampung  materi-materi  pembelajaran
+
+secara terpusat dengan beberapa fitur yang menunjang pembelajaran. Berdasarkan
+
+masalah  tersebut,  maka  dapat  dirumuskan  yaitu  bagaimana  membuat  Aplikasi
+
+Bank Materi Pelajaran Untuk Jenjang SMA.
+
+1.3. Tujuan Penelitian
+
+
+
+3
+
+Adapun tujuan dari penelitian yang dilakukan adalah untuk menghasilkan
+
+Aplikasi Bank Materi Pelajaran Untuk Jenjang SMA sebagai wadah pengumpulan
+
+materi-materi  pelajaran yaitu, berupa file digital seperti;  .docx, .pdf, .txt, .pptx,
+
+dan .xls.
+
+1.4. Batasan Masalah
+
+Untuk  menghindari  penulisan  skripsi  yang  menyimpang  dan
+
+mengambang dari tujuan semula, serta keterbatasan ilmu dan kemampuan yang
+
+penulis  miliki,  maka  penulis  menetapkan  batasan-batasan Sistem  Informasi
+
+sebagai berikut :
+
+1. Penelitian ini difokuskan di lingkungan sekolah dalam jenjang SMA
+
+2. Aplikasi Bank Materi Pelajaran Untuk Jenjang SMA ini dibangun untuk
+
+digunakan dalam ruang lingkup pendidikan oleh guru dan siswa.
+
+3. Data materi pembelajaran merujuk pada kurikulum 2013 revisi 2018.
+
+4. Aplikasi ini dibangun berbasis web.
+
+5. Sumber data yang digunakan didapat dari guru-guru yang mengajar di
+
+lingkungan sekolah.
+
+6. Aplikasi ini dibangun sebagai aplikasi yang dapat menjadi wadah untuk
+
+menampung materi-materi pelajaran.
+
+7. File yang diunggah hanya berupa docx, .pdf, .txt, .pptx, dan .xls saja.
+
+1.5. Sistematika Penulisan Skripsi
+
+Sistematika dari  penulisan tugas akhir  ini  disusun dalam 5 (lima) bab
+
+yangterdiri dari Bab I Pendahuluan, Bab II Tinjauan Pustaka, Bab III Metodologi
+
+Penelitian, Bab IV Implementasi dan Hasil Pengujian serta Bab V Penutup.
+
+Bab I  Pendahuluan adalah  bab yang berisi  latar  belakang,  perumusan
+
+masalah, tujuan penelitian, pembatasan masalah, dan sistematika penulisan.
+
+Bab II Tinjauan Pustaka adalah bab yang berisi uraian sistematis tentang
+
+hasil-hasil penelitian yang didapat oleh peneliti terdahulu dan landasan teori yang
+
+ada hubungannya dengan penelitian yang akan dilakukan.
+
+Bab III Metodologi Penelitian adalah bab yang berisi tentang data dan
+
+perangkat penelitian, metode penelitian, dan diagram alir penelitian.
+
+Bab IV Hasil  dan Analisis  adalah  bab yang berisi  tahapan pengujian,
+
+
+
+4
+
+hasil pengujian dan analisis pengujian yang mengarah kepada suatu kesimpulan.
+
+Bab V Penutup adalah bab yang berisi kesimpulan dari penelitian telah
+
+dilakukan  dan  saran/rekomendasi  untuk  perbaikan,  pengembangan  atau
+
+kesempurnaan / kelengkapan penelitian yang telah dilakukan.
+
+
+
+5
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1.  Landasan Teori
+
+2.1.1. Pendidikan
+
+Berdasarkan  Pasal  1  UU  RI  No.  20  Tahun  2003  tentang  Sistem
+
+Pendidikan  Nasional,  Pendidikan  adalah  usaha  sadar  dan  terencana  untuk
+
+mewujudkan suasana belajar dan  proses pembelajaran agar peserta didik secara
+
+aktif  mengembangkan  potensi  dirinya  untuk  memiliki  kekuatan  spiritual
+
+keagamaan,  pengendalian  diri,  kepribadian,  kecerdasan,  akhlak  mulia,  serta
+
+keterampilan yang diperlukan dirinya, masyarakat, bangsa dan negara.
+
+2.1.2. Sekolah
+
+Sekolah    adalah    sistem    interaksi    sosial    suatu    organisasi
+
+keseluruhan    terdiri  atas   interaksi   pribadi   terkait   bersama  dalam  suatu
+
+hubungan  organik  (Atmodiwirio,    1991).    Sedangkan    berdasarkan undang-
+
+undang   no   2   tahun   1989   sekolah   adalah   satuan  pendidikan  yang
+
+berjenjang    dan     berkesinambungan    untuk    menyelenggarakan    kegiatan
+
+belajar  mengajar.
+
+Sekolah  adalah  bangunan  atau  lembaga  untuk belajar  serta tempat
+
+menerima   dan  memberi   pelajaran Berdasarkan  pernyataan-pernyataan  diatas
+
+dapat  disimpulkan  bahwa  sistem  informasi  adalah  suatu  jaringan  kerja  dari
+
+prosedur-prosedur  yang  saling  berhubungan  dengan  tujuan  integrasi  kegiatan-
+
+kegiatan  berdasarkan  kejadian-kejadian  nyata  yang  dapat  digunakan  sebagai
+
+acuan dalam pengambilan keputusan serta melakukan kontrol terhadap kegiatan-
+
+kegiatan  suatu  organisasi  sekaligus  menyediakan  informasi  bagi  pihak  yang
+
+memerlukannya (Daryanto, 1997).
+
+Dari  definisi  tersebut,  dapat  disimpulkan  bahwa  sekolah  merupakan
+
+suatu lembaga yang memiliki wewenang dan mampu menyelenggarakan kegiatan
+
+pembelajaran.
+
+
+
+6
+
+2.1.3. Guru
+
+Guru  adalah  orang  yang  bekerja  dalam  bidang  pendidikan  dan
+
+pengajaran  yang  ikut  bertanggung  jawab  serta  membantu  anak-anak  dalam
+
+mencapai  kedewasaan  masing-masing  (Nawawi,  1995).  Menurut  Ahli  bahasa
+
+belanda J.E.C.  Gericke  dan T.  Roorda :  bahwa kata  Guru berasal  dari  bahasa
+
+sansekerta,  yang artinya berat,  besar, penting,baik sekali,  terhormat dan berarti
+
+juga pengajar. Dengan demikian Guru adalah orang yang dalam tutur kata, gerak
+
+gerik, dan perbuatannya bisa dianut dan dicontoh oleh masyarakat umum.
+
+Dapat  disimpulkan  bahwa  guru  adalah  seseorang  yang  mampu
+
+membimbing,  mengajar,  bertanggungjawab,  serta  menjadi  panutan  bagi  orang
+
+disekitarnya sehingga mampu memberikan pelajaran serta pengetahuan bagi yang
+
+diajar olehnya.
+
+2.1.4. Siswa
+
+Pengertian   siswa berarti   orang,  anak yang sedang berguru  (belajar,
+
+bersekolah), (KBBI, 2018). Sedangkan menurut pasal 1 ayat 4 UU  RI  No.  20
+
+tahun  2013.   Mengenai   sistem  pendidikan  nasional,   dimana siswa adalah
+
+anggota masyarakat yang berusaha mengembangkan diri mereka melalui   proses
+
+pendidikan   pada   jalur dan   jenjang   dan   jenis   pendidikan tertentu. Dalam
+
+proses belajar mengajar, siswa berada di posisi sentral dimana siswa akan terus
+
+berkembang dan memiliki  cita-cita,  sehingga dalam proses belajar  siswa dapat
+
+mencapai sebuah tujuan yang optimal.
+
+Berdasarkan defisini tersebut, siswa merupakan seorang individu yang
+
+sedang mengembangkan diri dengan cara belajar melalui individu yang memiliki
+
+pengetahuan yang lebih demi mencapai tujuan tertentu.
+
+2.1.5. Pembelajaran
+
+Pembelajaran merupakan proses kerjasama antara guru dan siswa dalam
+
+memanfaatkan segala potensi dan sumber yang ada baik potensi yang bersumber
+
+dari dalam diri siswa itu sendiri seperti minat, bakat, dan kemampuan dasar yang
+
+dimiliki termasuk gaya belajar maupun potensi yang ada di luar diri siswa seperti
+
+lingkungan,  sarana,  dan  sumber  belajar  sebagai  upaya  untuk  mencapai  tujuan
+
+belajar tertentu. 
+
+Tujuan pembelajaran pada hakikatnya adalah perubahan perilaku siswa
+
+baik  perubahan  perilaku  dalam  bidang  kognitif,  afektif  maupun
+
+
+
+7
+
+psikomotorik.masing-masing  perilaku  dalam  bidang  kognitif,  afektif,  maupun
+
+psikomotorik  adalah  berbeda-beda,  maka  selanjutnya  memerlukan  desain
+
+perencanaan pembelajaran yang berbeda juga (Sanjaya, 2009).
+
+2.1.6. Kurikulum 
+
+Kurikulum  merupakan  serangkaian  tujuan  pendidikan  yang
+
+menggambarkan berbagai kemampuan (penegtahuan dan keterampilan), nilai dan
+
+sikap  yang  harus  dikuasiai  dan  dimiliki  oleh  peserta  didik  dari  suatu  atuan
+
+pendidikan (Abdullah, 2007). Kurikulum merupakan garis besar materi dari suatu
+
+mata pelajaran yang telah dipilih untuk dijadikan objek belajar, serta panduan bagi
+
+penyusunan  buku  pelajaran  yang  disusun  untuk  menunjang  terjadinya  proses
+
+belajar mengajar (Suke, 1991).
+
+Proses  pembelajaran  merupakan  tahapan-tahapan  yang  dilalui  dalam
+
+mengembangkan  kemampuan  kognitif,  afektif,  dan  psikomotorik  seseorang,
+
+dalam hal ini adalah kemampuan yang harus dimiliki oleh siswa atau peserta didik
+
+. Salah satu peran yang dimiliki oleh seorang guru untuk melalui tahap-tahap ini
+
+adalah  sebagai  fasilitator.  Untuk  menjadi  fasilitator  yang  baik  guru  harus
+
+berupaya dengan optimal  mempersiapkan  rancangan  pembelajaran  yang sesuai
+
+dengan  karakteristik  anak  didik,  demi  mencapai  tujuan  pembelajaran  (Amri,
+
+2013). Kurikulum 2013 merupakan sebuah pembelajaran yang menekankan pada
+
+aspek afektif atau perubahan perilakku dan kompetensi yang ingin dicapai adalah
+
+kompetensi  yang  berimbang  antara  sikap,  keterampilan,  dan  pengetahuan,
+
+disamping cara pembelajarannya yang holistik dan menyenangkan. 
+
+Kurikulum  2013  memiliki  empat  aspek  penilaian,  yaitu  aspek
+
+pengetahuan,  aspek  keterampilan,  aspek  sikap,  dan  perilaku.  Kurikulum  2013
+
+untuk  SD,  bersifat  tematik  integratif  dantingkat  SMP  &  SMA  (Kompetensi
+
+dikembangkan  melalui:  Mata  pelajaran);  sedangkan tingkat  SMK (Kompetensi
+
+dikembangkan  melalui:  vokasional).  Semua  mata  pelajaran  menggunakan
+
+diajarkan  dengan  pendekatan  yang  sama  yaitu  menggunakan  pendekatain
+
+saintifik,  yang  menggunakan  5  M  :  Mengamati,Menanya,  Mengumpulkan
+
+Informasi, Menalar dan Mengkomunikasikan. 
+
+2.1.7 Learning Management System
+
+LMS  atau  yang  lebih  dikenal  dengan  Learning  Management  System
+
+adalah  suatu  perangkat  lunak  atau  software  untuk  keperluan  administrasi,
+
+
+
+8
+
+dokumentasi,  laporan  sebuah kegiatan,  kegiatan  belajar  mengajar  dan kegiatan
+
+secara online (terhubung ke internet), E-learning dan materi-materi pelatihan. Dan
+
+semua  itu  dilakukan  dengan  online  (Ellis,  2009).  Dengan  kata  lain,  LMS
+
+merupakan  aplikasi  yang  dapat  digunakan  dalam  sebuah  pembelajaran  yang
+
+bersifat  elektronik  yang  berisi  fitur-fitur  yang  mendukung  dalam  proses
+
+pembelajaran sehingga mampu menyampaikan konten pembelajaran secara cepat
+
+dan tepat kepada penggunanya.
+
+Sebuah  software  dapat  dikatakan  menjadi  suatu  LMS  jika  software
+
+tersebut mampu melakukan hal-hal berikut :
+
+1. Menggunakan layanan self-service dan self-guided
+
+2. Mengumpulkan dan menyampaikan konten pembelajaran dengan cepat
+
+3. Memiliki platform yang dapat berbasis ‘’web scalable’’
+
+4. Mendukung  portabilitas  dan  standar  personalisasi  isi  dan  memungkinkan
+
+penggunaan kembali pengetahuan.
+
+Salah  satu  fungsi  umum  Learning  Management  System  adalah
+
+Uploading and Sharing material, yaitu fungsi membagikan materi pembelajaran.
+
+Instruktur  akan  mengunggah  materi  pembelajaran  sesuai  dengan  kurikulum
+
+berlaku,  kemudian  peserta  didik  akan  mengakses  materi-materi  pembelajaran
+
+yang tersedia.  Dari  materi  pembelajaran  yang telah  diunggah,  tersedia  banyak
+
+materi pembelajaran yang akan diakses sehingga membentuk sebuah bank materi
+
+pembelajaran yang menyediakan konten pembelajaran  yang dapat  diakses  oleh
+
+peserta didik.
+
+2.1.7.1 Bank Materi
+
+Bank materi  merupakan sekumpulan materi-materi  pembelajaran yang
+
+terorganisir dan terstruktur agar mudah saat digunakan dan diakses. Materi-materi
+
+pembelajaran  yang  akan  digunakan  disimpan  dalam  sebuah  tempat  dan  akan
+
+diakses oleh pihak yang bersangkutan. Sama halnya dengan bank soal yang untuk
+
+menyimpan kumpulan soal-soal, bank materi menyimpan kumpulan materi-materi
+
+pembelajaran.  Bank  soal  mengacu  pada  proses  pengumpulan  soal-soal,
+
+pemantauan  dan  penyimpanannya  dengan  informasi  yang  terkait  sehingga
+
+mempermudah pengambilannya untuk merakit soal-soal (Thorndike, 1982).
+
+
+
+9
+
+2.1.7.2 Edmodo
+
+Edmodo  merupakan  perusahaan  bidang  teknologi  pendidikan  yang
+
+menawarkan  komunikasi,  kerjasama,  dan  sistem  pengajaran  untuk  murid  dan
+
+pengajar secara online di browser internet. Edmodo ditemukan oleh Nic Borg dan
+
+Jeff O'Hara pada 1 September 2008. berpusat di San Mateo, California. Edmodo
+
+dibuat  dengan  konsep  social  networking  sehingga  tampilan  nya  mirip  seperti
+
+facebook yaitu  aplikasi  jaringan  social  untuk  saling  berinteraksi.  Sehingga
+
+Edmodo mudah populer di kalangan siswa.
+
+Edmodo  memiliki  banyak  fitur,  penggunaan  nya  juga  sangat  mudah.
+
+Awalnya,  seorang guru yang telah  terdaftar  ke dalam sistem (telah melakukan
+
+registrasi) akan membuat sebuah Group.  Group ini bisa dikatakan sebagai kelas
+
+dimana guru dan siswa akan saling berinteraksi. Setelah membuat  Group, guru
+
+akan mendapatkan kode unik, kode unik ini akan diberikan kepada siswa yang
+
+akan memasuki kelas dari guru tersebut. Jika siswa lain ingin masuk ke kelas guru
+
+tersebut tapi guru tidak bisa mengirim kode unik, maka siswa dapat melakukan
+
+fitur request to join ke kelas yang bersangkutan, jika disetujui oleh guru tersebut
+
+maka siswa akan mendapatkan kode unik dan akan bergabung ke dalam kelas. 
+
+Saat  siswa  masuk  kedalam  Group  guru  tersebut  maka  aktivitas  bisa
+
+dimulai.  Guru  dapat  memberi  materi  pelajaran  di  dalam  Group  yang  dihadiri
+
+banyak siswa, selain pelajaran, guru juga dapat memberikan tugas dan kuis untuk
+
+menguji kemampuan siswa. 
+
+Selain  itu,  Edmodo  juga  memungkinkan  untuk  menghubungkan  dari
+
+akun Edmodo ke akun Google serta Microsoft,  sehingga mempermudah dalam
+
+mengakses  masuk  ke  laman  Edmodo  karena  sudah  terintegrasi  dengan  akun
+
+Google.  Selain  itu  dipermudah  dalam  mengakses  file  di  Google  Drive  atau
+
+mengakses Google Docs dalam penggunaan dokumen-dokumen.
+
+Edmodo  memiliki  fitur  dimana  orang  tua  dapat  berperan  dalam
+
+perkembangan  anaknya  dalam  proses  pembelajaran.  Fitur  ini  memberitahukan
+
+orang tua tentang apa yang dilakukan anaknya seperti ;  materi  yang dipelajari,
+
+batas  pengumpulan  tugas,  pengumuman,  pengingat  dan  yang  lainnya.  Hal  ini
+
+dibuat dengan tujuan orang tua bisa memantau seberapa jauh proses pembelajaran
+
+yang  dilakukan  anaknya,  apakah  akan  efektif  dan  efisien  ataupun  sebagai
+
+pengingat.
+
+
+
+10
+
+Edmodo tersedia dalam platform Web, Android dan IOS. Dari semua
+
+platform  tersebut,  Edmodo  merupakan  aplikasi  yang  gratis  untuk  digunakan.
+
+Dengan kata lain, Edmodo merupakan aplikasi  LMS yang bersifat gratis  untuk
+
+digunakan dan cukup populer di kalangan siswa karena memiliki interface seperti
+
+media  social  pada  umumnya,  selain  itu,  Edmodo  juga  bersifat  user-friendly
+
+sehingga mudah digunakan banyak kalangan.
+
+2.1.7.3 Schoology
+
+Schoology  adalah  Learning  Management  System (LMS)  yang
+
+menyediakan  layanan  untuk user  untuk membuat,  mengatur,  dan  membagikan
+
+file. Lambang Schoology didesain oleh Jeremy Friedman, Ryan Hwang, dan Tim
+
+Trinidad  pada  tahun  2007  saat  mereka  masih  belum  lulus  universitas.  Pada
+
+awalnya  Schoology  dibuat  untuk  bertukar  file,  dan  dikembangkan  fitur-fitur
+
+barunya hingga seperti  saat ini.  Hampir sama seperti  Edmodo, Schoology juga
+
+menggunakan tampilan mirip sebagai media social pada umumnya agar menarik
+
+perhatian. 
+
+Sebagian fitur yang diimplementasikan di Edmodo juga diterapkan di
+
+Schoology. Tetapi Schoology bisa mengarah ke  Group  yang lebih besar, jika di
+
+Edmodo hanya ada grup dan seorang guru,  Schoology dapat  membuat  School
+
+yaitu  banyak  pengajar  berinteraksi  dengan  banyak  siswa.  Tetapi  dengan
+
+mekanisme  yang  sama,  yaitu  guru  di  sebuah  Group membagikan  kode  unik
+
+mereka ke siswa agar siswa dapat masuk ke dalam Group tersebut.
+
+Tidak  hanya  Edmodo,  Schoology  juga  bisa  terintegrasi  ke  Google
+
+beserta  fitur-fitur  yang  ada  di  Google  sehingga  mempermudah  jalan  nya
+
+pembelajaran.  Tetapi  ada  beberapa  fitur  yang  dimiliki  oleh  Schoology  yang
+
+merupakan  kelebihan  dibanding  Edmodo,  yaitu  sistem  absensi  dan  analytics.
+
+Sistem  absensi  digunakan  untuk  mengecek  kehadiran  siswa  tiap  penggunaan
+
+aplikasi  dan berlangsungnya pembelajaran,  dimana siswa bisa ditandai  sebagai
+
+“hadir”, “izin”,  ,”terlambat”,  ataupun “tidak masuk”. Fitur  Analytics  digunakan
+
+untuk melihat  aktivitas-aktivitas siswa di dalam Schoology, yaitu dalam tugas,
+
+kuis,  hingga  diskusi  ataupun  aktivitas  apapun  yang  dilakukan  selama  siswa
+
+tersebut melakukan login. 
+
+
+
+11
+
+2.1.7.4 Perbandingan
+
+Aplikasi yang akan dibuat merupakan bagian dari Learning Management
+
+System  yang berbentuk sebagai bank materi  pembelajaran.  Perbandingan antara
+
+kedua aplikasi LMS tersebut dibanding aplikasi yang akan dibuat adalah Aplikasi
+
+Bank  Materi  Pelajaran  Untuk  Jenjang  SMA  lebih  menonjolkan  fitur  dimana
+
+materi-materi  pelajaran yang tersedia lebih terpusat  kepada satu titik,  sehingga
+
+dapat diakses dari banyak pengguna sehingga mempermudah penyebaran materi-
+
+materi pelajaran yang ada. Berikut perbandingan ditunjukkan dalam tabel 2.1.
+
+Tabel 2.1 Perbandingan Aplikasi
+
+No. Perbandingan Edmodo Schoology
+Aplikasi
+
+Bank Materi
+Pembelajaran
+
+1. Pengguna memiliki akun berdasarkan 
+hak akses (pengajar dan siswa) √ √ √
+
+2. Pengguna bebas mengakses semua 
+materi pembelajaran yang tersedia 
+dalam aplikasi × × √
+
+3. Materi pembelajaran yang 
+terkategorisasi × × √
+
+4. Membuat kelas tersendiri untuk 
+mendapatkan materi pembelajaran √ √ ×
+
+5. Antarmuka mirip seperti sosial media √ √ ×
+
+6. Fitur login sebagai orang tua untuk 
+monitoring √ √ ×
+
+7. Aplikasi juga memiliki bentuk mobile √ √ ×
+
+2.1.8 DFD
+
+Data Flow Diagram merupakan suatu model logika data atau proses yang
+
+dibuat untuk menggambarkan darimana asal data dan kemana tujuan data yang
+
+keluar  dari  sistem,  dimana data  disimpan,  proses  apa yang menghasilkan  data
+
+tersebut dan interaksi antara data yang tersimpan dan proses yang dikenakan pada
+
+data tersebut (Kristanto, 2008). 
+
+
+
+12
+
+Data Flow Diagram atau dalam bahasa Indonesia menjadi Diagram Alir
+
+Data (DAD) adalah refresentasi grafik yang menggambarkan aliran informasi dan
+
+transformasi  informasi  yang  diaplikasikan  sebagai  data  yang  mengatur  dari
+
+masukan  (input)  dan  keluaran  (output).  DFD  tidak  sesuai  untuk  memodelkan
+
+sistem  yang  menggunakan  pemograman  berorientasi  objek  (Sukamto  dan
+
+Shralahudin, 2014). 
+
+Berikut merupakan notasi  Data Flow Diagram  berdasarkan model yang
+
+dibuat oleh Edward Yourdon dan Tom DeMarco :
+
+Tabel 2.2 Notasi Data Flow Diagram
+
+Nama Notasi Keterangan
+
+Proses Menggambarkan  proses  atau
+
+fungsi  atau  prosedur.  Pada
+
+pemodelan  perangkat  lunak
+
+yang akan diimplementasikan
+
+dengan  pemograman
+
+terstruktur,  maka  pemodelan
+
+notasi  inilah  yang  harusnya
+
+menjadi fungsi atau prosedur
+
+di dalam kode program
+
+Data Store Menggambarkan  data  store
+
+atau storage. Pada pemodelan
+
+perangkat  lunak  yang  akan
+
+diimplementasikan  dengan
+
+pemograman  terstruktur,
+
+maka pemodelan notasi inilah
+
+yang  harusnya  dibuat
+
+menjadi tabel-tabel basis data
+
+yang  dibutuhkan,  tabel-tabel
+
+ini  juga harus sesuai dengan
+
+perancangan tabel-tabel basis
+
+data  yang dibutuhkan,  tabel-
+
+tabel  ini  juga  harus  sesuai
+
+dengan  perancangan  tabel-
+
+
+
+13
+
+tabel basis data.
+
+Entitas Menggambarkan  suatu
+
+entitas  luar  (external  entity)
+
+atau  masukan  (input)  atau
+
+keluaran  (output)  atau  orang
+
+yang  memakai  atau
+
+berinteraksi  dengan
+
+perangkat  lunak  yang
+
+dimodelkan  atau  sistem  lain
+
+yang  terkait  dengan  aliran
+
+data  dari  sistem  yang
+
+dimodelkan
+
+Aliran Data Menggambarkan suatu aliran
+
+data. Yaitu data yang dikirm
+
+antar  proses,  dari
+
+penyimpanan ke proses, atau
+
+dari  proses  ke  masukan
+
+(input) atau keluaran (output)
+
+Berikut  ini  adalah  tahapan-tahapan  perancangan  dengan  menggunakan
+
+DFD menurut Sukamto dan Shalahuddin :
+
+1. Membuat DFD Level 0 atau sering disebut juga Context Diagram DFD Level
+
+0 menggambarkan sistem yang akan dibuat sebagai suatu entitas tunggal yang
+
+berinteraksi dengan orang maupun sistem lain. DFD Level 0 digunakan untuk
+
+mengambarkan  interaksi  antara  sistem  yang  akan  dikembangkan  dengan
+
+entitas luar.
+
+2. Membuat  DFD  Level  1  DFD  Level  1  digunakan  untuk  menggambarkan
+
+modul-modul yang ada dalam sistem yang akan dikembangkan. DFD Level 1
+
+merupakan hasil breakdown DFD Level 0 yang sebelumnya sudah dibuat.
+
+3. Membuat DFD Level 2 Modul-modul pada DFD Level 1 dapat di breakdown
+
+menjadi DFD Level 2. Modul mana saja yang harus di breakdown lebih detail
+
+tergantung  pada  tingkat  kedetilan  modul  tersebut.  Apabila  modul  tersebut
+
+sudah cukup detail dan rinci maka modul tersebut sudah tidak perlu untuk di
+
+
+
+14
+
+breakdown lagi.  Untuk sebuah sistem,  jumlah DFD Level  2  sama dengan
+
+jumlah modul pada DFD Level 1 yang di breakdown.
+
+4. Membuat DFD Level 3 dan seterusnya. DFD Level 3, 4, 5 dan seterusnya
+
+merupakan breakdown dari modul pada DFD Level di atasnya. Breakdown
+
+pada level  3,  4 dan 5 dan seterusnya aturannya sama persis  dengan DFD
+
+Level 1 atau Level 2.
+
+2.1.9 ERD
+
+Entity  Relationship Diagram (ERD) adalah pemodelan awal basis  data
+
+yang akan dikembangkan berdasarkan teori himpunan dalam bidang matematika
+
+untuk  pemodelan  basis  data  relasional.  ERD  memiliki  beberapa  aliran  notasi
+
+seperti notasi Chen (dikembangkan oleh Peter Chen). Barker (dikembangkan oleh
+
+Richard Barker, Ian Palmer, Harry Ellis), notasi Crow’s Foot, dan beberapa notasi
+
+lain.  Namun  yang  banyak  digunakan  adalah  notasi  dari  Chen  (Sukamto  dan
+
+Shalahuddin,2014).
+
+Berikut  adalah  simbol-simbol  yang  digunakan  yang  digunakan  dalam
+
+ERD dengan menggunakan notasi Chen :
+
+Tabel 2.3 Notasi Diagram E-R Chen
+
+Nama Simbol Keterangan
+
+Entitas Entitas merupakan data inti
+
+yang akan disimpan. Bakal
+
+tabel  pada  basis  data.
+
+Benda yang memiliki  data
+
+dan  harus  disimpan
+
+datanya agar dapat diakses
+
+oleh  aplikasi  komputer.
+
+Penamaan entitas biasanya
+
+lebih  ke  kata  benda  dan
+
+nama_entita
+s
+
+
+
+15
+
+bukan  merupakan  nama
+
+tabel.
+
+Atribut Field atau kolom data yang
+
+butuh  disimpan  dalam
+
+suatu entitas.
+
+Atribut Multinilai /
+
+Multivalue
+
+Field atau kolom data yang
+
+butuh  disimpan  dalam
+
+suatu  entitas  yang  dapat
+
+memiliki  nilai  lebih  dari
+
+satu.
+
+Relasi Relasi  yang
+
+menghubungkan  antar
+
+entitas.  Biasanya  diawali
+
+dengan kata kerja.
+
+Asosiasi Penghubung  antara  relasi
+
+dan  entitas  dimana  di
+
+kedua  ujungnya  memiliki
+
+multiplicity kemungkinan
+
+jumlah pemakaian.
+
+2.1.10 Basis Data
+
+Basis data terdiri atas 2 kata, yaitu Basis dan data. Basis kurang lebih
+
+dapat diartikan sebagai markas atau gudang, tempat bersarang atau berkumpul.
+
+Sedangan Data adalah representasi fakta dunia nyata yang mewakili suatu objek
+
+seperti manusia (pegawai, siswa, pembeli, pelanggan), barang, hewan, peristiwa,
+
+konsep,  keadaan,  dan  sebagainya  yang  terekam  dalam  bentuk  angka,  huruf,
+
+simbol, teks, gambar, bunyi, atau kombinasi lainnya (Fathansyah, 2007).
+
+Basis  data  dapat  dipahami  sebagai  suatu  kumpulan  data  terhubung
+
+(interrelated  data)  yang  disimpan  secara  bersama-sama  pada  suatu  media,
+
+nama_atribut
+
+nama_atribut
+
+nama_relasi
+
+
+
+16
+
+tanpa  mengatap  satu  sama  lain  atau  tidak  perlu  suatu  kerangkapan  data
+
+(kalaupun  ada  maka  kerngkapan  data  tersebut  harus  seminimal  mungkin  dan
+
+terkontrol  (controlled  redundancy),  data  disimpan  dengan  cara-cara  tertentu
+
+sehingga  mudah  untuk  digunakan  atau  ditampilkan  kembali,  data  dapat
+
+digunakan  satu  atau  lebih  program-program  aplikasi    secara  optimal,  data
+
+disimpan  tanpa  mengalami  ketergantungan  dengan  program   yang  akan
+
+menggunakannya,  data  disimpan  dengan  sedemikian  rupa  sehingga  proses
+
+penambahan,  pengembalian,  dan  modifikasi  data  dapat  dilakukan  dengan
+
+mudah dan terkontrol (Sutanta, 2003).
+
+2.1.11 PHP
+
+PHP atau  singkatan dari Personal Home Page merupakan bahasa skrip
+
+yang tertanam dalam HTML untuk dieksekusi bersifat server side. PHP termasuk
+
+dalam  open  source  product,  sehingga  source  code  PHP  dapat  diubah  dan
+
+didistribusikan  secara  bebas  (Nugroho,  2006).  PHP  juga  dapat  berjalan  pada
+
+berbagai  web server seperti  IIS  (Internet  Information  Server),  PWS (Personal
+
+Web Server), Apache, Xitami. PHP juga mampu berjalan di banyak sistem operasi
+
+yang beredar saat ini,  diantaranya : Sistem Operasi  Microsoft  Windows (semua
+
+versi),  Linux, Mac Os, Solaris. PHP dapat  dibangun sebagai modul  web server
+
+Apache dan sebagai binary yang dapat berjalan sebagai CGI (Common Gateway
+
+Interface). PHP dapat mengirim HTTP header, dapat mengatur cookies , mengatur
+
+authentication dan redirect user.
+
+Salah satu keunggulan yang dimiliki PHP adalah kemampuannya untuk
+
+melakukan  koneksi  ke  berbagai macam  software sistem manajemen  basis  data
+
+atau  Database Management System (DBMS), sehingga dapat menciptakan suatu
+
+halaman  web dinamis. PHP mempunyai  koneksitas  yang  baik  dengan beberapa
+
+DBMS seperti  Oracle,  Sybase,  mSQL, MySQL, Microsoft  SQL Server,  Solid,
+
+PostgreSQL,  Adabas,  FilePro,  Velocis,  dBase,  Unix dbm,  dan tidak  terkecuali
+
+semua database ber-interface ODBC (Arief, 2011).
+
+2.1.12 SQL
+SQL  yaitu  kependekan  dari  Structured  Query  Language,  yang
+
+merupakan  bahasa  atau  kumpulan  perintah  standar  yang  digunakan  untuk
+
+berkomunikasi  dengan  database  (Raharjo,  2011).  Perintah  SQL  dibedakan
+
+menjadi tiga sebagai berikut (Sidik, 2005) :
+
+
+
+17
+
+1. Data Definition Language (DDL)
+
+Merupakan  kelompok  perintah  yang  digunakan  untuk  melakukan
+
+pendefinisian basis data dan pendefinisian tabel.  Pengguna dapat membuat
+
+menghapus  dan  mengubah  struktur  tabel.  Selain  itu  pengguna  juga  dapat
+
+membuat indeks untuk tabelnya.  Perintah didalam DDL ini bermuara pada
+
+pembentukan struktur basis data.
+
+2. Data Manipulation Language (DML)
+
+Perintah (Statement) SQL digunakan untuk melakukan manipulasi data dalam
+
+basis data, menambahkan (insert), mengubah (update), menghapus (delete),
+
+mengambil  dan mencari  data  (select).  Perintah SQL standar  seperti  select,
+
+insert, update, delete, create dan drop dapat digunakan untuk menyelesaikan
+
+tugas yang diberikan berhubungan dengan data dari suatu basis data.
+
+3. Data Control Language (DCL)
+
+Pendefinisian  pemakai  yang  berhak  mengakses  basis  data  dan  apa  saja
+
+privilege-nya merupakan jenis perintah didalam DCL. Fasilitas ini  tersedia
+
+pada sistem manajemen basis data yang memiliki fasilitas keamanan dengan
+
+membatasi pemakai dan kewenangannya.
+
+2.2. Pengujian Sistem 
+
+2.2.1 Black Box
+Metode  Black Box yaitu data pengujian dipilih berdasarkan spesifikasi
+
+masalah  tanpa  memperhatikan  detail  internal  dari  program  (Sukamto  dan
+
+Shalahuddin,  2014),  untuk  memeriksa  apakah  program dapat  berjalan  dengan
+
+benar.  Pengujian  Black  Box berfokus  pada  persyaratan  fungsional  perangkat
+
+lunak.  Dengan  demikian,  pengujian  Black  Box memungkinkan  perekayasa
+
+perangkat  lunak  mendapatkan  serangkaian  kondisi  input  yang  sepenuhnya
+
+menggunakan  semua  persyaratan  fungsional  untuk  suatu  program (Pressmann,
+
+2001). 
+
+Berikut merupakan kesalahan yang sering ditemui dalam pengujian Black
+
+Box saat melakukan pengujian :
+
+1. Fungsi-fungsi yang tidak benar atau hilang.
+
+2. Kesalahan interface
+
+3. Kesalahan dalam struktur data atau akses database eksternal
+
+
+
+18
+
+4. Kesalahan kinerja
+
+5. Inisialisasi dan kesalahan terminasi
+
+Pengujian  dari  metode  Blackbox  ini  dilakukan  untuk  menjawab
+
+pertanyaan-pertanyaan berikut (Sukamto, 2009) :
+
+1. Bagaimana fungsi-fungsi diuji agar dapat dinyatakan valid?
+
+2. Input seperti apa yang dapat menjadi bahan kasus uji yang baik?
+
+3. Apakah sistem sensitif pada input-input tertentu?
+
+4. Bagaimana sekumpulan data dapat diisolasi?
+
+5. Berapa banyak rata-rata data dan jumlah data yang dapat ditangani sistem?
+
+6. Efek apa yang dapat membuat kombinasi data ditangani spesifik pada operasi
+
+sistem?
+
+Metode  Blackbox  memiliki model dalam pengujian nya untuk menguji
+
+sistem yang sedang dibuat,  berikut  merupakan model  yang akan digunakan di
+
+dalam pengujian :
+
+1. Boundary Value Analysis
+
+Model  ini  dilakukan  dengan  menguji  batasan  nilai  input yang  sering
+
+menyebabkan banyak kesalahan yang terjadi pada saat melakukan input. 
+
+2. Comparison Testing
+
+Model  ini  dilakukan dengan tujuan  mengurangi  redudansi  data.  Pengujian
+
+dilakukan dengan cara mengamati tiap hasil output dari data yang sama, dan
+
+memastikan hasil output tersebut tetap menghasilkan keluaran yang sama.
+
+3. Requirement and Performance Testing
+
+Model  ini  dilakukan untuk menguji  spesifikasi  kebutuhan yang terasosiasi
+
+dengan  perangkat  lunak  serta  mengevaluasi  kemampuan  program  untuk
+
+beroperasi dengan benar, selain itu model ini juga dapat mencari tahu beban
+
+kerja atau kondisi konfigurasi program yang sedang berjalan.
+
+4. Endurance Testing
+
+Model ini melibatkan kasus pengujian dari data yang sama secara berulang-
+
+ulang dengan jumlah tertentu untuk mengevaluasi apakah telah sesuai dengan
+
+spesifikasi kebutuhan.
+
+2.2.2 Usability Testing
+Secara  umum  Usability  adalah  tingkat  kualitas  dari  sistem (perangkat
+
+lunak) yang mudah dipelajari, mudah digunakan dan mendorong pengguna untuk
+
+
+
+19
+
+menggunakan sistem sebagai alat bantu positif dalam menyelesaikan tugas, hal ini
+
+berpengaruh besar terhadap user experience (UX). Pengujian ini dilakukan dengan
+
+harapan mencapai tujuan dimana pengguna yang akan menggunakan aplikasi bisa
+
+menggunakan aplikasi dengan mudah serta efektif dalam mencapai penggunaan
+
+aplikasi yang optimal. 
+
+Pengujian  Usability  dijadikan  sebagai  ukuran  kualitas  pengalaman
+
+pengguna  ketika  berinteraksi  dengan  produk  atau  sistem  apakah  situs  web,
+
+aplikasi  perangkat  lunak,  teknologi  bergerak  ,  maupun peralatan-peralatan  lain
+
+yang dioperasikan oleh pengguna (Nielsen,  2012).  Usability  Testing  itu sendiri
+
+adalah cara untuk mengevaluasi sebuah produk dengan cara mengujinya kepada
+
+calon pengguna.  Umumnya,  selama pengujian,  pengguna akan mencoba  untuk
+
+menyelesaikan tugas yang diberikan, sementara pemilik produk akan mengamati,
+
+mendengar,  dan  mencatat  temuan  (Krug,  2006).  Tujuan dari  Usability  Testing
+
+adalah  mencari  permasalahan  kegunaan,  mengumpulkan  data  kualitatif  dan
+
+kuantitatif, serta menentukan kepuasan pengguna dengan produk tersebut.
+
+Berikut merupakan beberapa aspek dari Usability Testing menurut Jacob
+
+Nielsen :
+
+a. Kemudahan (learnability) didefinisikan pengguna mahir dalam menggunakan
+
+sistem serta  kemudahan dalam penggunaan menjalankan  suatu fungsi  serta
+
+apa yang pengguna inginkan dapat meraka dapatkan.
+
+b. Efisiensi  (efficiency) didefenisikan  sebagai  sumber  daya  yang  dikeluarkan
+
+guna mencapai ketepatan dan kelengkapan tujuan.
+
+c. Mudah diingat  (memorability) didefinisikan bagaimana kemapuan pengguna
+
+mempertahankan pengetahuannya setelah jangka waktu tertentu, kemampuan
+
+mengngat didapatkan dari peletakkan menu yang selalu tetap.
+
+d. Kesalahan  dan  keamanan  (errors) didefinisikan  berapa  banyak  kesalahan-
+
+kesalahan apa saja yang dibuat pengguna, kesalahan yang dibuat pengguna
+
+mencangkup ketidaksesuaian apa yang pengguna pikirkan dengan apa yang
+
+sebenarnya disajikan oleh sistem.
+
+e. Kepuasan  (satisfaction) didefinisikan kebebasan dari  ketidaknyamanan,  dan
+
+sikap positif terhadap penggunaan produk atau ukuran subjektif sebagaimana
+
+pengguna merasa tentang penggunaan sistem.
+
+
+
+20
+
+Dari kelima aspek tersebut akan dibuat kuesioner yang berkaitan tentang
+
+aplikasi.  Pertanyaan-pertanyaan  akan  dibuat  untuk  menguji  kelayakan  dari
+
+aplikasi  yang akan dibuat. Kuesioner tersebut akan dijawab oleh calon pengguna,
+
+lalu  data  dari  kuesioner  yang  telah  dijawab  akan  dihitung  dan  diolah  untuk
+
+memeriksa  baik  tidaknya  aplikasi  yang sudah dibuat.  Hasil  dari  pengujian  ini
+
+dapat dijadikan feedback dari pengguna agar dapat mengembangkan aplikasi lebih
+
+baik kedepannya.
+
+Berikut  merupakan  tabel  kuantitatif  untuk  menghitung  hasil  pada
+kuesioner pada Usability Testing (Arikunto, 2009).
+
+Tabel 2.4 Tabel Kuantitatif Perhitungan Kuesioner Usability Testing
+
+Skor Kualifikasi Hasil
+
+85-100% SB (Sangat Baik) Berhasil
+
+65-84% B (Baik) Berhasil
+
+55-64% C (Cukup) Tidak Berhasil
+
+0-54% SK (Sangat Kurang) Tidak Berhasil
+
+Pengujian  Usability  yang  akan  dilakukan  memiliki  skenario  sebagai
+
+berikut :
+
+1. Pengguna yang merupakan Siswa SMA dan Guru SMA yang familiar dengan
+
+penggunaan laptop / PC akan dikumpulkan di suatu tempat.
+
+2. Kemudian pengguna akan diberikan Aplikasi Bank Materi Pelajaran Untuk
+
+Jenjang SMA untuk digunakan.
+
+3. Penguji kemudian menginstruksikan pengguna untuk menggunakan Aplikasi
+
+dengan  memberikan  tugas-tugas  tertentu  kepada  pengguna  agar  pengguna
+
+menyelesaikan tugas-tugas tersebut.
+
+4. Dari aktivitas tersebut, penguji dapat mencari tahu bagian dimana pengguna
+
+merasa  kesulitan  dari  desain  aplikasi  yang  telah  dibuat,  tiap  pengguna
+
+mungkin merasa kesulitan di bagian-bagian yang berbeda.
+
+5. Akan diambil data dari pengguna tersebut, bagian mana yang banyak terjadi
+
+kesulitan.  Data-data  yang  terkumpul  akan  dianalisis,  kemudian  akan
+
+diperbaiki agar menghasilkan produk final yang lebih baik.
+
+
+
+21
+
+2.3. Studi Literatur 
+
+Studi  literatur  dilakukan  dengan  mencari  referensi  ilmu  pengetahuan
+
+yang berhubungan dengan sistem yang akan dibuat seperti referensi tentang kritik
+
+dan saran maupun melalui penelitian-penelitian sebelumnya.
+
+Penelitian  terkait  yang  digunakan  sebagai  acuan  penelitian  adalah
+
+penelitian yang dilakukan oleh Azizah dan Fitriani (2017), mereka meneliti dan
+
+membuat  Aplikasi  Bank Soal  di  STT Garut menggunakan metode berorientasi
+
+objek dengan pendekatan Unified Software Development Process. Bagian yang
+
+dijadikan referensi dalam penelitian ini adalah bagaimana mereka mengorganisir
+
+file-file yang dimasukkan serta pengaturan dalam menyimpan file-file bank soal
+
+yang ada.  Selain itu  penelitian  yang dijadikan  referensi  lainnya adalah  Sistem
+
+Pembelajaran  E-Learning  Berbasis  Web yang  diteliti  oleh  Kusumaningrum
+
+(2017). Dalam penelitian ini dibuat dan diteliti aplikasi untuk belajar melalui web,
+
+mendapatkan  materi-materi  pembelajaran  serta  latihan  soal  dengan  metode
+
+waterfall.  Bagian  yang  dijadikan  referensi  dalam  penelitian  tersebut  adalah
+
+bagaimana  cara  jalannya  belajar  melalui  web  yang  bersifat  paperless serta
+
+pengujian yang dilakukan setelah melakukan pembelajaran tersebut. Apakah lebih
+
+baik dibanding metode pembelajaran yang sebelumnya berjalan.
+
+Penelitian  yang  dilakukan  sekarang  akan  berfokus  pada menonjolkan
+
+fitur dimana materi-materi pelajaran yang tersedia lebih terpusat kepada satu titik,
+
+sehingga  dapat  diakses  dari  banyak  pengguna  sehingga  mempermudah
+
+penyebaran  materi-materi  pelajaran  yang  ada,  sehingga  persebaran  materi
+
+pelajaran hanya terbatas pada siswa yang ada di dalam kelas tersebut, siswa atau
+
+pengguna lain yang tidak terhubung ke dalam kelas tidak dapat mengaksesnya.
+
+Tentunya dalam aplikasi yang akan dibangun, akan dibuat fitur-fitur yang mampu
+
+menunjang jalannya pembelajaran secara cepat, efektif dan efisien.
+
+
+
+1
+
+BAB III
+
+METODOLOGI PENELITIAN DAN PERANCANGAN SISTEM
+
+3.1 Metodologi Penelitian
+
+3.1.1. Data Penelitian
+
+Data penelitian berasal dari pengajar atau guru yang memberikan materi
+
+pembelajaran  serta  buku-buku tentang  pelajaran  yang  terkait.  Selain  itu,  studi
+
+literatur, jurnal dan karya ilmiah tentang penelitian yang terkait akan digunakan
+
+sebagai data pendukung dalam penelitian.
+
+3.1.2. Alat Penelitian
+
+3.1.2.1. Alat Penelitian
+
+Alat penelitian yang digunakan dalam penelitian ini adalah :
+
+1. Flowchart,  untuk  menggambarkan  jalannya  algoritma  atau  proses  pada
+
+sistem.  Flowchart dapat  membantu  perancangan  alur  logika  program
+
+sehingga mampu menentukan langkah-langkah dalam penyelesaian masalah.
+
+2. Data Flow Diagram (DFD), untuk menggambarkan aliran data pada sistem.
+
+3. Entity Relationship Diagram (ERD), untuk menjelaskan hubungan antar data
+
+dalam  basis  data  berdasarkan  objek-objek  dasar  data  yang  mempunyai
+
+hubungan antar relasi.
+
+3.1.2.2. Perangkat Lunak
+
+Perangkat lunak yang digunakan dalam penelitian ini adalah :
+
+1. Sistem operasi Windows 8.1
+
+Windows 8 adalah nama dari salah satu versi Microsoft Windows, serangkaian
+
+sistem operasi yang diproduksi oleh  Microsoft untuk digunakan pada komputer
+
+pribadi, termasuk komputer rumah dan bisnis. Sedangkan versi terbarunya yaitu,
+
+8.1 menawarkan fungsi dan fitur-fitur yang lebih dioptimasi dari versi Windows
+
+sebelumnya.
+
+
+
+2
+
+2. XAMPP Version 5.6.37
+
+XAMPP  yang  merupakan  singkatan  dari  Apache,  MySQL,  PHP  dan  Perl
+
+sedangkan huruf “X” dimaksudkan sebagai suatu software yang dapat dijalankan
+
+di berbagai sistem operasi. Pada dasarnya, XAMPP adalah perangkat lunak bebas
+
+dan merupakan kompilasi dari beberapa program.
+
+3. Sublime Text Build Version 3.1.76
+
+Sublime  Text  adalah  suatu  aplikasi  text  compiler,  yaitu  aplikasi  yang
+
+digunakan untuk menjalankan  program dengan menuliskan barisan  kode-kode.
+
+Jika proyek terbuka, sistem pembangunan yang dipilih akan diingat untuk proyek
+
+tersebut.
+
+4. Browser Mozilla Firefox
+
+Mozilla  Firefox  adalah  web  lintas  platform  bebas  dan  open  source yang
+
+dikembangkan  oleh  Yayasan  Mozilla.  Mozilla  Firefox  bertujuan
+
+mengembangkan peramban web yang kecil,  cepat,  sederhana,  dan sangat bisa
+
+dikembangkan sejak 3 April  2003. Firefox bisa dijalankan di  berbagai  sistem
+
+operasi,  saat  ini  versi  terbaru  dari  Firefox  adalah  62.0  yang  dirilis  pada  5
+
+September 2018.
+
+3.1.2.3. Perangkat Keras
+
+Perangkat  keras  yang  digunakan  dalam  penelitian  ini  adalah  laptop
+
+ASUS tipe A455L dengan spesifikasi :
+
+1. Intel Core i5-4210U
+
+2. Harddisk 500 GB
+
+3. Memory 4 GB 
+
+4. LCD 14” HD LED LCD
+
+
+
+3
+
+3.2 Metode Penelitian
+
+Langkah-langkah penelitian  yang dilakukan dalam pembuatan  aplikasi
+
+dapat dilihat pada Gambar 3.1 berikut :
+
+Gambar 3.1. Diagram Alir Penelitian
+
+3.2.1. Studi Literatur
+
+Studi  literatur  dilakukan  dengan  mencari  referensi  ilmu  pengetahuan
+
+yang berhubungan dengan sistem yang akan dibuat seperti referensi tentang kritik
+
+dan  saran,  Flowchart,  DFD (Data Flow Diagram),  buku-buku tentang literatur
+
+
+
+4
+
+yang terkait, jurnal-jurnal, seminar, serta melalui penelitian-penelitian atau skripsi
+
+yang telah dilakukan sebelumnya.
+
+3.2.2. Analisis Kebutuhan
+
+Analisis  kebutuhan  merupakan  sebuah  proses  untuk  mendapatkan
+
+informasi, model, spesifikasi tentang perangkat lunak yang diinginkan. Analisis
+
+kebutuhan juga merupakan cara untuk menentukan bagaimana gambaran suatu
+
+perangkat lunak yang akan dihasilkan oleh pengembang dan yang nantinya akan
+
+digunakan  oleh  guru  dan  siswa.   Berikut  merupakan  analisis  kebutuhan  yang
+
+diperlukan :
+
+1. Kebutuhan Fungsional
+
+Kebutuhan  fungsional  adalah  kebutuhan  yang  merupakan  layanan  dalam
+
+aplikasi yang harus disediakan, serta gambaran proses dari reaksi sistem terhadap
+
+masukan  sistem  dan  yang  akan  dikerjakan  oleh  sistem.  Dengan  kata  lain
+
+kebutuhan fungsional merupakan kebutuhan yang berkaitan dengan fungsi atau
+
+proses yang mampu dikerjakan oleh suatu aplikasi. Berikut merupakan kebutuhan
+
+fungsional dari aplikasi :
+
+a. Aplikasi  mampu  memberikan  materi-materi  pembelajaran  yang  telah
+
+diunggah oleh pengajar dan digunakan oleh siswa.
+
+b. Aplikasi  mampu  melakukan  pengelompokkan  materi-materi  pembelajaran
+
+sesuai dengan kategori masing-masing sehingga mudah untuk dicari.
+
+2. Kebutuhan Non-fungsional
+
+Kebutuhan non-fungsional merupakan kebutuhan perangkat yang dibutuhkan
+
+oleh  aplikasi  untuk  tujuan  perkembangan  aplikasi  yang  dibangun.  Berikut
+
+merupakan kebutuhan non-fungsional dari aplikasi :
+
+2.1.  Hardware
+
+1. Intel Core i5-4210U
+
+2. Harddisk 500 GB
+
+3. Memory 4 GB 
+
+4. LCD 14” HD LED LCD
+
+
+
+5
+
+2.2.  Software
+
+1. Sistem operasi Windows 8.1
+
+2. XAMPP Version 5.6.37
+
+3. Sublime Text Build Version 3.1.76
+
+4. Browser Mozilla Firefox
+
+3. Kebutuhan Pengguna
+
+Kebutuhan pengguna merupakan kebutuhan yang melibatkan pengguna atau
+
+orang yang akan menggunakan aplikasi. Kebutuhan pengguna disini merupakan
+
+spesifikasi  seorang  user  agar  pengguna  tersebut  mampu  menjalankan  aplikasi
+
+yang dibuat. Berikut merupakan kebutuhan pengguna dari aplikasi :
+
+Spesifikasi pengguna yang dapat menjalankan aplikasi adalah seseorang yang
+
+mampu mengoperasikan sistem operasi  Windows dan paham dengan penggunaan
+
+sistem operasi  tersebut.  Pernah melakukan  browsing melalui  web browser dan
+
+familiar  dengan  aktivitas  sign  up,  login,  logout,  download dan  upload  serta
+
+mampu melakukan manajemen data, yaitu input, edit dan hapus data.
+
+3.2.3. Pengumpulan Data
+
+Pengumpulan  data  dilakukan  untuk  memperoleh  informasi  mengenai
+
+analisis  sistem,  analisis  kelayakan,  dan  analisis  fungsional.  Pengumpulan  data
+
+dilakukan melalui wawancara dengan seorang guru SMA untuk mendapat  data
+
+materi-materi pembelajaran serta tentang kebutuhan perangkat yang akan dibuat.
+
+3.2.4. Perancangan Sistem
+
+Metode  perancangan  sistem  terdiri  dari  perancangan  alur  algoritma
+
+aplikasi /  flowchart,  perancangan arsitektur sistem, perancangan konseptual dari
+
+sistem yang dibangun, perancangan basis data dan perancangan antarmuka.
+
+
+
+6
+
+3.2.5. Perancangan Aplikasi
+
+Perancangan aplikasi  yang akan dibuat  dapat dilihat  pada Gambar 3.2
+
+berikut : 
+
+
+
+7
+
+Gambar 3.2 Diagram Alir Aplikasi 
+
+Keterangan :
+
+(1) Aplikasi akan dimulai dari halaman utama.
+
+(2) Admin, guru dan siswa akan melakukan login, jika guru dan siswa belum 
+
+memiliki akun maka mereka dapat melakukan registrasi akun.
+
+(3) Admin, guru dan siswa yang melakukan login akan masuk ke halamannya 
+
+masing-masing sesuai dengan hak akses.
+
+(4) Melakukan logout jika selesai menggunakan aplikasi.
+
+3.2.6. Arsitektur Sistem
+
+Perancangan  arsitektur  sistem  yang  akan  dibuat  dapat  dilihat  pada
+
+Gambar 3.3 berikut :
+
+Gambar 3.3. Arsitektur Sistem
+
+Arsitektur sistem pada Gambar 3.4 dijelaskan sebagai berikut :
+
+1. Siswa memasukkan data registrasi.  Data tersebut selanjutnya akan disimpan
+
+ke dalam database. Siswa kemudian dapat menggunakan fitur-fitur di aplikasi
+
+seperti melihat dan mengunduh materi pembelajaran
+
+2. Guru memasukkan data registrasi. Data tersebut selanjutnya akan disimpan ke
+
+dalam  database.  Guru  kemudian  dapat  menggunakan  fitur-fitur  di  aplikasi
+
+seperti mengunggah materi pembelajaran dan memberikan latihan soal.
+
+Admin Koneksi 
+Internet
+
+Koneksi 
+Internet
+
+Guru
+
+Databas
+e
+
+Aplikasi Bank Materi Pelajaran Untuk Jenjang SMA
+
+Koneksi 
+Internet Siswa
+
+
+
+8
+
+3. Admin mengelola  data-data yang telah masuk serta melakukan pengecekan
+
+aplikasi secara berkala.
+
+3.2.7. Perancangan Konseptual dari Sistem yang Dibangun
+
+3.2.7.1. Diagram Konteks
+
+Gambar Diagram Konteks  dari  Aplikasi  Bank Materi  Pelajaran  Untuk
+
+Jenjang SMA dapat dilihat pada Gambar 3.4. 
+
+Gambar 3.4. Diagram Konteks Sistem
+
+3.2.7.2. Diagram Overview
+
+Diagram Overview merupakan  gambaran  rinci  dari  proses  yang
+
+dilakukan  pada diagram  konteks.  Arus  data  dapat  dilihat  dengan  jelas  pada
+
+diagram tersebut. Proses-proses yang terjadi digambarkan pada Gambar 3.5.
+
+
+
+9
+
+
+
+10
+
+Penjelasan Diagram Overview sistem pada Gambar 3.5 sebagai berikut :
+
+1. Proses  1.0,.yaitu  proses  Login,  merupakan  proses  yang  dilakukan  oleh
+
+pengguna (Admin, Guru dan Siswa) untuk masuk kedalam aplikasi.
+
+2. Proses  2.0,  yaitu  proses  Manajemen  Data  Pembelajaran,  merupakan  proses
+
+manajemen data materi pembelajaran. File diunggah oleh guru atau admin ke
+
+dalam aplikasi yang nantinya akan di unduh oleh siswa.
+
+3. Proses  3.0,  yaitu  proses  Manajemen  Data  Latihan  Soal,  merupakan  proses
+
+pengunggahan file latihan soal oleh guru. File yang telah diunggah akan masuk
+
+ke dalam aplikasi dan nantinya akan diunduh oleh siswa.
+
+4. Proses 4.0, yaitu proses Manajemen Data, merupakan proses pengolahan data
+
+seperti input data, lihat data, edit data dan hapus data. Data akan diolah oleh
+
+admin, data-data tersebut berupa data admin, data guru, data pelajaran dan data
+
+siswa.
+
+3.2.7.3. Diagram Rinci
+
+3.2.7.3.1. Diagram Rinci Level 1
+
+Diagram rinci  menguraikan lebih lanjut  mengenai  proses dari  diagram
+
+overview,  yang  memperlihatkan  arus  data  masuk  dan  arus  data  keluar.
+
+Berdasarkan   Gambar  3.5,  maka  diagram  rinci  pada  Gambar  3.6  dijelaskan
+
+sebagai berikut :
+
+1. Proses 1.0, yaitu Proses Login, terbagi menjadi 5 proses rinci : 
+
+a. Proses 1.1 :
+
+Nama Proses : Registrasi
+
+Masukan : data siswa dan data guru
+
+Keluaran : informasi siswa dan informasi guru
+
+Keterangan  :  Guru  dan  Siswa  melakukan  registrasi  dengan
+
+memasukkan data-data yang diperlukan.
+
+b. Proses 1.2 :
+
+Nama Proses : Login
+
+Masukan : informasi siswa dan informasi guru
+
+Keluaran : validasi login siswa dan validasi login guru
+
+
+
+11
+
+Keterangan : Proses ini berfungsi mengecek cocok tidaknya data yang
+
+dimasukkan oleh pengguna melalui database.
+
+c. Proses 1.3 :
+
+Nama Proses : Akses halaman admin
+
+Masukan : validasi login admin
+
+Keluaran : login admin berhasil
+
+Keterangan :  Proses  ini  berfungsi  untuk  mengarahkan  admin  ke
+
+halaman admin jika admin berhasil melakukan login.
+
+d. Proses 1.4 :
+
+Nama Proses : Akses halaman guru
+
+Masukan : validasi login guru
+
+Keluaran : login guru berhasil
+
+Keterangan : Proses ini berfungsi untuk mengarahkan guru ke halaman
+
+guru jika guru berhasil melakukan login.
+
+e. Proses 1.5 :
+
+Nama Proses : Akses halaman siswa
+
+Masukan : validasi login siswa
+
+Keluaran : login siswa berhasil
+
+Keterangan : Proses ini berfungsi untuk mengarahkan siswa ke halaman
+
+siswa jika siswa berhasil melakukan login.
+
+
+
+12
+
+Gambar 3.6. Diagram Rinci 1.0
+
+
+
+13
+
+2. Proses  2.0,  yaitu  proses  Manajemen Data  Pembelajaran,  terbagi  menjadi  5
+
+proses rinci :
+
+a. Proses 2.1 :
+
+Nama Proses : Input data Pelajaran
+
+Masukan : data pelajaran
+
+Keluaran : informasi pelajaran
+
+Keterangan  : Dalam proses ini guru memasukkan data pelajaran sesuai
+
+format yang tersedia dan melampirkan file tentang pelajaran tersebut.
+
+b. Proses 2.2 :
+
+Nama Proses : Upload data Pelajaran
+
+Masukan : format data valid
+
+Keluaran : berhasil upload data
+
+Keterangan :  Proses  ini  berfungsi  untuk  mengunggah  data  materi
+
+pembelajaran kedalam database.
+
+c. Proses 2.3 :
+
+Nama Proses : Lihat data Materi Pembelajaran
+
+Masukan : data materi pembelajaran
+
+Keluaran : informasi materi pembelajaran
+
+Keterangan : Dalam proses ini siswa dapat nama materi pembelajaran
+
+sebelum melakukan download data materi pembelajaran.
+
+d. Proses 2.4 :
+
+Nama Proses : Download data Materi Pembelajaran
+
+Masukan : download data
+
+Keluaran : download data berhasil
+
+Keterangan : Proses ini berfungsi untuk melakukan pengambilan data
+
+setelah  mendapat  akses  data  dari  database,  data  akan  di  unduh  dan
+
+disimpan ke memori pengguna.
+
+
+
+14
+
+Gambar 3.7. Diagram Rinci 2.0
+
+3. Proses  3.0,  yaitu  proses  Manajemen  Data  Latihan  Soal,  terbagi  menjadi  5
+
+proses rinci :
+
+a. Proses 3.1 :
+
+Nama Proses : Input Latihan Soal
+
+Masukan : data latihan soal
+
+Keluaran : informasi latihan soal
+
+
+
+15
+
+Keterangan  :  Dalam  proses  ini  guru  memasukkan  data  latihan  soal
+
+sesuai  format  yang  tersedia  dan  melampirkan  file  tentang  latihan  soal
+
+tersebut.
+
+b. Proses 3.2 :
+
+Nama Proses : Validasi Format Latihan Soal
+
+Masukan : format data valid
+
+Keluaran : berhasil upload data
+
+Keterangan : Proses ini berfungsi untuk mengunggah data latihan soal
+
+kedalam database.
+
+c. Proses 3.3 :
+
+Nama Proses : Lihat data Latihan Soal
+
+Masukan : data latihan soal
+
+Keluaran : informasi latihan soal
+
+Keterangan : Dalam proses ini siswa dapat melihat nama dari latihan
+
+soal yang akan diunduh.
+
+d. Proses 3.4 :
+
+Nama Proses : Download data Latihan Soal
+
+Masukan : download data
+
+Keluaran : download data berhasil
+
+Keterangan : Proses ini berfungsi untuk melakukan pengambilan data
+
+setelah  mendapat  akses  data  dari  database,  data  akan  di  unduh  dan
+
+disimpan ke memori pengguna.
+
+
+
+16
+
+Gambar 3.8. Diagram Rinci 3.0
+
+4. Proses  4.0,  yaitu  proses  Manajemen  Data.  Dalam  proses  manajemen  data
+
+admin dapat  melakukan .  Proses manejemen data  terbagi menjadi  4 proses
+
+rinci :
+
+a. Proses 4.1 :
+
+Nama Proses : Manajemen Data Admin
+
+Masukan : data admin
+
+Keluaran : informasi admin
+
+
+
+17
+
+Keterangan  : Dalam proses ini admin dapat melakukan manajemen data
+
+seperti input data, lihat data, edit data dan hapus data..
+
+b. Proses 4.2 :
+
+Nama Proses : Manajemen Data Guru
+
+Masukan : data guru
+
+Keluaran : informasi guru
+
+Keterangan : Dalam proses ini admin dapat melakukan manajemen data
+
+seperti input data, lihat data, edit data dan hapus data.
+
+c. Proses 4.3 :
+
+Nama Proses : Manajemen Data Pelajaran
+
+Masukan : data pelajaran
+
+Keluaran : informasi pelajaran
+
+Keterangan : Dalam proses ini admin dapat melakukan manajemen data
+
+seperti input data, lihat data, edit data dan hapus data.
+
+d. Proses 4.4 :
+
+Nama Proses : Manajemen Data Siswa
+
+Masukan : data siswa
+
+Keluaran : informasi siswa
+
+Keterangan : Dalam proses ini admin dapat melakukan manajemen data
+
+seperti input data, lihat data, edit data dan hapus data.
+
+
+
+18
+
+Gambar 3.9. Diagram Rinci 4.0 Manajemen Data 
+
+3.2.7.3.2. Diagram Rinci Level 2
+1. Proses 4.1, yaitu proses Manajemen Data Admin. Dalam proses manajemen
+
+data admin, admin melakukan pengolahan data pada data admin, seperti input
+
+data,  lihat  data,  edit  data  dan  hapus  data.  Proses  manajemen  data  admin
+
+terbagi menjadi 4 proses rinci :
+
+a. Proses 4.1.1 :
+
+Nama Proses : Input data Admin
+
+Masukan : data admin
+
+Keluaran : informasi admin
+
+Keterangan  : Dalam proses ini admin memasukkan data admin sesuai
+
+dengan format yang telah disediakan.
+
+b. Proses 4.1.2 :
+
+Nama Proses : Lihat data Admin
+
+Masukan : data admin
+
+Keluaran : informasi admin
+
+
+
+19
+
+Keterangan : Proses ini  berfungsi melihat data-data admin yang telah
+
+tersedia di dalam database.
+
+c. Proses 4.1.3 :
+
+Nama Proses : Edit Data Admin
+
+Masukan : data admin
+
+Keluaran : informasi admin
+
+Keterangan : Dalam proses ini admin dapat melakukan perubahan pada
+
+data admin yang ada dalam database.
+
+d. Proses 4.1.4 :
+
+Nama Proses : Hapus Data Admin
+
+Masukan : data admin
+
+Keluaran : informasi admin
+
+Keterangan :  Dalam  proses  ini  admin  dapat  menghapus  data  admin
+
+yang tersedia dalam database .
+
+Gambar 3.10. Diagram Rinci 4.1 Manajemen Data Admin
+
+
+
+20
+
+2. Proses  4.2,  yaitu  proses  Manajemen Data  Guru.  Dalam proses  manajemen
+
+data guru, admin melakukan pengolahan data pada data  guru,  seperti  input
+
+data, lihat data, edit data dan hapus data. Proses manajemen data guru terbagi
+
+menjadi 4 proses rinci :
+
+a. Proses 4.2.1 :
+
+Nama Proses : Input data Guru
+
+Masukan : data guru
+
+Keluaran : informasi guru
+
+Keterangan  :  Dalam proses  ini  admin  memasukkan  data  guru  sesuai
+
+dengan format yang telah disediakan.
+
+b. Proses 4.2.2 :
+
+Nama Proses : Lihat data Guru
+
+Masukan : data guru
+
+Keluaran : informasi guru
+
+Keterangan :  Proses  ini  berfungsi  melihat  data-data  guru  yang  telah
+
+tersedia di dalam database.
+
+c. Proses 4.2.3 :
+
+Nama Proses : Edit data Guru
+
+Masukan : data guru
+
+Keluaran : informasi guru
+
+Keterangan : Dalam proses ini admin dapat melakukan perubahan pada
+
+data guru yang ada dalam database.
+
+d. Proses 4.2.4 :
+
+Nama Proses : Hapus data Guru
+
+Masukan : data guru
+
+Keluaran : informasi guru
+
+Keterangan : Dalam proses ini admin dapat menghapus data guru yang
+
+tersedia dalam database.
+
+
+
+21
+
+Gambar 3.11. Diagram Rinci 4.2 Manajemen Data Guru
+
+3. Proses 4.3, yaitu proses Manajemen Data Pelajaran. Dalam proses manajemen
+
+data pelajaran, admin melakukan pengolahan data pada data pelajaran, seperti
+
+input  data,  lihat  data,  edit  data  dan  hapus  data.  Proses  manajemen  data
+
+pelajaran terbagi menjadi 4 proses rinci :
+
+a. Proses 4.3.1 :
+
+Nama Proses : Input data Pelajaran
+
+Masukan : data pelajaran
+
+Keluaran : informasi pelajaran
+
+Keterangan  :  Dalam  proses  ini  admin  memasukkan  data  pelajaran
+
+sesuai dengan format yang telah disediakan.
+
+b. Proses 4.3.2 :
+
+Nama Proses : Lihat data Pelajaran
+
+Masukan : data pelajaran
+
+Keluaran : informasi pelajaran
+
+
+
+22
+
+Keterangan : Proses ini berfungsi melihat data-data pelajaran yang telah
+
+tersedia di dalam database.
+
+c. Proses 4.3.3 :
+
+Nama Proses : Edit data Pelajaran
+
+Masukan : data pelajaran
+
+Keluaran : informasi pelajaran
+
+Keterangan : Dalam proses ini admin dapat melakukan perubahan pada
+
+data pelajaran yang ada dalam database.
+
+d. Proses 4.3.4 :
+
+Nama Proses : Hapus data Pelajaran
+
+Masukan : data pelajaran
+
+Keluaran : informasi pelajaran
+
+Keterangan : Dalam proses ini admin dapat menghapus data pelajaran
+
+yang tersedia dalam database.
+
+Gambar 3.12. Diagram Rinci 4.3 Manajemen Data Pelajaran
+
+
+
+23
+
+4. Proses 4.4, yaitu proses Manajemen Data Siswa. Dalam proses manajemen
+
+data siswa, admin melakukan pengolahan data pada data siswa, seperti input
+
+data, lihat data, edit data dan hapus data. Proses manajemen data siswa terbagi
+
+menjadi 4 proses rinci :
+
+a. Proses 4.4.1 :
+
+Nama Proses : Input data Siswa
+
+Masukan : data siswa
+
+Keluaran : informasi siswa
+
+Keterangan  : Dalam proses ini  admin memasukkan data siswa sesuai
+
+dengan format yang telah disediakan.
+
+b. Proses 4.4.2 :
+
+Nama Proses : Lihat data Siswa
+
+Masukan : data siswa
+
+Keluaran : informasi siswa
+
+Keterangan :  Proses  ini  berfungsi  melihat  data-data  siswa yang telah
+
+tersedia di dalam database.
+
+c. Proses 4.4.3 :
+
+Nama Proses : Edit data Siswa
+
+Masukan : data siswa
+
+Keluaran : informasi siswa
+
+Keterangan : Dalam proses ini admin dapat melakukan perubahan pada
+
+data siswa yang ada dalam database.
+
+d. Proses 4.4.4 :
+
+Nama Proses : Hapus data Siswa
+
+Masukan : data siswa
+
+Keluaran : informasi siswa
+
+Keterangan : Dalam proses ini admin dapat menghapus data siswa yang
+
+tersedia dalam database.
+
+
+
+24
+
+Gambar 3.13. Diagram Rinci 4.4 Manajemen Data Siswa
+
+3.2.8. Perancangan Basis Data
+
+3.2.8.1. Perancangan Entity Relationship Diagram
+
+Perancangan  Entity  Relationship  Diagram merupakan  gambaran  rinci
+
+dari  perancangan  data-data  yang akan digunakan.  Perancangan data-data  dapat
+
+dilihat  dengan  jelas  pada  diagram  tersebut.  Perancangan  Entity  Relationship
+
+Diagram digambarkan pada Gambar 3.14.
+
+
+
+25
+
+
+
+26
+
+Penjelasan perancangan ERD pada Gambar 3.14 sebagai berikut :
+
+- Data pada entitas admin memiliki atribut yaitu id sebagai primary key,
+
+nama,  username,  password,   dan  foto.  Entitas  admin  memiliki
+
+hubungan many-to-many dengan entitas siswa, entitas admin memiliki
+
+hubungan many-to-many dengan entitas guru, entitas admin memiliki
+
+hubungan many-to-many dengan entitas materi pelajaran.
+
+- Data pada entitas siswa memiliki atribut id sebagai primary key, nama,
+
+username,  password,  tanggal  lahir,  jenis  kelamin,  email  dan  foto.
+
+Entitas  siswa  memiliki  hubungan  many-to-many  dengan  entitas
+
+admin, entitas siswa memiliki hubungan many-to-many dengan entitas
+
+materi  pelajaran,  entitas  siswa  memiliki  hubungan  many-to-many
+
+dengan entitas latihan soal, entitas siswa memiliki hubungan many-to-
+
+many dengan entitas review.
+
+- Data pada entitas guru memiliki atribut id sebagai primary key, nama,
+
+username,  password,  tanggal  lahir,  jenis  kelamin,  bidang  keahlian,
+
+email, nip, foto dan sertifikat. Entitas guru memiliki hubungan many-
+
+to-many dengan entitas admin, entitas guru memiliki hubungan many-
+
+to-many  dengan  entitas  materi  pelajaran,  entitas  guru  memiliki
+
+hubungan many-to-many dengan entitas latihan soal.
+
+- Data pada entitas materi pelajaran memiliki id sebagai  primary key,
+
+nama  kelas  sebagai  foreign  key,  nama  mapel  sebagai  foreign  key,
+
+nama  bab  sebagai  foreign  key,  nama  subbab  sebagai  foreign  key,
+
+tagging,  nama file,  deskripsi,  pengunggah,  review,  tanggal  unggah.
+
+Entitas  materi  pelajaran  memiliki  hubungan  many-to-many  dengan
+
+entitas admin, entitas  materi  pelajaran memiliki  hubungan  many-to-
+
+many dengan entitas guru, entitas pelajaran memiliki hubungan many-
+
+to-many dengan siswa, entitas pelajaran memiliki hubungan many-to-
+
+many  dengan  entitas  kelas  dengan  mengambil  nama  kelas  sebagai
+
+foreign  key,  entitas  pelajaran  memiliki  hubungan  many-to-many
+
+dengan entitas mapel dengan mengambil nama mapel sebagai foreign
+
+key,  entitas  pelajaran  memiliki  hubungan  many-to-many  dengan
+
+
+
+27
+
+entitas bab dengan mengambil nama bab sebagai  foreign key,  entitas
+
+pelajaran  memiliki  hubungan  many-to-many  dengan  entitas  subbab
+
+dengan mengambil nama subbab sebagai foreign key.
+
+- Data dari entitas latihan soal memiliki atribut id sebagai primary key,
+
+nama  latihan,  nama  pengunggah,  nama  file  dan  tanggal  unggah.
+
+Entitas latihan soal memiliki hubungan many-to-many dengan entitas
+
+guru,  entitas  latihan soal memiliki  hubungan  many-to-many  dengan
+
+entitas siswa.
+
+3.2.8.2. Spesifikasi Tabel Basis Data
+
+Semua  tabel  yang  ada  dalam  database sistem prediksi  besaran  curah
+
+hujan akan dijelaskan secara spesifik mulai dari nama field, type, keterangan dan
+
+fungsinya. Berikut tabel-tabel yang ada pada tabel prediksi besaran curah hujan.
+
+Nama Tabel : admin
+
+Keterangan : tabel data pribadi admin
+
+Tabel 3.1 Spesifikasi Tabel Data Admin
+
+Nama Field Tipe Fungsi
+
+id int(10) Menyimpan id sebagai primary key
+
+nama varchar(50) Menyimpan nama admin
+
+username varchar(30) Menyimpan username admin
+
+password varchar(30) Menyimpan password admin
+
+foto varchar(50) Menyimpan foto admin ke dalam folder baru
+
+Nama Tabel : guru
+
+Keterangan : tabel data pribadi guru
+
+Tabel 3.2 Spesifikasi Tabel Data Guru
+
+Nama Field Tipe Fungsi
+
+id int(10) Menyimpan id sebagai primary key
+
+nama varchar(50) Menyimpan nama guru
+
+username varchar(25) Menyimpan username guru
+
+
+
+28
+
+password varchar(25) Menyimpan password guru
+
+tanggal_lahir varchar(25)
+Menyimpan tanggal lahir guru berupa 
+
+tanggal, bulan dan tahun
+
+jenis_kelamin varchar(25) Menyimpan jenis kelamin guru
+
+asal_sekolah varchar(50) Menyimpan asal sekolah guru
+
+bidang varchar(50) Menyimpan bidang keahlian guru
+
+email varchar(50) Menyimpan email guru
+
+nip int Menyimpan NIP guru *jika ada
+
+foto varchar(50) Menyimpan foto guru ke dalam folder baru
+
+sertifikat varchar(50) Menyimpan sertifikat / ijazah mengajar guru
+
+verifikasi int(10) Menyimpan kode verifikasi guru
+
+Nama Tabel : siswa
+
+Keterangan : tabel data pribadi siswa
+
+Tabel 3.3 Spesifikasi Tabel Siswa
+
+Nama Field Tipe Fungsi
+
+id int(10) Menyimpan id siswa sebagai primary key
+
+nama varchar(50) Menyimpan nama siswa
+
+username varchar(25) Menyimpan username siswa
+
+password varchar(25) Menyimpan password siswa
+
+tanggal_lahir varchar(25) Menyimpan tanggal lahir siswa
+
+jenis_kelamin varchar(25) Menyimpan jenis kelamin siswa
+
+email varchar(50) Menyimpan email siswa
+
+foto varchar(50) Menyimpan foto siswa ke dalam folder baru
+
+Nama Tabel : mata_pelajaran
+
+Keterangan : tabel data daftar mata pelajaran
+
+
+
+29
+
+Tabel 3.4 Spesifikasi Tabel Daftar Mata Pelajaran
+
+Nama Field Tipe Fungsi
+
+id int(10)
+Menyimpan id mata pelajaran sebagi primary 
+
+key
+
+kelas varchar(25)
+Menyimpan kelas dalam mata pelajaran 
+
+(foreign key)
+
+mapel varchar(50)
+Menyimpan nama mata pelajaran (foreign 
+
+key)
+
+bab varchar(50)
+Menyimpan bab dalam mata pelajaran 
+
+(foreign key)
+
+subbab varchar(50)
+Menyimpan subbab dari bab dalam mata 
+
+pelajaran (foreign key)
+
+judul_materi varchar(50)
+Menyimpan judul materi pelajaran yang 
+
+diunggah
+
+deskripsi text
+Menyimpan nama deskripsi dari materi 
+
+pelajaran 
+
+pengunggah varchar(50)
+Menyimpan nama pengunggah materi 
+
+pelajaran
+
+tanggal date
+Menyimpan tanggal materi pembelajaran 
+
+diunggah
+
+Nama Tabel : kelompok_mapel
+
+Keterangan : tabel data nama kelompok mata pelajaran
+
+Tabel 3.5 Spesifikasi Tabel Kelompok Mata Pelajaran
+
+Nama Field Tipe Fungsi
+
+id_kel_mapel int(11)
+Menyimpan id kelompok mata pelajaran 
+
+sebagi primary key
+
+kel_mapel varchar(50)
+
+Menyimpan nama kelompok mata pelajaran 
+
+sebagai kategori dalam memilih mata 
+
+pelajaran
+
+
+
+30
+
+Nama Tabel : mapel
+
+Keterangan : tabel data nama mata pelajaran
+
+Tabel 3.6 Spesifikasi Tabel Nama Mata Pelajaran
+
+Nama Field Tipe Fungsi
+
+id_mapel int(11)
+Menyimpan id mata pelajaran sebagi primary 
+
+key
+
+nama_mapel varchar(50)
+Menyimpan nama mata pelajaran berdasarkan
+
+kelompok mata pelajaran
+
+id_kel_mapel int(11)
+
+Menyimpan id kelompok mata pelajaran 
+
+sebagai foreign key agar bisa mengambil data 
+
+dari kelompok pelajaran
+
+Nama Tabel : bab
+
+Keterangan : tabel data bab dalam mata pelajaran
+
+Tabel 3.7 Spesifikasi Tabel Bab dalam Mata Pelajaran
+
+Nama Field Tipe Fungsi
+
+id_bab int(11)
+Menyimpan id bab mata pelajaran sebagi 
+
+primary key
+
+nama_bab varchar(50)
+Menyimpan nama bab dari mata pelajaran 
+
+yang berkaitan
+
+id_mapel int(10)
+Menyimpan id mata pelajaran yang terkait  
+
+sebagai foreign key
+
+id_kelas int(10)
+Menyimpan id kelas yang terkait sebagai 
+
+foreign key
+
+Nama Tabel : subbab
+
+Keterangan : tabel data subbab dalam mata pelajaran
+
+Tabel 3.8 Spesifikasi Tabel Subbab dalam Mata Pelajaran
+
+Nama Field Tipe Fungsi
+
+
+
+31
+
+id_subbab int(11)
+Menyimpan id subbab dari mata pelajaran 
+
+sebagi primary key
+
+nama_subbab varchar(50)
+Menyimpan nama subbab dari bab yang 
+
+berkaitan
+
+id_bab int(10)
+Menyimpan id bab yang terkait  sebagai 
+
+foreign key
+
+Nama Tabel : latihan_soal
+
+Keterangan : tabel data latihan soal
+
+Tabel 3.9 Spesifikasi Tabel Latihan Soal
+
+Nama Field Tipe Fungsi
+
+id int(10)
+Menyimpan id latihan soal sebagi primary 
+
+key
+
+kelas varchar(25) Menyimpan kelas dalam latihan soal (foreign 
+
+key)
+
+mapel varchar(50)
+Menyimpan nama mata pelajaran (foreign 
+
+key)
+
+bab varchar(50)
+Menyimpan bab dalam mata pelajaran 
+
+(foreign key)
+
+subbab varchar(50)
+Menyimpan subbab dari bab dalam mata 
+
+pelajaran (foreign key)
+
+judul_latihan varchar(50) Menyimpan judul latihan soal yang diunggah
+
+deskripsi text Menyimpan nama deskripsi dari latihan soal
+
+pengunggah varchar(50) Menyimpan nama pengunggah latihan soal
+
+tanggal date
+Menyimpan tanggal latihan soal  yang 
+
+diunggah
+
+Nama Tabel : kelas
+
+Keterangan : tabel data nama kelas
+
+Tabel 3.10 Spesifikasi Tabel Kelas
+
+
+
+32
+
+Nama Field Tipe Fungsi
+
+id_kelas int(10) Menyimpan id kelas sebagai primary key
+
+kelas varchar(10) Menyimpan nama kelas
+
+Nama Tabel : hak_akses
+
+Keterangan : tabel data nama hak akses
+
+Tabel 3.11 Spesifikasi Tabel Hak Akses
+
+Nama Field Tipe Fungsi
+
+id_hak_akses int(10) Menyimpan id hak akses sebagai primary key
+
+nama_hak_akses varchar(10) Menyimpan nama hak akses
+
+Nama Tabel : pengguna
+
+Keterangan : tabel data pengguna
+
+Tabel 3.12 Spesifikasi Tabel Pengguna
+
+Nama Field Tipe Fungsi
+
+id_pengguna int(10) Menyimpan id hak akses sebagai primary key
+
+username varchar(25) Menyimpan username
+
+password varchar(25) Menyimpan password
+
+id_hak_akses int(10) Menyimpan id hak akses sebagi foreign key
+
+Nama Tabel : tab
+
+Keterangan : tabel data nama tab pada halaman utama
+
+Tabel 3.13 Spesifikasi Tabel Tab
+
+Nama Field Tipe Fungsi
+
+id_tab int(10) Menyimpan id hak tab sebagai primary key
+
+nama_tab varchar(20)
+Menyimpan nama hak tab yaitu nama mata 
+
+pelajaran
+
+Nama Tabel : verif_guru
+
+Keterangan : tabel data verifikasi guru
+
+Tabel 3.14 Spesifikasi Tabel Data Verifikasi Guru
+
+Nama Field Tipe Fungsi
+
+
+
+33
+
+id int(10) Menyimpan id sebagai primary key
+
+nama varchar(50) Menyimpan nama guru
+
+username varchar(25) Menyimpan username guru
+
+password varchar(25) Menyimpan password guru
+
+tanggal_lahir varchar(25)
+Menyimpan tanggal lahir guru berupa 
+
+tanggal, bulan dan tahun
+
+jenis_kelamin varchar(25) Menyimpan jenis kelamin guru
+
+asal_sekolah varchar(50) Menyimpan asal sekolah guru
+
+bidang varchar(50) Menyimpan bidang keahlian guru
+
+email varchar(50) Menyimpan email guru
+
+nip int Menyimpan NIP guru *jika ada
+
+foto varchar(50) Menyimpan foto guru ke dalam folder baru
+
+sertifikat varchar(50) Menyimpan sertifikat / ijazah mengajar guru
+
+Nama Tabel : log
+
+Keterangan : tabel data log data yang telah dihapus
+
+Tabel 3.15 Spesifikasi Tabel Log Hapus Data
+
+Nama Field Tipe Fungsi
+
+id_log int(10) Menyimpan id log sebagai primary key
+
+nama_data varchar(25) Menyimpan nama data yang telah dihapus
+
+oleh varchar(25)
+Menyimpan nama pengguna yang 
+
+menghapus
+
+nama_pengunggah varchar(25)
+Menyimpan nam pengunggah dari data 
+
+yang dihapus
+
+waktu_hapus DATE Menyimpan waktu data yang telah dihapus
+
+3.2.8.3. Hubungan Antar Tabel
+
+
+
+34
+
+Gambar 3.15. Hubungan Antar Tabel
+
+3.2.9. Perancangan Antarmuka
+
+Antarmuka   merupakan  media  interaksi  antar User dengan  sistem.
+
+Berikut perancangan layout  sistem yang akan dibangun.
+
+3.2.9.1. Perancangan Struktur Antarmuka Sistem
+
+
+
+35
+
+Antarmuka  aplikasi dirancang dalam bentuk  form-form yang memiliki
+
+fungsi tertentu sesuai dengan proses-proses yang ada. Struktur antarmuka aplikasi
+
+yang dirancang pada Gambar 3.16 berikut:
+
+Gambar 3.16. Struktur Antarmuka Sistem
+
+3.2.9.2. Layout Antarmuka Halaman Login
+
+Halaman  login  adalah  halaman  yang ditampilkan  saat  pengguna  akan
+
+masuk ke aplikasi menggunakan  username dan password yang telah terdaftar di
+
+dalam  aplikasi.  Pada  halaman  utama  terdapat  tombol  login  untuk  melakukan
+
+proses login, dan tombol daftar untuk melakukan proses  Sign Up. Perancangan
+
+tampilan halaman login dapat dilihat pada Gambar 3.17 berikut :
+
+
+
+36
+
+Gambar 3.17. Antarmuka Halaman Login
+
+Keterangan :
+
+- (1)  Header  yang  berfungsi  sebagai  nama  aplikasi  dan  background
+
+untuk memperindah tampilan.
+
+- (2)  Field  Username  yang akan diisi  oleh  pengguna dari  Username
+
+yang sudah terdaftar di aplikasi.
+
+- (3)  Field  Password  yang  akan  diisi  oleh  pengguna  dari  Password
+
+yang sudah terdaftar di aplikasi.
+
+- (4) Tombol login yang berfungsi untuk melakukan proses login dan
+
+mengarahkan pengguna ke halaman utama aplikasi.
+
+- (5)  Untuk  pengguna  baru  yang  belum  terdaftar  dalam  aplikasi,
+
+pengguna baru dapat melakukan proses Sign Up, yaitu registrasi data
+
+untuk menggunakan aplikasi.
+
+
+
+37
+
+Gambar 3.18. Antarmuka Halaman Sign Up
+
+Keterangan :
+
+- (1) Field Nama yang akan diisi oleh pengguna. Field yang diisi akan
+
+menjadi nama pengguna dalam aplikasi.
+
+- (2)  Field Username  yang akan diisi oleh pengguna .Field  yang diisi
+
+akan menjadi Username pengguna dalam aplikasi.
+
+- (3)  Field Password  yang akan diisi oleh pengguna.  Field  yang diisi
+
+akan menjadi Password pengguna dalam aplikasi.
+
+- (4)  Tanggal  lahir  yang  akan  diisi  oleh  pengguna.  Pengguna  akan
+
+memilih berdasarkan tanggal, bulan dan tahun.
+
+- (5) Jenis kelamin akan dipilih oleh pengguna. Pengguna memilih salah
+
+satu dari pilihan.
+
+- (6) Field Email yang akan diisi oleh pengguna. Field yang diisi akan
+
+menjadi Email pengguna dalam aplikasi.
+
+
+
+38
+
+- (7) Foto yang akan diunggah oleh pengguna, foto ini akan menjadi
+
+gambar profil pengguna dalam aplikasi
+
+- (8)  Tombol  Sign  Up  berfungsi  melakukan  proses  Sign  Up  yaitu
+
+meregistrasi  data  yang  dimasukkan  oleh  pengguna  agar  pengguna
+
+dapat masuk ke dalam aplikasi.
+
+3.2.9.3. Layout Antarmuka Halaman Utama
+
+Halaman utama adalah halaman yang ditampilkan paling pertama setelah
+
+user membuka serta melakukan proses login dalam aplikasi. Pada halaman utama
+
+terdapat  beberapa  tombol  yang  memiliki  fungsinya  masing-masing,  di  bagian
+
+kanan atas halaman terdapat menu bar, menu-menu ini berada di bagian  Header
+
+yang  berfungsi  untuk  menunjukkan  nama  aplikasi.  Pada  bagian  kiri  halaman
+
+terdapat  sidebar  sebagai  navigasi  bagian  pembelajaran.  Di  tengah  halaman
+
+terdapat konten, yaitu materi-materi pelajaran yang telah diunggah. Perancangan
+
+tampilan halaman utama dapat dilihat pada Gambar 3.19 berikut :
+
+
+
+39
+
+Gambar 3.19. Antarmuka Halaman Utama
+
+Keterangan :
+
+- (1) Tombol untuk mengarahkan dari halaman sebelumnya ke halaman
+
+Home.
+
+- (2) Tombol untuk mengarahkan dari halaman sebelumnya ke halaman
+
+Tentang.
+
+- (3) Tombol untuk mengarahkan dari halaman sebelumnya ke halaman
+
+Login. Pada halaman login, pengguna dapat melakukan proses login
+
+dan proses Sign Up.
+
+- (4)  Bagian  sidebar  pada  halaman  sebagai  navigasi  bagian
+
+pembelajaran
+
+- (5)  Tombol  kategori  pembelajaran  dan  nama  pelajaran  untuk
+
+mengarahkan pengguna ke halaman materi pelajaran yang dipilih.
+
+- (6)  Bagian  materi  pelajaran  yang  telah  diunggah  lengkap  dengan
+
+identitas seperti kelas, nama pelajaran, bab dan subbab. Jika bagian ini
+
+ditekan, akan diarahkan ke halaman yang bersangkutan.
+
+
+
+40
+
+Gambar 3.20. Antarmuka Halaman Tentang
+
+Keterangan :
+
+- (1) Tombol untuk mengarahkan dari halaman sebelumnya ke halaman
+
+Home.
+
+- (2) Tombol untuk mengarahkan dari halaman sebelumnya ke halaman
+
+Tentang.
+
+- (3) Tombol untuk mengarahkan dari halaman sebelumnya ke halaman
+
+Login. Pada halaman login, pengguna dapat melakukan proses login
+
+dan proses Sign Up.
+
+- (4)  Bagian  sidebar  pada  halaman  sebagai  navigasi  bagian
+
+pembelajaran
+
+- (5)  Tombol  kategori  pembelajaran  dan  nama  pelajaran  untuk
+
+mengarahkan pengguna ke halaman materi pelajaran yang dipilih.
+
+- (6) Bagian konten, yaitu berisi tentang penjelasan aplikasi.
+
+
+
+41
+
+3.2.9.4.  Layout Antarmuka Halaman Pelajaran
+
+Halaman Pelajaran adalah halaman yang ditampilkan saat memilih nama
+
+pelajaran. Pada halaman pelajaran terdapat beberapa panel yang terdiri dari kelas
+
+X, kelas XI dan kelas XII, di bagian atas halaman terdapat keterangan pelajaran
+
+yang telah dipilih pengguna. Pada bagian kiri halaman terdapat sidebar sebagai
+
+navigasi bagian pembelajaran. Di tengah halaman terdapat konten, yaitu bab dan
+
+subbab  dari  materi  pelajaran  yang  terkait.  Perancangan  tampilan  halaman
+
+pelajaran dapat dilihat pada Gambar 3.21 berikut :
+
+Gambar 3.21. Antarmuka Halaman Pelajaran
+
+Keterangan :
+
+- (1)  Keterangan  yang  berisikan  kelompok  mata  pelajaran  dan  mata
+
+pelajaran yang telah dipilih pengguna.
+
+
+
+42
+
+- (2)  Panel  untuk  memilih  kelas  dari  mata  pelajaran  yang  dipilih
+
+sebelumnya.
+
+- (3) Deskripsi tentang halaman dan mata pelajaran yang berkaitan.
+
+- (4)  Tombol  bab,  untuk  memilih  bagian  bab  yang  diinginkan.  Jika
+
+ditekan akan pindah ke halaman Bab.
+
+- (5) Bagian Subbab, dari satu bab terdapat banyak subbab yang terkait
+
+dalam suatu pelajaran. Jika salah satu subbab ditekan, akan pindah ke
+
+halaman subbab yang berkaitan.
+
+Gambar 3.22. Antarmuka Halaman Bab
+
+Keterangan :
+
+(1)  Keterangan  yang  berisikan  kelompok  mata  pelajaran,  mata
+
+pelajaran dan kelas yang telah dipilih pengguna.
+
+
+
+43
+
+- (2)  Keterangan  nama  bab  yang  telah  dipilih  oleh  pengguna
+
+sebelumnya.
+
+- (3) Nama subbab dari bab yang berkaitan. Jika dipilih akan pindah ke
+
+halaman subbab yang terkait.
+
+Gambar 3.23. Antarmuka Halaman Subbab
+
+Keterangan :
+
+- (1)  Keterangan  yang  berisikan  kelompok  mata  pelajaran,  mata
+
+pelajaran, kelas dan bab yang telah dipilih pengguna.
+
+- (2) Nama subbab yang telah dipilih oleh pengguna sebelumnya.
+
+- (3) Icon file sesuai tipe file yang akan diunduh.
+
+- (4) Tombol download, pengguna dapat mengunduh materi pelajaran.
+
+- (5)  Bagian  deskripsi  yang  menjelaskan  secara  singkat  apa  isi  dari
+
+materi dalam halaman.
+
+
+
+44
+
+Gambar 3.24. Antarmuka Halaman Latihan Soal
+
+Keterangan :
+
+- (1)  Keterangan  yang  berisikan  kelompok  mata  pelajaran,  mata
+
+pelajaran dan kelas yang telah dipilih pengguna.
+
+- (2) Nama latihan soal yang telah dipilih oleh pengguna.
+
+- (3) Icon file sesuai tipe file yang akan diunduh.
+
+- (4) Tombol download, pengguna dapat mengunduh latihan soal.
+
+- (5) Bagian deskripsi yang menjelaskan secara singkat tentang latihan
+
+soal pada halaman.
+
+
+
+45
+
+3.2.9.5. Layout Antarmuka Halaman Admin
+
+Halaman  Admin  adalah  halaman  yang  ditampilkan  saat  pengguna
+
+dengan  hak  akses  admin  melakukan  login.  Dalam  halaman  ini,  admin  dapat
+
+melakukan input data, edit data dan hapus data. Data-data tersebut terdiri dari data
+
+admin,  data  pembelajaran,  data  guru  dan  data  siswa.  Perancangan  tampilan
+
+halaman admin dapat dilihat pada Gambar 3.25 berikut :
+
+Gambar 3.25. Antarmuka Halaman Admin
+
+Keterangan :
+
+- (1) Daerah admin panel dimana admin dapat melakukan pengolahan
+
+data.
+
+- (2) Foto dari admin yang telah melakukan login.
+
+- (3)  Tombol  untuk  mengarahkan  halaman  dari  halaman  admin  ke
+
+halaman website.
+
+- (4) Menu admin, dimana admin dapat memilih untuk melakukan aksi
+
+seperti : lihat data admin , input data admin, edit data admin dan hapus
+
+data admin.
+
+- (5)  Menu  pembelajaran,  dimana  admin  dapat  memilih  untuk
+
+melakukan  aksi  seperti  :  lihat  data  pembelajaran  ,  input  data
+
+pembelajaran, edit data pembelajaran dan hapus data pembelajaran.
+
+
+
+46
+
+- (6) Menu guru, dimana admin dapat memilih untuk melakukan aksi
+
+seperti : lihat data guru , input data guru, edit data guru dan hapus data
+
+guru.
+
+- (7) Menu siswa, dimana admin dapat memilih untuk melakukan aksi
+
+seperti : lihat data siswa , input data siswa, edit data siswa dan hapus
+
+data siswa.
+
+- (8) Admin dapat melakukan logout untuk keluar dari aplikasi.
+
+- (9) Menunjukkan selamat datang pada admin yang telah login
+
+- (10) Menunjukkan foto admin yang sedang login.
+
+- (11) Menunjukkan nama admin yang sedang login.
+
+- (12) Menunjukkan username admin yang sedang login
+
+Gambar 3.26. Antarmuka Halaman Input / Edit Admin
+
+Keterangan :
+
+- (1) Form untuk melakukan input / edit data admin.
+
+- (2) Nama dari admin yang akan dimasukkan.
+
+- (3) Username dari admin yang akan dimasukkan.
+
+- (4) Password dari admin yang akan dimasukkan.
+
+- (5)  Tanggal  lahir  yang  dipilih  berdasarkan  menu  dropdown dari
+
+tanggal, bulan dan tahun.
+
+
+
+47
+
+- (6) Jenis kelamin dari admin yang akan dipilih.
+
+- (7) Email dari admin yang akan dimasukkan.
+
+- (8) Foto dari admin yang akan dimasukkan berupa unggah file.
+
+- (9)  Tombol  simpan  untuk  menjalankan  proses  simpan  data  admin
+
+yang telah diregistrasi.
+
+Gambar 3.27. Antarmuka Halaman Daftar Admin
+
+Keterangan :
+
+- (1) Form daftar admin.
+
+- (2) Daftar admin yang ada dalam bentuk tabel.
+
+- (3) Identitas dari admin berupa nama, username, password dan email .
+
+- (4)  Aksi  yang  dapat  dilakukan  berupa  edit  data,  jika  ditekan  akan
+
+pindah ke halaman edit data admin.
+
+- (5) Aksi yang dapat dilakukan berupa hapus data, jika ditekan akan
+
+muncul  peringatan  apakah  yakin  akan  menghapus  data,  data  akan
+
+terhapus  jika  admin  yakin  dan  menjawab  ya  pada  peringatan
+
+sebelumnya.
+
+
+
+48
+
+Gambar 3.28. Antarmuka Halaman Input / Edit Guru
+
+Keterangan :
+
+- (1) Form untuk melakukan input / edit data guru
+
+- (2) Nama dari guru yang akan dimasukkan.
+
+- (3) Username dari guru yang akan dimasukkan.
+
+- (4) Password dari guru yang akan dimasukkan.
+
+- (5)  Tanggal  lahir  yang  dipilih  berdasarkan  menu  dropdown dari
+
+tanggal, bulan dan tahun.
+
+- (6) Jenis kelamin dari guru yang akan dipilih.
+
+- (7) Bidang keahlian yang dikuasai oleh guru yang akan dimasukkan.
+
+- (8). Email dari guru yang akan dimasukkan.
+
+- (9)   NIP  dari  guru  yang  akan  dimasukkan.  *kosongkan  jika  guru
+
+belum memiliki NIP.
+
+- (10) Foto dari guru yang akan dimasukkan berupa unggah file.
+
+- (11) Tombol simpan untuk menjalankan proses simpan data guru yang
+
+telah diregistrasi.
+
+
+
+49
+
+Gambar 3.29. Antarmuka Halaman Daftar Guru
+
+Keterangan :
+
+- (1) Form daftar guru.
+
+- (2) Daftar guru yang ada dalam bentuk tabel.
+
+- (3) Identitas dari guru berupa nama, username, password dan email .
+
+- (4)  Aksi  yang  dapat  dilakukan  berupa  edit  data,  jika  ditekan  akan
+
+pindah ke halaman edit data guru.
+
+- (5) Aksi yang dapat dilakukan berupa hapus data, jika ditekan akan
+
+muncul  peringatan  apakah  yakin  akan  menghapus  data,  data  akan
+
+terhapus  jika  admin  yakin  dan  menjawab  ya  pada  peringatan
+
+sebelumnya.
+
+
+
+50
+
+Gambar 3.30. Antarmuka Halaman Input / Edit Pelajaran
+
+Keterangan :
+
+- (1) Form untuk melakukan input / edit data pelajaran.
+
+- (2) Kelas yang akan dimasukkan, berupa menu dropdown.
+
+- (3) Kelompok mata  pelajaran yang akan dimasukkan,  berupa menu
+
+dropdown.
+
+- (4) Mata pelajaran yang akan dimasukkan, berupa menu dropdown.
+
+- (5) Bab yang akan dimasukkan, berupa menu dropdown.
+
+- (6) Subbab yang akan dimasukkan, berupa menu dropdown.
+
+- (7) Judul dari pelajaran yang akan dimasukkan.
+
+- (8). File yang akan diunggah.
+
+- (9)  Deskripsi singkat dari pelajaran yang akan diunggah.
+
+- (10) Tombol simpan untuk melakukan proses unggah data.
+
+
+
+51
+
+Gambar 3.31. Antarmuka Halaman Daftar Pelajaran
+
+Keterangan :
+
+- (1) Form daftar pelajaran.
+
+- (2) Daftar pelajaran yang ada dalam bentuk tabel.
+
+- (3)  Identitas  dari  pelajaran  berupa kelas,  kelompok mata  pelajaran,
+
+mata  pelajaran,  bab,  subbab,  judul  dan  nama  pengunggah  materi
+
+pembelajaran.
+
+- (4)  Aksi  yang  dapat  dilakukan  berupa  edit  data,  jika  ditekan  akan
+
+pindah ke halaman edit data pelajaran.
+
+- (5) Aksi yang dapat dilakukan berupa hapus data, jika ditekan akan
+
+muncul  peringatan  apakah  yakin  akan  menghapus  data,  data  akan
+
+terhapus  jika  admin  yakin  dan  menjawab  ya  pada  peringatan
+
+sebelumnya.
+
+
+
+52
+
+Gambar 3.32. Antarmuka Halaman Input / Edit Siswa
+
+Keterangan :
+
+- (1) Form untuk melakukan input / edit data siswa.
+
+- (2) Nama dari siswa yang akan dimasukkan.
+
+- (3) Username dari siswa yang akan dimasukkan.
+
+- (4) Password dari siswa yang akan dimasukkan.
+
+- (5)  Tanggal  lahir  yang  dipilih  berdasarkan  menu  dropdown dari
+
+tanggal, bulan dan tahun.
+
+- (6) Jenis kelamin dari siswa yang akan dipilih.
+
+- (7) Email dari siswa yang akan dimasukkan.
+
+- (8) Foto dari siswa yang akan dimasukkan berupa unggah file.
+
+- (9) Tombol simpan untuk menjalankan proses simpan data siswa yang
+
+telah diregistrasi.
+
+
+
+53
+
+Gambar 3.33. Antarmuka Halaman Daftar Siswa
+
+Keterangan :
+
+- (1) Form daftar siswa.
+
+- (2) Daftar siswa yang ada dalam bentuk tabel.
+
+- (3) Identitas dari siswa berupa nama, username, password dan email .
+
+- (4)  Aksi  yang  dapat  dilakukan  berupa  edit  data,  jika  ditekan  akan
+
+pindah ke halaman edit data siswa.
+
+- (5) Aksi yang dapat dilakukan berupa hapus data, jika ditekan akan
+
+muncul  peringatan  apakah  yakin  akan  menghapus  data,  data  akan
+
+terhapus  jika  admin  yakin  dan  menjawab  ya  pada  peringatan
+
+sebelumnya.
+
+3.2.10. Analisis Hasil Pengujian
+
+Analisis dilakukan dalam tahap pengujian dan validasi untuk mengetahui
+
+karakteristik sistem dan mengidentifikasi jika terdapat ketidakkonsistenan sistem.
+
+Hasil analisis juga digunakan sebagai dasar perbaikan.
+
+
+
+54
+
+3.2.10.1 Pengujian Blackbox
+
+Pengujian Black-Box adalah pengujian yang bertujuan untuk memeriksa
+
+fungsionalitas jalannya program yang telah dibuat. Dalam pengujian ini, data-data
+
+akan  diperiksa,  apakah  data-data  tersebut  berjalan  sesuai  fungsi  nya  masing-
+
+masing dan tidak terjadi kesalahan saat dijalankan. Data dari pengujian akan diuji
+
+berdasarkan  spesifikasi  masalah  tanpa  memperhatikan  detail  internal  dari
+
+program. Hasil dari pengujian Black-Box dapat dilihat pada tabel 3.12 berikut.
+
+Tabel 3.16 Tabel Pengujian Black-Box
+
+No Test Case Masukan
+
+(Input)
+
+Hasil yang
+
+Diharapkan
+
+Hasil
+
+Pengujian
+
+Keterangan
+
+Keterangan :
+
+1. Test Case
+
+Test Case merupakan suatu aktivitas / skenario yang akan dilakukan terhadap 
+
+aplikasi. Contoh : Pengujian fungsi aktivitas sign up.
+
+2. Masukan (Input)
+
+Masukan (Input) merupakan nama dari masukan data yang akan dilakukan, 
+
+kemudian nantinya akan memiliki keluaran / hasil. Contoh : Menekan tombol 
+
+sign up.
+
+3. Hasil yang Diharapkan
+
+Hasil yang diharapkan adalah hasil keluaran dari masukan yang telah 
+
+dilakukan sebelumya, hasil pada bagian ini merupakan hasil yang valid / hasil 
+
+yang sesuai dengan masukkan yang telah dilakukan. Contoh : Data registrasi 
+
+tersimpan setelah proses sign up dilakukan.
+
+4. Hasil Pengujian
+
+Hasil pengujian adalah hasil keluaran dari masukan yang telah dimasukkan 
+
+sebelumnya, tetapi hasil pada bagian ini merupakan hasil yang sesuai dengan 
+
+hasil keluaran saat pengujian dilakukan. Contoh : Terjadi error saat melakukan
+
+sign up.
+
+
+
+55
+
+5. Keterangan
+
+Keterangan merupakan hasil valid tidaknya data saat dilakukannya pengujian. 
+
+Jika hasil yang diharapkan sama dengan hasil pengujian, maka hasil data dari 
+
+pengujian bersifat valid.
+
+3.2.10.2 Usability Testing
+
+Dalam  Usability  Testing akan  dilakukan  pengujian  terhadap  calon
+
+pengguna dengan cara mengamati respon pengguna dalam menggunakan aplikasi.
+
+Pengguna akan mengerjakan  beberapa  task  yang telah  disiapkan  oleh  penguji,
+
+kemudian  penguji  akan  mengamati  respon  dan  merekam data-data  yang  telah
+
+dilakukan pengguna dengan menggunakan kuesioner. Berikut merupakan tahapan
+
+perancangan dari Usability Testing :
+
+1. Pemilihan Responden
+
+Responden  pengujian  yang  terlibat  adalah  siswa  dan  guru  SMA Negeri  2
+
+Pontianak.
+
+2. Lokasi Pengujian
+
+Lokasi  pengujian  berada  di  salah  satu  ruangan  di  dalam  SMA  Negeri  2
+
+Pontianak  yang  memiliki  kapasitas  untuk  menampung  lebih  dari  10
+
+responden.
+
+3. Alat Pengujian
+
+Alat  pengujian  yang  disiapkan  adalah  laptop  dengan  spesifikasi  minimal
+
+processor Intel Core i3 dan dengan memori 2GB.
+
+4. Material Pengujian
+
+Material  pengujian  terdiri  dari  skenario  task  yang  akan  dilakukan  oleh
+
+responden, tabel kuesioner aspek  Usability,  dan tabel hasil pengolahan data
+
+kuesioner Usability
+
+5. Pelaksanaan Pengujian
+
+Pelaksanaan  pengujian  dilakukan  dengan  memberikan  kesempatan  kepada
+
+responden pengujian untuk menggunakan aplikasi sesuai dengan skenario task
+
+yang telah dipersiapkan. Setelah selesai melakukan skenario  task, responden
+
+pengujian akan diberikan kuesioner tentang aspek  Usability. Hasil dari data
+
+
+
+56
+
+kuesioner  Usability  yang  telah  diisi  oleh  responden  pengujian  akan
+
+dikumpulkan  dan  akan  dilakukan  pengolahan  untuk  mendapatkan  hasil
+
+pengujian dan kesimpulan dari Usability Testing.
+
+Berikut merupakan material-material pengujian :
+
+Tabel 3.17 Tabel Task Siswa
+
+No Task / Tugas
+
+1. Melakukan Sign Up
+
+2. Melakukan Login
+
+3. Melihat mata pelajaran Fisika Kelas X
+
+4. Melakukan  download  materi  kelas  X  Mata  Pelajaran  Fisika  Bab
+
+Pengukuran Subbab Besaran dan Satuan
+
+5. Melakukan Logout
+
+Keterangan :
+
+1. Task / Tugas
+
+Task / Tugas merupakan nama tugas yang akan dikerjakan oleh pengguna
+
+saat pengujian dilakukan. 
+
+Tabel 3.18 Tabel Task Guru
+
+No Task / Tugas
+
+1. Melakukan Sign Up
+
+2. Melakukan Login
+
+3. Mengunggah satu materi pelajaran
+
+4. Melihat daftar materi pelajaran 
+
+5. Mengedit data materi pelajaran yang 
+
+6. Menghapus materi pelajaran yang 
+
+7. Melakukan Logout
+
+Keterangan :
+
+1. Task / Tugas
+
+Task / Tugas merupakan nama tugas yang akan dikerjakan oleh pengguna
+
+saat pengujian dilakukan. 
+
+
+
+57
+
+Tabel 3.19 Tabel Kuesioner Aspek Usability
+
+No. Pertanyaan Jawaban Responden
+
+Ya Tidak
+
+Learnability
+
+1.
+
+2.
+
+3.
+
+Efficiency
+
+1.
+
+2.
+
+3.
+
+Memorability
+
+1.
+
+2.
+
+3.
+
+Error
+
+1.
+
+2.
+
+3.
+
+Satisfaction
+
+1.
+
+2.
+
+3.
+
+
+
+58
+
+Keterangan
+
+1. Pertanyaan
+
+Pertanyaan  merupakan  pertanyaan  yang  diajukan  dan  akan  dijawab  oleh
+
+partisipan  pengujian.  Pertanyaan  terbagi  menjadi  beberapa  kategori
+
+berdasarkan aspek Usability.
+
+2. Jawaban Responden
+
+Jawaban Responden merupakan jawaban yang akan diberikan oleh partisipan
+
+pengujian dalam menjawab pertanyaan yang telah disediakan. Jawaban yang
+
+tersedia adalah jawaban ”Ya” dan ”Tidak”. Jawaban ”Ya” mengandung nilai 1
+
+pada  bagian  Learnability,  Efficiency,  Memoriability  dan  Satisfaction.
+
+Sedangkan pada bagian  Error,  jawaban ”Tidak” mengandung nilai 1. Nilai-
+
+nilai ini akan digunakan pada bagian pengolahan perhitungan data Usability.
+
+Berikut  merupakan  tabel  kuantitatif  untuk  hasil  perhitungan  terhadap
+kuesioner pada Usability Testing
+
+Tabel 3.20 Tabel Kuantitatif Perhitungan Kuesioner Usability Testing
+
+Skor Kualifikasi Hasil
+
+85-100% SB (Sangat Baik) Berhasil
+
+65-84% B (Baik) Berhasil
+
+55-64% C (Cukup) Tidak Berhasil
+
+0-54% SK (Sangat Kurang) Tidak Berhasil
+
+Keterangan :
+
+1. Skor
+
+Skor  merupakan  nilai  persentase  dan  sebagai  tolak  ukur  keberhasilan  dari
+
+pengujian yang dilakukan. 
+
+2. Kualifikasi
+
+Kualifikasi  merupakan  nilai  komparasi  berdasarkan  skor.  Kualifikasi
+
+menjelaskan hasil dari skor yang berupa persentase menjadi suatu nilai yang
+
+dapat dikategorikan.
+
+
+
+59
+
+3. Hasil
+
+Hasil  merupakan  kategori  yang  menjadi  tolak  ukur  berdasarkan  skor  yang
+
+telah didapat. Menunjukkan berhasil tidaknya pengujian yang dilakukan.
+
+Tabel 3.21 Tabel Hasil Pengolahan Data Kuesioner Usability
+
+No. Pertanyaan Skor Kualifikasi Hasil
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+Keterangan :
+
+1. Pertanyaan
+
+Pertanyaan merupakan pertanyaan yang diajukan dalam pengujian.
+
+2. Skor
+
+Skor  merupakan  hasil  perhitungan  yang  dilakukan  yang  didapat  setelah
+
+melakukan  pengujian  dengan  kuesioner  terhadap  responden  pengujian.
+
+Perhitungan skor didapat dengan cara mengambil jawaban-jawaban responden
+
+yang  mengandung  nilai  1  dari  kuesioner  aspek  Usability.  Lalu  membagi
+
+jumlah skor dengan jumlah responden dan mengalikan nya dengan 100%.
+
+4. Kualifikasi
+
+Kualifikasi  merupakan  nilai  komparasi  berdasarkan  skor.  Kualifikasi
+
+menjelaskan hasil dari skor yang berupa persentase menjadi suatu nilai yang
+
+dapat dikategorikan.
+
+5. Hasil
+
+Hasil  merupakan  kategori  yang  menjadi  tolak  ukur  berdasarkan  skor  yang
+
+telah didapat. Menunjukkan berhasil tidaknya pengujian yang dilakukan.
+
+
+
+60
+
+3.2.11. Penarikan Kesimpulan
+
+Kesimpulan  dirumuskan  berdasarkan  pengujian  yang  telah  dilakukan
+
+apakah aplikasi yang dirancang mampu meningkatkan daya serap, memudahkan
+
+pembelajaran serta minat belajar siswa dibanding melalui pembelajaran langsung
+
+di kelas ataupun melalui buku.
+
+
+
+83
+
+BAB IV
+
+HASIL DAN PEMBAHASAN
+
+4.1. Hasil Perancangan dan Implementasi Program
+
+Aplikasi  yang  dirancang  merupakan  sebuah  aplikasi  yang  dapat
+
+mempermudah  siswa  dalam  mendapatkan  materi-materi  pembelajaran  dengan
+
+membuat  materi-materi  pembelajaran  tersebut  berada  di  satu  tempat  yang
+
+terpusat, sehingga mudah dan cepat untuk diakses. Aplikasi terdiri dari beberapa
+
+bagian, yang dibagi berdasarkan tiga hak akses, yaitu Admin, Guru dan Siswa.
+
+Halaman Utama yang menampilkan konten dan menu utama dari aplikasi, yaitu
+
+akses pembelajaran dan latihan, Halaman Admin, dimana admin dapat mengelola
+
+seluruh data  yang ada  di  dalam aplikasi.  Halaman Guru,  halaman untuk guru
+
+melakukan  pengunggahan  data  materi  pembelajaran.  Halaman  Siswa,  untuk
+
+melihat dan mengubah data pribadi siswa. Halaman Pembelajaran, yaitu halaman
+
+untuk  memilih  mata  pelajaran  yang  akan  diunduh.  Halaman  Latihan,  yaitu
+
+halaman untuk memilih latihan soal yang akan diunduh. 
+
+4.1.1. Halaman Utama Aplikasi
+
+Halaman  Utama  berfungsi  untuk  menampilkan  pilihan  menu  pada
+
+aplikasi  untuk  mengakses  Halaman  Pembelajaran,  Halaman  Latihan,  Halaman
+
+Tentang,  serta  Halaman Login.  Antarmuka Halaman Utama dapat  dilihat  pada
+
+Gambar 4.1.
+
+
+
+84
+
+Gambar 4.1. Antarmuka Halaman Utama
+
+4.1.2. Form Halaman Login dan Sign Up
+
+Halaman Login mengharuskan pengguna memiliki akun untuk masuk ke
+
+dalam  aplikasi.  Jika  pengguna  belum  memiliki  akun,  maka  pengguna  dapat
+
+melakukan  Sign  Up  dengan  memilih  menu  ”Belum  memiliki  akun  ?  Daftar
+
+sekarang !”.  Lalu  pengguna akan memilih  akses  sesuai  kebutuhan.  Antarmuka
+
+Halaman Login dapat dilihat dalam Gambar 4.2 dan Gambar 4.3.
+
+
+
+85
+
+Gambar 4.2. Antarmuka Halaman Login
+
+Gambar 4.3. Antarmuka Halaman Login Pilih Akses Sign Up
+
+4.1.2.1. Form Halaman Sign Up Guru
+
+Halaman Sign Up Guru, guru akan mengisi beberapa data pribadi seperti
+
+nama,  username,  password,  tanggal  lahir  dan  jenis  kelamin.  Guru  diharuskan
+
+memilih  Bidang  Keahlian  sesuai  dengan  mata  pelajaran  yang  dikuasai.  Email
+
+yang  telah  diisi  nantinya  akan  diberikan  konfirmasi  bahwa  data-data  yang
+
+dimasukkan telah diverfikasi oleh admin dan akan menerima akses untuk login.
+
+NIP bersifat optional, hanya diisi jika guru memiliki NIP. Foto digunakan sebagai
+
+identitas  profil  guru,  Sertifikat  atau sertifikat  profesi  diperlukan untuk validasi
+
+bahwa guru yang mendaftar layak untuk memberikan materi pembelajaran.
+
+
+
+86
+
+Gambar 4.4. Antarmuka Halaman Sign Up Guru
+
+4.1.2.2. Form Halaman Sign Up Siswa
+
+Halaman  Sign  Up  Siswa,  siswa  akan  mengisi  beberapa  data  pribadi
+
+seperti nama, username, password, tanggal lahir dan jenis kelamin dan email. Foto
+
+digunakan sebagai identitas profil siswa.
+
+
+
+87
+
+Gambar 4.5. Antarmuka Halaman Sign Up Siswa
+
+4.1.3. Form Admin
+
+Form  Halaman  Admin  berfungsi  untuk  menampilkan  form  untuk
+
+mengelola data-data yang berkaitan dengan pengguna dan konten dari aplikasi.
+
+Antarmuka Form Halaman Admin dibagi menjadi beberapa bagian berdasarkan
+
+menu.
+
+4.1.3.1 Menu Dashboard
+
+Halaman Dashboard merupakan halaman awal setelah admin melakukan
+
+proses login. Halaman ini berisi tentang jumlah guru, siswa dan mata pelajaran
+
+yang terdaftar di dalam aplikasi, serta menampilkan jumlah mata pelajaran yang
+
+paling sering diunduh oleh siswa. Antarmuka halaman  Dashboard  ditunjukkan
+
+pada Gambar 4.6.
+
+
+
+88
+
+Gambar 4.6. Antarmuka Dashboard Form Halaman Admin
+
+4.1.3.2 Menu Admin
+
+Menu Admin merupakan  menu yang berfungsi  untuk mengelola  data
+
+admin. Menu Admin dibagi menjadi 2 sub-menu yang mengarah ke halaman form
+
+input admin dan daftar admin. Antarmuka halaman-halaman tersebut ditunjukkan
+
+pada Gambar 4.7 dan Gambar 4.8.
+
+Gambar 4.7. Antarmuka Form Input Admin
+
+
+
+89
+
+Gambar 4.8. Antarmuka Form Daftar Admin
+
+Halaman  input  admin  seperti  ditunjukkan  oleh  Gambar  4.7  yang
+
+berfungsi untuk mendaftarkan data admin yang akan digunakan untuk melakukan
+
+login.  Halaman  daftar  admin  seperti  ditunjukkan  oleh  Gambar  4.8  merupakan
+
+halaman yang berisi data-data admin. Halaman ini juga berisi tombol fungsi edit
+
+data admin dan hapus data admin.
+
+4.1.3.3 Menu Pembelajaran
+
+Menu Pembelajaran merupakan menu yang berfungsi untuk mengelola
+
+data materi pembelajaran. Menu Pembelajaran dibagi menjadi 2 sub-menu yang
+
+mengarah  ke  halaman  form  input  materi  pembelajaran  dan  daftar  materi
+
+pembelajaran.  Antarmuka halaman-halaman  tersebut  ditunjukkan pada  Gambar
+
+4.9 dan Gambar 4.10.
+
+
+
+90
+
+Gambar 4.9. Antarmuka Form Input Materi Pembelajaran
+
+
+
+91
+
+Gambar 4.10. Antarmuka Form Daftar Materi Pembelajaran
+
+Halaman input pembelajaran seperti ditunjukkan oleh Gambar 4.9 yang
+
+berfungsi untuk mendaftarkan data materi-materi  pembelajaran. Halaman daftar
+
+materi pembelajaran seperti ditunjukkan oleh Gambar 4.10 merupakan halaman
+
+yang berisi data-data materi pembelajaran. Halaman ini juga berisi tombol fungsi
+
+edit data pembelajaran dan hapus data pembelajaran.
+
+
+
+92
+
+4.1.3.4 Menu Guru
+
+Menu Guru merupakan menu yang berfungsi untuk mengelola data guru.
+
+Menu Pembelajaran dibagi menjadi 3 sub-menu yang mengarah ke halaman form
+
+input  data  guru  daftar  guru,  dan verifikasi  guru.  Antarmuka  halaman-halaman
+
+tersebut ditunjukkan pada Gambar 4.11, Gambar 4.12 dan Gambar 4.13.
+
+Gambar 4.11. Antarmuka Form Input Guru
+
+
+
+93
+
+Gambar 4.12. Antarmuka Form Daftar Guru
+
+Gambar 4.13. Antarmuka Form Verifikasi Guru
+
+Halaman  input  guru  seperti  ditunjukkan  oleh  Gambar  4.11  yang
+
+berfungsi untuk mendaftarkan data guru yang akan digunakan untuk melakukan
+
+login.  Halaman  daftar  guru  seperti  ditunjukkan  oleh  Gambar  4.12  merupakan
+
+halaman yang berisi data-data guru. Halaman ini juga berisi tombol fungsi edit
+
+data  guru  dan hapus  data  guru.  Selain  itu  admin  juga  dapat  melihat  foto  dan
+
+sertifikat guru. 
+
+
+
+94
+
+Halaman  Verifikasi  guru  seperti  ditunjukkan  oleh  Gambar  4.13
+
+merupakan halaman yang berisikan data-data guru yang telah melakukan Sign Up
+
+sebelumnya. Admin akan melakukan verifikasi terhadap data-data guru tersebut,
+
+jika data-data tersebut dianggap valid, maka admin akan menyetujui data dan guru
+
+akan menerima email verifikasi kemudian bisa melakukan proses login. Jika data
+
+dianggap tidak valid, maka admin akan menolak dan menghapus data.
+
+4.1.3.5 Menu Siswa
+
+Menu  Siswa  merupakan  menu  yang  berfungsi  untuk  mengelola  data
+
+siswa. Menu Admin dibagi menjadi 2 sub-menu yang mengarah ke halaman form
+
+input siswa dan daftar siswa. Antarmuka halaman-halaman tersebut ditunjukkan
+
+pada Gambar 4.14 dan Gambar 4.15.
+
+Gambar 4.14. Antarmuka Form Input Siswa
+
+
+
+95
+
+Gambar 4.15. Antarmuka Form Daftar Siswa
+
+Halaman  input  siswa  seperti  ditunjukkan  oleh  Gambar  4.14  yang
+
+berfungsi untuk mendaftarkan data siswa yang akan digunakan untuk melakukan
+
+login.  Halaman daftar  siswa seperti  ditunjukkan oleh Gambar 4.15 merupakan
+
+halaman yang berisi data-data siswa. Halaman ini juga berisi tombol fungsi edit
+
+data siswa dan hapus data siswa. Selain itu admin juga dapat melihat foto siswa. 
+
+4.1.3.6 Menu Log Sistem
+
+Menu Log Sistem merupakan menu untuk melihat daftar data-data yang
+
+telah dihapus sebelumnya, baik oleh admin maupun dari guru yang menghapus
+
+data.
+
+
+
+96
+
+Gambar 4.16. Antarmuka Log Sistem
+
+4.1.4. Form Guru
+
+Form  Halaman  Guru  berfungsi  untuk  menampilkan  form  untuk
+
+mengelola  data-data  yang  berkaitan  dengan  data  pribadi  guru  dan  konten
+
+pembelajaran dari aplikasi yang dikelola oleh guru itu sendiri. Antarmuka Form
+
+Halaman Guru dibagi menjadi beberapa bagian berdasarkan menu.
+
+4.1.4.1 Menu Profil Guru
+
+Halaman Profil merupakan halaman awal setelah guru melakukan proses
+
+login. Halaman ini berisi tentang data pribadi guru. Halaman ini memiliki fungsi
+
+untuk  guru  melakukan  perubahan  data  pribadi.  Antarmuka  halaman-halaman
+
+tersebut ditunjukkan pada Gambar 4.17 dan Gambar 4.18.
+
+Gambar 4.17. Antarmuka Form Profil Halaman Guru
+
+
+
+97
+
+Gambar 4.18. Antarmuka Form Edit Profil Guru
+
+4.1.4.2 Menu Pembelajaran Guru
+
+Halaman  Menu Pembelajaran  merupakan  menu yang berfungsi  untuk
+
+mengelola data materi pembelajaran. Menu Pembelajaran dibagi menjadi 2 sub-
+
+menu  yang  mengarah  ke  halaman  form input  materi  pembelajaran  dan  daftar
+
+materi  pembelajaran.  Antarmuka  halaman-halaman  tersebut  ditunjukkan  pada
+
+Gambar 4.19 dan Gambar 4.20.
+
+
+
+98
+
+Gambar 4.19. Antarmuka Form Input Materi Pembelajaran Guru
+
+Gambar 4.20. Antarmuka Form Daftar Materi Pembelajaran Guru
+
+Halaman input pembelajaran seperti ditunjukkan oleh Gambar 4.19 yang
+
+berfungsi untuk mendaftarkan data materi-materi  pembelajaran. Halaman daftar
+
+materi pembelajaran seperti ditunjukkan oleh Gambar 4.20 merupakan halaman
+
+yang berisi data-data materi pembelajaran. Halaman ini juga berisi tombol fungsi
+
+edit data pembelajaran dan hapus data pembelajaran.
+
+
+
+99
+
+4.1.5. Form Siswa
+
+Form  Halaman  Siswa  berfungsi  untuk  menampilkan  form  untuk
+
+mengelola data-data yang berkaitan dengan data pribadi siswa. Antarmuka Form
+
+Halaman Siswa terbagi menjadi dua, yaitu halaman profil dan form edit profil.
+
+4.1.5.1 Menu Profil Siswa
+
+Halaman  Profil  Siswa  merupakan  halaman  setelah  siswa  melakukan
+
+proses pindah halaman dengan memilih menu ”My Profile”. Halaman ini berisi
+
+tentang data pribadi siswa. Halaman ini memiliki fungsi untuk siswa melakukan
+
+perubahan data pribadi.  Antarmuka halaman-halaman tersebut ditunjukkan pada
+
+Gambar 4.21 dan Gambar 4.22.
+
+Gambar 4.21. Antarmuka Form Profil Siswa
+
+
+
+100
+
+Gambar 4.22. Antarmuka Form Edit Profil Siswa
+
+4.1.6. Halaman Pembelajaran 
+
+Halaman Pembelajaran berfungsi sebagai navigasi dalam menampilkan
+
+dan  memilih  daftar  materi-materi  pembelajaran.  Antarmuka  Halaman
+
+Pembelajaran terbagi menjadi beberapa bagian berdasarkan kelas serta kelompok
+
+mata  pelajaran  dan  nama  mata  pelajaran,  bab  dan  subbab  hingga  materi
+
+pembelajaran.
+
+4.1.6.1 Halaman Pilih Mata Pelajaran
+
+Halaman  Pilih  Mata  Pelajaran  merupakan  halaman  yang  ditampilkan
+
+jika pengguna memilih menu ”Pembelajaran” dari halaman utama. Halaman ini
+
+berisi tentang pembagian kategori mata pelajaran berdasarkan kelas dan kelompok
+
+mata pelajaran. Halaman ini memiliki fungsi untuk memilih mata pelajaran yang
+
+diinginkan. Antarmuka halaman tersebut ditunjukkan pada Gambar 4.23.
+
+
+
+101
+
+Gambar 4.23. Antarmuka Halaman Pilih Mata Pelajaran
+
+
+
+102
+
+4.1.6.2 Halaman Pilih Bab dan Subbab
+
+Halaman Pilih Bab dan Subbab merupakan halaman yang ditampilkan
+
+setelah pengguna memilih salah satu mata pelajaran dari  halaman sebelumnya.
+
+Halaman ini berisi tentang bagian bab dan subbab dari mata pelajaran yang telah
+
+dipilih  di  halaman  sebelumnya.  Halaman  ini  memiliki  fungsi  untuk  memilih
+
+subbab materi  yang diinginkan.  Antarmuka halaman tersebut ditunjukkan pada
+
+Gambar 4.24.
+
+
+
+103
+
+Gambar 4.24. Antarmuka Halaman Pilih Bab dan Subbab
+
+
+
+104
+
+Halaman Pilih Bab dan Subbab memiliki Sidebar yang berisikan daftar-
+
+daftar mata pelajaran secara lengkap yang dikategorikan berdasarkan kelompok
+
+mata  pelajaran,  Sidebar  berfungsi  sebagai  akses  cepat  dalam  memilih  mata
+
+pelajaran  yang  diinginkan.  Halaman  ini  juga  memiliki  Breadcrumb sebagai
+
+navigasi yang menunjukkan nama mata pelajaran serta bab dan subbab nya yang
+
+telah dipilih.
+
+4.1.6.3 Halaman Pilih Materi Pelajaran
+
+Halaman Pilih Materi Pelajaran merupakan halaman yang ditampilkan
+
+jika pengguna telah memilih subbab materi dari halaman sebelumnya. Halaman
+
+ini  berisi  tentang  materi-materi  pelajaran  yang  telah  diunggah  oleh  guru
+
+sebelumnya. Halaman ini memiliki fungsi untuk memilih materi pelajaran yang
+
+diinginkan. Antarmuka halaman tersebut ditunjukkan pada Gambar 4.25.
+
+
+
+105
+
+Gambar 4.25. Antarmuka Halaman Pilih Materi Pelajaran
+
+
+
+106
+
+Halaman Pilih Materi Pelajaran memiliki Sidebar yang berisikan daftar-
+
+daftar mata pelajaran secara lengkap yang dikategorikan berdasarkan kelompok
+
+mata  pelajaran,  Sidebar  berfungsi  sebagai  akses  cepat  dalam  memilih  mata
+
+pelajaran  yang  diinginkan.  Halaman  ini  juga  memiliki  Breadcrumb sebagai
+
+navigasi yang menunjukkan nama mata pelajaran serta bab dan subbab nya yang
+
+telah dipilih.
+
+4.1.6.4 Halaman Download Materi Pelajaran
+
+Halaman  Download Materi  Pelajaran  merupakan  halaman  yang
+
+ditampilkan jika pengguna memilih salah satu materi pelajaran yang tersedia pada
+
+halaman  sebelumnya.  Halaman  ini  berisi  tentang  judul  dari  materi  pelajaran,
+
+tombol  untuk  Download  materi  pelajaran  dan  deskripsi  dari  materi  pelajaran
+
+tersebut.  Halaman  ini  memiliki  fungsi  untuk  mengunduh  data  dari  materi
+
+pelajaran  yang  telah  dipilih.  Antarmuka  halaman  tersebut  ditunjukkan  pada
+
+Gambar 4.26.
+
+
+
+107
+
+Gambar 4.26. Antarmuka Halaman Download Materi Pelajaran
+
+
+
+108
+
+4.2. Hasil Uji
+
+Pengujian dilakukan pada aplikasi  menggunakan  Usability Testing dan
+
+pengujian  dengan  metode  Black  Box.  Usability  Testing merupakan  pengujian
+
+dilakukan  pengujian  terhadap  calon  pengguna  dengan  cara  mengamati  respon
+
+pengguna  dalam menggunakan  aplikasi.  Dalam kasus  ini,  pengujian  ditujukan
+
+kepada siswa-siswa SMA Negeri 2 Pontianak.  Usability Testing yang dilakukan
+
+akan mengumpulkan data dan informasi dengan tujuan untuk mengetahui mudah
+
+tidaknya aplikasi  digunakan kepada calon  pengguna.  Dalam  Usability  Testing,
+
+responden  pengujian  akan  diberikan  beberapa  tugas  yang  berkaitan  dengan
+
+fungsionalitas aplikasi. Setelah responden menjalankan tugas-tugas tersebut, akan
+
+dilakukan  wawancara  dengan  kuesioner  terhadap  responden  tentang  berbagai
+
+aspek yang terkait dengan aplikasi.
+
+Selain itu pengujian selanjutnya adalah pengujian menggunakan metode
+
+Black-Box untuk memeriksa apakah aplikasi dapat berjalan dengan benar sesuai
+
+dengan yang diharapkan. Data pengujian dipilih berdasarkan spesifikasi masalah
+
+tanpa memperhatikan detail internal dari program. 
+
+Keberhasilan  produk dianalisis  berdasarkan  tabel  kuesioner  yang diisi
+
+oleh responden dan waktu responden dalam mengerjakan tugas yang diberikan.
+
+Responden  memberikan  dengan  jawaban  ya  atau  tidak  pada  tabel  kuesioner.
+
+Berikut ini pengujian yang telah dilakukan serta hasilnya sesuai dengan apa yang
+
+diharapkan. Pengujian yang telah dilakukan antara lain.
+
+4.2.1. Black Box
+Pengujian  Black-Box adalah  pengujian  sistem yang dilakukan dengan
+
+cara  menjalankan  aplikasi  yang  telah  dibuat  dengan  maksud  menemukan
+
+kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai yang
+
+telah direncanakan.
+
+4.2.1.1. Login
+Berikut  adalah  pengujian  untuk  halaman  login dan  logout.  Hasil
+
+pengujian Data Login ditunjukkan pada tabel 4.1 berikut :
+
+Tabel 4.1 Tabel Pengujian Black-Box Login
+
+No Test Case Masukan Hasil yang Hasil Keterangan
+
+
+
+109
+
+(Input) Diharapkan Pengujian
+
+1. Proses Login
+
+Siswa
+
+Username
+
+dan
+
+password
+
+siswa
+
+Masuk ke
+
+halaman
+
+utama 
+
+Masuk ke
+
+halaman
+
+utama 
+
+Hasil Valid
+
+2. Proses Login
+
+Guru
+
+Username
+
+dan
+
+password
+
+guru
+
+Masuk ke
+
+halaman
+
+guru
+
+Masuk ke
+
+halaman
+
+guru
+
+Hasil Valid
+
+3. Proses Login
+
+Admin
+
+Username
+
+dan
+
+password
+
+admin
+
+Masuk ke
+
+halaman
+
+admin
+
+Masuk ke
+
+halaman
+
+admin
+
+Hasil Valid
+
+4. Proses Logout
+
+Siswa
+
+Menekan
+
+tombol
+
+Logout
+
+Session
+
+berakhir dan
+
+pindah ke
+
+halaman
+
+utama
+
+Session
+
+berakhir
+
+dan pindah
+
+ke
+
+halaman
+
+utama
+
+Hasil Valid
+
+5. Proses Logout
+
+Guru
+
+Menekan
+
+tombol
+
+Logout
+
+Session
+
+berakhir dan
+
+pindah ke
+
+halaman
+
+login
+
+Session
+
+berakhir
+
+dan pindah
+
+ke
+
+halaman
+
+login
+
+Hasil Valid
+
+6. Proses Logout
+
+Admin
+
+Menekan
+
+tombol
+
+Logout
+
+Session
+
+berakhir dan
+
+pindah ke
+
+halaman
+
+login
+
+Session
+
+berakhir
+
+dan pindah
+
+ke
+
+halaman
+
+login
+
+Hasil Valid
+
+
+
+110
+
+4.2.1.2. Sign Up
+Berikut adalah pengujian untuk halaman login. Hasil pengujian Sign Up
+
+ditunjukkan pada tabel 4.2 berikut :
+
+Tabel 4.2 Tabel Pengujian Black-Box Sign Up
+
+No Test Case Masukan
+
+(Input)
+
+Hasil yang
+
+Diharapkan
+
+Hasil
+
+Pengujian
+
+Keterangan
+
+1. Proses Sign Up
+
+Siswa
+
+Mengisi
+
+data siswa
+
+pada field
+
+yang
+
+disediakan
+
+dan
+
+menekan
+
+tombol
+
+Sign Up
+
+Sign Up
+
+Siswa
+
+berhasil,
+
+data masuk
+
+ke tabel
+
+siswa
+
+Sign Up
+
+Siswa
+
+berhasil,
+
+data
+
+masuk ke
+
+tabel siswa
+
+Hasil Valid
+
+2. Proses Sign Up
+
+Guru
+
+Mengisi
+
+data guru
+
+pada field
+
+yang
+
+disediakan
+
+dan
+
+menekan
+
+tombol
+
+Sign Up
+
+Sign Up
+
+Guru
+
+berhasil,
+
+data masuk
+
+ke tabel
+
+guru
+
+Sign Up
+
+Siswa
+
+berhasil,
+
+data
+
+masuk ke
+
+tabel guru
+
+Hasil Valid
+
+4.2.1.3. Admin
+Berikut adalah pengujian untuk halaman admin. Hasil pengujian bagian
+
+halaman Admin ditunjukkan pada tabel 4.3 berikut :
+
+Tabel 4.3 Tabel Pengujian Black-Box Bagian Admin
+
+No Test Case Masukan Hasil yang Hasil Keterangan
+
+
+
+111
+
+(Input) Diharapkan Pengujian
+
+1. Menu
+
+Dashboard
+
+Menekan
+
+menu
+
+Dashboard
+
+Pindah ke
+
+halaman
+
+Dashboard
+
+admin
+
+Pindah ke
+
+halaman
+
+Dashboard
+
+admin
+
+Hasil Valid
+
+2. Menu Lihat
+
+Website
+
+Menekan
+
+menu Lihat
+
+Website
+
+Pindah ke
+
+halaman
+
+utama
+
+Pindah ke
+
+halaman
+
+utama
+
+Hasil Valid
+
+3. Input Admin Mengisi data
+
+admin dan
+
+menekan
+
+tombol Save
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel admin
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel admin
+
+Hasil Valid
+
+4. List Admin Menekan
+
+tombol list
+
+admin dari
+
+menu Admin
+
+Menampilkan
+
+daftar admin
+
+Menampilkan
+
+daftar admin
+
+Hasil Valid
+
+5. Edit Admin Menekan
+
+tombol edit
+
+admin dan
+
+mengisi data
+
+admin, lalu
+
+menekan
+
+tombol Save
+
+Edit data
+
+admin
+
+berhasil, data
+
+admin
+
+diperbarui
+
+Edit data
+
+admin
+
+berhasil, data
+
+admin
+
+diperbarui
+
+Hasil Valid
+
+6. Hapus
+
+Admin
+
+Menekan
+
+tombol hapus
+
+pada kolom
+
+list admin
+
+Hapus data
+
+berhasil, data
+
+admin
+
+terhapus
+
+Hapus data
+
+berhasil, data
+
+admin
+
+terhapus
+
+Hasil Valid
+
+7. Input
+
+Pembelajaran
+
+Mengisi data
+
+pembelajaran
+
+dan menekan
+
+tombol Save
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel
+
+Hasil Valid
+
+
+
+112
+
+pembelajaran pembelajaran
+
+8. List
+
+Pembelajaran
+
+Menekan
+
+tombol list
+
+pembelajaran
+
+dari menu
+
+Pembelajaran
+
+Menampilkan
+
+daftar
+
+pembelajaran
+
+Menampilkan
+
+daftar
+
+pembelajaran
+
+Hasil Valid
+
+9. Edit
+
+Pembelajaran
+
+Menekan
+
+tombol edit
+
+pembelajaran
+
+dan mengisi
+
+data
+
+pembelajaran,
+
+lalu menekan
+
+tombol Save
+
+Edit data
+
+pembelajaran
+
+berhasil, data
+
+pembelajaran
+
+diperbarui
+
+Edit data
+
+pembelajaran
+
+berhasil, data
+
+pembelajaran
+
+diperbarui
+
+Hasil Valid
+
+10
+
+.
+
+Hapus
+
+Pembelajaran
+
+Menekan
+
+tombol hapus
+
+pada kolom
+
+list
+
+pembelajaran
+
+Hapus data
+
+berhasil, data
+
+pembelajaran
+
+terhapus
+
+Hapus data
+
+berhasil, data
+
+pembelajaran
+
+terhapus
+
+Hasil Valid
+
+11
+
+.
+
+Input Guru Mengisi data
+
+guru dan
+
+menekan
+
+tombol Save
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel guru
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel guru
+
+Hasil Valid
+
+12
+
+.
+
+List Guru Menekan
+
+tombol list
+
+guru dari
+
+menu Guru
+
+Menampilkan
+
+daftar guru
+
+Menampilkan
+
+daftar guru
+
+Hasil Valid
+
+13
+
+.
+
+Edit Guru Menekan
+
+tombol edit
+
+guru dan
+
+mengisi data
+
+Edit data
+
+guru berhasil,
+
+data guru
+
+diperbarui
+
+Edit data
+
+guru berhasil,
+
+data guru
+
+diperbarui
+
+Hasil Valid
+
+
+
+113
+
+guru, lalu
+
+menekan
+
+tombol Save
+
+14
+
+.
+
+Verifikasi
+
+Guru
+
+Menekan
+
+tombol
+
+Approve dari
+
+kolom Action
+
+pada tabel
+
+verifikasi
+
+guru
+
+Data guru
+
+berhasil
+
+disetujui,
+
+email tentang
+
+verifikasi
+
+akan dikirim
+
+ke email guru
+
+Data guru
+
+berhasil
+
+disetujui,
+
+email tentang
+
+verifikasi
+
+akan dikirim
+
+ke email guru
+
+Hasil Valid
+
+15
+
+.
+
+Hapus Guru Menekan
+
+tombol hapus
+
+pada kolom
+
+list guru
+
+Hapus data
+
+berhasil, data
+
+guru terhapus
+
+Hapus data
+
+berhasil, data
+
+guru terhapus
+
+Hasil Valid
+
+16
+
+.
+
+Input Siswa Mengisi data
+
+siswa dan
+
+menekan
+
+tombol Save
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel siswa
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel siswa
+
+Hasil Valid
+
+17
+
+.
+
+List Siswa Menekan
+
+tombol list
+
+siswa dari
+
+menu Admin
+
+Menampilkan
+
+daftar siswa
+
+Menampilkan
+
+daftar siswa
+
+Hasil Valid
+
+18
+
+.
+
+Edit Siswa Menekan
+
+tombol edit
+
+siswa dan
+
+mengisi data
+
+siswa, lalu
+
+menekan
+
+tombol Save
+
+Edit data
+
+siswa
+
+berhasil, data
+
+siswa
+
+diperbarui
+
+Edit data
+
+siswa
+
+berhasil, data
+
+siswa
+
+diperbarui
+
+Hasil Valid
+
+19
+
+.
+
+Hapus Siswa Menekan
+
+tombol hapus
+
+Hapus data
+
+berhasil, data
+
+Hapus data
+
+berhasil, data
+
+Hasil Valid
+
+
+
+114
+
+pada kolom
+
+list siswa
+
+siswa
+
+terhapus
+
+siswa
+
+terhapus
+
+4.2.1.4. Guru
+Berikut adalah pengujian untuk halaman login. Hasil pengujian bagian
+
+halaman Guru ditunjukkan pada tabel 4.4 berikut :
+
+Tabel 4.4 Tabel Pengujian Black-Box Bagian Guru
+
+No Test Case Masukan
+
+(Input)
+
+Hasil yang
+
+Diharapkan
+
+Hasil
+
+Pengujian
+
+Keterangan
+
+1. Menu Lihat
+
+Website
+
+Menekan
+
+menu Lihat
+
+Website
+
+Pindah ke
+
+halaman
+
+utama
+
+Pindah ke
+
+halaman
+
+utama
+
+Hasil Valid
+
+2. Lihat Profil Menekan
+
+tombol Profil
+
+Pindah ke
+
+halaman
+
+Profil Guru
+
+Pindah ke
+
+halaman
+
+Profil Guru
+
+Hasil Valid
+
+3. Edit Profil
+
+Guru
+
+Menekan
+
+tombol Edit
+
+Profil dan
+
+mengisi data,
+
+lalu menekan
+
+tombol Save
+
+Edit Profil
+
+Guru
+
+berhasil, data
+
+guru
+
+diperbarui
+
+Edit Profil
+
+Guru
+
+berhasil, data
+
+guru
+
+diperbarui
+
+Hasil Valid
+
+4. Input
+
+Pembelajaran
+
+Mengisi data
+
+pembelajaran
+
+dan menekan
+
+tombol Save
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel
+
+pembelajaran
+
+Input data
+
+berhasil, data
+
+masuk ke
+
+tabel
+
+pembelajaran
+
+Hasil Valid
+
+5. List
+
+Pembelajaran
+
+Menekan
+
+tombol list
+
+pembelajaran
+
+dari menu
+
+Menampilkan
+
+daftar
+
+pembelajaran
+
+Menampilkan
+
+daftar
+
+pembelajaran
+
+Hasil Valid
+
+
+
+115
+
+Pembelajaran
+
+6. Edit
+
+Pembelajaran
+
+Menekan
+
+tombol edit
+
+pembelajaran
+
+dan mengisi
+
+data
+
+pembelajaran,
+
+lalu menekan
+
+tombol Save
+
+Edit data
+
+pembelajaran
+
+berhasil, data
+
+pembelajaran
+
+diperbarui
+
+Edit data
+
+pembelajaran
+
+berhasil, data
+
+pembelajaran
+
+diperbarui
+
+Hasil Valid
+
+7. Hapus
+
+Pembelajaran
+
+Menekan
+
+tombol hapus
+
+pada kolom
+
+list
+
+pembelajaran
+
+Hapus data
+
+berhasil, data
+
+pembelajaran
+
+terhapus
+
+Hapus data
+
+berhasil, data
+
+pembelajaran
+
+terhapus
+
+Hasil Valid
+
+4.2.1.5. Siswa
+Berikut adalah pengujian untuk halaman login. Hasil pengujian bagian
+
+Siswa ditunjukkan pada tabel 4.5 berikut :
+
+Tabel 4.5 Tabel Pengujian Black-Box Bagian Siswa
+
+No Test Case Masukan
+
+(Input)
+
+Hasil yang
+
+Diharapkan
+
+Hasil
+
+Pengujian
+
+Keterangan
+
+1. Lihat Profil Menekan
+
+tombol My
+
+Profile
+
+Pindah ke
+
+halaman
+
+Profil Siswa
+
+Pindah ke
+
+halaman
+
+Profil Siswa
+
+Hasil Valid
+
+2. Edit Profil
+
+Siswa
+
+Menekan
+
+tombol Edit
+
+Edit Profil
+
+Siswa
+
+Edit Profil
+
+Siswa
+
+Hasil Valid
+
+
+
+116
+
+Profil dan
+
+mengisi data,
+
+lalu menekan
+
+tombol Save
+
+berhasil, data
+
+siswa
+
+diperbarui
+
+berhasil, data
+
+siswa
+
+diperbarui
+
+4.2.1.6. Pembelajaran
+Berikut adalah pengujian untuk halaman login. Hasil pengujian bagian
+
+Halaman Pembelajaran ditunjukkan pada tabel 4.6 berikut :
+
+Tabel 4.6 Tabel Pengujian Black-Box Bagian Pembelajaran
+
+No Test Case Masukan
+
+(Input)
+
+Hasil yang
+
+Diharapkan
+
+Hasil
+
+Pengujian
+
+Keterangan
+
+1. Menu
+
+Pembelajaran
+
+Menekan
+
+tombol
+
+Pembelajaran
+
+Pindah ke
+
+halaman
+
+Pembelajaran
+
+Pindah ke
+
+halaman
+
+Pembelajaran
+
+Hasil Valid
+
+2. Pilih Mata
+
+Pelajaran
+
+Memilih
+
+salah satu
+
+mata
+
+pelajaran dari
+
+beberapa
+
+mata
+
+pelajaran
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+Hasil Valid
+
+3. Pilih Subbab Memilih
+
+salah satu
+
+subbab dari
+
+beberapa
+
+subbab
+
+Pindah ke
+
+halaman Pilih
+
+Materi
+
+Pelajaran
+
+Pindah ke
+
+halaman Pilih
+
+Materi
+
+Pelajaran
+
+Hasil Valid
+
+4. Download
+
+Materi
+
+Pelajaran
+
+Menekan
+
+tombol
+
+Download
+
+pada halaman
+
+Materi
+
+Download
+
+berhasil,
+
+mendapatkan
+
+materi
+
+Download
+
+berhasil,
+
+mendapatkan
+
+materi
+
+Hasil Valid
+
+
+
+117
+
+Pelajaran pelajaran pelajaran
+
+5. Menu
+
+Sidebar
+
+Menekan
+
+salah satu
+
+mata
+
+pelajaran
+
+yang ada di
+
+menu Sidebar
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+sesuai
+
+dengan kelas
+
+yang dipilih
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+sesuai
+
+dengan kelas
+
+yang dipilih
+
+Hasil Valid
+
+6. Menu
+
+Breadcrumb
+
+Menekan
+
+salah satu
+
+link yang ada
+
+dalam menu
+
+Breadcrumb
+
+Pindah ke
+
+halaman
+
+sesuai nama
+
+dari menu
+
+Breadcrumb
+
+yang dipilih
+
+Pindah ke
+
+halaman
+
+sesuai nama
+
+dari menu
+
+Breadcrumb
+
+yang dipilih
+
+Hasil Valid
+
+4.2.1.7. Latihan
+Berikut adalah pengujian untuk halaman login. Hasil pengujian bagian
+
+Halaman Latihan ditunjukkan pada tabel 4.7 berikut :
+
+Tabel 4.7 Tabel Pengujian Black-Box Bagian Latihan
+
+No Test Case Masukan
+
+(Input)
+
+Hasil yang
+
+Diharapkan
+
+Hasil
+
+Pengujian
+
+Keterangan
+
+1. Menu
+
+Latihan
+
+Menekan
+
+tombol
+
+Latihan
+
+Pindah ke
+
+halaman
+
+Latihan
+
+Pindah ke
+
+halaman
+
+Latihan
+
+Hasil Valid
+
+2. Pilih Mata
+
+Pelajaran
+
+Memilih
+
+salah satu
+
+mata
+
+pelajaran dari
+
+beberapa
+
+mata
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+Hasil Valid
+
+
+
+118
+
+pelajaran
+
+3. Pilih Subbab Memilih
+
+salah satu
+
+subbab dari
+
+beberapa
+
+subbab
+
+Pindah ke
+
+halaman Pilih
+
+Latihan
+
+Pelajaran
+
+Pindah ke
+
+halaman Pilih
+
+Latihan
+
+Pelajaran
+
+Hasil Valid
+
+4. Download
+
+Latihan
+
+Pelajaran
+
+Menekan
+
+tombol
+
+Download
+
+pada halaman
+
+Latihan
+
+Pelajaran
+
+Download
+
+berhasil,
+
+mendapatkan
+
+latihan
+
+pelajaran
+
+Download
+
+berhasil,
+
+mendapatkan
+
+latihan
+
+pelajaran
+
+Hasil Valid
+
+5. Menu
+
+Sidebar
+
+Menekan
+
+salah satu
+
+mata
+
+pelajaran
+
+yang ada di
+
+menu Sidebar
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+sesuai
+
+dengan kelas
+
+yang dipilih
+
+Pindah ke
+
+halaman Pilih
+
+Bab dan
+
+Subbab
+
+sesuai
+
+dengan kelas
+
+yang dipilih
+
+Hasil Valid
+
+6. Menu
+
+Breadcrumb
+
+Menekan
+
+salah satu
+
+link yang ada
+
+dalam menu
+
+Breadcrumb
+
+Pindah ke
+
+halaman
+
+sesuai nama
+
+dari menu
+
+Breadcrumb
+
+yang dipilih
+
+Pindah ke
+
+halaman
+
+sesuai nama
+
+dari menu
+
+Breadcrumb
+
+yang dipilih
+
+Hasil Valid
+
+4.2.1.8. Tentang
+Berikut adalah pengujian untuk halaman login. Hasil pengujian bagian
+
+Halaman Tentang ditunjukkan pada tabel 4.8 berikut :
+
+Tabel 4.8 Tabel Pengujian Black-Box Bagian Tentang
+
+No Test Case Masukan Hasil yang Hasil Keterangan
+
+
+
+119
+
+(Input) Diharapkan Pengujian
+
+1. Menu
+
+Tentang
+
+Menekan
+
+tombol
+
+Tentang
+
+Pindah ke
+
+halaman
+
+Tentang
+
+Pindah ke
+
+halaman
+
+Tentang
+
+Hasil Valid
+
+4.2.2. Usability Testing
+Pengujian yang akan dilakukan terhadap calon pengguna dengan cara
+
+mengamati  respon  pengguna  dalam  menggunakan  aplikasi.  Pengguna  akan
+
+mengerjakan beberapa task yang telah disiapkan oleh penguji, kemudian penguji
+
+akan mengamati respon dan merekam data-data yang telah dilakukan pengguna
+
+dengan menggunakan kuesioner.  Berikut merupakan  task  atau tugas yang akan
+
+diujikan kepada responden, ditunjukkan pada tabel 4.9 dan tabel 4.10.
+
+Tabel 4.9 Tabel Task Siswa
+
+No Task / Tugas
+
+1. Melakukan Sign Up
+
+2. Melakukan Login
+
+3. Membuka mata pelajaran Fisika kelas X
+
+4. Melakukan download materi kelas X Mata Pelajaran
+
+Fisika, Bab Pengukuran Subbab Besaran dan Satuan
+
+5. Melihat profil dan melakukan edit profil
+
+6. Melakukan Logout
+
+Tabel 4.10 Tabel Task Guru
+
+No Task / Tugas
+
+1. Melakukan Sign Up
+
+2. Melakukan Login
+
+3. Mengunggah satu materi pelajaran
+
+
+
+120
+
+4. Melihat daftar materi pelajaran yang telah diunggah
+
+5. Mengedit data materi pelajaran yang telah diunggah
+
+6. Menghapus materi pelajaran yang telah diunggah
+
+7. Melakukan Logout
+
+4.2.2.1 Profil Responden
+Responden  terbagi  menjadi  dua  kategori,  yaitu  siswa  dan  guru.
+
+Responden  bagian  pertama  merupakan  siswa  SMA  Negeri  2  Pontianak,  yang
+
+berada  di  Jl.  R.E  Martadinata,  Kelurahan  Sungai  Jawi,  Pontianak  Barat,
+
+Pontianak, Kalimantan Barat. Data responden yang diambil berasal dari kelas XI
+
+MIPA  3  yang  dipilih  berdasarkan  ketersediaan  waktu  oleh  pihak  sekolah.
+
+Responden bagian  kedua yaitu  adalah  guru,  data  responden diambil  dari  guru
+
+bimbingan belajar yang mengajar di bimbingan belajar Q-Learning, yang berada
+
+di  Jl.  Sulawesi,  Kelurahan  Akcaya,  Kecamatan  Pontianak  Selatan,  Pontianak,
+
+Kalimantan Barat. Profil responden ditunjukkan pada tabel 4.11 dan tabel 4.12.
+
+Tabel 4.11 Tabel Profil Siswa
+
+No. Nama Jenis Kelamin
+
+1. Melsa Putri Perempuan
+
+2. Azra Atikah Perempuan
+
+3. Dea Fitriani Perempuan
+
+4. Siti Aisyah Perempuan
+
+5. Anisa Khairiyah Perempuan
+
+6. Maria Sric Rosanti Perempuan
+
+7. Guntur Romdhan Amirullah Laki-Laki
+
+8. Diky Nurfalah Laki-Laki
+
+9. Abdurrahman Laki-Laki
+
+10. Andre Sasongko Jati Pratama Laki-Laki
+
+Tabel 4.12 Tabel Profil Guru
+
+No. Nama Jenis Kelamin
+
+1. Inarsih Meutia Perempuan
+
+
+
+121
+
+2. Ratnawati Perempuan
+
+3. Surya Kusuma Laki-Laki
+
+4. Dirwanti July Antika Perempuan
+
+5. Uray Dessy Eka Putri Perempuan
+
+4.2.2.2 Aspek Usability
+Dalam penelitian ini akan dilihat apakah secara umum tingkat usabilitas
+
+dari aplikasi Aplikasi Materi Pembelajaran memenuhi kriteria usabilitas menurut
+
+Jacob  Nielsen,  maka  pertanyaan  kuisioner  dibagi  dalam  5  kelompok,  sebagai
+
+berikut :
+
+a. Kemudahan (learnability) didefinisikan  pengguna mahir dalam menggunakan
+
+sistem serta  kemudahan dalam penggunaan menjalankan  suatu fungsi  serta
+
+apa yang pengguna inginkan dapat meraka dapatkan.
+
+b. Efisiensi  (efficiency) didefenisikan  sebagai  sumber  daya  yang  dikeluarkan
+
+guna mencapai ketepatan dan kelengkapan tujuan.
+
+c. Mudah diingat  (memorability) didefinisikan bagaimana kemapuan pengguna
+
+mempertahankan pengetahuannya setelah jangka waktu tertentu, kemampuan
+
+mengngat didapatkan dari peletakkan menu yang selalu tetap.
+
+d. Kesalahan  dan  keamanan  (errors) didefinisikan  berapa  banyak  kesalahan-
+
+kesalahan apa saja yang dibuat pengguna, kesalahan yang dibuat pengguna
+
+mencangkup ketidaksesuaian apa yang pengguna pikirkan dengan apa yang
+
+sebenarnya disajikan oleh sistem.
+
+e. Kepuasan  (satisfaction) didefinisikan kebebasan dari  ketidaknyamanan,  dan
+
+sikap positif terhadap penggunaan produk atau ukuran subjektif sebagaimana
+
+pengguna merasa tentang penggunaan sistem.
+
+Tabel  pertanyaan  kuesioner  aspek-aspek  Usability ditunjukkan  pada  tabel
+
+4.13.
+
+
+
+122
+
+Tabel 4.13 Tabel Kuesioner Aspek Usability
+
+Nama Responden :
+
+No. Pertanyaan Jawaban Responden
+
+Ya Tidak
+
+Learnability
+
+1. Apakah tampilan antarmuka
+aplikasi sudah terlihat baik ?
+
+2. Apakah kombinasi warna 
+dan tulisan dalam aplikasi 
+mudah dipahami dan 
+dibaca ?
+
+3. Apakah menu-menu yang 
+ada di aplikasi mudah untuk 
+dipahami ? 
+
+4. Apakah anda dapat 
+melakukan pengunduhan 
+materi pelajaran ?
+
+Efficiency
+
+1. Apakah mudah dalam 
+mengakses materi pelajaran 
+yang diinginkan ?
+
+2. Apakah materi pelajaran 
+yang diunduh sesuai dengan
+materi pelajaran yang dipilih
+?
+
+Memorability
+
+1. Apakah mudah untuk 
+mengingat nama aplikasi ?
+
+
+
+123
+
+2. Apakah mudah untuk 
+mengingat navigasi dalam 
+aplikasi ?
+
+3. Apakah anda mengingat 
+cara untuk melakukan sign 
+up ?
+
+Error
+
+1. Apakah menemukan 
+halaman yang tidak bisa 
+dibuka ?
+
+2. Apakah terjadi kesalahan 
+saat melakukan login ?
+
+3. Apakah terjadi kesalahan 
+navigasi saat memilih mata 
+pelajaran ?
+
+Satisfaction
+
+1. Apakah akan menggunakan 
+kembali aplikasi ini jika 
+tersedia ?
+
+2. Apakah aplikasi dapat 
+membantu mempermudah 
+dalam hal pembelajaran ?
+
+3. Apakah memiliki perasaan 
+puas setelah mengakses 
+aplikasi pembelajaran ini ?
+
+Pengkodean pertanyaan pada kuesioner ditunjukkan pada tabel 4.14 dan
+
+tabel 4.15
+
+Tabel 4.14 Tabel Kode Pertanyaan Kuesioner Siswa
+
+No. Pertanyaan Kode
+
+1. Apakah tampilan antarmuka aplikasi sudah terlihat L1
+
+
+
+124
+
+baik ?
+
+2.
+Apakah kombinasi warna dan tulisan dalam aplikasi
+mudah dipahami dan dibaca ?
+
+L2
+
+3.
+Apakah menu-menu yang ada di aplikasi mudah 
+untuk dipahami ? 
+
+L3
+
+4.
+Apakah anda dapat melakukan pengunduhan materi
+pelajaran ?
+
+L4
+
+5.
+Apakah mudah dalam mengakses materi pelajaran 
+yang diinginkan ?
+
+Ef1
+
+6.
+Apakah materi pelajaran yang diunduh sesuai 
+dengan materi pelajaran yang dipilih ?
+
+Ef2
+
+7. Apakah mudah untuk mengingat nama aplikasi ? M1
+
+8.
+Apakah mudah untuk mengingat navigasi dalam 
+aplikasi ?
+
+M2
+
+9. Apakah mengingat cara untuk melakukan sign up ? M3
+
+10.
+Apakah menemukan halaman yang tidak bisa 
+dibuka ?
+
+Er1
+
+11. Apakah terjadi kesalahan saat melakukan login ? Er2
+
+12.
+Apakah terjadi kesalahan navigasi saat memilih 
+mata pelajaran ?
+
+Er3
+
+13.
+Apakah akan menggunakan kembali aplikasi ini 
+jika tersedia ?
+
+S1
+
+14.
+Apakah aplikasi dapat membantu mempermudah 
+dalam hal pembelajaran ?
+
+S2
+
+15.
+Apakah memiliki perasaan puas setelah mengakses 
+aplikasi pembelajaran ini ?
+
+S3
+
+Tabel 4.15 Tabel Kode Pertanyaan Kuesioner Guru
+
+No. Pertanyaan Kode
+
+
+
+125
+
+1.
+Apakah tampilan antarmuka aplikasi sudah terlihat 
+baik ?
+
+L1
+
+2.
+Apakah kombinasi warna dan tulisan dalam aplikasi
+mudah dipahami dan dibaca ?
+
+L2
+
+3.
+Apakah menu-menu yang ada di aplikasi mudah 
+untuk dipahami ? 
+
+L3
+
+4.
+Apakah anda dapat melakukan pengunggahan 
+materi pelajaran ?
+
+L4
+
+5.
+Apakah mudah dalam mengakses materi pelajaran 
+yang ingin diunggah ?
+
+Ef1
+
+6.
+Apakah materi pelajaran yang diunggah sesuai 
+dengan materi pelajaran yang dipilih ?
+
+Ef2
+
+7. Apakah mudah untuk mengingat nama aplikasi ? M1
+
+8.
+Apakah mudah untuk mengingat navigasi dalam 
+aplikasi ?
+
+M2
+
+9. Apakah mengingat cara untuk melakukan sign up ? M3
+
+10.
+Apakah menemukan halaman yang tidak bisa 
+dibuka ?
+
+Er1
+
+11. Apakah terjadi kesalahan saat melakukan login ? Er2
+
+12.
+Apakah terjadi kesalahan navigasi saat memilih 
+mata pelajaran ?
+
+Er3
+
+13.
+Apakah akan menggunakan kembali aplikasi ini 
+jika tersedia ?
+
+S1
+
+14.
+Apakah aplikasi dapat membantu mempermudah 
+dalam hal pembelajaran ?
+
+S2
+
+15.
+Apakah memiliki perasaan puas setelah mengakses 
+aplikasi pembelajaran ini ?
+
+S3
+
+
+
+126
+
+Hasil  data  yang  telah  dikumpulkan  melalui  kuesioner  kemudian
+
+dikompilasi seperti yang ditunjukkan pada tabel 4.16 dan table 4.17
+
+
+
+127
+
+Tabel 4.16 Hasil Kompilasi Kuesioner Siswa
+
+No. Pertanyaan
+
+(Kode)
+
+Responden (Kode)
+
+Skor (%)
+
+R1 R2 R3 R4 R5 R6 R7 R8 R9 R10
+
+Learnability
+
+1. L1 1 1 1 1 1 1 1 1 1 1 100
+
+2. L2 1 1 0 1 1 1 1 1 1 1 90
+
+3. L3 1 1 1 1 0 1 1 0 1 1 80
+
+4. L4 1 1 1 1 1 1 1 1 1 1 100
+
+Rata-rata (%) 92.5
+
+Efficiency
+
+1. Ef1 1 1 1 1 1 1 1 1 1 1 100
+
+2. Ef2 1 0 1 1 1 1 1 1 1 1 90
+
+Rata-rata (%) 85
+
+
+
+128
+
+Memorability
+
+1. M1 1 1 1 1 1 1 1 1 1 0 90
+
+2. M2 1 0 1 1 0 1 0 1 1 1 70
+
+3. M3 1 1 1 1 1 1 1 1 1 1 100
+
+Rata-rata (%) 86.6
+
+Error
+
+1. Er1 1 1 1 1 1 1 1 1 1 0 90
+
+2. Er2 1 1 1 1 1 1 1 1 0 1 90
+
+3. Er3 1 1 1 1 0 1 1 1 0 1 80
+
+Rata-rata (%) 86.6
+
+Satisfaction
+
+1. S1 1 1 1 1 1 1 1 1 0 1 90
+
+2. S2 1 1 1 1 1 1 1 1 1 1 100
+
+3. S3 1 1 1 1 1 1 0 1 1 1 90
+
+Rata-rata (%) 93.3
+
+
+
+129
+
+Tabel 4.17 Hasil Kompilasi Kuesioner Guru
+
+No. Pertanyaan
+
+(Kode)
+
+Responden (Kode)
+
+Skor (%)
+
+R1 R2 R3 R4 R5
+
+Learnability
+
+1. L1 1 1 1 1 1 100
+
+2. L2 1 1 1 1 1 100
+
+3. L3 1 1 1 1 1 100
+
+4. L4 1 1 1 1 1 100
+
+Rata-rata (%) 100
+
+Efficiency
+
+1. Ef1 1 1 1 1 1 100
+
+2. Ef2 1 1 1 1 1 100
+
+Rata-rata (%) 100
+
+Memorability
+
+1. M1 1 0 1 1 0 60
+
+2. M2 1 1 1 1 1 100
+
+3. M3 1 1 1 1 1 100
+
+Rata-rata (%) 86.6
+
+Error
+
+1. Er1 1 1 1 1 1 100
+
+2. Er2 1 1 0 1 1 80
+
+3. Er3 1 1 1 1 1 100
+
+Rata-rata (%) 93.3
+
+Satisfaction
+
+
+
+130
+
+1. S1 1 1 1 1 1 100
+
+2. S2 1 1 1 1 1 100
+
+3. S3 1 1 1 1 0 80
+
+Rata-rata (%) 93.3
+
+Perhitungan  kuantitatif  kuesioner  Usability  Testing  menurut  Arikunto  dapat
+
+dilihat pada Tabel 4.18 berikut.
+
+Tabel 4.18 Tabel Kuantitatif Perhitungan Kuesioner Usability Testing
+
+Skor Kualifikasi Hasil
+
+85-100% SB (Sangat Baik) Berhasil
+
+65-84% B (Baik) Berhasil
+
+55-64% C (Cukup) Tidak Berhasil
+
+0-54% SK (Sangat Kurang) Tidak Berhasil
+
+Rumus.
+
+Skor ¿
+Jumlah jawaban bernilai1
+
+Jumlah responden
+×100 %
+
+Pengolahan hasil data dari kuesioner  Usability  dari guru dan siswa dapat dilihat
+
+pada tabel 4.19 dan tabel 4.20 berikut.
+
+
+
+131
+
+Tabel 4.19 Tabel Hasil Pengolahan Data Kuesioner Usability Siswa
+
+No. Pertanyaan
+
+(Kode)
+Skor (%) Kualifikasi Hasil
+
+Learnability
+
+1. L1 100 Sangat Baik Berhasil
+
+2. L2 90 Sangat Baik Berhasil
+
+3. L3 80 Baik Berhasil
+
+4. L4 100 Sangat Baik Berhasil
+
+Rata-rata (%) 92.5 Sangat Baik Berhasil
+
+Efficiency
+
+1. Ef1 100 Sangat Baik Berhasil
+
+2. Ef2 90 Sangat Baik Berhasil
+
+Rata-rata (%) 85 Sangat Baik Berhasil
+
+Memorability
+
+1. M1 90 Sangat Baik Berhasil
+
+2. M2 70 Baik Berhasil
+
+3. M3 100 Sangat Baik Berhasil
+
+Rata-rata (%) 86.6 Sangat Baik Berhasil
+
+Error
+
+1. Er1 90 Sangat Baik Berhasil
+
+2. Er2 90 Sangat Baik Berhasil
+
+3. Er3 80 Baik Berhasil
+
+Rata-rata (%) 86.6 Sangat Baik Berhasil
+
+Satisfaction
+
+
+
+132
+
+1. S1 90 Sangat Baik Berhasil
+
+2. S2 100 Sangat Baik Berhasil
+
+3. S3 90 Sangat Baik Berhasil
+
+Rata-rata (%) 93.3 Sangat Baik Berhasil
+
+Tabel 4.20 Tabel Hasil Pengolahan Data Kuesioner Usability Guru
+
+No. Pertanyaan
+
+(Kode)
+Skor (%) Kualifikasi Hasil
+
+Learnability
+
+1. L1 100 Sangat Baik Berhasil
+
+2. L2 100 Sangat Baik Berhasil
+
+3. L3 100 Baik Berhasil
+
+4. L4 100 Sangat Baik Berhasil
+
+Rata-rata (%) 100 Sangat Baik Berhasil
+
+Efficiency
+
+1. Ef1 100 Sangat Baik Berhasil
+
+2. Ef2 100 Sangat Baik Berhasil
+
+Rata-rata (%) 100 Sangat Baik Berhasil
+
+Memorability
+
+1. M1 60 Cukup Tidak Berhasil
+
+2. M2 100 Baik Berhasil
+
+3. M3 100 Sangat Baik Berhasil
+
+Rata-rata (%) 86.6 Sangat Baik Berhasil
+
+
+
+133
+
+Error
+
+1. Er1 100 Sangat Baik Berhasil
+
+2. Er2 80 Baik Berhasil
+
+3. Er3 100 Baik Berhasil
+
+Rata-rata (%) 93.3 Sangat Baik Berhasil
+
+Satisfaction
+
+1. S1 100 Sangat Baik Berhasil
+
+2. S2 100 Sangat Baik Berhasil
+
+3. S3 80 Baik Berhasil
+
+Rata-rata (%) 93.3 Sangat Baik Berhasil
+
+Berdasarkan  tabel  4.19,  didapatkan  nilai  rata-rata  hasil  pengujian
+
+Usability  bagian  Siswa,  aspek  Learnability diperoleh  nilai   92.5%,  aspek
+
+Efficiency diperoleh nilai 85%, aspek Memorability  diperoleh nilai 86.6%, aspek
+
+Error diperoleh nilai 86.6% dan aspek Satisfaction diperoleh nilai 93.3%. Apabila
+
+dicocokkan dengan tabel  kuantitatif  perhitungan pada tabel  4.18,  maka seperti
+
+ditunjukkan oleh tabel  hasil  pengolahan data  kuesioner  Usability siswa, secara
+
+aspek Usability aplikasi materi pembelajaran yang dibuat mendapatkan kualifikasi
+
+“SANGAT BAIK”.
+
+Berdasarkan  tabel  4.20,  didapatkan  nilai  rata-rata  hasil  pengujian
+
+Usability bagian Guru, aspek Learnability diperoleh nilai  100%, aspek Efficiency
+
+diperoleh  nilai  100%,  aspek  Memorability  diperoleh  nilai  86.6%,  aspek  Error
+
+diperoleh  nilai  93.3%  dan  aspek  Satisfaction  diperoleh  nilai  93.3%.  Apabila
+
+dicocokkan dengan tabel  kuantitatif  perhitungan pada tabel  4.18,  maka seperti
+
+ditunjukkan  oleh  tabel  hasil  pengolahan  data  kuesioner  Usability guru,  secara
+
+
+
+134
+
+aspek Usability aplikasi materi pembelajaran yang dibuat mendapatkan kualifikasi
+
+“SANGAT BAIK”.
+
+4.3. Analisis Hasil Pengujian
+
+Dari  hasil  pengujian  yang  telah  dilakukan  terhadap  aplikasi  dengan
+
+menggunakan metode black-box dan usability testing, maka analisis terhadap hasil
+
+pengujian adalah sebagai berikut :
+
+4.3.1 Analisis Hasil Pengujian Black-Box
+
+Berdasarkan dari pengujian yang telah dilakukan dengan metode black-
+
+box  mendapatkan  hasil  bahwa  fungsionalitas  dari  Aplikasi  Bank  Materi
+
+Pembelajaran  untuk Jenjang SMA yang dibangun telah berjalan  sesuai dengan
+
+hasil  perancangan  yang  telah  dilakukan. Berikut  merupakan  analisis  dari
+
+pengujian tersebut.
+
+a. Login
+
+Dari  fungsi  login  admin,  guru  dan  siswa  didapat  hasil  bahwa
+
+fungsionalitas  login  berjalan  sesuai  dengan  perancangan.  Jika  pengguna
+
+melakukan input data pada halaman login dan data sesuai dengan record yang ada
+
+di basis data maka pengguna akan dialihkan ke halaman masing-masing sesuai
+
+dengan hak akses masing-masing. Hasil akhir menunjukkan bahwa fungsi login
+
+telah berhasil.
+
+b. Sign Up
+
+Dari fungsi sign up guru dan siswa didapat hasil bahwa fungsionalitas sign
+
+up berjalan sesuai dengan perancangan. Data yang telah dimasukkan oleh guru
+
+dan siswa akan tersimpan ke tabel dalam basis data masing-masing, yaitu tabel
+
+guru dan tabel siswa. Data juga akan tersimpan kedalam tabel pengguna, yaitu
+
+tabel untuk melakukan login. Hasil akhir menunjukkan bahwa fungsi sign up telah
+
+berhasil.
+
+c. Admin
+
+
+
+135
+
+Dari  fungsi-fungsi  yang  terdapat  dalam  halaman  admin  didapat  hasil
+
+bahwa fungsionalitas dalam halaman admin berjalan sesuai dengan perancangan.
+
+Fungsi  pada  dashboard  mengarahkan  admin  ke  halaman  dashboard admin.
+
+Fungsi pada Lihat Website mengarahkan admin untuk melihat halaman utama.
+
+Fungsi pada Profil untuk admin melihat data pribadi admin. Fungsi Pembelajaran
+
+untuk  admin  melakukan  manajemen  data  pembelajaran.  Fungsi  Latihan  untuk
+
+admin melakukan manajemen data latihan. Fungsi Guru untuk admin melakukan
+
+manajemen  data  guru.  Fungsi  Siswa untuk admin  melakukan  manajemen  data
+
+siswa. Fungsi Log sistem untuk admin melihat log data yang dihapus sebelumnya.
+
+Hasil akhir menunjukkan bahwa fungsi-fungsi pada halaman admin telah berhasil.
+
+d. Guru
+
+Dari fungsi-fungsi yang terdapat dalam halaman guru didapat hasil bahwa
+
+fungsionalitas dalam halaman guru berjalan sesuai dengan perancangan. Fungsi
+
+pada Lihat Website mengarahkan guru untuk melihat halaman utama. Fungsi pada
+
+Profil  untuk  guru  melihat  data  pribadi  guru.  Fungsi  Pembelajaran  untuk  guru
+
+melakukan manajemen data pembelajaran. Fungsi Latihan untuk guru melakukan
+
+manajemen data  latihan.  Fungsi  Log sistem untuk guru melihat  log data  yang
+
+dihapus sebelumnya. Hasil akhir menunjukkan bahwa fungsi-fungsi pada halaman
+
+guru telah berhasil.
+
+e. Siswa
+
+Dari fungsi-fungsi yang terdapat dalam halaman siswa didapat hasil bahwa
+
+fungsionalitas dalam halaman siswa berjalan sesuai dengan perancangan. Fungsi
+
+pada halaman siswa yaitu untuk melihat  dan mengedit  data profil  siswa. Hasil
+
+akhir menunjukkan bahwa fungsi-fungsi pada halaman siswa telah berhasil.
+
+f. Pembelajaran
+
+Dari  fungsi-fungsi  yang  terdapat  dalam  halaman  pembelajaran  didapat
+
+hasil bahwa fungsionalitas dalam halaman pembelajaran berjalan sesuai dengan
+
+perancangan. Fungsi pilih mata pelajaran untuk memlih mata pelajaran.  Fungsi
+
+pilih Bab dan Subbab untuk memilih Bab dan Subbab. Fungsi Pilih Judul Materi
+
+Pelajaran  untuk  memilih  nama  materi  pelajaran.  Fungsi  download  materi
+
+
+
+136
+
+pembelajaran  untuk  mengunduh  hasil  dari  materi  pembelajaran.  Hasil  akhir
+
+menunjukkan bahwa fungsi-fungsi pada halaman pembelajaran telah berhasil.
+
+g. Tentang
+
+Dari  fungsi  yang  terdapat  pada  halaman  tentang  didapat  hasil  bahwa
+
+fungsionalitas dalam halaman tentang berjalan sesuai dengan perancangan. Fungsi
+
+menu  Tentang,  mengalihkan  pengguna  ke  halaman  tentang.  Hasil  akhir
+
+menunjukkan bahwa fungsi halaman tentang telah berhasil.
+
+4.3.2 Analisis Hasil Pengujian Usability
+
+Pengujian dengan kuesioner aspek  usability  mendapatkan hasil  bahwa
+
+aplikasi  materi  pembelajaran  mendapatkan  nilai  kualifikasi  sangat  baik  dalam
+
+aspek-aspek usability. Berikut merupakan analisis dari pengujian tersebut.
+
+a. Aspek Learnability
+
+Pada aspek Learnability siswa, sepuluh responden menilai bahwa tampilan
+
+antarmuka aplikasi  sudah terlihat baik, satu dari sepuluh responden masih sulit
+
+dalam memahami kombinasi warna dan tulisan pada aplikasi, sedangkan dua dari
+
+sepuluh responden merasa masih cukup kesulitan dalam memahami menu-menu
+
+yang ada di dalam aplikasi,  sepuluh responden dapat  melakukan pengunduhan
+
+materi  pembelajaran.  Berdasarkan  hasil  data  pengujian  tersebut  dapat  ditarik
+
+kesimpulan  bahwa  aspek  Learnability siswa  aplikasi  telah  berhasil  dan
+
+mendapatkan kualifikasi sangat baik dengan rata-rata nilai 92.5%.
+
+Pada  aspek  Learnability guru,  lima  responden  menilai  bahwa tampilan
+
+antarmuka aplikasi sudah terlihat baik, lima responden menilai bahwa kombinasi
+
+warna dan tulisan pada aplikasi cukup baik, lima responden menilai menu-menu
+
+yang ada di dalam aplikasi cukup mudah untuk dipahami, lima responden dapat
+
+melakukan pengunggahan materi pembelajaran. Berdasarkan hasil data pengujian
+
+tersebut dapat ditarik  kesimpulan bahwa aspek  Learnability guru aplikasi  telah
+
+berhasil dan mendapatkan kualifikasi sangat baik dengan rata-rata nilai 100%.
+
+b. Aspek Efficiency
+
+
+
+137
+
+Pada  aspek  Efficiency siswa,  sepuluh  responden  menilai  bahwa mudah
+
+untuk  mengakses  materi  pembelajaran  yang  diinginkan,  satu  dari  sepuluh
+
+responden masih belum bisa mengunduh materi pembelajaran sesuai dengan yang
+
+dipilih. Berdasarkan hasil data pengujian tersebut dapat ditarik kesimpulan bahwa
+
+aspek Efficiency siswa aplikasi telah berhasil dan mendapatkan kualifikasi sangat
+
+baik dengan rata-rata nilai 85%.
+
+Pada aspek Efficiency guru, lima responden menilai bahwa mudah untuk
+
+mengakses  materi  pembelajaran  yang  diinginkan,  lima  responden  telah  bisa
+
+mengunggah materi pembelajaran sesuai dengan yang dipilih. Berdasarkan hasil
+
+data  pengujian  tersebut  dapat  ditarik  kesimpulan  bahwa aspek  Efficiency  guru
+
+aplikasi telah berhasil dan mendapatkan kualifikasi sangat baik dengan rata-rata
+
+nilai 100%.
+
+c. Aspek Memorability
+
+Pada  aspek  Memorability  siswa,  satu  dari  sepuluh  responden  masih
+
+kesulitan untuk mengingat nama dari aplikasi yang digunakan, tiga dari sepuluh
+
+responden masih kesulitan dalam mengingat navigasi yang ada di dalam aplikasi,
+
+sepuluh responden mengingat cara melakukan  sign up.  . Berdasarkan hasil data
+
+pengujian  tersebut  dapat  ditarik  kesimpulan  bahwa  aspek  Memorability  siswa
+
+aplikasi telah berhasil dan mendapatkan kualifikasi sangat baik dengan rata-rata
+
+nilai 86.6%.
+
+Pada aspek  Memorability  guru, dua dari lima responden masih kesulitan
+
+untuk  mengingat  nama  dari  aplikasi  yang  digunakan,  lima  responden  menilai
+
+bahwa  navigasi  yang  ada  di  dalam  aplikasi  cukup  mudah,  lima  responden
+
+mengingat cara melakukan  sign up.  . Berdasarkan hasil data pengujian tersebut
+
+dapat ditarik kesimpulan bahwa aspek  Memorability  guru aplikasi telah berhasil
+
+dan mendapatkan kualifikasi sangat baik dengan rata-rata nilai 86.6%.
+
+d. Aspek Error
+
+Pada aspek Error siswa, satu dari sepuluh responden menemukan halaman
+
+yang tidak bisa dibuka, satu dari sepuluh responden tidak dapat melakukan login,
+
+dan  satu  dari  sepuluh  responden  menemukan  kesalahan  saat  memilih  materi
+
+pembelajaran. Berdasarkan hasil data pengujian tersebut dapat ditarik kesimpulan
+
+
+
+138
+
+bahwa aspek  Error  siswa  aplikasi  telah  berhasil  dan  mendapatkan  kualifikasi
+
+sangat baik dengan rata-rata nilai 86.6%.
+
+Pada aspek  Error  guru, lima responden tidak menemukan halaman yang
+
+tidak bisa dibuka, satu dari lima responden tidak dapat melakukan login, dan lima
+
+responden  tidak  menemukan  kesalahan  saat  memilih  materi  pembelajaran.
+
+Berdasarkan hasil data pengujian tersebut dapat ditarik kesimpulan bahwa aspek
+
+Error guru aplikasi telah berhasil dan mendapatkan kualifikasi sangat baik dengan
+
+rata-rata nilai 93.3%.
+
+e. Aspek Satisfaction
+
+Pada aspek  Satisfaction  siswa, sembilan dari sepuluh responden menilai
+
+bahwa  akan  kembali  menggunakan  aplikasi  ini  di  masa  mendatang,  sepuluh
+
+responden  menilai  bahwa  aplikasi  dapat  mempermudah  proses  pembelajaran,
+
+sembilan  dari  sepuluh  responden  merasa  puas  setelah  menggunakan  aplikasi.
+
+Berdasarkan hasil data pengujian tersebut dapat ditarik kesimpulan bahwa aspek
+
+Satisfaction siswa aplikasi telah berhasil dan mendapatkan kualifikasi sangat baik
+
+dengan rata-rata nilai 93.3%.
+
+Pada aspek Satisfaction guru, lima responden menilai bahwa akan kembali
+
+menggunakan aplikasi ini di masa mendatang, lima menilai bahwa aplikasi dapat
+
+mempermudah  proses  pembelajaran,  empat  dari  lima  responden  merasa  puas
+
+setelah menggunakan aplikasi.  Berdasarkan hasil  data  pengujian tersebut  dapat
+
+ditarik  kesimpulan  bahwa  aspek  Satisfaction  guru  aplikasi  telah  berhasil  dan
+
+mendapatkan kualifikasi sangat baik dengan rata-rata nilai 93.3%.
+
+
+
+139
+
+
+
+BAB V
+
+PENUTUP
+
+5.1. Kesimpulan
+
+Setelah dilakukan analisis dan pengujian terhadap aplikasi Bank Materi
+
+Pembelajaran untuk Jenjang SMA, dapat disimpulkan bahwa :
+
+1. Aplikasi  Bank  Materi  Pembelajaran  untuk  Jenjang  SMA  dapat  menjadi
+
+wadah yang menampung materi-materi pembelajaran.
+
+2. Hasil dari Usability Testing dapat disimpulkan bahwa berdasarkan kuesioner
+
+aspek  Usability  siswa  dan  guru  menilai  bahwa  aplikasi  yang  telah  diuji
+
+mendapatkan kualifikasi dengan nilai sangat baik dan dapat mempermudah
+
+proses pembelajaran. 
+
+5.2. Saran
+
+Adapun  beberapa  hal  yang  perlu  ditambahkan  dalam  pengembangan
+
+aplikasi Bank Materi Pembelajaran untuk Jenjang SMA adalah sebagai berikut :
+
+1. Aplikasi  Bank  Materi  Pembelajaran  untuk  Jenjang  SMA ini  dapat
+
+ditambahkan fitur-fitur yang mendukung pembelajaran seperti pemutar video
+
+pembelajaran dan audio seputar materi pembelajaran.
+
+2. Aplikasi Bank Materi Pembelajaran untuk Jenjang SMA dapat dikembangkan
+
+lagi  secara  mobile agar penggunaan aplikasi  tidak terbatas  pada pengguna
+
+komputer saja.
+
+139
+
+

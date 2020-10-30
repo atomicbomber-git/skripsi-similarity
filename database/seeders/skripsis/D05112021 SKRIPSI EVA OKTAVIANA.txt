@@ -1,0 +1,3190 @@
+
+                                                                                            
+
+BAB I
+
+PENDAHULUAN
+
+1.1 Latar Belakang
+
+Koperasi  merupakan  suatu  organisasi  atau  badan  usaha  yang  memiliki
+
+peranan  sangat  penting  dalam  menumbuhkan  dan  mengembangkan  ekonomi
+
+rakyat.  Koperasi  juga  merupakan  suatu  organisasi  bisnis  yang  dimiliki  dan
+
+dioperasikan  oleh  orang-orang  demi  kepentingan  bersama  untuk  mewujudkan
+
+keinginan  yang  akan  dicapai.  Salah  satu  ciri  koperasi  adalah  sebagai  usaha
+
+bersama kekeluargaan dan kegotongroyongan.  Seiring dengan kemajuan zaman
+
+dan  perkembangan  teknologi  informasi  yang  sangat  pesat,  koperasi  pun harus
+
+semakin  berkembang mengikuti  arus teknologi  tersebut.  Koperasi  kelapa  sawit
+
+Kapuas Hulu merupakan suatu badan usaha koperasi yang berada di Kapuas Hulu.
+
+Koperasi  ini  dalam  menjalankan  usahanya  terutama  dalam  usaha  perkebunan
+
+kelapa sawit, membangun kemitraan atau bekerja sama dengan warga setempat
+
+yang memiliki kebun kelapa sawit. Koperasi kelapa sawit juga menyelenggarakan
+
+kegiatan  usaha  anggota  yang  lain,  yaitu  berupa  :  simpan  pinjam,  pupuk,  dan
+
+angkutan Tandan Buah Segar (TBS).
+
+Bidang usaha simpan pinjam yang dijalankan oleh  koperasi kelapa  sawit
+
+Kapuas Hulu melibatkan para anggotanya dan diatur atau dikelola oleh  petugas
+
+simpan pinjam. Simpanan terdiri dari : simpanan replanting, simpanan suka rela,
+
+simpanan  hari  raya dan  simpanan  wajib.  Sedangkan pada bidang usaha pupuk
+
+terdiri dari jenis pupuk dan harga penjualan pupuk. Pada angkutan Tandan Buah
+
+Segar (TBS) data yang diperoleh yaitu jumlah data berat bersih dan jumlah data
+
+berat kotor. Spesifikasi kegiatan yang dilakukan pada koperasi ini yaitu anggota
+
+koperasi  mendaftarkan diri  dengan memberikan data  identitas  anggota.  Setelah
+
+menjadi anggota koperasi, setiap anggota selanjutnya mengisi data hamparan dan
+
+kavling. Luas kebun kelapa sawit adalah 534 hektar dan luas kavling 267 hektar.
+
+Pada data kavling terdapat dua pilihan inputan jumlah kavling, pilihan pertama
+
+yaitu  angka  1  yang  berarti  anggota  yang  memiliki  jumlah  kavling  yang  utuh
+
+sedangkan pilihan yang kedua yaitu angka 0,5 berarti jumlah kavling berkurang
+
+dengan kata  lain anggota koperasi  tersebut  menjual  kavling kepada orang lain
+
+maupun kepada anggota koperasi itu sendiri.
+
+1
+
+
+
+2
+
+Khususnya dalam kegiatan usaha simpan pinjam koperasi  kelapa  sawit,
+
+dilihat dari banyaknya jumlah anggota yang melakukan kegiatan simpan pinjam
+
+koperasi,  maka dibutuhkan strategi  yang tepat  untuk dapat memenuhi  kegiatan
+
+tersebut, baik itu dalam memasukkan (input) data dan mengeluarkan (output) data,
+
+semua  kegiatan  tersebut  membutuhkan  proses  yang  cepat  dan  akurat.  Dalam
+
+pengeloaan pendataan yang ada di koperasi ini dinilai belum efektif, karena sering
+
+kali ditemui berbagai masalah khususnya dalam hal pengolahan keluar masuknya
+
+data yang ada, terutama pengolahan data pada unit  simpan pinjam, sehingga ada
+
+beberapa  pekerjaan  dalam pendataan  koperasi  yang tidak  terselesaikan  dengan
+
+tepat.  Pihak  koperasi mengharapkan adanya aplikasi   yang  dapat   menghasilkan
+
+suatu informasi yang siap digunakan untuk membantu mereka dalam mengelola
+
+pendataan pada koperasi kelapa sawit. 
+
+Berdasarkan  fakta  permasalahan  yang  telah  diuraikan  sebelumnya  maka
+
+perlu dibangun suatu aplikasi  yang diharapkan mampu mengatasi permasalahan
+
+dalam pengolahan data pada koperasi kelapa sawit.
+
+1.2 Perumusan Masalah
+
+Pembuatan  aplikasi ini  permasalahan yang bisa teridentifikasi antara lain
+
+adalah bagaimana merancang aplikasi koperasi petani kelapa sawit Kapuas Hulu
+
+meliputi data masuk dan keluar   dari data pengiriman  buah tandan, data simpan
+
+pinjam dan data pupuk, sehingga dapat membantu dalam proses pendataan pada
+
+koperasi kelapa sawit.
+
+1.3 Tujuan Penelitian
+
+Tujuan penelitian ini adalah untuk menghasilkan sebuah aplikasi koperasi
+
+petani kelapa sawit Kapuas Hulu untuk membantu dalam pendataan data koperasi
+
+dan dapat membantu proses pencarian data serta laporan pendataan. 
+
+1.4 Pembatasan Masalah
+
+Dalam pengerjaan tugas akhir ini, sudah ditetapkan batasan permasalahan
+
+yang akan dikaji dan dilaksanakan, yaitu sebagai berikut :
+
+
+
+3
+
+1. Aplikasi yang dibangun ini disesuaikan dengan sistem yang ada pada Koperasi
+
+Kelapa Sawit Kapuas Hulu.
+
+2. Aplikasi yang dibangun mengelola anggota, data panen buah tandan, mengolah
+
+data pinjaman dan pupuk pada Koperasi Kelapa Sawit Kapuas Hulu.
+
+1.5 Sistematika Penulisan
+
+Sistematika  dari  penulisan  tugas  akhir  ini  disusun  dalam lima  bab yang
+
+terdiri  dari  Bab  I  Pendahuluan,  Bab  II  Tinjauan  Pustaka,  Bab  III  Metodologi
+
+Penelitian  dan  Analisis  Sistem,  Bab  IV  Hasil  Perancangan  dan  Pengujian
+
+Aplikasi,  serta  Bab  V  Kesimpulan  Dan  Saran.  Penjelasan  setiap  bab  adalah
+
+sebagai berikut:
+
+BAB I : Pendahuluan
+
+Merupakan bab pertama dalam penelitian, pada bab ini berisi latar belakang
+
+penelitian,  rumusan  masalah,  tujuan  penelitian,  pembatasan  masalah  dan
+
+sistematika penulisan skripsi.
+
+BAB  II : Tinjauan Pustaka
+
+Bab yang berisi uraian sistematis tentang hasil-hasil penelitian yang didapat
+
+oleh  peneliti  terdahulu  (Literature  Review)  dan  landasan  teori  yang  ada
+
+hubungannya dengan penelitian yang dilakukan.
+
+BAB III : Metodologi Penelitian dan Analisis Sistem
+
+Merupakan  bab  yang berisi  tentang  tahap-tahap  penelitian,  analisis
+
+kebutuhan, variabel atau data, analisis hasil, serta perancangan konseptual sistem.
+
+BAB IV :  Hasil Perancangan dan Pengujian Aplikasi
+
+Bab yang berisi  data  hasilpercobaan,  pengamatan,  survei  dan sebagainya
+
+yang telah dirancang pada Bab III. Setiap hasil  yang disajikan akan dilakukan
+
+analisis untuk mengarah kepada suatu kesimpulan.
+
+
+
+4
+
+BAB V :  Kesimpulan dan Saran
+
+Bab yang berisi tentang kesimpulan dari penelitian yang telah dilakukan dan
+
+saran atau rekomendasi untuk perbaikan, pengembangan atau kesempurnaan atau
+
+kelengkapan penelitian yang dilakukan.
+
+
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1 Penelitian Terkait
+
+Penelitian  terkait  terdahulu  yang  telah  melakukan  penelitian  tentang
+
+koperasi adalah  Sumiyati (2019), melakukan pengukuran pada kinerja koperasi
+
+simpan pinjam agar  dapat  ditentukan  program kerja  yang dapat  meningkatkan
+
+kinerja koperasi. Kinerja merupakan tingkat keberhasilan kerja yang dicapai oleh
+
+sekelompok atau seseorang secara keseluruhan dalam suatu perusahaan/organisasi
+
+sesuai  tanggung  jawab  dan wewenang  masing-masing,  unruk mencapai  tujuan
+
+yang ingin dicapai oleh organisasi yang bersangkutan, sesuai dengan moral dan
+
+tidak melanggar  hukum maupun etika.  Pengukuran kinerja pada koperasi perlu
+
+dilakukan untuk mengetahui hasil kerja yang dicapai oleh perusahaan.
+
+Sedangkan  penelitian  yang  ini  berfokus  pada  Aplikasi  Kelapa  Sawit
+
+Kabupaten Kapuas Hulu yang berbasis website. Tujuan dari penelitian ini adalah
+
+menghasilkan aplikasi yang mengelola data sehingga memudahkan dalam proses
+
+pendataan.
+
+2.2  Koperasi
+
+Koperasi di Indonesia dikenal pada abad XIX yaitu sekitar tahun 1896 yang
+
+dipelopori oleh R.A Wiriadmaja. Gerakan koperasi secara resmi di Indonesia pada
+
+tanggal 12 Juli 1947 di Tasikmalaya pada kongres I dan diperingati sebagai Hari
+
+Koperasi Indonesia. Pengertian koperasi berasal dari kata “Co” yaitu bersama dan
+
+“Operation”  (Koperasi  Operasi)  yang berarti  bekerja  dapat  disimpulkan bahwa
+
+pengertian  koperasi  adalah  bekerja  sama.  Pengertian  koperasi  pada  umumnya
+
+adalah suatu kumpulan orang-orang atau organisasi yang mempunyai tujuan yang
+
+sama.
+
+2.2.1 Jenis Koperasi
+
+Undang-undang  Nomor  25  Tahun  1992  tentang  pengoperasian  terbagi
+
+menjadi 5 jenis yaitu :
+
+1. Koperasi Produsen
+
+Koperasi  produsen  merupakan  anggota-anggota  yang  mengikuti  koperasi
+
+tersebut adalah para produsen. Anggota pada jenis produsen ini di mana pengguna
+
+pelayanan (user) dan pemilik (owner) kedudukan tersebut disebut sebagai 
+
+5
+
+
+
+6
+
+produsen, tugas dari anggota koperasi produsen ini adalah mengolah bahan baku
+
+atau  menginput  untuk  memperoleh  keuntungan  dengan  transaksi  serta  untuk
+
+memanfaatkan  kesempatan  pasar  untuk perjual  belikan.  Koperasi  produsen ini
+
+berperan sebagai pengadaan bahan input, bahan baku dan sarana produksi untuk
+
+menunjang  perekonomian  anggota,  sehingga  anggota  merasakan  manfaat
+
+keberadaan  koperasi  yang  mampu  meningkatkan  usaha  para  anggota  dan
+
+pendapatannya. Beberapa yang masih menjalankan fungsi koperasi :
+
+a. Anggota  berperan  sebagai  pembelian  ataupun  pengadaan  input  yang
+
+diperlukan.
+
+b. Pemasaran dari hasil produksi oleh usaha anggota.
+
+c. Menyediakan kantor pemasaran bersama atau menanggung resiko bersama.
+
+2. Koperasi Konsumen
+
+Koperasi  konsumen  merupakan  koperasi  untuk  melaksanakan  kegiatan
+
+untuk para anggota dalam rangka menyediakan jasa yang dibutuhkan oleh anggota
+
+atau  barang.  Koperasi  ini  berperan  dalam  meningkatkan  daya  beli  sehingga
+
+pendapatan  anggota  meningkat.  Pada  koperasi  ini  di  mana  pemilik  (owner)
+
+sebagai  identitas  dan pelanggan  (customer).  Dalam kedudukan anggota  adalah
+
+sebagai  konsumen, kegiatan mengkonsumsi adalah konsumsi barang/jasa yang
+
+disediakan pasar. Fungsi pokok koperasi ini adalah menyelenggarakan :
+
+a. Pengadaan  barang/jasa  dan  pembelian  kebutuhan  anggota  dilakukan  secara
+
+efisien, seperti pembeli dengan jumlah yang lebih besar.
+
+b. Pengadaan  inovasi,  seperti  sumber  dana  kredit  dengan  jumlah  yang  lebih
+
+rendah,  berupa  pemanfaatan  dana  bergulir,  pembelian  dengan  kredit  dan
+
+pembelian dengan diskon.
+
+3. Koperasi Simpan Pinjam
+
+Koperasi  simpan pinjam atau  yang sering disebut  dengan nama koperasi
+
+kredit, koperasi ini berfungsi sebagai layanan tabungan dan sekaligus memberikan
+
+kredit  bagi memberikan kredit  bagi  anggotanya.  Pelayanan koperasi  ini  adalah
+
+pelayanan  anggota  yang memenuhi  kebutuhan  pelayan keuangan bagi  anggota
+
+menjadi lebih maju. Pada koperasi ini anggotanya memiliki kedudukan identitas
+
+ganda  sebagai  pemilik  (owner) dan  nasabah  (customer).  Kedudukan  sebagai
+
+nasabah  anggota  melaksanakan  kegiatan  menabung  serta  meminjam  kepada
+
+
+
+7
+
+koperasi dalam bentuk kredit. Pelayanan koperasi bentuk simpanan wajib kepada
+
+anggota yang menabung, simpanan suka rela dan deposit ini adalah sumber modal
+
+bagi koperasi. Penghimpunan dana dari para anggota dijadikan modal selanjutnya
+
+oleh koperasi disalurkan dalam bentuk kredit atau pinjaman kepada anggota dan
+
+calon anggota dengan cara pinjam (KSP) dan Unit Usaha Simpan Pinjam (USP)
+
+koperasi.  Berdasarkan  cara  itulah  koperasi  melaksanakan  fungsi  dari  unit
+
+penabung dan disalurkan ke unit peminjam dana untuk disalurkan dalam bentuk
+
+kredit kepada anggota yang membutuhkan. Kegiatan simpan pinjam oleh koperasi
+
+dilaksanakan dalam bentuk koperasi simpan pinjam.
+
+4. Koperasi Pemasaran
+
+Koperasi pemasaran adalah koperasi yang sering disebut dengan koperasi
+
+penjualan  adapun pelaku  yang ada  pada  koperasi  pemasaran  yaitu  :  indentitas
+
+anggota  (owner)  dan  penjual  (seller)  atau  pemasar.  Fungsi  dari  koperasi
+
+pemasaran  ini  adalah  menampung  produk  maupun  jasa  yang  dihasilkan  oleh
+
+anggota  untuk  dipasarkan  kepada  konsumen.  Pada  koperasi  ini  anggota
+
+kedudukannya adalah sebagai pemasok barang atau jasa kepada koperasi.  Bagi
+
+para  anggota  koperasi  merupakan  bagian  terdepan  dalam  pemasaran  barang
+
+ataupun  jasa  anggota  produsen.  Berhasil  dalam  memajukan  fungsi  pemasaran
+
+maka tingkat kepastian usaha bagi anggota untuk tetap dapat berproduksi.
+
+5. Koperasi Jasa
+
+Koperasi jasa adalah di mana identitas anggota sebagai pemilik dan nasabah
+
+konsumen jasa dan produsen jasa. Status anggota sebagai konsumen jasa, maka
+
+koperasi  yang didirikan oleh koperasi  pengadaan jasa.  Sedangkan dalam status
+
+anggota  sebagai  produsen jasa,  maka  koperasi  yang didirikan  adalah  koperasi
+
+produsen jasa atau koperasi pemasaran jasa. Jika koperasi melaksanakan fungsi
+
+memasarkan jasa hasil  produksi anggota.  Koperasi  dikenal pula beberapa jenis
+
+koperasi atas dasar cakupan pengelolaan bisnis (usaha), yaitu jenis Multi Purpose
+
+(banyak usaha) dan koperasi  Single Purpose  (satu usaha). Koperasi dengan satu
+
+kegiatan  usaha,  misalnya  koperasi  simpan pinjam (KSP),  koperasi  tahu tempe
+
+(Primkopri),  Koperasi  produsen  susu,  Koperasi  bank  Perkreditan  Rakyat  dan
+
+sebagainya.  Koperasi  yang  mempunyai  lebih  dari  satu  kegiatan  usaha  disebut
+
+dengan  koperasi  serba  usaha.  Koperasi  jenis  serba  usaha  misalnya  seperti
+
+
+
+8
+
+Koperasi Pemasaran, dimana koperasi dikenal dengan beberapa sebutan koperasi,
+
+seperti  Koperasi  Primer  Koperasi  Angkatan  Darat  (Primkopad),  Koperasi
+
+Mahasiswa  (Kopma),  Koperasi  Karyawan  (Kopkar),  Koperasi  Pegawai  Negeri
+
+(KPN), Koperasi Unit Desa (KUD), Koperasi Pasar, Primer Koperasi Kepolisian
+
+dan sebagainya.
+
+2.2.2 Fungsi dan Peran Koperasi
+
+Menurut  Undang-Undang  Nomor  25  tahun  1992  pasal  4  dijelaskan
+
+bahwa fungsi dan peran koperasi sebagai berikut :
+
+1. Membangun dan mengembangkan potensi dan kemampuan ekonomi anggota
+
+pada  khususnya  dan  masyarakat  pada  umumnya  untuk  meningkatkan
+
+kesejahteraan ekonomi dan sosial.
+
+2. Berperan secara aktif dalam upaya mempertinggi kualitas kehidupan manusia
+
+dan masyarakat.
+
+3. Memperkokoh rakyat  sebagai  dasar  kekuatan  dan ketahanan  perekonomian
+
+nasional.
+
+4. Berusaha  untuk  mewujudkan  dan  mengembangkan  perekonomian  nasional,
+
+yang  merupakan  usaha  bersama  berdasarkan  atas  asas  kekeluargaan  dan
+
+demokrasi ekonomi.
+
+5. Mengembangkan  kreatifitas  dan  membangun  jiwa  berorganisasi  bagi  para
+
+pelajar.
+
+2.3 Alat Bantu Perancangan Sistem
+
+Pada sistem yang akan dibuat,  rancangan yang dilakukan menggunakan
+
+beberapa  tools untuk  membantu  perancangan.  Tools yang  digunakan  adalah
+
+sebagai berikut.
+
+2.3.1 Diagram Proses Bisnis
+
+Diagram proses bisnis adalah cara visual menjelaskan langkah-langkah atau
+
+aktivitas-aktivitas dalam proses bisnis. Sebelum membuat diagram proses bisnis
+
+ada beberapa point yang harus diperhatikan:
+
+1. Mengidentifikasi dan memahami proses bisnis
+
+Mengembangkan observasi proses diagram bisnis organisasi dan arus data,
+
+mengidentifikasi departemen, fungsi-fungsi bisnis dan pihak eksternal.
+
+
+
+9
+
+2. Mengabaikan komponen-komponen tertentu
+
+Menggambarkan  apa  yang  terjadi  tetapi  tidak  merinci  bagaimana
+
+prosesnya dan di manakan dokumen akan di simpan atau menggunakan
+
+teknologi apa yang digunakan.
+
+3. Memutuskan seberapa mendetail yang dimasukkan
+
+Digambarkan secara detail guna untuk mempermudah dalam mengevaluasi
+
+apakah tugas-tugas dipisahkan secara sesuai atau tidak.
+
+4. Mengelola bagan alir
+
+Dasarnya  terdiri  dari  dua  kolom  dan  sebanyak  mungkin  garis  yang
+
+diperlukan guna untuk menjelaskan proses dalam kolom utama.
+
+5. Memasukkan setiap proses dalam diagram 
+
+Menunjukkan setiap aktifitas dalam proses bisnis yag terjadi  dan dalam
+
+baris  yang  sesuai,  menggunakan  symbol  yang  sesuai.  Menuliskan  juga
+
+deskripsi dari setiap simbol.
+
+6. Menggambarkan stetsa kasar
+
+Meninjau dengan orang yang mengerti system. Menyempurnakan diagram
+
+dibutuhkan  sehingga  proses  bisnis  dapat  digambar  secara  akurat  dan
+
+diagram dapat dipahami dengan mudah.
+
+7. Menggambarkan salinan final
+
+Tempatkan  nama  diagram,tanggal  dan  nama  yang  mempersiapkan  di
+
+setiap halaman.
+
+Gambar 2.1 Simbol diagram proses bisnis
+
+
+
+10
+
+2.3.2 Data Flow Diagram (DFD)
+
+Data flow diagram (DFD) merupakan alat  yang menggambarkan aliran
+
+data melalui sistem dan kerja atau pengolahan yang dilakukan oleh sistem tersebut
+
+(Suyanto, 2004).
+
+Menurut  Kristanto  (2004),  bahwa DFD adalah  suatu model  logika data
+
+atau proses yang dibuat untuk menggambarkan dari mana asal data dan ke mana
+
+tujuan  data  yang keluar  dari  sistem,  di  mana  data  disimpan,  proses  apa  yang
+
+menghasilkan data tersebut dan interaksi antara data yang tersimpan dan proses
+
+yang dikenakan pada data tersebut.
+
+DFD mempunyai keterbatasan yaitu tidak menunjukan proses perulangan
+
+atau  loop,  tidak  menunjukan  proses  keputusan  (decision),  tidak  menunjukkan
+
+proses perhitungan. Keterbatasan DFD ini dapat dipecahkan dengan menambah
+
+penggunaan  operasional  operator  sehingga  kemampuan  DFD  dapat  lebih
+
+ditingkatkan  (Jogiyanto,  2005).  Ada  beberapa  simbol  digunakan  pada  DFD
+
+(Jogiyanto, 2005), yaitu :
+
+1) Kesatuan Luar (External Entity)
+
+Kesatuan  luar  (external  entity)  merupakan  kesatuan  (entity)  di  lingkungan
+
+luar sistem yang dapat berupa orang, organisasi, atau sistem lain yang berada
+
+pada lingkungan luarnya yang memberikan input atau menerima output dari
+
+sistem.
+
+2) Arus Data (Data Flow)
+
+Arus  Data  (data  flow)  di  DFD  diberi  simbol  suatu  panah.  Arus  data  ini
+
+mengalir  di  antara  proses,  simpan  data  dan  kesatuan  luar.  Arus  data  ini
+
+menunjukan  arus  dari  data  yang dapat  berupa  masukan untuk sistem atau
+
+hasil dari proses sistem.
+
+3) Proses (Process)
+
+Proses  (process)  menunjukan  pada  bagian  yang  mengubah  input menjadi
+
+output, yaitu  menunjukan bagaimana satu atau lebih  input diubah menjadi
+
+beberapa output.
+
+4) Simpanan Data (Data Store)
+
+Data Store merupakan simpanan dari data yang dapat berupa suatu file atau
+
+database pada sistem komputer.
+
+
+
+11
+
+Beberapa simbol yang digunakan pada DFD dapat dilihat pada Tabel 2.1.
+
+Tabel 2.1 Simbol-simbol DFD
+
+Sumber: (Jogiyanto, 2005)
+
+2. 4
+
+Database
+
+Database atau  basis  data  merupakan  sekumpulan  data  yang  berisi
+
+informasi  yang  saling  berhubungan  (Yuswanto,  2005).  Basis  data  sebuah
+
+penyimpanan data  yang besar yang bisa digunakan oleh banyak pengguna dan
+
+departemen. Kumpulan dari data yang berhubungan dan merupakan deskripsi dari
+
+data-data  tersebut  yang didesain untuk menemukan informasi  yang dibutuhkan
+
+suatu perusahaan. (Connolly, 2010).
+
+Proses  memasukkan  dan  mengambil  data  dari  media  penyimpanan  data
+
+memerlukan perangkat lunak yang disebut dengan sistem manajemen basis data
+
+(Database Management System / DBMS). Tujuan utama dari DBMS adalah untuk
+
+memberikan tinjauan abstrak data kepada user (Marlinda, 2004).
+
+2.4.1 Entity Relationship Diagram (ERD)
+
+Entity Relationship Diagram (ERD) adalah gambaran pada sistem yang di
+
+dalamnya terdapat hubungan antara  entity  beserta relasinya. Untuk setiap  entity
+
+biasanya mempunyai  atribut yang merupakan ciri  entity tersebut.  Relasi adalah
+
+hubungan  antar  entity yang  berfungsi  sebagai  hubungan  yang  mewujudkan
+
+pemetaan antar entity (Marlinda, 2004).
+
+ERD  memiliki  3  komponen,  yaitu  menurut  Jogiyanto  (2005)  adalah
+
+sebagai berikut :
+
+Simbol DFD Nama
+
+Entitas / Kesatuan luar
+
+Proses
+
+Arus data / Aliran data
+
+                   Data
+Data store / Simpanan data
+
+
+
+12
+
+1. Atribut
+
+Sifat atau karakteristik dari suatu entitas.
+
+2. Cardinality
+
+Di dalam  ERD  terdapat  tingkat  hubungan  antara  entitas  yang  satu  dengan
+
+entitas lainnya atau disebut juga relasi. Meliputi :
+
+a. One to One (1:1)
+
+Setiap anggota entitas A hanya boleh berhubungan dengan satu anggota entitas
+
+B, begitu pula sebaliknya.
+
+b. One to many (1:M / Many)
+
+Setiap anggota entitas  A dapat berhubungan dengan lebih dari  satu anggota
+
+entitas B tetapi tidak sebaliknya.
+
+c. Many to Many (M:M)
+
+Setiap entitas A dapat berhubungan dengan banyak entitas himpunan entitas B
+
+dan demikian pula sebaliknya.
+
+3. Entitas
+
+Memberikan identitas yang mewakili suatu objek dan dapat dibedakan dengan
+
+objek lain. 
+
+Berikut ini adalah simbol-simbol pada ERD dapat dilihat pada Tabel 2.2
+
+Tabel 2.2  Simbol-simbol ERD
+
+Simbol ERD Keterangan
+
+Entitas :
+
+Memberikan identitas yang mewakili
+
+suatu objek
+
+Relasi :
+
+Menunjukkan hubungan diantara sejumlah
+
+entitas yang berbeda.
+
+Atribut :
+
+Properti yang dimiliki oleh suatu entitas,
+
+yang dapat mendeskripsikan karakteristik
+
+dari entitas tersebut.
+
+
+
+13
+
+Sumber: (Jogiyanto, 2005)
+
+2.4.2 MySQL
+
+Database yang digunakan pada sistem pendukung keputusan ini  adalah
+
+MySQL.  MySQL  (My  Structure  Query  Language)  adalah  sebuah  program
+
+pembuat  database yang  bersifat  open  source,  artinya  multi  user  (banyak
+
+pengguna) siapa saja boleh menggunakannya dan tidak dicekal.  Kelebihan lain
+
+dari  MySQL  adalah  menggunakan  bahasa  query  standar  yang  dimiliki  SQL
+
+(Structure  Query  Language).  SQL  adalah  suatu  bahasa  permintaan  yang
+
+terstruktur yang telah distandar untuk semua program pengakses database seperti
+
+Oracle,  Posgres  SQL,  SQL  Server,  dan  lain-lain.  Sebagai  sebuah  program
+
+penghasil  database,  MySQL tidak  dapat  berjalan  sendiri  tanpa  adanya  sebuah
+
+aplikasi lain. MySQL dapat didukung oleh hampir semua program aplikasi, dan
+
+multiplatform (Nugroho, 2005).
+
+2.5 Website
+
+Menurut Agung (2001)  website merupakan kumpulan halaman  web yang
+
+saling terhubung dan  file saling terkait.  Website terdiri dari  page atau halaman,
+
+dan kumpulan halaman yang dinamakan homepage. Homepage berada pada posisi
+
+teratas, dengan halaman - halaman terkait berada di bawahnya. 
+
+Menurut  Yuhefizar  (2008)  Website adalah  suatu  metode  untuk
+
+menampilkan informasi di internet, baik berupa teks, gambar, suara maupun video
+
+yang  interaktif  dan  mempunyai  kelebihan  untuk  menghubungkan  (link)  satu
+
+dokumen dengan dokumen lainnya (hypertext) yang dapat diakses melalui sebuah
+
+browser.
+
+2.6 Hypertext Preprocessor (PHP)
+
+Hypertext Preprocessor (PHP) merupakan bahasa standar yang digunakan
+
+dalam  dunia  website.  PHP  adalah  bahasa  programming yang  baru  dibangun
+
+sekitar  tahun  1994  atau  1995.  PHP  dapat  menukarkan  staticwebsite yang
+
+menggunakan HTML ke dynamic website.  PHP sebenarnya merupakan program
+
+yang berjalan pada  platformLinux namun PHP mengalami perkembangan yakni
+
+dibuat dalam versi Windows. PHP tergolong sebagai perangkat lunak open source
+
+yang  diatur  dalam  aturan  General  Purpose  Licences (GPL).  PHP  merupakan
+
+
+
+14
+
+bahasa berbentuk skrip yang ditempatkan dalam server dan diproses di  server.
+
+Hasilnya yang dikirim ke  client,  tempat pemakai menggunakan  browser. Secara
+
+khusus PHP dirancang untuk membentuk  web dinamis.  PHP dapat membentuk
+
+suatu tampilan berdasarkan permintaan terkini (Kadir, 2003).
+
+
+
+BAB IV
+
+HASIL PERANCANGAN DAN PENGUJIAN APLIKASI
+
+4.1 Hasil Perancangan
+
+Perancangan yang telah  dilakukan  terdiri  dari  perancangan  arsitektur
+
+sistem, diagram alir sistem, dan basis data. Perancangan tersebut menghasilkan
+
+sebuah  aplikasi  koperasi  petani  kelapa  sawit  Kapuas  Hulu.  Antarmuka  dari
+
+Aplikasi  ini adalah antarmuka  admin pengiriman,  admin simpan pinjam,  admin
+
+pupuk dan Pimpinan.
+
+4.1.1 Antarmuka Halaman Login
+
+Antarmuka halaman  login yaitu halaman yang diakses oleh pengguna.
+
+Pada halaman ini terdapat form login yang digunakan oleh pengguna ketika ingin
+
+menggunakan aplikasi. Tampilan halaman login dapat dilihat pada gambar 4.1.
+
+Gambar 4.1 Antarmuka login
+
+4.1.2 Antarmuka Admin Pengiriman TBS
+
+Hasil  perancangan  antar  muka  aplikasi salah  satunya adalah  antarmuka
+
+admin pengiriman. Terdiri dari  8 menu yaitu dashboard, input pengiriman, data
+
+pengiriman,  data  pemotongan,  data  master,  data  anggota,  laporan,  rp  global
+
+danreferensi.
+
+4.1.2.1 Menu Dashboard
+
+Dashboard merupakan menu utama setelah  pengguna berhasil  login.
+
+Pada  halaman  ini  ditampilkan menu  menu  yang  dapat  di  akses  oleh  admin
+
+pengiriman TBS. Tampilan halaman dashboard dapat dilihat pada gambar 4.2
+
+50
+
+
+
+51
+
+Gambar 4.2 Antarmuka dashboard admin pengiriman TBS
+
+4.1.2.2 Menu Input Pengiriman
+
+Menu Input Pengiriman merupakan menu di mana admin pengiriman TBS
+
+dapat menginputkan data periode pengiriman dan data pengiriman BTS. Gambar
+
+menu input periode pengiriman dan data input data pengiriman BTS dapat dilihat
+
+pada Gambar 4.3 dan Gambar 4.4.
+
+Gambar 4.3 Antarmuka Periode
+
+
+
+52
+
+Gambar 4.4 Antarmuka pengiriman TBS
+
+4.1.2.3 Menu Data Pengiriman
+
+Menu data pengiriman merupakan menu di mana admin pengiriman dapat
+
+melihat data pengiriman TBS. Gambar menu data pengiriman TBS dapat dilihat
+
+pada gambar 4.5
+
+Gambar 4.5 Antarmuka data pengiriman
+
+
+
+53
+
+4.1.2.4 Menu Data Potongan
+
+Menu data potongan merupakan menu di mana  admin pengiriman dapat
+
+menginputkan  data  jenis  potongan,  potongan  angkutan,  potongan  hamparan.
+
+Menu data potongan dapat dilihat pada gambar 4.6 untuk menu jenis potongan,
+
+Gambar   4.7  untuk  menu  potongan  angkutan,  Gambar  4.8  untuk  potongan
+
+hamparan.
+
+Ganbar 4.6 Antarmuka jenis potongan
+
+Ganbar 4.7 Antarmuka potongan hamparan
+
+
+
+54
+
+Ganbar 4.8 Antarmuka jenis angkutan
+
+4.1.2.5      Menu Data Master
+
+Menu  data  master  merupakan  menu  di  mana  admin  pengiriman dapat
+
+menginputkan  data  kontraktor,  kendaraan,  hamparan  dan  data  kavling.  Menu
+
+input data kontraktor dapat dilihat pada gambar 4.9, menu input data kendaraan
+
+dapat di lihat pada  Gambar 4.10, menu input data hamparan dapat dilihat pada
+
+Gambar 4.11, menu input data kavling dapat dilihat pada Gambar 4.12. 
+
+Gambar 4.9 Antarmuka data kontraktor
+
+
+
+55
+
+Gambar 4.10 Antarmuka data kendaraan
+
+Gambar 4.11 Antarmuka data hamparan
+
+
+
+56
+
+Gambar 4.12 Antarmuka data kavling
+
+4.1.2.6 Menu Data Anggota
+
+Menu  data  anggota  adalah  menu  di  mana  admin  pengiriman dapat
+
+menginputkan  data  anggota.  Gambar  menu  data  anggota   dapat  dilihat  pada
+
+Gambar 4.13
+
+Gambar 4.13 Antarmuka data anggota
+
+
+
+57
+
+4.1.2.7     Menu Laporan
+
+Menu laporan merupakan menu di mana admin pengiriman dapat melihat
+
+rekap pengiriman, melihat laporan pengiriman/periode dan laporan pembayaran &
+
+slip gaji. Menu rekap pengiriman dapat di lihat pada Gambar  4.14 , menu laporan
+
+pengiriman/periode dapat di lihat pada Gambar 4.15, menu laporan pembayaran &
+
+slip gaji dapat dilihat pada Gambar 4.16.
+
+Gambar 4.14 Antarmuka laporan rekapitulasi pengiriman TBS petani
+
+Gambar 4.15 Antarmuka laporan entri pengiriman TBS
+
+
+
+58
+
+Gambar 4.16 Antarmuka laporan pembayaran angkutan rental TBS
+
+4.1.2.8      Menu RP Global
+
+Menu  Rp  global  merupakan  menu  di  mana  admin  pengiriman dapat
+
+melihat rekapitulasi pembayaran TBS petani. Menu Rp global dapat dilihat pada
+
+Gambar 4.17.
+
+Gambar 4.17 Antarmuka rekapitulasi pembayaran TBS petani
+
+
+
+59
+
+4.1.2.9 Menu Referensi
+
+Menu referensi merupakan menu di mana admin pengiriman dapat melihat
+
+dan menginputkan  data  harga TBS,  menginputkan  data  pejabat,  menginputkan
+
+data setting aplikasi dan menginputkan data user dari aplikasi. Gambar data harga
+
+TBS dapat dilihat pada Gambar 4.18, gambar input data pejabat dapat dilihat pada
+
+Gambar  4.19,  gambar  input  data  setting  dapat  dilihat  pada  Gambar  4.20  dan
+
+gambar input data user dapat dilihat pada Gambar 4.21.
+
+Gambar 4.18 Antarmuka entri harga TBS dan biaya angkutan
+
+Gambar 4.19 Antarmuka manajemen data pejabat
+
+
+
+60
+
+Gambar 4.20 Antarmuka data user
+
+4.1.3 Antarmuka Admin Simpan Pinjam
+
+Hasil  perancangan  antar  muka  aplikasi salah  satunya adalah  antarmuka
+
+admin simpan pinjam. Terdiri dari 8 menu yaitu dashboard, transaksi, simpanan,
+
+data master, data anggota, arus kas, laporan  dan referensi.
+
+4.1.3.1 Menu Dashboard Admin Simpan Pinjam
+
+Dashboard merupakan  menu  utama  setelah  pengguna  berhasil  login.
+
+Pada halaman ini ditampilkan menu menu yang dapat diakses oleh admin simpan
+
+pinjam. Tampilan halaman dashboard dapat dilihat pada Gambar 4.21.
+
+Gambar 4.21 Antarmuka dashboard admin simpan pinjam
+
+
+
+61
+
+4.1.3.2  Menu Transaksi
+
+Menu transaksi  merupakan menu yang dapat dikelola oleh admin simpan
+
+pinjam. Yang mana pada menu ini admin simpan pinjam dapat menginputkan data
+
+transaksi. Menu data input pinjaman dapat dilihat pada Gambar 4.22, menu data
+
+pembayaran dapat dilihat pada Gambar 4.23.
+
+Gambar 4.22 Antarmuka pinjaman
+
+Gambar 4.23 Antarmuka pembayaran
+
+
+
+62
+
+4.1.3.3  Menu Data Simpanan
+
+Menu  data  simpanan  merupan  menu  yang  dapat  dikelola  oleh  admin
+
+simpan  pinjam.  Yang  mana  pada  menu  ini  admin  simpan  pinjam dapat
+
+menginputkan data simpanan. Menu data input simpanan replanting dapat dilihat
+
+pada Gambar 4.24, menu data simpanan suka rela dapat dilihat pada Gambar 4.25,
+
+menu  data  simpanan  hari  raya  dapat  dilihat  pada  Gambar  4.26,  menu  data
+
+simpanan wajib dapat dilihat pada Gambar 4.27.
+
+Gambar 4.24 Antarmuka replanting
+
+Gambar 4.25 Antarmuka suka rela
+
+
+
+63
+
+Gambar 4.26 Antarmuka hari raya
+
+Gambar 4.27 Antarmuka wajib
+
+4.1.3.4  Menu Data Master
+
+Menu data master merupan menu yang dapat di kelola oleh admin simpan
+
+pinjam. Yang mana pada menu ini admin simpan pinjam dapat menginputkan data
+
+hamparan dan data kavling. Menu data input hamparan dapat dilihat pada Gambar
+
+4.28  dan menu data input kavling dapat dilihat pada Gambar 4.29.
+
+
+
+64
+
+Gambar 4.28 Antarmuka hamparan
+
+Gambar 4.29 Antarmuka kavling
+
+4.1.3.5  Menu Data Anggota
+
+Menu  data  anggota  merupakan  menu  yang dapat  dikelola  oleh   admin
+
+simpan pinjam.  Pada menu ini  admin simpan pinjam dapat menginputkan data
+
+anggota. Menu data anggota dapat dilihat pada Gambar 4.30.
+
+
+
+65
+
+Gambar 4.30 Antarmuka data anggota
+
+4.1.3.6  Menu Arus Khas 
+
+Menu Arus khas merupakan menu di mana  admin simpan pinjam dapat
+
+mengelola trx debet dan buku besar. Menu Trx debet padat dilihat pada Gambar
+
+4.31 dan menu buku besar dapat dilihat pada Gambar 4.32.
+
+Gambar 4.31 Antarmuka debet/kredit
+
+
+
+66
+
+Gambar 4.32 Antarmuka buku besar
+
+4.1.3.7  Menu Laporan
+
+Menu laporan  merupakan menu yang dapat  di  akses oleh  admin simpn
+
+pinjam. Yang mana pada menu ini  admin simpan pinjam dapat melihat laporan
+
+simpanan,  pinjaman,  pembayaran,  pengeluaran,  pendapatan,  dan  arus  khas.
+
+Gambar menu laporan gambar laporan simpanan dapat dilihat pada gambar 4.33,
+
+menu  laporan  pinjaman  dapat  di  lihat  pada  Gambar  4.34,  gambar  lapoaran
+
+pembayaran dapat dilihat pada  Gambar 4.35, gambar menu laporan pengeluaran
+
+dapat dilihat pada gambar 4.36, gambar menu laporan pendapatan daaat dilihat
+
+pada  Gambar 4.37, gambar menu laporan arus khas dapat di lihat pada  Gambar
+
+4.38.
+
+
+
+67
+
+Gambar 4.33 Antarmuka laporan simpanan
+
+Gambar 4.34 Antarmuka laporan pinjaman
+
+
+
+68
+
+Gambar 4.35 Antarmuka laporan pembayaran
+
+Gambar 4.36 Antarmuka laporan pengeluaran
+
+
+
+69
+
+Gambar 4.37 Antarmuka laporan pendapatan pinjaman
+
+Gambar 4.38 Antarmuka laporan arus kas
+
+4.1.3.8  Menu Referensi
+
+Menu referensi merupakan menu yang dapat diakses oleh  admin simpan
+
+pinjam. Yang mana pada menu ini admin simpan pinjam dapat mengatur aplikasi.
+
+Menu pengaturan aplikasi dapat dilihat pada Gambar 4.39.
+
+
+
+70
+
+Gambar 4.39 Antarmuka settings aplikasi
+
+4.1.4 Antarmuka Admin Pupuk
+
+Hasil  perancangan  antar  muka  aplikasi salah  satunya adalah  antarmuka
+
+admin  pupuk. Terdiri dari 7  menu yaitu dashboard, transaksi, data master, data
+
+anggota, arus khas, laporan dan referensi.
+
+4.1.4.1 Menu Dashboard Admin Pupuk
+
+Dashboard merupakan menu utama setelah pengguna berhasil  login.
+
+Pada halaman ini ditampilkan menu menu yang dapat diakses oleh admin  pupuk.
+
+Tampilan halaman dashboard dapat dilihat pada Gambar 4.40.
+
+Gambar 4.40 Antarmuka dashboard admin pupuk
+
+
+
+71
+
+4.1.4.2 Menu Transaksi
+
+Menu transaksi  merupakan menu yang dapat dikelola oleh  admin pupuk.
+
+Yang mana pada menu ini admin pupuk dapat menginputkan data transaksi. Menu
+
+data  input  penjualan dapat  dilihat  pada  Gambar  4.41,  menu  data  pembayaran
+
+dapat dilihat pada Gambar 4.42.
+
+Gambar 4.41 Antarmuka penjualan
+
+Gambar 4.42 Antarmuka pembayaran
+
+
+
+72
+
+4.1.4.3  Menu Data Master
+
+Menu data master merupan menu yang dapat dikelola oleh admin pupuk.
+
+Yang mana pada menu ini  admin pupuk dapat menginputkan data kategori dan
+
+data barang. Menu data input kategori dapat dilihat pada Gambar 4.43 dan menu
+
+data input barang dapat dilihat pada Gambar 4.44.
+
+Gambar 4.43 Antarmuka kategori
+
+Gambar 4.44 Antarmuka barang
+
+4.1.4.4   Menu Data Anggota
+
+
+
+73
+
+Menu  data  anggota  merupakan  menu  yang  dapat  dikelola  oleh  admin
+
+pupuk. Pada menu ini admin pupuk dapat menginputkan data anggota. Menu data
+
+anggota dapat dilihat pada Gambar 4.45.
+
+Gambar 4.45 Antarmuka data anggota
+
+4.1.4.5 Menu Arus Khas 
+
+Menu Arus khas merupakan menu dimana admin pupuk dapat mengelola
+
+debet/kredit dan buku besar. Menu debet/kredit padat dilihat pada  Gambar 4.46
+
+dan menu buku besar dapat dilihat pada Gambar 4.47.
+
+Gambar 4.46 Antarmuka debet/kredit
+
+
+
+74
+
+Gambar 4.47 Antarmuka buku besar
+
+4.1.4.6     Menu Laporan
+
+Menu laporan  merupakan menu yang dapat  diakses  oleh  admin pupuk.
+
+Yang  mana  pada  menu  ini  admin  pupuk   dapat  melihat  laporan  penjualan,
+
+pembayaran,  pengeluaran,  pendapatan,  dan  arus  khas.  Gambar  menu  laporan
+
+penjualan  dapat  dilihat  pada  Gambar  4.48,  gambar  laporan  pembayaran  dapat
+
+dilihat pada  Gambar 4.49,  gambar menu laporan pengeluaran dapat dilihat pada
+
+Gambar 4.50, gambar menu laporan pendapatan dapat dilihat pada Gambar 4.51,
+
+Gambar menu laporan arus khas dapat di lihat pada Gambar 4.52.
+
+Gambar 4.48 Antarmuka laporan penjualan
+
+
+
+75
+
+Gambar 4.49 Antarmuka laporan pembayaran
+
+Gambar 4.50 Antarmuka laporan pengeluaran
+
+
+
+76
+
+Gambar 4.51 Antarmuka laporan pendapatan
+
+Gambar 4.52 Antarmuka laporan arus kas
+
+4.1.4.7    Menu Referensi
+
+Menu referensi merupakan menu yang dapat diakses oleh admin pupuk  .
+
+Yang  mana  pada  menu  ini  admin  pupuk   dapat  mengatur  aplikasi.  Menu
+
+pengaturan aplikasi dapat dilihat pada Gambar 4.53.
+
+Gambar 4.53 Antarmuka setting aplikasi
+
+4.1.5 Antarmuka Pimpinan
+
+
+
+77
+
+Hasil  perancangan  antar  muka  aplikasi salah  satunya adalah  antarmuka
+
+Pimpinan. Terdiri dari 3  menu yaitu dashboard, laporan dan referensi.
+
+4.1.5.1 Menu Dashboard
+
+Dashboard merupakan menu utama setelah pengguna berhasil  login.
+
+Pada  halaman ini  ditampilkan menu menu yang dapat  diakses  oleh  Pimpinan.
+
+Tampilan halaman dashboard dapat dilihat pada Gambar 4.54.
+
+Gambar 4.54 Antarmuka dashboard pimpinan
+
+4.1.5.2     Menu Laporan
+
+Menu laporan merupakan menu yang dapat diakses oleh Pimpinan. Yang
+
+mana  pada  menu  ini  Pimpinan  dapat  melihat  laporan  rekap  pengiriman,
+
+pengiriman/periode, pembayaran & slip gaji,  simpanan, pinjaman,  pembayaran,
+
+pengeluaran, pendapatan, dan arus khas. Gambar menu laporan rekap pengiriman
+
+dapat dilihat pada Gambar 4.55, gambar laporan pengiriman/periode dapat dilihat
+
+pada  Gambar 4.56, gambar laporan  pembayaran & slip gaji dapat dilihat  pada
+
+Gambar 4.57, gambar laporan simpanan dapat dilihat pada Gambar 4.58, gambar
+
+laporan  pinjaman dapat dilihat pada  Gambar 4.59, gambar laporan  pembayaran
+
+dapat dilihat pada Gambar 4.60, gambar menu laporan pengeluaran dapat dilihat
+
+pada Gambar 4.61, gambar menu laporan pendapatan dapat dilihat pada Gambar
+
+4.62, Gambar menu laporan arus khas dapat di lihat pada Gambar 4.63.
+
+
+
+78
+
+Gambar 4.55 Antarmuka laporan rekapitulasi TBS petani
+
+Gambar 4.56 Antarmuka laporan pengiriman TBS petani
+
+
+
+79
+
+Gambar 4.57 Antarmuka laporan pembayaran angkutan rental TBS
+
+Gambar 4.58 Antarmuka simpanan
+
+
+
+80
+
+Gambar 4.59 Antarmuka pinjaman
+
+Gambar 4.60 Antarmuka pembayaran
+
+
+
+81
+
+Gambar 4.61 Antarmuka pengeluaran
+
+Gambar 4.62 Antarmuka pendapatan
+
+
+
+82
+
+Gambar 4.63 Antarmuka arus kas
+
+4.1.5.2     Menu Referensi
+
+Menu referensi merupakan menu di mana admin Pimpinan dapat melihat
+
+dan menginputkan  data  harga TBS,  menginputkan  data  pejabat,  menginputkan
+
+data setting aplikasi dan menginputkan data user dari aplikasi. Gambar data harga
+
+TBS dapat dilihat pada Gambar 4.64, gambar input data pejabat dapat dilihat pada
+
+Gambar  4.65,  gambar  input  data  setting  dapat  dilihat  pada  Gambar  4.66 dan
+
+gambar input data user dapat dilihat pada Gambar 4.67.
+
+Gambar 4.64 Antarmuka entri TBS dan biaya angkutan
+
+
+
+83
+
+Gambar 4.65 Antarmuka manajemen data anggota
+
+Gambar 4.66 Antarmuka manajemen aplikasi
+
+
+
+84
+
+Gambar 4.67 Antarmuka manajemen data user
+
+4.2  Hasil Pengujian Black Box
+
+Pengujian  black  box  pada  penelitian  ini  terdiri  pengujian  input  data
+
+anggota, pengujian input hamparan dan pengujian kavling.
+
+4.2.1 Pengujian Input Data Anggota
+
+Pengujian input TBS dilakukan pada aktivitas penginputan data anggota
+
+sebelum menjadi  anggota  koperasi.  Hasil  pengujian  input  data  anggota  dilihat
+
+pada Tabel 4.1 berikut.
+
+Tabel 4.1 Hasil Input Data Anggota
+
+Input               Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Input Data 
+
+kosong
+
+Nama -- Nama--
+
+Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Alamat --Alamat--
+
+No.hp --No.Hp--
+
+Input salah 
+
+satu data 
+
+kosong pada 
+
+field alamat
+
+Nama Bera
+
+Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Alamat --Alamat--
+
+No.hp 0856534343434
+
+
+
+85
+
+Input salah
+
+satu  data
+
+kosong  pada
+
+field no.hp
+
+Nama Bera
+
+Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Alamat Jalan baru
+
+No.hp --No.Hp--
+
+Input data
+
+benar
+
+Nama Bera
+
+Berhasil
+
+Masuk ke
+
+halaman
+
+manajemen
+
+data anggota
+
+Alamat Jalan baru
+
+No.hp 0856534343434
+
+Gambar 4.68 Pesan please fill out this field pada pengujian data anggota
+
+4.2.2 Pengujian Input Hamparan
+
+Pengujian  input  hamparan  dilakukan  pada  aktivitas  penginputan  data
+
+hamparan sebelum mengisi input kavling. Hasil pengujian input hamparan dilihat
+
+pada Tabel 4.2 berikut.
+
+Tabel 4.2 Hasil Input Hamparan
+
+Input               Contoh Data Hasil Keterangan
+
+
+
+86
+
+Eksekusi
+
+Input Data 
+
+kosong
+
+Hamparan -- Hamparan--
+
+Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Keterangan --Keterangan--
+
+Input salah 
+
+satu data 
+
+kosong pada 
+
+field 
+
+keterangan
+
+Hamparan A
+
+Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Keterangan --Keterangan--
+
+Input data
+
+benar
+
+Nama A
+
+Berhasil
+
+Masuk ke
+
+halaman
+
+manajemen
+
+data hamparan
+
+Keterangan Bera
+
+Gambar 4.69 Pesan please fill out this field pada pengujian hamparan
+
+4.2.3 Pengujian Input Kavling
+
+
+
+87
+
+Pengujian  input  TBS  dilakukan  pada  aktivitas  penginputan  kavling
+
+sesudah  input  data  hamparan.  Hasil  pengujian  kavling  dilihat  pada  Tabel  4.3
+
+berikut.
+
+Tabel 4.3 Hasil Input Kavling
+
+Input               Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Input Data 
+
+kosong
+
+No. kavling --
+
+No.Kavling-- Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Hamparan --Hamparan--
+
+Pemilik --Pemilik--
+
+Jlh Kavling --Jlh.Kavling--
+
+Input salah 
+
+satu data 
+
+kosong pada 
+
+field 
+
+jlh.kavling
+
+No. kavling 1
+
+Tidak
+
+Berhasil
+
+Pesan
+
+Kesalahan:
+
+“please fill out
+
+this field”
+
+Hamparan A
+
+Pemilik Bera
+
+Jlh Kavling --Jlh.Kavling--
+
+Input data
+
+benar
+
+No. kavling 1
+
+Berhasil
+
+Masuk ke
+
+halaman
+
+manajemen
+
+data kavling
+
+Hamparan A
+
+Pemilik Bera
+
+Jlh Kavling 1
+
+
+
+88
+
+Gambar 4.70 Pesan please fill out this field pada pengujian kavling
+
+4.3 Analisis Hasil Pengujian
+
+Hasil  pengujian black box pada Aplikasi  Koperasi  Petani  Kelapa Sawit
+
+Kapuas  Hulu menunjukkan saat  dilakukan input  data  dengan keseluruhan data
+
+kosong, salah satu data kosong atau data salah akan menimbulkan kesalahan pada
+
+program.  Kemungkinan  terjadinya  kesalahan  sudah  ditangani  pada  program,
+
+sehingga  hanya  akan  muncul  pesan  kesalahan  atau  intruksi  pengisian  data.
+
+Dengan demikian, sistem dapat menangani data tersebut sesuai dengan apa yang
+
+diharapkan.
+
+
+
+BAB V
+
+KESIMPULAN DAN SARAN
+
+V.1 Kesimpulan
+
+Berdasarkan  dari  hasil  analisis  dan  pengujian  aplikasi  koperasi  petani
+
+kelapa  sawit  Kapuas  Hulu,  maka didapat  kesimpulan  yang ada  adalah  sebagai
+
+berikut:  Aplikasi Koperasi Kelapa Sawit berhasil dibangun dan dapat digunakan
+
+oleh petugas koperasi, untuk proses pengolahan, pembuatan laporan dan laporan
+
+pemasukan,.  Kesimpulan  diambil  berdasarkan  hasil  dari  pengujian  blackbox,
+
+sebagai  admin  pengiriman,  admin simpan pinjam,  admin pupuk dan Pimpinan
+
+mendapatkan  hasil menunjukan  bahwa  aplikasi  koperasi  petani  kelapa  sawit
+
+Kapuas Hulu yang di bangun dapat digunakan sesuai dengan keinginan dari pihak
+
+koperasi.
+
+V.2 Saran
+
+Adapun hal  yang dapat  menjadi  saran sebagai  bahan pertimbangan dan
+
+masukan untuk pengembangan aplikasi,  yaitu  aplikasi  dapat diimplementasikan
+
+pada  smart phone android sehingga petugas koperasi  dapat menginputkan data
+
+koperasi melalui aplikasi android.
+
+90
+
+
+
+BAB III
+
+METODOLOGI PENELITIAN DAN ANALISIS SISTEM
+
+3.1 Metodologi Penelitian
+
+Metodologi  penelitian  merupakan  suatu  perencanaan  penelitian  yang
+
+akan dilakukan. Data penelitian berupa data-data pada koperasi kelapa sawit. Pada
+
+penelitian  ini,  di  bangun dengan diagram alir  penelitian  yang dilakukan dapat
+
+dilihat pada Gambar 3.1 berikut.
+
+Gambar 3.1 Diagram Alir Penelitian
+
+15
+
+
+
+16
+
+Berdasarkan diagram alir penelitian pada  Gambar  3.1, langkah-langkah
+
+penelitian yang akan dilakukan adalah sebagai berikut:
+
+a. Analisis Kebutuhan
+
+Analisis kebutuhan dilakukan dengan mencari bagaimana agar aplikasi dapat
+
+menampilkan dan memberi  Manajemen dan ouput  data  sesuai  dengan data
+
+yang ada pada koperasi kelapa sawit.
+
+b. Pengumpulan Data
+
+Pengumpulan  data  dilakukan  untuk  memperoleh  informasi  mengenai
+
+gambaran  sistem  yang  ada  serta  memperoleh  informasi  data-data  yang
+
+diperlukan.
+
+c. Perancangan Sistem
+
+Perancangan sistem dilakukan dari analisis kebutuhan dan pengumpulan data,
+
+yang  selanjutnya  akan  dirancang  menggunakan perancangan Data  Flow
+
+Diagram  (DFD),  relasi  antar  tabel,  basis  data  dan  arsitektur  sistem untuk
+
+menggambarkan sistem yang akan dibuat.
+
+d. Pembuatan Sistem
+
+Pembuatan  sistem  merupakan  tahap  pembuatan  sistem  berdasarkan  hasil
+
+perancangan sistem.
+
+e. Pengujian Sistem
+
+Pada tahap ini pengujian yang dilakukan adalah dengan menggunakan metode
+
+pengujian  Black Box. Pengujian  Black-Box digunakan untuk menguji apakah
+
+aplikasi  yang  dibangun  masih  terdapat  berhasil  sesuai  kebutuhan  yang
+
+diperlihatkan atau tidak.
+
+f. Analisis Hasil Pengujian
+
+Analisis  terhadap  sistem  dilakukan  untuk  mengetahui  karakteristik  sistem
+
+yang telah dikembangkan.
+
+g. Penarikan Kesimpulan
+
+Kesimpulan dirumuskan berdasarkan pengujian yang telah dilakukan.
+
+3.1.1 Data Penelitian
+
+Data  penelitian  berupa  data  dari koperasi  petani  kelapa  sawit  Kapuas
+
+Hulu.  Adapun  data  yang diperlukan  ialah  data anggota  koperasi,  data  simpan
+
+pinjam, data pupuk dan data angkutan Tandan Buah Segar (TBS).
+
+
+
+17
+
+Semua data yang diperoleh didapatkan dengan cara :
+
+1. Studi literatur: mencari jurnal terkait yang mendukung kebutuhan pembuatan
+
+sistem.
+
+2. Wawancara: melakukan tanya jawab dengan Pimpinan koperasi petani kelapa
+
+sawit Kapuas Hulu, yang  akan digunakan sebagai  acuan dalam aplikasi yang
+
+akan dibangun. 
+
+3.1.2 Alat Bantu Penelitian
+
+3.1.2.1 Alat Perancangan Penelitian
+
+1. Alat Penelitian
+
+Alat penelitian yang digunakan dalam penelitian ini adalah:
+
+b. Diagram bisnis proses, digunakan untuk menggambarkan urutan atau tahapan
+
+sistem yang akan dibangun.
+
+c. Data Flow Diagram  (DFD), untuk menggambarkan aliran data pada sistem
+
+yang  terdiri  dari  dua  bagian  utama  yaitu  sistem  Manajemen  dan  sistem
+
+analisis data.
+
+d. Entity Relationship Diagram (ERD), digunakan untuk memodelkan hubungan
+
+antar  data  dalam  basis  data  berdasarkan  obyek-obyek  dasar  data  yang
+
+mempunyai hubungan antar relasi.
+
+2. Perangkat Lunak (Software)
+
+Pada  penelitian  ini,  perangkat  lunak  yang  digunakan  sebagai  alat  bantu
+
+penelitian adalah sebagai berikut :
+
+a. Sistem Operasi Windows 10 64 Bit 
+
+Software untuk  mengelola  komputer  dan  proses-proses  yang  berjalan  di
+
+komputer, baik itu perangkat lunak maupun perangkat keras.
+
+b. XAMPP 3.2.2
+
+Software yang berguna sebagai server lokal (berdiri sendiri/localhost), terdiri
+
+dari  beberapa  program  seperti  Apache HTTP  Server, MySQL  database,
+
+PHP dan Perl.
+
+c. PhpMyAdmin 4.5.1 sebagai SQL editor.
+
+d. Google Chrome sebagai browser
+
+Perangkat untuk membuka dan menjalankan program, menjelajahi halaman
+
+web yang tersimpan di komputer atau localhost.
+
+e. Sublime Text 3.0
+
+
+
+18
+
+Aplikasi text editor untuk menuliskan kode-kode yang akan membentuk suatu
+
+rancangan aplikasi baru.
+
+3. Perangkat Keras (Hardware)
+
+Perangkat  keras  yang  digunakan  dalam  penelitian  ini  adalah  sebuah
+
+Laptop yang digunakan untuk pengembangan sistem dengan spesifikasi Processor
+
+intel® Celeron® PN3350 dengan RAM 2 GB.
+
+3.2 Analisis Kebutuhan
+
+Untuk memaksimalkan proses penelitian hingga bisa mendapatkan hasil
+
+yang sesuai dengan yang diharapkan maka diperlukan analisis kebutuhan. 
+
+3.2.1 Analisis Sistem Yang Sedang Berjalan
+
+Sistem yang  berjalan  pada  koperasi  petani  kelapa  sawit  Kapuas  Hulu
+
+dilakukan  dengan  pendataan  menggunakan  excel.  Adapun kegiatan  yang
+
+dilakukan  pada  proses  pendataan  yaitu   pendataan  data  anggota,  data  simpan
+
+pinjam, data pupuk dan data pengiriman Buah Tandan Segar (TBS). Data anggota
+
+memiliki data nama anggota, hamparan dan kavling pada dilihat pada Gambar A-
+
+1 di lampiran A. Data simpan pinjam terbagi menjadi empat data simpanan yaitu
+
+simpanan replanting, simpanan sukarela, simpanan, hari raya dan simpanan wajib
+
+dapat  di  lihat  pada  Gambar  B-1 di  lampiran  B.  Data  pupuk  memiliki  data
+
+pembelian pupuk dapat dilihat pada Gambar C-1 di lampiran C. Data pengiriman
+
+Tandan Buah Segar memiliki data berat kotor, berat bersih dan data grading dapat
+
+dilihat pada Gambar D-1 di lampiran D.
+
+3.2.2 Sistem yang Diperlukan
+
+Berdasarkan  analisis  sistem  yang  sedang  berjalan,  maka  diperlukan
+
+sistem yang dapat memperbaiki  permasalahan proses pendataan koperasi petani
+
+kelapa sawit Kapuas Hulu. Di mana sistem menyediakan database penyimpanan
+
+data sehingga semua data yang telah dimanajemenkan dapat dilihat kembali dan
+
+direkap kembali tanpa harus memanajemenkan ulang data yang telah ada.
+
+3.2.3 Kebutuhan Fungsional
+
+Kebutuhan fungsional merupakan jenis kebutuhan yang berisi proses apa
+
+saja yang nantinya dapat dilakukan oleh sistem, serta berisi informasi apa saja
+
+yang harus ada dan dihasilkan oleh sistem.
+
+
+
+19
+
+a. Menampilkan  menu  login untuk  hak  akses  sebagai   pimpinan, admin
+
+simpan pinjam dan admin pupuk.
+
+b. Menampilkan menu pengelolaan  dalam pengiriman Buah Tandan Segar
+
+(TBS) di mana menu ini diakses oleh pimpinan.
+
+c. Menampilkan  menu kelola  data  simpan  pinjam  sebagai  menu  admin
+
+simpan pinjam mengManajemenkan data anggota yang melakukan proses
+
+simpan pinjam.
+
+d. Menampilkan  menu kelola  data  pupuk  sebagai  menu  admin  pupuk
+
+mengManajemenkan  data  anggota  yang  melakukan  proses  penjualan
+
+pupuk.
+
+e. Menampilkan menu pelaporan yang mana menu ini berisi laporan.
+
+3.2.4 Kebutuhan Non Fungsional
+
+Kebutuhan non fungsional bertujuan untuk mengetahui  perangkat  keras,
+
+perangkat lunak dan alat penelitian apa saja yang dibutuhkan serta pengguna yang
+
+menggunakan sistem ini ialah petugas koperasi. Perangkat keras yang diperlukan
+
+dalam  mengakses  sistem adalah  sebuah  Laptop yang  digunakan  untuk
+
+pengembangan  sistem  dengan  spesifikasi  Processor  intel®  Celeron® PN3350
+
+dengan RAM 2 GB, sedangkan perangkat lunak Windows 10 64 Bit, web browser,
+
+internet.
+
+3.3 Perancangan
+
+Perancangan  konsep  adalah  membuat  konsep  perancangan  berupa
+
+rancangan  awal  sistem  yang  akan  dibangun.  Keterhubungan  data  yang  akan
+
+digunakan baik itu data pengiriman TBS, data simpan pinjam maupun data pupuk.
+
+3.3.1 Perancangan Arsitektur Sistem
+
+Perancangan arsitektur  system yang akan dibangun  dapat  dilihat  pada
+
+Gambar 3.2 berikut.
+
+KONEKSI
+
+INTERNET
+
+KONEKSI INTERNETPimpinan
+APLIKASI KOPERASI 
+
+Admin Pupuk
+
+
+
+20
+
+Gambar 3.2 Arsitektur Sistem
+
+Berdasarkan  Gambar  3.2,  Pimpinan,  admin  pengiriman,  admin  simpan
+
+pinjam dan admin pupuk adalah pengguna aplikasi  koperasi.  Aplikasi  koperasi
+
+petani  kelapa  sawit  Kapuas  Hulu  dibuat  berbasis  website  dan  untuk  dapat
+
+mengakses aplikasi ini setiap pengguna harus terhubung dengan koneksi internet.
+
+3.3.2 Diagram Proses Bisnis
+
+Diagram  proses  bisnis  menjelaskan  tentang   urutan  atau  tahapan  yang
+
+akan dilakukan pada aplikasi  yang memiliki tiga admin yaitu pimpinan,  admin
+
+simpan pinjam dan admin pupuk dilihat pada Gambar 3.3 berikut.
+
+Admin Pengiriman
+
+Admin Simpan
+
+Pinjam
+
+
+
+21
+
+Gambar 3.3 Diagram proses bisnis
+
+3.3.3 Data Flow Diagram
+
+Data  Flow  Diagram adalah  suatu  gambaran  yang  menjelaskan
+
+bagaimana menggambarkan atau membuat model komponen sistem.
+
+3.3.3.1 Diagram Konteks
+
+Diagram konteks  terdiri  dari  suatu  proses  dan  menggambarkan  ruang
+
+lingkup suatu sistem.  Diagram konteks ini merupakan bagian tingkatan tertinggi
+
+dari DFD yang menggambarkan seluruh Manajemen ke suatu sistem atau output
+
+dari  sistem dan hanya memuat  satu proses.  Diagram konteks  aplikasi  koperasi
+
+petani kelapa sawit Kapuas Hulu  terdiri dari 4 entitas yaitu  admin pengiriman,
+
+admin simpan pinjam, admin pupuk dan Pimpinan. Diagram konteks dari aplikasi
+
+
+
+22
+
+koperasi petani kelapa sawit Kapuas Hulu dapat dilihat pada Gambar 3.4 berikut
+
+menunjukkan diagram konteks dari sistem yang dibuat.
+
+Gambar 3.4 Diagram Konteks
+
+3.3.3.2 Diagram Overview
+
+Diagram  Overview  adalah  diagram  yang  menjelaskan  urutan-urutan
+
+proses. Berdasarkan pada Gambar 3.5 terdapat 5 proses pada Diagram Overview,
+
+yaitu:
+
+1. Proses 1.0  login adalah proses memasukkan  username dan  password yang
+
+dilakukan, Pimpinan, admin simpan pinjam dan admin pupuk.
+
+2. Proses 2.0 manajemen data pengiriman adalah proses yang dilakukan oleh
+
+admin pengiriman, mulai dari memasukkan data periode, pengiriman Tandan
+
+Buah Segar (TBS), data potongan, data potongan hamparan, data potongan
+
+kavling, data anggota dan data laporan.
+
+3. Proses 3.0  manajemen simpan pinjam adalah proses di mana  admin simpan
+
+pinjam akan mengelola data pinjaman, data pembayaran,  data pengeluaran,
+
+data  replanting,  data  suka  rela,  data  hari  raya,  data  simpanan  wajib,  data
+
+hamparan, data kavling, data anggota dan data laporan.
+
+
+
+23
+
+4. Proses 4.0 manajemen data pupuk adalah proses di mana admin pupuk akan
+
+mengelola data penjualan, data pembayaran, data pengeluaran, data kategori,
+
+data barang, data anggota dan laporan.
+
+5. Proses 5.0  laporan adalah proses di mana Pimpinan,  admin simpan pinjam,
+
+admin  pupuk dapat  melihat  data  koperasi  mulai  dari  laporan  rekap
+
+pengiriman,  laporan  pengiriman/periode,  laporan  pembayaran  &  slip  gaji,
+
+laporan  simpanan,  laporan  pinjaman,  laporan  pembayaran,  laporan
+
+pengeluaran, laporan pendapatan, laporan arus kas, laporan penjualan pupuk
+
+dan laporan pembayaran pupuk.
+
+
+
+24
+
+Gambar 3.5 Diagram Overview
+
+
+
+25
+
+3.3.3.3 Diagram Rinci 
+
+Diagram rinci menguraikan lebih lanjut mengenai proses dari  diagram
+
+overview,  yang memperlihatkan arus  data  masuk dan data  keluar.  Berdasarkan
+
+diagram  overview  pada  Gambar  3.6  terdapat  10  model  diagram rinci  sebagai
+
+berikut:
+
+1. Proses 2.1. Manajemen Periode
+
+Proses 2.1. Merupakan proses yang dilakukan pimpinan, di mana pada proses
+
+ini pimpinan dapat memanajemen dan melihat data periode.
+
+2. Proses 2.2. Manajemen Pengiriman Tandan Buah Segar (TBS)
+
+Proses 2.2. Merupakan proses yang dilakukan pimpinan, di mana pada proses
+
+ini pimpinan dapat memanajemen dan melihat data pengiriman TBS.
+
+3. Proses 2.3. Manajemen Jenis Potongan
+
+Proses 2.3. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses ini pimpinan dapat memanajemen dan melihat data jenis potongan.
+
+4. Proses 2.4. Manajemen Potongan Angkutan
+
+Proses 2.4. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses  ini  pimpinan  dapat  memanajemen  dan  melihat  data  potongan
+
+angkutan.
+
+5. Proses 2.5. Manajemen Potongan Hamparan
+
+Proses 2.5. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses  ini  pimpinan  dapat  memanajemen  dan  melihat  data  potongan
+
+hamparan.
+
+6. Proses 2.6. Manajemen Kontraktor
+
+Proses 2.6. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses ini pimpinan dapat memanajemen dan melihat data kontraktor.
+
+7. Proses 2.7. Manajemen Kendaraan
+
+Proses 2.7. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses ini pimpinan dapat memanajemen dan melihat data kendaraan.
+
+8. Proses 2.8. Manajemen Hamparan
+
+Proses 2.8. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses ini pimpinan dapat memanajemen dan melihat data data hamparan.
+
+9. Proses 2.9. Manajemen Kavling
+
+Proses 2.9. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses ini pimpinan dapat memanajemen dan melihat data kavling.
+
+10. Proses 2.10. Manajemen Data Anggota
+
+
+
+26
+
+Proses 2.10. Merupakan proses yang dilakukan oleh  pimpinan, di mana pada
+
+proses ini pimpinan dapat memanajemen dan melihat data anggota.
+
+Gambar 3.6 Diagram rinci 2.0
+
+1. Proses 3.1. Manajemen Pinjaman
+
+Proses 3.1. Merupakan proses yang dilakukan oleh admin simpan pinjam, di
+
+mana pada proses ini admin simpan pinjam akan memanajemen dan melihat
+
+data pinjaman.
+
+2. Proses 3.2. Manajemen Pembayaran
+
+
+
+27
+
+Proses 3.2. Merupakan proses yang dilakukan oleh admin simpan pinjam, di
+
+mana  pada  proses  ini  admin  simpan  pinjam  akan  memanajemen  data
+
+pembayaran.
+
+3. Proses 3.3. Manajemen Pengeluaran
+
+Proses 3.3. Merupakan proses yang dilakukan oleh admin simpan pinjam, di
+
+mana  pada  proses  ini  admin  simpan  pinjam  akan  memanajemen  data
+
+pengeluaran.
+
+4. Proses 3.4. Manajemen Replanting
+
+Proses 3.4. Merupakan proses yang dilakukan oleh  admin simpan pinjam, di
+
+mana  pada  proses  ini  admin  simpan  pinjam  akan  memanajemen  data
+
+replanting.
+
+5. Proses 3.5. Manajemen Suka Rela
+
+Proses 3.5. Merupakan proses yang dilakukan oleh  admin simpan pinjam, di
+
+mana pada proses ini admin simpan pinjam akan memanajemen data suka rela.
+
+6. Proses 3.6. Manajemen Hari Raya
+
+Proses 3.6. Merupakan proses yang dilakukan oleh  admin simpan pinjam, di
+
+mana pada proses ini admin simpan pinjam akan memanajemen data hari raya.
+
+7. Proses 3.7. Manajemen Wajib
+
+Proses 3.7. Merupakan proses yang dilakukan oleh  admin simpan pinjam, di
+
+mana pada proses ini admin simpan pinjam akan memanajemen data wajib.
+
+8. Proses 3.8. Manajemen Hamparan
+
+Proses 3.8. Merupakan proses yang dilakukan oleh  admin simpan pinjam, di
+
+mana  pada  proses  ini  admin  simpan  pinjam  akan  memanajemen  data
+
+hamparan.
+
+9. Proses 3.9. Manajemen Kavling
+
+Proses 3.9. Merupakan proses yang dilakukan oleh  admin simpan pinjam, di
+
+mana pada proses ini admin simpan pinjam akan memanajemen data kavling.
+
+10. Proses 3.10. Manajemen Data Anggota
+
+Proses 3.10. Merupakan proses yang dilakukan oleh admin simpan pinjam, di
+
+mana pada proses ini admin simpan pinjamakan memanajemen data anggota.
+
+
+
+28
+
+Gambar 3.7 Diagram rinci 3.0
+
+1. Proses 4.1. Manajemen Penjualan
+
+Proses 4.1.  Merupakan proses yang dilakukan oleh  admin pupuk,  di  mana
+
+pada proses ini admin pupuk akan memanajemen dan melihat data penjualan.
+
+2. Proses 4.2. Manajemen Pembayaran
+
+
+
+29
+
+Proses 4.2.  Merupakan proses yang dilakukan oleh  admin pupuk,  di  mana
+
+pada  proses  ini admin  pupuk  akan  memanajemen  dan  melihat  data
+
+pembayaran.
+
+3. Proses 4.3. Manajemen Pengeluaran
+
+Proses 4.3.  Merupakan proses yang dilakukan oleh  admin pupuk,  di  mana
+
+pada  proses  ini admin  pupuk  akan  memanajemen  dan  melihat  data
+
+pengeluaran.
+
+4. Proses 4.4. Manajemen Kategori
+
+Proses 4.4.  Merupakan proses yang dilakukan oleh  admin pupuk,  di  mana
+
+pada proses ini admin pupuk akan memanajemen dan melihat data kategori.
+
+5. Proses 4.5. Manajemen Barang
+
+Proses 4.5.  Merupakan proses yang dilakukan oleh  admin pupuk,  di  mana
+
+pada proses ini admin pupuk akan memanajemen dan melihat data barang.
+
+6. Proses 4.6. Manajemen Data Anggota
+
+Proses 4.6.  Merupakan proses yang dilakukan oleh  admin pupuk,  di  mana
+
+pada proses ini admin pupuk akan memanajemen dan melihat data amggota.
+
+
+
+30
+
+Gambar 3.8 Diagram rinci 4.0
+
+
+
+31
+
+Gambar 3.9 Diagram rinci 5.0
+
+3.3.4 Perancangan Basis Data
+
+Basis  data  (database)  dirancang  untuk  menyimpan  data-data  yang
+
+digunakan pada sistem yang akan di bangun. Perancangan basis data digambarkan
+
+dalam bentuk entity relationship diagram (ERD), spesifikasi tabel basis data, dan
+
+relasi antar tabel.
+
+3.3.4.1 Entity Relationship Diagram (ERD)
+
+ERD  pada  sistem  pendukung  keputusan  koperasi  kelapa  sawit  dapat
+
+dilihat pada Gambar 3.10. ERD terdiri dari entitas, relasi, dan atribut. Atribut pada
+
+Gambar 3.11 hanya menampilkan  primary key  dan  foreign key. Semua atribut
+
+lengkap dapat dilihat pada sub bab spesifikasi table basis data.
+
+
+
+32
+
+Gambar 3.10 Entity Relationship Diagram
+
+
+
+33
+
+3.3.4.2 Spesifikasi Tabel Basis Data
+
+Tabel  merupakan  isi  dari  sebuah  basis  data  (database)  yang  menjadi
+
+tempat  untuk  menampung  informasi  berupa  data-data  yang  dimasukkan  oleh
+
+pengguna. Tabel yang digunakan dalam perancangan sistem ini adalah sebagai
+
+berikut:
+
+1. Spesifikasi  Tabel  Anggota
+
+Nama tabel :tb_anggota
+
+Keterangan : tabel basis data anggota
+
+Tabel 3.1Spesifikasi Tabel Anggota
+
+Nama Field Tipe Boleh Kosong Keterangan
+
+id_anggota * int(10) Tidak Primary
+
+nama_anggota varchar(255) Tidak
+alamat_anggota varchar(255) Tidak
+hp_anggota varchar(255) Tidak
+
+2. Spesifikasi  Tabel  Arus Kas
+
+Nama tabel :tb_arus_kas
+
+Keterangan :tabel basis data arus kas
+
+Tabel 3.2 Spesifikasi Tabel Arus Kas
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_ak* int(10) Tidak Primary
+Tgl_Manajemen datetime Tidak
+Tanggal Date Tidak
+Kode varchar(2) Tidak
+Jenis varchar(20) Tidak
+Rekening varchar(255) Tidak
+Masuk decimal(12,2) Tidak
+Keluar decimal(12,2) Tidak
+Keterangan varchar(255) Tidak
+User_id varchar(255) Tidak
+Ids int(3) Tidak
+
+3. Spesifikasi  Tabel  Hamparan
+
+Nama tabel :tb_hamp
+
+Keterangan :tabel basis data hamparan
+
+Tabel 3.3 Spesifikasi Tabel Hamparan
+
+
+
+34
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_hamp* int(3) Tidak Primary
+Nama_hamp varchar(10) Tidak
+Id_pengiriman** Int(10)usihned Tidak Foreign
+Ket_hamp varchar(255) Tidak
+
+4. Spesifikasi  Tabel  Jenis Potongan
+
+Nama tabel :tb_jpot
+
+Keterangan :tabel basis data jenis potongan
+
+Tabel 3.4 Spesifikasi Tabel Jenis Potongan
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_jpot* tinyint(3)unsigned Tidak Primary
+Jp int(1) Tidak
+Tipe Enum Tidak
+Jpot varchar(50) Tidak
+Nilai decimal(10,2) Tidak
+Ids int(3) Tidak
+Short int(3) Tidak
+User_id varchar(255) Tidak
+
+5. Spesifikasi Tabel  Kavling
+
+Nama tabel :tb_kav
+
+Keterangan :tabel basis data kavling
+
+Tabel 3.5 Spesifikasi Tabel Kavling
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_kav* Int(5) Tidak Primary
+Id_hamp** Int(3) Tidak Foreign
+Id_pengiriman** Int(10)usihned Tidak Foreign
+Nama_kav Varchar(10) Tidak
+Pemilik_kav Int(5) Tidak
+Jlh_kav Double Tidak
+
+6. Spesifikasi Tabel  Kendaraan
+
+Nama tabel :tb_kendaraan
+
+Keterangan :tabel basis data kendaraan
+
+Tabel 3.6 Spesifikasi Tabel Kendaraan
+
+Nama Field Tipe Boleh Kosong Keterangan
+Ind_kend* Int(9) Tidak Primary
+No_kend Varchar(12) Tidak
+
+
+
+35
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_kont**
+
+Int(10)usigned
+Tidak Foreign 
+
+Id_pengiriman** Int(10)usihned Tidak Foreign
+ Merk Varchar(255) Tidak
+Jlh_ang Varchar(15) Tidak 
+
+7. Spesifikasi Tabel  Kontraktor
+
+Nama tabel :tb_kontraktor
+
+Keterangan :tabel basis data kontraktor
+
+Tabel 3.7 Spesifikasi Tabel Kontraktor
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_kont* Int(10) usigned Tidak Primary
+Nama_kont Varchar(255) Tidak 
+Id_pengiriman** Int(10)usigned Tidak Foreign
+Alamat_kont Varchar(255) Tidak 
+Hp_kont Varchar(15) Tidak 
+
+8. Spesifikasi Tabel  Operasional
+
+Nama tabel :tb_operasional
+
+Keterangan :tabel basis data operasional
+
+Tabel 3.8 Spesifikasi Tabel Operasional
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_opr* Int(11) Tidak Primary
+Tanggal Date Tidak 
+Jenis Varchar(255) Tidak 
+Qty Int(100 Tidak 
+Satuan Varchar(255) Tidak 
+Harga Decimal(12,2) Tidak 
+Total Decimal(12,2) Tidak 
+Tgl_Manajemen datetime Tidak 
+User_id Varchar(255 Tidak 
+Ids Int(3) Tidak 
+Sak Int(6) Tidak 
+
+9. Spesifikasi  Tabel  Pejabat
+
+Nama tabel :tb_pejabat
+
+Keterangan :tabel basis data pejabat
+
+Tabel 3.9 Spesifikasi Tabel Pejabat
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_pjb* Int(3)usigned Tidak Primary
+Jabatan Varchar(255) Tidak 
+
+
+
+36
+
+Nama Field Tipe Boleh Kosong Keterangan
+Nama Varchar(255) Tidak 
+Hp Varchar(13) Tidak 
+Aktif Enum(‘Y’,’N’) Tidak 
+
+10. Spesifikasi  Tabel  Pembayaran
+
+Nama tabel :tb_pembayaran
+
+Keterangan :tabel basis data pembayaran
+
+Tabel 3.10 Spesifikasi Tabel Pembayaran
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_pembayaran* Int(11) Tidak Primary
+Ids Int(3) Tidak 
+Id_hamp** Int(3) Tidak Foreign
+Id_kav** Int(5) Tidak Foreign
+Id_anggota** Int(10) Tidak Foreign
+Id_pupuk** Int(5) Tidak Foreign
+Id_pinjaman Int(11) Tidak 
+Angsuran_ke Int(2) Tidak 
+Jatuh_tempo Date Tidak 
+Jml_angsuran Decimal(12,2) Tidak 
+Sisa_pokok Decimal(12,2) Tidak 
+Sisa_angsuran Decimal(12,2) Tidak 
+Tgl_bayar Date Tidak 
+Id_periode** Int(10) Tidak Foreign
+Status_bayar Enum Tidak 
+User_id Varchar(255) Tidak 
+Sak Int(6) Tidak 
+
+11. Spesifikasi  Tabel  Pengiriman
+
+Nama tabel :tb_pengiriman
+
+Keterangan :tabel basis data pengiriman
+
+Tabel 3.11 Spesifikasi Tabel Pengiriman
+
+Nama Field Tipe Boleh 
+Kosong
+
+Keterangan
+
+Id_pengiriman* Int(10)usigned Tidak Primary
+No_sptbs Varchar(10) Tidak
+Id_hamp** Int(5) Tidak Foreign
+Id_kav** Int(5) Tidak Foreign
+Id_kont** Int(3) Tidak Foreign
+Id_kend** Int(5) Tidak Foreign
+Pengemudi Varchar(255) Tidak
+Berat_kotor Double Tidak
+Grade Double Tidak
+Berat_bersih Double Tidak
+
+
+
+37
+
+Nama Field Tipe Boleh 
+Kosong
+
+Keterangan
+
+Tgl_timbang Date Tidak
+Id_periode Int(10) Tidak
+Tgl_update Datetime Tidak
+User_id Varchar(50) Tidak
+
+12. Spesifikasi  Tabel  Periode
+
+Nama tabel :tb_periode
+
+Keterangan :tabel basis data periode
+
+Tabel 3.12 Spesifikasi Tabel Periode
+
+Nama Field Tipe BolehKosong Keterangan
+Id_periode* Int(10)insigned Tidak Primary
+Periode Varchar(10) Tidak 
+Id_pinjaman** Int(10) Tidak Foreign
+Id_pembayaran** Int(11) Tidak Foreign
+Bulan_periode Varchar(10) Tidak 
+Tahun_periode Varchar(4) Tidak 
+Harga_angkutan Decimal(10,2) Tidak 
+Tgl_mulai Date Tidak 
+Tgl_akhir Date Tidak 
+Harga_tbs Decimal(10,2) Tidak 
+Aktif Enum(‘Y’,’N’) Tidak 
+
+13. Spesifikasi  Tabel  Pinjaman
+
+Nama tabel :tb_pinjaman
+
+Keterangan ;tabel basis data pinjaman
+
+Tabel 3.13 Spesifikasi Tabel Pinjaman
+
+Nama Field Tipe Boleh 
+Kosong
+
+Keterangan
+
+Id_pinjaman* Int(10) Tidak Primary
+Ids Tinyint(1)unsigned Tidak
+Customer Int(10) Tidak
+Tgl_Manajemen Datetime Tidak
+Tgl_pinjam Date Tidak
+R_pinjaman Decimal(10,2) Tidak
+Bunga Decimal(8,2) Tidak
+T_pinjaman Decimal(10,2) Tidak
+Jlh_bayar Int(2) Tidak
+Uang_bayar Decimal(10,2) Tidak
+User-id Varchar(15) Tidak
+Date_lastUpdate Datetime Tidak
+User_lastUpdate Varchar(15) Tidak
+Id_hamp** Int(3) Tidak Foreign
+Id_kav** Int(5) Tidak Foreign
+
+
+
+38
+
+Nama Field Tipe Boleh 
+Kosong
+
+Keterangan
+
+Id_anggota** Int(10) Tidak Foreign
+Id_periode** Int(100 Tidak Foreign
+No_pinj Varchar(255) Tidak
+Status_lunas Enum(‘Lunas’,’Belum’) Tidak
+Sak int(6) Tidak
+
+14. Spesifikasi  Tabel  Potongan
+
+Nama tabel :tb_pot
+
+Keterangan :tabel basis data potongan
+
+Tabel 3.14 Spesifikasi Tabel Potongan
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_pot* Int(10)unsigned Tidak Primary
+Id_jpot Int(3) Tidak
+Id_hamp Int(5) Tidak
+Id_cont Int(3) Tidak
+Id-kent Int(5) Tidak
+Ket Varchar(255) Tidak
+Nilai Decimal(10,0) Tidak
+Tgl_pot Date Tidak
+Id_periode Int(10) Tidak
+Tgl_update Datetime Tidak
+User_id Varchar(50) Tidak
+Sak Int(6) Tidak
+
+15. Spesifikasi  Tabel  Settings
+
+Nama  tabel :tb_settings
+
+Keterangan :tabel basis data settings
+
+Tabel 3.15 Spesifikasi Tabel Settings
+
+Nama Field Tipe Boleh Kosong Keterangan
+Ids* Tinyint(1) Tidak Primary
+kdSET Varchar(3) Tidak
+Nama_app Varchar(100) Tidak
+Title Text Tidak
+Keckab Varchar(200) Tidak
+Tlp Varchar(20) Tidak
+url_web Varchar(200) Tidak
+Logo_app Varchar(100) Tidak
+Last_update Varchar(20) Tidak
+
+16. Spesifikasi Tabel Simpanan Hari Raya
+
+Nama tabel :tb_simphr
+
+
+
+39
+
+Keterangan :tabel basis data simpanan hari raya
+
+Tabel 3.16 Spesifikasi Tabel Simpanan Hari Raya
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_shr* Int(11) Tidak Primary
+Tanggal Date Tidak
+Id_anggota** Int(10) Tidak Foreign
+Id_hamp** Tinyint(2) Tidak Foreign
+Id_kav** Int(4) Tidak Foreign
+Jumlah Decimal(12,2) Tidak
+Tgl_Manajemen Datetime Tidak
+User_id Varchar(255) Tidak
+Ids Int(3) Tidak
+Sak Int(6) Tidak
+
+17. Spesifikasi Tabel Simpanan Replanting
+
+Nama tabel :tb_simpre
+
+Keterangan :tabel basis data simpanan replanting
+
+Tabel 3.17 Tabel Simpanan Replanting
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_sre* Int(11) Tidak Primary
+Tanggal Date Tidak
+Id_anggota** Int(10) Tidak Foreign
+Id_hamp** Tinyint(2) Tidak Foreign
+Id_kav** Int(4) Tidak Foreign
+Jumlah Decimal(12,2) Tidak
+Tgl_Manajemen Datetime Tidak
+User_id Varchar(255) Tidak
+Ids Int(3) Tidak
+Sak Int(6) Tidak
+
+18. Spesifikasi Tabel Simpanan Suka Rela
+
+Nama tabel :tb_simpsr
+
+Keterangan :tabel basis data simpanan suka rela
+
+Tabel 3.18 Spesifikasi Tabel Simpanan Suka Rela
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_ssr* Int(11) Tidak Primary
+Tanggal Date Tidak
+Id_anggota** Int(10) Tidak Foreign
+Id_hamp** Tinyint(2) Tidak Foreign
+Id_kav** Int(4) Tidak Foreign
+Jumlah Decimal(12,2) Tidak
+Tgl_Manajemen Datetime Tidak
+
+
+
+40
+
+User_id Varchar(255) Tidak
+Ids Int(3) Tidak
+Sak Int(6) Tidak
+
+19. Spesifikasi Tabel Simpanan Wajib
+
+Nama tabel :tb_simpwj
+
+Keterangan :tabel basis data simpanan wajib
+
+Tabel 3.19 Spesifikasi Tabel Simpanan Wajib
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_swj* Int(11) Tidak Primary
+Tanggal Date Tidak
+Id_anggota** Int(10) Tidak Foreign
+Id_hamp** Tinyint(2) Tidak Foreign
+Id_kav** Int(4) Tidak Foreign
+Jumlah Decimal(12,2) Tidak
+Tgl_Manajemen Datetime Tidak
+User_id Varchar(255) Tidak
+Ids Int(3) Tidak
+Sak Int(6) Tidak
+
+20. Spesifikasi Tabel User
+
+Nama tabel :tb_users
+
+Keterangan :tabel basis data user
+
+Tabel 3.20 Spesifikasi Tabel User
+
+Nama Field Tipe Boleh Kosong Keterangan
+Username* Varchar(15) Tidak Primary
+Nama_lengkap Varchar(40) Tidak
+Pass Varchar(35) Tidak
+SessionID Varchar(100) Tidak
+Online Enum(‘Y’,’N’) Tidak
+Aktif Enum(‘Y’,’N’) Tidak
+Level Tinyint(2) Tidak
+Ids Tinyint(1) Tidak
+Last_seen datetime Tidak
+
+21. Spesifikasi Tabel Pupuk
+
+Nama tabel :uph_pupuk
+
+Keterangan :tabel basis data pupuk
+
+Tabel 3.21 Spesifikasi Tabel Pupuk
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_pupuk* Int(5) Tidak Primary
+Id_anggota** Int(10) Tidak Foreign
+
+
+
+41
+
+Nama_pupuk Varchar(50) Tidak
+Bunga Decimal(12,2) Tidak
+Harga_jual Decimal(12,2) Tidak
+Stok Smallint(3) Tidak
+Idkat Int(3) Tidak
+Ids Tinyint(1) Tidak
+
+22. Spesifikasi Tabel Kategori
+
+Nama tabel :tb_kat
+
+Keterangan :tabel basis data kategori
+
+Tabel 3.22 Spesifikasi Tabel Kategori
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_jpot* Tinyint(3) Tidak Primary
+Jpot Varchar(50) Tidak
+Nilai Decimal(12,2) Tidak
+Ids Int(3) Tidak
+User_id Varchar(255) Tidak
+
+23. Spesifikasi Tabel Pembelian
+
+Nama tabel :tb_pembelian
+
+Keterangan :tabel basis data pembelian
+
+Tabel 3.23 Spesifikasi Tabel Pembelian
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_pembelian* Int(5) Tidak Primary
+No_nota Varchar(20) Tidak
+Id_kat Int(3) Tidak
+id_anggota ** int(10) Tidak Foreign
+Id_pupuk** Smallint(2) Tidak Foreign
+Qty_beli Int(6) Tidak
+Harga_beli Decimal(12,2) Tidak
+Total_pembelian Decimal(12,2) Tidak
+User_id Varchar(20) Tidak
+Tgl_Manajemen Datetime Tidak
+Tgl_update Datetime Tidak
+Tgl_beli Date Tidak
+Ids Tinyint(1) Tidak
+
+24. Spesifikasi Tabel Penjualan
+
+Nama tabel :tb_penjualandtl
+
+Keterangan :tabel basis data penjualan
+
+Tabel 3.24 Spesifikasi Tabel Penjualan
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_penjualandtl* Int(8) Tidak Primary
+
+
+
+42
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_penjualan Int(110) Tidak
+Id_barang Int(5) Tidak
+Harga_jual Decimal(10,2) Tidak
+Bunga Decimal(10,2) Tidak
+Qty Smallint(3) Tidak
+Total_harga Decimal(10,2) Tidak
+Total_bunga Decimal(10,2) Tidak
+User-id Varchar(255) Tidak
+Tgl_Manajemen Datetime Tidak
+Date_lastUpdate Datetime Tidak
+User_lastUpdate Varchar(15) Tidak
+
+25. Spesifikasi Tabel Produk
+
+Nama tabel :tb_produk
+
+Keterangan :tabel basis data produk
+
+Tabel 3.25 Spesifikasi Tabel Produk
+
+Nama Field Tipe Boleh Kosong Keterangan
+Id_produk* Int(8) Tidak Primary
+Id_hamp Int(110) Tidak
+Id_kav Int(5) Tidak
+Jumlah Decimal(10,2) Tidak
+
+3.3.4.3 Relasi Antar Tabel
+
+Relasi ini merupakan hubungan yang terjadi pada suatu tabel 
+
+dengan tabel lainnya yang berfungsi untuk mengatur operasi pada basis 
+
+data. Relasi pada perancangan basis data dapat dilihat pada Gambar 3.11.
+
+
+
+43
+
+Gambar 3.11 Relasi Antar Tabel
+
+3.3.5 Perancangan Antarmuka Sistem
+
+
+
+44
+
+3.3.5.1   Perancangan Struktur Antarmuka Sistem
+
+Perancangan  antarmuka  (interface)  dirancang  sebagai  gambaran
+
+awal sistem yang akan dibangun. Perancangan antarmuka sistem meliputi
+
+beberapa  pengguna  diantaranya  pimpinan,  admin  simpan  pinjam dan
+
+admin pupuk. Struktur antarmuka sistem yang dirancang sebagai berikut.
+
+1. Halaman Login
+
+Halaman ini berisi halaman login untuk menuju ke halaman utama
+
+pengguna.  Rancangan  struktur  antarmuka  sistem  untuk  halaman  login
+
+tampak seperti pada Gambar 3.12 berikut.
+
+Gambar 3.12 Struktur antarmuka sistem untuk halaman login
+
+2. Halaman Utama Pengguna
+
+Halaman utama pengguna merupakan tampilan awal pada website
+
+dengan  hak  akses  sebagai  pengguna.  Pengguna  lain  dapat  mengakses
+
+halaman lain melalui menu pada halaman ini.
+
+Rancangan  struktur  antarmuka  sistem  untuk  admin  pengiriman
+
+Tandan Buah Segar (TBS) tampak seperti pada Gambar 3.13 berikut.
+
+
+
+45
+
+Gambar 3.13 Struktur antarmuka sistem untuk admin pengiriman TBS
+
+Rancangan struktur antarmuka sistem untuk  admin simpan pinjam tampak
+
+seperti pada Gambar 3.14 berikut.
+
+Gambar 3.14 Struktur antarmuka sistem untuk admin simpan pinjam
+
+Rancang struktur antarmuka sistem untuk admin pupuk  tampak 
+
+seperti pada Gambar 3.15 berikut.
+
+
+
+46
+
+Gambar 3.15 Struktur antarmuka sistem untuk admin pupuk
+
+Rancang struktur antarmuka sistem untuk  Pimpinan tampak 
+
+seperti pada Gambar 3.16 berikut.
+
+
+
+47
+
+Gambar 3.15 Struktur antarmuka sistem untuk Pimpinan
+
+3.4 Implementasi
+
+Implementasi  merupakan  kelanjutan  dari  kegiatan  perancangan  sistem
+
+dan dapat dipandang sebagai usaha untuk mewujudkan sistem yang dirancang.
+
+Langkah-langkah  dari  proses  implementasi  adalah  urutan  dari  kegiatan  awal
+
+sampai  kegiatan  akhir  yang  harus  dilakukan  dalam  mewujudkan  sistem  yang
+
+dirancang. Hasil  dari tahapan implementasi  ini adalah suatu sistem pengolahan
+
+
+
+48
+
+data  yang  sudah  dapat  berjalan  dengan  baik.  Aplikasi  yang  akan  dibuat  di
+
+implementasikan pada koperasi  kelapa sawit Kapuas Hulu, aplikasi  memiliki  3
+
+kriteria  pengguna,  yaitu  pimpinan,  admin  simpan  pinjam dan  admin  pupuk,
+
+pengguna dapat mengakses beberapa halaman dari aplikasi web yang akan dibuat,
+
+untuk  pimpinan  dapat  mengakses  menu  yang ada  pada  aplikasi  website,  yaitu
+
+dahsboard,  dimana  pada  laman  ini  memliki  menu  yang  dapat  di  akses  oleh
+
+pimpinan  yaitu  menu  manajemen  Manajemen  pengiriman   pada  menu  ini  di
+
+dalamnya  terdapat  menu periode  dan pengiriman  Tandan  Buah Segar   (TBS).
+
+Kemudian menu data pengirim yang di mana pada laman ini memiliki menu lihat
+
+data  yang  telah  dimanajemenkan  dari  menu  pengiriman  Tandan  Buah  Segar
+
+(TBS). Kemudian menu data potongan yang mana pada laman ini terdapat menu
+
+jenis potongan, potongan angkutan dan potongan hamparan. Kemudian menu data
+
+master, yang mana pada laman ini terdapat menu kontraktor, kendaraan, hamparan
+
+dan kavling. Kemudian menu data anggota. Kemudian menu laporan yang mana
+
+pada laman ini terdapat menu rekap pengiriman/periode, pembayaran & slip gaji.
+
+Kemudian menu RP global. Kemudian menu referensi yang mana pada menu ini
+
+terdapat  menu harga, pejabat, sett aplikasi dan user aplikasi. Untuk admin simpan
+
+pinjam dapat mengakses menu yang ada pada aplikasi website, yaitu dimana pada
+
+laman ini memliki menu transaksi, yang mana pada halaman ini terdapat menu
+
+pinjaman  dan  pembayaran.  Kemudian  menu  simpanan,  yang  mana  laman  ini
+
+terdapat menu replanting,  sukarela,  hari raya dan wajib. Kemudian  menu data
+
+master  yang  mana  pada  laman  ini  terdapat   menu  hamparan  dan  kavling.
+
+Kemudian menu data anggota. Kemudian menu arus kas, yang mana pada laman
+
+ini terdapat menu trx debit/kredit dan buku besar. Kemudian menu laporan, yang
+
+mana pada laman ini terdapat menu, simpanan pinjaman, pembayaran, pendapatan
+
+dan arus kas. Kemudian menu referensi, pada laman ini terdapat sub menu set
+
+app.Untuk admin pupuk dapat mengakses menu yang ada pada aplikasi  website,
+
+yaitu dimana pada laman ini memliki menu transaksi, yang mana pada laman ini
+
+terdapat  menu penjualan  dan pembayaran.  Kemudian   menu data  master  yang
+
+mana pada laman ini terdapat menu kategori  dan barang, kemudian menu data
+
+anggota. Kemudian menu arus kas, yang mana pada laman ini terdapat sub menu
+
+trx debit/kredit  dan buku besar. Kemudian sub menu laporan,  yang mana pada
+
+laman  ini  terdapat  menu,  penjualan,  pembayaran,  pendapatan  dan  arus  kas.
+
+Kemudian menu referensi, pada laman ini terdapat menu set app.
+
+
+
+49
+
+Pada  tahap ini, aplikasi yang telah dibuat akan diuji untuk mengetahui
+
+apakah  aplikasi  yang  dibuat  sudah  berjalan  sesuai  dengan  yang  diharapkan.
+
+Pengujian yang dilakukan adalah dengan menggunakan metode pengujian  Black
+
+Box.
+
+3.4.1 Pengujian Black box
+
+Untuk  mengetahui  sistem  informasi  berjalan  dengan  baik  atau  tidak,
+
+maka  perlu  dilakukan  pengujian  system.Adapun  pengujian  sistem  yang  di
+
+gunakan adalah pengujian dengan metode  Black Box Testing. Pengujian dengan
+
+Black  Box adalah  pengujian  yang  dilakukan  hanya  mengamati  hasil  eksekusi
+
+melalui data uji dan memeriksa fungsional dari perangkat lunak. Pengujian pada
+
+segi  fungsional  dilakukan  dengan  skenario  pengManajemenan  data  ke  sistem
+
+kemudian melihat perilaku yang dihasilkan aplikasi apakah sudah sesuai dengan
+
+yang diharapkan atau tidak.
+
+

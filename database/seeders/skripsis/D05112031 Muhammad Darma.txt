@@ -1,0 +1,8319 @@
+
+1
+
+BAB I
+
+PENDAHULUAN
+
+1.1  Latar Belakang
+
+Di era serba modern saat ini,  perkembangan teknologi informasi serta
+
+telekomunikasi berkembang begitu sangat pesat. Media transmisi yang awalnya
+
+menggunakan  media  berupa  kabel  sebagai  media  transfernya  sampai
+
+menggunakan media transmisi nirkabel/tanpa kabel yang biasa kita kenal dengan
+
+nama wireless. Wireless atau wireless network merupakan sekumpulan komputer
+
+yang  saling  terhubung  antara  satu  dengan  lainnya  sehingga  terbentuk  sebuah
+
+jaringan komputer  dengan menggunakan media  udara/gelombang  sebagai  jalur
+
+lintas  datanya.  Pada  dasarnya  wireless  dengan  LAN  merupakan  sama-sama
+
+jaringan  komputer  yang  saling  terhubung  antara  satu  dengan  lainnya,  yang
+
+membedakan antara keduanya adalah media jalur lintas data yang digunakan, jika
+
+LAN masih menggunakan kabel sebagai media lintas data,  sedangkan wireless
+
+menggunakan media gelombang radio/udara. 
+
+Salah  satu  instansi  di  lingkungan  Pemerintahan  Kota  Pontianak  yang
+
+mana  menggunakan  jaringan  kabel  dan  nirkabel  yaitu  Dinas Komunikasi  dan
+
+Informatika  Kota  Pontianak.  Dibentuk  di  awal  Tahun  2017  sebagai  sarana
+
+komunikasi  dan  informatika  ada  pun  visi  dan  misinya  untuk  menjadikan
+
+Pontianak  Kota  Khatulistiwa  berwawasan  lingkungan,  terdepan  dalam kualitas
+
+sumber  daya  manusia,  prima  dalam  pelayanan  publik,  didukung  dengan  tata
+
+kelola Pemerintahan yang baik dan bersih.
+
+Salah  satu  sarana  Dinas  Komunikasi  dan  Informatika  yang  sedang
+
+berjalan yaitu sarana CCTV jalan umum berbasis kabel & nirkabel yang mana
+
+sarana CCTV jalan umum ini di pergunakan Dinas Perhubungan Pontianak dan
+
+Polresta  Pontianak.  Sarana  CCTV  jalan  umum  Pontianak  berbasis  kabel  &
+
+nirkabel  sebelumnya  dikelola  Dinas  Perhubungan  Pontianak  dan  sekarang  di
+
+kelola  Dinas  Kominfo  Pontianak  namun sampai  saat  ini  belum pernah diteliti
+
+kinerja CCTV jalan umum yang berbasis kabel maupun nirkabel. Data yang telah
+
+didapatkan  akan menjadi  tolak  ukur  manakah  jaringan  yang lebih  baik  antara
+
+kabel & nirkabel.
+
+
+
+2
+
+Hasil  Pengujian  diharapkan  dapat  membantu  dan  menjadi  tolak  ukur
+
+manakah  yang  lebih  baik  antara  jaringan  kabel  dan  nirkabel  dan  diharapkan
+
+menjadi sebuah saran untuk pembaruan jaringan ke depannya yang mana tidak
+
+lain untuk mewujudkan visi dan misi Dinas Kominfo Pontianak serta mendukung
+
+pemerintahan Pontianak menuju smart city
+
+1.2 Rumusan Masalah
+
+Berdasarkan latar belakang yang telah dipaparkan, maka permasalahan
+
+yang dapat diambil adalah Bagaimana menganalisis perbandingan kinerja CCTV
+
+jalan umum berbasis Kabel dan Nirkabel di Kota Pontianak.
+
+1.3   Tujuan Penelitian
+
+Melakukan  analisa  perbandingan  kinerja  CCTV  jalan  umum  Kota
+
+Pontianak,  untuk  menentukan  kondisi  yang  lebih  baik  antara  CCTV  Jaringan
+
+Kabel  dan Nirkabel  terhadap aktivitas  internet  waktu siang hari,  sore hari  dan
+
+malam hari.
+
+1.4 Pembatasan Masalah
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah:
+
+1. Pendataan CCTV  yang dijadikan sampel pengujian
+
+a. CCTV Parit Besar Lokasi Lampu Merah Pertigaan Jl.Tanjungpura Pasar
+
+Tengah  (Kabel)
+
+b. CCTV Tanray Lokasi Lampu Merah Perempatan JL.Tanjung Raya 1 dan
+
+2 (Kabel)
+
+c. CCTV Jihad Lokasi Lampu Merah Pertigaan Masjid Jihad (Nirkabel)
+
+d. CCTV  Bundaran  UNTAN  Lokasi  Lampu  Merah  Bundaran  UNTAN
+
+(Nirkabel)
+
+2. Mengukur  dan  menganalisis  kinerja  jaringan  CCTV  menggunakan  QoS
+
+(Quality  of  Service)  Throughput,  delay,  jitter  dan  paket  loss  dengan
+
+menggunakan  Aplikasi  wireshark  dengan  tujuan  mengukur  performa
+
+parameter  jaringan  CCTV  Dinas  Kominfo  Pontianak  dan  menganalisis
+
+kulitas video CCTV saat di akses mengguankan aplikasi smart PSS.
+
+1.5 SISTEMATIKA PENULISAN SKRIPSI
+
+Sistematika dari  penulisan tugas akhir  ini  disusun dalam 5 (lima) bab
+
+
+
+3
+
+yang  terdiri  dari  BAB  I  Pendahuluan,  BAB  II  Tinjauan  Pustaka,  BAB  III
+
+Metodologi Penelitian dan Analisis, BAB IV Hasil  dan Analisis, serta BAB V
+
+Penutup.
+
+BAB I Pendahuluan adalah bab yang berisi latar belakang, perumusan
+
+masalah, tujuan penelitian, pembatasan masalah, dan sistematika penulisan.
+
+BAB II Tinjauan Pustaka adalah bab yang berisi  landasan teori  dan
+
+penunjang yang berguna dalam pengerjaan tugas akhir ini.
+
+BAB III Metodologi Penelitian  adalah bab yang berisi tentang bahan
+
+penelitian, alat yang dipergunakan, metode penelitian, variabel atau data, analisis
+
+hasil  serta diagram alir  penelitian  dan meningkatkan performa untuk mengkaji
+
+QoS terhadap delay, jitter, packet loss dan throughput.
+
+BAB IV Pengujian dan Analisis Quality of Service  adalah bab yang
+
+berisi data hasil percobaan, pengamatan, survey. Setiap hasil yang disajikan akan
+
+dilakukan analisis untuk mengarah kepada suatu kesimpulan.
+
+BAB V Penutup adalah bab yang berisi kesimpulan dari penelitian telah
+
+dilakukan  dan  saran  atau  rekomendasi  untuk  perbaikan,  pengembangan  atau
+
+kesempurnaan, kelengkapan penelitian yang telah dilakukan
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1 Analisis Kinerja Jaringan
+
+Analisis  kinerja  jaringan  didefinisikan  sebagai  suatu  proses  untuk
+
+menentukan  hubungan antara  3  konsep utama,  yaitu  sumber  daya  (resources),
+
+penundaan  (delay)  dan  daya  kerja  (throughput).  Objektif  analisa  kinerja
+
+mencakup  analisa  sumber  daya  dan  analisa  daya  kerja.  Nilai  keduanya  ini
+
+kemudian digabung untuk dapat menentukan kinerja yang masih dapat ditangani
+
+oleh sistem, agar dapat memberikan pelayanan yang memuaskan, maka kinerja
+
+jaringan harus berada pada kondisi yang baik. Untuk itu perlu dilakukan suatu
+
+analisis terhadap kinerja jaringan, sehingga dapat memberikan gambaran tentang
+
+kondisi jaringan Wireless yang ada baik atau tidaknya jaringan tersebut, Analisis
+
+kinerja jaringan meliputi perhitungan Tingkat penerimaan sinyal, Free space loss,
+
+dan  System Operating Margin (SOM)  jaringan tersebut.   Analisis  kinerja  pada
+
+
+
+4
+
+jaringan komputer membicarakan sifat dasar dan karakteristik aliran data, yaitu
+
+efisiensi daya kerja, penundaan dan parameter lainnya yang diukur untuk dapat
+
+mengetahui  bagaimana  suatu  pesan  diproses  di  jaringan  dan  dikirim  lengkap
+
+sesuai fungsinya (Yanto, 2013). 
+
+2.2 KAMERA CCTV
+
+CCTV merupakan teknologi  yang memiliki fungsi untuk memonitoring
+
+suatu tempat dari tempat yang lain.  Penemu sistem CCTV adalah Walter Bruch
+
+dan  pertama  kali  digunakan  di Peenemunde, Jerman  pada  tahun  1942.  Sistem
+
+CCTV  dirancang  pada  awalnya  untuk  mengamati  peluncuran  roket  V-II  dan
+
+dikembangkan  oleh  pihak  Siemens  AG.  Pengujian  peluncuran  roket  V-II
+
+mengundang antusias rakyat Jerman dan pihak pemerintah untuk melihat secara
+
+langsung proses uji  coba tersebut.  Pihak Siemens AG pun memikirkan sebuah
+
+cara  untuk  mengantisipasi  resiko  dan  bahaya  yang  tidak  diinginkan.  Seorang
+
+insinyur  Jerman  yaitu  Walter  Bruch  ditunjuk  sebagai  kepala  yang
+
+bertanggungjawab untuk proyek tersebut (Ajie Pamudhi, 2017).
+
+Hingga  sekarang  sistem  CCTV  ini  masih  digunakan  untuk  merekam
+
+lokasi peluncuran roket dan melihat secara dekat setiap langkah dari peluncuran
+
+roket.  Tujuannya  apabila  terjadi  kesalahan,  maka  dapat  dipelajari  lintasan  dan
+
+gerakan  yang  telah  terekam  CCTV  untuk  dianalisa  kemungkinan  terjadinya
+
+penyebab kesalahan tersebut (Rahayu, 2013).
+
+Tahun 1960 di negara Inggris mulai dipasang sistem CCTV di tempat-
+
+tempat  umum  untuk  memonitoring  orang  banyak  selama  unjuk  rasa  dan
+
+penampilan  tokoh  masyarakat.  Lebih  lanjut  lagi  sistem  CCTV  dipasang  pada
+
+jalan, trotoar dan lapangan di pusat kota, stasiun kereta api dan bis umum, serta di
+
+toko-toko  dan  usaha  lainnya.  Hingga  tahun  1996  pemerintah  Inggris
+
+mengeluarkan  tiga  perempat  anggaran  dalam  pemasangan  CCTV  untuk
+
+pencegahan kejahatan (Rahayu, 2013)
+
+Di Negara Amerika Serikat, pemasangan sistem CCTV pertama kali di
+
+gunakan  pada  gedung  New York  City  pada  tahun  1969  dan  membuat  sistem
+
+CCTV ini  dilanjutkan  penggunaannya  pada  kota-kota  lainnya.  Tahun  1970-an
+
+
+
+5
+
+hingga 1980-an, penggunaan CCTV telah dipasang pada perusahaan yang rentan
+
+terhadap ancaman kejahatan seperti bank, toko-toko dan lain-lain. Hingga tahun
+
+1990-an  pada  ATM  umumnya  telah  dilengkapi  dengan  sistem  CCTV.
+
+Pemasangan  kamera  CCTV  pun  telah  banyak  digunakan  pada  jalan,  taman,
+
+kawasan rawan kejahatan dan rumah pribadi (Yato, 2013).
+
+Perkembangan sistem CCTV setiap tahun semakin modern dan memiliki
+
+bermacam-macam  teknologi  yang  ditawarkan  oleh  pasaran.  Sekarang  CCTV
+
+dapat  dijadikan  sebagai  barang  bukti  kejahatan,  monitoring  arus  lalu  lintas
+
+kendaraan  dan  lain-lain.  Berikut  merupakan  beberapa  jenis  dari  CCTV  dan
+
+perkembangannya (Ajie Pamudhi, 2017).
+
+2.2.1 Kamera CCTV Analog
+
+Kamera  CCTV  analog  adalah  jenis  kamera  konvensional  yang
+
+merupakan generasi  awal dari kamera CCTV. Kamera CCTV ini terhubung ke
+
+DVR menggunakan  kabel  jenis  coaxial.  Hasil  rekaman  akan  disimpan  dalam
+
+DVR.  Sedangkan  untuk  melihat  hasil  rekaman  adalah  dengan  menggunakan
+
+monitor PC yang terhubung dengan jaringan lokal (Ajie Pamudhi, 2017).
+
+Gambar 2.1 Sistem Kamera CCTV Analog
+
+Pada Gambar 2.1 di atas adalah prangkat – pragkat  arsitektur jaringan
+
+CCTV analog.
+
+2.2.1.1 Dahua CCTV
+
+Kamera CCTV Dahua di Indonesia sendiri merek Dahua telah memiliki
+
+reputasi  yang sangat  baik.  Merek ini  dikenal  untuk produk-produk berkualitas
+
+Dahua  CCTV  Kamera  dilengkapi  dengan  teknologi  canggih  yang  diperbarui
+
+seiring  dengan  perkembangan  teknologi  kamera  pengintai.  Dengan  fokus  dan
+
+serius  dalam  mengembangkan  kualitas  kameranya,  Dahua  Technology  telah
+
+
+
+6
+
+bertanggung jawab atas dunia dengan pasar kamera CCTV memiliki cabang di
+
+lima benua yang berbeda.
+
+Gambar 2.2 Kamera CCTV Analog Dahua
+
+Pada Gambar 2.2 dia atas adalah salah satu jenis kamera CCTV Analog
+
+produk Dahua CCTV.
+
+2.3 Jaringan Internet
+
+Internet  adalah  jaringan komputer  (interconnected  network)  di  seluruh
+
+dunia,  yang  berisikan  informasi  dan  juga  merupakan  sarana  komunikasi  data
+
+(suara,  gambar,  video,  dan teks).  Informasi  ini  dibuat  oleh penyelenggara  atau
+
+pemilik  jaringan  komputer  tersebut  atau  dibuat  oleh  pemilik  informasi  yang
+
+menitipkan informasinya kepada pemilik jaringan komputer yang tersambungkan
+
+
+
+7
+
+ke jaringan (Andi Micro, 2011).
+
+Gambar 2.4 Jaringan Internet
+
+Pada  Gambar  2.4  di  atas  adalah  arsitektur  jaringan  internet.  Untuk
+
+tersambung  ke  jaringan  internet,  client harus  terhubung  terlebih  dahulu  ke
+
+jaringan internet  ISP.  Client akan dibebani  biaya layanan ISP yang jumlahnya
+
+bervariasi, tergantung dengan besarnya bandwidth yang diinginkan. Ada beberapa
+
+cara  yang  digunakan  untuk  tersambung  ke  layanan  jaringan  internet  yaitu
+
+menggunakan saluran telepon via modem, melalui saluran  dedicated line  seperti
+
+Integrated System Digital Network (ISDN) dan Asymetric Digital Subscriber Line
+
+(ADSL),  maupun  via  satelit  melalui  Very  Small  Aperture  Terminal (VSAT).
+
+Tetapi cara-cara tersebut terhitung cukup mahal untuk ukuran client perorangan.
+
+Jadi saat ini, cara untuk dapat mengakses jaringan internet yang lebih terjangkau
+
+masih terus dikembangkan, misalnya melalui gelombang radio.
+
+2.3.1 Layanan Jaringan Internet
+
+2.3.1.1 Video Streaming
+
+Streaming  adalah  sebuah  jenis  layanan  yang  langsung  mengolah  data
+
+yang diterima tanpa menunggu seluruh paket data selesai terkirim. Layanan yang
+
+bersifat  streaming saat  ini  adalah  layanan  audio  dan  video.  Video streaming
+
+adalah  istilah  yang  sering  digunakan  saat  melihat  video di  internet melalui
+
+browser dimana  pengguna tidak  perlu  men-download file video tersebut  untuk
+
+dapat memutarnya. Jadi  video streaming  adalah proses transmisi paket data  file
+
+video secara  berkelanjutan  yang  memungkinkan  video tersebut  diputar  tanpa
+
+menunggu  seluruh  paket  data  file video tersebut  selesai  terkirim.  Client dapat
+
+melihat  file video dari  server streaming secara  langsung  saat  proses  transmisi
+
+berjalan.
+
+Video  streaming saat  ini  banyak  digunakan  untuk  berbagai  kondisi
+
+misalnya untuk pendidikan, pertemuan organisasi, keperluan pekerjaan dan untuk
+
+kepentingan pribadi. Kualitas dari  file video streaming tergantung dari besarnya
+
+bandwidth dan  besarnya  data  yang  dapat  dialirkan  per  detik  ketika  melintasi
+
+jaringan (Sarjana, 2014) 
+
+2.3.1.2 Downloading
+
+
+
+8
+
+Downloading adalah  proses  dimana  client mengambil  sebuah  file dari
+
+web server, FTP server, mail server ataupun server lainnya dan menyimpannya di
+
+perangkat pribadi.  File-file yang biasanya di download dari internet dapat berupa
+
+file video,  Mp3,  3gp,  dokumen  maupun  software.  Untuk  melakukan  proses
+
+download, client biasanya  menggunakan  salah  satu  software yang  bisa
+
+mempercepat proses download ataupun melakukan penghentian sementara proses
+
+download atau  dikenal  dengan  "pause".  Salah  satu  software  yang  sering
+
+digunakan tersebut adalah Internet Download Manager (Daryanto, 2004).
+
+2.4 Media Transmisi
+
+2.4.1 Kabel
+
+2.4.1.1 Kabel Twister Pair (UTP)
+
+A. Kabel Unshielded Twister Pair (UTP)
+
+Unshielded  Twisted-Pair (disingkat  UTP)  adalah  sebuah  jenis  kabel
+
+jaringan yang menggunakan bahan dasar tembaga, yang tidak dilengkapi dengan
+
+shield internal. UTP merupakan jenis kabel yang paling umum digunakan dalam
+
+jaringan lokal (LAN) karena harganya yang rendah, fleksibel dan kinerja yang
+
+ditunjukkannya relatif bagus. Dalam kabel UTP, terdapat insulasi satu lapis yang
+
+melindungi  kabel  dari  ketegangan  fisik  atau  kerusakan,  tetapi  tidak  seperti
+
+Shielded  Twisted  Pair (STP),  insulasi  tersebut  tidak  melindungi  kabel  dari
+
+interferensi elektromagnetik. Kabel UTP memiliki impedansi kira-kira 100 Ohm
+
+dan tersedia dalam beberapa kategori yang ditentukan dari kemampuan transmisi
+
+data yang dimilikinya.
+
+Secara teknis dapat dijelaskan bahwa dua konduktor terlindung berjalan
+
+secara  paralel.  Normalnya  digunakan  untuk  jarak  pendek  atau  untuk  bitrate
+
+rendah,  yang  memiliki  masalah  dengan  crosstalk  (cakap  silang)  dan  mudah
+
+menyerap  lonjakan  noise.  Performa  dari  kabel  konduktor  banyak  ini  bisa
+
+ditingkatkan dengan membuat  kabel  kedua sebagai  ground (referensi  tegangan
+
+nol) dan menggunakan sinyal listrik seimbang (balanced signal). 
+
+
+
+9
+
+Gambar 2.5 Kabel UTP
+
+Pada Gamabr 2.5 di atas adalah rangkaian kabel UTP. Serta  kelebihan
+
+kabel  UTP   yaitu  konduktor  terlindung,  meningkatkan  performa  elektrik  dan
+
+secara  signifikan  meningkatkan  bitrate  dibandingkan  pasangan  tidak  dipilin
+
+(untwisted  pair). UTP tidak  dilindungi  (unshielded),  seperti  kabel  telepon  dan
+
+STP yang dilindungi  (shielded) mampu mengirimkan  bitrate  yang lebih tinggi.
+
+Sistem dengan balanced signal akan menghasilkan bitrate yang tinggi.
+
+UTP  dispesifikasikan  oleh  Electronic  Industries  Association  and  the
+
+Telecommunications Industries Association (EIA/TIA) 568 Commercial Building
+
+Wiring Standard. Panjang kabel maksimum dalam satu segmen adalah 100 m atau
+
+305 feet (Anjik Sukmaaji dan Rianto, 2008).
+
+B. Kabel Shielded Twisted Pair (STP)
+
+Salah  satu  kelemahan  UTP  adalah  bahwa  ia  cukup  peka  terhadap
+
+interferensi  frekuensi  radio  dan  elektrik.  Shielded  Twisted  Pair (STP),  yang
+
+memiliki  desain  similiar,  menjadi  alternatif  yang  selangkah  lebih  maju
+
+(Riyana,Indra dan Ritapuspitasri, 2018).
+
+STP hampir  sama  dengan  UTP  tetapi  dia  memiliki  harga  yang  lebih
+
+mahal dibanding UTP sebab terdapat beberapa komponen pelindung yang tidak
+
+dimiliki oleh UTP. Komponen pelindung ini berfungsi sebagai pelindung kabel
+
+dari  medan  magnet  yang  mengganggu  atau  gangguan  fisik  lainnya.  Untuk
+
+kecepatan transmisi dan panjang kabel maksimal sama dengan UTP. Hanya saja
+
+STP memiliki  konektor  yang berbeda yaitu  STP  connector.  STP sudah jarang
+
+sekali  dipakai  sebab  jika  dibandingkan  dengan  UTP,  STP  lebih  mahal  dan
+
+
+
+10
+
+kehandalannya tidak terlalu jauh dengan UTP  (Riyana,Indra dan Ritapuspitasri,
+
+2018).
+
+Gambar 2.6 Kabel STP
+
+Pada Gambar 2.6 di atas adalah gambaran tentang struktur kabel STP.
+
+a. Kategori Kabel Twisted Pair
+
+Berdasarkan  spesifikasinya,  kabel  twisted  pair  memiliki  beberapa
+
+kategori. Kategori tersebut dapat dilihat pada Tabel 2.1:
+
+Tabel 2.1 Kategori Kabel Twisted Pair
+
+Kabel Tipe Feature
+
+Cat 1 UTP Analog  (biasanya  digunakan  di  perangkat
+
+telepon.  Pada  umumnya  jalur  ISDN-integrated
+
+service  digital  networks digunakan  untuk
+
+menghubungkan modem dengan line telepon).
+
+Cat 2 UTP Up to 1 Mbits  (sering digunakan pada topologi
+
+token ring)
+
+Cat 3 UTP / STP 16  Mbits  data  transfer  (sering  digunakan  pada
+
+topologi token ring atau 10BaseT)
+
+
+
+11
+
+Cat 4 UTP, STP 20 Mbits data transfer (biasanya digunakan pada
+
+topologi token ring)
+
+Cat 5 UTP,  STP,  UP
+
+TO 100 MHz
+
+100 Mbits data transfer/22 db
+
+Cat 5e UTP, STP, UP 
+TO 100 MHz
+
+1 Gigabit Ethernet up to 100 meter – 4 
+copperpairs (kedua jenis CAT5 sering digunakan
+pada topologi token ring 16 Mbps, Ethernet 10 
+Mbps, atau pada FastEthernet 100 Mbps)
+
+Cat 6 UP TO 155 
+MHz, 250 MHz
+
+2,5 Gigabit Ethernet up to 100 meter atau 10 
+Gigabit/s up to 25 meter
+
+Cat 7 UP TO 200 
+MHz, 700 MHz
+
+Giga-Ethernet / 20,8 db (Gigabit Ethernet)
+
+Sumber Buku Panduan Menjadi Teknisi Jaringan Komputer, 2008
+
+Pada Tabel 2.1 Perbedaan kategori 1, 2, 3, 4, 5 dan 6 dapat dilihat dari
+
+spesifikasi masing-masing kabel tembaga dan konektor. Spesifikasi antara CAT5
+
+dan CAT5 enhanced mempunyai standar industri yang sama, tetapi pada CAT5e
+
+telah dilengkapi dengan insulator untuk mengurangi efek induksi (electromagnetic
+
+interference).  Kabel  CAT5e  bisa  digunakan  untuk  menghubungkan  network
+
+hingga kecepatan 1 Gbps. Pada realisasi nantinya kabel CAT5/5e akan dibagi 2
+
+tipe sebagai berikut:
+
+1. Kabel lurus (straight cable) untuk menghubungkan client ke hub, router, dan
+
+switch.
+
+2. Kabel silang (cross cable) digunakan untuk menghubungkan  client ke  client
+
+atau dalam kasus tertentu digunakan untuk menghubungkan hub ke hub 
+
+2.4.1.2 Kabel Koaksial
+
+Kabel koaksial memiliki perlindungan yang lebih baik dibanding twisted
+
+pair,  sehingga kabel tersebut bisa digunakan untuk jarak yang lebih jauh pada
+
+kecepatan tinggi. Terdapat 2 jenis kabel koaksial, yaitu:
+
+1. Kabel  50-ohm sering  dipakai  untuk transmisi  digital  dan  merupakan kabel
+
+yang digunakan dalam jaringan komputer.
+
+
+
+12
+
+2. Kabel 75-ohm digunakan untuk transmisi analog.
+
+Konstruksi dan lapisan pelindung kabel koaksial memberikan kombinasi
+
+yang  baik  antara  bandwidth yang  besar  dan  imunitas  noise  yang  istimewa.
+
+Bandwidth tergantung panjang kabel. Untuk kabel yang panjangnya 1 km, laju
+
+data  1  sampai  2  Gbps  cukup  feasible.  Kabel  yang  lebih  panjang  pun  dapat
+
+dipergunakan,  tetapi  hanya  akan  mencapai  laju  data  lebih  rendah  atau  perlu
+
+menggunakan amplifier periodik (Rahayu, 2013). 
+
+Gambar 2.7 Kabel Koaksial
+
+Pada Gamabr 2.7 diatas adalah gambaran rangkaian kabel koaksial  dari
+
+bagian luar sampai bagian dalam
+
+a. Karakteristik Kabel Koaksial
+
+Karena  medan  listrik  berhubungan  dengan  konduksi  yang  terjadi  di
+
+dalam kabel, masalah yang berhubungan dengan radiasi sinyal bisa diminimalkan,
+
+sangat sedikit energi yang lepas, meskipun frekuensinya tinggi. Kabel ini hanya
+
+menyerap sedikit sekali  noise yang timbul dari luar, sehingga  bitrate  yang lebih
+
+tinggi  bisa  dicapai  dengan  menggunakan  kabel  ini  dibandingkan  dengan
+
+menggunakan  twisted  pair.  Kabel  koaksial  dengan impedansi karakteristik  50-
+
+ohm dan 75-ohm yang paling  banyak digunakan (Anjik  Sukmaaji  dan  Rianto,
+
+2008: 35 – 36).
+
+2.4.1.3 Kabel Fiber Optik
+
+Serat optik adalah salah satu media transmisi yang dapat menyalurkan
+
+informasi dengan kapasitas besar dengan kehandalan yang tinggi. Berbeda dengan
+
+media  transmisi  lainnya,  pada  serat  optik  gelombang  pembawanya  bukan
+
+gelombang  elektromagnet  atau  listrik,  akan tetapi  sinar/cahaya  laser  (Hanafiah
+
+Ali,2006).
+
+
+
+13
+
+Gambar 2.8 Kabel Fiber Optik
+
+Pada Gambar 2.8 adalah contoh kabel  Fiber Optik.  Berdasarkan bahan
+
+pembuat dan karakteristik sinyal, fiber optik terdiri dari 2 macam:
+
+1. Single Mode: Jika diameter serat dikurangi menjadi beberapa gelombang saja,
+
+serat  akan  berfungsi  sebagai  penuntun  gelombang,  dan  sinar  akan
+
+berpropagasi  seperti  garis  lurus,  tanpa  terjadi  pantulan.  Hal  tersebut  akan
+
+menghasilkan  serat  mode  tunggal  yang  disebut  dengan  serat  single  mode.
+
+Serat mode ini dapat mentransmisikan data lebih jauh. Dengan menggunakan
+
+laser, dapat memacu serat sepanjang 100 km tanpa menggunakan repeater.
+
+2. Multimode:  Jika berkas sinar datang yang sama atau lebih besar dari sudut
+
+kritis  akan  terperangkap  di  dalam  serat  dan  dapat  berpropagasi  sejauh
+
+beberapa  kilometer  tanpa  mengalami  kehilangan  daya.  Jika  berkas  sinar
+
+datang pada batas permukaan diatas sudut kritis direfleksikan secara internal,
+
+maka  sinar  itu  akan  dipantulkan  dengan  sudut  yang  berbeda-beda.  Sinar
+
+seperti ini dinamakan sinar yang memiliki mode berlainan, sehingga apabila
+
+serat memiliki sifat seperti di atas dinamakan fiber multimode.
+
+a. Konstruksi Kabel:
+
+1. Jacket (pelindung).
+
+2. Cladding (lapisan isolator).
+
+3. Core (fiber – tempat propagasi cahaya).
+
+b. Kelebihan Fiber Optik:
+
+1. Memiliki bandwidth lebih besar, yaitu sampai 2 Gbps.
+
+2. Bentuk lebih kecil dan ringan.
+
+3. Atenuasi lebih rendah.
+
+4. Isolasi terhadap pengaruh gelombang elektromagnetik dari luar.
+
+5. Jarak antar repeater lebih jauh (100 km) (Anjik Sukmaaji dan Rianto, 2008).
+
+2.4.2 Wireless
+
+
+
+14
+
+Wireless atau nirkabel adalah suatu komunikasi antar dua titik atau lebih
+
+dimana  gelombang  elektromagnetik  (bukan  melewati  kabel)  membawa  signal
+
+sebagian atau seluruh bagian dari jalur komunikasi (Anjik Sukmaaji dan Rianto,
+
+2008). Suatu jaringan wireless memungkinkan orang-orang untuk berkomunikasi,
+
+mengakses  aplikasi  dan  informasi  tanpa  menggunakan kabel.  Ini  menyediakan
+
+kebebasan pergerakan dan kemampuan untuk meluaskan aplikasi  pada bagian-
+
+bagian  yang berbeda  dari  suatu  bangunan,  kota  besar,  atau  hampir  di  seluruh
+
+dunia. Sebagai contoh, orang-orang dapat meneliti dari internet dan melakukannya
+
+di suatu area yang tenang dan jauh dari anak-anak yang ribut. Jaringan  wireless
+
+mengizinkan orang-orang untuk saling berhubungan dengan  email  atau  browse
+
+internet dari lokasi yang mereka sukai.
+
+Teknologi  wireless memungkinkan  satu  atau  lebih  peralatan  untuk
+
+berkomunikasi  tanpa  koneksi  fisik,  yaitu  tanpa  membutuhkan  jaringan  atau
+
+peralatan  kabel.  Teknologi  wireless menggunakan  transmisi  frekuensi  radio
+
+sebagai alat  untuk mengirimkan data,  sedangkan teknologi kabel menggunakan
+
+kabel.  Wireless artinya  suatu  komunikasi  tanpa  menggunakan  kabel,  tetapi
+
+menggunakan antena sebagai gantinya.
+
+Meskipun jaringan  wireless ini  cukup mudah untuk dipasang, jaringan
+
+macam ini memiliki banyak kekurangan. Biasanya jaringan wireless mempunyai
+
+kemampuan 1 sampai 2 Mbps, yang mana jauh lebih rendah dibandingkan dengan
+
+jaringan  kabel.  Laju  kesalahan  juga  sering  kali  lebih  besar  dan  transmisi  dari
+
+komputer yang berbeda dapat mengganggu satu sama lain.
+
+2.5 Quality of Service (QoS)
+
+QoS merupakan metode pengukuran tentang seberapa baik jaringan dan
+
+merupakan suatu usaha untuk mendefinisikan karakteristik  dan sifat  dari  suatu
+
+servis  (TIPHON,1998).  QoS  mengacu  pada  kemampuan  jaringan  untuk
+
+menyediakan  layanan  yang  lebih  baik  pada  traffic  jaringan  tertentu  melalui
+
+teknologi yang berbeda-beda.
+
+Dengan kata  lain,  QoS dibutuhkan untuk memanajemen jaringan yang
+
+memungkinkan layanan jaringan telekomunikasi dapat beroperasi sesuai dengan
+
+yang diharapkan, dengan tujuan menyediakan kualitas layanan yang berbeda-beda
+
+misalnya  menyediakan bandwidth yang  sesuai  dengan  kebutuhan,  menurunkan
+
+
+
+15
+
+hilangnya  paket-paket,  menurunkan  waktu  tunda  dan variasi  waktu  tunda  saat
+
+proses  transmisinya.  Beberapa  parameter  QoS  diantaranya  adalah  throughput,
+
+packet loss, delay dan jitter (TIPHON, 1998).
+
+Telecommunications  and  Internet  Protocol  Harmonization  Over
+
+Networks (TIPHON)  mengelompokkan  kualitas  QoS  menjadi  empat  kategori
+
+berdasarkan nilai parameter-parameter QoS, seperti yang terlihat pada Tabel 2.2.
+
+Tabel 2.2 Standarisasi Kualitas QoS Berdasarkan Parameter QoS
+
+Nilai Persentase (%) Indeks
+
+3,8 s/d 4 95 s/d 100 Sangat memuaskan
+
+3 s/d 3,79 75 s/d 94,75 Memuaskan
+
+2 s/d 2,99 50 s/d 74,75 Kurang memuaskan
+
+1 s/d 1,99 25 s/d 49,75 Jelek
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat memuaskan artinya jika nilai persentase yang dihasilkan 95% s/d 100.
+
+2. Memuaskan artinya jika nilai persentase yang dihasilkan 75 % s/d 94,75 % .
+
+3. Kurang memuaskan artinya jika nilai  persentase yang dihasilkan  50 % s/d
+
+74,75 % .
+
+4. Jelek artinya jika nilai persentase yang dihasilkan 25% s/d 49, 75.
+
+2.5.1 Parameter-Parameter QoS
+
+2.5.1.1 Throughput
+
+Throughput adalah jumlah total semua paket data yang sukses diterima
+
+melalui media transmisi jaringan. Throughput biasanya diukur dalam bit per detik
+
+(bit/s  atau bps),  dan terkadang dalam paket  data per  detik  atau paket  data  per
+
+satuan  waktu.  Throughput merupakan  kemampuan  sebenarnya  suatu  jaringan
+
+dalam melakukan pengiriman data. Biasanya throughput selalu dikaitkan dengan
+
+bandwidth,  karena  throughput memang  bandwidth dalam  kondisi  yang
+
+sebenarnya. Bandwidth lebih bersifat statis sedangkan throughput sifatnya adalah
+
+dinamis tergantung trafik yang sedang terjadi (TIPHON, 1998).
+
+
+
+16
+
+Aspek  utama  throughput adalah  ketersediaan  bandwidth yang  cukup
+
+untuk  menjalankan  aplikasi.  Hal  ini  menentukan  besarnya  traffic  yang  dapat
+
+diperoleh suatu aplikasi saat melewati jaringpan. Semakin tinggi nilai throughput,
+
+maka jaringan memiliki performa yang lebih baik (TIPHON, 1998). 
+
+TIPHON mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai throughput, seperti terlihat pada Tabel 2.3.
+
+Tabel 2.3 Standarisasi Kinerja Jaringan Berdasarkan Nilai Throughput
+
+Kategori Degradasi Throughput Indeks
+Sangat bagus >75 % s/d 100
+
+%
+4
+
+Bagus >50 % s/d 75 % 3
+
+Sedang >25 % s/d 50 % 2
+
+Jelek 0 % s/d 25 % 1
+
+ Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai  throughput yang dihasilkan >75 % s/d 100 %
+
+maka kecepatan internet sangat lancar dan sinyal sangat stabil.
+
+2. Bagus artinya jika nilai  throughput  yang dihasilkan  >50 % s/d 75 % maka
+
+kecepatan internet lancar dan sinyal stabil.
+
+3. Sedang artinya jika nilai  throughput  yang dihasilkan  >25 % s/d 50 % maka
+
+kecepatan internet cukup lancar dan sinyal cukup stabil.
+
+4. Jelek artinya jika nilai  throughput  yang dihasilkan < 25% maka kecepatan
+
+internet tidak lancar dan sinyal tidak stabil.
+
+Untuk menghitung nilai throughput di gunakan persamaan (2.1): 
+
+Throughput  =  Paket  data  diterima  ......................................................................
+(2.1)
+
+Lama pengamatan
+
+2.5.1.2   Packet Loss
+
+Packet loss adalah parameter yang menggambarkan suatu kondisi yang
+
+menunjukkan jumlah total paket data yang hilang pada saat melakukan transmisi
+
+data  di  dalam jaringan.  Pada implementasinya,  jaringan yang bagus sebaiknya
+
+memiliki nilai packet loss yang minimum (TIPHON, 1998). 
+
+TIPHON  mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+
+
+17
+
+berdasarkan nilai packet loss, seperti terlihat pada Tabel 2.4.
+
+Tabel 2.4 Standarisasi Kinerja Jaringan Berdasarkan Nilai Packet Loss
+
+Kategori Degradasi Packet Loss Indeks
+
+Sangat bagus 0 % 4
+
+Bagus >0 % s/d 3 % 3
+
+Sedang >3 % s/d 15 % 2
+
+Jelek >15 % 1
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai packet loss yang dihasilkan 0 %, maka jumlah
+
+paket  yang hilang tidak ada sehingga kecepatan internet  sangat lancar dan
+
+sinyal sangat stabil.
+
+2. Bagus artinya jika nilai  packet loss yang dihasilkan > 0 % s/d 3 %, maka
+
+jumlah  paket  yang  hilang  sedikit  sehingga  kecepatan  internet  lancar  dan
+
+sinyal stabil.
+
+3. Sedang artinya jika nilai  packet loss yang dihasilkan > 3 % s/d 15%, maka
+
+jumlah paket yang hilang cukup banyak sehingga kecepatan internet cukup
+
+lancar dan sinyal cukup stabil
+
+4. Jelek artinya  jika nilai  packet  loss yang dihasilkan  > 15 %, maka jumlah
+
+paket yang hilang terlalu banyak sehingga kecepatan internet tidak lancar dan
+
+sinyal tidak stabil.
+
+Untuk menghitung nilai packet loss di gunakan persamaan (2.2):
+
+Packet loss=
+(Total paket data yangdikirim−Total paket data yang diterima)
+
+Total paket data yang dikirim
+x100 % …
+
+(2.2
+
+2.5.1.3   Delay
+
+Delay  adalah  waktu  tunda  yang  dibutuhkan  suatu  paket  data  yang  di
+
+kirim oleh sumber untuk mencapai tujuan, karena adanya antrian, atau mengambil
+
+rute lain untuk menghindari kemacetan (TIPHON, 1998).
+
+ TIPHON  mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai delay, seperti terlihat pada Tabel 2.6.
+
+
+
+18
+
+Tabel 2.5 Standarisasi Kinerja Jaringan Berdasarkan Nilai Delay
+
+Kategori Degradasi Delay Indeks
+
+Sangat bagus < 150 ms 4
+
+Bagus 150 s/d 300 ms 3
+
+Sedang 300 s/d 450 ms 2
+
+Jelek > 450 ms 1
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai delay yang dihasilkan < 150 ms, maka waktu
+
+tunda  suatu  sistem  untuk  melewatkan  sejumlah  paket  data  lebih  kecil
+
+sehingga kecepatan internet sangat lancar dan sinyal sangat stabil.
+
+2. Bagus  artinya  jika  nilai  delay  yang  dihasilkan  150 ms  s/d  300 ms,  maka
+
+waktu  tunda  suatu  sistem  untuk  melewatkan  sejumlah  paket  data  kecil
+
+sehingga kecepatan internet lancar dan sinyal stabil.
+
+3. Sedang artinya jika nilai  delay yang dihasilkan 300 ms s/d 450 ms, maka
+
+waktu tunda suatu sistem untuk melewatkan sejumlah paket data cukup kecil
+
+sehingga kecepatan internet cukup lancar dan sinyal cukup stabil.
+
+4. Jelek artinya jika nilai  delay  yang dihasilkan > 450 ms, maka waktu tunda
+
+suatu  sistem untuk  melewatkan  sejumlah  paket  data  lebih  besar  sehingga
+
+kecepatan internet tidak lancar dan sinyal tidak stabil.
+
+Untuk menghitung nilai delay di gunakan persamaan (2.3):
+
+Rata−ratadelay=
+Totaldelay
+
+Total paket data yang diterima
+    .........................................
+
+(2.3)
+
+2.5.1.3.1 Jitter
+
+Jitter merupakan variasi delay (perbedaan selang waktu) antar paket yang
+
+terjadi  pada  jaringan,  yang  disebabkan  oleh  panjangnya  antrian  pada  saat
+
+pengolahan data yang terjadi pada jaringan. Besarnya nilai jitter dipengaruhi oleh
+
+
+
+19
+
+beban traffic  dan besarnya tumbukan antar paket  (congestion)  yang ada dalam
+
+jaringan. Semakin besar beban traffic di dalam jaringan maka semakin besar juga
+
+terjadinya congestion, yang menyebabkan nilai  jitter pun semakin besar. Dengan
+
+nilai  jitter yang semakin  besar,  menyebabkan nilai  QoS semakin  turun. Untuk
+
+mendapatkan nilai  QoS jaringan yang baik, nilai  jitter harus dijaga seminimum
+
+mungkin (TIPHON, 1998). 
+
+TIPHON  mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai jitter, seperti terlihat pada Tabel 2.6.
+
+             Tabel 2.6 Standarisasi Kinerja Jaringan Berdasarkan Nilai Jitter
+
+Kategori Degradasi Jitter Indeks
+
+Sangat bagus 0 ms 4
+
+Bagus 0 s/d 75 ms 3
+
+Sedang 75 s/d 125 ms 2
+
+Jelek 125 s/d 225 ms 1
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai jitter yang dihasilkan 0 ms, maka selang waktu
+
+kedatangan  antar  paket  di  terminal  tujuan  tidak  ada  sehingga  kecepatan
+
+internet sangat lancar dan sinyal sangat stabil.
+
+2. Bagus artinya jika nilai jitter yang dihasilkan > 0 ms s/d 75 ms, maka selang
+
+waktu  kedatangan  antar  paket  di  terminal  tujuan  lebih  kecil  sehingga
+
+kecepatan internet sangat lancar dan sinyal stabil.
+
+3. Sedang artinya jika nilai  jitter  yang dihasilkan > 75 ms s/d 125 ms, maka
+
+selang waktu kedatangan antar paket di terminal tujuan cukup kecil sehingga
+
+kecepatan internet cukup lancar dan sinyal cukup stabil.
+
+4. Jelek artinya jika nilai  jitter  yang dihasilkan > 125 ms, maka selang waktu
+
+kedatangan  antar  paket  di  terminal  tujuan  lebih  kecil  sehingga  kecepatan
+
+internet tidak cukup lancar dan sinyal menjadi tidak stabil.
+
+Untuk menghitung nilai jitter digunakan persamaan (2.4) dan (2.5):
+
+
+
+20
+
+Jitter=
+Total variasi delay
+
+Total paket data yang diterima
+    ……………………………………….. 
+
+(2.4)
+
+Total variasidelay=Delay−(rata−rata delay)   ……………………...(2.5)
+
+2.5.2 Penyebab Buruknya QoS
+
+Waskita  Hendra  (2014)  menyatakan  bahwa  terdapat  beberapa  faktor
+
+pengganggu dalam jaringan yang menyebabkan turunnya nilai QoS, yaitu: 
+
+2.5.2.1 Redaman
+
+Yaitu  jatuhnya  kuat  sinyal  karena  pertambahan  jarak  pada  media
+
+transmisi.  Setiap  media  transmisi  memiliki  redaman  yang  berbeda-beda,
+
+tergantung dari bahan yang digunakan. Untuk mengatasi hal ini, perlu digunakan
+
+repeater sebagai penguat sinyal. Pada daerah frekuensi tinggi biasanya mengalami
+
+redaman lebih tinggi dibandingkan pada daerah frekuensi rendah. 
+
+2.5.2.2 Distorsi
+
+Yaitu  fenomena  yang  disebabkan  bervariasinya  kecepatan  propagasi
+
+karena perbedaan bandwidth. Untuk itu, dalam komunikasi dibutuhkan bandwidth
+
+transmisi  yang  memadai  dalam  mengakomodasi  adanya  spektrum  sinyal.
+
+Dianjurkan  digunakan  pemakaian  bandwidth yang  seragam,  sehingga  distorsi
+
+dapat dikurangi.
+
+2.5.2.3 Noise
+
+Noise adalah sinyal-sinyal yang tidak diinginkan yang selalu ada dalam
+
+suatu sistem transmisi.  Noise ini  akan mengganggu kualitas  dari  sinyal  terima
+
+yang diinginkan dan akhirnya mengganggu proses penerimaan dan pengiriman
+
+data.
+
+2.6 DDNS (Dynamic Domain Name Server)
+
+DDNS (Dynamic  Domain  Name  Server)  adalah  sebuah  sistem dalam
+
+jaringan yang memungkinkan untuk menerjemahkan nama domain ke IP Publik
+
+yang dinamis atau IP yang berubah-ubah. DDNS adalah solusi untuk pengguna
+
+internet yang menginginkan alamat tersendiri melalui internet, sehingga anda bisa
+
+mengakses  server  anda dimana saja dan kapan saja selama ada koneksi internet.
+
+Seolah-olah  pengguna  internet  tersebut  memiliki  server sendiri  di  rumahnya.
+
+Dengan  menggunakan  DDNS  para  pengguna  dapat  membuat  server  web,  ftp,
+
+mail, 
+
+
+
+21
+
+(Andi Marco, 2011).
+
+2.7 Speedtest.net
+
+Speedtest.net adalah sebuah situs yang menyediakan pengujian kecepatan
+
+koneksi  internet yang  disediakan  oleh  perusahaan  asal  Kalispell,  Montana,
+
+Amerika Serikat, Ookla. Situs ini berjalan mulai tahun 2006. Sebanyak 20 juta
+
+pengguna  internet  mengetes  kecepatan  internetnya  melalui  situs  ini  setiap
+
+bulannya. 
+
+Situs ini  dapat diakses melalui perangkat apa pun asalkan mendukung
+
+Adobe Flash Player. Saat ini tanpa Adobe Flash Player pun tetap bisa melalukan
+
+tes kecepatan internet, saat ini menggunakan HTML 5. Misal selain speedtest.net
+
+ada  speedtest.co.id juga  menggunakan  HTML  5  untuk  mengukur  kecepatan
+
+(Speedtest, 2006)
+
+2.8 Aplikasi Smart PSS
+
+Smart PSS adalah program pengawas video yang mendukung IPC, DVR,
+
+NVR, NVS, pengendali dinding video. Program ini memungkinkan anda untuk
+
+mengelola  hingga  256  perangkat  atau  2000  saluran  dengan  mudah,  untuk
+
+menyiapkan  alaram  deteksi  gerakan,  melihat  dan  mengelola  semua  lokasi
+
+perangkat, dan mengelola pemutaran sinkronisasi 36-kanal (JakartaCCT,2018)
+
+2.9 Aplikasi Wireshark
+
+Wireshark adalah salah satu dari sekian banyak tool Network Analyzer
+
+yang banyak digunakan oleh Network Administrator untuk menganalisa kinerja
+
+jaringannya  dan  mengontrol  lalu  lintas  data  di  jaringan  yang  Anda  kelola.
+
+Wireshark menggunakan interface yang menggunakan Graphical User Interface
+
+(GUI).
+
+Wireshark  telah  menjadi  Network  Protocol  Analyzer  yang  sangat
+
+terkenal  dan telah menjadi  standar di berbagai  industri,  dan merupakan sebuah
+
+proyek  lanjutan  yang  dimulai  tahun  1998.  Developer  di  seluruh  dunia  telah
+
+berkontribusi  mengembangkan  software  ini.  Dengan  segala  kemampuan  yang
+
+dimilikinya.  Wireshark  digunakan  oleh  network  professional  untuk  keperluan
+
+analisis, troubleshooting, pengembangan software dan protokol, serta digunakan
+
+juga untuk tujuan edukasi. Wireshark mampu menangkap paket-paket data yang
+
+ada pada jaringan tersebut. Semua jenis paket informasi dalam berbagai format
+
+
+
+22
+
+protokol pun akan dengan mudah ditangkap dan dianalisa (Singh, A. 2013)
+
+2.9.1 Fitur-fitur Wireshark
+
+1. Tersedia untuk windows, unix, linux dan mac
+
+2. Menangkap / mengcapture paket data secara langsung dari sebuah network
+
+interfaces
+
+3. Mampu menampilkan informasi yang detail mengenai hasil capture tersebut
+
+4. Pencarian paket dengan berbagai macam kriteria filter
+
+5. Menampilkan data statistic
+
+2.9.2 Kegunaan Wireshark
+
+1. Wireshark  mampu  menangkap  paket-paket  data  atau  informasi  yang
+
+berseliweran  dalam jaringan.  Semua jenis  paket  informasi  dalam berbagai
+
+format protokol pun akan dengan mudah ditangkap dan dianalisa.
+
+2. Wireshark  dipakai  oleh  network  administrator  untuk  menganalisa  kinerja
+
+jaringannya. Wireshark mampu menangkap paket-paket data atau informasi
+
+yang  berjalan  dalam jaringan  yang  terlihat  dan  semua  jenis  informasi  ini
+
+dapat dengan mudah dianalisa yaitu dengan memakai sniffing.
+
+3. Wireshark merupakan software untuk melakukan analisa lalu-lintas jaringan
+
+komputer, yang memiliki fungsi-fungsi yang amat berguna bagi profesional
+
+jaringan, administrator jaringan.
+
+4. Program ini juga sering digunakan oleh chatters untuk mengetahui ip korban
+
+maupun para chatter lainnya lewat typingan room.
+
+5. Tool wireshark dapat menganalisa transmisi paket data dalam jaringan, proses
+
+koneksi dan transmisi data antar komputer
+
+2.10 Dinas Komunikasi dan Informatika Kota Pontianak
+
+Dinas Komunkasi dan Informatika Kota Pontianak dibentuk berdasarkan
+
+Peraturan Pemerintah Nomor 18 Tahun 2016 tentang Perangkat Daerah yang di
+
+tindak lanjuti  dengan Peraturan  Daerah  Kota  Pontianak Nomor  7 Tahun 2016
+
+tentang Pembentukan dan Susunan Perangkat Daerah Kota Pontianak dan untuk
+
+teknis melengkapi kedudukan Dinas Komunikasi dan Informatika Kota Pontianak
+
+dituangkan dalam Peraturan Walikota Pontianak Nomor 72 Tahun 2016 tentang
+
+Kedudukan, Struktur Organisasi,  Tugas Pokok, Fungsi,  Uraian Tugas dan Tata
+
+
+
+23
+
+Kerja Dinas Komunikasi dan Informatika Kota Pontianak. 
+
+Sebagai  satu  unsur  Organisasi  Perangkat  Daerah  (OPD)  untuk
+
+meningkatkan  kualitas  aplikasi  dan  SDM  di  bidang  teknologi  informasi  dan
+
+komunikasi  melalui  kerja  sama dan kemitraan  bersama komunitas  komunikasi
+
+berbasis potensi lokal, dan meningkat Peran Serta Masyarakat Dalam Pelayanan
+
+dan Akses Informasi, Komunikasi dan Informatika serta meningkatkan kuantitas
+
+dan kualitas data sektoral Kota Pontianak 
+
+Dalam  melaksanakan  tugas  dan  fungsi  Dinas  Komunikasi  dan
+
+Informatika Kota Pontianak mempuyai tugas membantu Walikota melaksanakan
+
+urusan pemerintahan yang menjadi kewenangan Daerah dan tugas pembantu di
+
+bidang komunikasi, bidang informatika dan bidang statistik.  
+
+Berdasarkan  dokumen  rencana  jangka  menegah  (RPJM)  Dinas
+
+Komunikasi dan Informatika Kota Pontianak termasuk dalam urusan Komunikasi
+
+dan  Informatika  yang  difokuskan  dalam  mewujudkan  misi  yang  kedua  yaitu
+
+meningkatkan  pelayanan  publik  dan  penyelenggaraan  pemerintahan  yang  baik
+
+dengan  prioritas  pembangunan  yang  secara  langsung  memberikan  kontribusi
+
+terhadap keberhasilan pencapaiannya program penguasaan serta pengembangan
+
+aplikasi dan teknologi informasi dan komunikasi. 
+
+Sebagai  bentuk  pertanggungjawaban  kepada  publik  atas  kinerja
+
+pemerintah,  maka  diperlukan  suatu  pengukuran  kinerja  untuk  menunjukkan
+
+apakah sasaran atau kegiatan telah berhasil dicapai,  yang kemudian dituangkan
+
+dalam Indikator  Kinerja.  Agar  sasaran  kegiatan  dan  program berjalan  efektif,
+
+efisien dan optimal maka ditetapkan suatu pengukuran Indikator Kinerja strategis
+
+yang menjadi prioritas di setiap organisasi perangkat daerah sebagai suatu bentuk
+
+penajaman  sasaran  sehingga  diharapkan  tujuan  visi  dan  misi  organisasi  dapat
+
+tercapai  sesuai  dengan  perencanaan  yang  tertuang  dalam RPJMD, RENSTRA
+
+maupun RENJA, yang telah ditetapkan. 
+
+
+
+24
+
+Melalui  Peraturan  Menteri  Negara  Pendayagunaan  Aparatur  Negara
+
+Nomor PER/09/M.PAN/2007 tentang pedoman umum Penetapan Indikator Kerja
+
+Utama di  Lingkungan Instansi  Pemerintah.  Pemilihan  dan penetapan Indikator
+
+Kinerja utama melibatkan pemangku kepentingan di lingkungan lembaga/Instansi
+
+pemerintah yang bersangkutan,  maka Pimpinan Instansi Pemerintah diwajibkan
+
+menetapkan Indikator Kinerja Utama. 
+
+2.10.1 Maksud dan Tujuan
+
+1. Untuk  memperoleh  informasi  kinerja  yang  penting  dan  diperlukan  dalam
+
+menyelenggarakan manajemen kinerja secara baik. 
+
+2. Untuk  memperoleh  ukuran  keberhasilan  dari  pencapaian  suatu  tujuan  dan
+
+sasaran  strategis  organisasi  yang  digunakan  untuk  perbaikan  kinerja  dan
+
+peningkatan akuntabilitas kinerja
+
+2.10.2 Visi dan Misi Dinas Komunikasi dan Informatika 
+
+Visi:
+
+Visi Dinas Komunikasi dan Informatika Kota Pontianak disusun mengacu kepada
+
+Rencana Pembangunan Jangka Menegah Daerah (RPJMD) Kota Pontianak Tahun
+
+2015  –  2019,  berdasarkan  Peraturan  Daerah  Nomor  6  Tahun  2014  tentang
+
+Rencana Pembangunan Jangka Menegah Daerah Kota Pontianak Tahun 2015 –
+
+2019, disusun sebagai  penjabaran  agenda dalam pembangunan Kota Pontianak
+
+lima tahun ke depan dalam mewujudkan visi dan misi Kota Pontianak. 
+
+Visi dan misi Dinas Komunikasi dan Informatika Kota Pontianak untuk
+
+tahun 2015 – 2019 mengacu kepada visi dan misi Kota Pontianak Tahun 2015 –
+
+2019,  yaitu  “Pontianak  Kota  Khatulistiwa  Berwawasan Lingkungan,  Terdepan
+
+dalam Kualitas Sumber Daya Manusia, Prima dalam Pelayanan Publik, Didukung
+
+dengan Tata Kelola  Pemerintahan yang Baik dan Bersih”.  Visi  dan misi  Kota
+
+Pontianak sebagai dasar Dinas Komunikasi dan Informatika dalam menentukan
+
+langkah strategis dalam pengelolaan bidang urusan informasi dan komunikasi di
+
+Kota Pontianak. Visi Dinas Komunikasi dan Informatika Kota Pontianak tahun
+
+2015 – 2019 adalah sebagai 
+
+“Penyelenggaraan  Pemerintahan  dan  Pelayanan  Informasi  Publik  Kota
+
+Pontianak Berbasis E-Government”  
+
+
+
+25
+
+Dinas Komunikasi  dan Informatika Kota Pontianak sebagai  salah satu
+
+organisasi perangkat daerah (OPD) yang mempuyai tugas dan fungsi di bidang
+
+komunikasi,  informasi  dan statistik  dengan visi  penyelenggaraan pemerintahan
+
+dan  pelayanan  informasi  publik  Kota  Pontianak  berbasis  E-government,  dapat
+
+diwujudkan  dengan  kebijakan  strategis  pengembangan  terhadap  layanan
+
+masyarakat  atau  aparatur  yang  berbasis  e-government,  serta  pengembangan
+
+Website di masing – masing OPD dan didukung dengan penyediaan operasional
+
+pusat layanan pengaduan (Command Center)  Kota Pontianak yang berbasis E-
+
+government serta meningkatkan dan pengembangan LPSE Kota Pontianak yang
+
+berbasis E-government dan mendorong masyarakat untuk memanfaatkan internet
+
+sebagai  salah  media  informasi  dan  komunikasi  konvensional  mendukung
+
+pembangunan  di  Kota  pontianak  media  E-lawar.  Penyebarluasan  informasi
+
+melalui  TIK  namun  masih  dibutuhkan  melalui  media  konvensional  dan  tatap
+
+muka  langsung  serta  mewujudkan  pengembangan  data  dasar  statistik  sektoral
+
+Kota Pontianak berbasis E-government. 
+
+Misi:
+
+Upaya  untuk  mewujudkan  visi  Dinas  Komunikasi  dan  Informatika  dengan
+
+Penyelenggaraan Pemerintahan dan Pelayanan Informasi Publik Kota Pontianak
+
+Berbasis  E-Government  dengan  melalui  4  (empat)  misi  pembangunan  sebagai
+
+berikut: 
+
+1. Meningkatnya profesionalisme aparatur dan profesionalisme birokrasi. 
+
+2. Meningkatkan  pelayanan  publik  dan  akses  informasi  masyarakat  berbasis
+
+teknologi informatika. 
+
+3. Meningkatkan  kualitas  dan  kapasitas  infrastruktur  jaringan  dan  aplikasi
+
+sistem pemerintahan dan pelayanan publik berbasis potensi lokal. 
+
+4. Meningkatkan kuantitas dan kualitas data sektoral Kota Pontianak.  
+
+
+
+26
+
+2.10.3 Struktur Organisasi 
+
+Gambar 2.10 Struktur Organisasi Dinas Komunikasi dan Informatika Kota
+
+Pontianak
+
+
+
+27
+
+2.11 Penelitian Terkait
+
+Berikut ini adalah penelitian-penelitian yang telah dilakukan untuk 
+
+mengkaji penelitian yang akan dilakukan.
+
+1. Yanto  (2013)  Fakultas  Teknik  Informatika  Universitas  Universitas
+
+Tanjungpura tentang Analisis QOS (Quality of Service) Pada Jaringan Internet
+
+Studi  Kasus  Fakultas  Teknik  Universitas  Tanjungpura.  Penelitian  tersebut
+
+bertujuan menganalisis jaringan internet Fakultas Teknik yang telah ada dan
+
+menghasilkan  suatu  kualitas  jaringan  yang  sesuai  dengan  parameter  QoS
+
+(Quality of Service) yang dapat menunjang dan meningkatkan kinerja kampus
+
+dalam  memberikan  pelayanan  yang  maksimal  kepada  civitas  akademik
+
+maupun masyarakat.
+
+2. Rahayu  (2013)  Universitas  Bina  Darma  tentang  Monitoring  Dan  Analisis
+
+Kualitas  Layanan  Traffic Kamera CCTV Pada Jaringan Wireless  PT Bukit
+
+Asam  (Pesero)  TBK  Tanjung  Enim.  Penelitian  tersebut  bertujuan  untuk
+
+menganalisis dan mengukur kualitas jaringan CCTV PT. Bukit Asam dengan
+
+mengukur QoS yaitu delay, packet loss, dan throughput yang kemudian hasil
+
+dari pengukuran tersebut dianalisis untuk dapat mengetahui faktor-faktor apa
+
+saja  yang  mempengaruhi  traffic,  serta  menyebabkan  kelemahan  jaringan
+
+dalam mengirim dan mengakses gambar /  streaming video,  sehingga dapat
+
+memberi saran atau pengembangan infrastruktur jaringan.
+
+3. Ajie  Pambudhi  (2017)  Universitas  Tanjungpura  tentang  monitoring  dan
+
+Analisis  IP  Camera  Pada Jaringan Internet  (Studi  Kasus:  Fakultas  Teknik
+
+Universitas  Tanjungpura).  Penelitian  tersebut  bertujuan  untuk
+
+mengkonfigurasi sebuah sistem pemantau ruangan untuk memantau kondisi
+
+suatu ruangan atau lokasi tertentu dengan menampilkan  video  yang diambil
+
+oleh IP Camera menggunakan laptop dan smartphone pada jaringan internet
+
+dan mengevaluasi kualitas jaringan untuk mengetahui stabilitas operasional
+
+jaringan.
+
+
+
+28
+
+Tabel 2.7 Penelitian Yang Terkait
+
+No Penulis Judul Keterangan
+
+1 Yanto (2013) 
+Fakultas Teknik 
+Universitas  
+Tanjungpura
+
+Analisis QOS 
+(Quality of 
+Service) Pada 
+Jaringan Internet 
+Studi Kasus 
+Fakultas Teknik 
+Universitas 
+Tanjungpura
+
+Melakukan analisis kinerja 
+Jaringan Internet Fakultas Teknik
+
+Mengukur parameter QOS yaitu 
+delay, throughput, packet loss dan
+MOS (Mean Opinion Score), 
+Menggunakan Standar Tiphon.
+
+Output berupa hasil pemantauan 
+dan pengukuran QOS
+
+2 Rahayu (2013) 
+Universitas Bina
+Darma
+
+Monitoring Dan 
+Analisis Kualitas 
+Layanan Traffic 
+Kamera CCTV 
+Pada Jaringan 
+Wireless (Studi 
+Kasus: PT Bukit 
+Asam (Pesero) 
+TBK Tanjung 
+Enim
+
+Melakukan Monitoring dan 
+Analisis Jaringan CCTV
+
+Mengukur Qos Yaitu Delay, 
+Packet Loss, dan Throughput, 
+degan memantau traffic 
+menggunakan Aplikasi Axence 
+Net Tools 5. Menggunakan 
+Standar Tiphon.
+
+Output berupa hasil pemantauan 
+dan pengukuran QOS
+
+3 Ajie Pambudhi 
+(2017) 
+Universitas 
+Tanjungpura
+
+Monitoring dan 
+Analisis IP 
+Camera Pada 
+Jaringan Internet 
+(Studi Kasus: 
+Fakultas Teknik 
+Universitas 
+Tanjungpura)
+
+Melakukan Pemsangan CCTV 
+dan Monitoring dan Analisis 
+Jaringan CCTV Terhadap 
+Jaringan Internet 
+
+Melakukan Configurasi 
+CCTV,Mengukur Qos Yaitu 
+Delay,jiter, Packet Loss, dan 
+Throughput, degan memantau 
+traffic menggunakan Aplikasi 
+Axence Net Tools 5. 
+Menggunakan Standar Tiphon.
+
+Output berupa hasil pemasangan 
+CCTVdan hasil pegukuran QoS
+
+
+
+29
+
+Tabel 2.8 Penelitian Yang Akan Dilakukan
+
+N
+O
+
+Penulis Judul Keterangan
+
+1 Muhammad
+Darma  (2018)
+Universitas
+Tanjungpura
+
+Analisis Perbadingan
+Kinerja CCTV Jalan 
+Umum Berbasis 
+Kabel dan Nirkabel 
+di Kota Pontiaanak 
+Studi kasus Dinas 
+Komunikasi dan 
+Informatika 
+Pontianak
+
+Melakukan Monitoring CCTV 
+dan analisis hasil perhitungan 
+dan pegujian  QoS CCTV Kabel 
+dan Nirkabel
+
+Mengukur QoS CCTV Kabel 
+dan Nirkabel yaitu parameter 
+delay, jitter, packet loss dan 
+throughput.
+Menggunakan Standar TIPHON.
+
+Output berupa hasil perhitungan
+QoS CCTV Kabel dan Nirkabel
+membandingkan  yang  terbaik
+antara kedua jaringan tersebut
+
+
+
+4
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1 Analisis Kinerja Jaringan
+
+Analisis  kinerja  jaringan  didefinisikan  sebagai  suatu  proses  untuk
+
+menentukan  hubungan antara  3  konsep utama,  yaitu  sumber  daya  (resources),
+
+penundaan  (delay)  dan  daya  kerja  (throughput).  Objektif  analisa  kinerja
+
+mencakup  analisa  sumber  daya  dan  analisa  daya  kerja.  Nilai  keduanya  ini
+
+kemudian digabung untuk dapat menentukan kinerja yang masih dapat ditangani
+
+oleh sistem, agar dapat memberikan pelayanan yang memuaskan, maka kinerja
+
+jaringan harus berada pada kondisi yang baik. Untuk itu perlu dilakukan suatu
+
+analisis terhadap kinerja jaringan, sehingga dapat memberikan gambaran tentang
+
+kondisi jaringan Wireless yang ada baik atau tidaknya jaringan tersebut, Analisis
+
+kinerja jaringan meliputi perhitungan Tingkat penerimaan sinyal, Free space loss,
+
+dan  System Operating Margin (SOM)  jaringan tersebut.   Analisis  kinerja  pada
+
+jaringan komputer membicarakan sifat dasar dan karakteristik aliran data, yaitu
+
+efisiensi daya kerja, penundaan dan parameter lainnya yang diukur untuk dapat
+
+mengetahui  bagaimana  suatu  pesan  diproses  di  jaringan  dan  dikirim  lengkap
+
+sesuai fungsinya (Yanto, 2013). 
+
+2.2 KAMERA CCTV
+
+CCTV merupakan teknologi  yang memiliki fungsi untuk memonitoring
+
+suatu tempat dari tempat yang lain.  Penemu sistem CCTV adalah Walter Bruch
+
+dan  pertama  kali  digunakan  di Peenemunde, Jerman  pada  tahun  1942.  Sistem
+
+CCTV  dirancang  pada  awalnya  untuk  mengamati  peluncuran  roket  V-II  dan
+
+dikembangkan  oleh  pihak  Siemens  AG.  Pengujian  peluncuran  roket  V-II
+
+mengundang antusias rakyat Jerman dan pihak pemerintah untuk melihat secara
+
+langsung proses uji  coba tersebut.  Pihak Siemens AG pun memikirkan sebuah
+
+cara  untuk  mengantisipasi  resiko  dan  bahaya  yang  tidak  diinginkan.  Seorang
+
+insinyur  Jerman  yaitu  Walter  Bruch  ditunjuk  sebagai  kepala  yang
+
+bertanggungjawab untuk proyek tersebut (Ajie Pamudhi, 2017).
+
+
+
+5
+
+Hingga  sekarang  sistem  CCTV  ini  masih  digunakan  untuk  merekam
+
+lokasi peluncuran roket dan melihat secara dekat setiap langkah dari peluncuran
+
+roket.  Tujuannya  apabila  terjadi  kesalahan,  maka  dapat  dipelajari  lintasan  dan
+
+gerakan  yang  telah  terekam  CCTV  untuk  dianalisa  kemungkinan  terjadinya
+
+penyebab kesalahan tersebut (Rahayu, 2013).
+
+Tahun 1960 di negara Inggris mulai dipasang sistem CCTV di tempat-
+
+tempat  umum  untuk  memonitoring  orang  banyak  selama  unjuk  rasa  dan
+
+penampilan  tokoh  masyarakat.  Lebih  lanjut  lagi  sistem  CCTV  dipasang  pada
+
+jalan, trotoar dan lapangan di pusat kota, stasiun kereta api dan bis umum, serta di
+
+toko-toko  dan  usaha  lainnya.  Hingga  tahun  1996  pemerintah  Inggris
+
+mengeluarkan  tiga  perempat  anggaran  dalam  pemasangan  CCTV  untuk
+
+pencegahan kejahatan (Rahayu, 2013)
+
+Di Negara Amerika Serikat, pemasangan sistem CCTV pertama kali di
+
+gunakan  pada  gedung  New York  City  pada  tahun  1969  dan  membuat  sistem
+
+CCTV ini  dilanjutkan  penggunaannya  pada  kota-kota  lainnya.  Tahun  1970-an
+
+hingga 1980-an, penggunaan CCTV telah dipasang pada perusahaan yang rentan
+
+terhadap ancaman kejahatan seperti bank, toko-toko dan lain-lain. Hingga tahun
+
+1990-an  pada  ATM  umumnya  telah  dilengkapi  dengan  sistem  CCTV.
+
+Pemasangan  kamera  CCTV  pun  telah  banyak  digunakan  pada  jalan,  taman,
+
+kawasan rawan kejahatan dan rumah pribadi (Yato, 2013).
+
+Perkembangan sistem CCTV setiap tahun semakin modern dan memiliki
+
+bermacam-macam  teknologi  yang  ditawarkan  oleh  pasaran.  Sekarang  CCTV
+
+dapat  dijadikan  sebagai  barang  bukti  kejahatan,  monitoring  arus  lalu  lintas
+
+kendaraan  dan  lain-lain.  Berikut  merupakan  beberapa  jenis  dari  CCTV  dan
+
+perkembangannya (Ajie Pamudhi, 2017).
+
+2.2.1 Kamera CCTV Analog
+
+Kamera  CCTV  analog  adalah  jenis  kamera  konvensional  yang
+
+merupakan generasi  awal dari kamera CCTV. Kamera CCTV ini terhubung ke
+
+DVR menggunakan  kabel  jenis  coaxial.  Hasil  rekaman  akan  disimpan  dalam
+
+DVR.  Sedangkan  untuk  melihat  hasil  rekaman  adalah  dengan  menggunakan
+
+monitor PC yang terhubung dengan jaringan lokal (Ajie Pamudhi, 2017).
+
+
+
+6
+
+Gambar 2.1 Sistem Kamera CCTV Analog
+
+Pada Gambar 2.1 di atas adalah prangkat – pragkat  arsitektur jaringan
+
+CCTV analog.
+
+2.2.1.1 Dahua CCTV
+
+Kamera CCTV Dahua di Indonesia sendiri merek Dahua telah memiliki
+
+reputasi  yang sangat  baik.  Merek ini  dikenal  untuk produk-produk berkualitas
+
+Dahua  CCTV  Kamera  dilengkapi  dengan  teknologi  canggih  yang  diperbarui
+
+seiring  dengan  perkembangan  teknologi  kamera  pengintai.  Dengan  fokus  dan
+
+serius  dalam  mengembangkan  kualitas  kameranya,  Dahua  Technology  telah
+
+bertanggung jawab atas dunia dengan pasar kamera CCTV memiliki cabang di
+
+lima benua yang berbeda.
+
+Gambar 2.2 Kamera CCTV Analog Dahua
+
+Pada Gambar 2.2 dia atas adalah salah satu jenis kamera CCTV Analog
+
+produk Dahua CCTV.
+
+
+
+7
+
+2.3 Jaringan Internet
+
+Internet  adalah  jaringan komputer  (interconnected  network)  di  seluruh
+
+dunia,  yang  berisikan  informasi  dan  juga  merupakan  sarana  komunikasi  data
+
+(suara,  gambar,  video,  dan teks).  Informasi  ini  dibuat  oleh penyelenggara  atau
+
+pemilik  jaringan  komputer  tersebut  atau  dibuat  oleh  pemilik  informasi  yang
+
+menitipkan informasinya kepada pemilik jaringan komputer yang tersambungkan
+
+ke jaringan (Andi Micro, 2011).
+
+Gambar 2.4 Jaringan Internet
+
+Pada  Gambar  2.4  di  atas  adalah  arsitektur  jaringan  internet.  Untuk
+
+tersambung  ke  jaringan  internet,  client harus  terhubung  terlebih  dahulu  ke
+
+jaringan internet  ISP.  Client akan dibebani  biaya layanan ISP yang jumlahnya
+
+bervariasi, tergantung dengan besarnya bandwidth yang diinginkan. Ada beberapa
+
+cara  yang  digunakan  untuk  tersambung  ke  layanan  jaringan  internet  yaitu
+
+menggunakan saluran telepon via modem, melalui saluran  dedicated line  seperti
+
+Integrated System Digital Network (ISDN) dan Asymetric Digital Subscriber Line
+
+(ADSL),  maupun  via  satelit  melalui  Very  Small  Aperture  Terminal (VSAT).
+
+Tetapi cara-cara tersebut terhitung cukup mahal untuk ukuran client perorangan.
+
+Jadi saat ini, cara untuk dapat mengakses jaringan internet yang lebih terjangkau
+
+
+
+8
+
+masih terus dikembangkan, misalnya melalui gelombang radio.
+
+2.3.1 Layanan Jaringan Internet
+
+2.3.1.1 Video Streaming
+
+Streaming  adalah  sebuah  jenis  layanan  yang  langsung  mengolah  data
+
+yang diterima tanpa menunggu seluruh paket data selesai terkirim. Layanan yang
+
+bersifat  streaming saat  ini  adalah  layanan  audio  dan  video.  Video streaming
+
+adalah  istilah  yang  sering  digunakan  saat  melihat  video di  internet melalui
+
+browser dimana  pengguna tidak  perlu  men-download file video tersebut  untuk
+
+dapat memutarnya. Jadi  video streaming  adalah proses transmisi paket data  file
+
+video secara  berkelanjutan  yang  memungkinkan  video tersebut  diputar  tanpa
+
+menunggu  seluruh  paket  data  file video tersebut  selesai  terkirim.  Client dapat
+
+melihat  file video dari  server streaming secara  langsung  saat  proses  transmisi
+
+berjalan.
+
+Video  streaming saat  ini  banyak  digunakan  untuk  berbagai  kondisi
+
+misalnya untuk pendidikan, pertemuan organisasi, keperluan pekerjaan dan untuk
+
+kepentingan pribadi. Kualitas dari  file video streaming tergantung dari besarnya
+
+bandwidth dan  besarnya  data  yang  dapat  dialirkan  per  detik  ketika  melintasi
+
+jaringan (Sarjana, 2014) 
+
+2.3.1.2 Downloading
+
+Downloading adalah  proses  dimana  client mengambil  sebuah  file dari
+
+web server, FTP server, mail server ataupun server lainnya dan menyimpannya di
+
+perangkat pribadi.  File-file yang biasanya di download dari internet dapat berupa
+
+file video,  Mp3,  3gp,  dokumen  maupun  software.  Untuk  melakukan  proses
+
+download, client biasanya  menggunakan  salah  satu  software yang  bisa
+
+mempercepat proses download ataupun melakukan penghentian sementara proses
+
+download atau  dikenal  dengan  "pause".  Salah  satu  software  yang  sering
+
+digunakan tersebut adalah Internet Download Manager (Daryanto, 2004).
+
+2.4 Media Transmisi
+
+2.4.1 Kabel
+
+2.4.1.1 Kabel Twister Pair (UTP)
+
+A. Kabel Unshielded Twister Pair (UTP)
+
+Unshielded  Twisted-Pair (disingkat  UTP)  adalah  sebuah  jenis  kabel
+
+
+
+9
+
+jaringan yang menggunakan bahan dasar tembaga, yang tidak dilengkapi dengan
+
+shield internal. UTP merupakan jenis kabel yang paling umum digunakan dalam
+
+jaringan lokal (LAN) karena harganya yang rendah, fleksibel dan kinerja yang
+
+ditunjukkannya relatif bagus. Dalam kabel UTP, terdapat insulasi satu lapis yang
+
+melindungi  kabel  dari  ketegangan  fisik  atau  kerusakan,  tetapi  tidak  seperti
+
+Shielded  Twisted  Pair (STP),  insulasi  tersebut  tidak  melindungi  kabel  dari
+
+interferensi elektromagnetik. Kabel UTP memiliki impedansi kira-kira 100 Ohm
+
+dan tersedia dalam beberapa kategori yang ditentukan dari kemampuan transmisi
+
+data yang dimilikinya.
+
+Secara teknis dapat dijelaskan bahwa dua konduktor terlindung berjalan
+
+secara  paralel.  Normalnya  digunakan  untuk  jarak  pendek  atau  untuk  bitrate
+
+rendah,  yang  memiliki  masalah  dengan  crosstalk  (cakap  silang)  dan  mudah
+
+menyerap  lonjakan  noise.  Performa  dari  kabel  konduktor  banyak  ini  bisa
+
+ditingkatkan dengan membuat  kabel  kedua sebagai  ground (referensi  tegangan
+
+nol) dan menggunakan sinyal listrik seimbang (balanced signal). 
+
+Gambar 2.5 Kabel UTP
+
+Pada Gamabr 2.5 di atas adalah rangkaian kabel UTP. Serta  kelebihan
+
+kabel  UTP   yaitu  konduktor  terlindung,  meningkatkan  performa  elektrik  dan
+
+secara  signifikan  meningkatkan  bitrate  dibandingkan  pasangan  tidak  dipilin
+
+(untwisted  pair). UTP tidak  dilindungi  (unshielded),  seperti  kabel  telepon  dan
+
+STP yang dilindungi  (shielded) mampu mengirimkan  bitrate  yang lebih tinggi.
+
+Sistem dengan balanced signal akan menghasilkan bitrate yang tinggi.
+
+UTP  dispesifikasikan  oleh  Electronic  Industries  Association  and  the
+
+
+
+10
+
+Telecommunications Industries Association (EIA/TIA) 568 Commercial Building
+
+Wiring Standard. Panjang kabel maksimum dalam satu segmen adalah 100 m atau
+
+305 feet (Anjik Sukmaaji dan Rianto, 2008).
+
+B. Kabel Shielded Twisted Pair (STP)
+
+Salah  satu  kelemahan  UTP  adalah  bahwa  ia  cukup  peka  terhadap
+
+interferensi  frekuensi  radio  dan  elektrik.  Shielded  Twisted  Pair (STP),  yang
+
+memiliki  desain  similiar,  menjadi  alternatif  yang  selangkah  lebih  maju
+
+(Riyana,Indra dan Ritapuspitasri, 2018).
+
+STP hampir  sama  dengan  UTP  tetapi  dia  memiliki  harga  yang  lebih
+
+mahal dibanding UTP sebab terdapat beberapa komponen pelindung yang tidak
+
+dimiliki oleh UTP. Komponen pelindung ini berfungsi sebagai pelindung kabel
+
+dari  medan  magnet  yang  mengganggu  atau  gangguan  fisik  lainnya.  Untuk
+
+kecepatan transmisi dan panjang kabel maksimal sama dengan UTP. Hanya saja
+
+STP memiliki  konektor  yang berbeda yaitu  STP  connector.  STP sudah jarang
+
+sekali  dipakai  sebab  jika  dibandingkan  dengan  UTP,  STP  lebih  mahal  dan
+
+kehandalannya tidak terlalu jauh dengan UTP  (Riyana,Indra dan Ritapuspitasri,
+
+2018).
+
+Gambar 2.6 Kabel STP
+
+Pada Gambar 2.6 di atas adalah gambaran tentang struktur kabel STP.
+
+
+
+11
+
+a. Kategori Kabel Twisted Pair
+
+Berdasarkan  spesifikasinya,  kabel  twisted  pair  memiliki  beberapa
+
+kategori. Kategori tersebut dapat dilihat pada Tabel 2.1:
+
+Tabel 2.1 Kategori Kabel Twisted Pair
+
+Kabel Tipe Feature
+
+Cat 1 UTP Analog  (biasanya  digunakan  di  perangkat
+
+telepon.  Pada  umumnya  jalur  ISDN-integrated
+
+service  digital  networks digunakan  untuk
+
+menghubungkan modem dengan line telepon).
+
+Cat 2 UTP Up to 1 Mbits  (sering digunakan pada topologi
+
+token ring)
+
+Cat 3 UTP / STP 16  Mbits  data  transfer  (sering  digunakan  pada
+
+topologi token ring atau 10BaseT)
+
+Cat 4 UTP, STP 20 Mbits data transfer (biasanya digunakan pada
+
+topologi token ring)
+
+Cat 5 UTP,  STP,  UP
+
+TO 100 MHz
+
+100 Mbits data transfer/22 db
+
+Cat 5e UTP, STP, UP 
+TO 100 MHz
+
+1 Gigabit Ethernet up to 100 meter – 4 
+copperpairs (kedua jenis CAT5 sering digunakan
+pada topologi token ring 16 Mbps, Ethernet 10 
+Mbps, atau pada FastEthernet 100 Mbps)
+
+Cat 6 UP TO 155 
+MHz, 250 MHz
+
+2,5 Gigabit Ethernet up to 100 meter atau 10 
+Gigabit/s up to 25 meter
+
+Cat 7 UP TO 200 
+MHz, 700 MHz
+
+Giga-Ethernet / 20,8 db (Gigabit Ethernet)
+
+Sumber Buku Panduan Menjadi Teknisi Jaringan Komputer, 2008
+
+Pada Tabel 2.1 Perbedaan kategori 1, 2, 3, 4, 5 dan 6 dapat dilihat dari
+
+spesifikasi masing-masing kabel tembaga dan konektor. Spesifikasi antara CAT5
+
+
+
+12
+
+dan CAT5 enhanced mempunyai standar industri yang sama, tetapi pada CAT5e
+
+telah dilengkapi dengan insulator untuk mengurangi efek induksi (electromagnetic
+
+interference).  Kabel  CAT5e  bisa  digunakan  untuk  menghubungkan  network
+
+hingga kecepatan 1 Gbps. Pada realisasi nantinya kabel CAT5/5e akan dibagi 2
+
+tipe sebagai berikut:
+
+1. Kabel lurus (straight cable) untuk menghubungkan client ke hub, router, dan
+
+switch.
+
+2. Kabel silang (cross cable) digunakan untuk menghubungkan  client ke  client
+
+atau dalam kasus tertentu digunakan untuk menghubungkan hub ke hub 
+
+2.4.1.2 Kabel Koaksial
+
+Kabel koaksial memiliki perlindungan yang lebih baik dibanding twisted
+
+pair,  sehingga kabel tersebut bisa digunakan untuk jarak yang lebih jauh pada
+
+kecepatan tinggi. Terdapat 2 jenis kabel koaksial, yaitu:
+
+1. Kabel  50-ohm sering  dipakai  untuk transmisi  digital  dan  merupakan kabel
+
+yang digunakan dalam jaringan komputer.
+
+2. Kabel 75-ohm digunakan untuk transmisi analog.
+
+Konstruksi dan lapisan pelindung kabel koaksial memberikan kombinasi
+
+yang  baik  antara  bandwidth yang  besar  dan  imunitas  noise  yang  istimewa.
+
+Bandwidth tergantung panjang kabel. Untuk kabel yang panjangnya 1 km, laju
+
+data  1  sampai  2  Gbps  cukup  feasible.  Kabel  yang  lebih  panjang  pun  dapat
+
+dipergunakan,  tetapi  hanya  akan  mencapai  laju  data  lebih  rendah  atau  perlu
+
+menggunakan amplifier periodik (Rahayu, 2013). 
+
+Gambar 2.7 Kabel Koaksial
+
+Pada Gamabr 2.7 diatas adalah gambaran rangkaian kabel koaksial  dari
+
+bagian luar sampai bagian dalam
+
+a. Karakteristik Kabel Koaksial
+
+Karena  medan  listrik  berhubungan  dengan  konduksi  yang  terjadi  di
+
+
+
+13
+
+dalam kabel, masalah yang berhubungan dengan radiasi sinyal bisa diminimalkan,
+
+sangat sedikit energi yang lepas, meskipun frekuensinya tinggi. Kabel ini hanya
+
+menyerap sedikit sekali  noise yang timbul dari luar, sehingga  bitrate  yang lebih
+
+tinggi  bisa  dicapai  dengan  menggunakan  kabel  ini  dibandingkan  dengan
+
+menggunakan  twisted  pair.  Kabel  koaksial  dengan impedansi karakteristik  50-
+
+ohm dan 75-ohm yang paling  banyak digunakan (Anjik  Sukmaaji  dan  Rianto,
+
+2008: 35 – 36).
+
+2.4.1.3 Kabel Fiber Optik
+
+Serat optik adalah salah satu media transmisi yang dapat menyalurkan
+
+informasi dengan kapasitas besar dengan kehandalan yang tinggi. Berbeda dengan
+
+media  transmisi  lainnya,  pada  serat  optik  gelombang  pembawanya  bukan
+
+gelombang  elektromagnet  atau  listrik,  akan tetapi  sinar/cahaya  laser  (Hanafiah
+
+Ali,2006).
+
+Gambar 2.8 Kabel Fiber Optik
+
+Pada Gambar 2.8 adalah contoh kabel  Fiber Optik.  Berdasarkan bahan
+
+pembuat dan karakteristik sinyal, fiber optik terdiri dari 2 macam:
+
+1. Single Mode: Jika diameter serat dikurangi menjadi beberapa gelombang saja,
+
+serat  akan  berfungsi  sebagai  penuntun  gelombang,  dan  sinar  akan
+
+berpropagasi  seperti  garis  lurus,  tanpa  terjadi  pantulan.  Hal  tersebut  akan
+
+menghasilkan  serat  mode  tunggal  yang  disebut  dengan  serat  single  mode.
+
+Serat mode ini dapat mentransmisikan data lebih jauh. Dengan menggunakan
+
+laser, dapat memacu serat sepanjang 100 km tanpa menggunakan repeater.
+
+2. Multimode:  Jika berkas sinar datang yang sama atau lebih besar dari sudut
+
+kritis  akan  terperangkap  di  dalam  serat  dan  dapat  berpropagasi  sejauh
+
+beberapa  kilometer  tanpa  mengalami  kehilangan  daya.  Jika  berkas  sinar
+
+
+
+14
+
+datang pada batas permukaan diatas sudut kritis direfleksikan secara internal,
+
+maka  sinar  itu  akan  dipantulkan  dengan  sudut  yang  berbeda-beda.  Sinar
+
+seperti ini dinamakan sinar yang memiliki mode berlainan, sehingga apabila
+
+serat memiliki sifat seperti di atas dinamakan fiber multimode.
+
+a. Konstruksi Kabel:
+
+1. Jacket (pelindung).
+
+2. Cladding (lapisan isolator).
+
+3. Core (fiber – tempat propagasi cahaya).
+
+b. Kelebihan Fiber Optik:
+
+1. Memiliki bandwidth lebih besar, yaitu sampai 2 Gbps.
+
+2. Bentuk lebih kecil dan ringan.
+
+3. Atenuasi lebih rendah.
+
+4. Isolasi terhadap pengaruh gelombang elektromagnetik dari luar.
+
+5. Jarak antar repeater lebih jauh (100 km) (Anjik Sukmaaji dan Rianto, 2008).
+
+2.4.2 Wireless
+
+Wireless atau nirkabel adalah suatu komunikasi antar dua titik atau lebih
+
+dimana  gelombang  elektromagnetik  (bukan  melewati  kabel)  membawa  signal
+
+sebagian atau seluruh bagian dari jalur komunikasi (Anjik Sukmaaji dan Rianto,
+
+2008). Suatu jaringan wireless memungkinkan orang-orang untuk berkomunikasi,
+
+mengakses  aplikasi  dan  informasi  tanpa  menggunakan kabel.  Ini  menyediakan
+
+kebebasan pergerakan dan kemampuan untuk meluaskan aplikasi  pada bagian-
+
+bagian  yang berbeda  dari  suatu  bangunan,  kota  besar,  atau  hampir  di  seluruh
+
+dunia. Sebagai contoh, orang-orang dapat meneliti dari internet dan melakukannya
+
+di suatu area yang tenang dan jauh dari anak-anak yang ribut. Jaringan  wireless
+
+mengizinkan orang-orang untuk saling berhubungan dengan  email  atau  browse
+
+internet dari lokasi yang mereka sukai.
+
+Teknologi  wireless memungkinkan  satu  atau  lebih  peralatan  untuk
+
+berkomunikasi  tanpa  koneksi  fisik,  yaitu  tanpa  membutuhkan  jaringan  atau
+
+peralatan  kabel.  Teknologi  wireless menggunakan  transmisi  frekuensi  radio
+
+sebagai alat  untuk mengirimkan data,  sedangkan teknologi kabel menggunakan
+
+kabel.  Wireless artinya  suatu  komunikasi  tanpa  menggunakan  kabel,  tetapi
+
+menggunakan antena sebagai gantinya.
+
+
+
+15
+
+Meskipun jaringan  wireless ini  cukup mudah untuk dipasang, jaringan
+
+macam ini memiliki banyak kekurangan. Biasanya jaringan wireless mempunyai
+
+kemampuan 1 sampai 2 Mbps, yang mana jauh lebih rendah dibandingkan dengan
+
+jaringan  kabel.  Laju  kesalahan  juga  sering  kali  lebih  besar  dan  transmisi  dari
+
+komputer yang berbeda dapat mengganggu satu sama lain.
+
+2.5 Quality of Service (QoS)
+
+QoS merupakan metode pengukuran tentang seberapa baik jaringan dan
+
+merupakan suatu usaha untuk mendefinisikan karakteristik  dan sifat  dari  suatu
+
+servis  (TIPHON,1998).  QoS  mengacu  pada  kemampuan  jaringan  untuk
+
+menyediakan  layanan  yang  lebih  baik  pada  traffic  jaringan  tertentu  melalui
+
+teknologi yang berbeda-beda.
+
+Dengan kata  lain,  QoS dibutuhkan untuk memanajemen jaringan yang
+
+memungkinkan layanan jaringan telekomunikasi dapat beroperasi sesuai dengan
+
+yang diharapkan, dengan tujuan menyediakan kualitas layanan yang berbeda-beda
+
+misalnya  menyediakan bandwidth yang  sesuai  dengan  kebutuhan,  menurunkan
+
+hilangnya  paket-paket,  menurunkan  waktu  tunda  dan variasi  waktu  tunda  saat
+
+proses  transmisinya.  Beberapa  parameter  QoS  diantaranya  adalah  throughput,
+
+packet loss, delay dan jitter (TIPHON, 1998).
+
+Telecommunications  and  Internet  Protocol  Harmonization  Over
+
+Networks (TIPHON)  mengelompokkan  kualitas  QoS  menjadi  empat  kategori
+
+berdasarkan nilai parameter-parameter QoS, seperti yang terlihat pada Tabel 2.2.
+
+Tabel 2.2 Standarisasi Kualitas QoS Berdasarkan Parameter QoS
+
+Nilai Persentase (%) Indeks
+
+3,8 s/d 4 95 s/d 100 Sangat memuaskan
+
+3 s/d 3,79 75 s/d 94,75 Memuaskan
+
+2 s/d 2,99 50 s/d 74,75 Kurang memuaskan
+
+1 s/d 1,99 25 s/d 49,75 Jelek
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat memuaskan artinya jika nilai persentase yang dihasilkan 95% s/d 100.
+
+2. Memuaskan artinya jika nilai persentase yang dihasilkan 75 % s/d 94,75 % .
+
+
+
+16
+
+3. Kurang memuaskan artinya jika nilai  persentase yang dihasilkan  50 % s/d
+
+74,75 % .
+
+4. Jelek artinya jika nilai persentase yang dihasilkan 25% s/d 49, 75.
+
+2.5.1 Parameter-Parameter QoS
+
+2.5.1.1 Throughput
+
+Throughput adalah jumlah total semua paket data yang sukses diterima
+
+melalui media transmisi jaringan. Throughput biasanya diukur dalam bit per detik
+
+(bit/s  atau bps),  dan terkadang dalam paket  data per  detik  atau paket  data  per
+
+satuan  waktu.  Throughput merupakan  kemampuan  sebenarnya  suatu  jaringan
+
+dalam melakukan pengiriman data. Biasanya throughput selalu dikaitkan dengan
+
+bandwidth,  karena  throughput memang  bandwidth dalam  kondisi  yang
+
+sebenarnya. Bandwidth lebih bersifat statis sedangkan throughput sifatnya adalah
+
+dinamis tergantung trafik yang sedang terjadi (TIPHON, 1998).
+
+Aspek  utama  throughput adalah  ketersediaan  bandwidth yang  cukup
+
+untuk  menjalankan  aplikasi.  Hal  ini  menentukan  besarnya  traffic  yang  dapat
+
+diperoleh suatu aplikasi saat melewati jaringpan. Semakin tinggi nilai throughput,
+
+maka jaringan memiliki performa yang lebih baik (TIPHON, 1998). 
+
+TIPHON mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai throughput, seperti terlihat pada Tabel 2.3.
+
+Tabel 2.3 Standarisasi Kinerja Jaringan Berdasarkan Nilai Throughput
+
+Kategori Degradasi Throughput Indeks
+Sangat bagus >75 % s/d 100
+
+%
+4
+
+Bagus >50 % s/d 75 % 3
+
+Sedang >25 % s/d 50 % 2
+
+Jelek 0 % s/d 25 % 1
+
+ Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai  throughput yang dihasilkan >75 % s/d 100 %
+
+maka kecepatan internet sangat lancar dan sinyal sangat stabil.
+
+2. Bagus artinya jika nilai  throughput  yang dihasilkan  >50 % s/d 75 % maka
+
+kecepatan internet lancar dan sinyal stabil.
+
+
+
+17
+
+3. Sedang artinya jika nilai  throughput  yang dihasilkan  >25 % s/d 50 % maka
+
+kecepatan internet cukup lancar dan sinyal cukup stabil.
+
+4. Jelek artinya jika nilai  throughput  yang dihasilkan < 25% maka kecepatan
+
+internet tidak lancar dan sinyal tidak stabil.
+
+Untuk menghitung nilai throughput di gunakan persamaan (2.1): 
+
+Throughput  =  Paket  data  diterima  ......................................................................
+(2.1)
+
+Lama pengamatan
+
+2.5.1.2   Packet Loss
+
+Packet loss adalah parameter yang menggambarkan suatu kondisi yang
+
+menunjukkan jumlah total paket data yang hilang pada saat melakukan transmisi
+
+data  di  dalam jaringan.  Pada implementasinya,  jaringan yang bagus sebaiknya
+
+memiliki nilai packet loss yang minimum (TIPHON, 1998). 
+
+TIPHON  mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai packet loss, seperti terlihat pada Tabel 2.4.
+
+Tabel 2.4 Standarisasi Kinerja Jaringan Berdasarkan Nilai Packet Loss
+
+Kategori Degradasi Packet Loss Indeks
+
+Sangat bagus 0 % 4
+
+Bagus >0 % s/d 3 % 3
+
+Sedang >3 % s/d 15 % 2
+
+Jelek >15 % 1
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai packet loss yang dihasilkan 0 %, maka jumlah
+
+paket  yang hilang tidak ada sehingga kecepatan internet  sangat lancar dan
+
+sinyal sangat stabil.
+
+2. Bagus artinya jika nilai  packet loss yang dihasilkan > 0 % s/d 3 %, maka
+
+jumlah  paket  yang  hilang  sedikit  sehingga  kecepatan  internet  lancar  dan
+
+sinyal stabil.
+
+3. Sedang artinya jika nilai  packet loss yang dihasilkan > 3 % s/d 15%, maka
+
+jumlah paket yang hilang cukup banyak sehingga kecepatan internet cukup
+
+lancar dan sinyal cukup stabil
+
+
+
+18
+
+4. Jelek artinya  jika nilai  packet  loss yang dihasilkan  > 15 %, maka jumlah
+
+paket yang hilang terlalu banyak sehingga kecepatan internet tidak lancar dan
+
+sinyal tidak stabil.
+
+Untuk menghitung nilai packet loss di gunakan persamaan (2.2):
+
+Packet loss=
+(Total paket data yangdikirim−Total paket data yang diterima)
+
+Total paket data yang dikirim
+x100 % …
+
+(2.2
+
+2.5.1.3   Delay
+
+Delay  adalah  waktu  tunda  yang  dibutuhkan  suatu  paket  data  yang  di
+
+kirim oleh sumber untuk mencapai tujuan, karena adanya antrian, atau mengambil
+
+rute lain untuk menghindari kemacetan (TIPHON, 1998).
+
+ TIPHON  mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai delay, seperti terlihat pada Tabel 2.6.
+
+Tabel 2.5 Standarisasi Kinerja Jaringan Berdasarkan Nilai Delay
+
+Kategori Degradasi Delay Indeks
+
+Sangat bagus < 150 ms 4
+
+Bagus 150 s/d 300 ms 3
+
+Sedang 300 s/d 450 ms 2
+
+Jelek > 450 ms 1
+
+Sumber TIPHON
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai delay yang dihasilkan < 150 ms, maka waktu
+
+tunda  suatu  sistem  untuk  melewatkan  sejumlah  paket  data  lebih  kecil
+
+sehingga kecepatan internet sangat lancar dan sinyal sangat stabil.
+
+2. Bagus  artinya  jika  nilai  delay  yang  dihasilkan  150 ms  s/d  300 ms,  maka
+
+waktu  tunda  suatu  sistem  untuk  melewatkan  sejumlah  paket  data  kecil
+
+sehingga kecepatan internet lancar dan sinyal stabil.
+
+
+
+19
+
+3. Sedang artinya jika nilai  delay yang dihasilkan 300 ms s/d 450 ms, maka
+
+waktu tunda suatu sistem untuk melewatkan sejumlah paket data cukup kecil
+
+sehingga kecepatan internet cukup lancar dan sinyal cukup stabil.
+
+4. Jelek artinya jika nilai  delay  yang dihasilkan > 450 ms, maka waktu tunda
+
+suatu  sistem untuk  melewatkan  sejumlah  paket  data  lebih  besar  sehingga
+
+kecepatan internet tidak lancar dan sinyal tidak stabil.
+
+Untuk menghitung nilai delay di gunakan persamaan (2.3):
+
+Rata−ratadelay=
+Totaldelay
+
+Total paket data yang diterima
+    .........................................
+
+(2.3)
+
+2.5.1.3.1 Jitter
+
+Jitter merupakan variasi delay (perbedaan selang waktu) antar paket yang
+
+terjadi  pada  jaringan,  yang  disebabkan  oleh  panjangnya  antrian  pada  saat
+
+pengolahan data yang terjadi pada jaringan. Besarnya nilai jitter dipengaruhi oleh
+
+beban traffic  dan besarnya tumbukan antar paket  (congestion)  yang ada dalam
+
+jaringan. Semakin besar beban traffic di dalam jaringan maka semakin besar juga
+
+terjadinya congestion, yang menyebabkan nilai  jitter pun semakin besar. Dengan
+
+nilai  jitter yang semakin  besar,  menyebabkan nilai  QoS semakin  turun. Untuk
+
+mendapatkan nilai QoS jaringan yang baik, nilai jitter harus dijaga seminimum
+
+mungkin (TIPHON, 1998). 
+
+TIPHON  mengelompokkan  kinerja  jaringan  menjadi  empat  kategori
+
+berdasarkan nilai jitter, seperti terlihat pada Tabel 2.6.
+
+             Tabel 2.6 Standarisasi Kinerja Jaringan Berdasarkan Nilai Jitter
+
+Kategori Degradasi Jitter Indeks
+
+Sangat bagus 0 ms 4
+
+Bagus 0 s/d 75 ms 3
+
+Sedang 75 s/d 125 ms 2
+
+Jelek 125 s/d 225 ms 1
+
+Sumber TIPHON
+
+
+
+20
+
+Keterangan:
+
+1. Sangat bagus artinya jika nilai jitter yang dihasilkan 0 ms, maka selang waktu
+
+kedatangan  antar  paket  di  terminal  tujuan  tidak  ada  sehingga  kecepatan
+
+internet sangat lancar dan sinyal sangat stabil.
+
+2. Bagus artinya jika nilai jitter yang dihasilkan > 0 ms s/d 75 ms, maka selang
+
+waktu  kedatangan  antar  paket  di  terminal  tujuan  lebih  kecil  sehingga
+
+kecepatan internet sangat lancar dan sinyal stabil.
+
+3. Sedang artinya jika nilai  jitter  yang dihasilkan > 75 ms s/d 125 ms, maka
+
+selang waktu kedatangan antar paket di terminal tujuan cukup kecil sehingga
+
+kecepatan internet cukup lancar dan sinyal cukup stabil.
+
+4. Jelek artinya jika nilai  jitter  yang dihasilkan > 125 ms, maka selang waktu
+
+kedatangan  antar  paket  di  terminal  tujuan  lebih  kecil  sehingga  kecepatan
+
+internet tidak cukup lancar dan sinyal menjadi tidak stabil.
+
+Untuk menghitung nilai jitter digunakan persamaan (2.4) dan (2.5):
+
+Jitter=
+Total variasi delay
+
+Total paket data yang diterima
+    ……………………………………….. 
+
+(2.4)
+
+Total variasidelay=Delay−(rata−rata delay)   ……………………...(2.5)
+
+2.5.2 Penyebab Buruknya QoS
+
+Waskita  Hendra  (2014)  menyatakan  bahwa  terdapat  beberapa  faktor
+
+pengganggu dalam jaringan yang menyebabkan turunnya nilai QoS, yaitu: 
+
+2.5.2.1 Redaman
+
+Yaitu  jatuhnya  kuat  sinyal  karena  pertambahan  jarak  pada  media
+
+transmisi.  Setiap  media  transmisi  memiliki  redaman  yang  berbeda-beda,
+
+tergantung dari bahan yang digunakan. Untuk mengatasi hal ini, perlu digunakan
+
+repeater sebagai penguat sinyal. Pada daerah frekuensi tinggi biasanya mengalami
+
+redaman lebih tinggi dibandingkan pada daerah frekuensi rendah. 
+
+2.5.2.2 Distorsi
+
+Yaitu  fenomena  yang  disebabkan  bervariasinya  kecepatan  propagasi
+
+karena perbedaan bandwidth. Untuk itu, dalam komunikasi dibutuhkan bandwidth
+
+transmisi  yang  memadai  dalam  mengakomodasi  adanya  spektrum  sinyal.
+
+
+
+21
+
+Dianjurkan  digunakan  pemakaian  bandwidth yang  seragam,  sehingga  distorsi
+
+dapat dikurangi.
+
+2.5.2.3 Noise
+
+Noise adalah sinyal-sinyal yang tidak diinginkan yang selalu ada dalam
+
+suatu sistem transmisi.  Noise ini  akan mengganggu kualitas  dari  sinyal  terima
+
+yang diinginkan dan akhirnya mengganggu proses penerimaan dan pengiriman
+
+data.
+
+2.6 DDNS (Dynamic Domain Name Server)
+
+DDNS (Dynamic  Domain  Name  Server)  adalah  sebuah  sistem dalam
+
+jaringan yang memungkinkan untuk menerjemahkan nama domain ke IP Publik
+
+yang dinamis atau IP yang berubah-ubah. DDNS adalah solusi untuk pengguna
+
+internet yang menginginkan alamat tersendiri melalui internet, sehingga anda bisa
+
+mengakses  server  anda dimana saja dan kapan saja selama ada koneksi internet.
+
+Seolah-olah  pengguna  internet  tersebut  memiliki  server sendiri  di  rumahnya.
+
+Dengan  menggunakan  DDNS  para  pengguna  dapat  membuat  server  web,  ftp,
+
+mail, 
+
+(Andi Marco, 2011).
+
+2.7 Speedtest.net
+
+Speedtest.net adalah sebuah situs yang menyediakan pengujian kecepatan
+
+koneksi  internet yang  disediakan  oleh  perusahaan  asal  Kalispell,  Montana,
+
+Amerika Serikat, Ookla. Situs ini berjalan mulai tahun 2006. Sebanyak 20 juta
+
+pengguna  internet  mengetes  kecepatan  internetnya  melalui  situs  ini  setiap
+
+bulannya. 
+
+Situs ini  dapat diakses melalui perangkat apa pun asalkan mendukung
+
+Adobe Flash Player. Saat ini tanpa Adobe Flash Player pun tetap bisa melalukan
+
+tes kecepatan internet, saat ini menggunakan HTML 5. Misal selain speedtest.net
+
+ada  speedtest.co.id juga  menggunakan  HTML  5  untuk  mengukur  kecepatan
+
+(Speedtest, 2006)
+
+2.8 Aplikasi Smart PSS
+
+Smart PSS adalah program pengawas video yang mendukung IPC, DVR,
+
+NVR, NVS, pengendali dinding video. Program ini memungkinkan anda untuk
+
+mengelola  hingga  256  perangkat  atau  2000  saluran  dengan  mudah,  untuk
+
+https://id.wikipedia.org/wiki/Situs_web
+http://www.speedtest.co.id/
+http://www.speedtest.net/
+https://id.wikipedia.org/wiki/Adobe_Flash_Player
+https://id.wikipedia.org/wiki/Adobe_Flash_Player
+https://id.wikipedia.org/wiki/Amerika_Serikat
+https://id.wikipedia.org/wiki/Montana
+https://id.wikipedia.org/w/index.php?title=Kalispell,_Montana&action=edit&redlink=1
+https://id.wikipedia.org/wiki/Internet
+
+
+22
+
+menyiapkan  alaram  deteksi  gerakan,  melihat  dan  mengelola  semua  lokasi
+
+perangkat, dan mengelola pemutaran sinkronisasi 36-kanal (JakartaCCT,2018)
+
+2.9 Aplikasi Wireshark
+
+Wireshark adalah salah satu dari sekian banyak tool Network Analyzer
+
+yang banyak digunakan oleh Network Administrator untuk menganalisa kinerja
+
+jaringannya  dan  mengontrol  lalu  lintas  data  di  jaringan  yang  Anda  kelola.
+
+Wireshark menggunakan interface yang menggunakan Graphical User Interface
+
+(GUI).
+
+Wireshark  telah  menjadi  Network  Protocol  Analyzer  yang  sangat
+
+terkenal  dan telah menjadi  standar di berbagai  industri,  dan merupakan sebuah
+
+proyek  lanjutan  yang  dimulai  tahun  1998.  Developer  di  seluruh  dunia  telah
+
+berkontribusi  mengembangkan  software  ini.  Dengan  segala  kemampuan  yang
+
+dimilikinya.  Wireshark  digunakan  oleh  network  professional  untuk  keperluan
+
+analisis, troubleshooting, pengembangan software dan protokol, serta digunakan
+
+juga untuk tujuan edukasi. Wireshark mampu menangkap paket-paket data yang
+
+ada pada jaringan tersebut. Semua jenis paket informasi dalam berbagai format
+
+protokol pun akan dengan mudah ditangkap dan dianalisa (Singh, A. 2013)
+
+2.9.1 Fitur-fitur Wireshark
+
+1. Tersedia untuk windows, unix, linux dan mac
+
+2. Menangkap / mengcapture paket data secara langsung dari sebuah network
+
+interfaces
+
+3. Mampu menampilkan informasi yang detail mengenai hasil capture tersebut
+
+4. Pencarian paket dengan berbagai macam kriteria filter
+
+5. Menampilkan data statistic
+
+2.9.2 Kegunaan Wireshark
+
+1. Wireshark  mampu  menangkap  paket-paket  data  atau  informasi  yang
+
+berseliweran  dalam jaringan.  Semua jenis  paket  informasi  dalam berbagai
+
+format protokol pun akan dengan mudah ditangkap dan dianalisa.
+
+2. Wireshark  dipakai  oleh  network  administrator  untuk  menganalisa  kinerja
+
+jaringannya. Wireshark mampu menangkap paket-paket data atau informasi
+
+yang  berjalan  dalam jaringan  yang  terlihat  dan  semua  jenis  informasi  ini
+
+dapat dengan mudah dianalisa yaitu dengan memakai sniffing.
+
+
+
+23
+
+3. Wireshark merupakan software untuk melakukan analisa lalu-lintas jaringan
+
+komputer, yang memiliki fungsi-fungsi yang amat berguna bagi profesional
+
+jaringan, administrator jaringan.
+
+4. Program ini juga sering digunakan oleh chatters untuk mengetahui ip korban
+
+maupun para chatter lainnya lewat typingan room.
+
+5. Tool wireshark dapat menganalisa transmisi paket data dalam jaringan, proses
+
+koneksi dan transmisi data antar komputer
+
+2.10 Dinas Komunikasi dan Informatika Kota Pontianak
+
+Dinas Komunkasi dan Informatika Kota Pontianak dibentuk berdasarkan
+
+Peraturan Pemerintah Nomor 18 Tahun 2016 tentang Perangkat Daerah yang di
+
+tindak lanjuti  dengan Peraturan  Daerah  Kota  Pontianak Nomor  7 Tahun 2016
+
+tentang Pembentukan dan Susunan Perangkat Daerah Kota Pontianak dan untuk
+
+teknis melengkapi kedudukan Dinas Komunikasi dan Informatika Kota Pontianak
+
+dituangkan dalam Peraturan Walikota Pontianak Nomor 72 Tahun 2016 tentang
+
+Kedudukan, Struktur Organisasi,  Tugas Pokok, Fungsi,  Uraian Tugas dan Tata
+
+Kerja Dinas Komunikasi dan Informatika Kota Pontianak. 
+
+Sebagai  satu  unsur  Organisasi  Perangkat  Daerah  (OPD)  untuk
+
+meningkatkan  kualitas  aplikasi  dan  SDM  di  bidang  teknologi  informasi  dan
+
+komunikasi  melalui  kerja  sama dan kemitraan  bersama komunitas  komunikasi
+
+berbasis potensi lokal, dan meningkat Peran Serta Masyarakat Dalam Pelayanan
+
+dan Akses Informasi, Komunikasi dan Informatika serta meningkatkan kuantitas
+
+dan kualitas data sektoral Kota Pontianak 
+
+Dalam  melaksanakan  tugas  dan  fungsi  Dinas  Komunikasi  dan
+
+Informatika Kota Pontianak mempuyai tugas membantu Walikota melaksanakan
+
+urusan pemerintahan yang menjadi kewenangan Daerah dan tugas pembantu di
+
+bidang komunikasi, bidang informatika dan bidang statistik.  
+
+Berdasarkan  dokumen  rencana  jangka  menegah  (RPJM)  Dinas
+
+Komunikasi dan Informatika Kota Pontianak termasuk dalam urusan Komunikasi
+
+dan  Informatika  yang  difokuskan  dalam  mewujudkan  misi  yang  kedua  yaitu
+
+meningkatkan  pelayanan  publik  dan  penyelenggaraan  pemerintahan  yang  baik
+
+
+
+24
+
+dengan  prioritas  pembangunan  yang  secara  langsung  memberikan  kontribusi
+
+terhadap keberhasilan pencapaiannya program penguasaan serta pengembangan
+
+aplikasi dan teknologi informasi dan komunikasi. 
+
+Sebagai  bentuk  pertanggungjawaban  kepada  publik  atas  kinerja
+
+pemerintah,  maka  diperlukan  suatu  pengukuran  kinerja  untuk  menunjukkan
+
+apakah sasaran atau kegiatan telah berhasil dicapai,  yang kemudian dituangkan
+
+dalam Indikator  Kinerja.  Agar  sasaran  kegiatan  dan  program berjalan  efektif,
+
+efisien dan optimal maka ditetapkan suatu pengukuran Indikator Kinerja strategis
+
+yang menjadi prioritas di setiap organisasi perangkat daerah sebagai suatu bentuk
+
+penajaman  sasaran  sehingga  diharapkan  tujuan  visi  dan  misi  organisasi  dapat
+
+tercapai  sesuai  dengan  perencanaan  yang  tertuang  dalam RPJMD, RENSTRA
+
+maupun RENJA, yang telah ditetapkan. 
+
+Melalui  Peraturan  Menteri  Negara  Pendayagunaan  Aparatur  Negara
+
+Nomor PER/09/M.PAN/2007 tentang pedoman umum Penetapan Indikator Kerja
+
+Utama di  Lingkungan Instansi  Pemerintah.  Pemilihan  dan penetapan Indikator
+
+Kinerja utama melibatkan pemangku kepentingan di lingkungan lembaga/Instansi
+
+pemerintah yang bersangkutan,  maka Pimpinan Instansi Pemerintah diwajibkan
+
+menetapkan Indikator Kinerja Utama. 
+
+2.10.1 Maksud dan Tujuan
+
+1. Untuk  memperoleh  informasi  kinerja  yang  penting  dan  diperlukan  dalam
+
+menyelenggarakan manajemen kinerja secara baik. 
+
+2. Untuk  memperoleh  ukuran  keberhasilan  dari  pencapaian  suatu  tujuan  dan
+
+sasaran  strategis  organisasi  yang  digunakan  untuk  perbaikan  kinerja  dan
+
+peningkatan akuntabilitas kinerja
+
+2.10.2 Visi dan Misi Dinas Komunikasi dan Informatika 
+
+Visi:
+
+Visi Dinas Komunikasi dan Informatika Kota Pontianak disusun mengacu kepada
+
+
+
+25
+
+Rencana Pembangunan Jangka Menegah Daerah (RPJMD) Kota Pontianak Tahun
+
+2015  –  2019,  berdasarkan  Peraturan  Daerah  Nomor  6  Tahun  2014  tentang
+
+Rencana Pembangunan Jangka Menegah Daerah Kota Pontianak Tahun 2015 –
+
+2019, disusun sebagai  penjabaran  agenda dalam pembangunan Kota Pontianak
+
+lima tahun ke depan dalam mewujudkan visi dan misi Kota Pontianak. 
+
+Visi dan misi Dinas Komunikasi dan Informatika Kota Pontianak untuk
+
+tahun 2015 – 2019 mengacu kepada visi dan misi Kota Pontianak Tahun 2015 –
+
+2019,  yaitu  “Pontianak  Kota  Khatulistiwa  Berwawasan Lingkungan,  Terdepan
+
+dalam Kualitas Sumber Daya Manusia, Prima dalam Pelayanan Publik, Didukung
+
+dengan Tata Kelola  Pemerintahan yang Baik dan Bersih”.  Visi  dan misi  Kota
+
+Pontianak sebagai dasar Dinas Komunikasi dan Informatika dalam menentukan
+
+langkah strategis dalam pengelolaan bidang urusan informasi dan komunikasi di
+
+Kota Pontianak. Visi Dinas Komunikasi dan Informatika Kota Pontianak tahun
+
+2015 – 2019 adalah sebagai 
+
+“Penyelenggaraan  Pemerintahan  dan  Pelayanan  Informasi  Publik  Kota
+
+Pontianak Berbasis E-Government”  
+
+Dinas Komunikasi  dan Informatika Kota Pontianak sebagai  salah satu
+
+organisasi perangkat daerah (OPD) yang mempuyai tugas dan fungsi di bidang
+
+komunikasi,  informasi  dan statistik  dengan visi  penyelenggaraan pemerintahan
+
+dan  pelayanan  informasi  publik  Kota  Pontianak  berbasis  E-government,  dapat
+
+diwujudkan  dengan  kebijakan  strategis  pengembangan  terhadap  layanan
+
+masyarakat  atau  aparatur  yang  berbasis  e-government,  serta  pengembangan
+
+Website di masing – masing OPD dan didukung dengan penyediaan operasional
+
+pusat layanan pengaduan (Command Center)  Kota Pontianak yang berbasis E-
+
+government serta meningkatkan dan pengembangan LPSE Kota Pontianak yang
+
+berbasis E-government dan mendorong masyarakat untuk memanfaatkan internet
+
+sebagai  salah  media  informasi  dan  komunikasi  konvensional  mendukung
+
+pembangunan  di  Kota  pontianak  media  E-lawar.  Penyebarluasan  informasi
+
+melalui  TIK  namun  masih  dibutuhkan  melalui  media  konvensional  dan  tatap
+
+muka  langsung  serta  mewujudkan  pengembangan  data  dasar  statistik  sektoral
+
+Kota Pontianak berbasis E-government. 
+
+
+
+26
+
+Misi:
+
+Upaya  untuk  mewujudkan  visi  Dinas  Komunikasi  dan  Informatika  dengan
+
+Penyelenggaraan Pemerintahan dan Pelayanan Informasi Publik Kota Pontianak
+
+Berbasis  E-Government  dengan  melalui  4  (empat)  misi  pembangunan  sebagai
+
+berikut: 
+
+1. Meningkatnya profesionalisme aparatur dan profesionalisme birokrasi. 
+
+2. Meningkatkan  pelayanan  publik  dan  akses  informasi  masyarakat  berbasis
+
+teknologi informatika. 
+
+3. Meningkatkan  kualitas  dan  kapasitas  infrastruktur  jaringan  dan  aplikasi
+
+sistem pemerintahan dan pelayanan publik berbasis potensi lokal. 
+
+4. Meningkatkan kuantitas dan kualitas data sektoral Kota Pontianak.  
+
+
+
+27
+
+2.10.3 Struktur Organisasi 
+
+Gambar 2.10 Struktur Organisasi Dinas Komunikasi dan Informatika Kota
+
+Pontianak
+
+
+
+28
+
+2.11 Penelitian Terkait
+
+Berikut ini adalah penelitian-penelitian yang telah dilakukan untuk 
+
+mengkaji penelitian yang akan dilakukan.
+
+1. Yanto  (2013)  Fakultas  Teknik  Informatika  Universitas  Universitas
+
+Tanjungpura tentang Analisis QOS (Quality of Service) Pada Jaringan Internet
+
+Studi  Kasus  Fakultas  Teknik  Universitas  Tanjungpura.  Penelitian  tersebut
+
+bertujuan menganalisis jaringan internet Fakultas Teknik yang telah ada dan
+
+menghasilkan  suatu  kualitas  jaringan  yang  sesuai  dengan  parameter  QoS
+
+(Quality of Service) yang dapat menunjang dan meningkatkan kinerja kampus
+
+dalam  memberikan  pelayanan  yang  maksimal  kepada  civitas  akademik
+
+maupun masyarakat.
+
+2. Rahayu  (2013)  Universitas  Bina  Darma  tentang  Monitoring  Dan  Analisis
+
+Kualitas  Layanan  Traffic Kamera CCTV Pada Jaringan Wireless  PT Bukit
+
+Asam  (Pesero)  TBK  Tanjung  Enim.  Penelitian  tersebut  bertujuan  untuk
+
+menganalisis dan mengukur kualitas jaringan CCTV PT. Bukit Asam dengan
+
+mengukur QoS yaitu delay, packet loss, dan throughput yang kemudian hasil
+
+dari pengukuran tersebut dianalisis untuk dapat mengetahui faktor-faktor apa
+
+saja  yang  mempengaruhi  traffic,  serta  menyebabkan  kelemahan  jaringan
+
+dalam mengirim dan mengakses gambar /  streaming video,  sehingga dapat
+
+memberi saran atau pengembangan infrastruktur jaringan.
+
+3. Ajie  Pambudhi  (2017)  Universitas  Tanjungpura  tentang  monitoring  dan
+
+Analisis  IP  Camera  Pada Jaringan Internet  (Studi  Kasus:  Fakultas  Teknik
+
+Universitas  Tanjungpura).  Penelitian  tersebut  bertujuan  untuk
+
+mengkonfigurasi sebuah sistem pemantau ruangan untuk memantau kondisi
+
+suatu ruangan atau lokasi tertentu dengan menampilkan  video  yang diambil
+
+oleh IP Camera menggunakan laptop dan smartphone pada jaringan internet
+
+dan mengevaluasi kualitas jaringan untuk mengetahui stabilitas operasional
+
+jaringan.
+
+
+
+29
+
+Tabel 2.7 Penelitian Yang Terkait
+
+No Penulis Judul Keterangan
+
+1 Yanto (2013) 
+Fakultas Teknik 
+Universitas  
+Tanjungpura
+
+Analisis QOS 
+(Quality of 
+Service) Pada 
+Jaringan Internet 
+Studi Kasus 
+Fakultas Teknik 
+Universitas 
+Tanjungpura
+
+Melakukan analisis kinerja 
+Jaringan Internet Fakultas Teknik
+
+Mengukur parameter QOS yaitu 
+delay, throughput, packet loss dan
+MOS (Mean Opinion Score), 
+Menggunakan Standar Tiphon.
+
+Output berupa hasil pemantauan 
+dan pengukuran QOS
+
+2 Rahayu (2013) 
+Universitas Bina
+Darma
+
+Monitoring Dan 
+Analisis Kualitas 
+Layanan Traffic 
+Kamera CCTV 
+Pada Jaringan 
+Wireless (Studi 
+Kasus: PT Bukit 
+Asam (Pesero) 
+TBK Tanjung 
+Enim
+
+Melakukan Monitoring dan 
+Analisis Jaringan CCTV
+
+Mengukur Qos Yaitu Delay, 
+Packet Loss, dan Throughput, 
+degan memantau traffic 
+menggunakan Aplikasi Axence 
+Net Tools 5. Menggunakan 
+Standar Tiphon.
+
+Output berupa hasil pemantauan 
+dan pengukuran QOS
+
+3 Ajie Pambudhi 
+(2017) 
+Universitas 
+Tanjungpura
+
+Monitoring dan 
+Analisis IP 
+Camera Pada 
+Jaringan Internet 
+(Studi Kasus: 
+Fakultas Teknik 
+Universitas 
+Tanjungpura)
+
+Melakukan Pemsangan CCTV 
+dan Monitoring dan Analisis 
+Jaringan CCTV Terhadap 
+Jaringan Internet 
+
+Melakukan Configurasi 
+CCTV,Mengukur Qos Yaitu 
+Delay,jiter, Packet Loss, dan 
+Throughput, degan memantau 
+traffic menggunakan Aplikasi 
+Axence Net Tools 5. 
+Menggunakan Standar Tiphon.
+
+Output berupa hasil pemasangan 
+CCTVdan hasil pegukuran QoS
+
+
+
+30
+
+Tabel 2.8 Penelitian Yang Akan Dilakukan
+
+N
+O
+
+Penulis Judul Keterangan
+
+1 Muhammad
+Darma  (2018)
+Universitas
+Tanjungpura
+
+Analisis Perbadingan
+Kinerja CCTV Jalan 
+Umum Berbasis 
+Kabel dan Nirkabel 
+di Kota Pontiaanak 
+Studi kasus Dinas 
+Komunikasi dan 
+Informatika 
+Pontianak
+
+Melakukan Monitoring CCTV 
+dan analisis hasil perhitungan 
+dan pegujian  QoS CCTV Kabel 
+dan Nirkabel
+
+Mengukur QoS CCTV Kabel 
+dan Nirkabel yaitu parameter 
+delay, jitter, packet loss dan 
+throughput.
+Menggunakan Standar TIPHON.
+
+Output berupa hasil perhitungan
+QoS CCTV Kabel dan Nirkabel
+membandingkan  yang  terbaik
+antara kedua jaringan tersebut
+
+
+
+30
+
+BAB III
+
+METODOLOGI PENELITIAN
+
+3.1 Bahan Penelitian
+
+Bahan  Penelitian  yaitu  berupa  data  jaringan  internet  CCTV,  yang
+
+diperoleh dengan cara survei dan pengaksesan CCTV secara  real time. Adapun
+
+data  jaringan  tersebut  diperlukan  untuk  kebutuhan  analisis  jaringan  internet
+
+CCTV berbasis  Kabel  dan  Nirkabel  yang telah  ada  di  Dinas  Komunikasi  dan
+
+Informatika Kota Pontianak.
+
+Dinas Kominfo Pontianak Tempat Pengujian
+
+Gambar 3.1 Skema penelitian CCTV
+
+Gambar 3.1 di atas menjelaskan penelitian ini dilakukan menghubungkan
+
+2 tempat yang berbeda menggunakan jalur internet.
+
+3.1.1 Tempat dan Waktu Penelitian
+
+Adapun tempat dan waktu penulis melakukan penelitian yang digunakan
+
+untuk menyusun tugas akhir atau skripsi ini adalah sebagai berikut.
+
+Tempat : Dinas Kominfo Kota Pontianak dan Tempat Pengujian      
+
+ Jl.Pramuka   Komplek PAI, Gg.Emeral No.E2 
+
+Waktu : Pada Bulan Oktober 2017
+
+3.1.2 Variable Penelitian 
+
+Variable  penelitian  adalah  suatu  objek  penelitian  atau  pun  apa  yang
+
+menjadi titik perhatian suatu penelitian. Variable penelitian yang didapat adalah
+
+hasil  dari  uji  parameter  kualitas  jaringan  yaitu  pengukuran bandwidth, delay,
+
+
+
+31
+
+jitter, packet loss dan throughput.
+
+3.2 Alat Yang Digunakan
+
+3.2.1 Perangkat Keras dan Lunak Penulis
+
+3.2.1.1 Laptop
+
+Laptop adalah komputer bergerak yang berukuran relatif lebih kecil dan
+
+ringan dengan berat berkisar 1 sampai 6 kg tergantung pada ukuran dan bahan.
+
+Laptop mempunyai komponen yang kurang lebih sama dengan seperangkat PC
+
+seperti  monitor,  keyboard,  speaker,  microphone  dan  lain-lain.  Akan  tetapi
+
+komponen laptop tersebut terdapat dalam satu perangkat atau tidak terpisah. Dapat
+
+di lihat spesifikasi laptop digunakan dalam pengujian pada Gambar 3.2 dan Tabel
+
+3.1 di bawah ini:
+
+Gambar 3.2. Laptop Lenovo Ideapad 100
+
+Tabel 3.1 Spesifikasi Laptop
+
+Spesifikasi Laptop Lenovo Ideapad 100
+
+Ukuran (L x W x H 
+mm)
+
+340 x 237.8 x 20.2 mm (14 inci) & 
+378 x 265 x 22.6 mm (15 inci)
+
+Kartu Grafis Intel Graphics
+
+Resolusi Layar HD 1366 x 768 pixel, 200 nits
+
+OS Windows 8.1 (update)
+
+CPU Intel Bay Trail-M N3540
+
+Memori/RAM 2 GB DDR3 up to 8 GB DDR3L
+
+Storage HDD 500 GB
+
+https://www.arenalaptop.com/3090/harga-lenovo-ideapad-100/
+
+
+32
+
+HDMI Ya
+
+3.2.1.2 Modem Internet IndiHome
+
+Modem Internet IndiHome adalah perangkat penghubung internet provider
+
+kepada user adapun jenis modem dan kecepatan internet yang digunakan dalam
+
+pengujian ini dapat di lihat pada Tabel 3.2 di bawah ini:
+
+Tabel 3.2. Modem dan Kecepatan Internet
+
+Modem Nokia
+
+Kecepatan 10 Mbps /Fiber Optik
+
+3.2.1.3 Aplikasi Wireshark
+
+Wireshark adalah salah satu dari sekian banyak tool Network Analyzer
+
+yang banyak digunakan oleh Network Administrator untuk menganalisa kinerja
+
+jaringannya  dan  mengontrol  lalu  lintas  data  di  jaringan  yang  anda  kelola.
+
+Wireshark menggunakan interface yang menggunakan Graphical User Interface
+
+(GUI). Dapat dilihat pada Gambar 3.3 di bawah ini tampilan aplikasi wireshark:
+
+Gambar 3.3 Aplikasi Wireshark
+
+
+
+33
+
+Gambar  3.3  di  atas  adalah  tampilan  aplikasi  wireshark  membaca
+
+transmisi data atau aktivitas antara klien dan server yang sedang berada dalam
+
+jaringan tersebut.
+
+3.2.1.4 Speedtest.net
+
+Speedtest.net adalah sebuah situs yang menyediakan pengujian kecepatan
+
+koneksi internet  untuk  menguji  kecepatan  internet  user.  Dapat  di  lihat  pada
+
+Gambar 3.4 di bawah ini tampilan speedtest.net:
+
+Gambar 3.4 Hasil Pengujian Speedtest.net
+
+Gambar  3.4  di  atas  adalah  hasil  pengujian  speedtest  dengan  hasil
+
+download mencapai nilai 13,72 Mbps dan nilai upload 1,46 Mbps dengan ping 20
+
+ms.
+
+3.2.1.5 Aplikasi Smart PSS
+
+Aplikasi Smart PSS adalah aplikasi bawaan perangkat CCTV untuk 
+
+mengakses CCTV Dinas Kominfo Pontianak. Pada Gambar 3.5 di bawah ini dapat
+
+dilihat aktivitas monitor lokasi CCTV sebagai berikut:
+
+
+
+34
+
+Gambar 3.5 Monitoring kawasan CCTV Bundaran UNTAN
+
+Gambar 3.5 di atas adalah aktivitas monitoring CCTV kawasan bundaran
+
+UNTAN pada malam hari dengan tampilan 4 CCTV.
+
+3.2.2 Perangkat CCTV Dinas Kominfo
+
+Perangkat  CCTV Dinas  Kominfo  yang  digunakan  penulis  mengambil
+
+data yaitu arsitektur jaringan internet CCTV, server CCTV serta 2 sampel CCTV
+
+kabel yaitu CCTV parit besar, CCTV tanray dan 2 sampel CCTV nirkabel yaitu
+
+CCTV jihad dan CCTV bundaran UNTAN.
+
+3.2.2.1 Arsitektur Jaringan
+
+Berikut  ini  merupakan  hasil  yang  diperoleh  dari  pemetaan  jaringan
+
+CCTV  kabel  dan  nirkabel  Dinas  Kominfo  Pontianak  yang  berupa  arsitektur
+
+jaringan CCTV kabel dan nirkabel. Pada Gambar 3.6 di bawah ini dapat dilihat
+
+simbol warna kuning jaringan nirkabel dan biru jaringan kabel:
+
+
+
+35
+
+Gambar 3.6 Sebaran CCTV Kota Pontianak
+
+Pada Gambar 3.6 di atas adalah gambar sebaran CCTV Dinas Kominfo
+
+pontianak  simbol  yang  berwarna  merah  adalah   pusat  server  CCTV  Dinas
+
+Kominfo  berlokasi  di  lingkungan  kantor  Walikota  Pontianak,  simbol  yang
+
+berwarna biru adalah lokasi-lokasi CCTV berbasis kabel dengan jumlah 16 titik
+
+da 38 CCTV, simbol yang berwarna kuning adalah lokasi-lokasi CCTV berbasis
+
+nirkabel  dengan  jumlah  11  titik  dengan  25  CCTV  dan  dipergunakan  Dinas
+
+Perhubungan Pontianak dan Polresta Pontianak, Dinas Kominfo sendiri sebagai
+
+fasilitator dan pembackup data CCTV Kota Pontianak. Pada tabel di bawah ini
+
+lokasi alamat keseluruhan sebaran CCTV kabel dan nirkabel:
+
+  Tabel 3.3  CCTV Berbasis Fiber Optik
+
+No Lokasi Kamera Jlh Kamera Per Lokasi Jaringan
+1 Tanrai 4 Fiber Optik
+2 Perempatan Gaja Mada 3 Fiber Optik
+3 Parit Besar 3 Fiber Optik
+4 Perempatan Garuda 4 Fiber Optik
+5 Perempatan Flamboyan 4 Fiber Optik
+6 Jl. Tanjung Pura Jl. Asahan 3 Fiber Optik
+7 Jl. Diponegoro Pertigaan 
+
+Antasari 3 Fiber Optik
+8 Jl. Siam 2 Fiber Optik
+9 Alun alun Kapuas 2 Fiber Optik
+10 Palabuha 2 Fiber Optik
+11 Taman Digulis 2 Fiber Optik
+12 Jl. Sisingamngaraja 2 Fiber Optik
+13 Tol Kapuas 1 A 1 Fiber Optik
+14 Tol Kapuas 1 B 1 Fiber Optik
+15 Perempatan Polda 1 Fiber Optik
+16 Taman Walikota 1 Fiber Optik
+
+Jumlah  CCTV 38 CCTV
+
+  Tabel 3.4 CCTV Berbasi Wireless
+
+No Lokasi Kamera Jlh Kamera Per Lokasi Jaringan
+1 Jihad 3 Wireless
+2 Perempatan Pajak 3 Wireless
+3 Bundaran kobar 2 Wireless
+4 Jl. Gajamada dpn KFC 2 Wireless
+5 Pertigaan Podomoro 2 Wireless
+6 Jl. Gajamada dpn Hijas 2 Wireless
+
+
+
+36
+
+7 Jl. Gajamada Flamboyan 2 Wireless
+8 Jl. Patimura Dpn Katedral 2 Wireless
+9 Depan Rumah Radang 1 Wireless
+10 Depan Dinkes 2 Wireless
+11 Bundaran UNTAN 4 Wireless
+
+Jumlah CCTV 25 CCTV
+Tabel 3.5 CCTV Sampel Pengujian
+
+No Lokasi Kamera JMl Kamera Per Lokasi Jaringan
+1 Parit Besar 3 Fiber Optik
+2 Tanrai 4 Fiber Optik
+3 Jihad 3 Wireless
+4 Bundaran UNTAN 4 Wireless
+
+Jumlah CCTV 14
+
+Pada Tabel 3.5 di atas adalah data CCTV yang dijadikan sampel 
+
+pengujian ini, pada gambar di bawah ini adalah gambaran arsitektur jaringan 
+
+CCTV Berdasarkan sampel yang diuji: 
+
+
+
+37
+
+Gambar 3.7 Arsitektur Jaringan CCTV
+
+Pada  Gambar  3.7  di  atas   adalah  gambar  arsitektur  jaringan  Dinas
+
+Kominfo  Pontianak,  yang  dijadikan  sampel  pengujian  QoS  yaitu  CCTV parit
+
+besar dan CCTV tanray sebagai CCTV berbasis kabel dengan simbol warna hijau,
+
+dan sampel CCTV nirkabel adalah jihad dan CCTV bundaran UNTAN dengan
+
+simbol warna kuning. Server Dinas Kominfo Pontianak degan simbol wara biru,
+
+sumber Jaringan Internet yang di dapatkan dari PT. Telkom yaitu 30 Mb, pada
+
+jaringan CCTV diatur oleh router untuk memanejemen ip, 10 Mb jaringan kabel ,
+
+10 Mb jaringan nirkabel dan 10 Mb untuk server web,  kemudian dipancarkan
+
+melalui jaringan wireless dan fiber optic ke seluruh CCTV Kota Pontianak dan
+
+data  video  tersimpan  di  DVR dan NVR,  dan  juga  terdapat  server  web  Dinas
+
+Kominfo Potianak.
+
+3.2.2.2 Server Dinas Komunikasi dan Informatika Pontianak
+
+Kantor  Dinas  Kominfo Pontianak memiliki  Server  jaringannya sendiri
+
+terletak di lingkungan Kantor Walikota Pontianak lantai dua fungsi server tersebut
+
+untuk mengatur jaringan CCTV Wilayah Kota Pontianak. Dapat dilihat lokasi dan
+
+spesifikasi server Dinas Kominfo pada Gambar 3.8 dan Tabel 3.3 di bawah ini:
+
+Gambar 3.8 Lokasi Server Dinas Kominfo Pontianak
+
+Tabel 3.6 Peralatan Server Dinas Kominfo
+
+N Ruangan Barang Jumlah Ip Address Media Merek
+
+
+
+38
+
+o Penghubung
+
+1 Server Router Mikrotik 3 172.16.1.1 Kabel Mikrotik
+
+2 Server NVR(Network
+Video Recorder)
+
+1 172.16.1.41 Kabel Dahua
+
+3 Server Converter  Fiber
+Optic
+
+1 - Kabel TP-Link
+
+4 Server HUB Switch 1 - Kabel Cisco
+
+5 Server UPS 1 - - APC
+
+3.2.2.3 CCTV Bundaran UNTAN
+
+CCTV di lokasi ini terletak kawasan bundaran UNTAN, sebagai media
+
+memonitor  keadaan  lalulintas  jala  raya  dan  terdapat  4  buah  CCTV  yang  di
+
+posisikan  di  sekitaran  bundaran  UNTAN.  Jaringan  CCTV  ini  menggunakan
+
+jaringan nirkabel dapat dilihat lokasi dan spesifikasi pada Gambar 3.9 dan Tabel
+
+3.4 di bawah ini:
+
+Gambar 3.9 Lokasi CCTV Bundaran UNTAN
+
+Tabel.3.7 Peralatan CCTV Bundaran UNTAN
+
+No Lokasi Barang Jumlah Ip Address Media
+
+Penghubung
+
+Merek
+
+1 Lampu merah DVR 1 172.16.1.18 Kabel Dahua
+
+
+
+39
+
+2 Lampu merah Kamera CCTV 4 - Kabel Dahua
+
+3 Lampu merah Wireless 1 172.16.1.19 Nirkabel Ubiquiti
+
+4 Lampu merah Pengeras Suara 1 - Kabel -
+
+5 IP Public / DNS   CCTV.PONTIANAKKOTA.GO.ID
+
+3.2.2.4 CCTV Jihad
+
+CCCTV di lokasi ini terletak di lampu merah perempatan Masjid Jihad,
+
+fungsi CCTV di lokasi ini sebagai media monitoring keadaan lalulintas Jl. Sultan
+
+Abdurrahman, terdapat 3 buah CCTV yang di posisikan di sekitaran lampu merah.
+
+Jaringan  CCTV  ini  menggunakan  jaringan  nirkabel  dapat  dilihat  lokasi  dan
+
+spesifikasi pada Gambar 3.10 dan Tabel 3.5 di bawah ini:
+
+Gambar 3.10 Lokasi CCTV Jihad
+
+
+
+40
+
+Tabel 3.8 Peralatan CCTV Jihad
+
+No Alamat Barang Jumlah Ip Address Media
+Penghubung
+
+Merek
+
+1 Lampu
+merah
+
+DVR 1 172.16.1.76 Nirkabel Dahua
+
+2 Lampu
+merah
+
+Kamera CCTV 3 - Nirkabel Dahua
+
+3 Lampu
+merah
+
+Wireless 1 172.16.1.77 Nirkabel Ubiquiti
+
+4 Lampu
+merah
+
+Pengeras Suara 1 - - -
+
+5 IP Public / DNS   CCTV.PONTIANAKKOTA.GO.ID
+
+3.2.2.5 CCTV Parit Besar
+
+CCTV di lokasi ini terletak di lampu merah pertigaan Jl. Tanjungpura
+
+dan Jl.  Diponegoro,  fungsi  di  lokasi  ini  sebagai  media  memonitoring  keadaan
+
+lalulintas jalan raya dan terdapat 3 buah CCTV yang di posisikan di sekitaran
+
+lampu merah. Jaringan CCTV ini menggunakan jaringan kabel dapat dilihat lokasi
+
+dan spesifikasi pada Gambar 3.11 dan Tabel 3.6 di bawah ini:
+
+Gambar 3.11 CCTV Parit Besar
+
+Tabel 3.9 Peralatan CCTV Parit Besar
+
+
+
+41
+
+No Alamat Barang Jumlah Ip Address Media
+
+Penghubung
+
+Merek
+
+1 Lampu
+
+merah
+
+DVR 1 172.16.1.30 Kabel Dahua
+
+2 Lampu
+
+merah
+
+Kamera
+
+CCTV
+
+3 - Kabel Dahua
+
+3 Lampu
+
+Merah
+
+Converter
+
+Fiber Optic
+
+1 172.16.1.31 Kabel TP-Link
+
+4 Lampu
+
+merah
+
+Pengeras
+
+Suara
+
+1 - - -
+
+5 IP Public / DNS   CCTV.PONTIANAKKOTA.GO.ID
+
+3.2.2.6 CCTV Tanray
+
+CCTV di lokasi ini terletak di lampu merah perempatan Jl Tanjung Raya
+
+1, fungsi CCTV di lokasi ini sebagai media monitor keadaan lalulintas jalan raya,
+
+terdapat  4  buah CCTV yang  di  posisikan  di  sekitaran  lampu  merah.  Jaringan
+
+CCTV ini menggunakan jaringan kabel dapat dilihat lokasi dan spesifikasi pada
+
+Gambar 3.12 dan Tabel 3.7 di bawah ini:
+
+
+
+42
+
+Gambar 3.12 Lokasi CCTV Tanray
+
+Tabel 3.10 Peralatan CCTV Tanray
+
+N
+
+o
+
+Alamat Barang Jumlah Ip Address Media
+
+Penghubung
+
+Merek
+
+1 Lampu
+
+merah
+
+DVR 1 172.16.1.22 Kabel Dahua
+
+2 Lampu
+
+merah
+
+Kamera CCTV 4 Kabel Dahua
+
+3 Lampu
+
+merah
+
+Converter Fiber
+
+Optic
+
+1 172.16.1.23 Kabel TP-Link
+
+4 Lampu
+
+merah
+
+Pengeras Suara 1 -
+
+5 IP Public / DNS   CCTV.PONTIANAKKOTA.GO.ID
+
+3.3 Metode Penelitian
+
+3.3.1 Studi Literatur
+
+Studi  literatur mulai  dilakukan  pada  bulan  Mei  2017  dengan  cara
+
+melakukan browsing internet, mengunjungi perpustakaan dan mempelajari skripsi
+
+yang terkait dengan penelitian yang akan dilakukan.
+
+3.3.2 Pengumpulan Data
+
+Pengumpulan  data  analisis,  yaitu  melakukan  pengumpulan  data
+
+(observasi)  di  lapangan,  menganalisa  dan mengenali  perangkat-perangkat  yang
+
+berkaitan  dengan  CCTV  dan  sesuai  kebutuhan  penelitian   berupa  arsitektur
+
+jaringan  CCTV,  sebaran  lokasi  CCTV,  dan  pendataan  4  sampel  CCTV untuk
+
+diteliti. Pengumpulan data di lakukan mulai bulan juli 2017.
+
+3.3.3 Pengujian Parameter QoS CCTV Kabel & Nirkabel
+
+3.3.3.1 Pengukuran Bandwidth
+
+Bandwidth adalah luas atau lebar cakupan frekuensi yang digunakan oleh
+
+
+
+43
+
+sinyal dalam medium transmisi. Bandwidth ini biasanya diukur dalam satuan bps
+
+(bits  per  second)  atau  Kbps  (Kylo  bits  per  second).  Pengukuran  bandwidth
+
+terlebih  dahulu dilakukan  untuk  menguji  internet  provider  yang  di  gunakan
+
+penulis  untuk mengakses CCTV Dinas Kominfo Pontianak. Untuk pengukuran
+
+bandwidth yang tersedia peneliti menggunakan situs www.speedtest.net.  Caranya
+
+adalah dengan membuka alamat website www.speedtest.net dari laptop, kemudian
+
+klik tombol ‘Go’,  maka laptop akan mengirim speed test ke  server  terdekat lalu
+
+mengukur kecepatan  download  dan  upload  data. Untuk menghasilkan data yang
+
+akurat,  perlu  dilakukan sebanyak kurang lebih  tiga  kali  test  pengukuran,  hasil
+
+pengukuran disimpan dalam bentuk file.jpeg.
+
+3.3.3.2 Pengujian CCTV 
+
+Pengujian CCTV adalah pengaksesan CCTV Dinas Kominfo Pontianak
+
+berbasis kabel dan nirkabel dari tempat pengujian menggunakan laptop, internet
+
+IndiHome 10 Mbps dan aplikasi  smart PSS untuk mengakses  CCTV tersebut,
+
+dengan waktu pengujian 1 menit dan 5 menit dan mengukur parameter-parameter
+
+QoS  delay, jitter,  packet loss,  dan  throughput menggunakan aplikasi  wireshark
+
+serta mengukur hasil kualitas video, apakah hasil viedo tersebeut stabil atau tidak
+
+dari  yang ditampilkan aplikasi smart PSS. 
+
+3.3.3.3 Pengukuran Delay
+
+Delay  adalah  waktu  tunda  suatu  paket  yang  diakibatkan  oleh  proses
+
+transmisi  dari  satu  titik  ke  titik  lain  yang  menjadikan  tujuannya.  Untuk
+
+pengukuran delay adalah menggunakan tools wireshark. Karena pada Software ini
+
+terdapat fitur filter yang dapat memonitor transmisi data antara client dan server.
+
+Untuk mengukur  delay pilih  interfaces  jaringan yang kita gunakan, selanjutnya
+
+akan muncul tampilan baru kemudian pilih fitur filter dan masukan ip server yang
+
+sedang kita akses maka akan muncul tampilan transmisi data antara  client  dan
+
+server,  selanjutnya  pilih  fitur  statistics  dan pilih  summary,  maka akan muncul
+
+tampilan  detail  transmisi data  antara  client  dan  server. Hasil  pengukuran yang
+
+disimpan  berupa  file.jpeg  dari  print  screen  di  laptop  dan  dapat  dilihat  pada
+
+gambar di bawah ini:
+
+
+
+44
+
+Gambar 3.13 Tampilan Awal Wireshark
+
+Tampilan  di  atas  gambar  3.13  adalah  tampilan  awal  wireshark  untuk
+
+melakukan suatu pengukuran.
+
+Gambar 3.14 Tampilan transmisi data client dan server
+
+Tampilan Gambar 3.14 di atas adalah tampilan suatu proses perhitungan
+
+aktivitas transmisi data antara client dan server.
+
+Gambar 3.15 Tampilan nilai transmisi data 
+
+
+
+45
+
+Tampilan Gambar 3.15 di atas adalah  hasil  detail transmisi  data antara
+
+client dan server.
+
+3.3.3.4 Pengukuran Jitter
+
+Jitter merupakan variasi delay (perbedaan selang waktu) antar paket yang
+
+terjadi  pada  jaringan,  yang  disebabkan  oleh  panjangnya  antrian  pada  saat
+
+pengolahan data  yang terjadi  pada jaringan. Cara melakukan pengukuran  jitter
+
+menggunakan  software  wireshark  sama  seperti  melakukan  pengukuran  delay,
+
+karena hasil laporan dari fitur  wireshark  juga menampilkan laporan  jitter.  Hasil
+
+pengukuran, yang disimpan berupa file.jpeg dari print screen di laptop.
+
+3.3.3.5 Pengukuran Packet Loss
+
+Packet Loss adalah banyaknya paket yang hilang selama proses transmisi
+
+yang diukur dalam persen. Cara melakukan pengukuran packet loss menggunakan
+
+software  wireshark  sama  seperti  melakukan  pengukuran  delay,  karena  hasil
+
+laporan  dari  fitur  wireshark  juga  menampilkan  laporan  packet  loss.  Hasil
+
+pengukuran, yang disimpan berupa file.jpeg dari print screen di laptop.
+
+3.3.3.6 Pengukuran Throughput
+
+Throughput adalah perbandingan antara paket data yang berhasil sampai
+
+tujuan, atau bisa juga diartikan sebagai bandwidth aktual terukur saat pengiriman
+
+data. Cara melakukan pengukuran  throughput  menggunakan  software wireshark
+
+sama  seperti  melakukan  pengukuran  delay,  karena  hasil  laporan  dari  fitur
+
+wireshark  juga  menampilkan  laporan  throughput. Hasil  pengukuran  yang
+
+disimpan berupa file.jpeg dari print screen di laptop
+
+3.3.3.7 Pengukuran Kualitas Video CCTV
+
+Pengukuran Kualitas Video CCTV adalah menganalisa tampilan CCTV
+
+saat diakses dengan durasi waktu yang telah di tentukan yaitu 1 menit dan 5 menit
+
+menggunakan  aplikasi  smart  PSS,  disini  penulis  membuat  asumsi  2  kategori
+
+kulitas video, 1 kulitas video bagus artinya video tersebut stabil, 2 kualitas video
+
+buruk artinya video tersebut tidak stabil. 
+
+3.3.4 Rekapitulasi Hasil Pengujian QoS
+
+Rekapitulasi  hasil  pengujian  QoS adalah penyajian  data  dalam bentuk
+
+tabel  yang  diperoleh  dari  hasil  pengujian  parameter  QoS  CCTV  kabel  dan
+
+nirkabel serta hasil kualitas video CCTV tersebut, data yang disajikan berisikan
+
+
+
+46
+
+data kualitas video CCTV dan parameter-parameter QoS pada traffic waktu pagi,
+
+siang, dan malam dengan durasi pengujian 1 menit  dan 5 menit  pada tiap-tiap
+
+CCTV yang telah ditentukan.
+
+3.3.5 Analisis Hasil Pengujian QoS
+
+Analisis  yang  akan  dilakukan  adalah  hasil kulitas  video  CCTV  dan
+
+rekapitulasi  parameter  kualitas  jaringan  CCTV  kabel  dan  nirkabel  berupa
+
+bandwidth, delay, jitter, packet loss dan throughput. Setiap pengujian, parameter
+
+QoS tersebut akan dibentuk dalam suatu tabel. Kemudian hasil yang didapatkan
+
+akan di rata-ratakan dengan menjumlahkan semua hasil  akhir  kemudian dibagi
+
+sebanyak  total  pengukuran.  Hasil-hasil  yang  telah  didapatkan  kemudian
+
+dibandingkan dengan standarisasi parameter QoS berdasarkan dari TIPHON, data
+
+hasil  akhirnya akan menjadi tolak ukur untuk penarikan kesimpulan perbedaan
+
+kualitas jaringan CCTV kabel dan CCTV nirkabel.
+
+3.3.6 Penarikan Kesimpulan 
+
+Pengambilan kesimpulan dilakukan setelah membandingkan data CCTV
+
+kabel dan nirkabel yang diperoleh dari masing-masing pengujian dan bagaimana
+
+kualitas  layanan  jaringan  CCTV  Dinas  Kominfo  Pontianak  terhadap  jaringan
+
+internet 10 Mbps yang di gunakan untuk memonitoring CCTV.
+
+3.4 Pengambilan  Data  Parameter  QoS  Jaringan  CCTV  Kabel  dan
+
+Nirkabel
+
+    D i n a s  K o m i n f o  P o n t i a n a k
+
+Tempat Pengujian
+
+
+
+47
+
+Gambar 3.16 Skenario Pengujian Pengambilan Data
+
+Gambar 3.16 di atas adalah konsep dan alur pengujian dengan langkah
+
+awal menghubungkan laptop dengan internet kemudian yang diuji yaitu kecepatan
+
+internet  menggunakan  speedtest.net  kemudian  membuka  aplikasi  Smart  PSS
+
+untuk  mengakses  CCTV  Dinas  Kominfo  Pontianak,  selanjutnya  pengukuran
+
+delay,  jitter,  packet  loss  dan  throughput  dengan  menggunakan  software
+
+wireshark. Pengujian dilakukan dalam 3 waktu yaitu pagi, sore dan malam dengan
+
+durasi  waktu  1  menit  dan  5  menit  dengan  mengakses  4  lokasi  CCTV secara
+
+bergantian dengan durasi yang telah ditentukan. Hasil dari pengujian keseluruhan
+
+akan dilakukan perhitungan rata-rata
+
+
+
+48
+
+Mulai
+
+Koneksi Internet di
+tempat pengujian
+
+Speed Test 
+
+Tidak
+Besara 
+Download
+>10Mbps 
+
+
+
+49
+
+Gambar 3.17 Diagram Alir Pengujian CCTV
+
+Gambar 3.17 di atas merupakan cara pengambilan data parameter QoS
+
+yaitu  langkah  pertama  menghubungkan  laptop  penulis  ke  internet,  selanjutnya
+
+pengukuran  bandwidth  menggunakan  speedtest.net,  Apabila  besaran  download
+
+internet  <10Mbps,   pengujian  speedtest.net  dilakukan  pengulangan  kembali
+
+sampai hasil download mencapai hasil  > 10Mbps, kemudian pengujian besaran
+
+download  mencapai  > 10Mbps,   maka  pengujian  berlanjut  membuka  aplikasi
+
+CCTV Dinas Kominfo yaitu aplikasi  smart PSS,  kemudian koneksivitas lokasi
+
+CCTV yang diakses tidak bisa maka menghubungi admin tentang masalah lokasi
+
+CCTV  tersebut,  dan  saat  CCTV  yang  diakses  terhubung,  maka  langkah
+
+selanjutnya membuka aplikasi wireshark dan melakukan proses pengukuran QoS
+
+di  CCTV  yang  sedang  diakses  dengan  durasi  waktu  yang  telah  ditentukan
+
+selanjutnya hasil QoS dilakukan perhitungan sesuai kebutuhan penulis.
+
+      Ya
+
+Aplikasi CCTV
+Kominfo
+
+Konektivitas
+CCTV 1 dan 5
+
+menit terhubung
+
+     Tidak
+
+          Ya
+
+Aplikasi
+Wershark
+
+Hasil QoS
+
+selesai
+
+
+
+50
+
+3.5 Diagram Alir Penelitian
+
+Adapun langkah-langkah penelitian  yang dilakukan oleh penulis  dapat
+
+dijelaskan sebagai berikut.
+
+Mulai
+
+Pengujian dan Perhitungan QoS CCTV Kabel
+& Nirkabel
+
+Pengumpulan Data
+
+Studi Literatur
+
+
+
+51
+
+Gambar 3.18 Diagram Alir Penelitian
+
+Rekapitulasi Hasil Pengujian
+QoS
+
+Analisis Hasil
+Pengujian QoS
+
+Penarikan
+Kesimpulan
+
+Selesai
+
+
+
+127
+
+4.2 Rekapitulasi Hasil
+
+Setelah  parameter  –  parameter  QoS  dilakukan  pengukuran  dan
+
+perhitungan data yang diperoleh disajikan dalam bentuk tabel yang berisikan data
+
+parameter  – parameter  QoS pada  traffic  waktu pagi,  siang, dan malam dengan
+
+durasi waktu 1 menit dan 5 menit dalam pengambilan data setiap waktu yang telah
+
+ditentukan. Data-data hasil pengujian dan perhitungan yang disajikan yaitu:
+
+1. Bandwidth
+
+Data parameter Bandwidth yang di ambil adalah hasil pengukuran aplikasi
+
+Speedtest.net yaitu Download dan Upload
+
+2. Delay
+
+Data  parameter  delay  yang  diambil  adalah  dari  hasil  capture  aplikasi
+
+wireshark dan membandingkan hasil nilai degan standar parameter TIPHON.
+
+ Tabel 4.28 Standar Delay TIPHON
+
+Kategori Delay Indeks
+Sangat bagus < 150 ms 4
+
+Bagus 150 s/d 300 ms 3
+
+Sedang 300 s/d 450 ms 2
+
+Jelek >450 ms 1
+
+3. Jitter
+
+Data  parameter  Jitter  yang  diambil  adalah  dari  hasil  capture  aplikasi
+
+wireshark dan membandingkan hasil nilai degan standar parameter TIPHON.
+
+Tabel 4.29 Standar Jitter TIPHON
+
+Kategori Degradasi Jitter Indeks
+
+Sangat bagus 0 ms 4
+
+Bagus 0 s/d 75 ms 3
+
+Sedang 75 s/d 125 ms 2
+
+Jelek 125 s/d 225 ms 1
+
+
+
+128
+
+4. Packet Loss
+
+Data parameter packet loss yang diambil adalah dari hasil  capture  aplikasi
+
+wireshark  dan  membandingkan  hasil  nilai  dengan  standar  parameter
+
+TIPHON.
+
+         Tabel 4.30 Standar Packet Loss TIPHON
+
+5. Throughput
+
+Data parameter  throughput yang diambil  adalah dari  hasil  capture  aplikasi
+
+wireshark 
+
+ Tabel 4.31 Standar Throughput TIPHON
+
+Kategori Throughput Indeks
+
+Sangat bagus >75% s/d 100 % 4
+
+Bagus >50s% s/d 75 % 3
+
+Sedang >25% s/d 50 % 2
+
+Jelek 0 % s/d 25 % 1
+
+6. Traffic Server CCTV Dinas Kominfo Pontianak
+
+Data traffic CCTV Dinas Kominfo Pontianak diambil sebagai tolak ukur serta
+
+gambaran  bagaimana  keadaan  aktivitas  server  CCTV  ketika  dilakukan
+
+pengujian CCTV dari tempat pengujian.
+
+Kategori Packet Loss Indeks
+
+Sangat bagus 0 % 4
+
+Bagus > 0 % s/d 3 % 3
+
+Sedang > 3 % s/d 15% 2
+
+Jelek > 15 % 1
+
+
+
+129
+
+Gambar 4.52 Capture Traffic Server CCTV Dinas Kominfo Pontianak
+
+Pada tabel di bawah ini adalah data hasil pengukuran dan perhitungan yang telah
+
+di rekapitulasi:
+
+
+
+130
+
+Tabel 4.32 Tabel Rekapitulasi Parameter – parameter QoS CCTV Parit
+
+Besar (Kabel)
+
+Kualitas Video
+
+Bagus : Kualitas video CCTV stabil  
+
+Jelek  : Kualitas video CCTV tidak stabil 
+
+
+
+131
+
+Berdasarkan Tabel 4.32 di atas, kualitas QoS pada jaringan CCTV parit
+
+besar dapat dijelaskan pada tabel di bawah ini:
+
+Tabel 4.33 QoS pada Jam pagi durasi 1 menit & 5 menit di CCTV parit besar
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHON
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+1 Delay 1,15 ms Sangat
+Bagus
+
+1,41 ms Sangat
+Bagus
+
+2 Jitter 1,15 ms Bagus 1,41 ms Bagus
+
+3 Packet Loss 0,11% Bagus 0,11 % Bagus
+
+4 Throughput 68,02 % Bagus 52,88 % Bagus
+
+5 Kualitas
+Video CCTV
+
+Bagus Bagus
+
+Berdasarkan Tabel 4.33 di atas kualitas rata-rata kondisi jam pagi durasi
+
+1 menit dan 5 menit dapat dijelaskan sebagai berikut: 
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,15 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  1,41ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,15 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,41ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,11%,  dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,11%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya bagus yaitu  68,02 % dan  52,88%.  Dalam
+
+standar TIPHON dengan kategori bagus.
+
+5. Durasi 1 menit dengan nilai throughput 68,02 % sedangkan 5 menit dengan
+
+nilai  throughput  52,88  %,  di  sini  perbedaan  yang  jelas,  walaupun  dalam
+
+kondisi standar TIPHON keduanya mendapatkan kategori bagus.
+
+
+
+132
+
+Tabel 4.34 QoS pada Jam sore durasi 1 menit & 5 menit di CCTV parit besar
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHON
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+1 Delay 1,15 ms Sangat
+Bagus
+
+1,16 ms Sangat
+Bagus
+
+2 Jitter 1,15 ms Bagus 1,16 ms Bagus
+
+3 Packet Loss 0,12 % Bagus 0,07 % Bagus
+
+4 Throughput 67,68 % Bagus 67,76 % Bagus
+
+5 Kualitas
+video CCTV
+
+Bagus Bagus
+
+Berdasarkan Tabel 4.34 di atas kualitas rata-rata kondisi jam sore durasi
+
+1 menit dan 5 menit dapat dijelaskan sebagai berikut: 
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,15 ms, dalam standar TIPHON
+
+dengan kategori sangat bagus, dan pengujian 5 menit dengan nilai 1,16 ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,15 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,16 ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,12%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,07%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya hampir sama yaitu  67,68 % dan  67,76 %.
+
+Dalam standar TIPHON dengan kategori bagus.
+
+
+
+133
+
+Tabel 4.35 QoS pada Jam malam durasi 1 menit & 5 menit di CCTV parit besar
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+1 Delay 1,15 ms Sangat
+bagus
+
+1,66 ms Bagus
+
+2 Jitter 1,15 ms Bagus 1,66 ms Bagus
+
+3 Packet Loss 0,15 % Bagus 0,11 % Bagus
+
+4 Throughput 67,92 % Bagus 67,77 % Bagus
+
+5 Kualitas
+video CCTV
+
+Bagus Bagus
+
+Berdasarkan  Tabel  4.35 di  atas  kualitas  rata-rata  kondisi  jam malam
+
+durasi 1 menit dan 5 menit dapat dijelaskan sebagai berikut: 
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,15 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  1,66ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,15 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,66ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,15%,  dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,11%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya hampir sama yaitu  67,92 % dan  67,77%.
+
+Dalam standar TIPHON dengan kategori bagus.
+
+
+
+134
+
+
+
+135
+
+Tabel  4.36  Tabel  Rekapitulasi  parameter  –  parameter  QoS CCTV Jihad
+
+(Nirkabel)
+
+Kualitas Video
+
+Bagus : Kualitas video CCTV stabil  
+
+Jelek  : Kualitas video CCTV tidak stabil 
+
+
+
+136
+
+Berdasarkan  Tabel 4.36 di atas, kualitas QoS pada jaringan CCTV jihad
+
+dapat dijelaskan pada tabel di bawah ini:
+
+Tabel 4.37 QoS pada Jam pagi durasi 1 menit & 5 menit di CCTV Jihad
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+1 Delay 5,37 ms Sangat
+Bagus
+
+11,33 ms Sangat bagus
+
+2 Jitter 5,37 ms Bagus 11,33 ms Bagus
+
+3 Packet Loss 0,30 % Bagus 0,97 % Bagus
+
+4 Throughput 14,21 % Jelek 6,59 % Jelek
+
+5 Kualitas
+Video CCTV
+
+Jelek Jelek
+
+Berdasarkan Tabel 4.37 di atas kualitas rata-rata kondisi jam pagi durasi 1
+
+menit dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 5,37 ms, dalam standar TIPHON
+
+dengan kategori sangat bagus, dan pengujian 5 menit dengan nilai 11,33ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 5,37 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  11,33ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,30%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,97%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu  jelek, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya rendah yaitu  14,21% dan  6,59 %.  Dalam
+
+standar TIPHON dengan kategori jelek
+
+5. Rendahnya  nilai  throughput  diakibatkan  padatnya  penggunaan  jaringan
+
+internet  saat  melakukan  pengujian  berdasarkan  acuan  data  traffic  server
+
+CCTV Dinas Kominfo Pontianak pada Gambar 4.52. 
+
+
+
+137
+
+Tabel 4.38 QoS pada Jam sore durasi 1 menit & 5 menit di CCTV Jihad
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+1 Delay 5,06 ms Sangat
+Bagus
+
+8,80 ms Sangat
+Bagus
+
+2 Jitter 5,06 ms Bagus 8,80 ms Bagus
+
+3 Packet Loss 0,27 % Bagus 0,55 % Bagus
+
+4 Throughput 15,26 % Jelek 9,31 % Jelek
+
+5 Kualitas
+video CCTV
+
+Jelek Jelek
+
+Berdasarkan Tabel 4.38 di atas kualitas rata-rata kondisi jam sore durasi 1
+
+menit dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai  delay 5,06ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  8,80ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai  jitter  5,06ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  8,80ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,27%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,55%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu jelek, Hal ini dikarenakan nilai
+
+parameter  throughput  keduanya rendah yaitu  15,26% dan  9,31 %.  Dalam
+
+standar TIPHON dengan kategori jelek
+
+5. Rendahnya  nilai  throughput  diakibatkan  padatnya  penggunaan  jaringan
+
+internet  saat  melakukan  pengujian  berdasarkan  acuan  data  traffic  server
+
+CCTV Dinas Kominfo Pontianak pada Gambar 4.52
+
+
+
+138
+
+Tabel 4.39 pada Jam malam durasi 1 menit & 5 menit di CCTV Jihad
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHON
+
+Hasil
+Pengukuran
+
+Standar
+TIPHON
+
+1 Delay 2,12 ms Sangat
+Bagus
+
+2,13 ms Sangat
+Bagus
+
+2 Jitter 2,12 ms Bagus 2,13 ms Bagus
+
+3 Packet Loss 0,27 % Bagus 0,26 % Bagus
+
+4 Throughput 34,03% Cukup 34,06 % Cukup
+
+5 Kualitas
+video CCTV
+
+Bagus Bagus
+
+Berdasarkan Tabel 4.39 di atas kualitas rata-rata kondisi malam durasi 1
+
+menit dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 2,12 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  2,13ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 2,12 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  2,13ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,27%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,26%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu  bagus, dikarenakan di kondisi
+
+padam malam hari mengalami perubahan dengan nilai parameter throughput
+
+34,03 % dan 34 ,06 %, dalam standar TIPHON dengan kategori cukup.
+
+5. Peningkatan nilai throughput pada jam malam dikarenakan sepinya pengguna
+
+jaringan internet  saat melakukan pengujian.  Berdasarkan acuan data  traffic
+
+server CCTV Dinas Kominfo Pontianak pada Gambar 4.52
+
+
+
+139
+
+Tabel 4.40  Tabel Rekapitulasi parameter – parameter QoS CCTV Tanray
+
+(Kabel)
+
+Kualitas Video
+
+Bagus : Kualitas video CCTV stabil  
+
+Jelek  : Kualitas video CCTV tidak stabil  
+
+
+
+140
+
+Berdasarkan Tabel 4.40 di atas, kualitas QoS pada jaringan CCTV tanray
+
+dapat dijelaskan pada tabel di bawah ini:
+
+Tabel 4.41 QoS pada Jam pagi durasi 1 menit & 5 menit di CCTV Tanray
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+1 Delay 1,66 ms Sangat Bagus 1,67 ms Sangat
+Bagus
+
+2 Jitter 1,66 ms Bagus 1,67 ms Bagus
+
+3 Packet Loss 0,15 % Bagus 0,19 % Bagus
+
+4 Throughput 44,98 % Cukup 44,94 % Cukup
+
+5 Kualitas
+Video CCTV
+
+Bagus Bagus
+
+Berdasarkan Tabel 4.41 kualitas rata-rata kondisi jam pagi durasi 1 menit
+
+dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,66 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  1,67ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,66 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,67ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,15%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,19%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya hampir sama yaitu  44,98 % dan  44,94 %.
+
+Dalam standar TIPHON dengan kategori cukup.
+
+
+
+141
+
+Tabel 4.42 QoS pada Jam sore durasi 1 menit & 5 menit di CCTV Tanray
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHONE
+
+1 Delay 1,85 ms Sangat
+Bagus
+
+1,70 ms Sangat
+Bagus
+
+2 Jitter 1,85 ms Bagus 1,70 ms Bagus
+
+3 Packet Loss 0,10 % Bagus 0,14 % Bagus
+
+4 Throughput 40,09 % Cukup 44,26 % Cukup
+
+5 Kualitas
+Video CCTV
+
+Bagus Bagus
+
+Berdasarkan Tabel 4.42 kualitas rata-rata kondisi jam sore durasi 1 menit
+
+dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,85 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  1,70ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,85 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,70ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,10%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,14%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, Hal ini dikarenakan nilai
+
+parameter  throughput  keduanya hampir sama yaitu  40,09 % dan 44,26 %.
+
+Dalam standar TIPHON dengan kategori cukup
+
+
+
+142
+
+Tabel 4.43 QoS pada Jam malam durasi 1 menit & 5 menit di CCTV Tanray
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHONE
+
+1 Delay 1,66 ms Sangat
+Bagus
+
+1,66 ms Sangat Bagus
+
+2 Jitter 1,66 ms Bagus 1,66 ms Bagus
+
+3 Packet Loss 0,23 % Bagus 0,33 % Bagus
+
+4 Throughput 45,06 % Cukup 45,04 % Cukup
+
+5 Kualitas
+video CCTV
+
+Bagus Bagus
+
+Berdasarkan  Tabel 4.43 kualitas rata-rata kondisi jam malam durasi  1
+
+menit dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,66 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  1,66ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,66 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,66ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,23%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,33%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, Hal ini dikarenakan nilai
+
+parameter  throughput  keduanya hampir sama yaitu  45,06 % dan  45,04 %.
+
+Dalam standar TIPHON dengan kategori cukup.
+
+
+
+143
+
+
+
+144
+
+Tabel 4.44 Tabel Rekapitulasi parameter – parameter QoS CCTV Bundaran
+
+UNTAN (Nirkabel)
+
+Kualitas Video  
+
+Bagus : Kualitas video CCTV stabil  
+
+Jelek  : Kualitas video CCTV tidak stabil 
+
+
+
+145
+
+Berdasarkan  Tabel  4.44 di  atas,  kualitas  QoS  pada  jaringan  CCTV
+
+bundaran UNTAN dapat dijelaskan pada tabel di bawah ini:
+
+Tabel 4.45 QoS pada Jam pagi durasi 1 menit & 5 menit di CCTV Bundaran 
+UNTAN
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHONE
+
+1 Delay 2,09 ms Sangat
+Bagus
+
+3,22 ms Sangat Bagus
+
+2 Jitter 2,09 ms Bagus 3,22 ms Bagus
+
+3 Packet Loss 0,16 % Bagus 0,53 % Bagus
+
+4 Throughput 37,25 % Cukup 23,83 % Jelek
+
+5 Kualitas
+video CCTV
+
+Jelek Jelek
+
+Berdasarkan Tabel 4.45 kualitas rata-rata kondisi jam pagi durasi 1 menit
+
+dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 2,09 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  3,22ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 2,09 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  3,22ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,16%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,53%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu  jelek, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya rendah yaitu  37,25% dan  23,83%.  Dalam
+
+standar TIPHON dengan kategori cukup dan jelek.
+
+5. Rendahnya  nilai  throughput  diakibatkan  padatnya  penggunaan  jaringan
+
+internet  saat  melakukan  pengujian  berdasarkan  acuan  data  traffic  server
+
+CCTV Dinas Kominfo Pontianak pada Gambar 4.52. 
+
+
+
+146
+
+Tabel 4.46 QoS pada Jam sore durasi 1 menit & 5 menit di CCTV Bundaran 
+UNTAN
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHONE
+
+1 Delay 2,28 ms Sangat
+Bagus
+
+2,47 ms Sangat Bagus
+
+2 Jitter 2,28 ms Bagus 2,47 ms Bagus
+
+3 Packet Loss 0,36 % Bagus 0,17 % Bagus
+
+4 Throughput 33,95% Cukup 31,16 % Cukup
+
+5 Kualitas
+video CCTV
+
+Jelek Jelek
+
+Berdasarkan Tabel 4.46 kualitas rata-rata kondisi jam pagi durasi 1 menit
+
+dan 5 menit dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 2,28 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  2,47ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 2,28 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  2,47ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,36%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,17%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu  jelek, hal ini dikarenakan nilai
+
+parameter  throughput  keduanya rendah yaitu  33,95% dan  31,16%.  Dalam
+
+Durasi 1 M dengan nilai  33,95% sedangkan 5 M dengan nilai  31,16 %, di
+
+sini  perbedaan  yang  jelas,  walaupun  dalam  kondisi  standar  TIPHON
+
+keduanya mendapatkan kategori cukup.
+
+5. Rendahnya  nilai  throughput  diakibatkan  padatnya  penggunaan  jaringan
+
+internet saat melakukan pengujian berdasarkan acuan data traffic server CCTV
+
+Dinas Kominfo Pontianak pada Gambar 4.52 
+
+
+
+147
+
+Tabel 4.47 QoS pada Jam malam durasi 1 menit & 5 menit di CCTV Bundaran 
+UNTAN
+
+No Parameter
+QoS
+
+Durasi 1 Menit Durasi 5 Menit
+
+Hasil
+Pengukura
+n
+
+Standar
+TIPHONE
+
+Hasil
+Pengukuran
+
+Standar
+TIPHONE
+
+1 Delay 1,44ms Sangat
+Bagus
+
+1,39 ms Sangat Bagus
+
+2 Jitter 1,44ms Bagus 1,39 ms Bagus
+
+3 Packet Loss 0,34 % Bagus 0,39 % Bagus
+
+4 Throughput 53,17 % Bagus 55,93 % Bagus
+
+5 Kualitas
+video CCTV
+
+Bagus Bagus
+
+Berdasarkan  Tabel 4.47 kualitas rata-rata kondisi jam malam durasi  1
+
+menit dan 5 menit Dapat dijelaskan sebagai berikut:
+
+1. Pengujian 1 menit mendapatkan nilai delay 1,44 ms, dalam standar TIPHON
+
+dengan kategori  sangat bagus,  dan pengujian 5 menit dengan nilai  1,39ms,
+
+dalam standar TIPHON dengan kategori sangat bagus.
+
+2. Pengujian 1 menit mendapatkan nilai jitter 1,44 ms, dalam standar TIPHON
+
+dengan kategori  bagus,  dan pengujian 5 menit dengan nilai  1,39ms, dalam
+
+standar TIPHON dengan kategori bagus.
+
+3. Pengujian  1  menit  mendapatkan  nilai  packet  loss  0,34%, dalam  standar
+
+TIPHON dengan kategori bagus, dan pengujian 5 menit dengan nilai 0,39%,
+
+dalam standar TIPHON dengan kategori bagus.
+
+4. Kualitas video dengan nilai yang sama yaitu bagus, Hal ini dikarenakan nilai
+
+parameter  throughput  keduanya hampir sama yaitu  53,17 % dan  55.93 %.
+
+Dalam standar TIPHON dengan kategori bagus.
+
+5. Peningkatan nilai throughput pada jam malam dikarenakan sepinya pengguna
+
+jaringan internet  saat melakukan pengujian.  Berdasarkan acuan data  traffic
+
+Server CCTV Dinas Kominfo Pontianak pada gambar 4.2.
+
+
+
+146
+
+4.3 Analisis Quality of Service
+
+4.3.1 Analisis Kecepatan Akses Internet
+
+Kecepatan  akses  internet  sama  dengan kecepatan  akses  transfer  data.
+
+Dalam  bidang  telekomunikasi  dan  komputer,  kecepatan  transfer  data  adalah
+
+jumlah  data  dalam  bit  yang  melewati  satu  media  tertentu  dalam  satu  detik.
+
+Bandwidth  adalah luas atau lebar cakupan frekuensi yang digunakan oleh sinyal
+
+dalam medium transmisi. Dalam jaringan komputer, bandwidth sering digunakan
+
+sebagai suatu ukuran untuk kecepatan  transfer  data (transfer rate) yaitu jumlah
+
+data yang dapat dibawa dari sebuah titik ke titik lain dalam jangka waktu tertentu
+
+dalam satuan detik.
+
+Kecepatan download adalah kecepatan suatu kegiatan menyalin data, file
+
+atau aplikasi dari sebuah komputer yang terhubung dalam sebuah jaringan internet
+
+ke komputer lokal. Sedangkan kecepatan  upload kebalikan dari  download, yaitu
+
+kecepatan suatu kegiatan menyalin data, file atau aplikasi dari sebuah komputer
+
+lokal ke komputer yang terhubung dalam sebuah jaringan internet.
+
+Berikut ini merupakan gambar grafik kecepatan akses internet dari hasil
+
+rata-rata  pengukuran  di  rumah  penulis  tempat  memonitoring  CCTV  Dinas
+
+Kominfo Pontianak.
+
+Gambar 4.53 Grafik kecepatan akses internet di tempat pengujian
+
+Sumber data hasil olahan kecepatan download dan upload
+
+Pagi 
+10:44 - 
+10:47
+
+Sore 
+15:48 - 
+15:52
+
+Malam 
+21:30-
+21:34
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+13.41
+14.25
+
+10.64
+
+1.43 1.42 1.41
+
+Kecepatan Download
+
+Kecepatan Upload
+
+Jam
+
+K
+e
+ce
+
+p
+a
+ta
+
+n
+ A
+
+k
+s
+e
+s 
+
+In
+te
+
+rn
+e
+t
+
+(M
+b
+p
+s
+)
+
+
+
+147
+
+Berdasarkan Gambar 4.53 di atas point analisis kecepatan internet dapat
+
+dilihat bahwa kecepatan akses internet pada sore hari memiliki nilai paling tinggi,
+
+dan kemudian sedikit menurun pada pagi hari dan menurun lagi pada malam hari. 
+
+Menurut penulis, kecepatan akses internet dengan paket internet 10 Mbps
+
+dan memiliki kecepatan  download dengan nilai minimal 10 Mbps, maka dengan
+
+kecepatan akses internet sebesar nilai tersebut, maka untuk memonitoring CCTV
+
+Dinas  Komunikasi  dan  Informatika  Pontianak  secara  online  tentu  akan  stabil.
+
+Besarnya resolusi CCTV kabel da nirkabel Dinas Kominfo Pontianak tentunya
+
+membutuhkan  kecepatan  akses  internet  yang  besar  untuk  memonitoring  agar
+
+memaksimalkan performa.
+
+4.3.2 Analisis Delay
+
+Delay  adalah  waktu  tunda  suatu  paket  yang  diakibatkan  oleh  proses
+
+transmisi dari satu titik ke titik lain yang menjadi tujuannya. Titik-titik ini dapat
+
+berupa perangkat  komputer  atau  perangkat  jaringan lainnya  seperti  router dan
+
+modem yang dilewati oleh paket informasi. 
+
+Berikut ini merupakan tabel-tabel dan gambar grafik delay dari hasil data
+
+pengukuran keseluruhan CCTV berbasis kabel dan CCTV berbasis nirkabel
+
+Tabel 4.48 Standar Delay TIPHON
+
+Kategori Delay Indeks
+
+Sangat bagus < 150 ms 4
+
+Bagus 150 s/d 300 ms 3
+
+Sedang 300 s/d 450 ms 2
+
+Jelek >450 ms 1
+
+
+
+148
+
+A. CCTV KABEL
+
+Tabel 4.49 Delay CCTV Parit Besar (kabel)
+
+CCTV
+PARIT
+BESAR
+
+Hasil Pengujian Delay
+Standar TIPHON
+
+Durasi 
+1 menit
+
+Indeks Durasi 
+5 menit
+
+Indeks
+
+Jam Pagi 1,15 ms 4 1,41 ms 4 Sangat Bagus < 150 ms
+
+Jam Sore 1,15 ms 4 1,16 ms 4 Sangat Bagus < 150 ms
+
+Jam 
+
+Malam
+
+1,15 ms 4 1,66 ms 4 Sangat Bagus < 150 ms
+
+Total 
+Rata-rata
+
+1,15 ms 4 1,41
+
+ms
+
+4
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+Tabel 4.50 Delay CCTV tanray (kabel)
+
+CCTV
+TANRAY
+
+Hasil Pengujian Delay
+Standar TIPHON
+
+Durasi 1 
+menit
+
+Indeks Durasi 
+5 menit
+
+Indeks
+
+Jam Pagi 1,66 ms 4 1,67 ms 4 Sangat 
+Bagus
+
+< 150 ms
+
+Jam Sore 1,85 ms 4 1,70 ms 4 Sangat 
+Bagus
+
+< 150 ms
+
+Jam Malam 1,66 ms 4 1,66 ms 4 Sangat 
+Bagus
+
+< 150 ms
+
+Total Rata-
+rata
+
+1,72 4 1,67 4
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+
+
+149
+
+Tabel 4.51 Rata-rata Delay CCTV Kabel
+
+Lokasi 
+CCTV
+
+Hasil Pengujian Delay
+Standar TIPHONDurasi 1 
+
+menit
+Indeks Durasi 5 
+
+menit
+Indeks
+
+Parit Besar 1,15 ms 4 1,41 ms 4 Sangat 
+Bagus
+
+< 150 
+ms
+
+Tanray 1,72 ms 4 1,67 ms 4 Sangat 
+Bagus
+
+< 150 
+ms
+
+Total Rata-
+rata
+
+1,43 ms 4 1,54 ms 4
+
+Standar 
+TIPHON
+
+Sangat 
+Bagus
+
+Sangat 
+Bagus
+
+Berdasarkan Tabel  4.51  kualitas  rata-rata  delay  CCTV berbasis  kabel
+
+durasi 1 menit dan 5 menit dapat diuraikan sebagai berikut:
+
+1. Pengujian  delay keseluruhan  waktu  CCTV parit  besar dengan pengujian
+
+durasi 1 menit mendapatkan nilai rata-rata 1,15 ms dengan standar TIPHON
+
+sangat bagus, dan CCTV tanray pengujian 1 menit mendapatkan nilai 1,72
+
+ms dengan  standar  TIPHON  sangat  bagus,  dalam  pengujian  ini  hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON sangat
+
+bagus.
+
+2. Pengujian delay keseluruhan waktu CCTV tanray dengan pengujian durasi 5
+
+menit mendapatkan nilai rata-rata  1,41 ms dengan standar TIPHON  sangat
+
+bagus,  dan  CCTV tanray pengujian  5  menit  mendapatkan  nilai  1,67 ms
+
+dengan  standar  TIPHON  sangat  bagus,  dalam  pengujian  ini  hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON sangat
+
+bagus.
+
+3. Total  keseluruhan jaringan CCTV kabel  dari  kedua CCTV parit  besar dan
+
+tanray  pengujian  1  menit dengan  nilai  rata-rata  1,43  ms dengan  standar
+
+TIPHON sangat bagus dan pengujian 5 menit dengan nilai rata-rata 1,54 ms
+
+dengan standar TIPHON sangat bagus.
+
+
+
+150
+
+B. CCTV NIRKABEL
+
+Tabel 4.52 Delay CCTV Jihad (nirkabel)
+
+ 
+CCTV
+JIHAD
+
+Hasil Pengujian Delay
+Standar TIPHON
+
+Durasi 1
+menit
+
+Indeks Durasi 5 
+menit
+
+Indeks
+
+Jam Pagi 5,37 ms 4 11,33 ms 4 Sangat Bagus < 150 ms
+
+Jam Sore 5,06 ms 4 8.80 ms 4 Sangat Bagus < 150 ms
+
+Jam 
+Malam
+
+2,12 ms 4 2,13 ms 4 Sangat Bagus < 150 ms
+
+Total 
+Rata-rata
+
+4,18 ms 4 7,42 ms 4
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+Tabel 4.53 Delay CCTV Bundaran UNTAN (nirkabel)
+
+CCTV
+BUNDARAN
+
+UNTAN
+
+Hasil Pengujian Delay
+Standar TIPHON
+
+Durasi 
+1 menit
+
+Indeks Durasi 5
+menit
+
+Indeks
+
+Jam Pagi 2,09 ms 4 3,22 ms 4 Sangat 
+Bagus
+
+< 150 ms
+
+Jam Sore 2,28 ms 4 2,47 ms 4 Sangat 
+Bagus
+
+< 150 ms
+
+Jam Malam 1,44 ms 4 1,39 ms 4 Sangat 
+Bagus
+
+< 150 ms
+
+Total Rata-rata 1,93 ms 4 2,36 4
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+
+
+151
+
+Tabel 4.54 Rata-rat Delay CCTV Nirkabel
+
+Lokasi
+CCTV
+
+Hasil Pengujian Delay Standar TIPHON
+Durasi 1
+
+menit
+Indeks Durasi 5
+
+menit
+Indeks
+
+Jihad 4,18 ms 4 7,42 ms 4 Sangat
+Bagus
+
+< 150
+ms
+
+Bundaran 
+UNTAN
+
+1,93 ms 4 2,36 ms 4 Sangat
+Bagus
+
+< 150
+ms
+
+Total Rata-
+rata
+
+3,05 ms 4 4,89 ms 4
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+Berdasarkan Tabel 4.54 kualitas rata-rata delay CCTV berbasis nirkabel
+
+durasi 1 menit dan 5 menit dapat diuraikan sebagai berikut:
+
+1. Pengujian delay keseluruhan waktu CCTV jihad dengan pengujian durasi 1
+
+menit mendapatkan nilai rata-rata  4,18 ms dengan standar TIPHON  sangat
+
+bagus, dan CCTV bundaran UNTAN pengujian 1 menit mendapatkan nilai
+
+1,93 ms dengan standar TIPHON sangat bagus, dalam pengujian ini hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON sangat
+
+bagus.
+
+2. Pengujian delay keseluruhan waktu CCTV jihad dengan pengujian durasi 5
+
+menit mendapatkan nilai rata-rata  7,42 ms dengan standar TIPHON  sangat
+
+bagus, dan CCTV bundaran UNTAN pengujian 5 menit mendapatkan nilai
+
+2,36 ms dengan standar TIPHON sangat bagus, dalam pengujian ini hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON sangat
+
+bagus.
+
+3. Total  keseluruhan  jaringan  CCTV  nirkabel  dari  kedua  CCTV  jihad  dan
+
+bundaran UNTAN pengujian 1 menit dengan nilai rata-rata 3,05 ms dengan
+
+standar TIPHON sangat bagus dan pengujian 5 menit dengan nilai rata-rata
+
+4,89 ms dengan standar TIPHON sangat bagus.
+
+
+
+152
+
+Gambar 4.54 Grafik perbandingan delay CCTV kabel & CCTV nirkabel
+
+Tabel 4.55 Total Rata-rata Delay CCTV Kabel & CCTV Nirkabel
+
+Jaringan 
+CCTV
+
+Total Rata-rata
+Standar TIPHONDurasi 
+
+1 menit
+Indek
+s
+
+Durasi 
+5 menit
+
+Indeks
+
+CCTV 
+Kabel
+
+1,43 ms 4 1,54 ms 4 Sangat Bagus <150 ms
+
+CCTV 
+Nirkabel
+
+3,05 ms 4 4,89 ms 4 Sangat Bagus <150ms
+
+Berdasarkan Tabel 4.55 dapat dilihat parameter delay antara CCTV kabel
+
+dan  nirkabel  mendapatkan  Standar  TIPHON  sangat  bagus  kedua  jaringan  ini
+
+mengalami perbedaan nilai, yang mana nilai  delay CCTV kabel lebih kecil dari
+
+pada CCTV nirkabel.  
+
+Hasil  analisis  perbandingan  QoS  pada  Jaringan  CCTV  Nirkabel  dan
+
+Kabel  Dinas  Kominfo  Pontianak,  dengan  memperhatikan  standar  TIPHON
+
+(Joesman 2008) degan rating parameter QoS ± 95%. Berikut beberapa hal yang
+
+perlu diperhatikan untuk dijadikan sebagai acuan untuk perbaikan QoS:
+
+1. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  delay durasi
+
+pengujian 1 menit didapatkan nilai indeks 4 atau sebesar 100 % dengan rating
+
+sangat bagus, maka delay sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+100 %
+
+=
+X
+
+95%
+  x ¿ 
+
+10 .95
+100
+
+ = 9,5     x = 9,5 Mb     
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+1.43
+
+3.05
+
+1.54
+
+4.89
+
+1 
+menit
+
+P
+a
+
+ra
+m
+
+e
+te
+
+r 
+Q
+
+o
+S
+
+ D
+e
+
+la
+y
+
+(S
+ta
+
+n
+d
+
+a
+r 
+
+T
+IP
+
+H
+O
+
+N
+)
+
+
+
+153
+
+2. Hasil  analisis  QoS  jaringan  CCTV  kabel  dengan  parameter  delay durasi
+
+pengujian 5 menit didapatkan nilai indeks 4 atau sebesar 100 % dengan rating
+
+sangat bagus, maka delay sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+100 %
+
+=
+X
+
+95%
+  x ¿ 
+
+10 .95
+100
+
+ = 9,5     x = 9,5 Mb
+
+3. Hasil analisis QoS jaringan CCTV nirkabel dengan parameter  delay durasi
+
+pengujian 1 menit didapatkan nilai indeks 4 atau sebesar 100 % dengan rating
+
+sangat bagus, maka delay sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+100 %
+
+=
+X
+
+95%
+  x ¿ 
+
+10 .95
+100
+
+ = 9,5     x = 9,5 Mb
+
+   
+4. Hasil  analisis  QoS  jaringan  CCTV  kabel  dengan  parameter  delay durasi
+
+pengujian 5 menit didapatkan nilai indeks 4 atau sebesar 100 % dengan rating
+
+sangat bagus, maka delay sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+100 %
+
+=
+X
+
+95%
+  x ¿ 
+
+10 .95
+100
+
+ = 9,5     x = 9,5 Mb
+
+Delay pada umumnya dipengaruhi oleh jarak, media fisik, kongesti atau
+
+juga  waktu  proses  yang  lama.  Media  fisik  jaringan  yang  sesuai  dengan
+
+memperhatikan jarak antara server dan client, sehingga penentuan media transmisi
+
+yang cocok disesuaikan dengan jarak  dapat  mengatasi  delay. Tentu  saja  delay
+
+dipengaruhi  oleh  throughput,  karena  semakin  besar  throughput  maka  delay
+
+semakin kecil (Yanto, 2013).
+
+
+
+154
+
+4.3.3 Analisis Jitter
+
+Jitter merupakan variasi delay (perbedaan selang waktu) antar paket yang
+
+terjadi  pada  jaringan,  yang  disebabkan  oleh  panjangnya  antrian  pada  saat
+
+pengolahan data yang terjadi pada jaringan. Besarnya nilai jitter dipengaruhi oleh
+
+beban traffic  dan besarnya tumbukan antar paket  (congestion)  yang ada dalam
+
+jaringan. Semakin besar beban traffic di dalam jaringan maka semakin besar juga
+
+terjadinya congestion, yang menyebabkan nilai  jitter pun semakin besar. Dengan
+
+nilai jitter yang semakin besar, menyebabkan nilai QoS semakin turun.
+
+Berikut ini merupakan tabel-tabel dan gambar grafik jitter dari hasil data
+
+keseluruhan pengukuran CCTV berbasis kabel dan CCTV berbasis nirkabel Dinas
+
+Kominfo Pontianak. 
+
+Tabel 4.56 Standar Jitter TIPHON
+
+Kategori Degradasi Jitter Indeks
+
+Sangat bagus 0 ms 4
+
+Bagus 0 s/d 75 ms 3
+
+Sedang 75 s/d 125 ms 2
+
+Jelek 125 d 225 ms 1
+
+A. CCTV KABEL
+
+Tabel 4.57 Jitter CCTV Parit Besar (kabel)
+
+CCTV
+PARIT
+BESAR
+
+Hasil Pengujian Jitter
+Standar TIPHON
+
+Durasi 
+1 menit
+
+indeks Durasi 
+5 menit
+
+indeks
+
+Jam Pagi 1,15 ms 3 1,41 ms 3 Bagus 0 s/d 75 ms
+
+Jam Sore 1,15 ms 3 1,16 ms 3 Bagus 0 s/d 75 ms
+
+Jam 
+
+Malam
+
+1,15 ms 3 1,66 ms 3 Bagus 0 s/d 75 ms
+
+Total 
+Rata-rata
+
+1,15 ms 3 1,41
+
+ms
+
+3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+
+
+155
+
+Tabel 4.58 Jitter CCTV Tanray (kabel)
+
+CCTV
+TANRAY
+
+Hasil Pengujian Jitter
+Standar TIPHON
+
+Durasi 1 
+menit
+
+Indeks Durasi 
+5 menit
+
+Indeks
+
+Jam Pagi 1,66 ms 3 1,67 ms 3 Bagus 0 s/d 75 ms
+
+Jam Sore 1,85 ms 3 1,70 ms 3 Bagus 0 s/d 75 ms
+
+Jam 
+Malam
+
+1,66 ms 3 1,66 ms 3 Bagus 0 s/d 75 ms
+
+Total Rata-
+rata
+
+1,72 3 1,67 3
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+Tabel 4.59 Rata-rata Jitter CCTV Kabel
+
+Lokasi 
+CCTV
+
+Hasil Pengujian Jitter
+Standar TIPHONDurasi 1 
+
+menit
+indeks Durasi 5 
+
+mensit
+indeks
+
+Parit Besar 1,15 ms 3 1,41 ms 3 Bagus 0 s/d 75 ms
+
+Tanray 1,72 ms 3 1,67 ms 3 Bagus 0 s/d 75 ms
+
+Total Rata-
+rata
+
+1,43 ms 3 1,54 ms 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Berdasarkan  Tabel  4.59  kualitas  rata-rata  jitter  CCTV  berbasis  kabel
+
+durasi 1 menit dan 5 menit dapat diuraikan sebagai berikut:
+
+1. Pengujian  jitter keseluruhan  waktu  CCTV parit  besar dengan  pengujian
+
+durasi 1 menit mendapatkan nilai rata-rata 1,15 ms dengan standar TIPHON
+
+bagus,  dan  CCTV tanray pengujian  1  menit  mendapatkan  nilai  1,72 ms
+
+dengan  standar  TIPHON  bagus,  dalam  pengujian  ini  hanya  mengalami
+
+perbedaan nilai tetapi keduanya dengan standar TIPHON bagus.
+
+
+
+156
+
+2. Pengujian jitter keseluruhan waktu CCTV tanray dengan pengujian durasi 5
+
+menit mendapatkan nilai rata-rata  1,41 ms dengan standar TIPHON  bagus,
+
+dan  CCTV tanray pengujian  5 menit  mendapatkan  nilai  1,67 ms dengan
+
+standar  TIPHON  bagus,  dalam pengujian  ini  hanya mengalami  perbedaan
+
+nilai tetapi keduanya dengan standar TIPHON bagus.
+
+3. Total  keseluruhan jaringan CCTV kabel  dari  kedua CCTV parit  besar dan
+
+tanray pengujian 1 menit dengan nilai jitter rata-rata 1,43 ms dengan standar
+
+TIPHON bagus dan pengujian  5 menit dengan nilai jitter rata-rata  1,54 ms
+
+dengan standar TIPHON bagus.
+
+C. CCTV NIRKABEL
+
+Tabel 4.60 Jitter CCTV Jihad (nirkabel)
+
+ 
+CCTV
+JIHAD
+
+Hasil Pengujian Jitter
+Standar TIPHON
+
+Durasi 1
+menit
+
+indeks Durasi 5 
+menit
+
+indek
+s
+
+Jam Pagi 5,37 ms 4 11,33 ms 4 Bagus 0 s/d 75 ms
+
+Jam Sore 5,06 ms 4 8.80 ms 4 Bagus 0 s/d 75 ms
+
+Jam 
+Malam
+
+2,12 ms 4 2,13 ms 4 Bagus 0 s/d 75 ms
+
+Total 
+Rata-rata
+
+4,18 ms 4 7,42 ms 4
+
+Standar 
+TIPHON
+
+Sangat
+Bagus
+
+Sangat
+Bagus
+
+Tabel 4.61 Jitter CCTV Bundaran UNTAN (nirkabel)
+
+CCTV
+BUNDARAN
+
+UNTAN
+
+Hasil Pengujian Jitter
+Standar TIPHON
+
+Durasi 
+1 menit
+
+indeks Durasi 5 
+menit
+
+indeks
+
+Jam Pagi 2,09 ms 3 3,22 ms 3 Bagus 0 s/d 75 ms
+
+Jam Sore 2,28 ms 3 2,47 ms 3 Bagus 0 s/d 75 ms
+
+Jam Malam 1,39 ms 3 1,39 ms 3 Bagus 0 s/d 75 ms
+
+Total Rata-
+rata
+
+1,92 ms 3 2,36 3
+
+Standar 
+TIPHON
+
+Bagus  Bagus
+
+
+
+157
+
+Tabel 4.62 Rata-rat Jitter CCTV Nirkabel
+
+Lokasi
+CCTV
+
+Hasil Pengujian Jitter Standar TIPHON
+Durasi 1
+
+menit
+Indeks Durasi 5
+
+menit
+indeks
+
+Jihad 4,18 ms 3 7,42 ms 3 Bagus 0 s/d 75 ms
+
+Bundaran 
+UNTAN
+
+1,92 ms 3 2,36 ms 3 Bagus 0 s/d 75 ms
+
+Total Rata-
+rata
+
+3,05 ms 3 4,89 ms 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Berdasarkan Tabel 4.62 kualitas rata-rata  jitter  CCTV berbasis nirkabel
+
+durasi 1 menit dan 5 menit dapat diuraikan
+
+1. Pengujian  jitter keseluruhan waktu  CCTV jihad dengan pengujian durasi 1
+
+menit mendapatkan nilai rata-rata  4,18 ms dengan standar TIPHON  bagus,
+
+dan  CCTV bundaran UNTAN pengujian 1 menit mendapatkan nilai  1,92
+
+ms dengan standar TIPHON  bagus, dalam pengujian ini hanya mengalami
+
+perbedaan nilai tetapi keduanya dengan standar TIPHON bagus.
+
+2. Pengujian  jitter keseluruhan waktu  CCTV jihad dengan pengujian durasi 5
+
+menit mendapatkan nilai rata-rata  7,42 ms dengan standar TIPHON  bagus,
+
+dan  CCTV bundaran UNTAN pengujian 5 menit mendapatkan nilai  2,36
+
+ms dengan standar TIPHON  bagus, dalam pengujian ini hanya mengalami
+
+perbedaan nilai tetapi keduanya dengan standar TIPHON bagus.
+
+3. Total  keseluruhan  jaringan  CCTV  nirkabel  dari  kedua  CCTV  Jihad  dan
+
+Bundaran UNTAN pengujian  1 menit dengan nilai  jitter rata-rata  3,05 ms
+
+dengan standar  TIPHON  bagus dan pengujian  5 menit dengan nilai  jitter
+
+rata-rata 4,89 ms dengan standar TIPHON bagus.
+
+
+
+158
+
+Gambar 4.55 Grafik perbandingan jitter CCTV kabel & CCTV nirkabel
+
+Tabel 4.63 Total Rata-rata Jitter CCTV Kabel & CCTV Nirkabel
+
+Jaringan 
+CCTV
+
+Total Rata-rata Jitter
+Standar TIPHONDurasi 
+
+1 menit
+indeks Durasi 
+
+5 menit
+indeks
+
+CCTV 
+Kabel
+
+1,43 ms 3 1,54 ms 3 Bagus 0 s/d 75 ms
+
+CCTV 
+Nirkabel
+
+3,05 ms 3 4,89 ms 3 Bagus 0 s/d 75 ms
+
+Berdasarkan Tabel 4.63 dapat dilihat parameter jitter antara CCTV kabel
+
+dan nirkabel mendapatkan Standar TIPHON bagus kedua jaringan ini mengalami
+
+perbedaan nilai, yang mana nilai  jitter  CCTV kabel lebih kecil dari pada CCTV
+
+nirkabel.  
+
+Hasil  analisis  perbandingan  QoS  pada  Jaringan  CCTV  Nirkabel  dan
+
+Kabel  Dinas  Kominfo  Pontianak,  dengan  memperhatikan  standar  TIPHON
+
+(Joesman 2008) degan rating parameter QoS ± 95%. Berikut beberapa hal yang
+
+perlu diperhatikan untuk dijadikan sebagai acuan untuk perbaikan QoS:
+
+1. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  jitter durasi
+
+pengujian 1 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan rating
+
+sangat bagus, maka jitter sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah  
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+1.43
+
+3.05
+
+1.54
+
+4.89
+
+1 
+menit
+
+P
+a
+
+ra
+m
+
+e
+te
+
+r 
+Q
+
+o
+S
+
+ J
+it
+
+te
+r
+
+(S
+ta
+
+n
+d
+
+a
+r 
+
+T
+IP
+
+H
+O
+
+N
+)
+
+
+
+159
+
+10 Mb
+75 %
+
+=
+X
+
+95%
+x=
+
+10 .95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+2. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  jitter durasi
+
+pengujian 5 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan rating
+
+sangat bagus, maka jitter sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+75 %
+
+=
+X
+
+95 %
+x=
+
+10 .95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+3. Hasil analisis QoS Jaringan CCTV Nirkabel dengan parameter  jitter durasi
+
+pengujian 1 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan rating
+
+sangat bagus, maka jitter sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+  
+10 Mb
+75 %
+
+=
+X
+
+95 %
+x=
+
+10 . 95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+   
+
+4. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  jitter durasi
+
+pengujian 5 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan rating
+
+sangat bagus, maka jitter sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah 
+
+  
+10 Mb
+75 %
+
+=
+X
+
+95 %
+x=
+
+10 . 95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+
+
+160
+
+4.3.4 Analisis Packet Loss
+
+Packet loss adalah banyaknya paket yang hilang selama proses transmisi
+
+ke tujuan. Paket hilang terjadi ketika satu atau lebih paket data yang melewati
+
+suatu jaringan gagal mencapai tujuannya.  Pada implementasinya,  jaringan yang
+
+bagus sebaiknya memiliki nilai packet loss yang minimum.
+
+Berikut  ini  merupakan  tabel-tabel  dan  gambar  grafik  packet  loss dari
+
+hasil  data  keseluruhan  pengukuran  CCTV berbasis  kabel  dan  CCTV  berbasis
+
+nirkabel Dinas Kominfo Pontianak. 
+
+      Tabel 4.64 Standar Packet Loss TIPHON 
+
+Kategori Degradasi Packet Loss Indeks
+
+Sangat bagus 0 % 4
+
+Bagus > 0 % s/d 3 % 3
+
+Sedang > 3 % s/d 15% 2
+
+Jelek > 15 % 1
+
+A. CCTV KABEL
+
+Tabel 4.65 Packet Loss CCTV Parit Besar (kabel)
+
+CCTV 
+PARIT 
+BESAR
+
+Hasil Pengujian Packet Loss
+Standar TIPHONDurasi 
+
+1 menit
+indeks Durasi 5 
+
+menit
+indeks
+
+Jam Pagi 0,11% 3 0,11% 3 Bagus > 0 % s/d 3 %
+
+Jam Sore 0,12% 3 0,07% 3 Bagus > 0 % s/d 3 %
+
+Jam 
+Malam
+
+0,15% 3 0,11% 3 Bagus > 0 % s/d 3 %
+
+Total 
+Rata-rata
+
+0,12 % 3 0,09 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+
+
+161
+
+Tabel 4.66 Packet Loss CCTV Tanray (kabel)
+
+    
+CCTV
+Tanray
+
+Hasil Pengujian Packet Loss
+Standar TIPHON
+
+Durasi 1
+menit
+
+indek
+s
+
+Durasi 5 
+menit
+
+indeks
+
+Jam Pagi 0,15% 3 0,19% 3 Bagus > 0 % s/d 3 %
+
+Jam Sore 0,10% 3 0,14% 3 Bagus > 0 % s/d 3 %
+
+Jam 
+Malam
+
+0,23% 3 0,33% 3 Bagus > 0 % s/d 3 %
+
+Total 
+Rata-rata
+
+0,16% 3 0,22 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Tabel 4.67 Rata-rata Packet Loss CCTV Kabel
+
+Lokasi 
+CCTV
+
+Hasil Pengujian Packet Loss
+Standar TIPHONDurasi 
+
+1 menit
+Indeks Durasi 5
+
+menit
+indeks
+
+Parit Besar 0,12% 3 0,09% 3 Bagus > 0 % s/d 3 %
+
+Tanray 0,16% 3 0,22% 3 Bagus > 0 % s/d 3 %
+
+Total 
+Rata-rata
+
+0,14 % 3 0,15 % 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Berdasarkan  Tabel  4.67  kualitas  rata-rata  packet  loss  CCTV  berbasis
+
+kabel durasi 1 menit dan 5 menit dapat diuraikan sebagai berikut:
+
+1. Pengujian  packet  loss keseluruhan  waktu  CCTV  parit  besar dengan
+
+pengujian durasi 1 menit mendapatkan nilai rata-rata  0,12% dengan standar
+
+TIPHON  bagus,  dan  CCTV tanray pengujian 1 menit  mendapatkan nilai
+
+0,16% ms dengan standar TIPHON sangat bagus, dalam pengujian ini hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON bagus.
+
+
+
+162
+
+2. Pengujian  packet  loss keseluruhan  waktu  CCTV  parit  besar dengan
+
+pengujian  durasi  5  menit  mendapatkan  nilai  rata-rata  0,09%  ms dengan
+
+standar TIPHON bagus, dan CCTV tanray pengujian 5 menit mendapatkan
+
+nilai  0,22% dengan  standar  TIPHON bagus,  dalam  pengujian  ini  hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON bagus.
+
+3. Total  keseluruhan jaringan CCTV kabel  dari  kedua CCTV parit  besar dan
+
+tanray  pengujian  1  menit dengan  nilai  rata-rata  0,14%  dengan  standar
+
+TIPHON bagus dan pengujian 5 menit dengan nilai rata-rata 0,15% dengan
+
+standar TIPHON bagus.
+
+B. CCTV NIRKABEL
+
+Tabel 4.68 Packet Loss CCTV Jihad (nirkabel)
+
+ CCTV 
+JIHAD
+
+Hasil Pengujian Packet Loss
+Standar TIPHON
+
+Durasi 1
+menit
+
+indeks Durasi 5 
+menit
+
+indeks
+
+Jam Pagi 0,30% 3 0,97% 3 Bagus > 0 % s/d 3 %
+
+Jam Sore 0,27% 3 0,55% 3 Bagus > 0 % s/d 3 %
+
+Jam 
+Malam
+
+0,27% 3 0,26% 3 Bagus > 0 % s/d 3 %
+
+Total 
+Rata-rata
+
+0,28% 3 0,59% 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Tabel 4.69 Packet Loss CCTV Bundaran UNTAN (nirkabel)
+
+ 
+CCTV 
+JIHAD
+
+Hasil Pengujian Packet Loss
+Standar TIPHON
+
+Durasi 
+1 menit
+
+indeks Durasi 5 
+menit
+
+indeks
+
+Jam Pagi 0,16% 3 0,53% 3 Bagus > 0 % s/d 3 %
+
+Jam Sore 0,36% 3 0,17% 3 Bagus > 0 % s/d 3 %
+
+Jam 
+Malam
+
+0,34% 3 0,39% 3 Bagus > 0 % s/d 3 %
+
+Total 
+Rata-rata
+
+0,28% 3 0,36% 3
+
+
+
+163
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Tabel 4.70 Rata-rata Packet Loss CCTV Nirkabel
+
+Lokasi 
+CCTV
+
+Hasil Pengujian Packet Loss Standar TIPHON
+Durasi 
+1 menit
+
+indeks Durasi 5 
+menit
+
+indeks
+
+Jihad 0,28% 3 0,59% 3 Bagus > 0 % s/d 3 %
+
+Bundaran 
+UNTAN
+
+0,28% 3 0,36% 3 Bagus > 0 % s/d 3 %
+
+Total 
+Rata-rata
+
+0,28% 3 0,47% 3 Bagus > 0 % s/d 3 %
+
+Standar
+TIPHON
+
+Bagus Bagus
+
+Berdasarkan Tabel  4.70  kualitas  rata-rata  packet  loss  CCTV  berbasis
+
+nirkabel durasi 1 menit dan 5 menit dapat diuraikan
+
+1. Pengujian  packet  loss keseluruhan  waktu  CCTV jihad dengan  pengujian
+
+durasi 1 menit mendapatkan nilai rata-rata  0,28% dengan standar TIPHON
+
+bagus, dan CCTV bundaran UNTAN pengujian 1 menit mendapatkan nilai
+
+0,28%  dengan  standar  TIPHON  bagus,  dalam  pengujian  ini  keduanya
+
+dengan nilai yang sama dan dengan standar TIPHON bagus.
+
+2. Pengujian  packet  loss keseluruhan  waktu  CCTV jihad  dengan  pengujian
+
+durasi 5 menit mendapatkan nilai rata-rata  0,59%  dengan standar TIPHON
+
+bagus, dan CCTV bundaran UNTAN pengujian 5 menit mendapatkan nilai
+
+0,36% dengan  standar  TIPHON  bagus,  dalam  pengujian  ini  hanya
+
+mengalami perbedaan nilai tetapi keduanya dengan standar TIPHON bagus.
+
+3. Total  keseluruhan  jaringan  CCTV  nirkabel  dari  kedua  CCTV  Jihad  dan
+
+Bundaran  UNTAN  pengujian  1  menit dengan  nilai  packet  loss rata-rata
+
+0,28% dengan standar TIPHON bagus dan pengujian  5 menit dengan nilai
+
+packet loss rata-rata 0,47% dengan standar TIPHON bagus.
+
+
+
+164
+
+Gambar 4.56 Grafik perbandingan packet loss CCTV kabel dan CCTV nirkabel
+
+Tabel 4.71 Rata-rata Total Packet Loss CCTV Kabel dan CCTV Nirkabel
+
+Jaringan 
+cctv
+
+Total Rata-rata
+Standar TIPHONDurasi 
+
+1 menit
+indek
+s
+
+Durasi 
+5 menit
+
+indeks
+
+CCTV 
+Kabel
+
+0,14 % 3 0,17 % 3 Bagus > 0 % s/d 3 %
+
+CCTV 
+Nirkabel
+
+0,28 % 3 0,47 % 3 Bagus > 0 % s/d 3 %
+
+Berdasarkan Tabel 4.71 dapat dilihat parameter packet loss antara CCTV
+
+kabel  dan  nirkabel  mendapatkan  standar  TIPHON  bagus  kedua  jaringan  ini
+
+mengalami perbedaan nilai, yang mana nilai  packet loss CCTV kabel lebih kecil
+
+dari pada CCTV nirkabel.  
+
+Hasil  analisis  perbandingan  QoS  pada  Jaringan  CCTV  Nirkabel  dan
+
+Kabel  Dinas  Kominfo  Pontianak,  dengan  memperhatikan  standar  TIPHON
+
+(Joesman 2008) dengan rating parameter QoS ± 95%. Berikut beberapa hal yang
+
+perlu diperhatikan untuk dijadikan sebagai acuan untuk perbaikan QoS:
+
+1. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  packet  loss
+
+durasi pengujian 1 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+0.3
+
+0.35
+
+0.4
+
+0.45
+
+0.5
+
+0.14
+
+0.28
+
+0.17
+
+0.47
+
+1 
+menit
+
+P
+a
+
+ra
+m
+
+e
+te
+
+r 
+Q
+
+o
+S
+
+ P
+a
+
+c
+lk
+
+e
+t 
+
+L
+o
+
+s
+s
+
+(S
+ta
+
+n
+d
+
+a
+r 
+
+T
+IP
+
+H
+O
+
+N
+)
+
+
+
+165
+
+rating bagus, maka packet loss yang diperbolehkan adalah sebesar 95 % dari
+
+total bandwidth yang di alokasi dengan indeks 3,80.
+
+maka packet loss sudah memenuhi standar TIPHON (Joesman 2008).
+
+Bandwidth yang diperlukan adalah
+
+ 
+10 Mb
+75 %
+
+=
+X
+
+95%
+x=
+
+10 . 95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+2. Hasil analisis QoS jaringan CCTV kabel dengan parameter packet loss durasi
+
+pengujian 5 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan rating
+
+bagus, maka packet loss  yang diperbolehkan adalah sebesar  95 % dari total
+
+bandwidth yang di alokasi dengan indeks 3,80.
+
+maka packet loss sudah memenuhi standar TIPHON (Joesman,2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+75 %
+
+=
+X
+
+95%
+x=
+
+10 . 95
+75
+
+=¿ 12,66    x =12,66 Mb    
+
+3. Hasil  analisis  QoS jaringan CCTV nirkabel  dengan parameter  packet  loss
+
+durasi pengujian 1 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan
+
+rating bagus, maka packet loss yang diperbolehkan adalah sebesar 95 % dari
+
+total bandwidth yang di alokasi dengan indeks 3,80.
+
+maka packet loss sudah memenuhi standar TIPHON (Joesman,2008).
+
+Bandwidth yang diperlukan adalah
+
+ 
+10 Mb
+75 %
+
+=
+X
+
+95%
+x=
+
+10 . 95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+4. Hasil  analisis  QoS jaringan CCTV nirkabel  dengan parameter  packet  loss
+
+durasi pengujian 5 menit didapatkan nilai indeks 3 atau sebesar 75 % dengan
+
+rating bagus, maka packet loss yang diperbolehkan adalah sebesar 95 % dari
+
+total bandwidth yang di alokasi dengan indeks 3,80.
+
+maka packet loss sudah memenuhi standar TIPHON (Joesman,2008).
+
+Bandwidth yang diperlukan adalah 
+
+ 
+10 Mb
+75 %
+
+=
+X
+
+95%
+x=
+
+10 . 95
+75
+
+=¿ 12,66    x =12,66 Mb
+
+Packet  loss  didefinisikan  sebagai  kegagalan  transmisi  paket  data
+
+mencapai  tujuan.  Kegagalan  paket  tersebut  mencapai  tujuan,  dapat  disebabkan
+
+
+
+166
+
+oleh beberapa kemungkinan,  di  antaranya:  terjadinya overload traffic  di  dalam
+
+jaringan,  tabrakan  (congestion)  dalam  jaringan,  error  yang  terjadi  pada  media
+
+fisik, dan kegagalan yang terjadi pada sisi penerima antara lain bisa disebabkan
+
+karena overflow yang terjadi pada buffer (Randy Ahmad,2013).
+
+4.3.5 Analisis Throughput
+
+Throughput  adalah  ukuran  dari  kecepatan  dimana  data  dapat  dikirim
+
+melewati jaringan dalam  bit per second  (bps).  Throughput  dapat juga dikatakan
+
+bandwidth yang sebenarnya. Bandwidth lebih bersifat statis sedangkan throughput
+
+sifatnya  adalah  dinamis  tergantung  traffic yang  sedang  terjadi.  Aspek  utama
+
+throughput adalah  ketersediaan  bandwidth yang  cukup  untuk  menjalankan
+
+aplikasi. Hal ini menentukan besarnya traffic yang dapat diperoleh suatu aplikasi
+
+saat melewati jaringan. Semakin tinggi nilai  throughput, maka jaringan memiliki
+
+performa yang lebih baik.
+
+Berikut  ini  merupakan  tabel-tabel  dan  gambar  grafik  throughput dari
+
+hasil keseluruhan pengukuran CCTV kabel dan CCTV nirkabel Dinas Kominfo
+
+Pontianak.
+
+  Tabel 4.72 Standar Throughput TIPHON
+
+Kategori Degradasi Throughput Indeks
+
+Sangat bagus >75% s/d 100 % 4
+
+Bagus >50s% s/d 75 % 3
+
+Sedang >25% s/d 50 % 2
+
+Jelek 0 % s/d 25 % 1
+
+
+
+167
+
+A. CCTV KABEL
+
+Tabel 4.73 Throughput CCTV Parit Besar (kabel)
+
+CCTV 
+Parit 
+Besar
+
+Hasil Pengujian Throughput
+Standar TIPHONDurasi 1
+
+menit
+Indeks Durasi 5
+
+menit
+indeks
+
+Jam Pagi 68,02% 3 52,88% 3 Bagus >50s% s/d 75 %
+
+Jam Sore 67,68% 3 67,76% 3 Bagus >50s% s/d 75 %
+
+Jam 
+Malam
+
+67,92% 3 67,77% 3 Bagus >50s% s/d 75 %
+
+Total 
+Rata-rata
+
+67,87% 3 62,80% 3
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Tabel 4.74 Throughput CCTV Tanray (kabel)
+
+CCTV
+TANRAY
+
+Hasil Pengujian Throughput
+Standar TIPHON
+
+Durasi 1
+menit
+
+Indeks Durasi 
+5 menit
+
+indeks
+
+Jam Pagi 44,98% 2 44,94% 2 Cukup >25% s/d 50 %
+
+Jam Sore 40,09% 2 44,98% 2 Cukup >25% s/d 50 %
+
+Jam 
+Malam
+
+45,06% 2 45,04% 2 Cukup >25% s/d 50 %
+
+Total 
+Rata-rata
+
+43,37% 2 44,98
+%
+
+2 Cukup >25% s/d 50 %
+
+Standar 
+TIPHON
+
+Cukup Cukup
+
+
+
+168
+
+Tabel 4.75 Total Rata-rata Throughput CCTV kabel
+
+Lokasi 
+CCTV
+
+Hasil Pengujian Throughput Standar TIPHON
+Durasi 1
+menit
+
+Indeks Durasi 5 
+menit
+
+indek
+s
+
+Parit 
+Besar
+
+67,87% 3 62,80% 3 Bagus >50s% s/d 75 %
+
+Tanray 43,37% 2 44,98% 2 Cukup >25% s/d 50 %
+
+Total 
+Rata-rata
+
+55,62 % 2,5 53,89 2,5 Cukup >25% s/d 50 %
+
+Standar 
+TIPHON
+
+Bagus Bagus
+
+Berdasarkan  Tabel  4.75  kualitas  rata-rata  throughput  CCTV  berbasis
+
+kabel durasi 1 menit dan 5 menit dapat diuraikan
+
+1. Pengujian  throughput keseluruhan  waktu  CCTV  parit  besar dengan
+
+pengujian durasi 1 menit mendapatkan nilai rata-rata 67,87% dengan standar
+
+TIPHON  bagus,  dan  CCTV tanray pengujian 1 menit  mendapatkan nilai
+
+43,37% dengan  standar  TIPHON  cukup,  dalam pengujian  ini  mengalami
+
+perbedaan nilai dalam standar TIPHON dengan kategori bagus dan cukup.
+
+2. Pengujian  throughput keseluruhan  waktu  CCTV  parit  besar dengan
+
+pengujian durasi 5 menit mendapatkan nilai rata-rata 62,80% dengan standar
+
+TIPHON  bagus,  dan  CCTV tanray pengujian 5 menit  mendapatkan nilai
+
+44,98% dengan  standar  TIPHON cukup,  dalam pengujian  ini  mengalami
+
+perbedaan nilai dengan standar TIPHON bagus dan cukup.
+
+3. Total  keseluruhan jaringan CCTV kabel  dari  kedua CCTV parit  besar dan
+
+tanray pengujian  1 menit dengan nilai  throughput rata-rata  55,62% dengan
+
+standar TIPHON bagus dan pengujian 5 menit dengan nilai throughput rata-
+
+rata 53,89% dengan standar TIPHON bagus.
+
+
+
+169
+
+B. CCTV NIRKABEL
+
+Tabel 4.76 Throughput CCTV Jihad (nirkabel)
+
+CCTV
+JIHAD
+
+Hasil Pengujian Throughput
+Standar TIPHON
+
+Durasi 1
+menit
+
+Indeks Durasi 5 
+menit
+
+Indeks
+
+Jam Pagi 14,21 % 1 6,59 % 1 Jelek 0% s/d 25 %
+
+Jam Sore 15,26 % 1 9,31 % 1 Jelek 0% s/d 25 %
+
+Jam 
+Malam
+
+34,03 % 2 34,06 % 2 Cukup >25% s/d 50
+%
+
+Total 
+Rata-rata
+
+21,16% 1,3 16,65 % 1,3 Jelek 0% s/d 25 %
+
+Standar 
+TIPHON
+
+Jelek Jelek
+
+Tabel 4.77 Throughput CCTV Bundaran UNTAN (nirkabel)
+
+    CCTV
+Bundaran
+UNTAN 
+
+Hasil Pengujian Throughput
+Standar TIPHON
+
+Durasi 
+1 menit
+
+Indeks Durasi 5 
+menit
+
+Indeks
+
+Jam Pagi 37,25% 2 23,83% 1 Cukup Jelek
+
+Jam Sore 33,95% 2 31,16% 2 Cukup >25% s/d 50 %
+
+Jam 
+Malam
+
+53,17% 3 55,93% 3 Bagus >50s% s/d 75 %
+
+Total 
+Rata-rata
+
+41,45 2,3 36,97 2 Cukup >25% s/d 50 %
+
+Standar 
+TIPHON
+
+Cukup Cukup
+
+
+
+170
+
+Tabel 4.78 Rata-rat Throughput CCTV Nirkabel
+
+Lokasi 
+CCTV
+
+Hasil Pengujian Throughput Standar TIPHON
+
+Durasi 1 
+menit
+
+Indeks Durasi 5 
+menit
+
+indeks
+
+Jihad 21,16 % 1,3 16,65 % 1,3 Jelek 0% s/d 25 %
+
+Bundaran
+UNTAN
+
+41,45 % 2,3 36,97 % 2 Cukup >25% s/d 50 %
+
+Total 
+Rata-rata
+
+31,30 % 1,8 26,81 % 1,65
+
+Standar 
+TIPHON
+
+Cukup Jelek
+
+Berdasarkan  Tabel  4.78  kualitas  rata-rata  throughput  CCTV  berbasis
+
+nirkabel durasi 1 menit dan 5 menit dapat diuraikan
+
+1. Pengujian  throughput keseluruhan  waktu  CCTV  jihad dengan  pengujian
+
+durasi 1 menit mendapatkan nilai rata-rata 21,16% dengan standar TIPHON
+
+jelek, dan CCTV bundaran UNTAN pengujian 1 menit mendapatkan nilai
+
+41,45% dengan  standar  TIPHON  cukup,  dalam pengujian  ini  mengalami
+
+perbedaan nilai dalam standar TIPHON dengan kategori jelek dan cukup.
+
+2. Pengujian  throughput keseluruhan  waktu  CCTV  jihad dengan  pengujian
+
+durasi 5 menit mendapatkan nilai rata-rata 16,65% dengan standar TIPHON
+
+jelek, dan CCTV Bundaran UNTAN pengujian 5 menit mendapatkan nilai
+
+36,97% dengan  standar  TIPHON cukup,  dalam pengujian  ini  mengalami
+
+perbedaan nilai dengan standar TIPHON jelek dan cukup.
+
+3. Total  keseluruhan  jaringan  CCTV  nirkabel  dari  kedua  CCTV  jihad  dan
+
+bundaran  UNTAN  pengujian  1  menit dengan  nilai  throughput rata-rata
+
+31,30% dengan standar TIPHON cukup dan pengujian 5 menit dengan nilai
+
+throughput rata-rata 26,81% dengan standar TIPHON jelek.
+
+
+
+171
+
+Tabel 4.
+
+Gambar 4.57 Grafik rata-rata throughput CCTV kabel dan CCTV nirkabel
+
+Tabel 4.79 Rata-rata Throughput CCTV Kabel & CCTV Nirkabel
+
+Jaringan
+CCTV
+
+Total Rata-rata
+Durasi 1 menit Indeks Durasi 
+
+5 menit
+Indeks
+
+CCTV 
+Kabel
+
+55,62 % 2,5 53,89 % 2,5
+
+Standar 
+TIPHON
+
+Bagus >50s% s/d
+75 %
+
+Bagus >50s% s/d 
+75 %
+
+CCTV 
+Nirkabel
+
+31,30 % 1,8 26,81% 1,65
+
+Standar 
+TIPHON
+
+Cukup >25% s/d
+50 %
+
+Cukup >25% s/d
+50 %
+
+Berdasarkan  Tabel  4.79  dapat  dilihat  dan  menurut  penulis  parameter
+
+throughput  antara  CCTV  kabel  dan  nirkabel  mengalami  perbedaan.  Hal  ini
+
+dikarenakan sistem pengiriman data yang mana fiber optik menggunakan cahaya
+
+sedangkan warless menggunakan gelombang electromagnetic dan fiber optik tidak
+
+terpengaruhi  oleh  kondisi  cuaca  dan  gelombang  electromagnetic  sedangkan
+
+warless  kualitas sinyal akan dipengaruhi oleh provokasi udara, artinya kualitas
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60 55.62
+
+31.3
+
+53.89
+
+26.81 1 
+menit
+
+P
+a
+
+ra
+m
+
+e
+te
+
+r 
+Q
+
+o
+S
+
+ T
+h
+
+ro
+u
+
+g
+h
+
+p
+u
+
+t
+(S
+
+ta
+n
+
+d
+a
+
+r 
+T
+
+IP
+H
+
+O
+N
+
+)
+
+
+
+172
+
+koneksi saat cuaca bagus akan berbeda  dengan kualitas koneksi saat cuaca buruk
+
+(jika digunakan di luar gedung) dan akan dipengaruhi oleh batas-batas dinding
+
+gedung (Timmie Maria,2018).
+
+Hasil  analisis  perbandingan  QoS  pada  Jaringan  CCTV  Nirkabel  dan
+
+Kabel  Dinas  Kominfo  Pontianak,  dengan  memperhatikan  standar  TIPHON
+
+(Joesman 2008) degan rating parameter QoS ± 95%. Berikut beberapa hal yang
+
+perlu diperhatikan untuk dijadikan sebagai acuan untuk perbaikan QoS:
+
+1. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  throughput
+
+durasi  pengujian  1  menit  didapatkan  nilai  indeks 2,5 atau  sebesar  62.5%
+
+dengan rating  sedang, maka  throughput  yang diperbolehkan adalah sebesar
+
+95 % dari total bandwidth yang di alokasi dengan indeks 3,80.
+
+Bandwidth yang diperlukan adalah
+
+ 
+10 Mb
+62,5 %
+
+=
+X
+
+95 %
+X=
+
+10 . 95
+62,5
+
+=¿ 15,2    X = 15,2 Mb
+
+   
+2. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  throughput
+
+durasi  pengujian  5  menit  didapatkan  nilai  indeks 2,5 atau  sebesar  62.5%
+
+dengan rating  sedang, maka  throughput  yang diperbolehkan adalah sebesar
+
+95 % dari total bandwidth yang di alokasi dengan indeks 3,80.
+
+Bandwidth yang diperlukan adalah 
+
+10 Mb
+62,5 %
+
+=
+X
+
+95 %
+X=
+
+10 . 95
+62,5
+
+=¿ 15,2    X = 15,2 Mb
+
+   
+
+3. Hasil  analisis  QoS Jaringan CCTV Nirkabel  dengan parameter  throughput
+
+durasi  pengujian  1  menit  didapatkan  nilai  indeks 1,8 atau  sebesar  45%
+
+dengan rating  sedang, maka  throughput  yang diperbolehkan adalah sebesar
+
+95 % dari total bandwidth yang di alokasi dengan indeks 3,80.
+
+Bandwidth yang diperlukan adalah
+
+ 
+10 Mb
+45 %
+
+=
+X
+
+95%
+X=
+
+10 X 95
+45
+
+=¿ 21,11   X = 21,11 Mb 
+
+   
+4. Hasil  analisis  QoS  Jaringan  CCTV  Kabel  dengan  parameter  throughput
+
+durasi pengujian 5 menit didapatkan nilai indeks 1,65 atau sebesar 41,25%
+
+
+
+173
+
+dengan rating  sedang, maka  throughput  yang diperbolehkan adalah sebesar
+
+95 % dari total bandwidth yang di alokasi dengan indeks 3,80.
+
+Bandwidth yang diperlukan adalah
+
+  
+10 Mb
+
+41,25 %
+=
+
+X
+95 %
+
+X=
+10 X 95
+41,25
+
+=¿ 23,03   X = 23,03 Mb 
+
+4.3.6 Analisis Kulitas Video CCTV
+
+Analisis  Kualitas  vodeo  CCTV adalah  menganaliss  video  CCTV saat
+
+diakses  menggunakan  aplikasi  smart  PSS dengan durasi  yang telah  ditentukan
+
+yaitu 1 menit dan 5 menit, untuk menentuk kondisi buruk atau jelek kulitas hasil
+
+video CCTV tersebut,  hal  ini  di  asusmsikan oleh  penulis  yang mana kategori
+
+bagus adalah kondisi video CCTV saat dikases mengalami keadaan yang stabil.
+
+Sedangkan kulitas jelek adalah kondisi  video CCTV  saat di  akses mengalami
+
+kondisi  tidak stabil  atau video tersebut  mengalami tampilan video yang putus-
+
+putus. 
+
+Berikut  ini  merupakan  tabel-tabel dari  hasil  data  pengukuran kualitas
+
+keseluruhan video CCTV berbasis kabel dan berbasis nirkabel.
+
+        Tabel 4.80 Standar Kualitas Video CCTV
+
+Kategori Keterangan
+
+Bagus Video Stabil
+
+Jelek Video Tidak Stabil
+
+          Sumber asumsi penulis
+
+A. Video CCTV Kabel
+
+Tabel 4.81 Video CCTV Parit Besar
+
+CCTV Parit
+Besar 
+
+Hasil Pengujian Video CCTV
+KeteranganDurasi 1 menit Durasi 5 menit
+
+Jam Pagi Bagus Bagus Bagus/ Video Stabil
+
+Jam Sore Bagus Bagus Bagus/ Video Stabil
+
+Jam Malam Bagus Bagus Bagus/ Video Stabil
+
+Tabel 4.82 Video CCTV Tanray
+
+CCTV Parit
+Besar 
+
+Hasil Pengujian Video CCTV
+KeteranganDurasi 1 menit Durasi 5 menit
+
+Jam Pagi Bagus Bagus Bagus/ Video Stabil
+
+Jam Sore Bagus Bagus Bagus/ Video Stabil
+
+
+
+174
+
+Jam Malam Bagus Bagus Bagus/ Video Stabil
+
+Bedasarkan  Tabel  4.81  dan  Tabel  4.842  hasil  kualitas  video  CCTV
+
+berbasis kabel dapat kita lihat sebagai berikut:
+
+1. Pengujian 1 menit  kondisi  waktu pagi,  sore mengalami keadaan jelek  dan
+
+hanya pada malam hari mengalami kondisi bagus.
+
+2. Pengujian 5 menit  kondisi  waktu pagi,  sore mengalami keadaan jelek  dan
+
+hanya pada malam hari mengalami kondisi bagus.
+
+B. Video CCTV Nirkabel
+
+Tabel 4.83 Video CCTV Jihad
+
+CCTV
+Jihad 
+
+Hasil Pengujian Video CCTV
+KeteranganDurasi 1 menit Durasi 5 menit
+
+Jam Pagi Jelek Jelek Jelek/ Video Tidak Stabil
+
+Jam Sore Jelek Jelek Jelek/ Video Tidak Stabil
+
+Jam Malam Bagus Bagus Bagus/ Video Stabil
+
+Tabel 4.84 Video CCTV Bundaran UNTAN
+
+CCTV
+Bundaran
+UNTAN 
+
+Hasil Pengujian Video CCTV
+KeteranganDurasi 1 menit Durasi 5 menit
+
+Jam Pagi Jelek Jelek Jelek/ Video Tidak Stabil
+
+Jam Sore Jelek Jelek Jelek/ Video Tidak Stabil
+
+Jam Malam Bagus Bagus Bagus/ Video Stabil
+
+Bedasarkan  Tabel  4.83  dan  Tabel  4.84  hasil  kualitas  video  CCTV
+
+berbasis nirkabel dapat kita lihat sebagai berikut:
+
+1. Pengujian  1  menit  kodisi  waktu  pagi,  sore  mengalami  keadaan  jelek  dan
+
+hanya pada malam hari mengalami kondisi bagus.
+
+2. Pengujian  5  menit  kodisi  waktu  pagi,  sore  mengalami  keadaan  jelek  dan
+
+hanya pada malam hari mengalami kondisi bagus.
+
+Berdasarkan Perbandingan hasil kualitas video CCTV kabel dan nirkabel
+
+dapat  dilihat  perbedaannya,  yang  mana  kulitas  video  CCTV  berbasis  kebel
+
+mengalami ketegori bagus dari pengujian 1 menit dan 5 menit kondisi pagi, sore,
+
+dan malam, sedangkan kualitas video CCTV nirkabel  pengujian 1 menit dan 5
+
+
+
+175
+
+menit  kondisi pagi, sore dengan kategori  jelek hanya kondisi pada malam hari
+
+yang mendapatkan kategori bagus.
+
+Menurut  penulis  perbedaan kualitas  video CCTV dipengaruhi  hasi  nilai
+
+Throughput tersebut, karena dapat dilihat pada poin 4.3.6 anlisis throughput yang
+
+mana nilai Throughput CCTV kabel lebih baik.
+
+4.4 Hasil Analisis Quality of Service
+
+Hasil Analisis  QoS adalah menampilkan hasil kesluruhan nilai  QoS CCTV
+
+kabel dan CCTV nirkabel dan membandingkan yang lebih unggul dari kedua nilai
+
+tersebut mengacu pada standar QoS TIPHON dapat dilihat pada tabel di bawah
+
+ini:
+
+Tabel 4.85 Standarisasi Kualitas QoS Berdasarkan Parameter QoS
+
+Nilai Persentase (%) Indeks
+
+3,8 s/d 4 95 s/d 100 Sangat memuaskan
+
+3 s/d 3,79 75 s/d 94,75 Memuaskan
+
+2 s/d 2,99 50 s/d 74,75 Kurang memuaskan
+
+1 s/d 1,99 25 s/d 49,75 Jelek
+
+Tabel 4.86 Hasil QoS CCTV Kabel
+
+  Parameter
+Nila Indeks Pengujian
+Durasi 1
+menit
+
+Standar 
+TIPHON
+
+Durasi 5
+menit
+
+Standar 
+TIPHON
+
+Delay 4 Sangat Memuaskan 4 Sangat 
+Memuaskan
+
+Jitter 3 Memuaskan 3 Memuaskan
+
+Packet Loss 3 Memuaskan 3 Memuaskan
+
+Throughput 2,5 Kurang Memuaskan 2,5 Kurang 
+Memuaskan
+
+Total Rata-
+rata
+
+3,12 Memuaskan 3,12 Memuaskan
+
+Tabel 4.87 Hasil QoS CCTV Nirkabel
+
+Parameter
+Nila Indeks Pengujian
+
+Durasi 1
+menit
+
+Standar TIPHON Durasi 5 
+menit
+
+Standar 
+TIPHON
+
+Delay 4 Sangat Memuaskan 4 Sangat 
+Memuaskan
+
+Jitter 3 Sangat Memuaskan 3 Sangat 
+
+
+
+176
+
+Memuaskan
+Packet Loss 3 Memuaskan 3 Memuaskan
+
+Throughput 1,8 Jelek 1,65 Jelek
+
+Total Rata-
+rata
+
+2,95 Kurang Memuaskan 2,91 Kurang 
+Memuaskan
+
+Berdasarkan Tabel 4.85 di atas perbedaan total QoS nilai rata-rata CCTV
+berbasis kabel dapat dijelaskan sebagian berikut:
+
+1. Total nilai rata-rata QoS Delay CCTV kabel pengujian 1 menit dengan nilai
+
+indeks  4,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  100%
+
+mendapatkan kategori standar TIPHON sangat memuaskan.
+
+2. Total nilai rata-rata QoS Delay CCTV kabel pengujian 5 menit dengan nilai
+
+indeks  4,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  100%
+
+mendapatkan kategori standar TIPHON sangat memuaskan.
+
+3. Total nilai rata-rata QoS Jitter  CCTV kabel pengujian 1 menit dengan nilai
+
+indeks  3,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+4. Total nilai rata-rata QoS Jitter  CCTV kabel pengujian 5 menit dengan nilai
+
+indeks  3,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+5. Total nilai rata-rata QoS Packet Loss CCTV kabel pengujian 1 menit dengan
+
+nilai indeks 3, sehingga apabila di persentase didapatkan nilai sebesar 75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+6. Total nilai rata-rata QoS Packet Loss CCTV kabel pengujian 5 menit dengan
+
+nilai indeks 3, sehingga apabila di persentase didapatkan nilai sebesar 75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+7. Total nilai rata-rata QoS Throughput CCTV kabel pengujian 1 menit dengan
+
+nilai  indeks  2,5,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar
+
+62,5% mendapatkan kategori standar TIPHON kurang memuaskan.
+
+8. Total nilai rata-rata QoS Throughput CCTV kabel pengujian 5 menit dengan
+
+nilai  indeks  2,5,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar
+
+62,5% mendapatkan kategori standar TIPHON kurang memuaskan.
+
+
+
+177
+
+Berdasarkan Tabel 4.86 di atas perbedaan total QoS nilai rata-rata CCTV
+berbasis nirkabel dapat dijelaskan sebagian berikut:
+
+1. Total nilai rata-rata QoS delay CCTV nirkabel pengujian 1 menit dengan nilai
+
+indeks  4,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  100%
+
+mendapatkan kategori standar TIPHON sangat memuaskan.
+
+2. Total nilai rata-rata QoS delay  CCTV kabel pengujian 5 menit dengan nilai
+
+indeks  4,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  100%
+
+mendapatkan kategori standar TIPHON sangat memuaskan.
+
+3. Total  nilai  rata-rata QoS  Jjitter  CCTV nirkabel  pengujian 1 menit  dengan
+
+nilai indeks 3, sehingga apabila di persentase didapatkan nilai sebesar 75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+4. Total nilai rata-rata QoS  jitter  CCTV kabel pengujian 5 menit dengan nilai
+
+indeks  3,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+5. Total  nilai  rata-rata  QoS  packet  loss  CCTV  nirkabel  pengujian  1  menit
+
+dengan nilai 3, sehingga apabila di persentase didapatkan nilai sebesar 75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+6. Total  nilai  rata-rata  QoS  packet  loss  CCTV  nirkabel  pengujian  5  menit
+
+dengan nilai 3, sehingga apabila di persentase didapatkan nilai sebesar 75%
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+7. Total nilai rata-rata QoS throughput CCTV kabel pengujian 1 menit dengan
+
+nilai  1,8,  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  45%
+
+mendapatkan kategori standar TIPHON jelek.
+
+8. Total nilai rata-rata Qos  throughput  CCTV kabel pengujian 5 menit dengan
+
+nilai 1,65, sehingga apabila di persentase didapatkan nilai sebesar 41,25 %
+
+mendapatkan kategori standar TIPHON jelek.
+
+
+
+178
+
+Tabel 4.88 Total Rata-rata Perbedaan CCTV Kabel & CCTV Nirkabel
+
+Total Rata-rata Durasi
+Pengujian
+
+Indeks Persentase Kategori
+
+CCTV Kabel 1 menit 3,12 78 % Memuaskan
+
+5 menit 3,12 78 % Memuaskan
+
+CCTV Nirkabel 1 menit 2,95 73,75 % Kurang Memuaskan
+
+5 menit 2,91 72,75 % Kurang Memuaskan
+ 
+
+ Berdasarkan Tabel  4.87 di atas  perbedaan rata-rata  hasil  QoS CCTV
+kabel dan CCTV nirkabel dapat dijelaskan sebagai berikut:
+
+1. Total nilai rata-rata QoS CCTV kabel pengujian 1 menit dengan nilai indeks
+
+3,12  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  78  %
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+2. Total nilai rata-rata QoS CCTV kabel pengujian 5 menit dengan nilai indeks
+
+3,12  sehingga  apabila  di  persentase  didapatkan  nilai  sebesar  78  %
+
+mendapatkan kategori standar TIPHON memuaskan.
+
+3. Total  nilai  rata-rata  QoS  CCTV nirkabel  pengujian  1  menit  dengan  nilai
+
+indeks 2,95 sehingga apabila di persentase didapatkan nilai sebesar 73,75 %
+
+mendapatkan kategori standar TIPHON kurang memuaskan.
+
+4. Total  nilai  rata-rata  QoS  CCTV nirkabel  pengujian  5  menit  dengan  nilai
+
+indeks 2,91 sehingga apabila di persentase didapatkan nilai sebesar 72,75 %
+
+mendapatkan kategori standar TIPHON kurang memuaskan.
+
+Berdasarkan penjabaran di atas dapat dilihat bahwa CCTV kabel dengan
+
+kategori  memuaskan  dan CCTV nirkabel  dengan kategori  kurang memuaskan.
+
+Namun untuk memenuhi standar TIPHON QoS harus mencapai kategori sangat
+
+memuaskan atau mencapai rating parameter QoS ± 95% (Joesman 2008).
+
+
+
+179
+
+Hal ini dapat kita rujukan perbedaan nilai QoS jaringan CCTV kabel dan
+
+CCTV nirkabel  bahwa jaringan nirkabel  kualitas  sinyal  akan dipengaruhi  oleh
+
+provokasi udara, artinya kualitas koneksi saat cuaca bagus akan berbeda dengan
+
+kualitas  koneksi  saat  cuaca  buruk  (jika  digunakan  diluar  gedung)  dan  akan
+
+dipengaruhi oleh batas-batas dinding gedung, interferensi  gelombang radio dan
+
+delay (kelambatan) yang sangat besar (Timmie Maria, 2018). Sedangkan jaringan
+
+fiber optik  tidak terpengaruhi oleh cuaca dan gelombang electromagnetic hanya
+
+saja kelemahan fiber optik yaitu harga relatif mahal, Perawatan dan pemasangan
+
+sulit, jika terjadi kerusakan pada kabel fiber optic, maka harus memanggil orang
+
+yang sudah berpengalaman dan sudah ahli pada bidang tersebut dan Kabel fiber
+
+optic tidak bisa diletakkan di belokan yang sangat tajam, ini dikarenakan fiber
+
+optic menggunakan cahaya sebagai penghantar sinyal,  jika kabel ditekuk maka
+
+cahaya akan bocor dan akan mengalir ke tekukkan tersebut (Timmie Maria,2018)
+
+Hasil  penjabaran  parameter  QoS keseluruhan di  atas,  maka dapat  ditarik
+
+suatu nilai kebutuhan bandwidth CCTV berbasis kabel dan nirkabel dari tiap –
+
+tiap  kebutuhan  bandwidth  setiap  parameter. Dengan  memperhatikan  standar
+
+TIPHON (Joesman 2008) degan rating parameter QoS ± 95%. Berikut beberapa
+
+hal yang perlu diperhatikan untuk dijadikan sebagai acuan untuk perbaikan QoS.
+
+1. Berdasarkan kebutuhan bandwidth setiap parameter  CCTV berbasis  kabel,
+
+pengujian 1 menit maka bandwidth yang diperlukan adalah
+
+ 100% + 75% + 75 % + 62,5% / 4 = 78,12 % 
+
+Bandwidth yang diperlukan adalah
+
+ 
+10 Mb
+
+78,12%
+=
+
+X
+95 %
+
+ x=
+10 x95
+78,12%
+
+= 12,16        x = 12,16 Mb
+
+2. Berdasarkan kebutuhan bandwidth setiap parameter  CCTV berbasis  kabel,
+
+pengujian 5 menit maka bandwidth yang diperlukan adalah
+
+ 100% + 75 % + 75 % + 62,5% / 4 = 78,12 %
+
+Bandwidth yang diperlukan adalah
+
+ 
+10 Mb
+
+78,12%
+=
+
+X
+95 %
+
+ x=
+10 x95
+78,12%
+
+= 12,16        x = 12,16 Mb
+
+3. Berdasarkan kebutuhan bandwidth setiap parameter CCTV berbasis nirkabel,
+
+pengujian 1 menit maka bandwidth yang diperlukan adalah 
+
+
+
+180
+
+100% + 75 % + 75 % + 45% / 4 = 73,75 % 
+
+Bandwidth yang diperlukan adalah
+
+10 Mb
+73,75%
+
+=
+X
+
+95 %
+ X = 
+
+10 X 95
+73,75 %
+
+= 12,88      X = 12,88 Mb
+
+4. Berdasarkan kebutuhan bandwidth setiap parameter CCTV berbasis nirkabel,
+
+pengujian 5 menit maka bandwidth yang diperlukan adalah 
+
+100% + 75 % 75 % + 41,25% / 4 = 72,81% 
+
+Bandwidth yang diperlukan adalah
+
+10 Mb
+72,81%
+
+=
+X
+
+95 %
+ X = 
+
+10 X 95
+72,81%
+
+= 13,04      X = 13,04 Mb
+
+Tabel 4.89 Kebutuhan Bandwidth QoS CCTV Dinas Kominfo Pontianak
+
+CCTV
+Bandwidth
+
+1 menit 5 menit Rata - rata
+
+Kabel 12,16 Mb 12,16 Mb 12,16 Mb
+
+Nirkabel 12,88 Mb 13,04 Mb 12,96 Mb
+
+Berdasarkan tabel di atas kebutuhan bandwidth untuk memperbaiki QoS
+
+CCTV  berbasis  kabel  rata  -rata  adalah  12,16  Mb  sedangkan  CCTV  berbasis
+
+nirkabel kebutuhan bandwidth  rata- rat adalah 12,96 Mb. 
+
+
+
+181
+
+BAB V
+
+PENUTUP
+
+5.1 Kesimpulan 
+
+Setelah  dilakukan  analisis  QoS  terhadap  jaringan  CCTV  kabel  dan
+
+nirkabel Dinas Komunikasi dan Informatika Pontianak, dapat disimpulkan bahwa:
+
+1. CCTV Dinas Kominfo Pontianak dapat diakses melalui jaringan internet dari
+
+tempat pengujian yang beralamat Jl. Pramuka Komplek PAI Gg.Emeral No 2
+
+Kubu Raya, dengan paket internet IndiHome 10 Mbps menggunakan laptop.
+
+2. Hasil pengukuran QoS CCTV kabel pengujian 1 menit dan 5 menit dengan
+
+nilai  yang sama yaitu  total  rata-rata  parameter  QoS sebesar  3,12  dengan
+
+indeks  bagus dan  persentasenya  sebesar  78  % dalam  standar  TIPHON.
+
+Dengan demikian dapat disimpulkan jaringan CCTV kabel tergolong dalam
+
+standar  memuaskan  berdasarkan  standar  dari  TIPHON  (Joesman  2008)
+
+dengan rating < 95 %.
+
+3. Hasil  pengukuran  QoS  CCTV nirkabel pengujian  1  menit  dan  5  menit
+
+dengan nilai indeks yang berbeda yaitu pengujian 1 menit dengan nilai 2,95
+
+persentasenya 73,75 % dengan indeks cukup dan pengujian 5 menit dengan
+
+nilai 2,91 persentasenya  72,75 % dengan indeks  cukup. Dengan demikian
+
+dapat disimpulkan jaringan CCTV nirkabel tergolong dalam standar kurang
+
+memuaskan  berdasarkan  standar  dari  TIPHON  (Joesman  2008)  dengan
+
+rating < 95 %.
+
+4. Namun Untuk memenuhi  standar  TIPHON QoS harus  mencapai  kategori
+
+sangat memuaskan atau mencapai  rating parameter  QoS ± 95% (Joesman
+
+2008).
+
+5. Kualitas  video  CCTV  kabel kondisi  jam  pagi,  sore  dan  malam  dengan
+
+kualitas  bagus/stabil,  sedangkan  CCTV Nirkabel hanya pada jam malam
+
+saja  yang  mengalami  bagus/stabil,  kondisi  pagi  dan  sore  hari  jelek/tidak
+
+stabil.
+
+6. Jaringan CCTV yang lebih tepat digunakan Dinas Kominfo Pontianak adalah
+
+jaringan kabel/fiber optik.
+
+
+
+182
+
+7. Bandwidth  yang  diperlukan  berdasarkan  hasil  QoS  CCTV  Kabel  Dinas
+
+Kominfo Pontianak adalah 12,16 Mb
+
+8. Bandwidth  yang diperlukan  berdasarkan hasil  QoS CCTV Nirkabel  Dinas
+
+Kominfo Pontianak adalah 12,96 Mb
+
+9. Kebutuhan bandwidth berdasarkan hasil QoS CCTV kabel dan nirkabel Dinas
+
+Kominfo  Pontianak,  dengan  kebutuhan  setiap  parameter  menunjukkan
+
+besaran bandwidth rata -rata, yaitu 12,56 Mb, 
+
+5.2 Saran 
+
+Hal-hal yang dapat menjadi saran dalam pengembangan dan perbaikan
+
+jaringan internet ini adalah sebagai berikut.
+
+1. Penambahan  bandwidth  jaringan  internet  CCTV  Dinas  Komunikasi  dan
+
+Informatika  Pontianak berdasarkan kebutuhan QoS CCTV yaitu 12,56 Mb,
+
+dan untuk mengantisipasi kebutuhan bandwidth tak terduga saran dari penulis
+
+agar mempunyai cadangan bandwidth maka penambahan yang tepat adalah 20
+
+Mb.
+
+2. Melakukan  analisis  perbandingan  layanan  CCTV  camera  analog  dan  Ip
+
+camera.
+
+

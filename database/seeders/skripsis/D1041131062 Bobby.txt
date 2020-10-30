@@ -1,0 +1,4049 @@
+
+BAB I
+PENDAHULUAN
+
+I.1 Latar Belakang
+
+Kapuas Hulu merupakan sebuah kabupaten di Provinsi Kalimantan Barat.
+
+Kabupaten  ini  merupakan salah satu kabupaten  terluas  di  Provinsi Kalimantan
+
+Barat  dengan  luas  29.842  km2.  Selain  itu,  kabupaten  ini  juga  sering  disebut
+
+sebagai Heart of Borneo dikarenakan kekayaan alam yang melimpah serta tempat
+
+tinggal  berbagai  jenis  makhluk  hidup.  Kabupaten  Kapuas  Hulu  juga  memiliki
+
+tempat  wisata  alam  yang  banyak.  Sebagian  besar  tempat  wisata  alam  yang
+
+terkenal adalah air terjun. Hal ini dikarenakan sebagian besar daerah kabupaten
+
+Kapuas Hulu terdiri dari daerah perbukitan. Tempat wisata ini sering dijadikan
+
+tempat rekreasi bagi wisatawan domestik maupun wisatawan mancanegara.
+
+2012 2013 2014 2015 2016
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+6000
+
+7000
+
+1435
+
+2858
+
+3372
+
+4153
+4436
+
+212
+409 470 470
+
+6665
+
+Wisatawan Domestik Wisatawan Mancanegara
+
+Gambar 1.1 Grafik Tingkat Kunjungan Wisatawan ke Kabupaten Kapuas Hulu
+dari Tahun 2012 sampai Tahun 2016
+
+Menurut data dari Gambar 1.1 (Dinas Pariwisata Kabupaten Kapuas Hulu,
+
+2017)  tiap  tahun  jumlah  wisatawan  domestik  dan  wisatawan  mancanegara
+
+mengalami peningkatan sangat signifikan. Pada tahun 2012, wisatawan domestik
+
+hanya berjumlah 1435 orang dan wisatawan mancanegara berjumlah 212 orang.
+
+Dan pada tahun 2016, wisatawan domestik mengalami peningkatan menjadi 4436
+
+orang  dan  wisatawan  mancanegara  menjadi  6665  orang.  Peningkatan  jumlah
+
+1
+
+
+
+2
+
+wisatawan ini  tentu  saja  dapat  menjadi  potensi  dalam pembangunan ekonomi.
+
+Perkembangan  pariwisata  ini  dapat  memberikan  sumbangan  yang cukup  besar
+
+bagi perekonomian Indonesia.
+
+Sebagian besar lokasi wisata jauh dari ibu kota Kabupaten Kapuas Hulu.
+
+Tidak sedikit wisatawan yang bingung dengan informasi lokasi yang disampaikan
+
+warga lokal.  Sehingga diperlukan suatu sarana penyajian informasi yang dapat
+
+diakses  para  wisatawan.  Salah  satu  teknologi  yang  menunjanng  penyampaian
+
+informasi  lokasi  yaitu  sistem  informasi  geografis.  Sistem  informasi  geografis
+
+merupakan  alternatif  untuk  menyampaikan  informasi  lokasi  secara  detail.
+
+Informasi  yang  dapat  disampaikan  melalui  sistem  informasi  geografis  yaitu
+
+berupa  koordinat  lokasi,  penentuan  jalan,  luas  wilayah,  dan  lain-lain.  Selain
+
+sistem informasi geografis,  virtual tour  juga dapat menjadi media penyampaian
+
+informasi. Virtual Tour merupakan salah satu teknologi yang dapat menampilkan
+
+foto borderless (tanpa terputus). Virtual Tour dapat memberikan informasi berupa
+
+foto panorama yang dapat menggambarkan lokasi dengan sudut pandang 360o  x
+
+180°.  Dengan  adanya  virtual  tour,  pengguna  dapat  menjelajah  lokasi  tempat
+
+wisata tanpa harus datang ke lokasi. Oleh karena itu, untuk memudahkan calon
+
+wisatawan dalam mencari lokasi wisata alam yang tersebar di Kabupaten Kapuas
+
+Hulu,  dilakukan  pembuatan  sistem  informasi  geografis  yang  dikombinasikan
+
+dengan virtual tour agar dapat menuntun calon wisatawan menuju lokasi wisata.
+
+I.2 Rumusan Masalah
+
+Permasalahan yang muncul dikarenakan kurang jelasnya informasi yang
+
+diberikan  oleh  warga  dapat  membingungkan  calon  wisatawan.  Hal  ini
+
+dikarenakan informasi yang diberikan warga masih berupa foto dan penjelasan
+
+arah tanpa mengantar langsung ke lokasi.
+
+Sistem informasi  geografis  disertai  virtual  tour merupakan solusi  yang
+
+dapat memberikan informasi berupa deskripsi tempat, visualisasi lokasi, dan titik
+
+koordinat  pasti  yang  dapat  dilihat  melalui  aplikasi  berbasis  web.  Penyajian
+
+informasi  bagi  calon  wisatawan  perlu  dilakukan  agar  dapat  menarik  calon
+
+wisatawan lainnya, baik wisatawan domestic maupun mancanegara.
+
+Berdasarkan  hal  di  atas,  maka  yang dapat  dijadikan  sebagai  rumusan
+
+
+
+3
+
+masalah dari penelitian ini adalah:
+
+1. Bagaimana membangun sistem informasi geografis wisata alam Kabupaten
+
+Kapuas  Hulu  berbasis  website  dengan  fitur  virtual  tour  agar  dapat
+
+memberikan  informasi  tentang  lokasi  wisata  kepada  pengguna  dan
+
+membantu pengguna meninjau lokasi wisata tanpa harus datang ke lokasi?
+
+2. Bagaimana  menempatkan  foto  panorama  dalam  peta  digital  berdasarkan
+
+titik koordinat dalam peta Google Maps ?
+
+3. Bagaimana menciptakan sistem informasi geografis yang bersifat dinamis
+
+sehingga informasi yang disampaikan dapat diperbaharui ?
+
+I.3 Tujuan Penelitian
+
+Tujuan  dari  penelitian  ini  adalah  untuk  menghasilkan  aplikasi  sistem
+
+informasi geografis wisata alam berbasis  website  dengan fitur  virtual tour yang
+
+memanfaatkan  layanan  Google  Maps  API sebagai  media  informasi  dan  alat
+
+navigasi yang dapat memvisualisasi lokasi wisata.
+
+I.4 Pembatasan Masalah
+
+Adapun batasan masalah pada penelitian ini adalah sebagai berikut:
+
+1. Aplikasi menggunakan layanan Google Maps API.
+
+2. Lokasi wisata yang dijadikan tempat penelitian adalah Air Terjun Brunyau
+
+yang berada di Kabupaten Kapuas Hulu.
+
+I.5 Sistematika Penulisan
+
+Adapun sistematika dari penulisan tugas akhir ini disusun dalam lima bab
+
+yang  terdiri  dari  BAB  I  Pendahuluan,  BAB  II  Tinjauan  Pustaka,  BAB  III
+
+Metodologi Penelitian, BAB IV Implementasi dan Hasil Pengujian serta BAB V
+
+Penutup.
+
+BAB  I  Pendahuluan  adalah  bab  yang  berisi  tentang  Latar  Belakang,
+
+Rumusan  Masalah,  Tujuan  Penelitian,  Pembatasan  Masalah,  dan  Sistematika
+
+Penulisan Skripsi.
+
+BAB II Tinjauan Pustaka adalah bab yang berisi tentang penelitian terkait
+
+dan landasan teori yang berhubungan dengan penelitian yang akan dilakukan.
+
+
+
+4
+
+BAB III  Metodologi  Penelitian  adalah  bab yang berisi  tentang metode
+
+penelitian  yang  dilakukan,  mulai  dari  proses  studi  literatur  hingga  metode
+
+pengembangan aplikasi dengan metode waterfall, yaitu analisa kebutuhan, desain
+
+sistem, implementasi, pengujian, dan pemeliharaan.
+
+BAB IV Impementasi dan Hasil Pengujian adalah bab yang berisi tentang
+
+hasil perancangan dan analisis hasil pengujian.
+
+BAB V Penutup adalah bab yang berisi tentang kesimpulan dari penelitian
+
+yang  telah  dilakukan  dan  saran  atau  rekomendasi  untuk  perbaikan,
+
+pengembangan, atau kesempurnaan/kelengkapan penelitian yang telah dilakukan.
+
+
+
+BAB II
+TINJAUAN PUSTAKA
+
+II.1 Kajian Terkait
+
+Redha  (2016)  melakukan  penelitan  tentang  Rancang  Bangun  Aplikasi
+
+Webgis Penyedia  Jasa  Properti  Online Berbasis  Virtual  Online  Tour sebagai
+
+media  promosi  penjualan  properti.  Aplikasi  yang dibangun menampilkan  letak
+
+geografis properti dan menampilkan kondisi properti menggunakan  virtual tour
+
+dengan format gambar 360° x 180°. Selain itu peneliti juga menggunakan metode
+
+Haversine untuk fitur direction.
+
+Adnyana  dan  Efendi  (2014)  melakukan  penelitian  tentang  Rancang
+
+Bangun Sistem Informasi Geografis Persebaran Lokasi Obyek Pariwisata Berbasis
+
+Web  dan  Mobile  Android sebagai  media  informasi  dan  promosi.  Peneliti
+
+mengembangkan  sistem  dengan  menggunakan  metode  SDLC  (System
+
+Development Life Cycle). Untuk versi Android bersifat native.
+
+Prasetya  (2011)  melakukan  penelitian  tentang  Aplikasi  Virtual Tour
+
+Berbasis  Web  Sebagai  Media  Promosi  Wisata.  Untuk  pengambilan  gambar
+
+panorama menggunakan teknik  overlap dan menggabungkannya dengan metode
+
+stitching. Selain itu penelitian ini juga diharapkan dapat mendukung layanan  e-
+
+tourism Indonesia. Kajian terkait dapat dilihat pada Tabel 2.1.
+
+Tabel 2.1 Kajian Terkait
+
+No Nama Judul Metode Keterangan
+
+1. Muhamm
+
+ad Redha
+
+Rancang 
+
+Bangun 
+
+Aplikasi 
+
+Webgis 
+
+Penyedia Jasa
+
+Properti 
+
+Online 
+
+Berbasis 
+
+Virtual Online
+
+Tour 
+
+Aplikasi yang 
+
+dibangun 
+
+menampilkan 
+
+letak geografis 
+
+properti dan 
+
+menampilkan 
+
+kondisi properti
+
+menggunakan 
+
+virtual tour 
+
+dengan format 
+
+Peneliti 
+
+membuat 
+
+aplikasi webgis
+
+berbasis virtual
+
+online tour ini 
+
+untuk 
+
+membantu 
+
+pemilik 
+
+properti untuk 
+
+mempromosika
+
+5
+
+
+
+6
+
+gambar 360° x 
+
+180°. Selain itu 
+
+peneliti juga 
+
+menggunakan 
+
+metode 
+
+Haversine 
+
+untuk fitur 
+
+direction. 
+
+n properti dan 
+
+membantu 
+
+pengguna 
+
+untuk mencari 
+
+properti sesuai 
+
+kriteria yang 
+
+diinginkan 
+
+dengan 
+
+melihat detail 
+
+properti 
+
+dengan virtual 
+
+online tour 
+
+360°. 
+
+2. Ida Bagus
+
+Made 
+
+Yogie 
+
+Adnyana 
+
+dan 
+
+Rissal 
+
+Efendi
+
+Rancang 
+
+Bangun 
+
+Sistem 
+
+Informasi 
+
+Geografis 
+
+Persebaran 
+
+Lokasi Obyek 
+
+Pariwisata 
+
+Berbasis Web
+
+dan Mobile 
+
+Android 
+
+Aplikasi yang 
+
+dibangun 
+
+menampilkan 
+
+sistem 
+
+informasi 
+
+geografis 
+
+persebaran 
+
+lokasi obyek 
+
+pariwisata yang
+
+ada di 
+
+Kabupaten 
+
+Gianyar 
+
+berbasis web 
+
+dan mobile 
+
+Android. Untuk 
+
+versi Android 
+
+bersifat native.
+
+Peneliti 
+
+membuat 
+
+aplikasi ini 
+
+sebagai media 
+
+informasi 
+
+tentang 
+
+persebaran 
+
+lokasi obyek 
+
+pariwisata 
+
+berbasis web 
+
+dan mobile 
+
+Android di 
+
+Kabupaten 
+
+Gianyar. 
+
+3. Didik Dwi Aplikasi Aplikasi yang Peneliti 
+
+
+
+7
+
+Prasetya Virtual Tour 
+
+Berbasis Web
+
+sebagai 
+
+Media 
+
+Promosi 
+
+Wisata
+
+dibangun oleh 
+
+peneliti yaitu 
+
+Virtual Tour 
+
+berbasis web. 
+
+Pengambilan 
+
+gambar 
+
+panorama 
+
+menggunakan 
+
+teknik overlap 
+
+dan 
+
+menggabungka
+
+nnya dengan 
+
+metode 
+
+stitching.
+
+membangun 
+
+aplikasi ini 
+
+sebagai media 
+
+promosi wisata
+
+untuk 
+
+mendukung 
+
+layanan e-
+
+tourism 
+
+Indonesia.
+
+Adapun penjelasan mengenai penelitian yang akan dilakukan dapat dilihat
+
+pada Tabel 2.2.
+
+Tabel 2.2 Penelitian yang Dilakukan
+
+N
+
+o
+
+Nama Judul Metode Keterangan
+
+1 Bobby
+
+Donald
+
+Macnamar
+
+a
+
+Sistem
+
+Informasi
+
+Geografis
+
+Wisata  Alam
+
+Kabupaten
+
+Kapuas  Hulu
+
+dengan  Fitur
+
+Virtual  Tour
+
+Berbasis
+
+Website
+
+Aplikasi  yang
+
+akan  dibangun
+
+menampilkan
+
+informasi
+
+geografis  dan
+
+virtual  tour
+
+tentang  tempat
+
+wisata  alam  di
+
+Kabupaten
+
+Kapuas  Hulu
+
+dengan
+
+menggabungka
+
+Penulis
+
+membuat
+
+aplikasi
+
+virtual  tour
+
+yang
+
+merupakan
+
+simulasi dari
+
+lingkungan
+
+nyata  dan
+
+memuat
+
+kumpulan
+
+foto
+
+
+
+8
+
+n  peta  digital
+
+dan  gambar
+
+panorama  360°
+
+x 180°.x 180°
+
+panorama
+
+360°  x  180°
+
+dan  dapat
+
+diakses
+
+secara  online
+
+melalui
+
+website.
+
+Selain  itu,
+
+aplikasi  ini
+
+juga
+
+menampilkan
+
+informasi
+
+umum  dan
+
+letak geologis
+
+dari  tempat
+
+hiburan
+
+keluarga
+
+tersebut. 
+
+II.2 Sistem Informasi Geografis
+
+Sistem Informasi  Geografis  sebenarnya merupakan gabungan dari  tiga
+
+unsur pokok yaitu sistem, informasi, dan geografis. Istilah “geografis” merupakan
+
+bagian dari spasial (keruangan). Kedua istilah ini sering tertukar atau digunakan
+
+secara  bergantian  hingga  muncul  istilah  geospasial.  Informasi  geografis
+
+mengandung  pengertian  informasi  mengenai  tempat-tempat  yang  ada  di
+
+pemukaan  bumi  dan  informasi  letak  atau  posisi  suatu  objek  beserta  atribut-
+
+atributnya (keterangan) di permukaan bumi. 
+
+Beberapa definisi Sistem Informasi Geografi (SIG) menurut parah ahli: 
+
+1. Sistem Informasi Geografis adalah sistem informasi yang didasarkan pada
+
+kerja  komputer  yang  memasukkan,  mengelola,  memanipulasi  dan
+
+menganalisa data serta memberi uraian (Aronoff, 1989).  
+
+2. Sistem Informasi  Geografis  adalah  kumpulan  terorganisir  dari  perangkat
+
+
+
+9
+
+keras komputer, perangkat lunak, data geografi dan personil yang dirancang
+
+secara efisien untuk memperoleh, menyimpan, memperbarui, memanipulasi,
+
+menganalisa  dan  menampilkan  semua  bentuk  informasi  yang  bereferensi
+
+geografi (ESRI, 1990). 
+
+3. Sistem  Informasi  Geografis  adalah  sistem  yang  dapat  mendukung
+
+pengambilan  keputusan  spasial  dan  mampu  mengintegrasikan  deskripsi-
+
+deskripsi  lokasi  dengan karakteristik  fenomena yang ditemukan di  lokasi
+
+tersebut (Gistut, 1994).
+
+Sistem  informasi  geografis  yang  lengkap  mencakup  metodologi  dan
+
+teknologi yang diperlukan, yaitu data spasial, perangkat keras, perangkat lunak,
+
+dan  struktur  organisasi.  Dari  beberapa  pendapat  mengenai  pengertian  sistem
+
+informasi geografis di atas, maka dapat disimpulkan sistem informasi geografis
+
+merupakan  sistem informasi  yang  digunakan  untuk  memasukkan,  menyimpan,
+
+memanggil kembali, mengolah, menganalisis dan menghasilkan data bereferensi
+
+geografis yang dapat digunakan untuk membantu dalam pengambilan keputusan.
+
+Sistem informasi geografis memiliki empat subsistem (Prahasta, 2001:58) yaitu:
+
+a. Data Input:  mengumpulkan, mempersiapkan, dan menyimpan data spasial
+
+dan atributnya. Sub-sistem ini bertanggung jawab dalam mengkonversikan
+
+format data aslinya ke dalam format sistem informasi geografisnya.
+
+b. Data Manajemen: mengorganisasikan data spasial dan tabel atribut ke dalam
+
+sistem basis data sehingga mudah untuk dipanggil kembali, di  update, dan
+
+di edit.
+
+c. Manipulasi dan Analisis Data:  menentukan informasi yang dihasilkan oleh
+
+sistem  informasi  geografis.  Selain  itu,  sub-sistem  ini  manipulasi  dan
+
+memodelkan data menghasilkan infomasi yang diharapkan.
+
+d. Data  Output:  menampilkan dan menghasilkan keluaran basis  data spasial
+
+softcopy  dan  hardcopy seperti  halnya table,  grafik,  report,  peta,  dan lain
+
+sebagainya.
+
+Berikut adalah komponen penting dalam pengembangan sistem informasi
+
+geografis yang berbasis web.
+
+
+
+10
+
+II.2.1 Google Maps 
+
+Google  Maps  adalah  sebuah peta  virtual  yang disediakan oleh  Google
+
+(Saputra,  2017:18).  Pemetaan tersebut  dilengkapi  dengan berbagai  kemampuan
+
+dan mudah digunakan. Kelengkapan lain pendukung peta tersebut seperti layanan
+
+informasi bisnis, jasa, layanan publik, jalan, lokasi, dan lain-lain.  Google Maps
+
+sangat cocok digunakan untuk pengembangan aplikasi web dikarenakan fitur yang
+
+diberikan  sangat  banyak.  Untuk  menampilkan  Google  Maps  di  HTML  dapat
+
+dilihat pada contoh Kode program 2.1 berikut ini.
+
+Kode Program 2.1 Script untuk Menampilkan Peta Google Maps
+
+Berikut adalah penjelasan dari kode program diatas:
+
+1. Merupakan tag dari  HTML yang berfungsi menjadi tempat peta yang akan
+
+ditampilkan di browser.
+
+2. Merupakan tag dari HTML untuk menuliskan script javascript.
+
+3. Merupakan pengaturan untuk penentuan lokasi yang akan muncul pada saat
+
+pertama kali mengakses web.
+
+4. Mengatur skala peta.
+
+5. API_KEY berfungsi untuk mengakses layanan di Google Maps.
+
+II.2.2 Global Positioning System (GPS)
+
+Global  Positioning  System  (GPS)  adalah  sistem  navigasi  penentuan
+
+posisi  dengan  menggunakan  satelit  yang  dimiliki  dan  dikelola  oleh  Amerika
+
+Serikat. Nama formalnya adalah “Navigation Satelite Timing and Ranging Global
+
+Positioning System”.  Dalam penentuan posisi GPS mengacu pada datum global
+
+yang disebut WGS 1984 sehingga semua GPS mengacu pada datum yang sama.
+
+Sistem koordinat  WGS 1984 mengacu  pada  sistem koordinat  kartesian  terikat
+
+
+
+11
+
+dimana sumbu X terletak pada bidang meridian nol (Greenwich) dan sumbu Y
+
+tegak lurus terhadap sumbu X (Abidin, 2007).
+
+Cara kerja GPS dalam menentukan lokasi akan melalui beberapa bagian
+
+penting yaitu:
+
+1. Bagian Kontrol
+
+Setiap  satelit  dapat  berada  sedikit  di  luar  orbit,  sehingga  bagian  ini
+
+melacak orbit satelit, lokasi, ketinggian dan kecepatan. Sinyal-sinyal dari satelit
+
+diterima  oleh  bagian  kontrol,  dikoreksi,  dan  dikirimkan  kembali  ke  satelit.
+
+Koreksi  data  lokasi  yang tepat  dari  satelit  ini  disebut  data  ephemeris  yang
+
+nantinya akan dikirim kepada GPS.
+
+2. Bagian Angkasa
+
+Bagian ini terdiri dari satelit yang mengorbit di permukaan bumi. Posisi
+
+satelit diatur sedemikian rupa sehingga GPS setiap saat dapat menerima sinyal
+
+paling sedikit dari empat satelit.
+
+3. Bagian Pengguna
+
+Satelit  akan  memancarkan  data  almanak  dan  ephemeris  yang  akan
+
+diterima GPS secara teratur. Data almanak berisi perkiraan lokasi (approximate
+
+location)  satelit  yang  dipancarkan  terus  menerus  oleh  satelit.  Dari  sinyal
+
+tersebut,  GPS  akan  melakukan  perhitungan-perhitungan  dan  hasil  akhirnya
+
+adalah koordinat GPS tersebut. Makin banyak sinyal satelit yang diterima oleh
+
+GPS, maka makin akurat perhitungan koordinat lokasi GPS.
+
+II.3 Virtual Tour
+
+Virtual  tour adalah sebuah simulasi  dari  suatu lingkungan nyata yang
+
+ditampilkan  secara  online,  biasanya  terdiri  dari  kumpulan  foto-foto  panorama,
+
+kumpulan  gambar  yang  terhubung  oleh  hyperlink,  ataupun  video,  atau  virtual
+
+model dari  lokasi  yang  sebenarnya,  serta  dapat  menggabungkan  unsur-unsur
+
+multimedia  lainnya  seperti  efek  suara,  musik,  narasi,  dan  tulisan (Handjojo,
+
+2013).
+
+Istilah  virtual  tour atau  panoramic  tour  sering  digunakan  untuk
+
+menggambarkan  berbagai  macam  video  dan  media  berbasis  fotografi.  Kata
+
+“panorama”  mengindikasikan  sebuah  pandangan  yang  tidak  terputus.  Karena
+
+
+
+12
+
+panorama bias  berupa sekumpulan foto memanjang ataupun hasil  pengambilan
+
+video yang kameranya dapat berputar/bergeser. Tetapi istilah “panoramic tour”
+
+paling sering diasosiasikan dengan istilah virtual tour yang diciptakan dengan foto
+
+yang tidak bergerak.  Virtual tour ini dibuat dari sejumlah foto yang diambil dari
+
+sebuah  titik pivot.  Kamera  dan  lensa  dirotasi  berdasarkan  apa  yang  disebut
+
+“nodal- point” (suatu titik yang tepat berada pada bagian belakang lensa dimana
+
+cahaya berkumpul).
+
+Virtual  tour digunakan  untuk  memudahkan  user dalam melihat  suatu
+
+lingkungan tanpa harus secara fisik melakukan perjalanan ke lokasi tersebut. Saat
+
+ini  berbagai  industri  sudah  menggunakan  teknologi  ini  untuk  membantu
+
+pemasaran  jasa  dan  produk.  Dalam  penggunaannya,  virtual  tour diharuskan
+
+berbasis  web  sehingga  dapat  diakses  dimana  saja  dan  kapan  saja.  Selain  itu,
+
+virtual tour yang kaya dan bermanfaat bukan hanya sekedar serangkaian gambar
+
+panorama  saja.  Sebuah  pengalaman  lebih  baik  dapat  diperoleh  dengan
+
+menampilkan  beragam  material  seperti  video,  teks,  dan  gambar  diam  dalam
+
+sebuah  konten  web  interaktif.  Virtual  tour saat  ini  banyak  digunakan  dalam
+
+industri properti, pengenalan tempat wisata, pengenalan kampus, dan lain-lain.
+
+II.3.1 Foto Panorama
+
+Foto panorama adalah penggabungan beberapa foto yang tumpeng tindih
+
+dengan tujuan untuk mendapatkan foto yang lebar dan mencakupi pemandangan
+
+yang  luas.  Foto  panorama  mampu  mempresentasikan  objek  yang  luas  bahkan
+
+hingga 360° (Tjin dalam Harianto, 2016). 
+
+II.3.2 Proyeksi Foto Panorama
+
+Setiap aplikasi memiliki cara yang berbeda dalam memproyeksikan foto
+
+panorama.  Hal  ini  dikarenakan  perbedaan  algoritma  dari  sebuah  sistem.  Pada
+
+umumnya sebuah sistem hanya mampu memproyeksikan foto panorama secara
+
+planar atau datar. Terdapat beberapa jenis proyeksi foto panorama yaitu:
+
+a) Cylindrical merupakan  proyeksi  dari  bidang  panorama  ke  permukaan
+
+silinder yang memiliki rentang ukuran sampai dengan ukuran sudut 360° x
+
+120°. Model Cylindrical dapat dilihat pada Gambar 2.1 (Mohammed, 2015).
+
+
+
+13
+
+Gambar 2.1 Cylindrical Panorama
+
+b) Spherical merupakan proyeksi dari bidang panorama dalam ke bentuk bola
+
+yang memiliki rentang ukuran sampai dengan ukuran sudut 360° x 180°.
+
+Model Spherical dapat dilihat pada Gambar 2.2 (Google Developers, 2017).
+
+Gambar 2.2 Spherical Panorama
+
+c) Cubic merupakan proyeksi dari bidang panorama dalam ke bentuk kubus
+
+yang memiliki  rentang ukuran sampai  dengan ukuran sudut 360° x 180°
+
+sama seperti  proyeksi  spherical.  Model  Cubic  dapat dilihat pada Gambar
+
+2.3 (Mohammed, 2015).
+
+
+
+14
+
+Gambar 2.3 Cubic Panorama
+
+Untuk  membuat  virtrual  tour,  sebuah  sistem  harus  mampu
+
+memproyeksikan gambar panorama dengan  layout  cylindrical,  layout  spherical
+
+atau layout spherical. Layout tersebut dapat membuat foto panorama terlihat tidak
+
+terputus (seamless). 
+
+Pada saat  virtual tour  ditampilkan, sistem hanya memuat potongan foto
+
+panorama yang termasuk dalam Point of View. Point of View merupakan daerah
+
+atau  koordinat  spherical  yang  terlihat  pada  saat  pemroyeksian  dengan  layout
+
+spherical.  Di  dalam  virtual  tour kita  dapat  menggeser  atau  memutar  foto
+
+panorama untuk mengganti Point of View ke daerah atau koordinat spherical yang
+
+lain.  Pada  saat  menggeser  atau  memutar  foto  panorama,  sistem akan otomatis
+
+memuat  potongan  foto  panorama  yang  lain.  Setiap  potongan  foto  panorama
+
+memiliki  identitas  yaitu koordinat  sumbu X dan sumbu Y. Identitas  ini  sangat
+
+diperlukan oleh sistem agar sistem dapat mengenali potongan foto panorama yang
+
+akan dimuat pada saat digeser atau diputar. Selain itu  virtual tour juga memiliki
+
+kelebihan yaitu dapat berpindah pandangan ke foto panorama yang lain. Hal ini
+
+dapat  terjadi  karena setiap  foto panorama memiliki  koordinat  sebagai  identitas
+
+lokasi  dalam  pemetaan.  Pada  saat  menavigasi  atau  berpindah  ke  tempat  lain,
+
+sistem akan  menggunakan  koordinat  untuk  memuat  foto  panorama yang akan
+
+diproyeksikan.
+
+II.3.3 Kamera Panorama
+
+Pada  penelitian  ini,  untuk  mengambil  foto  panorama  akan  digunakan
+
+Samsung  Gear  360.  Samsung  Gear  360 merupakan  action  camera besutan
+
+
+
+15
+
+Samsung Electronics.  Kamera ini  dibekali  dua buah lensa 8.4  megapixel yang
+
+masing-masing lensa mempunyai pandangan 360o (horizontal) x 180o  (vertikal).
+
+Kamera  ini  dapat  mengambil  foto  dengan  resolusi  high  definition.  Selain  itu,
+
+kamera ini juga sangat cocok digunakan untuk mengambil foto panorama 360o.
+
+Hal  ini  dikarenakan  user  tidak  perlu  lagi  menyambungkan  foto  satu  per  satu.
+
+Cara menggunakan kamera ini cukup mudah yaitu dengan menghidupkan
+
+dan memilih mode panoramic view. Setelah mengambil gambar kemudian import
+
+ke device menggunakan kabel USB.
+
+II.4 PHP: Hypertext Preprocessor (PHP)
+
+PHP (atau resminya PHP: Hypertext Preprocessor) adalah skrip bersifat
+
+server-side yang  ditambahkan  ke  dalam  HTML.  PHP  sendiri  merupakan
+
+singkatan dari Personal Home Page Tools. Skrip ini akan membuat suatu aplikasi
+
+dapat  diintegrasikan  ke  dalam HTML sehingga  suatu  halaman  web  tidak  lagi
+
+bersifat statis, namun menjadi dinamis. Sifat  server-side berarti pengerjaan skrip
+
+dilakukan di server,  baru kemudian hasilnya dikirimkan ke  browser (Prasetyo,
+
+2008).
+
+PHP bersifat open source sehingga dapat dipakai secara cuma-cuma dan
+
+mampu lintas platform, yaitu dapat berjalan pada sistem operasi Windows maupun
+
+Linux. PHP juga dibangun sebagai modul pada web server apache.
+
+II.4.1 MySQL
+
+MySQL adalah  sebuah  basis  data  yang mengandung satu  atau  jumlah
+
+tabel.  Tabel  terdiri  atas  sejumlah baris  dan setiap baris  mengandung satu atau
+
+sejumlah tabel. Tabel terdiri atas sejumlah baris dan setiap baris mengandung satu
+
+atau sejumlah tabel.  MySQL adalah sebuah  database relasional gratis dan  open
+
+source yang mula-mula tersedia di Unix/Linux namun kini tersedia juga di sistem
+
+operasi lain seperti Windows. Hingga kini MySQL terus bertahan sebagai database
+
+open source yang paling popular mengalahkan  PostgreSQL,  Interbase/Firebird,
+
+dan  lain  sebagainya.  MySQL mudah  diinstal,  mudah  dipakai,  dan  dapat
+
+dihubungkan dari berbagai bahasa pemograman. Kekuatan utama MySQL adalah
+
+pada kecepatannya, terutama untuk koneksi (overhead koneksi yang rendah) dan
+
+
+
+16
+
+kecepatannya  untuk  query-query yang  sederhana.  Hal  ini  membuatnya  cocok
+
+dipakai sebagai database untuk aplikasi web (Kustiyahningsih, 2011). 
+
+Dalam pengoperasiannya, MySQL memiliki beberapa fungsi dasar yaitu:
+
+1. Select
+
+Select merupakan  fungsi  dasar  MySQL untuk  memilih  data  dari  basis
+
+data. Cara penggunaannya dalam bahasa pemograman PHP dapat dilihat pada
+
+Kode program 2.2.
+
+Kode Program 2.2 Melakukan Select dalam Bahasa Pemograman PHP
+
+Kode program 2.2 di atas merupakan perintah SQL untuk memilih tiga
+
+field  yaitu  field  id,  field  firstname,  dan  field  lastname dari  tabel
+
+‘TABEL_USER’.
+
+2. Update
+
+Update merupakan fungsi dasar  MySQL untuk memodifikasi data yang
+
+sudah tersedia di basis data. Cara penggunaannya dalam bahasa pemograman
+
+PHP dapat dilihat pada Kode program 2.3.
+
+Kode Program 2.3 Melalukan Update dalam Bahasa Pemograman PHP
+
+Kode  program  2.3  di  atas  merupakan  perintah  SQL  untuk
+
+memperbaharui  isi  dari  field  firstname  dengan  value ‘Doe’ pada  data  yang
+
+beridentitas (id) = 1 di tabel ‘TABEL_USER’.
+
+3. Insert
+
+Insert merupakan fungsi dasar MySQL untuk menambahkan data ke basis
+
+data. Cara penggunaannya dalam bahasa pemograman PHP dapat dilihat pada
+
+Kode program 2.4.
+
+
+
+17
+
+Kode Program 2.4 Melakukan Insert dalam Bahasa Pemograman PHP
+
+Kode program 2.4 di atas merupakan perintah SQL untuk memasukan
+
+data dengan value ‘Doe’ ke field firstname dan value ‘John’ ke field lastname
+
+ke tabel ‘TABLE_USER’.
+
+4. Delete
+
+Delete merupakan fungsi dasar MySQL untuk menghapus data yang ada
+
+di  basis  data.  Cara  penggunaannya  dalam  bahasa  pemograman  PHP  dapat
+
+dilihat pada Kode program 2.5.
+
+Kode Program 2.5 Melakukan Delete dalam Bahasa Pemograman PHP
+
+Kode program 2.5 di atas merupakan perintah SQL untuk menghapus data
+
+yang beridentitas (id) = 1 dari tabel ‘TABEL_USER’.
+
+II.5 Diagram Alir
+
+Diagram Alir merupakan suatu diagram yang menggambarkan alur kerja
+
+suatu sistem (Saputra dalam Harianto,  2016). Gambaran ini  dinyatakan dengan
+
+simbol,  dengan  demikian  setiap  simbol  menggambarkan  proses  tertentu.
+
+Sedangkan hubungan antar proses digambarkan dengan garis penghubung.
+
+Tabel 2.3 Simbol dalam Diagram Alir
+
+No
+
+.
+Nama Simbol Keterangan
+
+1. Symbol Terminal Simbol untuk 
+
+permulaan atau akhir 
+
+dari suatu program.
+
+2. Symbol Process Simbol yang 
+
+menunjukkan 
+
+pengolahan yang 
+
+
+
+18
+
+dilakukan oleh 
+
+komputer.
+
+3. Symbol
+
+Input/Output
+
+Menyatakan proses 
+
+input dan output tanpa 
+
+tergantung dengan 
+
+jenis peralatannya.
+
+4. Symbol Decision Simbol untuk kondisi 
+
+yang akan 
+
+menghasilkan beberapa
+
+kemungkinan jawaban/
+
+aksi.
+
+5. Symbol Connector Simbol untuk 
+
+keluar/masuk prosedur 
+
+atau proses dalam 
+
+lembarang/halaman 
+
+yang sama.
+
+6. Symbol Manual
+
+Operation
+
+Simbol yang 
+
+menunjukkan 
+
+pengolahan yang tidak 
+
+dilakukan oleh 
+
+komputer.
+
+7. Symbol Display Simbol yang 
+
+menyatakan peralatan 
+
+output yang digunakan 
+
+yaitu layar, plotter, 
+
+printer, dan 
+
+sebagainya.
+
+8. Symbol Manual
+
+Input
+
+Simbol untuk 
+
+pemasukan data secara
+
+manual.
+
+
+
+19
+
+9. Symbol Storage Simbol yang 
+
+menyatakan input yang
+
+berasal dari disk atau 
+
+disimpan ke disk.
+
+II.6 Metode Waterfall
+
+Metode waterfall merupakan model pengembangan sistem informasi yang
+
+sistematik dan sekuensial (Pressman dalam Sasmito,  2017:8). Metode  waterfall
+
+memiliki tahapan-tahapan sebagai berikut:
+
+1. Analisa Kebutuhan
+
+Pada  tahap  analisis  kebutuhan  akan  dilakukan  analisa  dan  memahami
+
+kebutuhan sistem akan dibuat.
+
+2. Desain Sistem
+
+Tahapan  desain  sistem  mengalokasikan  kebutuhan-kebutuhan  sistem  baik
+
+perangkat  keras  maupun  perangkat  lunak  dengan  membentuk  arsitektur
+
+sistem  secara  keseluruhan.  Perancangan  perangkat  lunak  melibatkan
+
+identifikasi  dan penggambaran  abstraksi  sistem dasar  perangkat  lunak dan
+
+hubungannya.
+
+3. Implementasi
+
+Pada  tahap  implementasi  akan  dilakukan  pembuatan  sistem  berdasarkan
+
+analisis kebutuhan dan beberapa perancangan yang telah dilakukan tahapan
+
+sebelumnya  dengan  membuat  sebuah  program  dengan  cara  pengkodean.
+
+Sebelum melakulan pengkodean, akan dilakukan pemilihan basis data, bahasa
+
+pemograman, dan lainnya
+
+4. Pengujian
+
+Program yang  telah  dirancang  diuji  sebagai  sebuah  sistem lengkap  untuk
+
+memastikan apakah sesuai dengan kebutuhan perangkat lunak atau tidak.
+
+5. Pemeliharaan
+
+Pemeliharaan sistem melibatkan pembetulan kesalahan yang tidak ditemukan
+
+pada tahapan-tahapan sebelumnya. Beberapa yang dilakukan pada tahapan ini
+
+
+
+20
+
+yaitu  meningkatkan  implementasi  dari  sistem  yang  telah  dibuat  dan
+
+meningkatkan layanan sistem sebagai kebutuhan baru.
+
+II.7 Entity Relationship Diagram (ERD)
+
+Entity Relationship Diagram (ERD) merupakan teknik yang digunakan
+
+untuk memodelkan kebutuhan data  dari  suatu organisasi,  biasanya oleh system
+
+analyst dalam tahap analisis persyaratan proyek pengembangan sistem. Sementara
+
+seolah-olah  teknik  diagram  atau  alat  peraga  memberikan  dasar  untuk  desain
+
+database relasional yang mendasari sistem informasi yang dikembangkan. (Brady
+
+dan Loonam, 2010)
+
+Pembentukan ERD terdapat 3 komponen yang akan dibentuk yaitu:
+
+1. Entitas adalah objek yang menarik di bidang organisasi yang dimodelkan.
+
+2. Relasi adalah  hubungan  antara  dua  jenis  entitas  dan  direpresentasikan
+
+sebagai garis lurus yang menghubungkan dua entitas.
+
+3. Atribut,  memberikan  informasi  lebih  rinci  tentang  jenis  entitas.  Atribut
+
+memiliki struktur internal berupa tipe data. Jenis-jenis atribut.
+
+a) Atribut key, atribut key adalah satu atau gabungan dari beberapa atribut
+
+yang  dapat  membedakan  semua  baris  data  (row/record) dalam  tabel
+
+secara unik. Dikatakan unik jika pada atribut yang dijadikan key tidak
+
+boleh ada baris data dengan nilai yang sama.
+
+b) Atribut simple, atribut yang bernilai atomic, tidak dapat dipecah/ dipilah
+
+lagi.
+
+c) Atribut multivalue, nilai dari suatu attribute yang mempunyai lebih dari
+
+satu (multivalue) nilai dari atrribute yang bersangkutan.
+
+d) Atribut  composite,  atribut  composite adalah  suatu  atribut  yang  terdiri
+
+dari beberapa atribut yang lebih kecil yang mempunyai arti tertentu yang
+
+masih bisah dipecah lagi atau mempunyai sub atribut.
+
+e) Atribut derivatif, atribut yang tidak harus disimpan dalam database Ex.
+
+total  atau  atribut  yang  dihasilkan  dari  atribut  lain  atau  dari  suatu
+
+relationship. Atribut ini dilambangkan dengan bentuk oval yang bergaris
+
+putus-putus.
+
+Derajat relasi atau kardinalitas rasio menjelaskan jumlah maksimum 
+
+
+
+21
+
+hubungan antara satu entitas dengan entitas lainnya, yaitu:
+
+a) One to One (1:1)
+
+Setiap anggota entitas A hanya boleh berhubungan dengan satu anggota 
+
+entitas B, begitu pula sebaliknya.
+
+b) One to many (1:M / Many)
+
+Setiap anggota entitas A dapat berhubungan dengan lebih dari satu 
+
+anggota entitas B tetapi tidak sebaliknya.
+
+c) Many to Many (M:M)
+
+Setiap entitas A dapat berhubungan dengan banyak entitas himpunan 
+
+entitas B dan demikian pula sebaliknya.
+
+Gambar 2.4 Simbol-simbol untuk Membuat ERD
+
+Gambar  2.4  (Bentley  dan  Whitten,  2007)  merupakan  notasi  dan
+
+pengertian dari notasi yang ada dalam Entity Relationship Diagram (ERD).
+
+II.8 Black Box Testing
+
+Black Box Testing berfokus pada persyaratan fungsional perangkat lunak
+
+yang  memungkinkan  engineers untuk  memperoleh  set  kondisi  input  yang
+
+
+
+22
+
+sepenuhnya  akan  melaksanakan  persyaratan  fungsional  untuk  sebuah  program
+
+(Pressman,  2010).  Black  Box  Testing  berusaha  untuk  menemukan  kesalahan
+
+dalam kategori berikut:
+
+1. Fungsi yang tidak benar atau fungsi yang hilang
+
+2. Kesalahan antarmuka
+
+3. Kesalahan dalam struktur data atau akses database eksternal
+
+4. Kesalahan perilaku (behavior) atau kesalahan kinerja
+
+5. Inisialisasi dan pemutusan kesalahan
+
+II.9 User Acceptance Test (UAT)
+
+Gagasan  utama  pada  User  Acceptance  Test adalah  untuk  memastikan
+
+bahwa  produk  akhir  yang  dibuat  mendukung  kebutuhan  user.  Dalam  bidang
+
+bisnis, artinya produk yang dibuat dapat membantu dan memudahkan user dalam
+
+melakukan  bisnis.  Untuk  aplikasi  personal,  artinya  user bisa  mendapatkan
+
+informasi yang dibutuhkan melalui website dengan mudah (Perry, 2006).
+
+Metode  User  Acceptance  Test (UAT) merupakan  sebuah  proses  untuk
+
+mendapatkan  konfirmasi  dari  seorang  Subject  Metter  Expert (SME),  terutama
+
+pemilik  atau  klien  yang  mengerti  tentan  objek  yang  sedang  dalam  phase
+
+percobaan,  melalui  trial atau  review yang  modifikasi  dan  tambahannya
+
+disesuaikan denan requirement yang sudah disetujui sebelumnya. Dalam software
+
+development, UAT merupakan tahap terakhir dari sebuah projek dan dilaksanakan
+
+sebelum klien  menerima  dan mengaplikasikan  sistem baru tersebut  (Handjojo,
+
+2013).
+
+Metode  ini  merupakan  bagian  dari  pengujian  Black  Box yang  lebih
+
+terfokus pada fungsi dan kegunaan dari aplikasi. User Acceptance Test adalah uji
+
+terima perangkat lunak yang dilakukan di tempat pengguna oleh user perangkat
+
+lunak tersebut. Tujuan pengujian ini adalah untuk menguji apakah sistem sudah
+
+sesuai dengan apa yang tertuang dalam spesifikasi fungsional sistem (validasi).
+
+(Harianto, 2016).
+
+Pengujian  dilakukan  dengan  cara  membagikan  lembar  kuesioner  yang
+
+berisi  pertanyaan  yang  harus  diisi  oleh  responden  untuk  mengetahui  tingkat
+
+
+
+23
+
+keberhasilan aplikasi. Pengujian terdiri dari beberapa sampel pertanyaan dimana
+
+setiap pertanyaan diberi lima pilihan jawaban, yaitu:
+
+1. Sangat Baik diberi poin 5
+
+2. Baik diberi poin 4
+
+3. Cukup Baik diberi poin 3
+
+4. Kurang Baik diberi poin 2
+
+5. Tidak Baik diberi poin 1
+
+II.10 Likerts Summrated Rating
+
+Skala  Likert adalah  suatu  skala  psikometrik  yang  memiliki  beberapa
+
+pertanyaan  yang  dikombinasikan  sehingga  membentuk  sebuah  skor  atau  nilai
+
+yang  mempresentasikan  tingkat  persetujuan  responden  terhadap  aplikasi  yang
+
+dibuat (Maryuliana, 2016). Untuk mengetahui tingkat keberhasilan aplikasi dari
+
+kuesioner, digunakan metode  Likert’s Summated Rating (LSR) untuk mengukur
+
+skor  terkecil  dan terbesar  dari  beberapa  pertanyaan  kuesioner  yang ditanggapi
+
+oleh responden. Nilai persentase skala likert dihitung dengan rumus berikut ini
+
+(Yurida, 2018):
+
+L=
+( SB x 5 )+(B x 4 )+(CB x 3 )+( KB x 2 )+(TB x1)
+
+NB
+x100
+
+Keterangan:
+
+- L : Nilai persentase likert
+
+- SB : Jumlah responden yang memilih pilihan sangat baik
+
+- B : Jumlah responden yang memilih pilihan baik
+
+- CB : Jumlah responden yang memilih pilihan cukup baik
+
+- KB : Jumlah responden yang memilih pilihan kurang baik
+
+- TB : Jumlah responden yang memilih pilihan tidak baik
+
+- NB : 5 (bobot tertinggi) x jumlah responden
+
+Untuk menyimpulkan hasil  akhir  dari  aplikasi,  harus  diketahui  terlebih
+
+dahulu nilai interval total persentase dengan metode pencarian nilai interval pada
+
+persamaan berikut ini:
+
+I = 100 / 5 = 20
+
+
+
+24
+
+Keterangan:
+
+Nilai 5 diperoleh dari jumlah pilihan yang diberikan pada kuesioner.
+
+Nilai interval persentase pada kuesioner ini yaitu:
+
+- X <= 19,99% dikategorikan tidak baik.
+
+- 20% >= X <= 39,99% dikategorikan kurang baik.
+
+- 40% >= X <= 59,99% dikategorikan cukup baik.
+
+- 60% >= X <= 79,99% dikategorikan baik.
+
+- X >= 80% dikategorikan sangat baik.
+
+
+
+BAB III
+METODOLOGI PENELITIAN
+
+Dalam bab  ini  akan  dijelaskan  tahap-tahap  penelitian  yang  dilakukan
+
+yang  terdiri  dari  Tahap  Persiapan,  Tahap  Pelaksanaan  Penelitian,  dan  Tahap
+
+Pelaporan.
+
+III.1 Tahap Persiapan
+
+Pada  tahap  persiapan  akan  dilakukan  beberapa  persiapan  yaitu  bahan
+
+penelitian, alat yang digunakan, dan metodologi penelitian.
+
+III.1.1 Bahan Penelitian
+
+Bahan  penelitian  berupa  data-data  koordinat  dan  foto  panorama  yang
+
+diambil pada saat survei lokasi.
+
+III.1.2 Alat yang Dipergunakan
+
+Berikut  adalah  alat  yang  akan  digunakan  dalam  pengumpulan  dan
+
+pengembangan sistem.
+
+III.1.2.1 Alat Penelitian
+
+Alat penelitian yang digunakan dalam penelitian ini adalah:
+
+1. Data Flow Diagram (DFD), untuk menggambarkan alur data pada sistem.
+
+2. Entity Relationship Diagram (ERD), untuk menggambarkan dan memperjelas
+
+hubungan antar entitas dan mempermudah relasi data.
+
+III.1.2.2 Perangkat Keras
+
+Perangkat keras yang digunakan dalam penelitian ini adalah:
+
+- PC/Laptop untuk pengembangan sistem dengan spesifikasi:
+
+ Intel Core i7 2,9 Ghz
+
+ SSD 512GB
+
+ RAM 16GB
+
+ GPU Radeon Pro 560 4GB
+
+- Samsung Gear 360, digunakan untuk pengambilan gambar panorama.
+
+- Tripod, digunakan untuk penyangga kamera.
+
+23
+
+
+
+24
+
+- GPS,  digunakan  untuk  pengambilan  koordinat  lokasi  dan  penentu
+
+arah/sudut.
+
+III.1.2.3 Perangkat Lunak
+
+Perangkat lunak yang digunakan untuk penelitian ini adalah:
+
+1. Sistem operasi macOS Catalina versi 10.15.1.
+
+2. Visual Studio Code sebagai text editor.
+
+3. MariaDB sebagai basis data.
+
+4. Laravel 5.8 sebagai framework bahasa pemograman PHP.
+
+5. PHP versi 7.3.9.
+
+6. Apache versi 2.4.41.
+
+III.1.2.4 Metodologi Penelitian
+
+Langkah-langkah  dalam  penelitian  yang  dilakukan  dapat  dilihat  pada
+
+Gambar 3.1 dibawah ini.
+
+Gambar 3.1 Diagram Alir Penelitian
+
+Berikut adalah penjelasan dari diagram alir penelitian pada Gambar 3.1:
+
+1. Studi Literatur
+
+Pada tahap studi literatur akan dilakukan perncarian dan pemahaman teori dari
+
+referensi ilmiah. Teori yang didapat akan menjadi landasan dalam melakukan
+
+perancangan sistem. Teori yang diperlukan dalam penelitian ini berupa teori
+
+mengenai sistem informasi geografis, virtual tour, cara kerja web server, dan
+
+lainnya yang berkaitan dengan penelitian yang dilakukan.
+
+2. Analisa Kebutuhan
+
+Pada tahap ini akan dilakukan analisis untuk menentukan data yang diperlukan
+
+dalam membangun sistem pada penelitian ini.
+
+
+
+25
+
+3. Pengumpulan Data
+
+Pengumpulan  data  dilakukan  dengan  melakukan  survei  ke  lokasi  untuk
+
+mengambil  titik  koordinat  lokasi  menggunakan  GPS  dan  mengambil  foto
+
+panorama menggunakan kamera Samsung Gear 360.
+
+4. Perancangan Sistem
+
+Pada tahap ini akan dilakukan desain sistem yang meliputi arsitektur sistem,
+
+diagram konteks,  diagram  overview,  diagram rinci,  perancangan antarmuka
+
+dan perancangan basis data. Perancangan sistem dilakukan berdasarkan hasil
+
+analisa kebutuhan.
+
+5. Implementasi
+
+Pada  tahap  implementasi  akan  dilakukan  pembuatan  sistem  berdasarkan
+
+analisis  kebutuhan dan beberapa perancangan yang telah dilakukan tahapan
+
+sebelumnya dengan membuat sebuah program dengan cara pengkodean.
+
+6. Pengujian dan Evaluasi
+
+Pengujian sistem dilakukan dengan metode Black Box dan Metode UAT. Jika
+
+pengujian belum memenuhi kriteria yang ditentukan, maka kembali ke analisa
+
+kebutuhan untuk memenuhi kriteria yang diinginkan.
+
+7. Penarikan Kesimpulan
+
+Kesimpulan dirumuskan berdasarkan pengujian yang telah dilakukan.
+
+III.2 Tahap Pelaksanaan Penelitian
+
+Pada  tahap  ini  akan  dilakukan  pemgembangan  sistem dengan  metode
+
+waterfall. Terdapat beberapa tahapan yang harus dilalui yaitu, analisa kebutuhan,
+
+desain sistem, implementasi, pengujian, dan pemeliharaan.
+
+Gambar 3.2 Tahapan Metode Waterfall
+
+
+
+26
+
+III.2.1 Analisa Kebutuhan
+
+Pada tahap  analisis  kebutuhan  akan dilakukan  analisa  dan  memahami
+
+kebutuhan sistem akan dibuat. Untuk memenuhi kebutuhan, maka akan dirancang
+
+sebuah sistem guna memenuhi fungsionalitas yaitu menampilkan data secara real-
+
+time untuk menunjang kebutuhan  user dan mengintegrasikan  file panorama ke
+
+dalam peta digital.
+
+III.2.2 Pengumpulan Data
+
+Pada  tahap  ini  akan  dilakukan  pengumpulan  data  yang  dibutuhkan.
+
+Tahap ini terbagi menjadi beberapa tahap yaitu tahap pengambilan titik koordinat
+
+dan tahap pengambilan gambar panorama.
+
+III.2.2.1 Tahap Pengambilan Titik Koordinat
+
+Pada tahap ini akan dilakukan pengambilan titik panorama menggunakan
+
+GPS Garmin Oregon 7 APAC. Titik yang diambil berdasarkan pada lokasi kamera
+
+Samsung Gear 360 Camera yang akan digunakan mengambil gambar panorama. 
+
+III.2.2.2 Tahap Pengambilan Gambar Panorama
+
+Pada  tahap  ini  akan  dilakukan  pengambilan  gambar  menggunakan
+
+kamera  Samsung Gear  360 Camera beserta  titik  koordinat  menggunakan fitur
+
+geotagging pada device. Setiap melakukan pengambilan gambar panorama, secara
+
+otomatis latitude dan longitude pada lokasi yang sudah ditentukan akan masuk ke
+
+metadata sebuah gambar panorama yang diambil.  Dalam pengambilan  gambar
+
+memerlukan teknik pengambilan agar gambar sesuai arah pada peta dan mudah
+
+dalam menghubungkan tiap gambar panorama. Hal ini bertujuan agar pada saat
+
+memulai mode  virtual tour tidak terjadi kesalahan arah. Berikut adalah tahapan
+
+persiapan pengambilan gambar panorama yaitu:
+
+ Menyangga kamera Samsung Gear 360 Camera ke tripod.
+
+ Meletakan tripod dilokasi yang sudah ditentukan.
+
+ Kalibrasi  arah  utara  dan  memiringkan  lensa  utama  kamera  ke  arah  kiri
+
+sebesar ± 40º (Gambar 3.3).
+
+
+
+27
+
+Gambar 3.3 Proses Kalibrasi Device
+
+Setelah  proses  kalibrasi  selesai,  akan dilanjutkan  dengan pengambilan
+
+gambar.  Sebelum melakukan pengambilan gambar,  akan dilakukan pengecekan
+
+pada layar  smartphone  yang sudah terkoneksi pada kamera  Samsung Gear 360
+
+Camera agar tidak terjadi kesalahan pengambilan gambar yang bertujuan mencari
+
+arah  utara  pada  gambar  panorama.  Arah  utara  pada  gambar  panorama  dapat
+
+dilihat pada Gambar 3.4.
+
+Gambar 3.4 Arah Utara Pada Gambar Panorama
+
+Menghasilkan gambar panorama yang mempunyai arah yang tepat sangat
+
+penting  karena  akan  berpengaruh  pada  penginputan  heading.  Heading  nilai
+
+arah/sudut untuk menghubungkan gambar panorama.  Heading merupakan sudut
+
+atau  arah  yang  akan  digunakan  untuk  menghubungkan  foto  panorama.  Nilai
+
+heading bermula  dari  0  –  359.  Dalam  menentukan  heading,  terlebih  dahulu
+
+mengetahui arah utara. Setelah mengetahui arah utara, akan dilakukan penentuan
+
+arah.
+
+
+
+28
+
+Gambar 3.5 Penentuan Heading
+
+III.2.3 Perancangan Sistem
+
+Pada tahap ini akan dilakukan perancangan sistem yang meliputi:
+
+1. Perancangan Arsitektur Sistem
+
+2. Perancangan Model Sistem
+
+3. Perancangan Antar Muka Sistem
+
+4. Perancangan Basis Data
+
+5. Pengambilan dan Pengolahan Data
+
+Berikut adalah penjelasan dari perancangan yang diusulkan.
+
+III.2.3.1 Perancangan Arsitektur Sistem
+
+Secara umum gambaran sistem dapat dibuat rancangan awal arsitektur
+
+sistem yang dapat dilihat pada Gambar 3.6.
+
+
+
+29
+
+Gambar 3.6 Desain Arsitektur Sistem
+
+Berdasarkan Gambar 3.6 dapat dilihat bahwa perancangan dari sistem ini
+
+memiliki beberapa proses yang dapat dijelaskan sebagai berikut:
+
+ Database  berupa  data  layer,  data  lokasi  wisata,  data  panorama,  data
+
+destination (penghubung gambar panorama), data artikel, data  about, dan
+
+data contact.
+
+ Web Server  sebagai  service kepada  client  yang  berkomunikasi  dengan
+
+HTTP.
+
+ Google  Maps  API sebagai  pihak  ketiga  untuk  memberi  layanan  peta
+
+digital.
+
+ Sistem Informasi Geografis Wisata Alam Kabupaten Kapuas Hulu dengan
+
+Fitur Virtual Tour Berbasis Website adalah aplikasi yang akan diakses oleh
+
+pengguna.
+
+III.2.3.2 Perancangan Model Sistem
+
+Dalam perancangan  sistem akan  digunakan  diagram konteks,  diagram
+
+overview, dan diagram rinci.
+
+
+
+30
+
+III.2.3.2.1 Diagram Konteks
+
+Diagram konteks sistem adalah diagram yang memberi gambaran seluruh
+
+jaringan terhadap seluruh masukan dan keluaran sistem. Hal ini dapat dilihat pada
+
+Gambar 3.7.
+
+Gambar 3.7 Diagram Konteks Sistem
+
+Berikut penjelasan dari Gambar 3.7 yaitu:
+
+1. Admin  adalah  pengguna  yang  memiliki  hak  akses  penuh  terhadap
+
+aplikasi  dan  bertugas  menjalankan  manajemen  data  dan  menjaga
+
+aktivitas web dan basis data.
+
+2. Masyarakat adalah pengguna umum internet atau orang yang mengakses
+
+aplikasi dan dapat melihat informasi yang aplikasi keluarkan.
+
+
+
+III.2.3.2.2 Diagram Overview
+
+Gambar 3.8 Diagram Overview
+
+31
+
+
+
+Berikut adalah penjelasan dari proses pada Gambar 3.8:
+
+1. Proses 1.0 
+
+Pada  proses  ini  admin  melakukan  login  dengan  memasukan  data  berupa
+
+username dan password dan akan terjadi proses verifikasi.
+
+2. Proses 2.0
+
+proses menampilkan lokasi  wisata  dan lokasi  titik  panorama dalam sebuah
+
+peta.
+
+3. Proses 3.0
+
+Proses ini adalah proses manajemen data  layer yang meliputi  create,  update,
+
+dan delete.
+
+4. Proses 4.0
+
+Proses ini adalah proses manajemen data lokasi yang meliputi create, update,
+
+dan delete.
+
+5. Proses 5.0
+
+Proses  ini  adalah  proses  manajemen  data  panorama  yang  meliputi  create,
+
+update, dan delete.
+
+6. Proses 6.0
+
+Proses ini  adalah  proses manajemen data  destination yang meliputi  create,
+
+update, dan delete.
+
+7. Proses 7.0
+
+Proses ini adalah proses manajemen data artikel yang meliputi create, update,
+
+dan delete.
+
+8. Proses 8.0
+
+Proses ini adalah proses manajemen data about yang meliputi create, update,
+
+dan delete.
+
+9. Proses 9.0
+
+Proses ini adalah proses manajemen data contact yang meliputi create, update,
+
+dan delete.
+
+III.2.3.2.3 Diagram Rinci
+
+Berikut  adalah  penjelasan  perancangan  sistem  menggunakan  diagram
+
+rinci:
+
+32
+
+
+
+33
+
+1) Diagram Rinci Proses 2.0
+
+Proses 2.0 meliputi empat proses yang dapat dilihat pada Gambar 3.9 berikut
+
+ini.
+
+Gambar 3.9 Diagram Rinci Proses 2.0
+
+Berikut adalah penjelasan dari Gambar 3.9:
+
+1. Proses  2.1  adalah  proses  masyarakat  mengakses  aplikasi  dan  Google  API
+
+melakukan request data yang diperlukan untuk menampilkan informasi dalam
+
+sebuah peta.
+
+2. Proses 2.2 adalah proses menampilkan peta pada aplikasi yang diakses oleh
+
+masyarakat.
+
+III.2.3.3 Perancangan Antarmuka Sistem 
+
+Pada tahap ini akan dilakukan perancangan antarmuka sistem yaitu untuk
+
+halaman untuk admin, halaman untuk depan. 
+
+
+
+34
+
+Gambar 3.10 Struktur Antarmuka Halaman Depan
+
+Gambar 3.11 Struktur Antarmuka Halaman Admin
+
+a. Halaman Depan
+
+Halaman  ini  terdiri  dari  lima  halaman  yaitu  halaman  Beranda, Peta,
+
+Artikel, About, dan contact. Berikut ini adalah penjelasan halaman depan.
+
+1. Halaman Beranda
+
+Halaman ini adalah halaman utama saat mengakses website.
+
+
+
+35
+
+Gambar 3.12 Rancangan Halaman Beranda
+
+2. Halaman Peta
+
+Halaman ini menampilkan peta persebaran lokasi wisata dan virtual tour.
+
+Gambar 3.13 Rancangan Halaman Peta
+
+3. Halaman Artikel
+
+Halaman ini berisi artikel-artikel yang dipublikasikan oleh admin.
+
+Gambar 3.14 Rancangan Halaman Artikel
+
+4. Halaman About
+
+Halaman ini berisi tentang website ini.
+
+
+
+36
+
+Gambar 3.15 Rancangan Halaman About
+
+5. Halaman Contact
+
+Halaman ini berisi kontak yang dapat dihubungi.
+
+Gambar 3.16 Rancangan Halaman Contact
+
+b. Halaman Admin
+
+Bagian  ini  terdiri  dari  enam  halaman  yaitu  halaman  Layer,  Lokasi,
+
+Artikel, About, dan Contact. Berikut ini adalah penjelasan dari halaman admin.
+
+1. Halaman Layer
+
+Halaman ini merupakan halaman utama admin sekaligus halaman untuk
+
+memanajemen data layer.
+
+
+
+37
+
+Gambar 3.17 Rancangan Halaman Layer untuk Admin
+
+2. Halaman Lokasi
+
+Halaman  ini  merupakan  halaman  yang  digunakan  admin  untuk
+
+memanajemen data lokasi wisata.
+
+Gambar 3.18 Rancangan Halaman Lokasi untuk Admin
+
+3. Halaman Panorama
+
+Halaman  ini  merupakan  halaman  yang  digunakan  admin  untuk
+
+memanajemen  data  panorama  sekaligus  menghubungkan  antar  titik
+
+panorama.
+
+
+
+38
+
+Gambar 3.19 Rancangan Halaman Panorama untuk Admin
+
+4. Halaman Artikel
+
+Halaman  ini  merupakan  halaman  yang  digunakan  admin  untuk
+
+memanajemen data lokasi wisata.
+
+Gambar 3.20 Rancangan Halaman Artikel untuk Admin
+
+5. Halaman About
+
+Halaman ini adalah halaman yang digunakan admin untuk memanajemen
+
+data tentang website.
+
+
+
+39
+
+Gambar 3.21 Rancangan Halaman About untuk Admin
+
+6. Halaman Contact
+
+Halaman ini adalah halaman yang digunakan admin untuk memanajemen
+
+data kontak yang dapat dihubungi.
+
+Gambar 3.22 Halaman Contact untuk Admin
+
+III.2.3.4 Perancangan Basis Data
+
+Basis  data  dirancang  sesuai  dengan  kebutuhan  sistem.  Perancangan
+
+meliputi tahap penentuan entitas, penentuan relasi antar-relasi, tingkat relasi yang
+
+terjadi dan kardinalitas antar-entitas. Secara umum gambaran basis data yang akan
+
+dibangun  memiliki  sepuluh  tabel  yaitu  tabel  layer,  tabel  locations,  tabel
+
+panoramas, tabel links, tabel users, tabel articles, tabel information, tabel media,
+
+tabel  migrations dan tabel  password resets.  Untuk lebih jelasnya hal ini  dapat
+
+dilihat pada Gambar 3.23.
+
+
+
+40
+
+Gambar 3.23 Diagram ERD Perancangan Basis Data
+
+Untuk spesifikasi tabel tersebut dapat dilihat pada tabel dibawah ini:
+
+1. Spesifikasi Tabel Articles
+
+Nama database : virtual_tour_gis
+
+Nama tabel : articles
+
+Keterangan : tabel data artkel
+
+Tabel 3.1 Spesifikasi Tabel Articles
+Nama Field Tipe Key
+
+id bigint (20) *
+
+title varchar (50)
+
+content longtext
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key
+
+2. Spesifikasi Tabel Informations
+
+Nama database : virtual_tour_gis
+
+Nama tabel : informations
+
+Keterangan : tabel data untuk contact dan about
+
+Tabel 3.2 Spesifikasi Tabel Information
+Nama Field Tipe Key
+
+id bigint (20) *
+
+type varchar (255)
+
+
+
+41
+
+Nama Field Tipe Key
+
+icon varchar (255)
+
+title varchar (255)
+
+content longtext
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key
+
+3. Spesifikasi Tabel Layer
+
+Nama database : virtual_tour_gis
+
+Nama tabel : layer
+
+Keterangan : tabel data layer
+
+Tabel 3.3 Spesifikasi Tabel Layers
+Nama Field Tipe Key
+
+layer_id int (10) *
+
+name varchar (255)
+
+description text
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key
+
+4. Spesifikasi Tabel Destinations
+
+Nama database : virtual_tour_gis
+
+Nama tabel : destinations
+
+Keterangan : tabel data untuk menghubungkan gambar panorama
+
+Tabel 3.4 Spesifikasi Tabel Destinations
+Nama Field Tipe Key
+
+id int (10) *
+
+heading double
+
+origin_id int (10) **
+
+destination_id int (10) **
+
+
+
+42
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key
+
+   ** Foreign Key
+
+5. Spesifikasi Tabel Locations
+
+Nama database : virtual_tour_gis
+
+Nama table : locations
+
+Keterangan : table data lokasi
+
+Tabel 3.5 Spesifikasi Tabel Locations
+Nama Field Tipe Key
+
+location_id int (10) *
+
+name varchar (255)
+
+address text
+
+layer_id int (10) **
+
+description text
+
+latitude double
+
+longitude double
+
+created_at timestamp
+
+updated_at timestamp
+
+has_virtual_tour tinyint(1)
+
+Keterangan: * Primary Key
+
+   ** Foreign Key
+
+6. Spesifikasi Tabel Media
+
+Nama database : virtual_tour_gis
+
+Nama tabel : media
+
+Keterangan : tabel data penyimpanan media
+
+Tabel 3.6 Spesifikasi Tabel Media
+Nama Field Tipe Key
+
+
+
+43
+
+id int (10) *
+
+model_type varchar (255)
+
+model_id text
+
+collection_name varchar (255)
+
+name varchar (255)
+
+file_name varchar (255)
+
+mime_type varchar (255)
+
+disk varchar (255)
+
+size int (10)
+
+manipulations longtext
+
+custom_properties longtext
+
+responsive_images longtext
+
+order_column int (10)
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key
+
+7. Spesifikasi Tabel Migrations
+
+Nama database : virtual_tour_gis
+
+Nama tabel : migrations
+
+Keterangan : tabel data catatan migrasi basis data (sistem laravel)
+
+Tabel 3.7 Spesifikasi Tabel Migrations
+Nama Field Tipe Key
+
+id int (10) *
+
+migrations varchar (255)
+
+batch int (11)
+
+Keterangan: * Primary Key
+
+8. Spesifikasi Tabel Panoramas
+
+Nama database : virtual_tour_gis
+
+
+
+44
+
+Nama tabel : panoramas
+
+Keterangan : tabel data untuk panorama
+
+Tabel 3.8 Spesifikasi Tabel Panoramas
+Nama Field Tipe Key
+
+id int (10) *
+
+location_id int (10) **
+
+name varchar (255)
+
+latitude double
+
+longitude double
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key & ** Foreign Key
+
+9. Spesifikasi Tabel Password Resets
+
+Nama database : virtual_tour_gis
+
+Nama tabel : password_resets
+
+Keterangan : tabel data untuk reset password (sistem laravel)
+
+Tabel 3.9 Spesifikasi Tabel Password Resets
+Nama Field Tipe Key
+
+email varchar (255) *
+
+token varchar (255)
+
+created_at timestamp
+
+Keterangan: * Primary Key
+
+10. Spesifikasi Tabel Users
+
+Nama database : virtual_tour_gis
+
+Nama tabel : users
+
+Keterangan : tabel data admin
+
+Tabel 3.10 Spesifikasi Tabel Users
+Nama Field Tipe Key
+
+id int (10) *
+
+name varchar (255)
+
+username varchar (255)
+
+
+
+45
+
+email varchar (255)
+
+email_verified_at timestamp
+
+password varchar (255)
+
+remember_token varchar (100)
+
+created_at timestamp
+
+updated_at timestamp
+
+Keterangan: * Primary Key
+
+   ** Foreign Key
+
+Dari  seluruh  tabel  pada  database,  terdapat  beberapa  relasi  antar  tabel
+
+yang dapat dilihat pada Gambar 3.24.
+
+Gambar 3.24 Relasi Antar Tabel
+
+III.2.4 Pengujian dan Penarikan Kesimpulan
+
+Pada tahap ini akan dilakukan pengujian terhadap sistem yang dibangun.
+
+Metode pengujian yang digunakan adalah metode Black Box Testing dan metode
+
+User Acceptance Testing (UAT). 
+
+Pada  metode  Black  Box  Testing akan  dilakukan  pengujian  yang
+
+berfokuskan kepada persyaratan fungsional sistem yang telah dibuat. Pengujian
+
+yang dilakukan dengan melakukan  input data menggunakan data yang valid dan
+
+
+
+46
+
+tidak valid. Selain itu juga dilakukan simulasi mengakses web secara bersamaan
+
+waktu untuk mengetahui kemampuan sistem apakah tetap dapat diakses dengan
+
+baik atau tidak.
+
+Pada metode  User  Acceptance  Test akan  dilakukan  pengujian  dengan
+
+cara  memberikan  kuesioner  kepada  responden.  Dalam  kuesioner  tersebut
+
+responden  menjawabnya  dalam penilaian  skala  (rating).  Kuesioner  yang  akan
+
+dibagikan terbagi menjadi dua bagian yaitu kuesioner untuk guest dan kuesioner
+
+untuk  admin.  Berikut  kuesioner  yang  akan  diberikan  kepada  responden  dapat
+
+dilihat pada Tabel 3.11 dan Tabel 3.12.
+
+Tabel 3.11 Tabel Kuesioner untuk Guest
+
+No
+
+Aspek 
+Penilaian
+
+Nilai Pengujian Persenta
+se
+
+LikertTB KB CB B SB
+
+1
+Tombol menu bisa 
+digunakan dengan baik
+
+2
+Tampilan aplikasi 
+mudah dimengerti
+
+3
+Informasi yang 
+ditampilkan sistem 
+mudah dipahami
+
+4
+Icon yang ditampilkan 
+peta mememberikan 
+informasi yang sesuai
+
+5
+
+Aplikasi ini dapat 
+membantu menemukan
+lokasi wisata dengan 
+mudah
+
+6
+
+Virtual tour dalam 
+aplikasi ini dapat 
+membantu menjelajahi 
+lokasi wisata
+
+7
+
+Gambar panorama 
+yang ditampilkan 
+terlihat dengan jelas
+
+Total Persentase (%)
+
+Keterangan: TB = Sangat Buruk
+
+KB = Buruk
+
+CB = Cukup Baik
+
+B = Baik
+
+
+
+47
+
+SB = Sangat Baik
+
+Tabel 3.12 Tabel Kuesioner untuk Admin
+
+No
+
+Aspek 
+Penilaian
+
+Nilai Pengujian Persenta
+se
+
+LikertTB KB CB B SB
+
+1
+Kemudahan 
+penginputan data
+
+2 Kecepatan upload data
+
+3
+Cara pengambilan 
+gambar mudah 
+dimengerti
+
+4
+Menghubungkan titik 
+panorama mudah 
+dimengerti
+
+Total Persentase (%)
+
+Keterangan: TB = Sangat Buruk
+
+KB = Buruk
+
+CB = Cukup Baik
+
+B = Baik
+
+SB = Sangat Baik
+
+Untuk  mengetahui  tingkat  keberhasilan  aplikasi  dari  kuesioner,  akan
+
+dilanjutkan perhitungan dengan menggunakan metode Likert’s Summated Rating
+
+(LSR)  untuk  mengukur  skor  terkecil  dan  terbesar  dari  7  pertanyaan  untuk
+
+kuesioner bagian pengguna dan 4 pertanyaan untuk kuesioner bagian admin yang
+
+ditanggapi oleh responden.
+
+Setelah proses pengujian selesai, maka akan dilanjutkan dengan analisis
+
+hasil.  Selanjutnya  akan  dilanjutkan  dengan penarikan  kesimpulan.  Kesimpulan
+
+diambil  berdasarkan tahapan-tahapan yang telah  dilakukan sebelumnya apakah
+
+sistem yang dirancang dan dibangun dapat berjalan dengan baik sesuai dengan
+
+yang diharapkan.
+
+III.2.5 Evaluasi Hasil Pengujian
+
+Pada tahap ini akan dilakukan evaluasi pada sistem. Hal ini dikarenakan
+
+beberapa hal yaitu:
+
+
+
+48
+
+1. Sistem  memiliki  kesalahan  yang  dulunya  belum  terdeteksi  sehingga
+
+kesalahan-kesalahan sistem perlu diperbaiki.
+
+2. Sistem mengalami perubahan karena permintaan baru dari pemakai sistem.
+
+3. Sistem perlu ditingkatkan.
+
+Selain itu, evaluasi pada sistem akan dilakukan secara korektif. Evaluasi
+
+ini adalah bagian pemeliharaan sistem yang tidak begitu tinggi nilainya dan lebih
+
+membebani  karena  pemeliharaan  ini  mengkoreksi  kesalahan-kesalahan  yang
+
+ditemukan saat sistem berjalan.
+
+III.3 Tahap Pelaporan
+
+Tahapan penulisan laporan yakni berfokus pada penulisan laporan tugas
+
+akhir.  Penulisan  laporan  disesuaikan  dengan  format  penulisan  yang  telah
+
+ditetapkan  Panitia  Perumus  Format  Penulisan  Skripsi  Program  S-1  Fakultas
+
+Teknik  Universitas  Tanjungpura.  Setelah  penulisan  laporan  penelitian  selesai,
+
+maka akan dilakukan seminar hasil kemudian sidang terbuka.
+
+
+
+BAB IV
+IMPLEMENTASI DAN HASIL PENGUJIAN
+
+IV.1 Hasil Perancangan
+
+Implementasi  menghasilkan  perancangan  terdiri  dari  dua  tampilan
+
+antarmuka,  yaitu  Halaman  Depan  dan  Halaman  Admin.  Halaman  Depan  bisa
+
+diakses  oleh  semua  pengguna  sedangkan  Halaman  Admin  yang  hanya  bisa
+
+diakses oleh administrator.  Berikut adalah hasil tampilan antarmuka yang telah
+
+dirancang. 
+
+IV.1.1 Tampilan Halaman Depan 
+
+Halaman  depan  adalah  halaman  yang  dapat  diakses  oleh  semua  orang
+
+tanpa harus  login.  Halaman depan ini terdiri dari menu Beranda, Peta, Artikel,
+
+About,  dan  Contact.  Fungsi  dari  masing-masing menu dapat  dilihat  pada tabel
+
+berikut.
+
+Tabel 4.1 Daftar Menu Halaman Depan
+Menu Fungsi
+
+Beranda Menampilkan halaman awal saat website diakses.
+
+Peta Menampilkan peta persebaran lokasi wisata dan akses virtual tour.
+
+Artikel Menampilkan artikel.
+
+About Menampilkan informasi dan deskripsi mengenai website.
+
+Contact Menampilkan informasi kontak yang dapat dihubungi.
+
+a) Halaman Beranda
+
+Halaman  Beranda  merupakan  halaman  awal  yang  tampil  saat  website
+
+diakses.  Halaman  ini  memuat  bagian-bagian seperti  header dan artikel  terbaru
+
+yang dilengkapi tombol Baca untuk membaca artikel yang dipilih (Gambar 4.6). 
+
+49
+
+
+
+50
+
+Gambar 4.1 Tampilan Halaman Beranda
+
+b) Halaman Peta
+
+Halaman  Peta  menampilkan  persebaran  lokasi  wisata  yang  sudah
+
+dipublikasi oleh admin. Pada saat halaman dimuat, peta hanya menampilkan filter
+
+layer. Pemilihan lokasi wisata dilakukan dengan mengklik ikon  layer pada peta
+
+sehingga muncul deskripsi di bawah layer.
+
+Gambar 4.2 Tampilan Halaman Peta Sebelum Memilih Lokasi Wisata
+
+
+
+51
+
+Gambar 4.3 Tampilan Halaman Peta Setelah Memilih Lokasi Wisata
+
+Halaman ini juga dilengkapi dengan tombol Mode Virtual Tour.  Tombol
+
+Mode Virtual Tour berfungsi untuk memulai mode virtual tour pada lokasi yang
+
+dipilih.  Pada  halaman  Mode  Virtual  Tour  juga  terdapat  bagian-bagian  seperti
+
+header, peta, deskripsi lokasi, filter layer, serta tombol Keluar dari Mode Virtual
+
+Tour.
+
+Gambar 4.4 Tampilan Halaman Virtual Tour
+
+c) Halaman Artikel
+
+Halaman  Artikel  berisikan  artikel-artikel  yang  disediakan  oleh
+
+administrator.
+
+
+
+52
+
+Gambar 4.5 Tampilan Halaman Artikel
+
+Pada  halaman  artikel  terdapat  juga  tombol  Baca  Artikel  yang  akan
+
+mengarahkan ke halaman detail artikel.
+
+Gambar 4.6 Tampilan Halaman Detail Artikel
+
+d) Halaman About
+
+Halaman  Berita  berisi  tentang  kumpulan  informasi  dan  deskripsi
+
+mengenai website.
+
+
+
+53
+
+Gambar 4.7 Tampilan Halaman About
+
+e) Halaman Contact
+
+Halaman Tentang berisi mengenai kontak yang dapat dihubungi.
+
+Gambar 4.8 Tampilan Halaman Contact
+
+IV.1.2 Halaman Admin
+
+Halaman Admin merupakan halaman yang hanya dapat  diakses  oleh
+
+adminstrator.  Untuk  menuju  halaman  ini  terlebih  dahulu  melakukan  login.
+
+Halaman ini berfungsi untuk memanajemen data. Halaman ini terdiri dari menu
+
+Layer, Lokasi,  Artikel,  About,  dan  Contact. Fungsi dari menu tersebut dapat
+
+dilihat dari Tabel 4.2. 
+
+Tabel 4.2 Daftar Menu Halaman Admin
+Menu Fungsi
+
+Layer Merupakan  halaman  awal  dan  menampilkan  halaman  untuk
+
+memanajemen data layer.
+
+Lokasi Menampilkan halaman untuk memanajemen data lokasi wisata
+
+
+
+54
+
+dan data panorama.
+
+Artikel Menampilkan halaman untuk memanajemen data artikel yang
+
+akan disediakan di halaman depan.
+
+About Menampilkan  halaman  untuk  mengubah  informasi  tentang
+
+website.
+
+Contact Menampilkan halaman untuk mengubah informasi kontak dari
+
+website.
+
+a) Halaman Login
+
+Untuk masuk ke halaman admin, terlebih dahulu melewati halaman login
+
+dengan memasukann username dan password. Jika username dan password sudah
+
+benar, akan langsung diarahkan ke halaman beranda.
+
+Gambar 4.9 Tampilan Halaman Login
+
+b) Halaman Layer
+
+Setelah melakukan autentikasi di halaman login, kemudian akan masuk ke
+
+halaman awal admin yaitu halaman layer. Halaman layer menampilkan tabel yang
+
+berisi layer-layer yang siap dimanajemenkan.
+
+
+
+55
+
+Gambar 4.10 Tampilan Halaman Layer
+
+Pada  halaman  layer  juga  terdapat  tombol  Layer  Baru  yang  digunakan
+
+menambah layer. Pada saat tombol diklik, halaman akan memuat form yang harus
+
+diisi oleh admin. Data yang harus diisi adalah Nama Layer, Deskripsi, dan Icon.
+
+Setelah  semua  data  diinput,  akan  dilanjutkan  dengan  mengklik  tombol
+
+Tambahkan Layer untuk menyimpan layer.
+
+Gambar 4.11 Tampilan Halaman Tambah Layer
+Apabila terjadi kesalahan penginputan data atau ingin merubah data, pada
+
+halaman layer  ini  juga disediakan tombol Sunting.  Tombol  Sunting digunakan
+
+untuk merubah data  layer yang sudah tersimpan di  database. Pada saat tombol
+
+Suntik diklik, halaman akan memuat form yang sudah berisi data layer yang siap
+
+dirubah.  Setelah  merubah  data  layer,  maka  akan  dilanjutkan  dengan  menekan
+
+tombol Ubah untuk menyimpan perubahan data.
+
+
+
+56
+
+Gambar 4.12 Tampilan Halaman Sunting Layer
+
+Selain  tombol  Sunting,  halaman  ini  juga  tersedia  tombol  Hapus  yang
+
+digunakan untuk menghapus layer. Penghapusan layer memiliki syarat yaitu suatu
+
+layer belum digunakan oleh salah satu lokasi.  Pada saat  tombol  Hapus diklik,
+
+tombol ini akan menampilkan form konfirmasi penghapusan. Untuk melanjutkan
+
+proses penghapusan cukup dengan menekan tombol Hapus pada form. 
+
+c) Halaman Lokasi
+
+Halaman lokasi menampilkan peta persebaran lokasi dan disamping peta
+
+terdapat daftar-daftar lokasi yang tersimpan di database. 
+
+Gambar 4.13 Tampilan Halaman Lokasi
+
+Pada halaman lokasi terdapat tombol Tambah Lokasi Baru yang berada di
+
+kanan atas pada peta. Tombol Tambah Lokasi Baru berfungsi menampilkan form
+
+untuk data lokasi baru. Pada  form Tambah Lokasi Baru terdapat beberapa  field
+
+yang  harus  diisi  antara  lain  Nama,  Alamat,  Deskripsi,  Layer,  Latitude,  dan
+
+
+
+57
+
+Longitude.  Setelah  mengisi  semua  field,  akan  dilanjutkan  dengan  mengklik
+
+tombol Tambah Data untuk menyimpan ke database.
+
+Gambar 4.14 Tampilan Form Tambah Lokasi
+
+ Pada tiap lokasi  memiliki  tiga tombol  aksi yaitu  Panorama,  Edit,  dan
+
+Hapus.  Setiap  tombol  aksi  memiliki  masing-masing fungsi.  Tombol  Panorama
+
+berfungsi menampilkan peta lokasi panorama dari lokasi wisata yang dipilih.
+
+Gambar 4.15 Tampilan Halaman Panorama
+
+Pada halaman panorama terdapat  tombol Tambah Panorama Baru yang
+
+berfungsi untuk menambah panorama dan tiga tombol aksi pada setiap panorama
+
+yang tersimpan yaitu Link, Edit, dan Hapus. Pada saat tombol Tambah Panorama
+
+Baru  diklik,  halaman  akan  menampilkan  form  yang  harus  diisi  yaitu  Nama,
+
+Latitude, Longitude dan file gambar panorama. Setelah semua  field terisi,  akan
+
+
+
+58
+
+dilanjutkan dengan menekan tombol Tambah Panorama untuk menyimpan data
+
+panorama ke database.
+
+Gambar 4.16 Tampilan Form Tambah Panorama
+
+Tombol Edit berfungsi menampilkan form untuk merubah data panorama
+
+yang dipilih. Setelah merubah data panorama, akan dilanjutkan dengan mengklik
+
+tombol Perbarui panorama untuk menyimpan perubahan ke database. 
+
+Tombol  Destination berfungsi  menghubungkan  setiap  panorama  yang
+
+akan ditampilkan di halaman depan. Pada saat tombol Link diklik, halaman akan
+
+menampilkan  form yang harus  diisi  oleh  admin.  Data  yang harus  diisi  adalah
+
+Panorama tujuan dan heading.
+
+Gambar 4.17 Tampilan Form Kelola Destination
+
+
+
+59
+
+Tombol dengan icon centang berfungsi menyimpan perubahasan heading
+
+dan tombol dengan icon trash berfungsi menghapus data destination.
+
+Gambar 4.18 Tampilan Form Edit Panorama
+
+Dan  tombol  Hapus  berfungsi  untuk  menampilkan  form  konfirmasi
+
+penghapusan panorama. Untuk melakukan penghapusan panorama hanya dengan
+
+mengklik tombol Konfirmasi Penghapusan.
+
+Gambar 4.19 Tampilan Form Konfirmasi Hapus Panorama
+
+Setelah  tombol  Panorama,  halaman  lokasi  juga  memiliki  tombol  Edit.
+
+Tombol  Edit  berfungsi  menampilkan  form berisi  data  dari  lokasi  wisata  yang
+
+dipilih  yang  siap  dirubah.  Setelah  merubah  data  dari  sebuah  lokasi,  akan
+
+dilanjutkan dengan menekan tombol Perbarui Data untuk menyimpan perubahan
+
+data ke database.
+
+
+
+60
+
+Gambar 4.20 Tampilan Form Edit Lokasi
+
+Dan  tombol  hapus  berfungsi  untuk  menampilkan  form konfirmasi
+
+penghapusan  lokasi.  Untuk  melakukan  penghapusan  cukup  dengan  mengklik
+
+tombol Hapus pada form.
+
+Gambar 4.21 Tampilan Form Hapus Lokasi
+
+d) Halaman Artikel
+
+Halaman artikel adalah halaman yang menampilkan data-data artikel yang
+
+tersimpan di database yang siap dimanajemenkan.
+
+Gambar 4.22 Tampilan Halaman Artikel
+
+
+
+61
+
+ Terdapat tombol Artikel Baru untuk menambah artikel. Pada saat tombol
+
+Artikel  Baru  diklik,  browser  akan  memuat  halaman  yang  berisi  form untuk
+
+menambah artikel dengan dua field yaitu Judul dan Konten atau isi artikel. Setelah
+
+mengisi semua  field, akan dilanjutkan dengan mengklik tombol Tambah Artikel
+
+untuk menyimpannya ke database.
+
+Gambar 4.23 Tampilan Halaman Tambah Artikel
+
+Selain itu halaman artikel juga memiliki beberapa tombol aksi pada setiap
+
+artikel. Tombol itu adalah tombol Sunting dan Hapus. Tombol Sunting berfungsi
+
+memuat halaman untuk merubah data artikel yang dipilih. Setelah merubah data
+
+artikel,  akan  dilanjutkan  dengan  dengan  mengklik  tombol  Ubah  Data  untuk
+
+menyimpan perubahan ke database.
+
+Gambar 4.24 Tampilan Halaman Sunting Artikel
+
+Untuk menghapus artikel,  terdapat  tombol Hapus di setiap data  artikel.
+
+Pada  saat  tombol  Hapus  ditekan,  halaman  akan  muncul  popup konformasi
+
+
+
+62
+
+penghapusan  artikel.  Untuk  melanjutkan  proses  penghapusan  cukup  dengan
+
+mengklik tombol Ya.
+
+Gambar 4.25 Tampilan Popup Hapus Artikel
+
+e) Halaman About
+
+Halaman  about menampilkan halaman untuk memanajemen data  about
+
+yang  akan  ditampilkan  di  halaman  depan.  Pada  halaman  about terdapat  field
+
+konten  yang  berisi  isi  dari  about dan  tombol  Ubah  Data  untuk  menyimpan
+
+perubahan ke database.
+
+Gambar 4.26 Tampilan Halaman About
+
+f) Halaman Conatct
+
+Halaman contact menampilkan halaman untuk memanajemen data contact
+
+yang akan ditampilkan di halaman depan.  Pada halaman  contact terdapat  field
+
+konten  yang  berisi  isi  dari  contact dan  tombol  Ubah  Data  untuk  menyimpan
+
+perubahan ke database.
+
+
+
+63
+
+Gambar 4.27 Tampilan Halaman Contact
+
+IV.2 Pengujian Aplikasi
+
+Pengujian aplikasi akan dilakukan dengan dua pengujian yaitu pengujian
+
+dengan metode Blackbox dan metode User Acceptance Test (UAT).
+
+IV.2.1 Hasil Pengujian Blackbox
+
+a) Pengujian Halaman Depan
+
+Berikut  ini  merupakan  hasil  pengujian  yang  dilakukan  menggunakan
+
+pengujian blackbox pada halaman depan. 
+
+Tabel 4.3 Hasil Pengujian Halaman Beranda
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih tombol Baca Menampilkan halaman detail
+
+artikel
+
+Berhasil
+
+(Gambar 4.6)
+
+Tabel 4.4 Hasil Pengujian Halaman Peta
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Centang  layer  pada  filter
+
+layer di peta
+
+Menampilkan  peta  dengan
+
+memunculkan ikon layer
+
+Berhasil
+
+(Gambar 4.2)
+
+Pilih  lokasi  wisata  atau  klik
+
+ikon pada peda
+
+Menampilkan  peta  dengan
+
+deskripsi  disertai  tombol
+
+Mode Virtual Tour
+
+Berhasil
+
+(Gambar 4.3)
+
+Pilih  tombol  Mode  Virtual
+
+Tour
+
+Menampilkan  peta  yang
+
+berisi  titik  panorama sebagai
+
+Berhasil
+
+(Gambar 4.4)
+
+
+
+64
+
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+penunjuk  lokasi  dan
+
+menampilkan  jendela  virtual
+
+tour
+
+Pilih arah panah pada jendela
+
+virtual tour
+
+Berpindah  ke  titik  panorama
+
+lain
+
+Berhasil
+
+(Gambar 4.28)
+
+Pilih  ikon  pada  peta  saat
+
+Mode Virtual Tour
+
+Berpindah  ke  titik  panorama
+
+yang dipilih
+
+Berhasil
+
+(Gambar 4.29)
+
+Pilih  tombol  Keluar  dari
+
+Mode Virtual Tour
+
+Menampilkan  peta  dengan
+
+deskripsi  disertai  tombol
+
+Mode Virtual Tour
+
+Berhasil
+
+(Gambar 4.3)
+
+Gambar 4.28 Hasil Perpindahan Menggunakan Arah Panah
+
+Gambar  di  atas  menunjukan  perpindahan  menggunakan  arah  panah
+
+berhasil.
+
+Gambar 4.29 Hasil Perpindahan Menggunakan Ikon
+
+
+
+65
+
+Gambar di atas menunjukan perpindahan dengan mengklik ikon pada peta
+
+berhasil.
+
+Tabel 4.5 Hasil Pengujian Artikel
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih tombol baca artikel Menampilkan  halaman  detail
+
+artikel
+
+Berhasil
+
+(Gambar 4.6)
+
+Pilih angka pada Pagination Menampilkan  artikel  yang
+
+lainnya
+
+Berhasil
+
+(Gambar 4.30)
+
+Gambar 4.30 Hasil Pagination Pada Halaman Artikel
+
+Gambar di atas menunjukan fungsi pagination berjalan sukses.
+
+b) Pengujian Halaman Admin
+
+Berikut  ini  merupakan  hasil  pengujian  yang  dilakukan  menggunakan
+
+pengujian black box pada halaman admin.
+
+Tabel 4.6 Hasil Pengujian Halaman Login
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih  tombol  Log  In  setelah
+
+memasukan  data  dengan
+
+benar
+
+Menampilkan  halaman  layer
+
+atau halaman utama admin
+Berhasil
+
+(Gambar 4.10)
+
+Tabel 4.7 Hasil Pengujian Halaman Layer Pada Halaman Admin
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih tombol Layer Baru Menampilkan  halaman Berhasil
+
+
+
+66
+
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+tambah layer (Gambar 4.11)
+
+Pilih  tombol  Tambahkan
+
+Layer pada  halaman  tambah
+
+layer
+
+Menyimpan  data  layer yang
+
+baru ke database
+Berhasil
+
+(Gambar 4.10)
+
+Pilih  tombol  Sunting  pada
+
+tabel layer
+
+Menampilkan  halaman
+
+sunting layer
+
+Berhasil
+
+(Gambar 4.12)
+
+Pilih  tombol  Ubah  pada
+
+halaman sunting layer
+
+Menyimpan  perubahan  data
+
+layer yang baru ke database
+
+Berhasil
+
+(Gambar 4.31)
+
+Pilih tombol Hapus pada tabel
+
+layer
+
+Menghapus  data  layer dari
+
+database
+
+Berhasil
+
+(Gambar 4.32)
+
+Gambar 4.31 Hasil Sunting Layer
+
+Gambar di atas menunjukan bahwa sunting layer berhasil.
+
+Gambar 4.32 Hasil Hapus Layer
+
+Gambar di atas menunjukan bahwa hapus layer berhasil.
+
+Tabel 4.8 Hasil Pengujian Halaman Lokasi pada Halaman Admin
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih  tombol  Tambah  Lokasi Menampilkan  form tambah Berhasil
+
+
+
+67
+
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Baru lokasi (Gambar 4.14)
+
+Pilih  tombol  Tambah  Data
+
+pada  form Tambah  Lokasi
+
+Baru
+
+Menyimpan data  lokasi  yang
+
+baru ke database
+Berhasil
+
+(Gambar 4.13)
+
+Pilih  tombol  Panorama  pada
+
+daftar lokasi wisata
+
+Menampilkan  halaman
+
+manajemen panorama
+
+Berhasil
+
+(Gambar 4.15)
+
+Pilih tombol Edit pada daftar
+
+lokasi wisata
+
+Menampilkan form edit lokasi Berhasil
+
+(Gambar 4.22)
+
+Pilih  tombol  Perbarui  data
+
+pada form Edit Lokasi
+
+Menyimpan  perubahan  data
+
+lokasi yang baru ke database
+
+Berhasil
+
+(Gambar 4.33)
+
+Pilih  tombol  Hapus  pada
+
+daftar lokasi wisata
+
+Menampilkan  form
+
+konfirmasi  penghapusan  data
+
+lokasi
+
+Berhasil
+
+(Gambar 4.23)
+
+Pilih tombol Hapus pada form
+
+konfirmasi penghapusan data
+
+Menghapus  data  lokasi  dari
+
+database
+
+Berhasil
+
+(Gambar 4.34)
+
+Pilih ikon lokasi wisata pada
+
+peta
+
+Menampilkan deskripsi lokasi
+
+wisata pada peta
+
+Berhasil
+
+(Gambar 4.35)
+
+Gambar 4.33 Hasil Edit Lokasi
+
+Gambar di atas menunjukan bahwa edit lokasi berhasil.
+
+
+
+68
+
+Gambar 4.34 Hasil Hapus Lokasi
+
+Gambar di atas menunjukan bahwa hapus lokasi berhasil.
+
+Gambar 4.35 Hasil Klik Ikon Lokasi
+
+Gambar  di  atas  menunjukan bahwa mengklik  ikon akan memunculkan
+
+deskripsi lokasi disertai tombol action berhasil.
+
+Tabel 4.9 Hasil Pengujian Halaman Panorama pada Halaman Admin
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih  tombol  Link  to
+
+Destination pada  daftar
+
+panorama yang dipilih
+
+Menampilkan  form
+
+manajemen destination
+Berhasil
+
+(Gambar 4.17)
+
+Pilih tombol Tambah  Link to
+
+Destination pada  form
+
+manajemen destination
+
+Menyimpan  data  destination
+
+yang baru ke database
+Berhasil
+
+(Gambar 4.36)
+
+Pilih  tombol  aksi  Centang
+
+atau  Simpan  Perubahan
+
+Menyimpan  perubahan  data
+
+link yang baru ke database
+
+Berhasil
+
+(Gambar 4.37)
+
+
+
+69
+
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+(tombol warna abu-abu) pada
+
+daftar link
+
+Pilih  tombol  aksi  Hapus
+
+(tombol  warna  merah)  pada
+
+daftar destination
+
+Menghapus  data  destination
+
+dari database
+Berhasil
+
+(Gambar 4.48)
+
+Pilih tombol Edit pada daftar
+
+panorama yang dipilih
+
+Menampilkan  form edit
+
+panorama
+
+Berhasil
+
+(Gambar 4.20)
+
+Pilih  tombol  Perbarui
+
+Panorama  pada  form Edit
+
+Panorama
+
+Menyimpan  perubahan  data
+
+panorama  yang  baru  ke
+
+database
+
+Berhasil
+
+(Gambar 4.39)
+
+Pilih  tombol  Hapus  pada
+
+daftar panorama yang dipilih
+
+Menampilkan  form
+
+konfirmasi  penghapusan  data
+
+panorama
+
+Berhasil
+
+(Gambar 4.21)
+
+Pilih  tombol  Konfirmasi
+
+Penghapusan  pada  form
+
+konfirmasi  penghapusan  data
+
+panorama
+
+Menghapus  data  panorama
+
+yang dipilih dari database Berhasil
+
+(Gambar 4.40)
+
+Gambar 4.36 Hasil Tambah Link Link to Destination
+
+Gambar di atas menunjukan tambah Link to Destination berhasil.
+
+
+
+70
+
+Gambar 4.37 Hasil Edit Link to Destination
+
+Gambar di atas menunjukan edit link berhasil.
+
+Gambar 4.38 Hasil Hapus Link to Destination
+
+Gambar di atas menunjukan hapus Link to Destination berhasil.
+
+Gambar 4.39 Hasil Edit Panorama
+
+
+
+71
+
+Gambar di atas menunjukan edit panorama berhasil.
+
+Gambar 4.40 Hasil Hapus Panorama
+
+Gambar di atas menunjukan hapus link berhasil.
+
+Tabel 4.10 Hasil Pengujian Halaman Artikel pada Halaman Admin
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih  tombol  Artikel  Baru
+
+pada halaman artikel
+
+Menampilkan  halaman
+
+tambah artikel
+
+Berhasil
+
+(Gambar 4.25)
+
+Pilih  tombol  Tambahkan
+
+Artikel pada halaman tambah
+
+artikel
+
+Menyimpan data artikel yang
+
+baru ke database Berhasil
+
+Pilih  tombol  Sunting  daftar
+
+artikel
+
+Menampilkan  halaman
+
+sunting artikel
+
+Berhasil
+
+(Gambar 4.26)
+
+Pilih tombol Ubah Data pada
+
+halaman sunting artikel
+
+Menyimpan  perubahan  data
+
+artikel yang baru ke database
+
+dan menampilkan notifikasi
+
+Berhasil
+
+(Gambar 4.41)
+
+Pilih  tombol  Hapus  pada
+
+halaman artikel
+
+Menampilkan  popup
+
+konfirmasi  penghapusan  data
+
+artikel
+
+Berhasil
+
+(Gambar 4.25)
+
+Pilih  tombol  Ya pada  popup
+
+konfirmasi penghapusan data
+
+Menghapus  galeri  dari
+
+database dan  menampilkan
+
+notifikasi
+
+Berhasil
+
+(Gambar 4.42)
+
+Pilih  tombol  Tidak  pada Membatalkan  penghapusan Berhasil
+
+
+
+72
+
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+popup konfirmasi
+
+penghapusan data
+
+data dan menutup popup
+(Gambar 4.24)
+
+Gambar 4.41 Hasil Perbarui Artikel
+
+Gambar di atas menunjukan perbarui artikel berhasil.
+
+Gambar 4.42 Hasil Hapus Artikel
+
+Gambar di atas menunjukan hapus artikel berhasil.
+
+Tabel 4.11 Hasil Pengujian Halaman About pada Halaman Admin
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih tombol Ubah Data Menyimpan  perubahan  data
+
+ke  database dan
+
+menampilkan notifikasi
+
+Berhasil
+
+(Gambar 4.43)
+
+
+
+73
+
+Gambar 4.43 Hasil Ubah Data About
+
+Gambar di atas menunjukan ubah data about berhasil.
+
+Tabel 4.12 Hasil Pengujian Halaman Contact pada Halaman Admin
+Uji Skenario Hasil Yang Diharapkan Keterangan
+
+Pilih tombol Ubah Data Menyimpan  perubahan  data
+
+ke  database dan
+
+menampilkan notifikasi
+
+Berhasil
+
+(Gambar 4.44)
+
+Gambar 4.44 Hasil Ubah Data Contact
+
+Gambar di atas menunjukan ubah data contact berhasil.
+
+IV.2.2 Hasil Pengujian UAT (User Acceptance Test)
+
+Pengujian  ini  dilakukan  untuk  melihat  pendapat  dan  respon  dari
+
+pengguna terhadap operasional aplikasi ini. Kuesioner dibagikan ke teman grup
+
+WhatsApp dan  beberapa  teman  lainnya. Tahapan  pengujian  aplikasi
+
+menggunakan kuesioner dapat dilihat sebagai berikut :
+
+ Membagikan  form kuesioner  pengujian  kepada responden yang berisikan
+
+pertanyaan seputar aplikasi yang dioperasikan.
+
+
+
+74
+
+ Sharing url aplikasi  kepada  responden  untuk  melakukan  demo  agar
+
+responden dapat menilai.
+
+ Responden mengisi  form kuesioner yang terdiri dari nama dan pertanyaan
+
+seputar aplikasi yang dibuat.
+
+Berikut  adalah  hasil  rekapitulasi  penilaian  operasional  aplikasi  yang
+
+dinilai dari bagian guest :
+
+Tabel 4.13 Hasil Rekapitulasi Kuesioner Guest
+
+No
+
+Aspek 
+
+Penilaian
+
+Nilai Pengujian Persentase
+
+LikertTB KB CB B SB
+
+1
+Tombol menu bisa 
+
+digunakan dengan baik
+
+0 0 0 25 8 84,84%
+
+2
+Tampilan aplikasi mudah
+
+dimengerti
+
+0 0 4 21 8 82,42%
+
+3
+
+Informasi yang 
+
+ditampilkan sistem 
+
+mudah dipahami
+
+0 0 3 12 18 89,1%
+
+4
+
+Icon yang ditampilkan 
+
+peta mememberikan 
+
+informasi yang sesuai
+
+0 1 2 14 16 87,27%
+
+5
+
+Aplikasi ini dapat 
+
+membantu menemukan 
+
+lokasi wisata dengan 
+
+mudah
+
+0 0 3 15 15 87,27%
+
+6
+
+Virtual tour dalam 
+
+aplikasi ini dapat 
+
+membantu menjelajahi 
+
+lokasi wisata
+
+0 0 4 12 17 87,87%
+
+7
+
+Gambar panorama yang 
+
+ditampilkan terlihat 
+
+dengan jelas
+
+0 1 3 13 16 86,66%
+
+Total Persentase (%) 86,49%
+
+
+
+75
+
+Berdasarkan dari hasil perhitungan pada Tabel 4.13, diketahui bahwa dari
+
+33 responden total persentase dari perhitungan skala likert yang dihasilkan adalah
+
+86,49%. 
+
+Berikut  adalah  hasil  rekapitulasi  penilaian  operasional  aplikasi  yang
+
+dinilai dari hak akses admin:
+
+Tabel 4.14 Hasil Rekapitulasi Kuesioner Admin
+
+No
+
+Aspek 
+
+Penilaian
+
+Nilai Pengujian Persentase
+
+LikertTB KB CB B SB
+
+1
+Kemudahan penginputan
+
+data
+
+0 0 0 2 3 92%
+
+2 Kecepatan upload data 0 0 0 4 1 84%
+
+3
+
+Cara pengambilan 
+
+gambar mudah 
+
+dimengerti
+
+0 0 3 2 0 68%
+
+4
+
+Menghubungkan titik 
+
+panorama mudah 
+
+dimengerti
+
+0 0 2 3 0 72%
+
+Total Persentase (%) 79%
+
+Berdasarkan dari hasil perhitungan pada Tabel 4.14, diketahui bahwa dari
+
+5 responden total persentase dari perhitungan skala likert yang dihasilkan adalah
+
+79%.
+
+Setelah mengetahui nilai persentase skala likert, selanjutnya mencari nilai
+
+interval  untuk  mengetahui  hasil  akhir  pengujian  UAT  dengan  menggunakan
+
+persamaan berikut ini:
+
+I = 100 / 5 = 20
+
+Nilai interval persentase pada kuesioner ini yaitu:
+
+- X <= 19,99% dikategorikan tidak baik.
+
+- 20% >= X <= 39,99% dikategorikan kurang baik.
+
+- 40% >= X <= 59,99% dikategorikan cukup baik.
+
+- 60% >= X <= 79,99% dikategorikan baik.
+
+- X >= 80% dikategorikan sangat baik.
+
+
+
+76
+
+Dapat dilihat pada nilai interval pada Tabel 4.13 dan Tabel 4.14 bahwa
+
+total  persentase  skala  likert pada  kuesinoer  bagian  pengguna  memiliki  total
+
+persentase  86,49% dan kuesioner bagian admin memiliki total persentase  79%.
+
+Berdasarkan total persentase tiap kuesioner, aplikasi ini berhasil dibangun sesuai
+
+dengan tujuan.
+
+IV.3 Analisis Hasil Pengujian
+
+Berikut ini adalah analisis hasil dari perancangan dan pengujian aplikasi
+
+Sistem Informasi Geografis Wisata Alam Kabupaten Kapuas Hulu Dengan Fitur
+
+Virtual Tour Berbasis Website:
+
+a) Pada  pengujian  Black  Box terdapat  10  item  uji  yang  masing-masing
+
+memiliki  skenario pengujian.  Dari hasil  pengujian semua skenario dinilai
+
+berhasil. Semua fungsi untuk memanajemen data berfungsi dengan baik.
+
+b) Dari hasil pengujian UAT didapatkan analisis sebagai berikut:
+
+ Hasil  perhitungan  kuesioner  bagian  guest menggunakan  skala
+
+likert dengan nilai 86,49% dikategorikan sangat baik.
+
+ Hasil  perhitungan kuesioner bagian admin menggunakan skala
+
+likert dengan nilai 79% dikategorikan sangat baik.
+
+ Pengaksesan  menggunakan  smartphone dinilai  kurang  pada
+
+aspek  kemudahan  pengoperasian  dikarenakan  smartphone
+
+memiliki layar yang kecil.
+
+ Teknik  pengambilan  gambar  panorama  dinilai  rumit  jika
+
+sebelumnya tidak ada penjelasan mengenai teknik pengambilan
+
+gambar panorama.
+
+
+
+BAB V
+PENUTUP
+
+V.1 Kesimpulan
+
+Berdasarkan dari  hasil  analisis  dan pengujian aplikasi  Sistem Informasi
+
+Geografis  Wisata  Alam  Kabupaten  Kapuas  Hulu  Dengan  Fitur  Virtual  Tour
+
+Berbasis Website, maka didapat kesimpulan sebagai berikut:
+
+a) Peta  persebaran  lokasi  wisata  di  Kabupaten  Kapuas  Hulu  berhasil
+
+ditampilkan dalam aplikasi.
+
+b) Aplikasi yang dibuat berhasil memvisualisasikan lokasi wisata dengan fitur
+
+virtual tour.
+
+c) Pengambilan gambar panorama menggunakan kamera Samsung Gear 360
+
+Camera dengan mengarahkan lensa utama ke kiri  sebesar ± 40º berhasil
+
+diolah menjadi virtual tour yang mempunyai arah yang tepat.
+
+d) Sistem berhasil menghubungkan tiap gambar panorama dalam sebuah fitur
+
+virtual tour.
+
+e) Berdasarkan dua metode pengujian dapat disimpulkan sebagai berikut
+
+1. Hasil dari pengujian Black Box, aplikasi berhasil beroperasi dengan
+
+baik dan bebas dari kesalahan dengan persentase 100%.
+
+2. Hasil dari  User Acceptance Test (UAT) bagian  guest, sistem yang
+
+dibangun berhasil  mengolah  data  spasial  dan data  atribut  menjadi
+
+sebuah  media  informasi  kepada  masyarakat/guest tentang  lokasi
+
+wisata di Kabupaten Kapuas Hulu.
+
+3. Hasil  dari  User  Acceptance  Test (UAT)  bagian  admin,  proses
+
+manajemen data dikategorikan tidak sulit.
+
+V.2 Saran
+
+Adapun hal yang menjadi saran sebagai bahan pertimbangan dan masukan
+
+untuk  pengembangan  aplikasi  agar  menjadi  lebih  baik,  yaitu  mengembangkan
+
+aplikasi ini berbasis mobile dan memperbaiki cara pengambilan gambar agar lebih
+
+mudah ketika melakukan upload.
+
+77
+
+

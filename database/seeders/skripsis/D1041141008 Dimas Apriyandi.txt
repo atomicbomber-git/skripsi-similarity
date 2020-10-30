@@ -1,0 +1,6081 @@
+
+BAB I
+
+PENDAHULUAN
+
+1.1 Latar Belakang
+
+Sektor pariwisata memegang peranan yang penting dalam perekonomian
+
+Indonesia,  baik  sebagai  salah  satu  sumber  penerimaan  devisa,  memperluas
+
+kesempatan  kerja  maupun  kesempatan  berusaha.  Pengembangan  di  bidang
+
+pariwisata  perlu  terus  ditingkatkan  dengan  memperluas  dan  memanfaatkan
+
+sumber  serta  potensi  pariwisata  nasional  sehingga  kegiatan  ekonomi  dapat
+
+merangsang pembangunan regional,  memperkenalkan identitas  dan kebudayaan
+
+daerah  (BPS Kota  Pontianak,  2018).  Pariwisata  dan kekayaan  Kota  Pontianak
+
+sangatlah beragam, diantaranya yaitu keunikan tiga suku terbesar yang meninggali
+
+Kota Pontianak,  tempat  destinasi  wisata  budaya di dalam area pusat kota,  dan
+
+kelezatan  makanan-makanan khas  daerah  yang sangat  bervariasi.  Meski  begitu
+
+jumlah  pendatang  atau  wisatawan  yang  datang  ke  Kota  Pontianak  jumlahnya
+
+belum mencapai jumlah yang besar jika dibandingkan dengan kota lain yang ada
+
+di Indonesia.
+
+Perhitungan  Badan  Pusat  Statistik  Indonesia  menyatakan  jumlah
+
+kedatangan  WNA (Warga Negara Asing)  ke Kota  Pontianak pada  tahun 2016
+
+berjumlah  45.785  orang  sedangkan  angka  yang  dimiliki  Daerah  Istimewa
+
+Yogyakarta  berjumlah  249.481  orang.  Data  tersebut  menunjukkan  angka
+
+Pontianak  hanya  18.38% dari  angka  Jogjakarta.  Serta  wisatawan  mancanegara
+
+yang  berkunjung  ke  Kota  Pontianak  didominasi  oleh  negara  tetangga,  yaitu
+
+Malaysia  sebesar  81,07%.  Diikuti  oleh  China  3,15%,  Taiwan  2,28%,  Brunei
+
+1,76%, Amerika Serikat 1,03%, Singapura 0,93% (BPS Kota Pontianak, 2018).
+
+Melihat  angka  di  atas,  angka tersebut  memiliki  perbedaan  yang  sangat
+
+jauh. Hal yang mempengaruhi angka tersebut salah satunya adalah suatu promosi.
+
+Berdasarkan  hasil  survei  yang  dilakukan  oleh  peneliti  melalui  diskusi  dengan
+
+Badan  Promosi  Pariwisata  Kota  Pontianak  menunjukkan  bahwa  konten  untuk
+
+promosi pariwisata Kota Pontianak masih tidak beragam seperti hanya berbentuk
+
+baliho,  brosur  atau  website,  serta  informasi  pariwisata  yang  masih  tidak
+
+tersentralisasi,  serta  tidak  adanya  media  interaktif  yang  ada  untuk
+
+memperkenalkan pariwisata Kota Pontianak.
+
+1
+
+
+
+2
+
+Pariwisata didukung oleh beberapa bidang salah satunya adalah teknologi
+
+informasi, contohnyna penggunaan Instagram saat masyarakat ingin melihat foto
+
+lokasi  tempat  pariwisata  melalui  penggunaan  tagar.  Penggunaan  Teknologi
+
+Informasi dan Komunikasi (TIK) oleh masyarakat Indonesia menunjukkan bahwa
+
+84,4% masyarakat rumah tangga di Indonesia memiliki telepon genggam. Serta
+
+masyarakat  Indonesia  yang  memiliki  internet  menghabiskan  aktivitas  yang
+
+mereka  lakukan  dengan  internet  44,1% bermain  game atau  mengunduh  video
+
+game (Kominfo, 2016).
+
+Berdasarkan  data  tersebut,  menunjukkan  bahwa  masyarakat  Indonesia
+
+kebanyakan  memiliki  sebuah  telepon  genggam  pribadi  dan  menghabiskan
+
+aktivitas  mereka  menggunakan  internet  untuk  bermain  game.  Sebuah  telepon
+
+genggam  merupakan  alat  yang  praktis  dan  mudah  digunakan  sehingga
+
+memudahkan  masyarakat  untuk  bermain  game di  perangkat  tersebut.  Kota
+
+Pontianak juga belum pernah mengimplementasikan sebuah game sebagai media
+
+untuk  mempromosikan  pariwisata.  Melihat  hal  tersebut,  terdapat  sebuah
+
+kesempatan untuk memanfaatkan sebuah game untuk memperkenalkan pariwisata
+
+dan  budaya  Kota  Pontianak,  dan  menggunakan  sistem  operasi  Android,
+
+mengingat Android adalah salah satu sistem operasi terpopuler pada saat ini.
+
+Terdapat  banyak  jenis  permainan,  seperti  role  playing  game rata-rata
+
+dimainkan  seperti  sebuah  drama  radio  ketika  seorang  pemain  berbicara,  dia
+
+berbicara  sebagai  tokohnya,  dan  ada  genre  adventure  permainan  bertualangan
+
+yang  dikombinasikan  dengan  aksi  bertarung,  menghadapi  rintangan  maupun
+
+memecahkan  teka-teki  (Jason,  2009).  Permainan tersebut  umumnya dimainkan
+
+dalam waktu yang tidak sebentar, dan salah satu yang digemari saat ini dan biasa
+
+dimainkan  dalam  waktu  singkat  yaitu  Endless  Runner  Game.  Permainan  ini
+
+adalah  jenis  permainan  yang tidak  ada  akhir,  dan tujuan pemain  adalah  harus
+
+mendapatkan  skor  tertinggi.  Permainan  ini  berupa  sebuah  permainan  yang
+
+mengharuskan pemain untuk bermain selama mungkin untuk mendapatkan skor,
+
+dan menghindari  rintangan untuk menghindari kekalahan. Dalam penelitian ini,
+
+pemain  akan  bermain  dengan  latar  Kota  Pontianak,  dan  mendapatkan  cerita
+
+seputar pariwisata dan budaya Kota Pontianak, meliputi suku, tempat wisata, dan
+
+makanan. Sehingga pemain akan mengetahui gambaran Kota Pontianak dan juga
+
+
+
+3
+
+informasi mengenai budaya dan pariwisata Kota Pontianak dengan waktu yang
+
+cukup singkat. Demi mengasah informasi yang diberikan, saat pemain melakukan
+
+permainan, akan muncul beberapa pertanyaan seputar pariwisata Kota Pontianak,
+
+dan jika berhasil  menjawab,  pemain  akan mendapatkan  sebuah  reward  berupa
+
+powerup.
+
+Berdasarkan  uraian  di  atas,  masih  kurangnya  angka  pariwisata  Kota
+
+Pontianak,  tingginya  penggunaan  internet  untuk  bermain  game,  dan  perlu
+
+dikembangkannya konten kreatif yang berisi informasi objek pariwisata di Kota
+
+Pontianak dalam bentuk  game.  Sehingga penelitian ini  berfokus untuk meneliti
+
+penggunaan  endless  runner  game sebagai  media  untuk  memperkenalkan
+
+pariwisata Kota Pontianak kepada wisatawan dalam dan luar negeri.
+
+1.2 Rumusan Masalah
+
+Minimnya konten oleh pariwisata  Kota Pontianak untuk mempromosikan
+
+Kota Pontianak menyebabkan kurangnya pengetahuan masyarakat luar dan dalam
+
+negeri tentang pariwisata Kota Pontianak. Konten interaktif adalah salah satu cara
+
+untuk menarik dan menyampaikan informasi kepada masyarakat, konten interaktif
+
+yang  gemar  digunakan  masyakat  adalah  game.  Penggunaan  game  dalam
+
+mengenalkan  pariwisata  menjadi  tantangan  dengan  bagaimana  game  tersebut
+
+dikemas untuk memperkenalkan pariwisata Kota Pontianak dengan menarik dan
+
+informasi tersampaikan. Rumusan masalah dalam penelitian ini adalah bagaimana
+
+penerapan  endless  runner  game  untuk  memperkenalkan  pariwisata  Kota
+
+Pontianak pada masyarakat dalam dan luar negeri.
+
+1.3 Tujuan Penelitian
+
+Adapun  tujuan  dari  penelitian  yang  dilakukan  adalah  menghasilkan
+
+endless  runner  game berbasis  Android yang dapat  memperkenalkan pariwisata
+
+dan budaya Kota Pontianak.
+
+
+
+4
+
+1.4 Pembatasan Masalah
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah :
+
+1. Game ini bersifat offline.
+
+2. Game ini bersifat single player.
+
+3. Game ini berbasis Android.
+
+4. Game ini akan tersedia dalam Bahasa Indonesia, dan Bahasa Inggris.
+
+5. Game ini menceritakan enam objek pariwisata Kota Pontianak.
+
+1.5 Sistematika Penulisan Skripsi
+
+Sistematika penulisan penelitian ini disusun untuk memberikan gambaran
+
+umum tentang  penelitian  yang  dijalankan.  Sistematika  laporan  tugas  akhir  ini
+
+disusun dalam 5 (lima) bab yang terdiri dari Bab I Pendahuluan, Bab II Tinjauan
+
+Pustaka  dan  Landasan  Teori,  Bab  III  Metodologi  Penelitian,  BAB  IV
+
+Implementasi dan Hasil Penelitian,  dan Bab V Penutup.
+
+Bab I  Pendahuluan menjelaskan  secara  umum mengenai  latar  belakang
+
+permasalahan, perumusan masalah, tujuan penelitian, pembatasan masalah, serta
+
+sistematika penulisan laporan tugas akhir.
+
+Bab  II  Tinjauan  Pustaka  dan  Landasan  Teori  membahas  mengenai
+
+gambaran umum tentang penelitian yang didapat oleh peneliti sebelumnya serta
+
+perangkat  lunak yang melandasi  pembangunan sistem dan landasan teori  yang
+
+berhubungan dalam proses analisis permasalahan penelitian yang akan dilakukan.
+
+Bab III  Metodologi  Penelitian  membahas  mengenai  data  dan perangkat
+
+penelitian,  metode  yang  akan  digunakan  pada  penelitian,  dan  diagram  alir
+
+penelitian.
+
+Bab  IV  Implementasi  dan  Hasil  Penelitian  membahas  mengenai
+
+implementasi  dari  perangkat  lunak  yang  dibangun,  tahapan  pengujian,  hasil
+
+pengujian dan analisis pengujian yang mengarah pada suatu kesimpulan.
+
+Bab V Penutup membahas  mengenai  kesimpulan  yang sudah diperoleh
+
+dari hasil penulisan laporan tugas akhir dan saran untuk perbaikan, pengembangan
+
+atau kesempurnaan penelitian yang telah dilakukan.
+
+
+
+ BAB II
+
+TINJAUAN PUSTAKA DAN LANDASAN TEORI
+
+2.1 Studi Literatur
+
+Beberapa  penelitian  terdahulu  yang  telah  melakukan  penelitian  tentang
+
+memperkenalkan  Kota  Pontianak  khususnya  sejarah  Kota  Pontianak
+
+menggunakan  permainan  salah  satunya  yaitu  penelitian  Muhammad  Zulfikar
+
+(2017) yang berjudul ”Rancang Bangun Game Sejarah Asal Usul Kota Pontianak
+
+Menggunakan  RPG  Maker”.  Penelitian  tersebut  meneliti  tentang  bagaimana
+
+sebuah  permainan  dapat  memperkenalkan  sejarah  Kota  Pontianak  kepada
+
+masyarakat, dengan mengangkat cerita berdasarkan buku cerita rakyat karangan
+
+Rio  J  Purbaya  (1992)  yaitu  Asal  Usul  Kota  Pontianak  yang  bercerita  tentang
+
+perjuangan  Sultan  Syarif  Abdurrahman  Alkadrie  dalam  menemukan  Kota
+
+Pontianak. Penelitian yang telah dilakukan berhasil dibuat sebagai alternatif baru
+
+untuk masyarakat yang ingin mengetahui sejarah Kota Pontianak, dan berdasarkan
+
+hasil kuisoner menggunakan skala  Likert’s Summated Rating mendapatkan hasil
+
+aplikasi ini sangat positif dan dinilai berhasil.
+
+Serta, terdapat penelitian yang telah dilakukan mengenai permainan endless
+
+running  berbasis  Android  yaitu  Rendy  Adiwikarta  (2017)  dengan  judul  ”
+
+Pengembangan  Permainan  Video  Endless  Running Berbasis  Android
+
+Menggunakan  Framework Game Development  Life  Cycle”.  Pada penelitian  ini
+
+telah dikembangkan permainan bergenre endless running yang berjudul K-Jump.
+
+Pengembangan  aplikasi  permainan  komputer  ini  didasari  pada  semakin
+
+populernya  permainan  bergenre tersebut.  Setelah  penelitian  ini  diselesaikan
+
+permainan video ini dapat memberikan pengalaman permainan yang menarik dan
+
+dapat  dimainkan  untuk  mengisi  waktu  luang  serta  melatih  reaksi  pemainnya
+
+dengan cara berinteraksi dengan tombol interaktif.
+
+Selain itu, terdapat juga penelitian yang menggunakan permainan sebagai
+
+media untuk memperkenalkan budaya Indonesia  yaitu Candra Agustina (2015)
+
+dengan  judul  “Aplikasi  Game Pendidikan  Berbasis  Android  Untuk
+
+Memperkenalkan Pakaian Adat Indonesia”. Penelitian ini bertujuan untuk dapat
+
+membantu pemerintah untuk melestarikan budaya nasional yang saat ini kurang
+
+dipedulikan oleh generasi muda. Juga dapat membendung arus budaya yang tidak
+
+5
+
+
+
+6
+
+sesuai  dengan nilai-nilai  budaya di  Indonesia.  Aplikasi  ini  sangat  efektif  bagi
+
+orang tua dalam mengajari anak-anak usia 4-10 tahun. Aplikasi berbasis Android
+
+sengaja dipilih karena pada saat ini adalah perangkat yang terbanyak digunakan di
+
+Indonesia. Telepon berbasis android digunakan diseluruh lapisan masyarakat dan
+
+semua tingkatan umur. Berikut dapat dilihat perbandingan penilitian yang akan
+
+dilakukan dengan penilitian yang telah dilakukan sebelumnya dalam Tabel 2.1.
+
+Tabel 2.1 Tabel perbandingan penelitian
+
+No
+.
+
+Penulis Judul Keterangan
+
+1. Muhammad 
+Zulfikar (2017, 
+Universitas 
+Tanjungpura 
+Pontianak)
+
+Rancang Bangun Game 
+Sejarah Asal Usul Kota 
+Pontianak Menggunakan 
+RPG Maker.
+
+Melakukan penelitian 
+tentang memperkenalkan 
+sejarah asal usul Kota 
+Pontianak menggunakan 
+RPG Maker berbasis 
+desktop.
+
+2. Rendy 
+Adiwikarta 
+(2017, Institut 
+Teknologi dan 
+Bisnis Kalbis)
+
+Pengembangan Permainan
+Video Endless Running 
+Berbasis Android 
+Menggunakan Framework
+Game Development Life 
+Cycle.
+
+Melakukan penelitian 
+tentang pengembangan 
+game berjenis endless 
+running berbasis Android
+untuk melatih reaksi 
+pengguna.
+
+3. Candra 
+Agustina 
+(2015, AMIK 
+BSI Jogjakarta)
+
+Aplikasi Game 
+Pendidikan Berbasis 
+Android Untuk 
+Memperkenalkan Pakaian 
+Adat Indonesia
+
+Melakukan penelitian 
+untuk memperkenalkan 
+budaya Indonesia 
+khusunya pakaian adat 
+melalui game pendidikan
+berbasis Android.
+
+   Tabel 2.2 Penelitian yang akan dilakukan
+
+No
+
+.
+
+Penulis Judul Keterangan
+
+1. Dimas Apriyandi
+(2018, 
+Universitas 
+Tanjungpura)
+
+Penerapan Endless 
+Runner Game Sebagai 
+Media Untuk 
+Memperkenalkan 
+Pariwisata Kota 
+Pontianak
+
+Melakukan penelitian 
+untuk memperkenalkan 
+pariwisata dan budaya 
+Kota Pontianak kepada 
+masyarakat dalam dan 
+luar negeri 
+menggunakan sebuah 
+game bergenre endless 
+
+
+
+7
+
+No
+
+.
+
+Penulis Judul Keterangan
+
+runner game berbasis 
+Android.
+
+2.2 Pariwisata
+
+2.2.1 Definisi Pariwisata
+
+Pengertian-pengertian  mengenai  pariwisata  yang  menitikberatkan  pada
+
+kegiatan  berwisata  yang  bertujuan  untuk  bersenang-senang  dan  mendapatkan
+
+service selama  dalam  perjalanan.  Tetapi,  konsep  dalam  ilmu  pariwisata  yang
+
+seharusnya  didasari  atas  moral  sehingga  tercipta  suatu  tata  krama  yang  baik
+
+selama  melakukan  perjalanan  ke  suatu  negara  atau  wilayah.  Pernyataan  ini
+
+didukung  oleh  pengertian  pariwisata  sebagai  berikut,  Kencana  (2009)
+
+menyatakan:
+
+“Secara etimologi,  kata pariwisata berasal dari Bahasa Sansekerta, yaitu
+
+kata  “pari”  yang  berarti  halus,  maksudnya  mempunyai  tata  krama  tinggi  dan
+
+“wisata”  yang  berarti  kunjungan  atau  perjalanan  untuk  melihat,  mendengar,
+
+menikmati  dan  mempelajari  sesuatu.  Jadi,  pariwisata  itu  berarti  menyuguhkan
+
+suatu kunjungan secara bertata krama dan berbudi”
+
+Berdasarkan Undang-Undang Republik Indonesia Nomor 10 tahun 2009
+
+tentang kepariwisataan menyebutkan bahwa pariwisata adalah “berbagai macam
+
+kegiatan  wisata  dan didukung berbagai  fasilitas  serta  layanan yang disediakan
+
+oleh masyarakat, pengusaha, pemerintah dan pemerintah daerah”.
+
+Serta  menurut  Yoeti  (1983)  dikatakan  bahwa  tujuan  pengembangan
+
+pariwisata di Indonesia adalah sebagai berikut.
+
+1. Meningkatkan pendapatan devisa pada khususnya dan pendapatan negara
+
+pada  umumnya,  perluasan  kesempatan  serta  lapangan  kerja  dan
+
+mendorong kegiatan-kegiatan industri sampingan lainnya.
+
+2. Memperkenalkan dan mendayagunakan keindahan alam dan kebudayaan
+
+Indonesia.
+
+3. Meningkatkan persaudaraan/persahabatan nasional dan internasional.
+
+Sektor pariwisata memegang peranan yang penting dalam perekonomian
+
+
+
+8
+
+Indonesia,  baik  sebagai  salah  satu  sumber  penerimaan  devisa,  memperluas
+
+kesempatan  kerja  maupun  kesempatan  berusaha.  Pengembangan  di  bidang
+
+pariwisata  perlu  terus  dilanjutkan  dan  ditingkatkan  dengan  memperluas  dan
+
+memanfaatkan  sumber  serta  potensi  pariwisata  nasional  sehingga  menjadi
+
+kegiatan  ekonomi  yang  diharapkan  dapat  merangsang  pembangunan  regional,
+
+memperkenalkan identitas dan kebudayaan nasional dan daerah. Menurut Badan
+
+Pusat Statistik Indonesia (2017) wisatawan mancanegera ialah setiap pengunjung
+
+yang mengunjungi suatu negara di luar tempat tinggalnya, didorong oleh satu atau
+
+beberapa  keperluan  tanpa  bermaksud  memperoleh  penghasilan  di  tempat  yang
+
+dikunjungi dan lamanya kunjungan tersebut tidak lebih dari satu tahun (12 bulan).
+
+Definisi ini mencakup 2 (dua) kategori wisatawan mancanegara, yaitu :
+
+1. Wisatawan  (turis)  ialah  setiap  pengunjung seperti  definisi  di  atas  yang
+
+tinggal paling sedikit 24 jam, akan tetapi tidak lebih dari 1 (satu) tahun di
+
+tempat yang dikunjungi, dengan maksud antara lain berlibur, rekreasi, olah
+
+raga, bisnis, menghadiri pertemuan, studi, dan kunjungan dengan alasan
+
+kesehatan.
+
+2. Excursionist ialah setiap pengunjung seperti definisi di atas yang tinggal
+
+kurang dari 24 jam di tempat yang dikunjungi
+
+2.2.2 Jenis Pariwisata
+
+Menurut  Muljadi  (2009),  bentuk-bentuk  pariwisata  yang  dikenal
+
+masyarakat umum, antara lain:
+
+1. Menurut Jumlah Orang yang Berpergian
+
+a. Pariwisata individu/perorangan (individual tourism), yaitu bila 
+
+seseorang dan memilih  daerah  tujuan wisata  beserta  programnya serta  
+
+pelaksanaannya dilakukan sendiri.
+
+b. Pariwisata kolektif  (collective tourism),  yaitu suatu usaha perjalanan  
+
+wisata yang menjual paketnya kepada siapa saja yang berminat, dengan  
+
+keharusan membayar sejumlah uang yang telah ditentukannya.
+
+2. Menurut Motivasi Perjalanan
+
+a. Pariwasata rekreasi (recreational tourism) adalah bentuk pariwisata
+
+untuk beristirahat guna memulihkan kembali kesegaran jasmani dan
+
+
+
+9
+
+rohani dan menghilangkan kelelahan.
+
+b.  Pariwisata  untuk  menikmati  perjalanan  (pleasure  tourism)  adalah  
+
+bentuk pariwisata yang dilakukan oleh orang-orang yang meninggalkan  
+
+tempat tinggalnya  untuk  berlibur,  untuk  mencari  udara  segar,  untuk  
+
+memenuhi kehendak ingin tahunya, untuk menikmati hiburan dan lainnya.
+
+c.  Pariwisata  budaya (cultural  tourism)  adalah  bentuk pariwisata  yang  
+
+ditandai dengan rangkaian motivasi seperti keinginan untuk belajar adat  
+
+istiadat dan cara hidup rakyat negara lain, studi-studi/riset pada penemuan-
+
+penemuan, mengunjungi tempat-tempat peninggalan kuno/bersejarah dan 
+
+lain-lain.
+
+d.  Pariwisata  olahraga  (sports  tourism).  Bentuk  pariwisata  ini  dapat  
+
+dibedakan menjadi 2 kategori:
+
+Pertama : Big sports events, yaitu peristiwa-peristiwa olahraga 
+
+besar yang menarik perhatian, baik olahragawannya sendiri 
+
+maupun penggemarnya (supporter).
+
+Kedua : Sporting tourism of the practitioners, yaitu bentuk 
+
+olahraga bagi mereka yang ingin berlatih atau mempraktikkan 
+
+sendiri, seperti: mendaki gunung, olahraga naik kuda, berburu, 
+
+memancing dan lain-lain.
+
+e.  Pariwisata  untuk  urusan  usaha  (business  tourism)  adalah  bentuk  
+
+pariwisata yang dilakukan oleh kaum pengusaha atau industrialis, tetapi  
+
+dalam perjalanannya hanya untuk melihat eksibisi atau pameran dan sering
+
+mengambil dan memanfaatkan waktu untuk menikmati atraksi di negara 
+
+yang dikunjungi.
+
+f. Pariwisata untuk tujuan konvensi (convention tourism) adalah bentuk  
+
+pariwisata  yang  dilakukan  oleh  orang-orang  yang  akan  menghadiri  
+
+pertemuan-pertemuan  ilmiah  seprofesi  dan  politik.  Tempat  konferensi  
+
+dituntut tersedia fasilitas yang lengkap, modern dan canggih baik tempat 
+
+penyelenggaraan, beserta peralatannya, penginapan dan lain-lainnya yang 
+
+terkait dengan penyelenggaraan tour (kunjungan wisata).
+
+3. Menurut Waktu Berkunjung
+
+a. Seasonal tourism adalah jenis pariwisata yang kegiatannya berlangsung
+
+
+
+10
+
+pada musim-musim tertentu. Termasuk dalam kelompok ini musim panas
+
+(summer tourism) dan musim dingin (winter tourism).
+
+b. Occasional tourism adalah kegiatan pariwisata yang diselenggarakan
+
+dengan mengkaitkan kejadian atau event tertentu, seperti Galungan di
+
+Bali dan Sekaten di Jogja.
+
+4. Menurut Objeknya
+
+a. Cultural tourism adalah jenis pariwisata yang disebabkan adanya daya 
+
+tarik seni dan budaya di suatu daerah/tempat, seperti peninggalan nenek 
+
+moyang, benda-benda kuno dan sebagainya.
+
+b.  Recuperational tourism yaitu orang-orang yang melakukan perjalanan 
+
+wisata bertujuan untuk menyembuhkan suatu penyakit.
+
+c.  Commercial  tourism adalah  perjalanan  yang  dikaitkan  dengan  
+
+perdagangan  seperti  penyelenggaraan  expo,  fair,  exhibition  dan  
+
+sebagainya.
+
+d. Political tourism adalah suatu perjalanan yang dilakukan dengan tujuan 
+
+melihat  dan  menyaksikan  peristiwa  atau  kejadian  yang  berhubungan  
+
+dengan kegiatan suatu negara.
+
+5. Menurut Alat Angkutan
+
+a. Land tourism adalah jenis pariwisata yang di dalam melaksanakan
+
+kegiatannya menggunakan kendaraan darat seperti bus, kereta api, mobil
+
+pribadi atau taksi dan kendaraan darat lainnya.
+
+b. Sea or river tourism adalah kegiatan pariwisata yang menggunakan
+
+sarana transportasi air seperti kapal laut, ferry dan sebagainya.
+
+c. Air tourism adalah kegiatan pariwisata yang menggunakan sarana
+
+transportasi udara seperti pesawat terbang, helikopter dan sebagainya.
+
+6. Menurut Umur
+
+a.  Youth  tourism atau  wisata  remaja  adalah  jenis  pariwisata  yang  
+
+dikembangkan bagi remaja dan pada umumnya dengan harga relatif murah
+
+dan menggunakan sarana akomodasi youth hostel.
+
+b. Adult tourism adalah kegiatan pariwisata yang diikuti oleh orang-orang 
+
+berusia lanjut. Pada umumnya orang-orang yang melakukan perjalanan ini 
+
+adalah mereka yang menjalani masa pensiun.
+
+
+
+11
+
+2.2.3 Daftar Pariwisata Kota Pontianak
+
+Menurut  Dinas  Pariwisata  Kota  Pontianak  (2014),  Pemerintah  Kota
+
+Pontianak  melakukan  pendataan  dan  pemantauan  terhadap  benda-benda  yang
+
+memiliki  nilai  sejarah.  Berdasarkan  penilaian  yang  dilakukan  oleh  Dinas
+
+Kebudayaan  dan  Pariwisata  Kota  Pontianak  pada  tahun  2010,  yang  termasuk
+
+dalam klasifikasi Benda Cagar Budaya yang terdapat di Kota Pontianak adalah:
+
+1. Istana Kadriah Keraton Kesultanan Pontianak Kel. Dalam Bugis Kota 
+
+Pontianak Sy. Ali Bin hamid Assegaf pernah dipugar Depdikbud Prov  
+
+tahun 1923 M Kec. Pontianak Timur Kalbar tahun 1992-1996.
+
+2. Masjid Sultan Abdurahman Alk Rumah Ibadah Kesultanan Pontianak 
+
+Muharam Kel. Dalam Bugis Kota Pontianak Sy. Usman Mohdar Al-Idrus 
+
+pernah dipugar Depdikbud Prov 1237 H Kec. Pontianak Timur Kalbar  
+
+tahun 1994-1998.
+
+3.  Komplek  Makam Batulayang  Kesultanan  Makam Kesult  Pontianak  
+
+tahun 1808 M Kel. Dalam Bugis Kota Pontianak Sy. Mohdar alkadrie  
+
+pernah dipugar Depdikbud Prov Pontianak Kec. Pontianak Timur Kalbar 
+
+tahun 1984-1988.
+
+4. Tugu Khatulistiwa tugu Kolonial Belanda tahun 1928 Kel. Batulayang 
+
+Kota Pontianak Hamdi Kec.Pontianak Utara.
+
+5. Masjid Baitan Nur Rumah Ibadah Kesult Pontianak th. 1216 H Kel.  
+
+Dalam Bugis Kota Pontianak Abdul Gawi Obet 1802 M Kec. Pontianak 
+
+Timur.
+
+6. SDN 46 (sekarang SDN 14) Sekolah Kolonial Belanda tahun 1928 Jl. 
+
+Tamar Kel. Tengah Kota Pontianak Kec. Pontianak Kota.
+
+7. Kelenteng/Vihara Bodhisatva Karaniyah Metta Rumah Ibadah tahun  
+
+1689 M Komplek Pasar Kapuas Indah Kota Pontianak Kel. Darat Sekip  
+
+Kec. Pontianak Kota 19.
+
+8. Sumur Bor Situs/Mesin Kolonial Belanda tahun 1930 Kantor Camat  
+
+Kota Pontianak, Pontianak Kota Jl. Pangeran Natakusuma.
+
+
+
+12
+
+9. Pelabuhan Teng Seng Hie Situs Abad 18-19 M Jl. Sultan Muhammad 
+
+Kota  Pontianak  Pelabuhan  Rakyat  I  Kel.  Benua  Melayu  Laut  Kec.  
+
+Pontianak Selatan.
+
+10. Bekas Komplek Kantor Residen Bangunan abad 20 M Jl. Zainuddin  
+
+Kel. Tengah Kota Pontianak Sekarang BAPPEDA Kota Ptk. Borneo Barat 
+
+Kec.Pontianak kota.
+
+Kota Pontianak memiliki  objek wisata  yang sangat  potensial  dan dapat
+
+menunjang  pengembangan  kepariwisataan.  Selama periode  tahun 2009 – 2012
+
+terdapat 10 objek wisata yang dipelihara antara lain : 1.) Tugu Khatulistiwa, 2)
+
+Keraton  Kadariah,  3)  Masjid  Jami’,  4)  Makam Batu  Layang,  5)  Taman  Alun
+
+Kapuas, 6) Aloe Vera Canter, 7) Pelabuhan Seng Hie, 8) SDN 14 Pontianak, 9)
+
+Vihara Bodhisatva Karaniya Metta dan 10) Masjid Baitannur.
+
+2.3 Daftar Pariwisata Kota Pontianak Dalam Permainan
+
+2.3.1 Taman Alun Kapuas
+
+Taman alun alun Kapuas sudah mengalami beberapa kali proses renovasi,
+
+pada tahun 1999, 2011, 2012, 2015. Renovasi yang dilakukan pada tahun 1999,
+
+mengubah  wajah  taman  alun-alun  menjadi  sangat  berbeda.  Dari  yang  hanya
+
+sekedar tepian sungai, menjadi waterfont dengan pengembangan untuk menjadi
+
+objek  wisata  terpadu.  Pada  renovasi  pertama  beberapa  fasilitas  wisata
+
+ditambahkan seperti bebek engkol, jajanan pasar, kafe, dan pasar malam.
+
+Pada tahun 2011 dan 2012, Pemerintah Kota Pontianak melakukan proyek
+
+renovasi  dengan  memperluas  daerah  Taman  Alun-Alun  Kapuas,  menambah
+
+beberapa air mancur lagi, serta membangun beberapa sarana dan prasarana untuk
+
+para pengunjung seperti panggung hiburan, taman, waterfront, dan multimedia.
+
+Pada  tahun  2015,  alun-alun  kembali  di  benahi  dengan  perluasan  dan
+
+penataan  ulang lokasi.  Pada renovasi  kali  ini,  pemerintah  melarang pendagang
+
+kaki lima untuk berjualan di taman alun-alun terkait dengan keelokan taman.
+
+Menurut  Jero  (2014),  menyusuri  sungai  besar  di  Pontianak  merupakan
+
+salah  satu  kegiatan  yang  menarik  karena  wisatawan  dapat  melihat  langsung
+
+kehidupan masyarakat setempat. Di tengah perjalanan menyusuri sungai kita bisa
+
+mampir  di  Monumen  Khatulistiwa,  tiga  kilometer  dari  pusat  kota.  Setelah  itu
+
+
+
+13
+
+menyinggahi Makam Batu Layang, Makam Keluarga Kesultanan Pontianak. Di
+
+cabang  sungai  tempat  pertemuam  Sungai  Kapuas  Besar  dan  Sungai  Landak
+
+berdiri Istana Kesultanan Kadariyah yang sarat sejarah.
+
+2.3.2 Aloevera Center
+
+Berdasarkan  Pontinesia  (2014)  di  Indonesia,  Aloevera  yang  banyak  di
+
+kembangkan adalah jenis Aloe chinensis Baker yang berasal dari daerah tionghoa.
+
+Salah  satu  sentra  terbesar  penanaman  aloevera  jenis  ini  berada  di  daerah
+
+Kalimantan barat. Aloevera jenis tersebut lebih dikenal dengan nama Lidah Buaya
+
+Pontianak.  Adapun  ciri-ciri  lidah  buaya  Pontianak  adalah  bunganya  yang
+
+berwarna  oranye,  kemudian  pelepah  berwarna  hijau  muda,  sedangkan  pelepah
+
+bagian  atas  agak  cekung  dan  mempunyai  bintik  putih  pada  pelepahnya  saat
+
+tanaman masih muda.
+
+Sebagai salah satu sentra pengembangan lidah buaya yang sudah terkenal
+
+baik di tingkat lokal maupun internasional, Kota Pontianak memiliki potensi yang
+
+sangat cocok untuk pembudidayaan.  Hampir diseluruh wilayah Kota Pontianak
+
+memiliki struktur tanah gambut yang mana memiliki tingkat Ph atau keasaman
+
+yang tinggi,  hal ini menyebabkan tumbuhan lidah buaya dapat tumbuh dengan
+
+subur.
+
+Aloevera  Center Pontianak resmi didirikan  pada tahun 2002,  walaupun
+
+budidaya lidah buaya di Pontianak telah ada sejak tahun 1990. Aloevera Center
+
+Pontianak  ini  merupakan  pusat  pengembangan  yang  diawasi  oleh  Pemerintah
+
+Kota Pontianak.
+
+Pembangunan  kawasan  ini  merupakan  hasil  dari  kerja  sama  antara
+
+Pemerintah  Kota  Pontianak  dengan  Badan  Penelitian  dan  Pengembangan
+
+(Balitbang)  Provinsi  Kalimantan  Barat.  Aloevera  Center Pontianak  telah
+
+berkembang  sangat  pesat  dan  berhasil  berkontribusi  dalam  meningkatkan
+
+Pendapatan Asli Daerah (PAD) Kota Pontianak.
+
+Dengan adanya  pusat  pengembangan  ini,  mampu memberikan  berbagai
+
+macam inovasi  dalam pengembangan  budidaya,  mulai  dari  penamanan  hingga
+
+
+
+14
+
+hasil olahan. Dari yang awalnya hanya dikembangkan sebagai bahan minuman,
+
+lidah buaya banyak dikembangkan menjadi  berbagai  produk olahan mulai  dari
+
+minuman, dodol, jelly, kerupuk, dll.
+
+2.3.3 Tugu Khatulistiwa
+
+Pontianak merupakan salah satu dari sedikit kota di dunia yang dilewati
+
+garis khatulistiwa. Garis Khatulistiwa atau garis ekuator adalah garis khayal yang
+
+membagi  bumi  menjadi  dua  bagian  yaitu  utara  dan  selatan.  Untuk  menandai
+
+keistimewaan Kota Pontianak ini  dibangunlah Tugu Khatulistiwa atau  Equator
+
+Monument  pada garis  lintang nol  derajat  yang terletak  di  Siantan,  sekitar  tiga
+
+kilometer  dari  pusat  Kota  Pontianak  ke  arah  Kecamatan  Sungai  Pinyuh,
+
+Kabupaten Pontianak (Jero Wacik, 2014).
+
+2.3.4 Rumah Radakng
+
+Berdasarkan  Depdikbud.  RI.  (1994)  bangunan  rumah  betang  adalah
+
+jantung struktur sosial kehidupan orang Dayak. Budaya betang bagi suku Dayak
+
+merupakan  cerminan  mengenai  kebersamaan  dalam  kehidupan  sehari-hari.  Di
+
+dalam  rumah  betang  setiap  kehidupan  individu  dalam  rumah  tangga  dan
+
+masyarakat secara sistematis diatur melalui kesepakatan bersama yang dituangkan
+
+dalam hukum adat.
+
+Rumah  betang  selain  sebagai  tempat  kediaman  juga  merupakan  pusat
+
+segala  kegiatan  tradisional  warga  masyarakat.  Apabila  diamati  secara  lebih
+
+seksama,  kegiatan  di  rumah  betang  menyerupai  suatu  proses  pendidikan
+
+tradisional yang bersifat nonformal. Rumah betang menjadi tempat dan sekaligus
+
+menjadi  sarana  yang  efektif  bagi  masyarakat  Dayak  membina  keakraban  satu
+
+sama lainnya.  Di tempat  inilah  mereka mulai  berbincang-bincang untuk saling
+
+bertukar pikiran mengenai berbagai pengalaman, pengetahuan dan keterampilan.
+
+Pengalaman,  pengetahuan  dan  keterampilan  tersebut  diwariskan  secara  lisan
+
+kepada generasi penerus.
+
+
+
+15
+
+2.3.4.1   Tangga Naik Rumah Radakng
+
+Keberadaan  tangga  naik  pada  rumah  betang  merupakan  suatu  yang
+
+penting, mengingat bentuk fisik rumah betang berupa rumah panggung. Rumah
+
+betang  dibuat  berbentuk  panggung  karena  pada  awalnya  bertujuan  untuk
+
+menghindari  serangan dari  binatang  buas  maupun musuh yang  sewaktu-waktu
+
+dapat menyerang. Tangga rumah panjang pada masa dahulu hanya berjumlah 2
+
+(dua) buah yakni yang terletak di sisi sebelah kiri dan kanan rumah. Tangga ini
+
+pada  malam  hari  dapat  dinaikkan  sehingga  orang  luar  tidak  dapat  memasuki
+
+rumah  betang.  Hal  ini  bertujuan  untuk  keamanan  penghuni  rumah  betang,
+
+mengingat pada zaman dahulu sering terjadi perkelahian antarsuku. Tetapi seiring
+
+perkembangan zaman, hampir semua bilik mempunyai tangga depan dan belakang
+
+rumah.  Hal  ini  tentu melihat  dari  sisi  praktisnya,  ketika  orang akan masuk ke
+
+rumah betang.
+
+2.3.4.2   Pante Rumah Radakng
+
+Teras atau pelataran rumah panjang dalam bahasa setempat disebut pante.
+
+Bagian ini merupakan ruang terbuka yang terdapat paling depan dari radakng atau
+
+rumah panjang, ketika menaiki untuk masuk ke radakng maka ruangan ini yang
+
+pertama kita jumpai. Pante atau teras dari radakng terbuat dari kayu yang atau
+
+pada saat  ini  terbuat  dari  papan.  Papan tersebut  berukuran  kecil  yang disusun
+
+secara rapi. Antara satu dengan lainnya memiliki jarak dengan tujuan agar ketika
+
+hujan turun air tidak tergenang di atasnya, tetapi dapat langsung turun ke tanah.
+
+Ruangan ini juga dapat berfungsi untuk menjemur hasil panen (padi) atau hasil
+
+pertanian lainnya, seperti karet atau kopi. Pante juga digunakan oleh anak-anak
+
+penghuni  radakng sebagai  tempat  bermain.  Di sisi  tepi  dari  pante diberi  pagar
+
+setinggi  100 cm yang berguna sebagai  pengaman bagi  penghuni  radakng agar
+
+terhindar  dari  bahaya.  Pagar  pengaman  ini  juga  dimanfaatkan  sebagai  tempat
+
+untuk menjemur pakaian maupun barang-barang lainnya.
+
+2.3.4.3   Serambi Rumah Radakng
+
+Serambi merupakan ruang tengah yang bentuknya memanjang dan tanpa
+
+sekat  sepanjang  rumah  betang  atau  radakng.  Pada  ruangan  ini  terdapat  juga
+
+
+
+16
+
+semacam bale-bale  sebagai  tempat  duduk-duduk para  warga  melepaskan  lelah
+
+ketika pulang dari ladang, juga tempat berkumpul di siang hari melepaskan waktu
+
+senggang sambil membagi pengalaman. Bale-bale juga berfungsi untuk menerima
+
+tamu yang berkunjung di rumah betang atau radakng. Pada zaman dahulu bale-
+
+bale  juga  berfungsi  sebagai  tempat  tidur  bagi  tamu yang  bermalam di  rumah
+
+betang.  Masing-  masing  bilik  penghuni  rumah  betang  memiliki  bale-bale.
+
+Sementara itu, ruangan serambi yang memanjang digunakan sebagai tempat acara
+
+adat, seperti gawe, baliat, maupun acara rapat warga untuk memutuskan sesuatu.
+
+Tidak jarang ruangan ini  juga  digunakan sebagai  tempat  pertunjukan kesenian
+
+bagi warga dalam menyambut tamu-tamu tertentu di rumah betang. Bagi anak-
+
+anak  ruangan  ini  digunakan  sebagai  tempat  sarana  bermain,  mengingat
+
+ruangannya yang begitu luas sehingga membuat  mereka dapat berkreasi  dalam
+
+bermain.
+
+2.3.4.4   Bilik Rumah Radakng
+
+Bilik atau sering disebut sebagai ruang inti merupakan ruang utama dari
+
+bagian rumah betang. Bilik merupakan ruang pribadi bagi masing-masing kepala
+
+keluarga.  Bilik  hanya  diperuntukkan  bagi  anggota  keluarga  inti  dan  yang
+
+memisahkan  antara  keluarga  satu  dengan  yang lainnya  dan  dalam bilik  inilah
+
+biasanya keluarga berkumpul.  Bilik ini terdiri  dari kamar tidur,  ruang keluarga
+
+dan dapur. Seluruh aktivitas keluarga semuanya dilakukan dalam bilik.
+
+2.3.4.5   Dapur Rumah Radakng
+
+Ruang paling belakang dari rumah betang disebut juga jungkar, sebagai
+
+tempat memasak keluarga. Luas bagian ini tidak seragam, bergantung kemampuan
+
+ekonomi  dan  kebutuhan  masing-masing  keluarga.  Pada  bagian  ini,  dinding
+
+penyekat antarbilik tidak menempel, tetapi terdapat ruang terbuka dari atas hingga
+
+kolong rumah,  sehingga udara di  dalam ruangan tidak  pengap karena terdapat
+
+beberapa jendela, begitupun asap dapur bisa keluar melalui jendela. 
+
+2.3.4.6 Dango Rumah Radakng
+
+
+
+17
+
+Bagian  lain  dari  rumah  betang  walaupun  bangunannya  terpisah  dari
+
+bangunan induk rumah betang adalah bangunan tempat penyimpanan hasil panen
+
+yakni  lumbung  padi  atau  dalam  bahasa  Dayak  Kanayat’n  disebut  dango.
+
+Bangunan dango umumnya terletak di depan rumah betang, walaupun juga ada
+
+yang membuat di belakangnya. Bangunan ini berdiri sendiri terpisah dari rumah
+
+betang. 
+
+2.3.4.7 Gawai Dayak
+
+Kalimantan Barat memiliki  banyak tradisi  budaya yang dapat  dikaitkan
+
+dengan materi pelajaran sejarah. Salah satu contoh adalah tradisi Gawai Dayak
+
+yang sampai  sekarang masih  dilaksanakan  oleh  masyarakat  suku dayak,  dapat
+
+dikaitkan dengan materi tradisi masyarakat Indonesia sebelum mengenal tulisan.
+
+Daerah Kapuas Hulu memiliki berbagai macam sub suku Dayak, salah satunya
+
+adalah suku Dayak Taman. Wulandari (2010) menjelaskan pada dasarnya pelak
+
+sanaan Gawai pada suku Dayak Taman merupakan wujud penghormatan kepada
+
+leluhur,  termasuk  orang tua  dan sanak keluarga  yang  sudah  meninggal  dunia.
+
+Setiap orang taman cenderung menganggap Gawai sebagai kewajiban adat yang
+
+harus  dilaksanakan.  Pada  konsep  keyakinan  orang  Taman  ketentraman,
+
+kedamaian,  kesejahteraan  dan kemakmuran dalam hidup seseorang hanya bisa
+
+diperoleh  apabila  orang  tersebut  mampu  menghargai  dan  menghormati  sang
+
+pencipta serta menjaga keserasian hubungannya dengan alam, para leluhur, dan
+
+segala mahluk ciptaan Tuhan.
+
+2.3.5 Istana Kadariah
+
+Syarif  Abdurrahman  Alkadrie  adalah  sultan  pertama  yang  mendiami
+
+istana. Istana ini berada di dekat pusat Kota Pontianak, Kalimantan Barat. Sebagai
+
+cikal-bakal  lahirnya  Kota Pontianak,  Istana  Kadariah menjadi  salah satu objek
+
+wisata sejarah. Bangunan in diwarnai dengan dominan warna kuning.
+
+Di  seberang  Istana  Kadariah  terdapat  Sungai  Kapuas,  yang  biasanya
+
+diadakan Festival Meriam Karbit. Festival meriam karbit adalah salah satu festival
+
+budaya  di  Pontianak.  Biasanya  event  ini  diadakan  disaat  bulan  puasa  hingga
+
+
+
+18
+
+lebaran.  Event  ini  sudah  sangat  dikenal  baik  secara  nasional  maupun
+
+internasional.  Festival  meriam karbit  adalah festival  perlombaan meriam karbit
+
+raksasa  yang  biasanya terbuat  dari  pohon kelapa.  Kemudian  peserta  berlomba
+
+untuk saling membunyikan meriam tersebut di tepian sungai Kapuas. Kegiatan ini
+
+berlangsung dari 10 hari terakhir sebelum lebaran.
+
+2.3.6 Jalan Gajahmada
+
+Hampir di sepanjang jalan, ada warung kopi ataupun yang berbentuk kafe.
+
+Semua dipastikan menyediakan kopi. Tinggal memilih, ragam jenis kopi tersedia.
+
+Di  antara  deretan  hotel,  selalu  ada  warung-warung  kopi.  Wisatawan  yang
+
+kebetulan  menginap  di  hotel  di  kawasan  tersebut,  tak  perlu  bersusah  payah.
+
+Tinggal keluar hotel, jalan kaki kemudian duduk di warung kopi dan pesan kopi.
+
+Suasana  ramai  di  setiap  warung kopi,  akan  mulai  terlihat  sejak  jelang  malam
+
+hingga tengah malam. Ini tentunya mencirikan jalan ini sebagai coffee street.
+
+2.3.6.1 Cap Go Meh
+
+Tahun Baru kalender bulan adalah festival paling penting dalam kalender
+
+Cina, menandai mudiknya ratusan juta orang kembali ke kota asal dan kampung
+
+dengan halaman, utang lunas dan membawa hadiah untuk para kerabat. Banyak
+
+dekorasi  dan  hadiah  tradisional  Tahun  Baru  berhubungan  dengan  harapan
+
+kemakmuran  dan  kesuburan  yang  kita  harapkan  bagi  diri  sendiri:  uang  yang
+
+cukup,  banyak  anak  lelaki,  dan  banyak  makanan.  Emas  dan  permata  merah
+
+dengan huruf fu terbalik tertempel di dinding dan pintu. Fu, berarti nasib baik, dan
+
+dao berarti terbalik, terdengar dalam bahasa Cina seperti nasib baik tiba. 
+
+Merah, warna keberuntungan, dan emas, warna uang, menguasai dekorasi
+
+festival, khususnya kertas fa cai shu atau pohon cepat kaya dengan koin-koin dan
+
+batang emas, serta tulisan tulisan meminta kesehatan dan nasib baik (Anchee Min,
+
+2007).
+
+Kesenian  barongsai  merupakan  sebuah  gabungan  seni  budaya  dan
+
+olahraga yang berasal dari dataran Cina. Dimulai pada zaman Dinasti Chin pada
+
+abad  ketiga  sebelum  Masehi.  Barongsai  adalah  suatu  tarian  tradisional  Cina
+
+
+
+19
+
+dengan  menggunakan  sarung yang  menyerupai  singa.  Menurut  catatan  sejarah
+
+Cina,  barongsai  telah  memiliki  sejarah  ribuan  tahun.  Kesenian  barongsai
+
+diperkirakan  masuk  ke  Indonesia  pada  abad-17  ketika  terjadi  imigrasi  besar-
+
+besaran dari Cina Selatan. Barongsai di Indonesia mencapai masa keemasannya
+
+ketika perkumpulan Tiong Hoa Hew Koan masih berdiri  (Lily Turangan, Reza
+
+Fadhilla, 2014).
+
+2.4   Konsep Dasar Game
+
+2.4.1   Pengertian Game
+
+Arti game menurut kamus bahasa Indonesia adalah permainan. Permainan
+
+adalah  kegiatan  yang  kompleks  yang  didalamnya  terdapat  peraturan.  Sebuah
+
+permainan adalah sebuah sistem dimana pemain terlibat  dalam konflik  buatan,
+
+disini pemain berinteraksi dengan sistem dan konflik dalam permainan merupakan
+
+rekayasa atau buatan. Dalam permainan terdapat peratuan yang bertujuan untuk
+
+membatasi perilaku pemain dan menentukan permainan. Teori permainan adalah
+
+suatu cara belajar yang digunakan dalam menganalisa interaksi antara sejumlah
+
+pemain maupun perorang yang menunjukkan strategi-strategi yang rasional.
+
+Neuman,  J.V  (1953)  menyatakan  permainan  terdiri  atas  sekumpulan
+
+peraturan yang membangun situasi bersaing dari dua sampai beberapa orang atau
+
+kelompok  dengan  memilih  strategi  yang  dibangun  untuk  memaksimalkan
+
+kemenangan sendiri ataupun untuk meminimalkan kemenangan lawan. Peraturan-
+
+peraturan  menentukan  kemungkinan  tindakan  untuk  setiap  pemain,  sejumlah
+
+keterangan  diterima  setiap  pemain  sebagai  kemajuan  bermain,  dan  sejumlah
+
+kemenangan atau kekalahan dalam berbagai situasi.
+
+Permainan endless running adalah suatu permainan yang dirancang tanpa
+
+akhir, dan tanpa level pemainnya. Permainan video ini dimulai dengan pelan dan
+
+sangat  mudah.  Pemain  memainkan karakter  permainan yang akan terus  berlari
+
+untuk  mendapatkan  suatu  koin/skor  pada  jalan/jalur  lainnya.  Permainan  ini
+
+populer karena dianggap sebagai “cemilan”, karena dapat dimainkan antara waktu
+
+tiga hingga lima menit
+
+Klasifikasi game dimaksudkan untuk memudahkan pengelompokan jenis
+
+game. Beberapa klasifikasi game adalah seperti berikut.
+
+
+
+20
+
+1. Game as Game, Game yang dimaksud adalah game untuk kesenangan atau
+
+fun.
+
+2. Game  as  Media,  tujuan  utama  dari  game  as  media adalah  untuk
+
+menyampaikan pesan tertentu,  menyampaikan pesan dari pembuat  game
+
+tersebut.
+
+3. Game  Beyond  Game,  Bisa  disebut  juga  dengan  istilah  gamification.
+
+Gamification adalah penerapan konsep atau cara berpikir  game design ke
+
+dalam lingkup non-game.
+
+2.4.2   Jenis Platform Game
+
+Beberapa jenis platform game menurut Dwiperdana (2011) adalah sebagai
+
+berikut.
+
+1. Arcade games, yaitu yang sering disebut ding-dong di Indonesia, biasanya
+
+berada  di  daerah  /  tempat  khusus  dan  memiliki  box atau  mesin  yang
+
+memang  khusus  di  design untuk  jenis  video  games tertentu  dan  tidak
+
+jarang bahkan memiliki fitur yang dapat membuat pemainnya lebih merasa
+
+“masuk” dan “menikmati”,  seperti  pistol,  kursi  khusus,  sensor gerakan,
+
+sensor injakkan dan stir mobil.
+
+2. PC  Games,  yaitu  video  game yang  dimainkan  menggunakan  Personal
+
+Computers.
+
+3. Console games, yaitu video games yang dimainkan menggunakan console
+
+tertentu,  seperti  Playstation 2,  Playstation 3,  XBOX 360, dan Nintendo
+
+Wii.
+
+4. Handheld  games,  yaitu  yang dimainkan  di  console khusus  video  game
+
+yang dapat dibawa kemana-mana, contoh Nintendo DS dan Sony PSP.
+
+5. Mobile  games,  yaitu  yang  dapat  dimainkan  atau  khusus  untuk  mobile
+
+phone atau PDA.
+
+2.4.3   Elemen Dasar Game
+
+Untuk  mengembangan  sebuah  game maka  diperlukan  elemen-elemen
+
+dasar. Elemen-elemen ini nantinya akan digunakan dalam pemodelan matematis
+
+untuk pembuatan dan pengembangan game. Berikut ini adalah 11 elemen dasar
+
+
+
+21
+
+dalam game (Duke, 2011):
+
+1. Format,  mendefinisikan  struktur  dari  game.  Sebuah  game terdiri  dari
+
+beberapa  level,  dan  setiap  level tersebut  memiliki  fungsinya  masing-
+
+masing.
+
+2. Rules,  di  dalam sebuah  game,  harus  terdapat  perjanjian  atau  peraturan
+
+yang tidak dapat dirubah atau dipengaruhi oleh pemain. Oleh karena itu,
+
+dalam memainkan suatu  game,  pemain harus patuh dan bermain sesuai
+
+aturan yang berlaku.
+
+3. Policy, policy atau kebijaksanaan dapat didefinisikan sebagai aturan yang
+
+bisa dirubah atau dipengaruhi  oleh pemain.  Dengan adanya elemen ini,
+
+maka  pemain  akan  dapat  menggunakan  dan  mengembangkan  strategi
+
+dalam bermain game sesuai kemampuan dirinya.
+
+4. Scenario,  merupakan alur  cerita  yang digunakan sebagai  kerangka atau
+
+acuan dalam bermain game.
+
+5. Events,  adalah  suatu  kejadian  yang  menjadi  tantangan  sekaligus
+
+menambah  keceriaan  dalam  bermain  game.  Contoh  event dalam  game
+
+diantaranya adalah berupa konflik, dan kompetisi.
+
+6. Roles, sebuah gambaran dari fungsi dan aktifitas yang dapat dibagi antar
+
+pemain  dalam bermain  game.  Role ini  tidak  terbatas  pada satu pemain
+
+saja.  Menggunakan dua pemain atau lebih dalam  role yang sama, akan
+
+memberikan keuntungan tersendiri, karena mereka bisa saling belajar dari
+
+keberhasilan dan kesalahan masing-masing pemain.
+
+7. Decisions, decisions merupakan suatu keputusan yang harus diambil oleh
+
+si  pemain  di  dalam  bermain  game. Mengambil  keputusan  yang  salah
+
+terhadap suatu kejadian alam bermain game, akan dapat menjadi pelajaran
+
+yang penting bagi pemain, sehingga kesalahan tersebut tidak akan terulang
+
+lagi nantinya.
+
+8. Levels,  sebuah  game perlu  memiliki  level tingkat  kesulitan  agar  game
+
+tersebut  lebih  menarik  dan  menantang,  serta  dapat  digunakan  oleh
+
+masyarakat  luas.  Level  easy memberikan  tantangan  bagi  para  pemain
+
+pemula (beginner), sedangkan level difficult dikhususkan bagi para pemain
+
+yang mahir dan sudah berpengalaman (expert).
+
+
+
+22
+
+9. Score Model,  merupakan instrumen yang digunakan untuk menghitung,
+
+mendata,  dan menampilkan hasil dari permainan yang dimainkan.  Score
+
+Model ini menjadi suatu alat yang sangat penting agar game menjadi lebih
+
+menarik.
+
+10. Indicators,  indicator memberikan  pemain  suatu  isyarat  (hints)  terhadap
+
+raihan  atau  pencapaian  yang  telah  mereka  lakukan.  Elemen  ini  sangat
+
+penting  untuk  menjaga  agar  pemain  bisa  selalu  termotivasi  dan  fokus
+
+dalam bermain
+
+11. Symbols, bentuk visual dari simbolisasi elemen, aktivitas, dan keputusan.
+
+Pemilihan  simbol  yang tepat  akan membantu  pemain dalam memahami
+
+dan bermain game.
+
+2.4.4   Endless Runner Game
+
+Permainan  endless  running termasuk  permainan  video  genre arcade.
+
+Permainan  endless running adalah suatu permainan yang dirancang tanpa akhir,
+
+tanpa tingkatan, dan tanpa level pemainnya. Permainan video ini dimulai dengan
+
+pelan dan sangat mudah. Pemain memainkan karakter permainan yang akan terus
+
+berlari untuk mendapatkan suatu koin/skor pada jalan/jalur lainnya. Permainan ini
+
+popular karena dianggap sebagai “cemilan”, karena dapat dimainkan antara waktu
+
+tiga hingga lima menit (Chong, 2016).
+
+Salah  satu  contoh  dari  permainan  endless  running  adalah  Cookie  Run.
+
+Permainan ini  memiliki alur berjalan ke arah kanan terus menerus dan pemain
+
+harus menghindari rintangan untuk mendapatkan koin dan berlari sejauh mungkin.
+
+Ilustrasi dapat dilihat Gambar 2.1.
+
+
+
+23
+
+Gambar 2.1 Contoh endless runner game
+
+2.4.4   Game Development Life Cycle
+
+Menurut  Ramadan  (2013)  game  development  life  cycle adalah  sebuah
+
+metode pembangunan dan pengembangan game, dimana di dalamnya ada tahapan
+
+inititation,  pre-production,  production, testing, beta, release, berikut penjelasan
+
+singkat tentang tahapan – tahapan dapat dilihat dalam Gambar 2.1.
+
+Gambar 2.2 Metode game development life cycle (Sumber: Ramadhan, 2013)
+
+1. Initiation
+
+Initiation adalah titik inisiasi proyek game development. Awal dari  game
+
+development adalah  memulai  dari  ide  game.  Initiation adalah  sesi  developer
+
+berkumpul,  brainstorming dan berdiskusi mengenai  game seperti apa yang akan
+
+dibuat. Proses pengembangan game yang serius dimulai dari proses iterative yang
+
+bernama Production Cycle.
+
+
+
+24
+
+2. Pre-Production
+
+Pre-production adalah awal dari production cycle yang berurusan dengan
+
+game design.  Apa itu  game design dibahas  pada bab yang bersangkutan.  Pre-
+
+production adalah tahap yang vital  sebelum proses  production dimulai,  karena
+
+pada tahap ini dilakukan perancangan  game, dan rencana produksi  game. Tahap
+
+ini  terdiri  atas  game  design yakni  penyempurnaan  konsep  game dan
+
+dokumentasinya  (Game  Design  Document)  dan  prototyping yakni  pembuatan
+
+prototype dari game (bila game ada).
+
+3. Production
+
+Game design dan prototype yang ada pada pre-production disempurnakan
+
+pada  production.  Artinya,  tahap  ini  memiliki  fokus  pada  menerjemahkan
+
+rancangan game design, concept art, dan aspek lainnya menjadi unsur penyusun
+
+game.  Tahap ini  berkutat  dengan  asset creation,  programming dan  integration
+
+antara asset dan source code.
+
+4. Testing
+
+Testing merupakan  pengujian  terhadap  prototype build.  Pengujian  ini
+
+dilakukan  oleh  internal  developer  team untuk  melakukan  usability  test dan
+
+functionality test.
+
+5. Alpha 
+
+Pengujian alpha ini dilakukan untuk mendapatkan hasil analisis kualitas
+
+dari  perangkat  lunak  yang  dikembangkan.  Hasil  pengujian  ini  berupa  hasil
+
+observasi oleh pengembang dari aspek performance dan compatibility.
+
+6. Beta
+
+Saat game selesai dibuat, belum berarti  game tersebut akan diterima oleh
+
+massa.  Eksternal  testing,  dikenal  dengan  istilah  beta  testing dilakukan  untuk
+
+menguji penerimaan game dan untuk mendeteksi berbagai error dan keluhan yang
+
+dilemparkan oleh  third party tester. Beta berada diluar  production cycle,  tetapi
+
+hasil testing ini berpotensi menyebabkan tim mengulangi production cycle.
+
+7. Release
+
+Game yang sudah selesai dibuat dan lulus beta testing menandakan game
+
+tersebut siap untuk dirilis ke public. Release adalah tahap dimana final build dari
+
+game resmi dirilis melalui internet, dalam penelitian ini melalui Google Drive.
+
+
+
+25
+
+2.5   Alat Bantu Perancangan Sistem
+
+Dalam merancang suatu sistem terdapat banyak hal yang harus diperhatikan
+
+sehingga  perlu  digunakan  alat  bantu  untuk  memodelkan  aplikasi  yang  akan
+
+dibuat. Terdapat banyak bentuk model yang dapat digunakan dalam perancangan
+
+sebuah sistem antara lain model narasi, prototype, model grafis atau diagram dan
+
+lain sebagainya.  Dalam hal ini,  tidak menjadi  masalah model mana yang akan
+
+digunakan  asalkan  pemodelan  yang  dibuat  harus  mampu  mempresentasikan
+
+visualisasi  bentuk  sistem  yang  diinginkan  pemakai,  karena  sistem  akhir  yang
+
+dibuat bagi pemakai akan diturunkan dari model. Pada dunia pemodelan sistem
+
+terdapat sejumlah cara mempresentasikan sistem melalui diagram misalnya UML
+
+( Unified Modelling Language).
+
+2.5.1   Unified Modelling Language (UML)
+
+Menurut M. Salahuddin dan Rosa A.S (2013) Unified Modeling Language
+
+(UML)  merupakan  bahasa  visual  untuk  pemodelan  dan  komunikasi  mengenai
+
+sistem dengan  menggunakan  diagram dan teks-teks  pendukung.  UML muncul
+
+karena  adanya  kebutuhan  pemodelan  visual  untuk  menspesifikasikan,
+
+menggambarkan,  membangun  dan  dokumentasi  dari  sistem  perangkat  lunak.
+
+UML  hanya  berfungsi  untuk  melakukan  pemodelan.  Penggunaan  UML  tidak
+
+terbatas  pada  metodologi  tertentu,  meskipun  UML  banyak  digunakan  pada
+
+metodologi berorientasi objek. 
+
+2.5.1.1   Use Case Diagram
+
+Use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih
+
+aktor  dengan  sistem  informasi  yang  akan  dibuat.  Dengan  kata  lain,  use  case
+
+diagram  digunakan  untuk  mengetahui  fungsi-fungsi  apa  saja  yang  terdapat  di
+
+dalam  sistem  dan  siapa  saja  yang  berhak  mengakses  fungsi  tersebut  (M.
+
+Salahuddin  dan  Rosa A.S., 2013).  Simbol-simbol notasi pada  use case diagram
+
+dapat dilihat pada Tabel 2.3.
+
+Tabel  2.3 Deskripsi notasi pada  use case diagram (Sumber: M. Salahuddin dan
+
+Rosa A.S, 2013)
+
+
+
+26
+
+No Gambar Nama Keterangan
+
+1
+nama use case
+
+Use Case
+
+Deskripsi dari urutan aksi-aksi 
+yang ditampilkan sistem yang 
+menghasilkan suatu hasil yang 
+terukur bagi suatu actor.
+
+2 Actor
+
+Menspesifikasikan himpuan peran
+yang pengguna mainkan ketika 
+berinteraksi dengan use case
+
+3
+<<extend>>
+
+Extend
+
+Menspesifikasikan bahwa use 
+case target memperluas perilaku 
+dari use case sumber pada suatu 
+titik yang diberikan.
+
+No Gambar Nama Keterangan
+
+4 Association Apa yang menghubungkan antara 
+objek satu dengan objek lainnya.
+
+5 Generalization Hubungan dimana objek anak 
+(descendent) berbagi perilaku dan 
+struktur data dari objek yang ada 
+di atasnya objek induk (ancestor).
+
+6 <<include>> Include Menspesifikasikan bahwa use 
+case sumber secara eksplisit.
+
+2.5.1.2   Class Diagram
+
+Class diagram menggambarkan  struktur  sistem  dari  segi  pendefinisian
+
+kelas-kelas yang akan dibuat untuk membangun sistem. Class diagram memiliki
+
+apa yang disebut atribut dan metode atau operasi. Simbol-simbol notasi pada class
+
+diagram dapat dilihat pada Tabel 2.4.
+
+Tabel  2.4 Deskripsi  notasi  pada  class  diagram (Sumber:  John  P,  dan  Matt
+
+Casanova 2017)
+
+No Gambar Nama Keterangan
+
+nama_kelas
+
++atribut
+
++operasi()
+
+
+
+27
+
+1 Class
+Kelas pada struktur sistem.
+
+2 Inheritance
+
+Relasi antar kelas dengan makna
+objek anak berbagi perilaku dan 
+struktur data dari objek yang ada
+di atasnya objek induk 
+(ancestor).
+
+3 Aggregation
+
+Relasi satu kelas memiliki 
+koleksi instance dari kelas lain. 
+Kelas dapat ada di luar kelas 
+relasi.
+
+4 Composition
+
+Relasi satu kelas memiliki 
+koleksi instance dari kelas lain. 
+Kelas tidak dapat ada di luar 
+kelas relasi.
+
+2.5.1.3   Sequence Diagram
+
+Diagram  sekuen  menggambarkan  kelakuan  objek  pada  use  case dengan
+
+mendeskripsikan waktu hidup objek dan pesan yang dikirim dan diterima oleh
+
+objek.  Banyaknya  diagram  sekuen  yang  kan  dibangun  sesuai  dengan
+
+pendefenisian use case yang memiliki proses sendiri (Rosa dan Salahudin, 2011).
+
+Berikut ini adalah simbol-simbol yang terdapat pada diagram sekuen dapat dilihat
+
+pada Tabel 2.5.
+
+Tabel 2.5 Deskripsi notasi pada sequence diagram (Sumber: M. Salahuddin dan 
+
+Rosa A.S, 2013)
+
+No Gambar Nama Keterangan
+
+1 Aktor
+
+Orang, proses, atau sistem lain 
+yang berinteraksi dengan sistem 
+informasi yang di buat diluar 
+sistem.
+
+
+
+28
+
+2
+Garis hidup 
+(lifetime)
+
+Menyatakan kehidupan suatu 
+objek.
+
+3 Objek
+Menyatakan objek yang 
+berinteraksi pesan.
+
+4 Waktu aktif
+
+Menyatakan objek dalam keadaan
+aktif dan berinteraksi pesan.
+
+No Gambar Nama Keterangan
+
+6
+
+Pesan tipe 
+create
+
+Menyatakan suatu objek membuat
+objek yang lain, arah panah 
+mengacu pada objek yang dibuat
+
+7 Pesan tipe call
+
+Menyatakan suatu objek 
+memanggil operasi / operasi 
+metode yang ada pada objek lain 
+atau dirinya sendiri.
+
+8 Pesan tipe send
+
+Menyatakan suatu objek 
+mengirimkan data / masuk / 
+infromasi ke objek lainnya, atah 
+panah mengarah pada objek kirim.
+
+9
+Pesan tipe 
+return
+
+Menyatakan suatu objek yang 
+telah menjalankan operasi atau 
+metode menghasilkan suatu 
+pengembalian ke objek tertentu.
+
+10
+Pesan tipe 
+destroy
+
+Menyatakan suatu objek 
+mengakhiri hidup atau yang lain, 
+arah panah mengarah pada objek 
+yang diakhiri.
+
+
+
+29
+
+2.5.2   Game Design Document (GDD)
+
+Menurut  Jukka  (2015),  terdapat  dua  alasan  untuk  dokumen  ini  dibuat,
+
+yaitu  memori  dan  komunikasi.  Desain  dalam  sebuah  permainan  penuh  oleh
+
+keputusan  yang  membentuk  sebuha  permainan.  Bagaimana  itu  bekerja  dan
+
+mengapa,  kebanyak  desainer  tidak  dapat  mengingat  itu  semua.  Jika  desainer
+
+mendokumentasi  keputusan,  dia  dapat  menyelesaikan permasalahan yang sama
+
+kedepannya.  Desain  keputusan  harus  dikomunikasikan  oleh  tim,  dan  dengan
+
+dokumen itu dapat dikomunikasikan dengan efektif.  Jika desain terdapat dalam
+
+bentuk  tertulis,  anggota  lain  dapat  melihat  dan  dapat  membantu  menemukan
+
+masalah, dan ide untuk pengembangan.
+
+Menurut  Jukka (2015),  ada  beberapa  jenis  dari  desain  dokumen.  Mana
+
+yang digunakan dan informasi yang ada dalam dokumen tergantungan keputusan
+
+desainer.  Bagi  desainer  pemula,  ini  mungkin  terlalu  banyak  untuk  dikerjakan.
+
+Tapi ini adalah beberapa bagian yang termasuk bagian yang biasa dipakai.
+
+2.5.2.1   High Concept Document
+
+High concept  document adalah seperti  resume.  Tujuannya adalah untuk
+
+mendapatkan  hearing  dari  seseorang,  yang  biasanya  adalah  investor.  Ini
+
+menjelaskan konsep permainan dalam singkat,  tidak lebih dari  dua atau empat
+
+lembar. Dokumen ini harus terdiri dari hal berikut.
+
+1. High Concept Statement
+
+High  concept  statement  dideskripsikan  hanya  dalam  beberapa  kalimat
+
+mengenai permainan. Referensi terhadap media lain yang memiliki ide yang sama
+
+juga bisa digunakan.
+
+2. Player Role
+
+Deskripsi  dari  peran  pemain  dalam  permainan.  Apa  pemain  menjadi
+
+seseorang atau sesuatu? Apa ada lebih dari satu peran? Bagaimana peran pemain
+
+menentukan alur  permainan.  Jika pemain  memiliki  suatu karakter,  hal  tersebut
+
+harus dijelaskan.
+
+3. Gameplay
+
+Mode gameplay harus dijelaskan dalam bagian ini, Bersama dengan mode
+
+yang ada dalam permainan.
+
+4. Genre
+
+
+
+30
+
+Dalam  genre  permainan ini termasuk dijelaskan di bagian ini,  termasuk
+
+jika permain adalah mix-genre, fitur apa saja yang terdapat dalam genre yang ada
+
+dalam  permainan?  Jika  permainan  tidak  termasuk  genre  yang  sudah  ada,
+
+penjelasan diharuskan.
+
+5. Platform
+
+Pada mesin dan sistem operasi permainan dapat berjalan? Hal ini termasuk
+
+dalam detail perlengkapan khusus yang dibutuhkan untuk memainkan permainan
+
+seperti kamera atau kacamata VR.
+
+6. Target Audience
+
+Siapa  yang akan  memainkan  permainan  ini?  Bagaimana  pemain  dalam
+
+permainan dibedakan dengan pemain umum yang lain?
+
+7. Game World
+
+Penjelasan singkat tentang dunia dalam permainan. Tampilan dan suasana
+
+dimana permainan berlokasi.
+
+8. Game Flow
+
+Outline general dari progress permainan dari awal sampai akhir. Beberapa
+
+ide untuk level dan misi harus dimasukkan, jika ada cerita, harus ada sinopsis oleh
+
+cerita.
+
+9. Marketing
+
+Kebanyakan  dari  permainan  adalah  produk  komersil,  dalam  bagian  ini
+
+harus  dimasukkan  unique  selling  point  yang  membuat  permainan  menarik
+
+perhatian pasar, strategi pemasaran dan  merchandise  yang mungkin akan dijual
+
+bisa dimasukkan.
+
+2.5.2.2   Character Design Document
+
+Tujuan dari  dokumen ini  adalah untuk menyimpan desain dari  karakter
+
+yang ada dalam permainan. Ini kebanyakan menunjukan penampilan dan animasi,
+
+sehingga  harus  terdapat  banyak konsep  dari  berbagai  pose  dan eksperesi,  dan
+
+harus terdapat latar belakang informasi dari karakter.
+
+2.5.2.3   World Design Document
+
+
+
+31
+
+World  design  document  adalah  dasar  dari  pembuatan  visual  style  dan
+
+emotional  tone  dari  dunia  permainan.  Ini  tidak  menyimpan  secara  detail  tapi
+
+sebuah gambaran umum. 
+
+2.5.3   Storyboard
+
+Suyanto  (2003)  menyatakan  Storyboard adalah  serangkaian  sketsa
+
+(gambaran kartun) dibuat berbentuk persegi panjang yang menggambarkan suatu
+
+urutan  (alur  cerita)  elemen-elemen  yang  diusulkan  untuk  aplikasi  multimedia.
+
+Storyboard visualisasi  ide  dari  aplikasi  yang  akan  dibangun,  sehingga  dapat
+
+memberi  gambaran  dari  aplikasi  yang akan  dihasilkan.  Storyboard juga  dapat
+
+dikatakan  visual  script yang  akan  dijadikan  outline dari  sebuah  proyek,
+
+ditampilkan  shot  by  shot yang  biasa  disebut  dengan  istilah  scene.  Contoh
+
+Storyboard dapat dilihat pada Gambar 2.3 dan Gambar 2.4.
+
+
+
+32
+
+Gambar 2.3 Contoh storyboard 1 (Sumber: Suyanto, 2003)
+
+
+
+33
+
+Gambar 2.4 Contoh storyboard 2 (Sumber: Suyanto, 2003)
+
+Storyboard sekarang lebih banyak digunakan untuk membuat kerangka
+
+pembuatan  websites  dan  proyek  media  interaktif  lainnya  seperti  iklan,  film
+
+pendek,  games,  media  pembelajaran  interaktif  ketika  dalam  tahap
+
+perancangan/desain.  Baru-baru  ini  istilah  Storyboard  juga  telah  digunakan
+
+dibidang pengembangan web, pengembangan perangkat lunak dan perancangan
+
+instruksi  untuk  mempresentasikan  dan menjelaskan  kejadian  interaktif  seperti
+
+suara dan gerakan biasanya pada antarmuka pengguna, halaman elektronik dan
+
+layar presentasi.
+
+
+
+34
+
+Sebuah Storyboard media  interaktif  dapat  digunakan dalam antarmuka
+
+grafik  pengguna  untuk  rancangan  rencana  desain  sebuah  website  atau  proyek
+
+interaktif  sebagaimana  alat  visual  untuk  perencanaan  isi.  Sebaliknya,  sebuah
+
+sitemap (peta) atau Storyboard (diagram alur) dapat lebih bagus digunakan untuk
+
+merencanakan  arsitektur  informasi,  navigasi,  links,  organisasi  dan  pengalaman
+
+pengguna,  terutama  urutan  kejadian  yang  susah  diramalkan  atau  pertukaran
+
+audiovisual kejadian menjadi kepentingan desain yang belum menyeluruh. 
+
+Salah satu keuntungan menggunakan Storyboard adalah dapat membuat
+
+pengguna untuk mengalami perubahan dalam alur cerita untuk memicu reaksi atau
+
+ketertarikan  yang  lebih  dalam.  Seorang  pembuat  Storyboard  harus  mampu
+
+menampilkan  sebuah  cerita  yang  bagus.  Pada  proyek  tertentu,  pembuat
+
+Storyboard memerlukan ketrampilan menggambar yang bagus dan kemampuan
+
+beradaptasi terhadap desain yang telah dikeluarkan.
+
+2.6      Pengujian Perangkat Lunak
+
+2.6.1 Bitbar Testing
+
+Bitbar  Testing dibuat  oleh  Testdroid  technology,  yang  menyediakan
+
+automation testing dan manual testing menggunakan perangkat Android dan iOS
+
+asli.  Menghasilkan  mobile  developers dapat  membuat  aplikasi,  permainan,  dan
+
+websites berkualitas tinggi.
+
+Bitbar Testing menyediakan alat pengujian cloud-based mobile yang fleksibel.
+
+Memiliki ratusan perangkat unik dengan kombinasi HW & SW. Dalam pengujian
+
+ini, penguji dapat menguji dengan secara otomatis menggunakan test framework
+
+yang  sedang  populer  atau  menguji  secara  manual  untuk  melihat  bagaimana
+
+pengguna menggunakan aplikasi dengan menggunakan remote device control.
+
+Kelebihan  konkurensi  tidak  terbatas  di  Bitbar  Testing  dapat  membuat
+
+pengujian  perangkat  dengan  berbagai  jumlah  perangkat,  dari  sepuluh  sampai
+
+seribu,  dan  secara  paralel  menggunakan  perangkat  dalam  jumlah  besar  yang
+
+tersedia online.
+
+Hasil  dari  pengujian  tersampaikan  secara  cepat  dengan  semua  data,  logs,
+
+videos,  screenshots  yang  mungkin  sehingga  pengembang  dapat  menguji  dan
+
+
+
+35
+
+debug issues. Menghasilkan menyelesaikan dan pendeteksian permasalahan lebih
+
+cepat dan sesuai waktu, sehingga menghasilkan aplikasi yang lebih baik.
+
+Dalam  penelitian  ini  Bitbar  Testing digunakan  sebagai  pengujian  aplikasi
+
+permainan  dari  segi  fungsionalitas,  kompabilitas,  dan  performa.  Menggunakan
+
+metode ini lebih efektif dan mendalam karena pengujian ini mencakup pengujian
+
+blackbox (fungsionalitas), ditambah dengan pengujian kompabilitas, dan performa
+
+yang dilakukan secara cepat dan dalam beberapa device secara sekaligus.
+
+2.6.1.1 Functional Testing
+
+Functional testing merupkan salah satu metode yang sangat umum digunakan
+
+untuk  pengujian  permainan  mobile.  Umumnya  functional  testing diasosiakan
+
+dengan manual testing dan permainan game langsung. Tetapi, untuk lebih cepat,
+
+semua  functional  testing seharusnya sudah otomatis.  Functional testing dengan
+
+bantuan dari test automation frameworks membutuhkan dasar pemahaman tentang
+
+pemrograman  dan  pengaturan  lingkungan  untuk  pengujian.  Functional  testing
+
+otomatis  dapat  memperlihatkan  permasalahan  berkaitan  dengan  user  interface,
+
+kestabilan, game flow, dan integrasi oleh asset grafis.
+
+2.6.1.2 Compatibility Testing
+
+Compatibility  testing  adalah  tentang  membuat  permainan  dapat  dimainkan
+
+dalam berbagai perangkat yang ada. Permasalahan yang muncul adalah pengujian
+
+kompabilitas  hanya dilakukan di  akhir  pembuatan  permainan,  yang seharusnya
+
+dilakukan di setiap fase pembuatan, juga disebut sebagai smoke testing. Pengujian
+
+smoke dapat  membantu  menampilkan  ketidakkompabilitisan  terhadap  beberapa
+
+bagian dalam permainan.
+
+2.6.1.3 Performance Testing
+
+Performance testing sangat  penting  untuk pengujian  permainan.  Permainan
+
+yang bekerja dengan lambat dan buruk dapat memastikan permainan akan tidak
+
+berhasil,  mendapatkan  rating  yang  buruk.  Berhubungan  dengan  perforrmance
+
+testing  sangat  penting untuk memahami untuk bagaimana ekosistem perangkat
+
+dan  apa  kebutuhan  yang dibutuhkan  oleh  permainan  untuk pengguna.  Banyak
+
+
+
+36
+
+permainan yang diujikan kepada high end device, dan tidak banyak yang diujikan
+
+untuk low end device.
+
+2.6.2   Skala Likert
+
+2.6.2.1   Pengertian Skala Likert
+
+Skala  Likert  merupakan  metode  pengukuran  yang  digunakan  untuk
+
+mengukur sikap, pendapat,  dan persepsi sesorang atau kelompok orang tentang
+
+fenomena sosial (Sugiyono, 2012).
+
+2.6.2.1   Penentuan Skor Jawaban
+
+Skor  jawaban  merupakan  nilai  jawaban  yang  akan  diberikan  oleh
+
+responden, hal pertama yang harus kita lakukan adalah menentukan skor dari tiap
+
+jawaban  yang  akan  diberikan.  Contohnya,  sikap  yang  akan  kita  pakai  yaitu
+
+”setuju”. Selanjutnya kita menentukan banyaknya jawaban pada tiap pernyataan
+
+yang  akan  kita  berikan.  Misalnya  5  skala,  berarti  sangat  tidak  setuju,  kurang
+
+setuju,  cukup.  Jika  pertanyaan  yang  diberikan  bersifat  susah  untuk  diberikan
+
+jawaban,  otomatis  responden  cenderung  statik  oleh  karena  itu  kita  dapat
+
+memberikan piliihan jawaban  yang banyak, misal 7 atau 9 jawaban dari setiap
+
+pertanyaan. Hal ini bertujuan agar responden dapat memberikan penilaian sesuai
+
+dengan kriteria  mereka  berdasarkan pilihan  yang ada.  Skala nilai  dapat  dilihat
+
+pada Tabel 2.6. (Sugiyono, 2012).
+
+Tabel 2.6. Skala nilai likert (Sumber: Sugiyono, 2012)
+
+Skala Jawaban Nilai
+Sangat Tidak Setuju/Suka/Bagus 1
+
+Kurang Setuju/Suka/Bagus 2
+Cukup Setuju/Suka/Bagus 3
+
+Setuju/Suka/Bagus 4
+Sangat Setuju/Suka/Bagus 5
+
+2.6.2.3   Skor Ideal
+
+Skor ideal merupakan skor yang digunakan untuk menghitung skor untuk
+
+menemukan rating scale dan jumlah seluruh jawaban. Untuk menghitung jumlah
+
+skor  ideal(kriterium)  dari  seluruh  item digunakan  rumus  berikut,  yaitu:  Skor
+
+Kriterium = Nilai skala x Jumlah responden. Seandainya skor tertinggi adalah 5
+
+
+
+37
+
+dan jumlah responden 20, maka dapat dirumuskan menjadi: 
+
+Tabel 2.7. Rumus skala likert
+
+Rumus Skala
+
+5x20=100 SB
+
+4x20=80 B
+
+3x20=60 CB
+
+2x20=40 KB
+
+1x2=20 SKB
+
+Selanjutnya semua jawaban responden dijumlahkan dan dimasukkan ke dalam
+
+rating scale dan ditentukan daerah jawabannya.
+
+2.6.2.4   Rating Scale Skala Likert
+
+Rating scale berfungsi untuk mengetahui hasil data angket (kueisoner) dan
+
+wawancara  secara  umum dan  keseluruhan  yang  didapat  dari  penilaian  angket
+
+(kuisoner) dan wawancara. Dengan ketentuan seperti Tabel 2.8.
+
+Tabel 2.8 Hasil penelitian skala likert
+
+Rumus Skala
+
+81-100 SB
+
+61-80 B
+
+41-60 CB
+
+21-40 KB
+
+0-20 SKB
+
+2.6.2.5   Persentase Persetujuan
+
+Sedangkan untuk mengetahui jumlah jawaban dari para responden melalui
+
+persentase, yaitu digunakan rumus sebagai berikut: p=f/nx100%. Keterangan dari
+
+rumus  tersebut  adalah  p:persentase,  f:frekuensi,  n:jumlah  skor  ideal  (Sumber:
+
+Sugiyono, 2012).
+
+
+
+\3.4.3.2 Class Diagram
+
+Pada class diagram menggambarkan struktur sistem dari segi pendefinisian kelas dalam aplikasi yang dibuat. Perancangan class diagram dapat dilihat pada Gambar 3.11.
+
+Gambar 3.11 Class diagram 
+
+65
+
+
+
+3.4.3.3 Sequence Diagram
+
+Pada diagram  sekuen  menggambarkan  objek  pada  use  case dengan
+
+mendeskripsikan waktu hidup objek dan pesan yang dikirim dan diterima oleh
+
+objek, berikut adalah diagram sekuen pada penelitian ini.
+
+3.4.3.3.1  Sequence Diagram Membuka Mode Permainan
+
+Penjelasan  diagram  sekuen  membuka  mode  permainan  digambarkan
+
+dalam Gambar 3.12.
+
+Gambar 3.12 Sequence diagram membuka mode permainan
+
+66
+
+
+
+3.4.3.3.2  Sequence Diagram Memainkan Mode Pertualangan
+
+Penjelasan diagram sekuen memulai mode pertualangan digambarkan dalam Gambar 3.13.
+
+67
+
+
+
+Gambar 3.13 Sequence diagram memainkan mode pertualangan
+
+3.4.3.3.3  Sequence Diagram Memainkan Mode Jalan-Jalan
+
+Penjelasan diagram sekuen memulai mode jalan-jalan digambarkan dalam Gambar 3.14.
+
+Gambar 3.14 Sequence diagram memainkan mode jalan-jalan
+
+68
+
+
+
+3.4.3.3.4  Sequence Diagram Memainkan Kuis Pariwisata
+
+Penjelasan diagram sekuen membuka kuis pariwisata digambarkan dalam Gambar 3.15.
+
+Gambar 3.15 Sequence diagram memainkan kuis pariwisata
+
+69
+
+
+
+3.4.3.3.5  Sequence Diagram Melihat Informasi Pariwisata
+
+Penjelasan diagram sekuen melihat informasi pariwisata digambarkan dalam Gambar 3.16.
+
+Gambar 3.16 Sequence Diagram melihat informasi pariwisata
+
+70
+
+
+
+3.4.3.3.6  Sequence Diagram Membuka Pengaturan
+
+Penjelasan diagram sekuen membuka pengaturan digambarkan dalam 
+
+Gambar 3.17.
+
+Gambar 3.17 Sequence Diagram membuka pengaturan
+
+3.4.3.3.7  Sequence Diagram Mengatur Volume Suara
+
+Penjelasan diagram sekuen mengatur volume suara digambarkan dalam 
+
+Gambar 3.18.
+
+Gambar 3.18 Sequence diagram mengatur volume suara
+
+71
+
+
+
+72
+
+3.4.3.2.8  Sequence Diagram Mengatur Bahasa
+
+Penjelasan diagram sekuen mengatur bahasa digambarkan dalam Gambar 
+
+3.19.
+
+Gambar 3.19 Sequence diagram mengatur bahasa
+
+3.4.3.3.9  Sequence Diagram Mengatur Grafik
+
+Penjelasan diagram sekuen mengatur grafik digambarkan dalam Gambar 
+
+3.20.
+
+Gambar 3.20 Sequence diagram mengatur grafik
+
+
+
+73
+
+3.4.3.3.10  Sequence Diagram Membuka Kredit
+
+Penjelasan diagram sekuen membuka kredit digambarkan dalam Gambar 
+
+3.21.
+
+Gambar 3.21 Sequence diagram membuka kredit
+
+3.4.3.3.11  Sequence Diagram Reset Permainan
+
+Penjelasan diagram sekuen reset permainan digambarkan dalam Gambar 
+
+3.22.
+
+Gambar 3.22 Sequence diagram reset permainan
+
+
+
+74
+
+3.4.3.3.12  Sequence Diagram Keluar Permainan
+
+Penjelasan diagram sekuen keluar permainan digambarkan dalam Gambar 
+
+3.23.
+
+Gambar 3.23 Sequence diagram keluar permainan
+
+
+
+75
+
+3.5 Pengujian Permainan
+
+Dalam  penelitian  ini  dilakukan  beberapa  pengujian,  berikut  adalah
+
+pengujian yang dilakukan.
+
+3.5.1  Pengujian Alpha (Fungsional)
+
+3.5.1.1 Functional Testing
+
+Functional testing merupkan salah satu metode yang sangat umum digunakan
+
+untuk  pengujian  permainan  mobile.  Umumnya  functional  testing diasosiakan
+
+dengan manual testing dan permainan game langsung. Tetapi, untuk lebih cepat,
+
+semua  functional  testing seharusnya sudah otomatis.  Functional testing dengan
+
+bantuan dari test automation frameworks membutuhkan dasar pemahaman tentang
+
+pemrograman  dan  pengaturan  lingkungan  untuk  pengujian.  Functional  testing
+
+otomatis  dapat  memperlihatkan  permasalahan  berkaitan  dengan  user  interface,
+
+kestabilan, game flow, dan integrasi oleh asset grafis.
+
+3.5.1.2 Compatibility Testing
+
+Compatibility  testing  adalah  tentang  membuat  permainan  dapat  dimainkan
+
+dalam berbagai perangkat yang ada. Permasalahan yang muncul adalah pengujian
+
+kompabilitas  hanya dilakukan di  akhir  pembuatan  permainan,  yang seharusnya
+
+dilakukan di setiap fase pembuatan, juga disebut sebagai smoke testing. Pengujian
+
+smoke dapat  membantu  menampilkan  ketidakkompabilitisan  terhadap  beberapa
+
+bagian dalam permainan.
+
+3.5.1.3 Performance Testing
+
+Performance testing sangat  penting  untuk pengujian  permainan.  Permainan
+
+yang bekerja dengan lambat dan buruk dapat memastikan permainan akan tidak
+
+berhasil,  mendapatkan  rating  yang  buruk.  Berhubungan  dengan  perforrmance
+
+testing  sangat  penting untuk memahami untuk bagaimana ekosistem perangkat
+
+dan  apa  kebutuhan  yang dibutuhkan  oleh  permainan  untuk pengguna.  Banyak
+
+permainan yang diujikan kepada high end device, dan tidak banyak yang diujikan
+
+untuk low end device.
+
+ 
+
+
+
+76
+
+3.5.2  Pengujian Beta (Kuesioner)
+
+Pengujian yang akan dilakukan adalah user acceptance test, yaitu menguji
+
+tingkat penerimaan user terhadap permainan melalui kuesioner. Kuisoner terdiri
+
+dari 13 pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan dalam
+
+pengujian permainan, yaitu aspek mechanics, aspek story, dan aspek aesthetics.
+
+Terdapat  juga  pengujian  untuk mengetahui  seberapa  tinggi  pemahaman
+
+pemain dengan pariwisata Kota Pontianak, dilakukan dengan melihat skor pemain
+
+di  mode kuis,  pada  saat  awal  bermain,  dan  setelah  menyelesaikan  mode
+
+pertualangan.
+
+Kuesioner dibagikan kepada 10 responden yang memiliki latar belakang
+
+masyarakat Indonesia berumur 20-30 tahun, dan 10 responden yang memiliki latar
+
+belakang masyarakat  luar  negeri  berumur  20-30 tahun.  Serta  pernah berwisata
+
+domestik  atau  internasional.  Total  jumlah  responden  adalah  20  responden.
+
+Responden tersebut akan mencoba langsung di smartphone yang telah terpasang
+
+aplikasi permainan.
+
+3.5.2.1  Aspek Mechanics
+
+Hasil  kuesioner  aspek  mechanics sesuai  dengan kriteria  masing-masing
+
+ditunjukkan pada Tabel 3.8.
+
+Tabel 3.8 Kuesioner aspek mechanics
+
+No Aspek Mechanics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+
+Bagaimana 
+
+kemudahan 
+
+mengakses menu yang
+
+terdapat dalam 
+
+permainan
+
+2
+Bagaimana tingkat 
+
+kesulitan permainan
+
+
+
+77
+
+3
+
+Bagaimana 
+
+kemudahan 
+
+mengakses tombol 
+
+pada permainan
+
+4
+
+Bagaimana proses 
+
+gameplay pada 
+
+permainan
+
+No Aspek Mechanics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+Keterangan: 1=Sangat susah 2=Susah 3=Cukup mudah
+
+4=Mudah 5=Sangat mudah
+
+3.5.2.1  Aspek Story
+
+Hasil  kuesioner  aspek  story sesuai  dengan  kriteria  masing-masing
+
+ditunjukka pada Tabel 3.9.
+
+Tabel 3.9 Kuesioner aspek story
+
+No Aspek Mechanics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+Bagaimana jalan cerita
+
+dalam permainan
+
+2
+
+Apakah informasi 
+
+pariwisata Kota 
+
+Pontianak dapat 
+
+dimengerti
+
+3
+
+Bagaimana respon 
+
+jalan cerita dan 
+
+informasi pariwisata 
+
+terhadap pemain
+
+Keterangan: 1=Sangat buruk 2=Buruk 3=Cukup baik
+
+
+
+78
+
+4=Baik 5=Sangat baik
+
+3.5.2.3  Aspek Aesthetics
+
+Hasil  kuesioner  aspek  aesthetics sesuai  dengan  kriteria  masing-masing
+
+ditunjukka pada Tabel 3.10.
+
+Tabel 3.10 Kuesioner aspek aesthetics
+
+No Aspek Aesthetics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+Bagaimana tampilan 
+
+aplikasi permainan
+
+2
+
+Bagaimana tampilan 
+
+menu aplikasi 
+
+permainan
+
+3 Apakah jenis dan 
+
+ukuran huruf dalam 
+
+permainan mudah 
+
+dibaca
+
+4 Bagaimana kombinasi 
+
+warna dalam tampilan 
+
+permainan
+
+5 Bagaimana bentuk 
+
+karakter, background, 
+
+dan animasi
+
+6 Bagaimana musik dan 
+
+suara di dalam 
+
+permainan
+
+
+
+79
+
+Keterangan: 1=Sangat buruk 2=Buruk 3=Cukup baik
+
+4=Baik 5=Sangat baik
+
+Untuk mencari  nilai  persentase  dari  masing-masing pendapat  kuesinoer
+
+digunakan rumus skala Likert sebagai berikut:
+
+p=f/n*100%
+
+p=Nilai persentase yang dicari
+
+f=Jumlah frekuensi dikalikan dengan skor yang ditetapkan tiap jawaban
+
+n=Skor ideal (Skor tertinggi dikalikan dengan jumlah sampel)
+
+Pengujian  menggunakan 5 kategori  jawaban dengan skor  yang berbeda
+
+untuk setiap jawabannya seperti pada Tabel 3.11 berikut:
+
+Tabel 3.11 Skor hasil kuesioner
+
+Jawaban
+Sangat
+
+Buruk
+Buruk
+
+Cukup
+
+Baik
+Baik
+
+Sangat
+
+Baik
+
+Skor 1 2 3 4 5
+
+Untuk mengetahui tingkat keberhasilan aplikasi dari pengujian kuesioner,
+
+digunakan skala Likert’s Summated Rating (LSR). Data yang diperoleh dari hasil
+
+pengujian dengan keusioner kemudian diukur dengan skala.
+
+1. Jumlah skor untuk setiap responden:
+
+ Skor maksimal = 65 (5 x 13 pertanyaan)
+
+ Skor minimal = 13 (1 x 13 pertanyaan)
+
+ Skor median = 39 (3 x 13 pertanyaan)
+
+ Skor kuartil I = 26 (2 x 13 pertanyaan)
+
+ Skor kuartil III = 52 (4 x 13 pertanyaan
+
+2. Jumlah skor untuk seluruh responden:
+
+ Maksimal = 1300 (20 x 65)
+
+ Minimal = 260 (20 x13)
+
+ Median = 780 (20 x 39)
+
+ Kuartil I = 520 (20 x 26)
+
+
+
+80
+
+ Kuartil III = 1040 (20 x 52)
+
+3. Interpretasi jumlah skor:
+
+ 1040 < Skor < 1300, artinya sangat setuju.
+
+ 1040 < Skor < 780, artinya setuju.
+
+ 780 < Skor < 520, artinya kurang setuju.
+
+ 520 < Skor < 260, artinya sangat tidak setuju.
+
+Keterangan:
+
+Sangat tidak setuju = 260-520
+
+Tidak setuju = 520-780
+
+Setuju = 780-1040
+
+Sangat setuju = 1040-1300
+
+3.5.2.4  Pretest dan Posttest
+
+Dalam  penelitian  ini  diukur  kemampuan  pengguna  tentang  informasi
+
+pariwisata Kota Pontianak. Pengetahuan informasi pariwisata Kota Pontianak oleh
+
+pengguna diukur dengan pencatatan skor pengguna dalam permainan mode kuis
+
+sebelum dan sesudah bermain game ini. Dalam mode kuis terdapat 10 pertanyaan
+
+acak tentang pariwisata  Kota  Pontianak yang diacak dan harus dijawab dalam
+
+waktu 1 menit.
+
+Untuk menghitung nilai rata-rata dari hasil pengujian mode kuis sebelum
+
+dan setelah digunakan rumus sebagai berikut:
+
+M = 
+∑ X
+
+∑ N
+
+Keterangan:
+
+M : Nilai rata-rata
+
+∑ X : Jumlah nilai
+
+∑ N : Jumlah responden
+
+Setelah nilai  sebelum dan sesudah dihitung,  kemudian mencari  korelasi
+
+variabel dengan rumus:
+
+
+
+81
+
+r=
+∑ XY
+√¿¿¿
+
+Keterangan:
+
+r : Korelasi
+
+∑ X : Rata-rata nilai sebelum
+
+∑ N : Rata-rata nilai sesudah
+
+Nilai yang didapatkan, diklasifikasikan dengan nilai sebagai berikut yang
+
+dapat dilihat pada Tabel 3.12.
+
+Tabel 3.12 Pedoman interpretasi koefisien korelasi
+
+(Sumber: Sugiyono, 2012)
+
+Interval Koefisien Tingkat Hubungan
+
+0,00-0,199
+
+0,20-0,399
+
+0,40-0,599
+
+0,60-0,799
+
+0,80-1,000
+
+Sangat rendah
+
+Rendah
+
+Sedang
+
+Kuat
+
+Sangat kuat
+
+
+
+ BAB III
+
+METODOLOGI PENELITIAN
+
+3.1  Alat Penelitian
+
+Adapun alat penelitian yang digunakan dalam penelitian ini yaitu  Unified
+
+Modelling  Language (UML),  dan  diagram  yang  akan  digunakan  dalam
+
+pengembangan aplikasi ini adalah use case diagram, class diagram, dan sequence
+
+diagram, serta Bitbar Testing.
+
+3.2  Spesifikasi Perangkat Keras dan Perangkat Lunak
+
+3.2.1 Perangkat Lunak
+
+Perangkat lunak yang digunakan dalam penelitian ini adalah:
+
+a. Sistem Operasi macOS Sierra untuk pengoperasian hardware
+
+b. Unity 2018.1.6 untuk perancangan game
+
+c. Adobe Photoshop & Ilustrator untuk membuat antarmuka dalam game
+
+d. Microsoft Word untuk membuat Storyboard
+
+e. Draw.io untuk membuat UML
+
+3.2.2 Perangkat Keras
+
+Perangkat keras yang digunakan dalam penelitian ini adalah:
+
+a. MacBook Pro 2017 dengan spesifikasi Intel Core i5
+
+b. Harddisk 120 GB
+
+c. Kapasitas RAM 8 GB
+
+d. LCD Monitor 13 inchi
+
+3.3 Metode Penelitian
+
+Dalam peneltian  yang akan dilakukan,  terdapat  metode  penelitian  yang
+
+dilakukan, dapat dilihat alur penelitian dalam Gambar 3.1.
+
+37
+
+
+
+38
+
+Gambar 3.1 Diagram alir penelitian
+
+
+
+39
+
+3.3.1 Identifikasi Masalah
+
+Tahap  identifikasi  masalah  adalah  tahap  yang  diperlukan  untuk
+
+mengetahui  masalah apa yang akan diangkat  untuk dijadikan bahan penelitian.
+
+Pada  penelitian  ini  masalah  yang  akan  diangkat  bersumber  dari  kondisi
+
+masyarakat  yang gemar menggunakan internet  unuk bermain  suatu permainan,
+
+serta  kondisi  pariwisata  Kota  Pontianak  yang  tergolong  masih  rendah  jika
+
+dibandingkan  dengan  kota  lain  di  Indonesia,  dan  kurangnya  pengetahuan
+
+masyarakat dalam dan luar negeri tentang Kota Pontianak.
+
+3.3.2 Studi Literatur
+
+Studi literatur dilakukan untuk pencarian referensi ilmu pengetahuan yang
+
+berkaitan  dengan  penelitian  yang  akan  dilakukan,  seperti  game,  budaya  dan
+
+pariwisata Kota Pontianak, maupun penelitian-penelitian sebelumnya.
+
+3.3.3 Analisis Kebutuhan
+
+Tahap  ini  menganalisis  kebutuhan  untuk  penelitian  yang  akan
+
+dilaksanakan, sehingga penelitian dapat berjalan dengan baik. Analisis kebutuhan
+
+dilakukan berdasarkan data yang telah dikumpulkan melalui wawancara.
+
+3.3.4 Perancangan 
+
+Perancangan  sistem  dilakukan  dengan  menggunakan  Game  Design
+
+Document, dan UML (Unified Modelling Language) dengan tahapan antara lain,
+
+perancangan  use  case  diagram,  perancangan  sequence  diagram, perancangan
+
+class diagram dan perancangan activity diagram. 
+
+3.3.5 Implementasi
+
+Pembuatan dan Implementasi sistem dilakukan berdasar kepada desain dan
+
+perancangan  aplikasi  yang  telah  dilakukan  pada  tahapan  sebelumnya.  Pada
+
+tahapan ini, sistem akan dibuat menggunakan Unity. 
+
+
+
+40
+
+3.3.6 Testing
+
+Testing merupakan  pengujian  terhadap  prototype build.  Pengujian  ini
+
+dilakukan  oleh  internal  developer  team untuk  melakukan  usability  test dan
+
+functionality  test,  dan  melalui  validasi  oleh  tim  ahli  yaitu  ahli  game dan
+
+pariwisata.
+
+3.3.7 Penarikan Kesimpulan
+
+Kesimpulan dirumuskan berdasarkan analisis hasil pengujian sistem yang
+
+telah dilakukan.
+
+3.4 Perancangan  Permainan 
+
+3.4.1. Game Design Document
+
+Perancangan game design document dalam penelitian ini memiliki struktur
+
+seperti Gambar 3.2.
+
+Gambar 3.2 Perancangan game design document
+
+3.4.1.1 High Concept Document 
+
+1. High Concept Statement
+
+Papon  adalah  permainan  bergenre  endless  runner  game yang  juga
+
+memberikan  informasi  edukatif  kepada  pemain  tentang  pariwisata  Kota
+
+Pontianak.  Menyajikan pengalaman seru karakter  utama menjelajahi  pariwisata
+
+Kota Pontianak serta meningkatkan pemahaman tentang Kota Pontianak.
+
+2. Player Role
+
+Pemain  akan  memainkan  sebuah  karakter  yang  merupakan  seorang
+
+
+
+41
+
+binatang  khas  Kalimatan  Barat  yaitu  orang  utan.  Orang  utan  terpilih  sebagai
+
+karena  binatang  ini  adalah  binatang  khas  Kalimantan  yang  akan  menambah
+
+keunikan  oleh  Kota  Pontianak  dalam  permainan.  Orang  utan  ini  akan  berlari
+
+mengelilingi Kota Pontianak, serta menambah pengetahuan ia tentang pariwisata
+
+Kota Pontianak.
+
+3. Game Play
+
+ Procedures and Rules
+
+Procedures:
+
+1. Pemain menekan tombol mulai permainan.
+
+2. Pemain memilih mode permainan.
+
+3. Dalam  mode pertualangan,  pemain  harus  menyelesaikan  6  stage
+
+permainan.
+
+4. Dalam mode pertualangan, pemain harus berlari melewati rintangan dalam
+
+jarak yang sudah ditentukan untuk menyelesaikan stage permainan.
+
+5. Dalam mode pertualangan, pemain harus menyelesaikan stage sebelumnya
+
+untuk membuka permainan stage selanjutnya.
+
+6. Dalam  mode jalan-jalan, pemain harus berlari melewati rintangan dalam
+
+jarak  yang  tidak  ada  batas,  sehingga  pemain  mencari  skor  setinggi
+
+mungkin dengan bermain selama mungkin.
+
+7. Pemain dapat memainkan mode kuis yang terdiri dari 10 pertanyaan acak
+
+setiap memainkan kuis, sehingga pemain dapat mengetahui sejauh mana
+
+mereka paham dengan pariwisata Kota Pontianak, serta menambah skor
+
+powerup saat  memainkan  mode jalan-jalan  semakin  tinggi  skor  yang
+
+didapatkan dalam mode kuis. 
+
+8. Pemain dapat membuka informasi pariwisata Kota Pontianak, yang terdiri
+
+dari 6 penjelasan tempat pariwisata Kota Pontianak.
+
+Rules:
+
+1. Terdapat 3 mode permainan yaitu kuis, pertualangan dan jalan-jalan.
+
+2. Terdapat fitur kuis dan informasi pariwisata Kota Pontianak.
+
+3. Tekan layar untuk memilih pilihan.
+
+4. Setiap permainan memiliki batas nyawa, yaitu 3 nyawa.
+
+
+
+42
+
+5. Jika  karakter  mengenai  paruh  musuh  akan  berkurang  1  nyawa  setiap
+
+benturan.
+
+6. Jika  karakter  menginjak  atau  menanduk  badan  musuh,  musuh  akan
+
+menghilang.
+
+7. Jika karakter kehabisan nyawa, permainan akan berakhir.
+
+8. Jika karakter jatuh ke dalam jurang, permainan akan berakhir walaupun
+
+pemain masih memiliki banyak nyawa.
+
+9. Jika dalam permainan pemain dapat menjawab pertanyaan dengan benar,
+
+pemain dapat mendapatkan powerup untuk menambah skor selama 6 detik
+
+dan menambah 1 nyawa.
+
+10. Jika  dalam permainan  pemain  tidak  dapat  menjawab  pertanyaan  dalam
+
+waktu 10 detik dengan benar, pemain tidak mendapatkan apapun.
+
+11. Dalam  mode kuis, terdapat batasan waktu menjawab yaitu 1 menit,  jika
+
+waktu habis otomatis menampilkan skor dari kuis.
+
+12. Dalam mode kuis, terdapat 10 pertanyaan, setiap jawaban benar mendapat
+
+skor 10 dan total maksimal skor adalah 100.
+
+13. Kecepatan awal karakter pemain di awal permainan adalah 9f.
+
+14. Kelipatan kecepatan permainan yaitu dikalikan 1.05 setiap jarak melewati
+
+80.
+
+15. Kekuatan lompatan pemain adalah 8f.
+
+16. Waktu maksimal lompat pemain adalah 0.5 detik, tahan tekanan lompatan
+
+untuk mencapai waktu maksimal.
+
+17. Jika karakter tidak mengenai tanah, karakter tidak bisa melompat.
+
+18. Penambahan skor normal dalam permainan adalah 4 setiap detiknya.
+
+19. Setiap awal permainan akan ada jeda 1 detik untuk pemain bersiap-siap.
+
+20. Skor  tertinggi,  item yang  telah  dikumpulkan,  dan  stage dalam  mode
+
+pertualangan akan otomatis  tersimpan dalam memori perangkat masing-
+
+masing.
+
+21. Tombol  reset dapat mengatur ulang data skor tertinggi,  item yang telah
+
+dikumpulkan, dan stage dalam mode pertualangan.
+
+
+
+43
+
+22. Saat  selesai  menjawab  kuis  dalam  permainan  jalan-jalan  atau
+
+pertualangan,  terdepat  jeda  1  detik  sehingga  pemain  mengetahui
+
+jawabannya salah atau benar.
+
+23. Perubahan Bahasa dapat dilakukan di awal permainan ataupun di mode
+
+pengaturan, terdapat Bahasa inggris dan Bahasa Indonesia.
+
+ Kontrol Permainan
+
+Berikut  adalah  detail  kontrol  yang  terdapat  dalam  permainan.  Kontrol
+
+pertama adalah double jump. Pemain dapat melompat dua kali dengan waktu
+
+maksimal 0.5 pada setiap lompatan,  sehingga total 1 detik maksimum lama
+
+lompatan pada dua kali lompat. Pemain dapat melompat hanya sekali ataupun
+
+melompat kurang dari 0.5 detik, dengan cara melepaskan tekanan pada layar.
+
+Ilustrasi dapat dilihat pada Gambar 3.3.
+
+Gambar 3.3 Kontrol double jump
+
+Kontrol  pergerakan  karakter  dan  background  berdasarkan  dua  faktor.
+
+
+
+44
+
+Pertama  pergerakan  karakter  ke  sebelah  kanan  yang  terus  menerus,  dan
+
+pergerakan  background  ke  arah  yang  sebaliknya.  Kedua  adalah  penambahan
+
+kecepatan  dari  karakter  setiap  karakter  mencapai  jarak  yang  telah  ditentukan,
+
+sehigga kecepatan terus bertambah. Ilustrasi dapat dilihat pada Gambar 3.4.
+
+Gambar 3.4 Kontrol pergerakan
+
+Kontrol  musuh adalah sebagai  berikut,  musuh dapat  menhilangkan satu
+
+nyawa pemain jika pemain bertabrakan dengan bagian depan atau paruh masuh,
+
+tetapi  jika  pemain  menabrak  bagian  atas  atau  bawah  musuh,  musuh  akan
+
+menghilang dalam permainan. Ilustrasi dapat dilihat pada Gambar 3.5.
+
+Gambar 3.5 Kontrol musuh
+
+Kontrol  saat  karakter  telah  melompat  dan telah  menuju  ke arah bawah
+
+
+
+45
+
+adalah karakter tidak dapat melompat kembali, kecuali karakter masih menuju ke
+
+arah atas. Ilustrasi dapat dilihat pada Gambar 3.6.
+
+Gambar 3.6 Kontrol melompat saat turun
+
+Kontrol  melompat  saat  pemain  tidak  menyentuh  tanah  adalah  karakter
+
+tidak dapat melompat, salah satu kondisi karakter dapat melompat adalah karakter
+
+harus menyentuh tanah, dengan pengeculian saat karakter melakukan double jump
+
+karena  syarat  untuk melakukan  double jump  adalah telah  melakukan lompatan
+
+pertama bukan harus menyentuh tanah. Ilustrasi dapat dilihat pada Gambar 3.7.
+
+Gambar 3.7 Kontrol melompat saat jatuh
+
+Kontrol  mendapatkan  powerup  adalah  karakter  harus  menabrak  objek
+
+
+
+46
+
+berbentuk permata. Setelah pemain menabrak permata, pemain akan dialihkan ke
+
+layar pertanyaan dan harus menjawab dengan benar untuk mendapatkan powerup.
+
+Ilustrasi dapat dilihat pada Gambar 3.8.
+
+Gambar 3.8 Kontrol mendapatkan powerup
+
+4. Key Game Mechanics
+
+Ada 3 kunci untuk mengendalikan game ini agar berjalan dengan baik yaitu : 
+
+1. Live Point
+
+Live, adalah kesempatan player melakukan kesalahan, dimana saat player
+
+terkena  musuh (paruh burung)  live berkurang satu poin dan jika  live adalah  0
+
+maka  game akan  berakhir.  Jumlah  nyawa yang  dimiliki  diawal  adalah  3,  dan
+
+maksimal 3.
+
+2. Score
+
+Score dalam game ini berperan sangat penting dimana score menentukan
+
+seberapa besar  player akan mendapatkan  reward.  Score dalam  mode kuis dapat
+
+digunakan  untuk  menambah  item  yang  bisa  kita  koleksi,  semakin  tinggi  skor
+
+pemain,  semakin  banyak  item  yang  dimiliki  pemain,  dan  digunakan  untuk
+
+menambah  score saat bermain  mode jalan-jalan.  Score dalam  mode jalan-jalan
+
+dapat  dijadikan  ajang  pamer  untuk  player  karena  semakin  tinggi  score akan
+
+mendapatkan predikat yang lebih tinggi.
+
+3. Question
+
+
+
+47
+
+Question dalam  mode permainan  adalah  pertanyaan  pariwisata  yang
+
+muncul saat permainan berlangsung, jika berhasil menjawab akan mendapatkan
+
+nyawa  tambahan  dan  melipat  gandakan  skor  untuk  6  detik.  Berikut  adalah
+
+pertanyaan yang terdapat dalam permainan, dapat dilihat pada Tabel 3.1.
+
+Tabel 3.1 Pertanyaan dalam permainan
+
+Nomo
+r
+
+Pertanyaan Jawaban
+
+1 Manfaat  lidah  buaya  adalah  mengontrol  tekanan
+darah.
+
+Benar
+
+2 Di Aloevera  Center,  lidah  buaya diolah  menjadi
+cokelat.
+
+Benar
+
+3 Dalam  Aloevera  Center  juga  terdapat
+pembudidayaan tanaman langka khas Kalimantan
+yaitu anggrek hitam.
+
+Benar
+
+4 Aloevera  Center  terletak  di  sebelah  Rumah
+Radakng.
+
+Salah
+
+5 Tanaman lidah buaya sangat subur tumbuh di Kota
+Pontianak karena temperatur cuaca yang rendah.
+
+Salah
+
+6 Penentuan  kawasan  Pontianak  didasarkan  pada
+tembakan senapan.
+
+Salah
+
+7 Festival  yang diadakan di  tepian  Sungai  Kapuas
+saat Bulan Ramadhan adalah meriam karbit.
+
+Benar
+
+8 Di dekat Istana Kadariah terdapat Masjid tertua di
+Pontianak yaitu Masjid Jami.
+
+Benar
+
+9 Sultan  yang mendirikan  keraton  kadariah  adalah
+Syarif Aburrahman Al Kadrie.
+
+Benar
+
+10 Istana  Kadariah  dicat  dengan  dominasi  warna
+kuning.
+
+Benar
+
+11 Jalan Gajah Mada dijuluki juga sebagai kawasan
+Coffee Street.
+
+Benar
+
+12 Saat  perayaan  Cap  Go  Meh  Kota  Pontianak
+didominasi warna biru.
+
+Salah
+
+13 Saat  perayaan  cap  go  meh  terdapat  banyak
+festival, seperti naga.
+
+Benar
+
+14 Kuliner  khas  yang  terdapat  di  Jalan  Gajamada
+adalah pizza.
+
+Salah
+
+15 Tarian  tradisional  yang  menggunakan  sarung
+menyerupai singa adalah Barongsai.
+
+Benar
+
+16 Kafe  apung  di  Taman  Alun  Kapuas  merupakan
+tempat makan yang berada pada sebuah kapal.
+
+Benar
+
+17 Di seberang Taman Alun Kapuas terdapat sungai
+terpanjang di Pontianak, yaitu Sungai Kapuas.
+
+Benar
+
+18 Panjang  ukuran  dari  Sungai  Kapuas  adalah Salah
+
+
+
+48
+
+920km.
+Nomo
+r
+
+Pertanyaan Jawaban
+
+19 Replika  dari  monument  kebanggan  Pontianak
+yang  ada  di  Taman  Alun  Kapuas  adalah  Tugu
+Bambu Runcing.
+
+Salah
+
+20 Kita  dapat  mengunjungi  Tugu  khatulistiwa,
+Masjid Jami,  dan Istana Kadariah dengan wisata
+sungai di Taman Alun Kapuas.
+
+Benar
+
+21 Rumah  Radakng  merupakan  rumah  adat  suku
+Dayak.
+
+Benar
+
+22 Rumah Radakng diresmikan pada tahun 2010. Salah
+23 Acara tahunan yang diadakan di Rumah Radakng
+
+dan merupakan hari perayaan panen adalah Gawai
+Dayak.
+
+Benar
+
+24 Kayu  besar  yang  terletak  di  Rumah  Radakng
+berfungsi sebagai keamanan penghuni rumah.
+
+Benar
+
+25 Ruang  serambi  di  Rumah  Radakng  digunakan
+untuk menyambut tamu.
+
+Benar
+
+26 Tugu  Khatulistiwa  pertama  kali  dibangun  pada
+tahun 1938.
+
+Salah
+
+27 Tugu khatulistiwa adalah tempat kita dapat berada
+di  dua  belahan  dunia  sekaligus  yaitu  utara  dan
+selatan.
+
+Benar
+
+28 Tugu  Khatulistiwa  terdiri  dari  2  buah  tonggak
+kayu belian.
+
+Salah
+
+29 Tugu  Khatulistiwa  terkenal  dengan  posisi  0
+derajat.
+
+Benar
+
+30 Terdapat  peristiwa yang membuat  bayangan kita
+menghilang terjadi 2 kali dalam setahun di  Tugu
+Khatulistiwa.
+
+Salah
+
+5. Achievement and Rewards
+
+Setiap penyelesaian chapter akan mendapatkan satu ikon pariwisata Kota
+
+Pontianak,  pemain  harus  mengumpulkan  6  ikon  pariwisata.  Setiap  menjawab
+
+pertanyaan saat bermain, jika benar mendapatkan satu nyawa tambahan dan skor
+
+dilipat gandakan selama 6 detik. Dalam mode free run pemain akan mencari skor
+
+setinggi mungkin untuk mendapatkan predikat berikut, Budak Pontianak, Orang
+
+Indonesia,  dan Turis  Asing.  Di  mode kuis,  kita  dapat  mengumplkan tiga item
+
+yaitu aksesoris Dayak (jika mendapatkan skor 80, dapat meningkatkan powerup
+
+menjadi  6),  aksesoris  Melayu (jika  mendapatkan skor  90,  dapat  meningkatkan
+
+powerup  menjadi  7),  dan  aksesoris  China  (jika  mendapatkan  skor  100,  dapat
+
+
+
+49
+
+meningkatkan powerup menjadi 8).
+
+6. Genre
+
+Genre permainan  dari  penelitian  ini  adalah  Endless  Runner  Game.
+
+Permainan ini  adalah jenis permainan yang tidak ada akhir, dan tujuan pemain
+
+adalah harus mendapatkan skor tertinggi. Permainan ini berupa sebuah permainan
+
+yang  mengharuskan pemain  untuk  berlari  sejauh mungkin  untuk mendapatkan
+
+skor, dan menghindari rintangan untuk menghindari kekalahan.
+
+7. Platform
+
+Permainan ini berbasis Android yang diolah melalui Unity  game engine.
+
+Sistem operasi  yang digunakan untuk mengoperasi  permainan adalah versi  4.1
+
+(Jelly Bean) hingga versi 8.0 (Oreo) dengan berbagai jenis ukuran layar.
+
+8. Target Audience
+
+Permainan Papon memiliki target pemain yaitu semua orang dengan umur 
+
+diatas 10 tahun.
+
+Target pemain dalam permainan ini dapat dispesifikkan menjadi:
+
+ Masyarakat  warga  negara  Indonesia  berumur  dari  20  tahun  sampai  30
+
+tahun, untuk meningkatkan pemahaman, dan kebanggan mereka mengenai
+
+pariwisata  Kota  Pontianak,  sehingga  dapat  memperkenalkannya  kepada
+
+orang lain dengan baik.
+
+ Masyarakat  warga  negara  selain  Indonesia,  yang  memiliki  kegemaran
+
+untuk  travelling,  untuk  mengenalkan  dan  memberikan  opsi  ke  mereka
+
+tentang tempat pariwisata, yaitu Kota Pontianak.
+
+9. Game World
+
+Permainan diilustrasikan berada di Kota Pontianak, tempat yang termasuk
+
+dalam  permainan  adalah  Rumah  Radakng,  Jalan  Gajahmada,  Taman  Alun
+
+Kapuas, Istana Kadariah, Aloevera Center, dan Tugu Khatulistiwa. Pemain akan
+
+berlari mengililingi Kota Pontianak diatas jembatan di Sungai Kapuas.
+
+
+
+50
+
+10. Game Flow
+
+ Game Story
+
+Di salah kota di Indonesia, yaitu Pontianak, hiduplah seekor orang
+
+utan  yang  bernama  Papon.  Dia  adalah  seekor  orang  utan  yang  sangat
+
+mencintai  negaranya.  Hingga  suatu  saat  Papon   mendapatkan  sebuah
+
+masalah  yang sangat  mengganggu pikirannya,  yaitu  Kota  yang tinggali
+
+tidak  terkenal  seperti  kota  lain  di  Indonesia.  Papon pun bertekat  untuk
+
+menunjukkan ke dunia bahwa di Kota Pontianak memiliki banyak permata
+
+indah berbentuk tempat  pariwisata  yang tersembunyi.  Dia pun semakin
+
+semangat melakukan perjalanan untuk menemukan berlian sekaligus ingin
+
+membuktikan bahwa di daerahnya terdapat tempat-tempat destinasi wisata
+
+yang  tidak  kalah  dengan  diluar.  Maka  dimulailah  penjelajahan  Papon
+
+untuk  menemukan  berlian.  Misi  Ponpon  ialah  menemukan  6  berlian
+
+tersembunyi yang ada di Kota Pontianak, yaitu Taman Alun-alun Kapuas,
+
+Keraton Kadariah, Tugu Khatulistiwa, Aloevera Center, Jalan Gajahmada,
+
+dan  Rumah  Radakng.  Untuk  sampai  ketempat  tersebut  tidak  semudah
+
+dibayangkan Papon. Ia harus berlari melompat melewati  rintangan yang
+
+ada di  kotanya.  Tantangan  lain  yang ia  harus  hadapi  adalah  menjawab
+
+pertanyaan  seputar  pariwisata  Kota  Pontianak,  saat  menemukan  sebuah
+
+permata  ternyata  ada  sebuah  tantangan  yangdihadapinya,  yaitu  sebuah
+
+pertanyan  seputar  Kota  Pontianak  hingga  ia  harus  bisa  menjawab
+
+pertanyaan tersebut dengan benar. Setelah ia menemukan berlian-berlian
+
+tersebut,  masyarakat  luar  Kota  Pontianak  pun  mulai  mengenal  Kota
+
+Pontianak dengan baik,  Papon pun sekarang lebih mencintai  Pontianak,
+
+dan Indonesia lebih dari sebelumnya.
+
+ Game Progression
+
+Perkembangan permainan akan dimulai dari pencarian berlian yang
+
+dilakukan  oleh  pemain.  Pemain  diharuskan  menyelesaikan  enam  stage
+
+dalam mode pertualangan, enam stage yaitu adalah berupa tempat Taman
+
+Alun-Alun Kapuas, Istana Kadariah, Tugu Khatulistiwa, Aloevera Center,
+
+
+
+51
+
+Jalan Gajahmada, dan Rumah Radakng. Mode yang lain adalah Jalan-jalan
+
+yaitu permainan tanpa tujuan akhir, melainkan mendapatkan skor tertinggi
+
+dengan bermain selama mungkin melewati rintangan. Untuk mengetahui
+
+pemahaman  pemain  tentang  pariwisata  Kota  Pontianak,  pemain  dapat
+
+mengikuti kuis seputar pariwisata Kota Pontianak, dan mendapatkan skor
+
+setelah  mengikuti  kuis.  Jika  pemain  penasaran  atau  ingin  mempelajari
+
+pariwisata Kota Pontianak, pemain dapat melihat informasi detail tentang
+
+pariwisata Kota Pontianak yang terdapat dalam permainan.
+
+ Game Structure
+
+Tantangan  dalam  permainan  ini  adalah  dalam  setiap  permainan
+
+kecepatan  berlari  akan  selalu  bertambah  seiring  dengan  lamanya
+
+permainan  berlangsung,  serta  dihadapi  rintangan  untuk  menghindari
+
+menabrak rintangan berupa burung Enggang Gading.
+
+11. Marketing (Unique Selling Points)
+
+1. Dioperasikan menggunakan Android, yang merupakan device yang umum 
+
+digunakan masyarakat.
+
+2. Animasi yang menarik sehingga menarik pemain.
+
+3. Sound effects yang menggunakan Bahasa Melayu sehingga menambah 
+
+kesan Kota Pontianak.
+
+4. Bermain sekaligus menambah wawasan tentang Kota Pontianak.
+
+5. Tidak membutuhkan koneksi internet.
+
+
+
+52
+
+3.4.1.2 Character Design Document
+
+Papon adalah karakter utama yang merupakan ilustrasi dari hewan orang
+
+utan yaitu hewan khas dari Kalimantan Barat.  Karakter ini memiliki rasa cinta
+
+yang  tinggi  dengan  Indonesia,  ditampilkan  dengan  karakter  Papon  yang
+
+mengenakan  aksesoris  tradisional  Indonesia.  Ponpon  memiliki  sifat  yang
+
+bersemangat dan tak pantang menyerah, serta juga memiliki sifat yang penakut, ia
+
+sering berhalusinasi tentang hal mengeringakan, seperti perempuan menakutkan,
+
+dan  monster  lidah  buaya.  Ilustrasi  oleh  karakter  dari  berbagai  ekspresi  dapat
+
+dilihat di Gambar 3.9.
+
+
+
+53
+
+Gambar 3.9 Karakter Papon
+
+3.4.1.3 World Design Document
+
+1. Karakter
+
+Karakter  merupakan  hal  yang  penting  dalam  suatu  permainan,  berikut
+
+karakter yang terlibat dalam permainan dapat dilihat pada Tabel 3.2.
+
+Tabel 3.2 Penjelasan karakter
+
+Model Karakter Penjelasan Karakter
+
+
+
+54
+
+(300x300 Pixels, 156 KB)
+
+Papon merupakan karakter yang dimainkan oleh
+pemain, dan adalah Orang Utan yang memiliki
+rasa  cinta  yang  tinggi  dengan  Indonesia
+ditunjukkan dengan dia menggunakan aksesoris
+suku Dayak di kepalanya, Papon memiliki sifat
+yang  sangat  bersemangat  dilihat  dari  ekspresi
+mukanya,  tetapi  juga  seorang  yang  penakut,
+ditunjukkan  dengan  popok  yang  dipakainya,
+yang menunjukkan bahwa dia masih kecil  dan
+penakut.
+
+(300x300 Pixels, 1,6 MB)
+
+Enggang  Gading  merupakan  burung  khas
+Kalimantan Barat yang suka isen menghalangi
+Papon  saat  mengililingi  Kota  Pontianak.  Tapi
+burung  ini  akan  kalah  jika  Papon  menginjak
+atau menanduk badannya.
+
+(300x300 Pixels, 100 KB)
+
+Pemuda  Pontianak  merupakan  karakter  yang
+memandu Papon untuk menjelaskan pariwisata
+Kota  Pontianak,  dia  merupakan  karakter  yang
+tidak  memiliki  peran  di  permainan  hanya  di
+penjelasan awal permainan.
+
+2. Barang
+
+Barang  adalah  sesuatu  yang  dapat  dikumpulkan  oleh  pemain,  barang
+
+tersebut dapat memberikan keunggulan dalam permainan. Barang tersebut dapat
+
+dilihat pada Tabel 3.3.
+
+Tabel 3.3 Penjelasan barang
+
+
+
+55
+
+Model Barang Penjelasan Barang
+
+(300x300 Pixels,
+156 KB)
+
+Aksesoris  Dayak  dapat  didapatkan  jika  skor  pemain
+mencapai 80 dalam mode kuis. Fungsi dari barang ini
+dapat  meningkatkan  powerup melipatgandakan  skor
+menjadi 6 dalam mode jalan-jalan.
+
+(300x300 Pixels, 96
+KB)
+
+Aksesoris  Melayu  dapat  didapatkan  jika  skor  pemain
+mencapai 90 dalam mode kuis. Fungsi dari barang ini
+dapat  meningkatkan  powerup melipatgandakan  skor
+menjadi 7 dalam mode jalan-jalan.
+
+(300x300 Pixels, 90
+KB)
+
+Aksesoris  China  dapat  didapatkan  jika  skor  pemain
+mencapai 80 dalam mode kuis. Fungsi dari barang ini
+dapat  meningkatkan  powerup melipatgandakan  skor
+menjadi 8 dalam mode jalan-jalan.
+
+3. Kota
+
+Suasana  background dari permainan berperan penting dalam permainan,
+
+background berada pada suasana Kota Pontianak, dan memiliki cerah, sehingga
+
+menunjukkan bahwa Kota Pontianak adalah Kota yang cerah. Terdapat 6 tempat
+
+Kota Pontianak yang terdapat dalam permainan yang berdasarkan hasil survei dari
+
+masyarakat  warga  negara  Indonesia,  dan  masyarakat  warga  negara  selain
+
+Indonesia  yang  dapat  dilihat  di  lampiran.  Peta  Kota  Pontianak  diilustrasikan
+
+dalam  permainan,  dalam  mode  pertualangan  terdapat  urutan  stage  1-6  yang
+
+diurutkan dari bawah ke atas, sehingga perjalanan pemain berurutan dari bagian
+
+
+
+56
+
+bawah Kota Pontianak sampai ke atas. Serta suasana Kota Pontianak dapat dilihat
+
+pada Tabel 3.4.
+
+Tabel 3.4 Penjelasan kota
+
+Model Kota Penjelasan Kota
+
+(300x300 Pixels, 176
+KB)
+
+Rumah Radakng merupakan rumah adat suku Dayak,
+diresmikan  pada  tahun  2010,  di  sini  ada  acara
+tahunan  yang  diadakan  di  Rumah  Radakng  dan
+merupakan hari perayaan panen yaitu Gawai Dayak.
+
+(300x300 Pixels, 69
+KB)
+
+Jalan  Gajah  Mada  dijuluki  juga  sebagai  kawasan
+Coffee Street, terdapat banyak makanan yang identik
+di sini, yaitu pisang srikaya, che hun tiau, dan banyak
+lagi.  Terdapat  acara  spesial  yang  dirayakan  yaitu
+Tahun  Baru  China,  seluruh  kota  dipenuhi  warna
+merah, dan banyak atraksi yang ada, yaitu naga dan
+barongsai.  Barongsai  adalah  tarian  tradisional  yang
+memakai kostum singa.
+
+(300x300 Pixels, 120
+KB)
+
+Taman  Alun  Kapuas  adalah  taman  kota  untuk
+menghabiskan waktu bersama kerabat atau keluarga
+sambil menikmati suasana Sungai Kapuas. Terdapat
+restauran  diatas  air  yaitu  wisata  sungai,  kita  juga
+pergi ke Tugu Khatulistiwa, Masjid Jami, dan Istana
+Kadariah menggunakan ini. 
+
+(300x300 Pixels, 120
+KB)
+
+Syarif Abdurrahman Alkadrie adalah sultan pertama
+yang  mendiami  istana.  Istana  ini  berada  di  dekat
+pusat  Kota  Pontianak,  Kalimantan  Barat.  Sebagai
+cikal-bakal lahirnya Kota Pontianak, Istana Kadariah
+menjadi salah satu objek wisata sejarah. Bangunan in
+diwarnai dengan dominan warna kuning.
+
+Model Kota Penjelasan Kota
+
+
+
+57
+
+(300x300 Pixels, 64
+KB)
+
+Di Indonesia, Aloevera yang banyak di kembangkan
+adalah jenis Aloe Chinensis Baker yang berasal dari
+daerah  tionghoa.  Salah  satu  sentra  terbesar
+penanaman  aloavera  jenis  ini  berada  di  daerah
+Kalimantan  barat.  Aloevera  jenis  tersebut  lebih
+dikenal dengan nama Lidah Buaya Pontianak.
+
+(300x300 Pixels, 98
+
+KB)
+
+Pontianak merupakan salah satu dari sedikit kota di
+dunia  yang  dilewati  garis  khatulistiwa.  Garis
+Khatulistiwa  adalah  garis  yang  membagi  bumi
+menjadi  dua  bagian  yaitu  utara  dan selatan.  Untuk
+menandai  keistimewaan  Kota  Pontianak  ini
+dibangunlah Tugu Khatulistiwa pada garis lintang nol
+derajat.
+
+3.4.2 Perancangan Storyboard
+
+
+
+58
+
+Perancangan storyboard dalam penelitian dapat dilihat pada Tabel 3.6.
+
+Tabel 3.6 Perancangan storyboard
+
+Scen
+e
+
+Visual Deskripsi Animasi Suara 
+
+1 Scene di awal 
+pertama pemain 
+membuka 
+aplikasi.
+1. Ucapan 
+
+selamat 
+datang.
+
+2. Informasi 
+penting 
+tentang 
+aplikasi.
+
+3. Tombol 
+memilih 
+Bahasa.
+
+4. Tombol 
+konfirmasi 
+lanjut ke 
+scene 
+selanjutnya.
+
+Animasi 
+poin 1,2,3,4 
+muncul 
+secara 
+bersamaan.
+
+ Backgroun
+d music 
+menu 
+utama.
+
+ Sound klik 
+tombol
+
+2 Setelah menutup 
+window selamat 
+datang, pemain 
+masuk menu 
+utama.
+1. Logo 
+
+permainan.
+2. Tombol 
+
+memilih 
+bermain.
+
+3. Tombol 
+informasi 
+pariwisata.
+
+4. Tombol 
+petunjuk 
+permainan.
+
+5. Tombol 
+pengaturan.
+
+6. Tombol 
+keluar.
+
+7. Animasi kota.
+
+Animasi 
+1,2,3,4,5,6 
+muncul 
+secara 
+bersamaan. 
+Animasi 7 
+bergerak 
+memutar 
+terus 
+sebagai 
+background.
+
+ Backgroun
+d music 
+menu 
+utama.
+
+ Sound klik 
+tombol
+
+Scen
+e
+
+Visual Deskripsi Animasi Suara 
+
+
+
+59
+
+3 Scene setelah 
+pemain memilih 
+tombol bermain.
+1. Mode 
+
+pertualangan.
+2. Mode jalan-
+
+jalan.
+3. Mode kuis.
+
+Animasi 
+1,2,3 
+muncul 
+secara 
+bersamaan.
+
+ Backgroun
+d music 
+menu 
+utama.
+
+ Sound klik 
+tombol
+
+ Sound klik 
+tombol 
+kembali
+
+4 Scene saat 
+pemain memilih 
+bermain di ketiga
+mode.
+1. Wajah 
+
+karakter.
+2. Loading bar.
+
+Animasi 2 
+karakter 
+mengikuti 
+sejauh mana
+progress 
+loading.
+
+ Tidak ada 
+suara
+
+5 Scene sebelum 
+masuk ke 
+permainan 
+pertualangan.
+1. Karakter.
+2. Animasi 
+
+pemandangan
+kota setiap 
+stage.
+
+3. Karakter 
+lawan bicara 
+pemain.
+
+4. Percakapan
+5. Tombol lanjut
+
+percakapan.
+6. Tombol 
+
+lewatkan 
+percakapan.
+
+Animasi 
+1,2,3,4,5,6 
+muncul 
+secara 
+bersamaan. 
+Animasi 4 
+merubah 
+teks 
+percakapan 
+setiap 
+menekan 
+tombol 
+nomor 5.
+
+ Backgroun
+d music 
+tradisional.
+
+ Sound klik 
+tombol
+
+Scen
+e
+
+Visual Deskripsi Animasi Suara 
+
+6 Scene permainan 
+mode 
+pertualangan.
+1. Jumlah hati.
+2. Item yang 
+
+didapatkan 
+dari mode 
+
+Animasi 
+1,2,3,4 
+muncul 
+secara 
+bersamaan. 
+Animasi 5 
+dan 6 
+
+ Backgroun
+d musik 
+permainan.
+
+ Sound 
+waktu 
+dalam kuis.
+
+ Sound 
+
+v
+
+
+
+60
+
+kuis.
+3. Progress bar, 
+
+sejauh mana 
+proses 
+menyelesaika
+n stage.
+
+4. Tombol 
+pause.
+
+5. Pertanyaan 
+saat powerup.
+
+6. Tombol 
+menjawab 
+pertanyaan.
+
+muncul saat 
+pemain 
+mendapatka
+n permata 
+untuk 
+powerup.
+
+suara 
+Bahasa 
+Melayu 
+“Yok”.
+
+ Sound 
+suara 
+jeritan 
+burung.
+
+ Sound 
+kehilangan 
+nyawa.
+
+ Sound 
+gendang 
+saat 
+powerup.
+
+7 Scene 
+menyelesaikan 
+stage di mode 
+pertualangan.
+
+1. Kata selamat 
+atau gagal.
+
+2. Animasi stage 
+selanjutnya.
+
+3. Keterangan 
+stage 
+selanjutnya.
+
+4. Tombol 
+lanjutkan 
+permainan.
+
+5. Tombol menu 
+utama.
+
+Animasi 
+1,2,3,4,5 
+muncul 
+secara 
+bersamaan.
+
+ Sound 
+instrument 
+permainan 
+berhasil.
+
+ Sound 
+instrument 
+permainan 
+gagal.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Nda ape 
+cobe agik”.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Boleh 
+bolehlah”.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Balak kau 
+eh”.
+
+Scen
+e
+
+Visual Deskripsi Animasi Suara 
+
+
+
+61
+
+8 Scene permainan 
+mode jalan-jalan.
+
+1. Jumlah hati.
+2. Item yang 
+
+didapatkan 
+dari mode 
+kuis.
+
+3. Score bar, 
+sebanyak 
+mana skor 
+dalam 
+permainan.
+
+4. Tombol pause.
+5. Pertanyaan 
+
+saat powerup.
+6. Tombol 
+
+menjawab 
+pertanyaan.
+
+Animasi 
+1,2,3,4 
+muncul 
+secara 
+bersamaan. 
+Animasi 5 
+dan 6 
+muncul saat 
+pemain 
+mendapatka
+n permata 
+untuk 
+powerup.
+
+ Backgroun
+d musik 
+permainan.
+
+ Sound 
+waktu 
+dalam kuis.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Yok”.
+
+ Sound 
+suara 
+jeritan 
+burung.
+
+ Sound 
+kehilangan 
+nyawa.
+
+ Sound 
+gendang 
+saat 
+powerup.
+
+9 Scene 
+menyelesaikan 
+stage di mode 
+pertualangan.
+1. Kata selamat 
+
+atau gagal.
+2. Animasi 
+
+karakter 
+sesuai skor.
+
+3. Keterangan 
+karakter 
+sesuai skor.
+
+4. Tombol 
+lanjutkan 
+permainan.
+
+5. Tombol menu
+utama.
+
+Animasi 
+1,2,3,4,5 
+muncul 
+secara 
+bersamaan.
+
+ Sound 
+instrument 
+permainan 
+berhasil.
+
+ Sound 
+instrument 
+permainan 
+gagal.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Nda ape 
+cobe agik”.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Boleh 
+bolehlah”.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Balak kau 
+
+
+
+62
+
+eh”.
+Scen
+e
+
+Visual Deskripsi Animasi Suara 
+
+10 Scene saat 
+pemain menekan 
+tombol pause 
+saat bermain.
+1. Keterangan 
+
+pause.
+2. Tombol 
+
+lanjutkan 
+permainan.
+
+3. Tombol 
+ulangi 
+permainan.
+
+4. Tombol menu
+utama.
+
+5. Tombol 
+keluar.
+
+Animasi 
+1,2,3,4,5 
+muncul 
+secara 
+bersamaan.
+
+ Sound 
+pause 
+permainan.
+
+ Sound klik 
+tombol.
+
+11 Scene awal saat 
+memilih mode 
+kuis.
+1. Item yang 
+
+dapat 
+dikumpulkan.
+
+2. Tombol 
+memulai kuis.
+
+Animasi 1,2 
+muncul 
+secara 
+bersamaan. 
+Animasi 1 
+berwarna 
+hitam putih 
+saat item 
+belum 
+didapatkan.
+
+ Background
+musik 
+akustik.
+
+ Sound klik 
+tombol.
+
+12 Scene bermain 
+mode kuis.
+1. Item.
+2. Tombol 
+
+jawab kuis.
+3. Pertanyaan.
+
+Animasi 
+1,2,3 
+muncul 
+secara 
+bersamaan. 
+Animasi 3 
+berubah soal
+setiap 
+pemain 
+menjawab.
+
+ Background
+musik 
+akustik.
+
+ Sound klik 
+tombol.
+
+
+
+63
+
+Scen
+e
+
+Visual Deskripsi Animasi Suara 
+
+13 Scene hasil mode 
+kuis.
+1. Item.
+2. Skor yang 
+
+didapatkan.
+3. Kembali ke 
+
+menu utama.
+4. Ulangi kuis.
+
+Animasi 
+1,2,3,4 
+muncul 
+secara 
+bersamaan.
+
+ Backgroun
+d musik 
+akustik.
+
+ Sound klik 
+tombol.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Balak kau
+eh”.
+
+ Sound 
+suara 
+Bahasa 
+Melayu 
+“Nda ape 
+cobe agik”.
+
+14 Scene membuka 
+mode informasi.
+1-6. Tombol 6 
+informasi 
+pariwisata Kota 
+Pontianak
+
+Animasi 
+muncul 
+secara 
+bersamaan.
+
+ Backgroun
+d music 
+menu 
+utama.
+
+ Sound klik 
+tombol.
+
+15 Scene membuka 
+pengaturan.
+1. Mengatur 
+
+volume.
+2. Mengatur 
+
+bahasa.
+3. Mengatur 
+
+grafik.
+4. Melihat 
+
+kredit.
+5. Reset 
+
+permainan.
+
+Animasi 
+muncul 
+secara 
+bersamaan.
+
+ Backgroun
+d music 
+menu 
+utama.
+
+ Sound klik 
+tombol.
+
+16 Scene membuka 
+tutorial.
+1. Poin petunjuk
+
+permainan.
+
+Animasi 
+muncul 
+secara 
+bersamaan.
+
+ Backgroun
+d music 
+menu 
+utama.
+
+ Sound klik 
+tombol.
+
+3.4.3 Perancangan Unified Modelling Language
+
+
+
+64
+
+3.4.3.1 Use Case Diagram
+
+Perancangan dalam tahap ini mendeskripsikan sebuah interaksi antara satu
+
+atau  lebih  aktor  dengan  sistem  yang  dibuat.  Perancangan  use  case  diagram
+
+Gambar 3.10 Use case diagram 
+
+Dalam Gambar 3.4. menunjukkan bahwa aktor yang berinteraksi dengan
+
+sistem  hanya  satu  yaitu  pemain,  dan  use  case  diagram dalam  perancangan
+
+memiliki  6  use  case yaitu  memilih  mode  permainan  yang  memiliki  use  case
+
+terusan yaitu mulai mode pertualangan, mulai mode jalan-jalan, dan mulai kuis
+
+pariwisata.  Use  case yang  lainnya  adalah  melihat  petunjuk  permainan,  untuk
+
+mengajarkan bagaimana cara memainkan game kepada pemain, melihat informasi
+
+
+
+65
+
+pariwisata,  dan membuka pengaturan yang didalamnya dapat mengatur volume
+
+suara, bahasa dan grafik, serta membuka kredit. Terakhir adalah keluar aplikasi.
+
+Dalam Tabel 3.6 adalah deskripsi penjabaran dari setiap use case.
+
+Tabel 3.7 Definisi use case.
+
+No Use Case Deskripsi
+1. Membuka mode permainan Menampilkan scene memilih 
+
+mode permainan
+2. Memulai mode pertualangan Proses untuk memulai mode 
+
+pertualangan
+
+3. Memulai mode jalan-jalan Proses untuk memulai mode 
+jalan-jalan
+
+4. Membuka kuis pariwisata Proses untuk memulai kuis
+5. Melihat informasi pariwisata Menampil kan scene informasi 
+
+pariwisata
+6. Membuka pengaturan Proses menampilkan pengaturan 
+
+permainan
+7. Mengatur volume suara Proses mengatur volume suara 
+
+dalam permainan
+8. Mengatur bahasa Proses mengatur bahasa dalam 
+
+permainan
+9. Mengatur grafik Proses mengatur grafik permainan
+10. Membuka kredit Menampilkan scene kredit
+11. Reset permainan Mengatur ulang data pemain
+11. Keluar permainan Keluar dari aplikasi
+
+
+
+BAB IV
+
+IMPLEMENTASI DAN HASIL PENGUJIAN
+
+Pada awal bab ini akan dijelaskan bagaimana hasil perancangan Penerapan
+
+Endless Runner Game Sebagai Media Untuk Memperkenalkan Pariwisata Kota
+
+Pontianak  yang  telah  selesai  dibuat  dan  dapat  diimplementasikan.  Hasil
+
+perancangan  dari  pembuatan  aplikasi  permainan  ini  akan  dipaparkan  melalui
+
+gambar atau  screenshoot aplikasi dan penjelasan yang diberikan. Setelah proses
+
+tersebut,  kemudian  akan  dijelaskan  bagaimana  hasil  dari  pengujian  aplikasi.
+
+Pengujian aplikasi yang dilakukan menggunakan dengan aplikasi Bitbar Testing
+
+untuk  mengecek  fungsionalitas  permainan. Pengujian  penerimaan  pengguna
+
+terhadap  permainan  dilakukan  melalui  kuesioner  yang  berisikan  pertanyaan-
+
+pertanyaan  yang  berkaitan  dengan   sistem  yang  dirancang.  Di  akhir  akan
+
+diberikan data  berupa grafik dan tabel  pengujian yang memperlihatkan apakah
+
+aplikasi ini sudah berhasil dan memenuhi syarat untuk bisa diimplementasikan.
+
+4.1 Implementasi
+
+4.1.1 Antarmuka Halaman Utama
+
+Antarmuka  halaman  utama  memiliki  animasi  yang  bergerak  di
+
+background, dan halaman ini memiliki lima tombol, masuk permainan, informasi,
+
+petunjuk, pengaturan, dan keluar permainan. Antarmuka halaman utama / beranda
+
+dapat dilihat pada Gambar 4.1.
+
+Gambar 4.1 Antarmuka halaman utama
+
+82
+
+
+
+83
+
+4.1.2 Antarmuka Halaman Pilihan Mode Permainan
+
+Antarmuka halaman pilihan  mode permainan terdapat tiga tombol untuk
+
+memasuki tiga mode permainan yang berbeda yaitu petualangan, jalan-jalan, dan
+
+kuis. Antarmuka halaman pilihan mode permainan dapat dilihat pada Gambar 4.2.
+
+Gambar 4.2 Antarmuka halaman pilihan mode permainan
+
+4.1.3 Antarmuka Halaman Pilihan Mode Pertualangan
+
+Antarmuka halaman pilihan mode pertualangan terdapat enam tombol ikon
+
+pariwisata  yang  bisa  terbuka  jika  sudah  menyelesaikan  stage sebelumnya.
+
+Antarmuka halaman pilihan mode pertualangan dapat dilihat pada Gambar 4.3.
+
+Gambar 4.3 Antarmuka halaman pilihan mode pertualangan
+
+
+
+84
+
+4.1.4 Antarmuka Halaman Intro Mode Pertualangan
+
+Antarmuka halaman intro mode pertualangan terdapat percakapan seputar
+
+tempat yang dipilih, tombol next untuk pindah ke percakapan selanjutnya dan skip
+
+untuk  langsung  ke  dalam  permainan.  Antarmuka  halaman  intro  mode
+
+pertualangan dapat dilihat pada Gambar 4.4.
+
+Gambar 4.4 Antarmuka halaman intro mode pertualangan
+
+4.1.5 Antarmuka Halaman Proses Bermain Mode Pertualangan
+
+Antarmuka halaman  proses bermain mode pertualangan, terdapat 3 hati,
+
+tombol  pause,  dan  progress  bar  untuk  menunjukkan  sejauh  mana  untuk
+
+menyelesaikan  stage.  Antarmuka  halaman  proses  bermain mode pertualangan
+
+dapat dilihat pada Gambar 4.5.
+
+Gambar 4.5 Antarmuka halaman proses bermain mode pertualangan
+
+
+
+85
+
+4.1.6 Antarmuka  Halaman  Kuis  Dalam  Mode Pertualangan  dan  Jalan-
+
+Jalan
+
+Antarmuka halaman kuis dalam  mode pertualangan dan jalan-jalan, kuis
+
+terbuka  saat  mendapat  permata  yang  ada  dalam permainan.  Kuis  berlangsung
+
+selama 10 detik dan memiliki satu pertanyaan dengan pilihab benar atau salah,
+
+jika  benar  mendapatkan  powerup,  jika  salah  tidak  mendapatkan  apapun.
+
+Antarmuka halaman kuis dalam  mode pertualangan dan jalan-jalan dapat dilihat
+
+pada Gambar 4.6.
+
+Gambar 4.6 Antarmuka halaman kuis dalam mode pertualangan dan jalan-jalan
+
+4.1.7 Antarmuka Halaman Hasil Mode Pertualangan
+
+Antarmuka  halaman  hasil  mode pertualangan,  saat  berhasil  pemain
+
+otomatis  membuka  stage selanjutnya  dalam  mode pertualangan.  Antarmuka
+
+halaman hasil mode pertualangan dapat dilihat pada Gambar 4.7.
+
+
+
+86
+
+Gambar 4.7 Antarmuka halaman hasil mode pertualangan
+
+4.1.8 Antarmuka Halaman Proses Bermain Mode Jalan-Jalan
+
+Antarmuka  halaman  proses  bermain mode jalan-jalan,  terdapat  3  hati,
+
+tombol pause, dan skor yang menunjukkan seberapa skor yang telah didapatkan.
+
+Antarmuka halaman proses bermain mode jalan-jalan dapat dilihat pada Gambar
+
+4.8.
+
+Gambar 4.8 Antarmuka halaman proses bermain mode jalan-jalan
+
+4.1.9 Antarmuka Halaman Hasil Mode Jalan-Jalan
+
+Antarmuka  halaman  hasil  mode jalan-jalan,  saat  berhasil  pemain
+
+mendapatkan  hasil  skor  yang  didapatkan,  skor  tertinggi  pemain,  dan  predikat
+
+pemain (<600 = Turis  asing, 600<x<1200 = Orang Indonesia,  >1200 = Budak
+
+Pontianak). Antarmuka halaman hasil mode jalan-jalan dapat dilihat pada Gambar
+
+4.9.
+
+Gambar 4.9 Antarmuka halaman hasil mode jalan-jalan
+
+
+
+87
+
+4.1.10 Antarmuka Halaman Petunjuk
+
+Antarmuka halaman petunjuk, menampilkan petunjuk untuk memainkan
+
+permainan. Antarmuka halaman petunjujk dapat dilihat pada Gambar 4.10.
+
+Gambar 4.10 Antarmuka halaman petunjuk
+
+4.1.11 Antarmuka Halaman Pengaturan
+
+Antarmuka halaman pengaturan, menampilkan pengaturan suara, Bahasa,
+
+grafik, kredit, dan reset permainan. Antarmuka halaman pengaturan dapat dilihat
+
+pada Gambar 4.11.
+
+Gambar 4.11 Antarmuka halaman pengaturan
+
+
+
+88
+
+4.1.12 Antarmuka Halaman Mulai Mode Kuis
+
+Antarmuka  halaman  mulai  mode kuis,  menampilkan  petunjuk  bermain
+
+mode kuis, dan menampilkan  item yang bisa didapatkan dalam  mode kuis. Item
+
+akan berwarna saat pemain mendapatkan  item tersebut. Antarmuka mulai  mode
+
+kuis dapat dilihat pada Gambar 4.12.
+
+Gambar 4.12 Antarmuka halaman mulai mode kuis
+
+4.1.13 Antarmuka Halaman Selesai Mode Kuis
+
+Antarmuka halaman selesai mode kuis, menampilkan skor yang didapatka,
+
+dan item yang didapatkan akan. Antarmuka selesai  mode kuis dapat dilihat pada
+
+Gambar 4.13.
+
+Gambar 4.13 Antarmuka halaman selesai mode kuis
+
+
+
+89
+
+4.1.14 Antarmuka Halaman Informasi
+
+Antarmuka halaman informasi, menampilkan informasi seputar pariwisata
+
+Kota Pontiaank, serta pertanyaan yang diajukan saat kuis. Antarmuka informasi
+
+dapat dilihat pada Gambar 4.14.
+
+Gambar 4.14 Antarmuka halaman informasi
+
+4.1.15 Antarmuka Halaman Loading
+
+Antarmuka halaman  loading,  menampilkan loading screen dan progress
+
+bar saat bermain. Antarmuka loading dapat dilihat pada Gambar 4.15.
+
+Gambar 4.15 Antarmuka halaman loading
+
+
+
+90
+
+4.2 Pengujian
+
+Pengujian  dilakukan  dengan  menggunakan  Bitbar  Testing,  yang  dapat
+
+mengetes fungsionalitas, performa, dan memori dari aplikasi yang diteliti secara
+
+otomatis menggunakan sebuah sistem.
+
+4.2.1 Hasil Pengujian Alpha
+
+Pengujian  dilakukan  untuk  mengetes  fungsionalitas,  performa,  dan
+
+memori  yang  terdapat  dalam  penelitian  yang  dilakukan.  Alat  yang  digunakan
+
+adalah Bitbar Testing, berikut adalah tahapan pengujian yang telah dilakukan.
+
+Gambar 4.16 Pengujian alpha awal
+
+
+
+91
+
+Gambar 4.17 Pengujian alpha berhasil
+
+Pengujian dilakukan dalam tiga device yaitu Google Pixel 9.0, LG Google
+
+Nexus  5  6.0,  dan  LG  Google  Nexus  5  D820.  Bagian  yang  diujikan  adalah
+
+fungsional, performa, dan memori, berikut adalah penjabaran hasil pengujiannya.
+
+4.2.1.1 Pengujian pada Google Pixel 9.0
+
+Pengujian telah dilakukan pada perangkat yaitu Google Pixel 9.0, berikut
+
+adalah  hasil  dari  pengujian  yang  telah  dilakukan  melalui  Bitbar  Testing.
+
+Didapatkan hasil pengujian di halaman awal ialah analisis dari pengujian metode
+
+yaitu 100%, menyatakan seluruh metode di dalam aplikasi dapat berjalan semua.
+
+Selanjutnya  adalah  pengujian  tahapan  yang  mengalami  errors yaitu  100%,
+
+menyatakan  seluruh  tahapan  berjalan  tanpa  gangguan.  Berikut  adalah  hasil
+
+Gambar 4.18.
+
+
+
+92
+
+Gambar 4.18 Hasil pengujian analisis Google Pixel 9.0
+
+Pengujian performa atau penggunaan CPU yaitu dalam kisaran 29.1% dan
+
+penggunaan  memori  yaitu  dalam  kisaran  115MB.  Penggunaan  memori  yang
+
+dipakai lumayan banyak dalam perangkat, dapat dilihat dalam Gambar 4.19.
+
+Gambar 4.19 Hasil pengujian performa Google Pixel 9.0
+
+Langkah pengujian dan dokumentasi  dari  pengujian dapat  dilihat  dalam
+
+Gambar 4.20.
+
+
+
+93
+
+Gambar 4.20 Hasil pengujian langkah Google Pixel 9.0
+
+Hasil pengujian memperlihatkan tidak ada permasalahan besar, 2 hal yang
+
+bisa dipertimbangkan untuk dirubah dalam perangkat  Google Pixel 9.0.  Untuk
+
+melihat permasalahan yang terdapat dalam aplikasi dapat dilihat dalam Gambar
+
+4.21.
+
+Gambar 4.21 Hasil pengujian permasalahan Google Pixel 9.0
+
+4.2.1.2 Pengujian pada LG Google Nexus 5 6.0
+
+Pengujian telah dilakukan pada perangkat  yaitu LG Google Nexus 5 6.0,
+
+berikut adalah hasil dari pengujian yang telah dilakukan melalui Bitbar Testing.
+
+Didapatkan hasil pengujian di halaman awal ialah analisis dari pengujian metode
+
+yaitu 100%, menyatakan seluruh metode di dalam aplikasi dapat berjalan semua.
+
+
+
+94
+
+Selanjutnya  adalah  pengujian  tahapan  yang  mengalami  errors yaitu  100%,
+
+menyatakan  seluruh  tahapan  berjalan  tanpa  gangguan.  Berikut  adalah  hasil
+
+Gambar 4.22.
+
+Gambar 4.22 Hasil pengujian analisis LG Google Nexus 5 6.0
+
+Pengujian performa atau penggunaan CPU yaitu dalam kisaran 21.4% dan
+
+penggunaan  memori  yaitu  dalam  kisaran  200MB.  Penggunaan  memori  yang
+
+dipakai lumayan banyak dalam perangkat, dapat dilihat dalam Gambar 4.23.
+
+Gambar 4.23 Hasil pengujian performa LG Google Nexus 5 6.0
+
+Langkah pengujian dan dokumentasi  dari  pengujian dapat  dilihat  dalam
+
+Gambar 4.24.
+
+
+
+95
+
+Gambar 4.24 Hasil pengujian langkah LG Google Nexus 5 6.0
+
+Hasil  pengujian  memperlihatkan  tidak  ada  permasalahan  besar  dalam
+
+perangkat LG Google Nexus 5 6.0. Untuk melihat permasalahan yang terdapat
+
+dalam aplikasi dapat dilihat dalam Gambar 4.25.
+
+Gambar 4.25 Hasil pengujian permasalahan LG Google Nexus 5 6.0
+
+4.2.1.3 Pengujian pada LG Google Nexus 5 D820
+
+Pengujian telah dilakukan pada perangkat yaitu LG Google Nexus 5 D820,
+
+berikut adalah hasil dari pengujian yang telah dilakukan melalui Bitbar Testing.
+
+Didapatkan hasil pengujian di halaman awal ialah analisis dari pengujian metode
+
+yaitu 100%, menyatakan seluruh metode di dalam aplikasi dapat berjalan semua.
+
+Selanjutnya  adalah  pengujian  tahapan  yang  mengalami  errors yaitu  100%,
+
+menyatakan  seluruh  tahapan  berjalan  tanpa  gangguan.  Berikut  adalah  hasil
+
+Gambar 4.26.
+
+
+
+96
+
+Gambar 4.26 Hasil pengujian analisis LG Google Nexus 5 D820
+
+Pengujian performa atau penggunaan CPU yaitu dalam kisaran 23.8% dan
+
+penggunaan  memori  yaitu  dalam  kisaran  200MB.  Penggunaan  memori  yang
+
+dipakai lumayan banyak dalam perangkat, dapat dilihat dalam Gambar 4.27.
+
+Gambar 4.27 Hasil pengujian performa LG Google Nexus 5 D820
+
+Langkah pengujian dan dokumentasi  dari  pengujian dapat  dilihat  dalam
+
+Gambar 4.28.
+
+
+
+97
+
+Gambar 4.28 Hasil pengujian langkah LG Google Nexus 5 D820
+
+Hasil  pengujian  memperlihatkan  tidak  ada  permasalahan  besar  dalam
+
+perangkat LG Google Nexus 5 D820. Untuk melihat permasalahan yang terdapat
+
+dalam aplikasi dapat dilihat dalam Gambar 4.29.
+
+Gambar 4.29 Hasil pengujian permasalahan LG Google Nexus 5 D820
+
+
+
+98
+
+4.2.2 Hasil Pengujian Beta
+
+4.2.2.1 Latar Belakang Peserta Kuesioner
+
+Dalam pengujian beta, dilakukan pengujian kepada beberapa orang yang
+
+memenuhi kriteria sebagai berikut:
+
+1. Usia diantara 20 dan 30 tahun.
+
+2. Masyarakat warga Negara Indonesia dan warga negera selain Indonesia.
+
+3. Pernah berwisata.
+
+Berikut adalah penjelasan detail tentang usia oleh peserta kuesioner yang
+
+dapat dilihat pada tabel 4.1.
+
+Tabel 4.1 Data usia peserta kuesioner
+
+No
+Usia
+
+20 21 22 24 28
+1 ✓
+2 ✓
+3 ✓
+4 ✓
+5 ✓
+6 ✓
+7 ✓
+8 ✓
+9 ✓
+10 ✓
+11 ✓
+12 ✓
+13 ✓
+14 ✓
+15 ✓
+16 ✓
+17 ✓
+18 ✓
+19 ✓
+20 ✓
+
+Total 5 8 5 1 1
+
+
+
+99
+
+Berikut adalah penjelasan detail tentang asal negara oleh peserta kuesioner
+
+yang dapat dilihat pada tabel 4.2.
+
+Tabel 4.2 Data asal negara peserta kuesioner
+
+No
+Asal Negara
+
+Indonesia Turki Jepang Taiwan
+Timor
+Leste
+
+Korea
+
+1 ✓
+2 ✓
+3 ✓
+4 ✓
+5 ✓
+6 ✓
+7 ✓
+8 ✓
+9 ✓
+
+10 ✓
+11 ✓
+12 ✓
+13 ✓
+14 ✓
+15 ✓
+16 ✓
+17 ✓
+18 ✓
+19 ✓
+20 ✓
+
+Tota
+l
+
+10 4 1 2 1 2
+
+Berikut adalah penjelasan detail tentang latar belakang wisata oleh peserta
+
+
+
+100
+
+kuesioner yang dapat dilihat pada tabel 4.3.
+
+Tabel 4.3 Data wisata peserta kuesioner
+
+No
+Pernah Berwisata
+
+Domestik Internasional
+1 ✓
+2 ✓ ✓
+3 ✓
+4 ✓
+5 ✓
+6 ✓ ✓
+7 ✓
+8 ✓
+9 ✓ ✓
+10 ✓
+11 ✓ ✓
+12 ✓ ✓
+13 ✓ ✓
+14 ✓
+15 ✓
+16 ✓
+17 ✓
+18 ✓
+19 ✓ ✓
+20 ✓
+
+Total 19 8
+
+4.2.2.2 Aspek Mechanics
+
+Hasil  kuesioner  aspek  mechanics sesuai  dengan kriteria  masing-masing
+
+ditunjukkan pada Tabel 4.4.
+
+Tabel 4.4 Hasil kuesioner aspek mechanics
+
+No Aspek Mechanics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+
+Bagaimana 
+kemudahan 
+mengakses menu yang
+terdapat dalam 
+permainan
+
+0 0 1 8 11 20
+
+2
+Bagaimana tingkat 
+kesulitan permainan
+
+0 0 4 10 6 20
+
+3 Bagaimana 
+kemudahan 
+mengakses tombol 
+
+0 0 4 6 10 20
+
+
+
+101
+
+pada permainan
+
+4
+Bagaimana proses 
+gameplay pada 
+permainan
+
+0 0 4 8 8 20
+
+No Aspek Mechanics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+Keterangan: 1=Sangat susah 2=Susah 3=Cukup mudah
+
+4=Mudah 5=Sangat mudah
+
+Berikut  hasil  nilai  persentase  untuk  kuesioner  nomor  1  dari  aspek
+
+mechanics.
+
+Tabel 4.5 Hasil persentase kuesioner nomor 1 dari aspek mechanics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+1
+
+Sangat susah 1 0 0
+Susah 2 0 0
+
+Cukup mudah 3 1 3
+Mudah 4 8 32
+
+Sangat mudah 5 11 55
+Jumlah 20 90
+
+P = (90/100) * 100% = 90% (4.1)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap kelancaran menjalankan akses menu dalam aplikasi permainan ini adalah
+
+90%  dari  100%  atau  bisa  dikategorikan  sebagian  besar  responden  menjawab
+
+sangat baik. Berikut adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.6 Hasil persentase kuesioner nomor 2 dari aspek mechanics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+2 Sangat susah 1 0 0
+
+Susah 2 0 0
+
+Cukup mudah 3 4 12
+
+Mudah 4 10 40
+
+Sangat mudah 5 6 30
+
+90%
+
+100%80%60%40%20%0%
+
+
+
+102
+
+Jumlah 20 82
+
+P = (82/100) * 100% = 82% (4.2)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap kesulitan permainan dalam aplikasi permainan ini adalah 82% dari 100%
+
+atau bisa dikategorikan sebagian besar responden menjawab sangat baik. Berikut
+
+adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.7 Hasil persentase kuesioner nomor 3 dari aspek mechanics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+3
+
+Sangat susah 1 0 0
+
+Susah 2 0 0
+
+Cukup mudah 3 4 12
+
+Mudah 4 6 24
+
+Sangat mudah 5 10 50
+
+Jumlah 20 86
+
+P = (86/100) * 100% = 86% (4.3)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap kemudahan mengakses tombol pada aplikasi permainan ini adalah 86%
+
+dari  100% atau bisa dikategorikan sebagian besar  responden menjawab sangat
+
+baik. Berikut adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+82%
+
+100%80%60%40%20%0%
+
+86%
+
+100%80%60%40%20%0%
+
+
+
+103
+
+Tabel 4.8 Hasil persentase kuesioner nomor 4 dari aspek mechanics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+4
+
+Sangat susah 1 0 0
+
+Susah 2 0 0
+
+Cukup mudah 3 4 12
+
+Mudah 4 8 32
+
+Sangat mudah 5 8 40
+
+Jumlah 20 84
+
+P = (84/100) * 100% = 84% (4.4)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap proses  gameplay dalam aplikasi permainan ini adalah 84% dari 100%
+
+atau bisa dikategorikan sebagian besar responden menjawab sangat baik. Berikut
+
+adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+4.2.2.3 Aspek Story
+
+Hasil  kuesioner  aspek  story sesuai  dengan  kriteria  masing-masing
+
+ditunjukkan pada Tabel 4.9.
+
+Tabel 4.9 Hasil Kuesioner aspek story
+
+No Aspek Mechanics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+Bagaimana jalan cerita
+dalam permainan
+
+0 0 2 11 7 20
+
+2
+
+Apakah informasi 
+pariwisata Kota 
+Pontianak dapat 
+dimengerti
+
+0 0 2 8 10 20
+
+3
+
+Bagaimana respon 
+jalan cerita dan 
+informasi pariwisata 
+terhadap pemain
+
+0 0 3 10 7 20
+
+84%
+
+100%80%60%40%20%0%
+
+
+
+104
+
+Keterangan: 1=Sangat buruk 2=Buruk 3=Cukup baik
+
+4=Baik 5=Sangat baik
+
+Tabel 4.10 Hasil persentase kuesioner nomor 1 dari aspek story
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+1
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 2 6
+
+Baik 4 11 44
+
+Sangat Baik 5 7 35
+
+Jumlah 20 85
+
+P = (85/100) * 100% = 85% (4.5)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap jalan cerita dalam aplikasi permainan ini adalah 85% dari 100% atau bisa
+
+dikategorikan sebagian  besar  responden menjawab sangat  baik.  Berikut  adalah
+
+kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.11 Hasil persentase kuesioner nomor 2 dari aspek story
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+2
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 2 6
+
+Baik 4 8 32
+
+Sangat Baik 5 10 50
+
+Jumlah 20 88
+
+P = (88/100) * 100% = 88% (4.6)
+
+85%
+
+100%80%60%40%20%0%
+
+
+
+105
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap  kemudahan  menerima  informasi  pariwisata  Kota  Pontianak  dalam
+
+aplikasi  permainan ini adalah 88% dari 100% atau bisa dikategorikan sebagian
+
+besar responden menjawab sangat baik. Berikut adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.12 Hasil persentase kuesioner nomor 3 dari aspek story
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+3
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 3 9
+
+Baik 4 10 40
+
+Sangat Baik 5 7 35
+
+Jumlah 20 84
+
+P = (84/100) * 100% = 84% (4.7)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap respon jalan cerita dan informasi pariwisata dalam aplikasi permainan ini
+
+adalah  84%  dari  100%  atau  bisa  dikategorikan  sebagian  besar  responden
+
+menjawab sangat baik. Berikut adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+4.2.2.4 Aspek Aesthetics
+
+88%
+
+100%80%60%40%20%0%
+
+84%
+
+100%80%60%40%20%0%
+
+
+
+106
+
+Hasil  kuesioner  aspek  aesthetics sesuai  dengan  kriteria  masing-masing
+
+ditunjukkan pada Tabel 4.13.
+
+Tabel 4.13 Hasil Kuesioner aspek aesthetics
+
+No Aspek Aesthetics
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+Bagaimana tampilan 
+aplikasi permainan
+
+0 0 2 5 13 20
+
+2
+Bagaimana tampilan 
+menu aplikasi 
+permainan
+
+0 0 2 10 8 20
+
+3
+
+Apakah jenis dan 
+ukuran huruf dalam 
+permainan mudah 
+dibaca
+
+0 0 0 8 12 20
+
+4
+Bagaimana kombinasi 
+warna dalam tampilan 
+permainan
+
+0 0 1 8 11 20
+
+5
+Bagaimana bentuk 
+karakter, background, 
+dan animasi
+
+0 0 1 4 15 20
+
+6
+Bagaimana musik dan 
+suara di dalam 
+permainan
+
+0 0 1 11 8 20
+
+Keterangan: 1=Sangat buruk 2=Buruk 3=Cukup baik
+
+4=Baik 5=Sangat baik
+
+Tabel 4.14 Hasil persentase kuesioner nomor 1 dari aspek aesthetics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+1
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 2 6
+
+Baik 4 5 20
+
+Sangat Baik 5 13 65
+
+Jumlah 20 91
+
+P = (91/100) * 100% = 91% (4.8)
+
+
+
+107
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap tampilan dalam aplikasi permainan ini adalah 91% dari 100% atau bisa
+
+dikategorikan sebagian  besar  responden menjawab sangat  baik.  Berikut  adalah
+
+kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.15 Hasil persentase kuesioner nomor 2 dari aspek aesthetics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+2
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 2 6
+
+Baik 4 10 40
+
+Sangat Baik 5 8 40
+
+Jumlah 20 86
+
+P = (86/100) * 100% = 86% (4.9)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap tampilan menu dalam aplikasi permainan ini adalah 86% dari 100% atau
+
+bisa  dikategorikan  sebagian  besar  responden  menjawab  sangat  baik.  Berikut
+
+adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.16 Hasil persentase kuesioner nomor 3 dari aspek aesthetics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+91%
+
+100%80%60%40%20%0%
+
+86%
+
+100%80%60%40%20%0%
+
+
+
+108
+
+3
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 0 0
+
+Baik 4 8 32
+
+Sangat Baik 5 12 60
+
+Jumlah 20 92
+
+P = (92/100) * 100% = 92% (4.10)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap jenis dan ukuran huruf dalam aplikasi permainan ini adalah 92% dari
+
+100% atau bisa dikategorikan sebagian besar responden menjawab sangat baik.
+
+Berikut adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.17 Hasil persentase kuesioner nomor 4 dari aspek aesthetics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+4
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 1 3
+
+Baik 4 8 32
+
+Sangat Baik 5 11 55
+
+Jumlah 20 90
+
+P = (90/100) * 100% = 90% (4.11)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap kombinasi warna dalam aplikasi permainan ini adalah 90% dari 100%
+
+92%
+
+100%80%60%40%20%0%
+
+
+
+109
+
+atau bisa dikategorikan sebagian besar responden menjawab sangat baik. Berikut
+
+adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.18 Hasil persentase kuesioner nomor 5 dari aspek aesthetics
+
+Pertanyaan Keterangan Skor Frekuensi S
+
+5
+
+Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+
+Cukup Baik 3 1 3
+
+Baik 4 4 16
+
+Sangat Baik 5 15 75
+
+Jumlah 20 94
+
+P = (94/100) * 100% = 94% (4.12)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap bentuk karakter,  background, dan animasi dalam aplikasi permainan ini
+
+adalah  94%  dari  100%  atau  bisa  dikategorikan  sebagian  besar  responden
+
+menjawab sangat baik. Berikut adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+Tabel 4.19 Hasil persentase kuesioner nomor 6 dari aspek aesthetics
+
+Pertanyaan Keterangan Skor Frekuensi S
+6 Sangat Buruk 1 0 0
+
+Buruk 2 0 0
+Cukup Baik 3 1 3
+
+90%
+
+100%80%60%40%20%0%
+
+94%
+
+100%80%60%40%20%0%
+
+
+
+110
+
+Baik 4 11 44
+Sangat Baik 5 8 40
+
+Jumlah 20 87
+P = (87/100) * 100% = 87% (4.13)
+
+Berdasarkan persentase di atas maka dapat disimpulkan bahwa penelitian
+
+terhadap suara dan musik dalam aplikasi permainan ini adalah 87% dari 100%
+
+atau bisa dikategorikan sebagian besar responden menjawab sangat baik. Berikut
+
+adalah kriteria interpretasi skor.
+
+Sangat Buruk Buruk Cukup Baik Baik Sangat Baik
+
+4.2.2.5 User Acceptance Test
+
+Total skor responden dirangum dalam sebuah table seperti pada Tabel 4.20
+
+berikut:
+
+Tabel 4.20 Total skor responden
+
+Responden
+Pertanyaan
+
+Total
+1 2 3 4 5 6 7 8 9 10 11 12 13
+
+Responden 1 4 4 3 4 4 3 4 5 4 5 5 5 4 54
+
+Responden 2 5 4 5 5 5 5 5 4 4 5 5 5 5 62
+
+Responden 3 5 5 5 5 5 5 5 5 5 5 5 5 5 65
+
+Responden 4 4 3 5 5 4 5 4 5 5 5 5 5 4 59
+
+Responden 5 4 3 4 4 4 4 4 5 5 5 4 4 4 54
+
+Responden 6 5 5 4 5 5 5 4 5 5 4 4 5 4 60
+
+Responden 7 5 5 4 3 4 4 4 5 5 4 5 5 4 57
+
+87%
+100%80%60%40%20%0%
+
+
+
+111
+
+Responden 8 5 4 3 4 4 5 4 5 5 4 5 5 3 56
+
+Responden 9 5 4 5 5 4 4 5 5 4 5 5 5 5 61
+
+Responden 10 5 4 5 5 4 5 5 5 4 5 4 4 4 59
+
+Responden 11 5 4 5 4 5 5 4 4 4 5 5 5 5 60
+
+Responden 12 5 3 5 3 5 5 3 5 5 5 5 5 5 59
+
+Responden 13 3 3 3 3 3 3 3 3 3 4 3 3 4 41
+
+Responden 14 5 4 5 4 5 4 5 5 4 5 4 5 5 60
+
+Responden 15 4 5 5 5 5 5 5 5 5 5 5 5 5 60
+
+Responden 16 5 5 5 5 5 5 5 5 5 5 5 5 5 65
+
+Responden 17 4 4 3 3 3 4 3 3 3 4 4 4 4 46
+
+Responden 18 4 4 4 4 4 4 4 4 4 4 4 4 4 52
+
+Responden 19 4 4 4 4 4 4 4 4 4 4 4 4 5 53
+
+Responden 20 4 5 4 4 4 5 4 4 4 4 4 4 5 56
+
+Total Skor 1139
+
+1. Jumlah skor untuk setiap responden:
+
+ Skor maksimal = 65 (5x13 pertanyaan)
+
+ Skor minimal  = 13 (1x13 pertanyaan)
+
+ Skor median = 39 (3x13 pertanyaan)
+
+ Skor kuartil I  = 26 (2x13 pertanyaan)
+
+ Skor kuartil II = 52 (4x13 pertanyaan)
+
+2. Jumlah skor untuk seluruh responden:
+
+ Maksimal = 1300 (20x65)
+
+ Minimal  = 260 (20x13)
+
+ Median = 780 (20x39)
+
+ Kuartil I  = 520 (20x26)
+
+ Kuartil II = 1040 (20x52)
+
+3. Interpretasi jumlah skor:
+
+
+
+112
+
+ 1040 < skor < 1300, artinya sangat setuju (program dinilai berhasil)
+
+ 780 < skor < 1040, artinya setuju (program dinilai cukup berhasil)
+
+ 520 < skor < 780, artinya kurang setuju (program dinilai kurang berhasil)
+
+ 260 < skor < 520, artinya sangat tidak setuju (program dinilai tidak 
+
+berhasil)
+
+Berikut merupakan hasil skor dari responden saat pertama kali bermain 
+
+mode kuis (pretest), dan saat terakhir kali bermain (post test), yang dapat dilihat 
+
+dalam Tabel 4.21.
+
+Tabel 4.21 Hasil kuesioner pre test dan post test
+
+No Responden X Y X
+2
+
+Y
+2 XY
+
+1. Responden 1 70 80 4900 6400 5600
+
+2. Responden 2 40 70 1600 4900 2800
+
+3. Responden 3 20 80 400 6400 1600
+
+4. Responden 4 50 90 2500 8100 4500
+
+5. Responden 5 50 90 2500 8100 4500
+
+6. Responden 6 60 80 3600 6400 4800
+
+7. Responden 7 50 100 2500 10000 5000
+
+8. Responden 8 40 70 1600 4900 2800
+
+9. Responden 9 30 80 900 6400 2400
+
+10. Responden 10 40 60 1600 3600 2400
+
+11. Responden 11 30 80 900 6400 2400
+
+1139 (Hasil penelitian)
+
+260 520 780 1040 1300
+
+
+
+113
+
+12. Responden 12 40 70 1600 4900 2800
+
+13. Responden 13 40 90 1600 8100 3600
+
+14. Responden 14 20 60 400 3600 1200
+
+15. Responden 15 10 70 100 4900 700
+
+16. Responden 16 40 80 1600 6400 3200
+
+17. Responden 17 50 70 2500 4900 3500
+
+18. Responden 18 40 60 1600 3600 2400
+
+19. Responden 19 10 70 100 4900 700
+
+20. Responden 20 40 80 1600 6400 3200
+
+Jumlah 770 1530 34100 119300 60100
+
+Kemampuan responden saat pertama kali memainkan permainan dapat 
+
+diukur dengan menggunakan rumus sebagai berikut:
+
+Σ X
+Σ N
+
+(4.14)
+
+770
+20
+
+M = 38.5
+
+Kemampuan responden saat setelah memainkan permainan dapat diukur 
+
+dengan menggunakan rumus sebagai berikut:
+
+Σ X
+Σ N
+
+(4.15)
+
+1530
+20
+
+M = 76.5
+
+Dari  hasil  kuesioner  yang  telah  dilaksanakan  dapat  diketahui  bahwa
+
+kemampuan  responden  dalam menjawab  pertanyaan  dalam mode  kuis  seputar
+
+pariwisata Kota Pontianak sebelum dan sesudah bermain permainan meningkat
+
+sebesar 37.
+
+Nilai  kolerasi  kemampuan  responden  dalam  menjawab  soal  kuesioner
+
+dapat dihitung menggunakan rumus yang telah tertera dalam bab 3. 
+
+
+
+114
+
+r=
+Σ XY
+
+√(Σ X
+2
+)(ΣY 2) (4.16)
+
+r=
+60100
+
+√(34100)(119300)
+
+r = 0.94
+
+Perhitungan  korelasi  kemampuan  responden  menjawab  pertanyaan
+
+seputar  pariwisata  Kota  Pontianak  adalah  0.94.  Mengacu  pada  tabel  pedoman
+
+interpretasi  koefisioen  korelasi,  menunjukkan  korelasi  kemampuan  responden
+
+menjawab  pertanyaan  pariwisata  menggunakan  permainan  dalam  penelitian
+
+sangatlah  kuat,  sehingga  menyatakan  pengenalan  pariwisata  Kota  Pontianak
+
+melalui endless runner game adalah efektif.
+
+4.3 Analisis Hasil Perancangan dan Pengujian
+
+Berikut  ini  adalah  hasil  analisis  hasil  perancangan  dan  pengujian
+
+perangkat lunak aplikasi permainan dalam penelitian:
+
+1. Hasil  pengujian  fungsional  yang dilakukan oleh sistem dari  perusahaan
+
+Bitbar  menunjukkan  semua  metode  yang  ada  dalam  permainan  dapat
+
+berjalan semua dengan lancar.
+
+2. Hasil pengujian  cpu usage dan memori yang dilakukan oleh sistem dari
+
+perusahaan  Bitbar  menunjukkan  aplikasi  permainan  lumayan
+
+menggunakan banyak memori untuk menjalankan aplikasi.
+
+3. Berdasarkan  hasil  kuesioner,  secara  umum responden  menyukai  sistem
+
+permainan dalam penelitian yang dilakukan.
+
+4. Berdasarkan  hasil  kuesioner,  secara  umum  responden  menyukai  jalan
+
+cerita  dan  informasi  pariwisata  Kota  Pontianak  yang  terdapat  dalam
+
+permainan.
+
+5. Berdasarkan hasil kuesioner, secara umum responden menyukai tampilan,
+
+animasi, dan suara yang terdapat dalam permainan.
+
+6. Berdasarkan  hasil  kuesioner,  mendapatkan  kesimpulan  bahwa  metode
+
+Game Development Life Cycle dapat diimplemntasikan dalam perancangan
+
+permainan pengenalan pariwisata.
+
+
+
+115
+
+7. Berdasarkan  hasil  kuesioner,  mendapatkan  kesimpulan  bahwa  endless
+
+runner game dapat memperkenalkan pariwisata dengan baik, dan dinilai
+
+berhasil.
+
+
+
+BAB V
+
+PENUTUP
+
+5.1  Kesimpulan
+
+Berdasarkan  hasil  analisis  dan  pengujian  terhadap  penerapan  endless
+
+runner game sebagai media untuk memperkenalkan pariwisata Kota Pontianak,
+
+maka dapat ditarik kesimpulan sebagai berikut:
+
+1. Aplikasi  endless  runner  game untuk  memperkenalkan  pariwisata  Kota
+
+Pontianak telah dibangun dan berjalan dengan baik berdasarkan pengujian
+
+automasi oleh sistem Bitbar Testing yaitu 100% metode berjalan dengan
+
+baik tanpa error dalam perangkat Android sistem operasi 4.1 (Jelly Bean)
+
+hingga versi 8.0 (Oreo) dengan berbagai jenis ukuran layar. 
+
+2. Penerapan endless runner game berhasil memperkenalkan pariwisata Kota
+
+Pontianak  pada  masyarakat  dalam  dan  luar  negeri,  berdasarkan  skala
+
+Likert’s  Summated  Rating  (LSR)  korelasi  kemampuan  responden
+
+menjawab pertanyaan pariwisata Kota Pontianak yaitu 0,94 yang berarti
+
+sangat kuat.
+
+3. Penggunaan endless runner game telah dikemas dan diterima dengan baik
+
+oleh masyarakat dalam dan luar negeri, berdasarkan hasil kuesioner yang
+
+mencakup  mekanik,  cerita  atau  informasi,  aestetika,  dan  menggunakan
+
+skala Likert’s Summated Rating (LSR) untuk pengolahan data. Nilai yang
+
+didapatkan  adalah  1139  dari  nilai  maksimum 1300,  dapat  disimpulkan
+
+aplikasi yang telah dirancang dinilai cukup berhasil.
+
+5.2 Saran
+
+Adapun beberapa hal yang perlu ditambahkan dalam  penerapan  endless
+
+runner game sebagai  media untuk memperkenalkan pariwisata  Kota Pontianak
+
+adalah sebagai berikut :
+
+1. Meminimalisirkan jumlah memori dan penggunaan CPU dalam perangkat,
+
+sehingga  permainan  dapat  dimainkan  dalam  lebih  ringan  di  perangkat
+
+smartphone.
+
+2. Penambahan fitur jaringan dalam permainan.
+
+3. Penambahan fitur peta yang terhubung langsung dengan Google Maps.
+
+4. Penambahan fitur update permainan.
+
+114
+
+

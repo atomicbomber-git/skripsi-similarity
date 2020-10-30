@@ -1,0 +1,7448 @@
+
+BAB I
+
+PENDAHULUAN
+
+1.1. Latar Belakang
+
+Tugas akhir atau skripsi merupakan proses yang harus dilalui mahasiswa
+
+sebelum akhirnya  mendapat  gelar  sarjana  strata  satu  (S1).  Proses  pelaksanaan
+
+tugas  akhir  berbeda-beda  di  setiap  perguruan  tinggi.  Pada  Program  Studi
+
+Informatika  Fakultas  Teknik  Universitas  Tanjungpura,  mekanisme  penyusunan
+
+dan penyelesaian tugas akhir melalui tiga tahapan. Tahapan-tahapan tersebut yaitu
+
+(1) pengajuan topik atau judul tugas akhir yang disebut dengan praoutline;  (2)
+
+pelaksanaan  seminar  judul  tugas  akhir  atau  disebut  seminar  outline;  dan  (3)
+
+pelaksanaan sidang skripsi.
+
+Pada  tahap  praoutline,  mahasiswa  melakukan  pengajuan  topik  dalam
+
+bentuk draft usulan.  Draft  usulan ini  berisi gambaran umum permasalahan dan
+
+tujuan  serta  metodologi  penelitian  yang  akan  diselesaikan  dalam  tugas  akhir.
+
+Sejak tahun 2009, proses pengajuan topik atau judul tugas akhir, Program Studi
+
+Teknik  Informatika  menggunakan  sistem  komputerisasi  dinamakan  Sistem
+
+Pendukung  Outline  Tugas  Akhir  (SPOTA)  berbasis  web  yang  kemudian
+
+dikembangkan kembali pada tahun 2014.
+
+SPOTA merupakan sebuah sistem informasi berbasis web, sebagai media
+
+komunikasi interaktif, antara mahasiswa dan dosen dalam melakukan konsultasi
+
+dan  review judul  tugas  akhir  mahasiswa.  Melalui  SPOTA,  mahasiswa  dapat
+
+melakukan  pengajuan  topik  secara  online,  dan  dosen  dapat  melakukan  review
+
+pada judul yang diajukan oleh para mahasiswa. Mahasiswa dan dosen dapat saling
+
+memberikan  umpan  balik  berupa  komentar  pada  judul  yang  diajukan  melalui
+
+kolom  komentar.  Pada  akhir  review,  dosen  dapat  memberikan  persetujuan
+
+terhadap judul yang diajukan dan hasil persetujuan tersebut akan mejadi rujukan
+
+Ketua Program Studi dalam menentukan  pembimbing dan penguji tugas akhir
+
+untuk mahasiswa bersangkutan.
+
+Pada masa implementasi SPOTA pelaksanaan proses praoutline kegiatan
+
+review, pemberian respons, pertanyaan maupun persetujuan oleh dosen maupun
+
+mahasiswa  masih   terhambat.  Hal  ini  disebabkan  tidak  adanya  pemberitahuan
+
+1
+
+
+
+secara realtime pada aplikasi SPOTA terhadap dosen maupun mahasiswa. Dengan
+
+adanya kendala ini, proses review dan pengambilan keputusan hingga pembagian
+
+pembimbing tugas akhir terhambat. Dengan demikian judul yang diajukan pada
+
+SPOTA akan di proses sangat lama dan menghambat seminar outline.
+
+Untuk  mengatasi  kendala  tersebut,  pada  SPOTA perlu  dikembangkan
+
+pemberitahuan  secara  realtime.  Penelitian  sebelumnya  telah  dilakukan  oleh
+
+Ridwan  Tasa  Dirsa  pada  tahun  2015  dengan  mengimplementasikan  teknologi
+
+push notification dengan menggunakan Google Cloud Messaging sebagai layanan
+
+bantuan  untuk  menghubungkan  client-side  dengan  server-side  pada  aplikasi
+
+SPOTA.  Push-notification merupakan  teknologi  yang  memungkinkan  sebuah
+
+aplikasi untuk memberikan notifikasi tentang pesan baru atau kejadian tanpa perlu
+
+untuk benar-benar membuka aplikasi tersebut. Melalui teknologi tersebut, dosen
+
+dan mahasiswa dapat mengetahui topik-topik tugas akhir terbaru yang diusulkan
+
+mahasiswa, serta respon dari dosen maupun mahasiswa terkait topik tugas akhir
+
+secara  realtime pada ponsel pintar, tanpa harus melakukan akses pada SPOTA
+
+berbasis web.
+
+ Namun  Google Cloud Messaging sudah tidak lagi dikembangkan oleh
+
+Google sebagai gantinya Google mulai mengembangkan layanan serupa dengan
+
+fitur  tambahan  bernama  Firebase  Cloud  Messaging.  Pada  awal  tahun  2018
+
+Program Studi  Informatika  Universitas  Tanjungpura  sudah  memutuskan  untuk
+
+menerapkan  mekanisme  baru  untuk  menyaring  usulan  topik  tugas  akhir  yang
+
+masuk,  yaitu  dengan  membagi  dosen-dosen  berdasarkan  kelompok  keahlian.
+
+Kelompok keahlian sendiri terbagi menjadi Computation & Artificial Intelligence,
+
+Networking  & Security,  Software  Engineering  & Mobile  Computing,  dan
+
+Information System & Data Spatial.  
+
+Dari  uraian  diatas,  dianggap  perlu  untuk  mengembangkan  SPOTA
+
+sehingga  sesuai  dengan  kebutuhan  Program  Studi  Informatika  Universitas
+
+Tanjungpura  serta  memastikan  bahwa  aplikasi  ini  dapat  terus  dikembangkan
+
+sesuai  dengan  penggunaan  teknologi  dalam  pengembangan  perangkat  lunak
+
+paling baru. Dalam penelitian ini, aplikasi SPOTA dibangun pada ponsel pintar
+
+khususnya yang memiliki platform Android. Pemilihan Android sebagai platform
+
+pengembangan SPOTA, dikarenakan Android menyediakan platform terbuka atau
+
+2
+
+
+
+dikenal dengan  open-source, bagi para pengembang untuk menciptakan aplikasi
+
+yang  dapat  digunakan  pada  perangkat  ponsel  pintar  berbasis  Android.
+
+1.2. Rumusan Masalah
+
+Sesuai  dengan  latar  belakang  yang  sudah  di  kemukakan  peneliti
+
+mengangkat  suatu  permasalahan  yang  di  hadapi,  yaitu  mengenai  “Bagaimana
+
+mengembangkan aplikasi SPOTA berbasis Android yang mengimplementasikan
+
+pembagian  Kelompok  Keahlian  dan  push  notification pada  aplikasi  SPOTA
+
+Android  Program Studi Informatika Universitas Tanjungpura”.
+
+1.3. Tujuan Penelitian
+
+Tujuan  dari  penelitian  ini  adalah  untuk  melakukan  pengembangan
+
+Aplikasi  SPOTA berbasis  Android dengan penambahan fitur  untuk pembagian
+
+draft  berdasarkan  kelompok  keahlian  serta  pembaruan  penggunaan  layanan
+
+Google Cloud Messaging menjadi Firebase Cloud Messaging.
+
+1.4. Pembatasan Masalah
+
+Beberapa hal yang menjadi batasan dalam penelitian ini adalah sebagai
+
+berikut :
+
+1. Tidak membahas  keamanan data,  baik dari  sisi  aplikasi  klien  maupun
+
+web service.
+
+2. Tidak membahas perubahan atau update pada SPOTA berbasis web.
+
+3. Menggunakan Framework PHP Laravel sebagai backend web service.
+
+1.5. Sistematika Penulisan Skripsi
+
+Sistematika penulisan penelitian ini disusun untuk memberikan gambaran
+
+umum tentang  penelitian  yang  dijalankan.  Sistematika  laporan  tugas  akhir  ini
+
+disusun dalam 5 (lima) bab yang terdiri dari Bab I Pendahuluan, Bab II Tinjauan
+
+Pustaka  dan  Landasan  Teori,  Bab  III  Metodologi  Penelitian,  BAB  IV
+
+Implementasi dan Hasil Penelitian,  dan Bab V Penutup.
+
+3
+
+
+
+Bab I Pendahuluan menjelaskan secara umum mengenai latar belakang
+
+permasalahan, perumusan masalah, tujuan penelitian, pembatasan masalah, serta
+
+sistematika penulisan laporan tugas akhir.
+
+Bab  II  Tinjauan  Pustaka  dan  Landasan  Teori  membahas  mengenai
+
+gambaran umum tentang penelitian yang didapat oleh peneliti sebelumnya serta
+
+perangkat  lunak yang melandasi  pembangunan sistem dan landasan teori  yang
+
+berhubungan dalam proses analisis permasalahan penelitian yang akan dilakukan.
+
+Bab III Metodologi Penelitian membahas mengenai data dan perangkat
+
+penelitian,  metode  yang  akan  digunakan  pada  penelitian,  dan  diagram  alir
+
+penelitian.
+
+Bab  IV  Implementasi  dan  Hasil  Pengujian  membahas  mengenai
+
+implementasi  dari  perangkat  lunak  yang  dibangun,  tahapan  pengujian,  hasil
+
+pengujian dan analisis pengujian yang mengarah pada suatu kesimpulan.
+
+Bab V Penutup membahas mengenai kesimpulan yang sudah diperoleh
+
+dari hasil penulisan laporan tugas akhir dan saran untuk perbaikan, pengembangan
+
+atau kesempurnaan penelitian yang telah dilakukan.
+
+4
+
+
+
+BAB II
+
+TINJAUAN PUSTAKA
+
+2.1 Studi Literatur
+
+Beberapa penelitian sebelumnya yang memanfaatkan  Cloud Messaging
+
+sebagai  platform  bantu  untuk  fitur  push  notification termasuk  diantaranya
+
+penelitian terdahulu dengan judul ”Rancang Bangun Aplikasi Sistem Pendukung
+
+Outline  Tugas  Akhir  (SPOTA) Program Studi  Teknik  Informatika  Universitas
+
+Tanjungpura berbasis Android” oleh Ridwan Tasa Dirsa (2015:106), menyatakan
+
+aplikasi  SPOTA Android dengan teknologi  push notification sangat baik untuk
+
+menaikkan tingkat respon dosen dan mahasiswa terhadap komunikasi yang terjadi
+
+di  aplikasi  SPOTA.  Penelitian  serupa  oleh  Jefferson  Setiawan  (2015)  dengan
+
+judul ”Implementasi  Push Notification Pada Informasi Perkuliahan dan Kegiatan
+
+Mahasiswa Berbasis Android”   memanfaatkan teknologi  Cloud Messaging  oleh
+
+Google untuk membantu mahasiswa menyelesaikan masalah penjadwalan manual
+
+yang  biasa  ditempelkan  pada  mading  kampus  dengan  aplikasi  android  yang
+
+memiliki fitur  push notification sehingga informasi yang bersifat penting dapat
+
+disampaikan  dengan  cepat.  Kedua penelitian  diatas  memanfaatkan  fitur  Cloud
+
+Messaging  pertama  milik  Google  yaitu  Google  Cloud  Messaging.  Namun
+
+terhitung 2016 Perusahaan Google telah mengumumkan migrasi  layanan  cloud
+
+messaging  yang mana layanan Google Cloud Messaging akan digantikan oleh
+
+Firebase  Cloud  Messaging  dan  terhitung  April  2018  layanan  tidak  dapat  lagi
+
+digunakan,  aplikasi  yang  memanfaatkan  teknologi  Google  Cloud  Messaging
+
+diharapkan  melakukan  migrasi  layanan  ke  Firebase  Cloud  Messaging.
+
+Berdasarkan  masalah  tersebut  penelitian  ini  akan  berfokus  kepada  migrasi
+
+penggunaan  teknologi  Google  Cloud  Messaging  menjadi  Firebase  Cloud
+
+Messaging sehingga  push notification  dapat berjalan kembali. Penelitian yang telah
+
+mengimplementasikan  Firebase  Cloud  Messaging  sebagai  layanan  pendukung
+
+notification  adalah  milik  Sabda  Tegar  Adhitya  yaitu  “Rancang  Bangun  Aplikasi
+
+Kampanye Berbasis  Crowdsourcing”  menggunakan Firebase  Cloud Messaging
+
+sebagai layanan push notification terhadap aktivitas kampanye yang berlangsung
+
+5
+
+
+
+pada aplikasi tersebut.
+
+2.2 Sistem Pendukung Tugas Akhir
+
+Sistem Pendukung  Outline  Tugas  Akhir  (SPOTA)  merupakan  sebuah
+
+sistem  informasi  berbasis  web  hasil  tugas  akhir  salah  satu  alumnus  Teknik
+
+Informatika angkatan 2004 Rudy Tandra. Pembuatan sistem ini dilatarbelakangi
+
+oleh dengan jadwal presentasi yang padat menyebabkan waktu yang tersedia tidak
+
+cukup pada hari jum'at dan sabtu. Alternatif berupa penambahan jadwal seminar
+
+pada  hari  Senin  sampai  dengan  hari  Kamis  hanya  dapat  dilakukan  jika  tidak
+
+terdapat aktivitas perkuliahan dalam laboratorium komputer. Jumlah dosen yang
+
+hadir  dalam  seminar  praoutline  menentukan  jumlah  nilai  atau  komentar  serta
+
+keputusan yang akan diberikan. Hal ini  menjadi permasalahan jika dosen yang
+
+berkesempatan  hadir  dalam seminar  praoutline  jumlahnya sedikit.  Jumlah nilai
+
+dan komentar yang diberikan tentunya juga akan berkurang. 
+
+Permasalahan  berupa  keterbatasan  waktu  dan  ruang  akan  diberikan
+
+solusinya  dengan  merancang  Group  Support  System (GSS)  berupa  sistem
+
+pendukung  outline  tugas  akhir,  Turoff  (1993)  menyatakan  Distributed  Group
+
+Suppot Systems  cenderung digunakan secara luas di masa depan sebagai sarana
+
+untuk  kelompok  orang  yang  tersebar  untuk  bekerja  bersama  melalui  jaringan
+
+komputer . Dengan adanya SPOTA diharapkan dapat merangkum dan menyimpan
+
+penilaian atau komentar dari dosen-dosen tanpa bertatap muka serta membantu
+
+pihak Prodi  Teknik Informatika  dalam hal  pengambilan  keputusan penerimaan
+
+desain praoutline. Pada saat ini aplikasi SPOTA sudah dikembangkan sehingga
+
+dapat  digunakan  seluruh  program studi  yang  ada  di  Universitas  Tanjungpura.
+
+SPOTA juga sudah mendukung web service sehingga memungkinkan developer
+
+dapat mengembangkan aplikasi mobile untuk SPOTA.
+
+Adapun  SPOTA  berbasis  Android  yang  sedang  berjalan  memiliki
+
+spesifikasi sebagai berikut : 
+
+6
+
+
+
+Tabel 2.1 Deskripsi Entitas terhadap Proses Bisnis Sistem Lama
+
+            Entitas
+
+Proses Bisnis
+
+Dosen Mahasiswa Kaprodi Admin
+
+Kelola Akun Mengelola  profil
+
+akun  SPOTA
+
+yang  berkaitan
+
+dengan  data-data
+
+pribadi dosen
+
+Mengelola  profil
+
+akun  SPOTA
+
+yang  berkaitan
+
+dengan  data-data
+
+pribadi
+
+mahasiswa
+
+Mengelola  profil
+
+akun  SPOTA
+
+yang  berkaitan
+
+dengan  data-data
+
+pribadi
+
+mahasiswa
+
+Menambah,
+
+mengubah  atau
+
+menghapus akun
+
+yang ada
+
+Kelola Draft Memberikan
+
+Tanggapan  atas
+
+Draft  yang  telah
+
+diupload
+
+mahasiswa,
+
+Melakukan
+
+persetujuan
+
+maupun
+
+penolakan
+
+terhadap  usulan
+
+draft,  Melakukan
+
+pencarian draft
+
+Mengunggah
+
+draft  yang  sudah
+
+disetujui  dosen
+
+PA,
+
+Membalas
+
+tanggapan
+
+dosen,
+
+Melakukan
+
+pencarian draft
+
+Memberikan
+
+Tanggapan  atas
+
+Draft  yang  telah
+
+diupload
+
+mahasiswa,
+
+Melakukan
+
+persetujuan
+
+maupun
+
+penolakan
+
+terhadap  usulan
+
+draft,  Melakukan
+
+penutupan  pada
+
+topik usulan yang
+
+diajukan
+
+menandakan
+
+topik  diterima
+
+sebagai  usulan
+
+judul tugas akhir,
+
+Melakukan
+
+pencarian draft
+
+Mengganti
+
+status
+
+penerimaan
+
+draft,
+
+Melakukan
+
+pencarian draft
+
+Kelola
+
+Pengumuman
+
+Melihat
+
+Pengumuman
+
+Melihat
+
+Pengumuman
+
+Melihat
+
+Pengumuman,
+
+Menambah
+
+Pengumuman,
+
+Mengubah
+
+Pengumuman
+
+Menambah,
+
+merubah  atau
+
+menghapus
+
+pengumuman
+
+yang ada
+
+Pemberitahuan Menerima Menerima Menerima Menerima
+
+7
+
+
+
+            Entitas
+
+Proses Bisnis
+
+Dosen Mahasiswa Kaprodi Admin
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload  ataupun
+
+pengumuman
+
+terbaru
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload  ataupun
+
+pengumuman
+
+terbaru
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload  ataupun
+
+pengumuman
+
+terbaru
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload
+
+ataupun
+
+pengumuman
+
+terbaru
+
+Statistik Draft
+Penunjukan
+
+statistik  topik
+
+tugas akhir
+
+Tidak  dapat
+
+mengakses Fitur
+
+Penunjukan
+
+statistik  topik
+
+tugas akhir
+
+Penunjukan
+
+statistik  topik
+
+tugas akhir
+
+Gambar 2.1 Activity Diagram Sistem Lama
+
+Tabel 2.2 Deskripsi Entitas terhadap Proses Bisnis Sistem Baru
+
+8
+
+
+
+      Entitas
+
+Proses Bisnis
+
+Dosen Mahasiswa Kaprodi Admin
+
+Kelola Akun Mengelola  profil
+
+akun  SPOTA
+
+yang  berkaitan
+
+dengan  data-data
+
+pribadi dosen
+
+Mengelola  profil
+
+akun  SPOTA
+
+yang  berkaitan
+
+dengan  data-data
+
+pribadi
+
+mahasiswa
+
+Mengelola  profil
+
+akun  SPOTA
+
+yang  berkaitan
+
+dengan  data-data
+
+pribadi
+
+mahasiswa
+
+Menambah,
+
+mengubah  atau
+
+menghapus akun
+
+yang ada
+
+Kelola Draft Memberikan
+
+Tanggapan  atas
+
+Draft  yang  telah
+
+diupload
+
+mahasiswa,
+
+Melakukan
+
+persetujuan
+
+maupun
+
+penolakan
+
+terhadap  usulan
+
+draft,  Melakukan
+
+pencarian draft
+
+Mengunggah
+
+draft  yang  sudah
+
+disetujui  dosen
+
+PA,
+
+Membalas
+
+tanggapan
+
+dosen,
+
+Melakukan
+
+pencarian draft
+
+Memberikan
+
+Tanggapan  atas
+
+Draft  yang  telah
+
+diupload
+
+mahasiswa,
+
+Melakukan
+
+persetujuan
+
+maupun
+
+penolakan
+
+terhadap  usulan
+
+draft,  Melakukan
+
+penutupan  pada
+
+topik usulan yang
+
+diajukan
+
+menandakan
+
+topik  diterima
+
+sebagai  usulan
+
+judul tugas akhir,
+
+Melakukan
+
+penunjukan
+
+Dosen
+
+Pembimibng
+
+Tugas Akhir.
+
+Melakukan
+
+pencarian draft
+
+Mengganti
+
+status
+
+penerimaan
+
+draft,
+
+Melakukan
+
+pencarian draft
+
+Kelola
+
+Pengumuman
+
+Melihat
+
+Pengumuman
+
+Melihat
+
+Pengumuman
+
+Melihat
+
+Pengumuman,
+
+Menambah
+
+Menambah,
+
+merubah  atau
+
+menghapus
+
+9
+
+
+
+      Entitas
+
+Proses Bisnis
+
+Dosen Mahasiswa Kaprodi Admin
+
+Pengumuman,
+
+Mengubah
+
+Pengumuman
+
+pengumuman
+
+yang ada
+
+Pemberitahuan
+
+Menerima
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload  ataupun
+
+pengumuman
+
+terbaru
+
+Menerima
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload  ataupun
+
+pengumuman
+
+terbaru
+
+Menerima
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload  ataupun
+
+pengumuman
+
+terbaru
+
+Menerima
+
+pemberitahuan
+
+seputar  draft
+
+yang  telah
+
+diupload
+
+ataupun
+
+pengumuman
+
+terbaru
+
+Statistik Draft
+Penunjukan
+
+statistik  topik
+
+tugas akhir
+
+Tidak  dapat
+
+mengakses Fitur
+
+Penunjukan
+
+statistik  topik
+
+tugas akhir
+
+Penunjukan
+
+statistik  topik
+
+tugas akhir
+
+Kelola  Jadwal
+
+Sidang
+
+Melihat  Jadwal
+
+Sidang
+
+Melihat  Jadwal
+
+Sidang
+
+Melihat  Jadwal
+
+Sidang
+
+Menambah,
+
+Mengubah,
+
+Menghapus
+
+Jadwal Sidang
+
+Konsultasi
+
+Online
+
+Melakukan
+
+komunikasi
+
+terkait topik yang
+
+diajukan,
+
+Unduh  berkas
+
+outline
+
+mahasiswa
+
+Melakukan
+
+komunikasi
+
+terkait topik yang
+
+diajukan, Unggah
+
+berkas outline
+
+Melakukan
+
+komunikasi
+
+terkait topik yang
+
+diajukan,
+
+Unduh  berkas
+
+outline
+
+mahasiswa
+
+Fitur tidak dapat
+
+diakses
+
+10
+
+
+
+Gambar 2.2 Activity Diagram Sistem Baru
+
+Alur berjalan pada Program Studi Informatika saat ini mengikuti 
+
+prosedur sesuai bagan berikut :
+
+11
+
+
+
+Gambar 2.3 Activity Diagram Sistem Baru (Sumber : Program Studi
+
+Informatika Universitas Tanjungpura)
+
+12
+
+
+
+2.3 Rekayasa Perangkat Lunak
+
+Somerville (2011) mengemukakan bahwa Rekayasa Perangkat lunak atau
+
+Software  Engineering  adalah  sebuah disiplin  ilmu teknik  yang memiliki  fokus
+
+terhadap seluruh aspek-aspek produksi perangkat lunak. Perangkat lunak tentunya
+
+dibuat  untuk  memenuhi  suatu  kebutuhan  tertentu  seperti  kebutuhan  bisnis,
+
+pengujian  data,  kepentingan  riset  atau  bahkan  hanya  untuk  hobi.  Rekayasa
+
+Perangkat Lunak dimaksudkan untuk mendukung pengembangan perangkat lunak
+
+secara  profesional  sehingga  memungkinkan  untuk  pengembangan  kerja  secara
+
+berkelompok ketimbang pengembangan kerja secara individu. Sebuah perangkat
+
+lunak yang telah dikembangkan harus memenuhi beberapa aspek sehingga dapat
+
+dikatakan sebuah perangkat lunak yang baik yaitu dari sisi user adalah masalah
+
+fungsionalitas dan performa dan seharusnya dapat dikembangkan kembali, layak
+
+pakai, dan dapat diandalkan.
+
+2.4 Siklus Hidup Pengembangan Sistem
+
+Menurut  Kendall  (2011)  Siklus  Hidup  Pengembangan  Sistem  adalah
+
+pendekatan bertahap untuk analisis  dan desain yang menyatakan bahwa sistem
+
+paling baik dikembangkan melalui penggunaan siklus tertentu dari system analyst
+
+dan pengguna. Pada pengembangan perangkat lunak, sistem merupakan dasar dari
+
+arsitektur pembangunan sebuah perangkat lunak sehingga keluaran sebuah sistem
+
+dapat  berupa  sebuah  perangkat  lunak  yang  mengimplementasikan  arsitektur
+
+sistem  yang  dibangun.  Menurut  Rastogi  (2015)  Siklus  Hidup  Pengembangan
+
+Perangkat  Lunak  adalah  sebuah  rancangan  yang  baik  dengan  pendekatan
+
+sistematis,  dipraktekkan  untuk  pengembangan  sebuah  sistem  perangkat  lunak
+
+berkualitas tinggi yang andal.
+
+2.5 Model Rekayasa Perangkat Lunak Waterfall
+
+Menurut  Kendall  (2011)  Model  proses  perangkat  lunak  adalah
+
+representasi  yang  disederhanakan  dari  proses  perangkat  lunak.  Setiap  model
+
+proses mewakili suatu proses dari perspektif tertentu, dan dengan demikian hanya
+
+menyediakan  sebagian  informasi  tentang  proses  itu.  Model  pengembangan
+
+13
+
+
+
+perangkat  lunak  yang  digunakan  pada  penelitian  ini  yaitu  Waterfall.  Dengan
+
+metode Waterfall kegiatan proses spesifikasi kebutuhan, pengembangan, validasi,
+
+dan perkembangan yang mewakili  proses tersebut  sebagai  fase terpisah seperti
+
+spesifikasi  persyaratan,  desain  perangkat  lunak,  implementasi,  pengujian,  dan
+
+sebagainya.
+
+2.6 Sistem Operasi Android
+
+Sistem Operasi Android sekarang menjadi sistem operasi paling banyak
+
+digunakan  di  perangkat  smartphone bukan  hanya  itu  sistem operasi  ini  mulai
+
+merambah ke perangkat  wearable  dan televisi. Sistem operasi Android berjalan
+
+apda  kernel  linux  dan  di  kembangkan  langsung  oleh  Google,  Inc.  Android
+
+merupakan  sistem operasi  dengan  akses  pengembangan  terbuka  /  open-source
+
+sehingga  sistem  operasi  ini  memiliki  tingkat  pertumbuhan  yang  sangat  cepat.
+
+Android Runtime terdiri dari mesin Virtual Dalvik dan Java Core Libraries. Ini
+
+terletak pada tingkat yang sama dengan lapisan library. Dalvik Virtual Machine
+
+adalah jenis Java Virtual Machine yang digunakan untuk menjalankan aplikasi di
+
+perangkat Android. The Dalvik VM memungkinkan setiap aplikasi Android untuk
+
+berjalan dalam prosesnya sendiri, dengan mesin virtual Dalvik sendiri. The Dalvik
+
+VM  memungkinkan  beberapa  mesin  virtual  diciptakan  secara  bersamaan
+
+menyediakan keamanan, isolasi, manajemen memori dan dukungan threading.
+
+2.7 Bahasa Pemrogramman Java
+
+Java sebagai salah satu bahasa pemrograman yang sudah berumur dari
+
+era 1990-an, kian berkembang dan melebarkan dominasinya di berbagai bidang.
+
+Salah  satu  penggunaan  terbesar  Java  adalah  dalam  pembuatan  aplikasi  native
+
+untuk  Android.  Selain  itu  Java  pun  menjadi  pondasi  bagi  berbagai  bahasa
+
+pemrograman seperti Kotlin, Scala, Clojure, Groovy, JRuby, Jython, dan lainnya
+
+yang  memanfaatkan  Java  Virtual  Machine  sebagai  rumahnya.  Bahasa
+
+Pemrogramman Java merupakan jenis bahasa pemrogramman berorientasi obyek
+
+dimana  programmnya  akan  tersusun  dari  kelas-kelas  yang  memiliki  metode,
+
+attribut dan sub-kelas. 
+
+14
+
+
+
+2.7.1 OnCreate Method
+
+Pada pemrogramman java umumnya JVM akan mengeksekusi kelas yang
+
+memiliki  method main(String[]  args) pertama kali,  sehingga rantai  penggunaan
+
+kelas  dan  method  lainnya  dapat  terjadi  beriringan.  Berbeda  dengan  android
+
+method  yang  di  eksekusi  pada  suatu  activity adalah  onCreate(Bundle
+
+savedInstanceState) dimana Bundle adalah obyek yang berisi data activity lainnya
+
+bila activity yang diakses sekarang adalah activity lanjutan. 
+
+Gambar 2.4 onCreate Method
+
+Sumber : https://developer.android.com  
+
+2.7.2 Inisialisasi View
+
+Baik java desktop maupun android memanfaatkan XML sebagai markup
+
+language  tampilan.  Untuk  melakukan  inisialisasi  view,  element  pada
+
+activity_main.xml harus dimasukkan terlebih dahulu seperti EditText. 
+
+Gambar 2.5 Markup EditText pada activity_main.xml
+
+Sumber : https://developer.android.com
+
+Setelah  terinisialisasi,  untuk memulai  manipulasi  element  pada  bagian
+
+MainActivity.java  EditText  harus  terinisialisasi,  dan  method  yang
+
+mendeklarasikan obyek view harus dibuat.
+
+15
+
+https://developer.android.com/
+https://developer.android.com/
+
+
+Gambar 2.6 Inisialisasi element yang telah dimasukkan pada activity_main.xml
+
+2.8 RESTful Web Services
+
+Layanan  web  RESTful  dibangun  untuk  bekerja  terbaik  di  Web.
+
+Representational State Transfer (REST) adalah gaya arsitektur yang menetapkan
+
+batasan, seperti antarmuka yang seragam, yang jika diterapkan ke layanan web
+
+menginduksi  properti  yang  diinginkan,  seperti  kinerja,  skalabilitas,  dan
+
+modifiability, yang memungkinkan layanan berfungsi paling baik di Web. Dalam
+
+gaya arsitektur REST, data dan fungsionalitas dianggap sebagai sumber daya dan
+
+diakses menggunakan Uniform Resource Identifiers  (URIs),  biasanya tautan di
+
+Web. Sumber daya ditindaklanjuti dengan menggunakan serangkaian operasi yang
+
+sederhana dan terdefinisi dengan baik. Gaya arsitektur REST membatasi arsitektur
+
+untuk  arsitektur  client  /  server  dan  dirancang  untuk  menggunakan  protokol
+
+komunikasi stateless (tidak mempengaruhi session pada server), biasanya HTTP.
+
+Dalam gaya arsitektur REST, klien dan server bertukar representasi sumber daya
+
+dengan menggunakan antarmuka dan protokol standar.
+
+2.9 Bahasa Pemrogramman PHP
+
+PHP  merupakan  salah  satu  bahasa  pemrograman  berbasis  web  yang
+
+ditulis oleh dan untuk pengembang web. PHP pertama kali dikembangkan oleh
+
+Rasmus  Lerdorf,  seorang pengembang  software  dan anggota  tim Apache,  dart
+
+dirilis  pada  akhir  tahun  1994.  PHP  dikembangkan  dengan  tujuan  awal  hanya
+
+untuk  mencatat  pengunjung  pada  website  pribadi  Rasmus  Lerdorf,  Pada  rills
+
+kcduanya,  ditambahkan  Form  Interpreter  ,  sebuah  tools  untuk  melakukan
+
+penerjemahan perintah SQL. Rills kedua disebut dengan PHP/FI. Sejak itu, PHP
+
+mulai diterima sebagai sebuah bahasa pemrograman baru yang sangat dirninati.
+
+16
+
+
+
+Terbukti  pada pertengahan tahun 1997, tercatat  sekitar  50,000 situs di  seluruh
+
+dunia telah menggunakan PHP.  (Solichin, 2016)
+
+2.9.1 Basic Syntax PHP
+
+PHP dimulai  dengan  tanda  tag  <?php  dan  diakhiri  dengan  tag  ?>.
+
+Untuk  penulisan  nama  variable  didahului  dengan  tanda  “$”  namun  variable
+
+konstan tidak perlu dituliskan dengan tanda “$” seperti  $var=”something”
+
+untuk variable  umum dan  DB_NAME untuk penulisan konstan, untuk penulisan
+
+fungsi mirip dengan bahasa pemrogramman lainnya nama fungsi diikuti dengan
+
+kurung  seperti  cetak(“argumen”);.  Untuk  penulisan  komentar  atau
+
+dokumentasi  PHP mendukung penulisan komentar  yang bersifat  multi-line dan
+
+one-line.  Untuk penulisan multi-line syntax yang digunakan adalah tanda “/*”
+
+untuk pembuka dan “*/” untuk penutup, sedangkan untuk penulisan komentar
+
+one-line ada 2 cara yaitu shell-style dengan tanda “#” dan c++-style dengan tanda
+
+“//”.
+
+Gambar 2.7 Tampilan komentar pada PHP
+
+Sumber : https://secure.php.net/manual/en/language.basic-syntax.php
+
+ 
+
+2.9.2 Laravel Framework
+
+Framework  adalah  kumpulan  fungsi  atau  script  (terutama  Class  dan
+
+function) yang dapat membantu pengembang dalam menangani berbagai masalah-
+
+masalah dalam pemrograman.  Matt  Stauffer berpendapat,  “frameworks provide
+
+conventions that reduce the amount of code a developer new to the project has to
+
+understand”  (2016:2).  Oleh  karena  itu,  framework  dapat  mempercepat  proses
+
+pengembangan dari suatu perangkat lunak.
+
+Beberapa  contoh  fungsi-fungsi  standar  yang  telah  tersedia  dalam suatu
+
+framework  adalah  fungsi  paging,  enkripsi,  email,  session,  security,  kalender,
+
+17
+
+https://secure.php.net/manual/en/language.basic-syntax.php
+
+
+bahasa,  manipulasi  gambar,  grafik,  validasi,  upload,  captcha,  dan  proteksi
+
+terhadap XSS (XSS filtering). Beberapa jenis framework yang biasa digunakan
+
+dalam pemograman Web.
+
+Laravel  adalah  framework  PHP yang  dikembangkan  pertama  kali  oleh
+
+Taylor  Otwell.  Namun,  sampai  versi  ke-4,  opensource  framework ini
+
+dikembangkan bersama oleh komunitas dengan tokoh-tokoh penting selain Otwell
+
+adalah Dayle Rees, Shawn McCool, Jeffrey Way, Jason Lewis, Ben Corlett, Franz
+
+Liedke, Dries Vints, Mior Muhammad Zaki dan Phil Sturgeon.
+
+ Laravel  berkembang  pesat  dan  mampu  menjadi  alternatif  utama  dari
+
+sejumlah  framework  besar  seperti  CodeIgniter  &  Yii.  Laravel  mempunyai
+
+beberapa  keunggulan  yaitu  implementasi  yang lebih  mudah,  terdapat  beberapa
+
+generator  code  yang memudahkan  yaitu  Artisan  CLI,  fitur  di  basis  data  yang
+
+memudahkan dalam hal mengolah struktur basis data, pemodelan Eloquent yang
+
+memudahkan  pengembang  untuk  berinteraksi  dengan  basis  data,  dan  package
+
+library yang beragam.
+
+Gambar 2.8 Laravel Artisan CLI
+
+Gambar 2.9 Laravel Routing
+
+18
+
+
+
+2.10 Push Notification
+
+Menurut  Cambridge  Dictionary  Push Notification  adalah   pesan  yang
+
+dikirim ke ponsel  pintar  yang terkait  dengan salah  satu aplikasinya,  meskipun
+
+tidak sedang berjalan, atau tindakan mengirim sejenis pesan. 
+
+2.11 Firebase Cloud Messaging
+
+Firebase Cloud Messaging merupakan layanan Cloud Platform dimana
+
+pengembang memanfaatkan layanan partai ketiga yaitu Firebase untuk membantu
+
+pengembangan  fasilitas  yang  ditawarkan  oleh  penyedia  layanan  dan
+
+menerapkannya  dengan  menyesuaikan  kepada  kebutuhan  aplikasi  dengan  jauh
+
+lebih cepat. Firebase Cloud Messaging. yang merupakan pengganti dari layanan
+
+pendahulunya Google Cloud Messaging yang dihentikan pengembangannya dan
+
+ditutup pada April  2019. Alasan Google Cloud Messaging ditutup dikarenakan
+
+layanan  dari  Cloud  Platform  akan  digabungkan  ke  dalam  Firebase  Cloud
+
+Messaging  termasuk  diantaranya  Google  Cloud  Messaging  sehingga
+
+pengembangan dengan menggunakan API milik  Google dapat  dipermudah dan
+
+diharapkan menjadi lebih baik. 
+
+2.12 Unified Modelling Language (UML)
+
+Unified Modeling Language (UML) adalah standard pemodelan dalam
+
+pembuatan  aplikasi  berorientasi  objek yang diajukan oleh  Object  Management
+
+Group (OMG) pada tahun 1996 (Rosa A.S., 2013:139).
+
+2.12.1 Use Case Diagram
+
+Use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih
+
+aktor  dengan  sistem  informasi  yang  akan  dibuat.  Dengan  kata  lain,  use  case
+
+diagram  digunakan  untuk  mengetahui  fungsi-fungsi  apa  saja  yang  terdapat  di
+
+dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut (Rosa A.S.,
+
+2013:155).
+
+19
+
+
+
+Tabel  2.3  Deskripsi  Notasi  pada  Use  Case  Diagram  (Sumber  :  Rekayasa
+
+Perangkat Lunak Rosa A.S., 2013)
+
+Notasi Deskripsi
+
+Use Case
+Fungsi dari sistem yang berperan mengirimkan pesan antara unit-
+
+unit dan aktor. Biasanya dinyatakan dengan menggunakan kata 
+
+kerja di awal-awal frase nama use case.
+
+Aktor
+
+Orang, proses, atau sistem lain yang berinteraksi dengan sistem 
+
+informasi yang akan dibuat. Biasanya dinyatakan dengan 
+
+menggunakan kata benda di nama aktor.
+
+Asosiasi
+Komunikasi antara aktor dan use case.
+
+Extend Relasi use case tambahan pada sebuah use case, mirip prinsip 
+
+inheritance pada pemrograman berorientasi objek; Arah panah 
+
+mengarah kepada use case yang ditambahkan.
+
+Include
+Relasi tambahan pada sebuah use case dimana use case yang 
+
+ditambahkan membutuhkan use case tambahan ini untuk 
+
+menjalankan fungsinya. Arah panah mengarah kepada use case 
+
+yang ditambahkan dan use case ini akan selalu dijalankan 
+
+bersamaan use case tambahan.
+
+Generalisasi
+
+Hubungan generalisasi dan spesialisasi antara 2 buah use case 
+
+dimana fungsi use case turunan memiliki fungsi use case yang 
+
+menjadi generalisasinya. Arah panah mengarah pada use case yang 
+
+menjadi generalisasinya.
+
+2.12.2 Class Diagram
+
+Rosa  A.S.  (2013:141)  menyatakan  bahwa,  Diagram  kelas  atau  class
+
+diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang
+
+20
+
+
+
+akan dibuat untuk membangun sistem. Kelas memiliki apa yang disebut atribut
+
+dan metode atau operasi. Atribut merupakan variabel-variabel yang dimiliki oleh
+
+suatu kelas. Metode atau operasi  adalah fungsi-fungsi yang dimiliki  oleh suatu
+
+kelas.
+
+Tabel 2.4 Deskripsi Notasi pada Class Diagram  (Sumber : Rekayasa Perangkat
+
+Lunak Rosa A.S., 2013)
+
+Notasi Deskripsi
+
+Kelas
+
+Kelas pada struktur sistem.
+
+Antarmuka / Interface
+Sama dengan konsep interface dalam pemrograman berorientasi 
+
+objek.
+
+Asosiasi
+Relasi antar kelas dengan makna umum.
+
+Asosiasi berarah Relasi antar kelas dengan makna kelas yang satu digunakan oleh 
+
+kelas yang lain.
+
+Generalisasi
+Relasi antar kelas dengan makna generalisasi-spesialisasi.
+
+Kebergantungan
+Relasi antar kelas dengan makna kebergantungan antar kelas.
+
+21
+
+
+
+Notasi Deskripsi
+
+Agregasi
+Relasi antar kelas dengan makna semua-bagian (whole-part).
+
+2.12.3 Sequence Diagram
+
+Sequence diagram menggambarkan kelakuan objek pada usecase dengan
+
+mendeskripsikan waktu hidup objek dan  message yang dikirimkan dan diterima
+
+antar  objek.  Dalam  menggambarkan  sequence  diagram perlu  memperhatikan
+
+objek-objek yang terlibat di dalam use case beserta metode-metode yang dimiliki
+
+kelas yang diinstansiasi menjadi objek itu ( Rosa A.S., 2013). Berikut ini adalah
+
+simbol-simbol notasi yang digunakan pada sequence diagram:
+
+Tabel  2.5 Deskripsi  Notasi  pada  Sequence  Diagram (Sumber  :  Rekayasa
+
+Perangkat Lunak Rosa A.S., 2013)
+
+Notasi Deskripsi
+
+Aktor Orang, proses, atau sistem lain yang berinteraksi dengan 
+
+sistem informasi yang akan dibuat. Biasanya dinyatakan 
+
+dengan menggunakan kata benda di nama aktor.
+
+Objek
+
+Menyatakan objek yang berinteraksi pesan.
+
+22
+
+
+
+Notasi Deskripsi
+
+Garis hidup
+
+Menyatakan kehidupan suatu objek.
+
+Waktu aktif Menyatakan objek dalam keadaan aktif dan berinteraksi. 
+
+Semua yang terhubung dalam waktu aktif ini adalah sebuah 
+
+tahapan yang dilakukan di dalamnya.
+
+Pesan create Menyatakan suatu objek membuat objek lain, arah panah 
+
+mengarah pada objek yang dibuat.
+
+Pesan call
+
+Menyatakan suatu objek memanggil operasi atau metode 
+
+yang ada pada objek lain atau dirinya sendiri. Arah panah 
+
+mengarah pada objek yang memiliki metode. Metode yang 
+
+dipanggil harus ada pada diagram kelas sesuai dengan kelas
+
+objek yang berinteraksi.
+
+Pesan send Menyatakan bahwa suatu objek mengirimkan data masukan
+
+ke objek lainnya. Arah panah mengarah pada objek yang 
+
+dikirimi.
+
+Pesan return
+
+Menyatakan bahwa suatu objek yang telah menjalankan 
+
+suatu operasi atau metode menghasilkan suatu kembalian ke
+
+objek tertentu. Arah panah mengarah pada objek yang 
+
+23
+
+
+
+Notasi Deskripsi
+
+menerima kembalian.
+
+Pesan destroy
+
+Menyatakan suatu objek mengakhiri hidup objek lain. Arah 
+
+panah mengarah pada objek yang diakhiri. Sebaiknya jika 
+
+ada <<create>> maka ada <<destroy>>.
+
+2.13 Pengujian Perangkat Lunak
+
+2.13.1 Metode Alpha
+
+Pengujian  alpha  dilakukan  disisi  pengembang  oleh  sekelompok
+
+perwakilan  dari  pengguna akhir  (Pressman,  2010:570).  Pengujian  alpha  dalam
+
+penelitian  ini  menggunakan  kuesioner.  Kuesioner  diberikan kepada ahli  dalam
+
+bidang rekayasa perangkat lunak yang dipilih untuk melakukan pengujian alpha
+
+terhadap perangkat lunak. Data hasil dari pengujian alpha nantinya akan dianalisis
+
+dan  digunakan  untuk  memperbaiki  perangkat  lunak  sesuai  dengan  saran  yang
+
+diberikan oleh ahli.  Tindak lanjut  dari  saran-saran tersebut  sebagai  revisi  awal
+
+untuk penyempurnaan perangkat lunak yang dikembangkan.
+
+2.13.2. Metode Beta
+
+Pengujian  beta  adalah  aplikasi  “hidup”  dari  perangkat  lunak  dalam
+
+sebuah lingkungan yang tidak dapat dikendalikan oleh pengembang (Pressman,
+
+2010:570).  Pengujian  beta  dilakukan  diluar  lingkungan  yang  tidak  dapat
+
+dikendalikan  oleh  pengembang.  Pengujian  beta  dalam penelitian  ini  dilakukan
+
+oleh beberapa responden yang dipilih sebagai user untuk mencoba fungsionalitas
+
+perangkat lunak. Aspek yang digunakan untuk mengevaluasi kualitas perangkat
+
+lunak  yang  dikembangkan  dalam  pengujian  beta  meliputi  aspek  functionality,
+
+efficiency, usability, dan portability.
+
+24
+
+
+
+2.14. Teknik Pengukuran Skala
+
+Pengukuran  merupakan  suatu  proses  kuantifikasi  dalam  bentuk  usaha
+
+mencantumkan bilangan pada sebuah sistem materi  yang bukan bilangan untuk
+
+menyatakan sifat-sifat yang dipunyai oleh materi tersebut berdasarkan peraturan
+
+yang sesuai dengan sifat – sifat itu.
+
+Teknik pemberian skala yang sering digunakan adalah Likert’s Synnated
+
+Rating  (LSR). LSR adalah skala atau pengukuran sikap responden. LSR sangat
+
+bermanfaat untuk membandingkan skor sikap seseorang dengan distribusi skala
+
+dari sekelompok orang lainnya. Tahap – tahap perancangan LSR adalah sebagai
+
+berikut:
+
+1. Tentukan sikap terhadap topik apa yang akan diukur.
+
+2. Tentukan dimensi yang menyusun sikap tersebut
+
+3. Susun pernyataan – pernyataan atau item yang merupakan alat  pengukur
+
+dimensi yang akan diukur sesuai dengan indikator. 
+
+4. Setiap item diberi pilihan respon yang bersifat tertutup
+
+5. Untuk setiap pilihan respon, jawaban diberikan skor dengan kriteria apabila
+
+item positif maka angka terbesar diletakkan pada sangat setuju sedangkan
+
+jika item negatif maka angka terbesar diletakkan pada sangat tidak setuju.
+
+Skor yang diberikan pada jawaban untuk setiap item kemudian dijumlahkan
+
+dan  dapat  diukur  berapa  sekor  terkecil  dan  terbesar  untuk  satu  orang
+
+responden dan total semua responden.
+
+6. Adapun perhitungan skor dengan metode Likert’s Summated Rating (LSR)
+
+sebagai berikut.
+
+a. Jumlah skor untuk setiap responden : 
+
+- Skor maksimal = (5 x jumlah item)
+
+- Skor minimal = (1 x jumlah item)
+
+- Skor median = (3 x jumlah item)
+
+- Skor kuartil I = (2 x jumlah item)
+
+- Skor kuartil III = (4 x jumlah item)
+
+b. Jumlah skor untuk seluruh responden:
+
+- Maksimal = (jumlah responden x skor maksimal)
+
+25
+
+
+
+- Minimal = (jumlah responden x skor minimal)
+
+- Median = (jumlah responden x skor median)
+
+- Kuartil I = (jumlah responden x skor kuartil I)
+
+- Kuartil III = (jumlah responden x skor kuartil III)
+
+c. Interpretasi jumlah skor tersebut adalah:
+
+Gambar 2.8 Interpretasi jumlah skor
+
+- Kuartil  III  <  Skor  <  Maksimal,  artinya  sangat  positif  (program
+
+dinilai berhasil)
+
+- Median < Skor < Kuartil III, artinya positif (program dinilai cukup
+
+berhasil)
+
+- Kuartil I < Skor < Median, artinya negatif (program dinilai kurang
+
+berhasil)
+
+- Minimal < Skor < Kuartil I, artinya sangat negatif (program dinilai
+
+tidak berhasil)
+
+2.15. Kajian Terakait
+
+Berikut  adalah eberapa kajian yang terkait  dengan pembuatan  aplikasi
+
+berbasis Android:
+
+1. Implementasi  Push  Notification pada  Informasi  Perkuliahan  dan
+
+Kegiatan Mahasiswa Berbasis Android
+
+Penelitian  ini  dilakukan  oleh  Jefferson  Setiawan,  Edy  Kristianto,
+
+Fredicia, mahasiswa Universitas Kristen Krida Wacana Fakultas Teknik
+
+dan Ilmu Komputer Jurusan Teknik Informatika. Tujuan dari penelitian
+
+ini  adalah  untuk  membangun  aplikasi  yang  dapat  mengatur  jadwal
+
+perkuliahan  yang  sebelumnya  masih  manual  dengan  memanfaatkan
+
+mading  untuk  meningkatkan  kecepatan  dan  ketepatan  penyampaian
+
+26
+
+
+
+informasi  jadwal  ke  seluruh  mahasiswa  terkait  dengan  memanfaatkan
+
+teknologi Push Notification pada aplikasi yang akan dibangun.
+
+2. Rancang  Bangun  Aplikasi  Sistem  Pendukung  Outline  Tugas  Akhir
+
+(SPOTA)  Program Studi  Teknik  Informatika  Universitas  Tanjungpura
+
+berbasis Android
+
+Penelitian  ini  dilakukan oleh Ridwan Tasa Dirsa,  mahasiswa Program
+
+Studi  Informatika  Universitas  Tanjungpura.  Tujuan  dari  penelitian  ini
+
+adalah  untuk  membangun  aplikasi  yang  dapat  menyelesaikan
+
+permasalahan lambatnya respon dari mahasiswa dan dosen terhadap draft
+
+yang  telah  diupload  oleh  mahasiswa.  Untuk  menyelesaikan  masalah
+
+tersebut  penelitian  ini  memanfaatkan  push  notification  sehingga  bila
+
+terdapat  aktivitas  seperti  penambahan  komentar,  draft  baru  terunggah
+
+ataupun pengumuman dapat sampai langsung ke ponsel pintar mahasiswa
+
+atau dosen tanpa harus mengakses web.
+
+3. Rancang Bangun Aplikasi Kampanye Berbasis Crowdsourcing 
+
+Penelitian  ini  dilakukan oleh Sabda Tegar  Aditya mahasiswa Program
+
+Studi  Informatika  Universitas  Tanjungpura.  Tujuan  dari  dibangunnya
+
+aplikasi kampanye ini adalah untuk mendukung kampanye terhadap isu -
+
+isu yang ada, dan masyarakat dapat menjadi relawan terhadap isu yang di
+
+kampanyekan.
+
+Tabel 2.6 Gambaran Perbandingan Penelitian
+
+No Penulis Judul Keterangan
+
+1 Jefferson Setiawan,
+
+Edy Kristianto, 
+
+Fredicia
+
+Implentasi  Push
+
+Notification  pada
+
+Informasi Perkuliahan dan
+
+Kegiatan  Mahasiswa
+
+Berbasis Android
+
+- Merupakan aplikasi 
+
+penjadwalan
+
+- Menggunakan 
+
+Teknologi Push 
+
+Notification dengan 
+
+memanfaatkan 
+
+Google Cloud 
+
+Messaging 
+
+- Menggunakan 
+
+27
+
+
+
+(Javascript Object 
+
+Notation) JSON 
+
+untuk mengantar data
+
+dari backend
+
+2 Ridwan Tasa Dirsa Rancang Bangun Aplikasi
+
+Sistem Pendukung Outline
+
+Tugas  Akhir  (SPOTA)
+
+Program  Studi  Teknik
+
+Informatika  Universitas
+
+Tanjungpura  berbasis
+
+Android
+
+- Merupakan aplikasi 
+
+untuk mendukung 
+
+aplikasi yang sudah 
+
+ada yaitu SPOTA 
+
+Web
+
+- Menggunakan
+
+Teknologi  Push
+
+Notification  dengan
+
+memanfaatkan
+
+Google  Cloud
+
+Messaging
+
+- Menggunakan 
+
+(Javascript Object 
+
+Notation) JSON 
+
+untuk mengantar data
+
+dari backend
+
+3 Sabda Tegar 
+
+Adhitya
+
+Rancang Bangun Aplikasi
+
+Kampanye  Berbasis
+
+Crowdsourcing
+
+- Merupakan Aplikasi 
+
+yang dibuat untuk 
+
+mendukung aktivitas 
+
+kampanye Kota 
+
+Pontianak
+
+- Menggunakan PHP 
+
+5.4 sebagai backend 
+
+- Menggunakan JSON 
+
+sebagai pengantar 
+
+data dari backend
+
+- Memanfaatkan 
+
+Firebase Cloud 
+
+28
+
+
+
+Messaging sebagai 
+
+layanan push 
+
+notification
+
+4 All Binardo V B B Pengembangan Sistem 
+
+Pendukung Outline Tugas 
+
+Akhir Berbasis Android
+
+- Merupakan aplikasi 
+
+yang dibangun untuk 
+
+menyelesaikan 
+
+permasalahan bug 
+
+pada aplikasi 
+
+sebelumnya
+
+- Aplikasi yang dibuat 
+
+menambah klasifikasi
+
+kelompok keahlian 
+
+draft praoutline
+
+- Menggunakan
+
+Teknologi  Push
+
+Notification  dengan
+
+memanfaatkan 
+
+- Firebase  Cloud
+
+Messaging
+
+- Menggunakan 
+
+(Javascript Object 
+
+Notation) JSON 
+
+untuk mengantar data 
+
+dari backend
+
+- Menggunakan PHP 7 
+
+dengan Laravel 
+
+Framework sebagai 
+
+backend
+
+29
+
+
+
+BAB III
+
+METODOLOGI PENELITIAN
+
+3.1. Alat dan Bahan Penelitian
+
+3.1.1. Alat Penelitian
+
+Alat  yang  digunakan  dalam  penelitian  ini  adalah  Unified  Modelling
+
+Language  (UML).  UML digunakan untuk menggambarkan batasan  sistem dan
+
+fungsi  –  fungsi  sistem secara umum dan menggambarkan representasi  struktur
+
+sistem.  Diagram  yang  akan  digunakan  dalam  penelitian  ini  adalah  use  case
+
+diagram, class diagram dan sequence diagram.
+
+3.1.1.1. Perangkat Keras
+
+Adapun perangkat keras yang digunakan dalam merancang aplikasi yang
+
+akan dibangun adalah sebagai berikut :
+
+a. Satu unit laptop ASUS X455LD dengan spesifikasi, Intel Core i3 4030U
+
+1.9GHz, 6GB DDR3L RAM, VGA NVIDIA GEFORCE GT 820m 2GB,
+
+128GB SSD, 500GB HDD.
+
+b. Satu  unit  ponsel  XiaoMi  Redmi  Note  2  dengan  spesifikasi,  chipset
+
+Mediatek  MT6795  Helio  X10  (28  nm),  sistem  operasi  Android  5.0
+
+(Lollipop),  CPU  Octa-core  2.0  GHz  Cortex-A53,  2GB  RAM,  GPU
+
+PowerVR G6200, ukuran 5.5 inch (~71.5% screen-to-body ratio) dengan
+
+resolusi 1080 x 1920 pixels, 16:9 ratio (~403 ppi density).
+
+c. Digital Ocean Droplets 1 GB Memory, 1  vCPU, 25 GB SSD, dan 1 TB
+
+transfer rate.
+
+d. Firebase Cloud Messaging Server
+
+3.1.1.2. Perangkat Lunak
+
+Adapun perangkat lunak yang digunakan dalam merancang aplikasi yang
+
+anak dibangun adalah sebagai berikut :
+
+a. Linux Mint 18.3 sebagai sistem operasi
+
+b. Visual Studio Code sebagai text editor
+
+c. Android Studio sebagai IDE
+
+d. Draw.io sebagai alat bantu pembuatan diagram
+
+29
+
+
+
+e. PHP 7 dengan Laravel Framework
+
+f. Apache2 sebagai local server
+
+g. Mysql sebagai backend database
+
+h. Ubuntu 18.04 LTS sebagai Cloud Server OS
+
+3.1.2. Bahan Penelitian
+
+Bahan penelitian yang digunakan berupa data dan struktur sistem lama,
+
+serta hasil wawancara serta diskusi dengan kepala program studi tentang sistem
+
+baru.  Adapun  data  yang  dikumpulkan  berupa  permasalahan  pemberitahuan,
+
+pengelolaan  sistem  baru  dengan  kelompok  keahlian  serta  mekanisme  diskusi
+
+untuk fitur konsultasi.
+
+3.2. Diagram Penelitian
+
+Metode penelitian yang akan dilakukan akan dijelaskan pada diagram alir
+
+penelitian pada gambar 3.1 berikut : 
+
+30
+
+
+
+Gambar 3.1 Diagram Alir Penelitian
+
+3.2.1. Studi Literatur
+
+Studi  literatur  dilakukan  dengan  mencari  referensi  ilmu  pengetahuan
+
+yang  berhubungan  dengan  sistem  yang  akan  dibuat  seperti  referensi  tentang
+
+SPOTA,  Push  Notification,  Firebase  Cloud  Messaging,  Restful  Web  Service¸
+
+maupun penelitian terdahulu.
+
+3.2.2. Analisa Kebutuhan Sistem
+
+Analisis kebutuhan sistem dilakukan untuk memperoleh informasi dan 
+
+menentukan kebutuhan fungsional dan non-fungsional untuk sistem yang akan 
+
+dibangun.
+
+31
+
+
+
+3.2.3. Pengumpulan Data
+
+Pengumpulan  data  dilakukan  untuk  memperoleh  data-data  yang
+
+berhubungan  dengan  sistem  yang  akan  dibuat  seperti  data  sistem  berjalan,
+
+mekanisme pendaftaran judul baru dan kelompok keahlian.
+
+3.2.4. Desain dan Perancangan Sistem
+
+Desain  dan  perancangan  sistem  dilakukan  dengan  melakukan  analisa
+
+terhadap  sistem  yang  sedang  berjalan  serta  data  yang  telah  dikumpulkan.
+
+Perancangan sistem meliputi  perancangan  use case diagram,  perancangan  class
+
+diagram  dan perancangan  sequence diagram serta perancangan prototipe sistem
+
+yang terdiri dari struktur antarmuka sistem.
+
+3.2.5. Implementasi dan Pengujian Sistem
+
+Implementasi sistem dilakukan berdasar kepada desain dan perancangan
+
+aplikasi yang telah dilakukan pada tahapan sebelumnya. Pada tahapan ini, sistem
+
+akan dibuat berbasis Android yang dikembangkan dengan bahasa pemrogramman
+
+Java, memiliki backend webservice yang dikembangkan dengan PHP Framework
+
+Laravel,  dan  dibantu  dengan  teknologi  push  notification milik  Google  yaitu
+
+Firebase Cloud Messaging.
+
+3.2.6. Analisa Hasil Pengujian
+
+Pada  tahap  ini,  dilakukan  analisis  terhadap  sistem secara  keseluruhan
+
+untuk  memudahkan  dalam  melakukan  penarikan  kesimpulan  dengan
+
+menggunakan kuesioner.
+
+3.2.7. Penarikan Kesimpulan
+
+Kesimpulan dirumuskan berdasarkan analisis hasil pengujian sistem yang
+
+telah dilakukan.
+
+3.3. Analisa Sistem yang Sedang Berjalan
+
+Sesuai dengan buku pedoman Fakultas Teknik UNTAN 2018 mahasiswa
+
+berhak  mengajukan  usulan  atau  topik  Tugas  Akhir  apabila  mahasiswa  telah
+
+mengumpulkan minimal 120 sks, termasuk nilai D dengan catatan maksimal 12
+
+sks, Indeks Prestasi Kumulatif  ≥ 2 dan telah merencanakan Tugas Akhir dalam
+
+LIRS  pada  semester  yang  bersangkutan.  Apabila  mahasiswa  telah  memenuhi
+
+syarat-syarat  tersebut  prosedur  yang  harus  ditempuh  mahasiswa  untuk
+
+mengajukan usulan Tugas Akhir seperti gambar berikut :
+
+32
+
+
+
+Gambar 3.2 Prosedur Pengajuan Topik / Usulan Tugas Akhir
+
+33
+
+
+
+Aplikasi SPOTA berbasis web dikembangkan untuk 3 jenis pengguna,
+
+diantaranya admin, dosen, dan mahasiswa. Admin memiliki 2 jenis hak khusus
+
+yaitu superadmin dan pengurus,  sedangkan dosen memiliki  2 jenis hak khusus
+
+yaitu kaprodi dan dosen biasa. Gambaran umum jalannya aplikasi dapat dilihat
+
+pada diagram konteks berikut :
+
+Gambar 3.3 Diagram Konteks SPOTA berbasis web
+
+3.4. Perancangan Sistem
+
+3.4.1. Arsitektur Sistem
+
+Sistem yang dibangun adalah  sistem yang mendukung teknologi  push
+
+notification yang  memanfaatkan  RESTful  Web  Service untuk  mengolah  serta
+
+mengumpulkan data dan Firebase Cloud Messaging untuk melakukan pengiriman
+
+pemberitahuan ke ponsel pintar berbasis android yang sudah memiliki token client
+
+yang tersimpan di database.
+
+34
+
+
+
+Gambar 3.4 Arsitektur Sistem
+
+Melalui internet, aplikasi Android SPOTA akan melakukan komunikasi
+
+dengan  Website  SPOTA  yang  telah  ditambahkan  fitur  RESTful  Web  Service,
+
+melalui  fitur  ini  SPOTA  Android  akan  menerima  data  berupa  JSON  yang
+
+kemudian  akan di  proses  oleh aplikasi  dan ditampilkan.  Setiap  informasi  baru
+
+yang  ditambahkan  melalui  website  ataupun  aplikasi  android  yang  diharapkan
+
+dapat memunculkan pemberitahuan pada apikasi android SPOTA memiliki fungsi
+
+pada  sisi  server  yang  berfungsi  sebagai  jalur  komunikasi  antara  webserver
+
+SPOTA  dengan  Firebase  Cloud  Messaging  server sehingga  aplikasi  Android
+
+client yang telah ditandai dengan FCM Token akan menerima pemberitahuan hasil
+
+kiriman dari Firebase Cloud Messaging server.
+
+3.4.2. Perancangan Unified Modelling Language
+
+3.4.2.1. Use Case Diagram
+
+3.4.2.1.1. Definisi Aktor
+
+Berikut  adalah  deskripsi  pendefinisian  aktor  pada  aplikasi  sistem
+
+pendukung outline tugas akhir (SPOTA) berbasis Android. 
+
+35
+
+
+
+Tabel 3.1 Definisi Aktor
+
+No. Aktor Deskripsi
+
+1 Mahasiswa Mahasiswa  adalah  pihak  yang  mengajukan
+
+usulan  tugas  akhir,  memiliki  akses terhadap
+
+fitur  review dan  diskusi  pada  usulan  tugas
+
+akhir  yang  telah  di  ajukan  serta  pada  fitur
+
+konsultasi.
+
+2 Dosen / Kaprodi Dosen  dan  Kaprodi  merupakan  pihak  yang
+
+memiliki hak akses terhadap fitur review dan
+
+diskusi pada usulan tugas akhir yang diajukan
+
+oleh mahasiswa. Kaprodi adalah pihak yang
+
+memiliki  hak  seperti  dosen  pada  umumnya
+
+namun memiliki  hak akses  khusus  terhadap
+
+fitur  penutupan  draft  serta  penunjukan
+
+pembimbing  dan  penguji  untuk  mahasiswa
+
+yang draftnya telah diterima.
+
+3.4.2.1.2. Definisi Use Case
+
+Berikut  adalah  deskripsi  pendefinisian  use  case  pada  aplikasi  sitem
+
+pendukung outline tugas akhir (SPOTA) berbasis Android.
+
+Tabel 3.2 Definisi Use Case
+
+No
+
+.
+
+Use Case Deskripsi
+
+1 Login Merupakan  proses  user  yang  telah  memiliki
+
+akun  untuk  masuk  sehingga  dapat  mengakses
+
+36
+
+
+
+fitur lainnya
+
+2 Melihat Profil Merupakan  proses  untuk  melihat  profil
+
+pengguna aplikasi
+
+3 Mengubah Profil Merupakan proses mengubah data pribadi yang
+
+tersimpan di aplikasi
+
+4 Mengganti Password Merupakan proses mengganti sandi yang dipakai
+
+untuk masuk ke dalam aplikasi
+
+5 Mencari Draft Merupakan  proses  untuk  melakukan  pencarian
+
+terhadap  kumpulan  draft  usulan  yang  telah
+
+diunggah mahasiswa
+
+6 Melihat Review Merupakan proses untuk mengakses tanggapan
+
+yang telah diberikan terhadap sebuah draft
+
+7 Menambah Review Merupakan  proses  untuk  memberi  tanggapan
+
+terhadapt draft usulan yang telah diunggah
+
+8 Konsultasi Merupakan proses diskusi terhadap berkas tugas
+
+akhir  mahasiswa  yang  telah  diunggah  antara
+
+dosen  pembimbing  dengan  mahasiswa
+
+pengunggah
+
+9 Melihat Pengumuman Merupakan  proses  mengakses  pengumuman
+
+yang telah diumumkan oleh admin
+
+10 Melihat Pemberitahuan Merupakan  proses  menerima  dan  mengakses
+
+37
+
+
+
+pemberitahuan  yang  masuk  ke  ponsel  pintar
+
+android dari FCM Cloud server
+
+11 Memberi Persetujuan Merupakan proses seorang dosen memberikan 
+
+hak persetujuan miliknya. Hak persetujuan dapat
+
+berupa persetujuan untuk draft dilanjutkan 
+
+ataupun penolakan draft outline untuk 
+
+dilanjutkan ke tahap penelitian
+
+12 Melihat Statistik Draft Merupakan proses dimana Kaprodi melihat 
+
+daftar jumlah draft dengan klasifikasi tertentu 
+
+pada data praoutline
+
+13 Melihat Daftar Draft 
+
+Belum Direview
+
+Merupakan proses dimana dosen melihat daftar 
+
+draft yang belum di-review
+
+14 Melihat History Review Merupakan proses dimana dosen melihat daftar 
+
+draft yang telah dikomentari 
+
+15 Melihat Hasil Putusan Merupakan proses dimana dosen melihat hasil 
+
+draft yang telah ditutup.
+
+16 Memberi Putusan Merupakan proses dimana kaprodi memberikan 
+
+hasil putusan terhadap draft.
+
+17 Logout Merupakan proses keluar oleh pengguna pada 
+
+aplikasi yang telah masuk atau terhubung.
+
+38
+
+
+
+3.4.2.1.3. Diagram Use Case
+
+Diagram  Use  Case  aplikasi  SPOTA  android  digambarkan  sebagai
+
+berikut: 
+
+Gambar 3.5 Use Case Diagram Sistem Baru
+
+3.4.2.2. Sequence Diagram
+
+Sequence  diagram menjelaskan  permodelan  sistem yang menunjukkan
+
+interaksi  antara  objek  yang  disusun  berdasarkan  waktu.  Diagram  ini  sangat
+
+berkaitan dengan  use case  diagram karena merupakan tahapan proses pada  use
+
+case. Gambar Sequence Diagram dapat dilihat pada lampiran A.
+
+3.4.2.3. Class Diagram
+
+Diagram kelas yang digunakan untuk melakukan perancangan struktur
+
+kelas-kelas  yang  terdapat  dalam  aplikasi  yang  akan  dibuat  ditunjukkan  pada
+
+Gambar 3.24 dan Gambar 3.25.
+
+39
+
+
+
+Gambar 3.6 Class Diagram SPOTA Mahasiswa
+
+40
+
+
+
+Class  Diagram  milik  Aplikasi  SPOTA  berbasis  Android  pada  sisi
+
+mahasiswa memiliki beberapa kelas diantaranya : 
+
+a. LoginActivity
+
+b. MainActivity
+
+c. ProfileActivity
+
+d. NotificationListActivity
+
+e. SearchActivity
+
+f. PreoutlineActivity
+
+g. ReviewActivity
+
+h. ReplyActivity
+
+i. DiscussionActivity
+
+j. ScheduleFragment
+
+k. MyPreoutlineFragment
+
+l. HomeFragment
+
+m. ConsultationFragment
+
+MainActivity  merupakan  induk  kelas  dari  HomeFragment,
+
+ScheduleFragment,  MyPraoutlineFragment  dan  ConsultationFragment.
+
+PreoutlineActivity  hanya  dapat  dipanggil  apabila  SearchActivity
+
+menampilkan hasil terhadap data pencarian sehingga data dapat kembali
+
+dipakai  pada  PreoutlineActivity,  begitu  juga  ReviewActivity  dan
+
+ReplyActivity.  PraoutlineActivity  harus  berhasil  memakai  data  yang
+
+diberikan SearchActivity yang kemudian akan dikirim ke ReviewActivity
+
+dan/atau  ReplyActivity.  DiscussionActivity  memakai  data  yang
+
+ditampilkan pada ConsultationFragment. 
+
+41
+
+
+
+42
+
+
+
+Gambar 3.7 Class Diagram SPOTA Dosen
+
+43
+
+
+
+Class Diagram milik Aplikasi SPOTA berbasis Android pada sisi dosen
+
+memiliki beberapa kelas diantaranya : 
+
+a. LoginActivity
+
+b. MainActivity
+
+c. SearchActivity
+
+d. PreoutlineActivity
+
+e. ScheduleActivity
+
+f. StatisticActivity
+
+g. ProfileActivity
+
+h. NotificationListActivity
+
+i. DiscussionActivity
+
+j. ReplyActivity
+
+k. ReviewActivity
+
+l. HomeFragment
+
+m. HistoryFragment
+
+n. AnnouncementFragment
+
+o. ConsultationFragment
+
+Serupa dengan Aplikasi SPOTA Android Mahasiswa, disisi client dosen
+
+MainActivity menjadi induk kelas beberapa kelas lainnya yaitu HomeFragment,
+
+HistoryFragment,  AnnouncementFragment  dan  ConsultationFragment.  Kelas
+
+PreoutlineActivity sedikit berbeda dengan aplikasi client mahasiswa dimana kelas
+
+ini  dapat  dipanggil  dari  beberapa  kelas  lainnya  diantaranya  SearchActivity,
+
+HomeFragment,  dan  HistoryFragment.  Untuk  kelas  ReplyActivity  dan
+
+ReviewActivity  mengimplementasikan  cara  kerja  yang  sama  dimana  data
+
+dikonsumsi dari PreoutlineActivity untuk kemudian dipanggil pada kelas tersebut.
+
+Seluruh  kelas  baik  pada  aplikasi  mahasiswa  maupun  dosen
+
+memanfaatkan data dari LoginActivity yang mengimplementasikan sifat stateless
+
+dimana data login disimpan pada sisi client dan divalidasi pada sisi server. Data
+
+44
+
+
+
+login yang dimaksud adalah  JSON Web Token(JWT),  dimana JWT akan selalu
+
+dikirim setiap request data terhadap server berlangsung.
+
+3.4.3. Perancangan Antarmuka Sistem
+
+Interface  atau  antarmuka  merupakan  tampilan  dari  suatu  program
+
+aplikasi yang berperan sebagai media komunikasi yang digunakan sebagai sarana
+
+berdialog antara program dengan  user.  Sistem yang akan dibangun diharapkan
+
+menyediakan  interface  yang  sesuai  dengan  kebutuhan  dan  tujuan  user,  serta
+
+mudah dipahami dan digunakan oleh. Berikut ini adalah perancangan antarmuka
+
+pada sistem yang akan dibuat.
+
+3.4.3.1. Perancangan Struktur Antarmuka SPOTA Dosen
+
+Adapun struktur antarmuka aplikasi  SPOTA Android dosen dijabarkan
+
+sebagai berikut.
+
+a) Menu Utama
+
+Menu utama terdiri  dari 4 buah submenu yakni menu lihat draft baru,
+
+lihat histori review, menu pengumuman, dan menu konsultasi.
+
+b) Menu Draft Baru
+
+Menu  Draft  Baru  merupakan  menu  yang  berisikan  data  draft  terbaru
+
+dalam tahun ajaran ini dan belum dikomentari oleh dosen yang sedang
+
+login. 
+
+c) Histori Review
+
+Menu Histori Review merupakan menu yang berisikan data draft yang
+
+telah dikomentari oleh dosen yang sedang login.
+
+d) Menu Pengumuman
+
+Menu Pengumuman merupakan menu yang berisikan data pengumuman
+
+yang telah diumumkan di website SPOTA oleh admin.
+
+e) Menu Konsultasi
+
+Menu Konsultasi  merupakan forum yang mengizinkan mahasiswa dan
+
+dosen  pembimbing  yang  telah  dipilih  kaprodi  berkomunikasi  tentang
+
+draft yang telah mahasiswa unggah. 
+
+f) Menu Profil
+
+Menu Profil merupakan menu yang berisikan fitur lihat dan edit profil
+
+pribadi.
+
+45
+
+
+
+g) Menu Pencarian
+
+Menu Pencarian merupakan menu yang mengizinkan dosen mencari draft
+
+dengan kata kunci nomor identitas mahasiswa atau judul draft.
+
+h) Menu Jadwal Sidang / Seminar
+
+Menu Jadwal  Sidang /  Seminar  merupakan menu yang berisikan  data
+
+jadwal seminar / sidang yang telah didaftarkan oleh admin.
+
+i) Menu Daftar Pemberitahuan
+
+Menu Daftar Pemberitahuan berisikan daftar seluruh pemberitahuan yang
+
+masuk ke dalam aplikasi.
+
+j) Menu Statistik
+
+Menu Statistik berisikan data perhitungan statistik berkaitan dengan draft
+
+seperti jumlah draft diterima dan ditolak dalam satu semester.
+
+Gambar 3.8 Perancangan Struktur Antarmuka SPOTA Dosen
+
+46
+
+
+
+3.4.3.2. Perancangan Struktur Antarmuka SPOTA Mahasiswa
+
+Adapun struktur antarmuka aplikasi  SPOTA Android dosen dijabarkan
+
+sebagai berikut.
+
+a) Menu Daftar Jadwal Sidang / Seminar
+
+Menu Jadwal  Sidang /  Seminar  merupakan menu yang berisikan  data
+
+jadwal seminar / sidang yang telah didaftarkan oleh admin.
+
+b) Menu Praoutline Saya
+
+Menu  Praoutline  saya  merupakan  menu  yang  menampilkan  status
+
+penerimaan, jumlah komentar.
+
+c) Menu Konsultasi
+
+Menu Konsultasi  merupakan forum yang mengizinkan mahasiswa dan
+
+dosen  pembimbing  yang  telah  dipilih  kaprodi  berkomunikasi  tentang
+
+draft yang telah mahasiswa unggah. 
+
+d) Daftar Pengumuman
+
+Menu Pengumuman merupakan menu yang berisikan data pengumuman
+
+yang telah diumumkan di website SPOTA oleh admin.
+
+e) Menu Profil
+
+Menu Profil merupakan menu yang berisikan fitur lihat dan edit profil
+
+pribadi.
+
+f) Menu Pencarian
+
+Menu Pencarian merupakan menu yang mengizinkan mahasiswa mencari
+
+draft dengan kata kunci nomor identitas mahasiswa atau judul draft.
+
+g) Daftar Pemberitahuan 
+
+Menu Daftar Pemberitahuan berisikan daftar seluruh pemberitahuan yang
+
+masuk ke dalam aplikasi.
+
+47
+
+
+
+Gambar 3.9 Perancangan Struktur Antarmuka SPOTA Mahasiswa
+
+48
+
+
+
+3.4.4. Perancangan Layout
+
+3.4.4.1. Perancangan Aktivitas Login
+
+Aktivitas  login  adalah  aktivitas  yang  muncul  pertama  kali  guna
+
+mengotentikasi  nomor  identitas  dan  password  yang  diberikan  agar  user  dapat
+
+mengakses menu utama. 
+
+Gambar 3.10 Rancangan aktivitas login
+
+3.4.4.2. Perancangan Aktivitas Menu Utama
+
+Aktivitas menu utama memiliki 4 submenu yang dapat diakses melalui
+
+Bottom Navigation  View yang masing – masing memiliki  menu yang berbeda
+
+pada tiap aplikasi.
+
+a) Dosen
+
+ Draft Terbaru
+
+ Histori Review
+
+ Daftar Konsultasi
+
+ Pengumuman
+
+b) Mahasiswa
+
+ Jadwal Sidang / Seminar
+
+ Pengumuman
+
+ Praoutline Saya
+
+ Konsultasi
+
+49
+
+
+
+Pada  menu  utama  juga  terdapat  Side  Navigation  Drawer  yang  dapat
+
+diakses  dengan  Hamburger  Button  (  ≡  )  atau  full-left-to-right-slide.  Side
+
+Navigation Drawer memiliki beberapa menu yang berbeda pada tiap aplikasi.
+
+a) Dosen
+
+ Profil
+
+ Pencarian
+
+ Daftar Jadwal / Seminar
+
+ Daftar Pemberitahuan
+
+ Statistik
+
+ Tentang Aplikasi
+
+b) Mahasiswa
+
+ Profil
+
+ Pencarian
+
+ Daftar Pemberitahuan
+
+ Tentang Aplikasi
+
+Gambar 3.11 Rancangan Aktivitas Menu Utama
+
+3.4.4.3. Perancangan Aktivitas Profil
+
+Aktivitas Profil dirancang untuk melakukan perubahan dan melihat data 
+
+pribadi yang tersimpan di database seperti nama, email, foto, dan password.
+
+50
+
+
+
+Gambar 3.30 Rancangan Aktivitas Profil
+
+3.4.4.4. Perancangan Aktivitas Manajemen Praoutline
+
+Aktivitas  ini  memuat  bagaimana  data  tentang  praoutline  ditampilkan
+
+seperti persetujuan dosen, status, menampilkan dan memberikan review terhadap
+
+praoutline. 
+
+Gambar 3.12 Rancangan Aktivitas Manajemen Praoutline
+
+3.4.4.5. Perancangan Aktivitas Pencarian
+
+Aktivitas  ini  memuat  fitur  pencarian  draft  yang  telah  diunggah
+
+mahasiswa pada tahun ajar yang telah diatur oleh admin sehingga tidak terjadi
+
+penumpukkan data berlebih pada saat pencarian. 
+
+51
+
+
+
+Gambar 3.13  Rancangan Aktivitas Pencarian
+
+3.5. Pembuatan Sistem
+
+Sistem yang dibuat merupakan aplikasi yang dapat berjalan pada sistem
+
+operasi  android  dengan  minimum  SDK  18  atau  Android  4.4  (KitKat)  dan
+
+maksimum SDK 27 atau Android 8.1 (Oreo). Aplikasi akan mengikuti rancangan
+
+yang  telah  dibuat  dan  dikembangkan  dengan  menggunakan  Android  Studio
+
+sebagai Integrated Development Environment (IDE) dengan bahasa pemrograman
+
+java dan markup language xml. Dalam pengembangan ada beberapa library untuk
+
+mendukung  pengembangan  aplikasi.  Retrofit  2.0  dan  OkHTTP  sebagai
+
+pendukung  komunikasi  HTTP  dengan  webservice.  Glide  sebagai  imageloader
+
+untuk  ImageView.  Webservice  dikembangkan  dengan  bahasa  pemrogramman
+
+PHP berbantu Laravel Framework dengan menggunakan 2 jalur yaitu web dan api
+
+dimana Web bersifat stateful sedangkan api bersifat stateless.
+
+3.6. Perancangan Pengujian Sistem
+
+Pengujian  merupakan  salah  satu  tahapan  dalam  membangun  sebuah
+
+perangkat lunak. Tahapan pengujian bertujuan untuk menemukan kesalahan dan
+
+memastikan apakah sistem yang dibangun sudah berjalan dengan baik atau tidak.
+
+Pengujian  pada  aplikasi  yang  akan  dibangun  akan  dilakukan  dengan
+
+menggunakan metode Black Box, pengujian kompatibilitas, dan kuesioner.
+
+52
+
+
+
+3.6.1. Pengujian Black Box – Robustness Testing
+
+Pengujian  Black  Box ini  merupakan  metode  pengujian  dimana  input
+
+berupa  suatu  set  data  digunakan  untuk  menguji  validitas  dari  integrasi  dan
+
+konsistensi sistem. Metode pengujian  black box dilakukan dengan membuat uji
+
+kasus  yang  bersifat  mencoba  semua  fungsi  sistem.  Kesalahan  yang  dapat
+
+ditemukan dalam pengujian black box antara lain: 
+
+1. Fungsi yang tidak benar atau hilang
+
+2. Kesalahan antarmuka sistem
+
+3. Kesalahan dalam struktur basis data
+
+4. Kesalahan kinerja sistem
+
+Pengujian  Black Box jenis  Robustness Testing dimana aturan terhadap
+
+perangkat  lunak  sudah  terdaftar  beserta  dengan  kondisi  alternatif  dari  setiap
+
+inputan terhadap perangkat lunak.
+
+Tabel 3.3 Model Pengujian Black Box
+
+Masukkan Contoh Data Hasil Eksekusi Keterangan
+
+Pengisian tabel berikut dijelaskan sebagai berikut.
+
+a. Masukkan berupa data yang digunakan sebagai bahan pengujian.
+
+b. Contoh  data  berisi  contoh  masukan  yang  digunakan  langsung  pada
+
+aplikasi.  Jumlah  contoh  disesuaikan  dengan  data  yang  dimasukkan
+
+pengguna pada aktivitas tersebut.
+
+c. Hasil eksekusi berupa hasil dari pengujian data yang telah dimasukkan
+
+berupa status berhasil atau gagal.
+
+d. Keterangan merupakan penjelasan dari hasil eksekusi pengujian, berupa
+
+pesan kesalahan atau respon balik dari aplikasi.
+
+53
+
+
+
+3.6.2. Pengujian Kompatibilitas
+
+Aplikasi ini dirancang dengan basis Android untuk sistem operasi dengan
+
+minimum  versi  Android  4.4  (KitKat)  hingga  Android  8.1  (Oreo).  Pengujian
+
+dilakukan dengan memasang aplikasi pada berbagai jenis perangkat Android dan
+
+selanjutnya  mengakses  semua  aktivitas  dan  fitur.  Hasil  pengujian  dirangkum
+
+dalam Tabel 3.4 berikut.
+
+Tabel 3.4 Hasil Pengujian Kompatibilitas Aplikasi
+
+Merek Perangkat Tipe Versi Sistem
+
+Operasi
+
+Keterangan
+
+Tabel pengujian terdiri dari empat kolom, yaitu:
+
+1. Merek  perangkat:  berisi  merek  perangkat  yang  digunakan  dalam
+
+pengujian.
+
+2. Tipe perangkat: berisi tipe perangkat yang digunakan, seperti smartphone
+
+atau Tablet phone.
+
+3. Versi  sistem  operasi:  merupakan  versi  sistem  operasi  Android  yang
+
+digunakan.
+
+4. Keterangan:  merupakan  keterangan  hasil  pengujian,  berhasil  atau
+
+tidaknya pemasangan aplikasi pada perangkat yang digunakan.
+
+3.6.3. Kuesioner
+
+Kuesiorner berisi  13 pertanyaan yang dikelompokkan menjadi 3 aspek
+
+yang digunakan dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat
+
+lunak,  aspek  fungsionalitas,  dan  aspek  komnikasi  visual.  Kuesioner  dibagikan
+
+kepada 25 responden yang juga  merupakan pengguna Android,  terdiri  dari  15
+
+mahasiswa – mahasiswi dan 10 dosen termasuk Kepala Program Studi Teknik
+
+54
+
+
+
+Informatika  Universitas  Tanjungpura.  Untuk  responden  yang  menggunakan
+
+perangkat  Android,  kuesioner  dibagikan  beserta  dengan  aplikasi  yang  dibuat.
+
+Hasil kuesioner kemudian dirangkum berdasarkan tiga aspek yang diujikan.
+
+3.6.3.1. Aspek Rekayasa Perangkat Lunak
+
+Hasil kuesioner aspek rekayasa perangkat lunak dirangkum dalam sebuah
+
+tabel seperti pada Tabel 3.5.
+
+Tabel 3.5 Kuesioner Aspek Rekayasa Perangkat Lunak
+
+No Aspek Rekayasa Perangkat Lunak 
+
+Tanggapan
+
+Total
+
+1 2 3 4 5
+
+1 Kemudahan menjalankan aplikasi
+
+2 Kompatibilitas aplikasi pada perangkat
+
+3
+Kelancaran menjalankan aplikais pada 
+
+perangkat
+
+4
+Kemudahan mengakses fitur – fitur pada 
+
+aplikasi
+
+5
+Kenyamanan dalam penggunaan aplikasi 
+
+secara keseluruhan
+
+Jumlah
+
+55
+
+
+
+Persentase (%)
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat Baik
+
+3.6.3.2. Aspek Fungsionalitas
+
+Kuesioner aspek fungsionalitas dirangkum dalam sebuah tabel seperti 
+
+pada Tabel 3.6. 
+
+Tabel 3.6 Kuesioner Aspek Fungsionalitas
+
+No Aspek Fungsionalitas 
+
+Tanggapan
+
+Total
+
+1 2 3 4 5
+
+1 Kinerja aplikasi saat menampilkan data
+
+2 Kinerja sistem notifikasi aplikasi
+
+3
+Kinerja aplikasi saat melakukan 
+
+manajemen data
+
+Jumlah
+
+Persentase (%)
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup baik
+
+56
+
+
+
+4 = Baik 5 = Sangat Baik
+
+3.6.3.3. Aspek Komunikasi Visual
+
+Kuesioner untuk aspek komunikasi visual dirangkum dalam sebuah tabel 
+
+seperti pada Tabel 3.7. 
+
+Tabel 3.7 Kuesioner Aspek Komunikasi Visual
+
+No Aspek Komunikasi Visual 
+
+Tanggapan
+
+Total
+
+1 2 3 4 5
+
+1 Tampilan (antarmuka) aplikasi
+
+2 Tampilan menu aplikasi
+
+3
+Jenis dan ukuran huruf yang digunakan 
+
+mudah dibaca
+
+4 Kombinasi warna pada tampilan aplikasi
+
+5
+Respon (feedback) aplikasi terhadap input 
+
+yang dimasukkan
+
+Jumlah
+
+Persentase (%)
+
+57
+
+
+
+Keterangan : 1 = Sangat Buruk 2 = Buruk 3 = Cukup baik
+
+4 = Baik 5 = Sangat Baik
+
+Hasil  kuesioner  yang  telah  dirangkum  berdasarkan  aspek  pengujian
+
+tersebut  akan  dihitung  jumlah  dan  persentase  (%)  dari  tanggapan  seluruh
+
+responde.  Dari  persentase  yang  telah  didapat,  akan  dibuat  diagram  lingkaran
+
+sebagai visualisasi setiap aspek hasil kuesioner.
+
+Untuk  mengetahui  tingkat  keberhasilan  aplikasi  dari  kuesioner,
+
+digunakan metode Likert’s Summated Rating (LSR) untuk mengukur skor terkecil
+
+dan terbesar dari 13 pertanyaan kuesioner yang ditanggapi oleh responden. Skor
+
+tanggapan dari  13 pertanyaan untuk setiap responden dirangkum dalam sebuah
+
+tabel seperti pada Tabel 3.8 berikut.
+
+Tabel 3.8 Total skor responden
+
+Responden
+
+Item
+
+Total
+
+1 2 3 4 5 6 7 8 9 10 11 12 13
+
+A
+
+B
+
+C
+
+D
+
+E
+
+58
+
+
+
+F
+
+G
+
+H
+
+I
+
+J
+
+K
+
+L
+
+M
+
+N
+
+O
+
+P
+
+Q
+
+R
+
+S
+
+59
+
+
+
+T
+
+U
+
+V
+
+W
+
+X
+
+Y
+
+Total Skor
+
+Data  yang  diperoleh  dari  hasil  pengujian  dengan  kuesioner  kemudian
+
+diukur dengan metode Likert’s Summated Rating (LSR).
+
+1. Jumlah skor untuk setiap responden: 
+
+ Skor maksimal = 65 (5 x 13 item)
+
+ Skor minimal = 13 (1 x 13 item)
+
+ Skor median = 39 (3 x 13 item)
+
+ Skor kuartil I = 26 (2 x 13 item)
+
+ Skor kuartil III = 52 (4 x 13 item)
+
+2. Jumkah skor untuk seluruh responden:
+
+a. Dosen
+
+ Maksimal = 650 (10 x 65)
+
+ Minimal = 130 (10 x 13)
+
+ Median = 390 (10 x 39)
+
+ Kuartil I = 260 (10 x 26)
+
+ Kuartil II = 520 (10 x 52)
+
+b. Mahasiswa
+
+60
+
+
+
+a. Maksimal = 975 (15 x 65)
+
+b. Minimal = 195 (15 x 13)
+
+c. Median = 585 (15 x 39)
+
+d. Kuartil I = 390 (15 x 26)
+
+e. Kuartil II = 676 (15 x 52)
+
+3. Interpretasi jumlah skor :
+
+a. Dosen
+
+ 520 < skor < 650, artinya aplikasi dinilai sangat positif (program 
+
+dinilai berhasil)
+
+ 390 < skor < 520, artinya aplikasi dinilai positif (program dinilai 
+
+cukup berhasil)
+
+ 260 < skor < 390, artinya aplikasi dinilai negatif (program dinilai 
+
+kurang berhasil)
+
+ 130 < skor < 260, artinya aplikasi dinilai sangat negatif (program 
+
+dinilai tidak berhasil)
+
+b. Mahasiswa
+
+ 676 < skor < 975, artinya aplikasi dinilai sangat positif (program 
+
+dinilai berhasil)
+
+ 585 < skor < 676, artinya aplikasi dinilai positif (program dinilai 
+
+cukup berhasil)
+
+ 390 < skor < 585, artinya aplikasi dinilai negatif (program dinilai 
+
+kurang berhasil)
+
+ 195 < skor < 390, artinya aplikasi dinilai sangat negatif (program 
+
+dinilai tidak berhasil)
+
+61
+
+
+
+BAB IV
+
+IMPLEMENTASI DAN HASIL PENGUJIAN
+
+4.1 Implementasi
+
+Hasil  Implementasi  dari  hasil  perancangan  menghasilkan  dua  buah
+
+aplikasi  android  yaitu  Aplikasi  SPOTA  Dosen  dan  SPOTA  Mahasiswa  yang
+
+dibuktikan dengan tangkapan layar (screenshot) dari kedua aplikasi yang dibuat.
+
+Tangkapan layar diambil dengan menggunakan ponsel pintar XiaoMi Redmi Note
+
+2 dengan resolusi layar 1080 x 1920 pixel.
+
+4.1.1 Push Notification
+
+Push Notification  di  implementasikan dengan menggunakan HTTP v1
+
+API yang disediakan oleh Firebase Cloud Messaging Service milik Google. Push
+
+Notification  bekerja dengan memanfaatkan HTTP post request dan diletakkan di
+
+sisi backend webservice Request dikirm menuju https://fcm.googleapis.com/fcm/.
+
+Parameter yang harus dipenuhi diantaranya :
+
+a. Request Header
+
+ Content-Type : Application/Json
+
+ Authorization : key=FIREBASE_SERVER_TOKEN
+
+b. Request Body
+
+Bagian request body dikirim dengan bentuk  raw json format  yang
+
+berisi  2  elemen  utama  antara  lain  to  dan  notification. Element  to
+
+berisikan  data  token  yang  dihasilkan  Firebase  Cloud  Messaging
+
+Service  (FCM) disisi aplikasi android klien yang telah dikirim dari
+
+sisi klien ke sisi  backend webservice. Elemen  notification berisikan
+
+data yang hendak dikirim oleh  backend webservice  yang kemudian
+
+akan diintepretasikan menjadi  notification view  disisi klien android.
+
+Notification  terdiri  dari  beberapa  sub elemen  yaitu  title dan  body.
+
+Title berisikan judul dari notification view sedangkan body berisikan
+
+konten isi dari notification view.
+
+60
+
+https://fcm.googleapis.com/fcm/
+
+
+Gambar 4.1 Konten raw json request body untuk push notification
+
+Gambar 4.2 Proses pengiriman Firebase HTTP v1 API pada sisi backend
+
+webservice hingga menjadi pesan notifikasi
+
+4.1.2 Mail Notification
+
+Mail Notification  atau pemberitahuan melalui  e-mail  diimplementasikan
+
+dengan menggunakan SMTP. Ada beberapa proses yang dapat memicu notifikasi
+
+email dikirim diantaranya : 
+
+1. Untuk Dosen :
+
+- Draft baru terunggah
+
+- Draft yang telah dikomentari,  dikomentari  oleh dosen dan/atau
+
+mahasiswa
+
+- Laman Konsultasi dikomentari
+
+2. Untuk Mahasiswa
+
+- Draft dikomentari oleh dosen
+
+- Draft ditutup
+
+- Laman konsultasi dikomentari
+
+61
+
+
+
+Gambar 4.3 Tampilan mail notification
+
+4.1.3 SPOTA Dosen
+
+1. Menu Login
+
+Pada  saat  aplikasi  dibuka  pengguna  akan  dihadapkan  pada  tampilan
+
+login.  Pengguna diharuskan untuk memasukkan nomor identitas dan kata sandri
+
+yang telah terdaftar. Jikar pengguna memasukkan data yang telah terdaftar secara
+
+benar maka aplikasi akan menampilkan menu utama. Tampilan menu login dapat
+
+dilihat pada Gambar 4.4 berikut ini.
+
+Gambar 4.4 Tampilan menu login
+
+62
+
+
+
+2. Menu Utama
+
+Pada menu  utama menampilkan  beberapa  komponen yaitu  action  bar
+
+yang berisikan sebuah  hamburger button, fragment layout dengan konten sesuai
+
+dengan item pada bottom navigation bar.  Hamburger Button akan menampilkan
+
+navigation drawer bila di-tap. Tampilan menu utama dan navigation drawer bisa
+
+dilihat pada Gambar 4.5 berikut ini.
+
+Gambar 4.5 Tampilan menu utama dan navigation drawer
+
+3. Menu Draft Baru
+
+Menu draft baru adalah submenu yang terdapat pada menu utama yang
+
+menampilkan  daftar  draft  outline  yang  telah  diunggah  mahasiswa  pada  tahun
+
+ajaran aktif dan belum dikomentari oleh pengguna. Daftar draft berisikan tentang
+
+informasi judul,  nama mahasiswa, nomor identitas mahasiswa, tanggal  unggah,
+
+jumlah persetujuan, jumlah penolakan dan jumlah komentar. Bila salah satu item
+
+di-tap maka aplikasi akan menampilkan menu praoutline. Menu draft baru dapat
+
+dilihat di Gambar 4.6 berikut.
+
+63
+
+
+
+Gambar 4.6 Menu draft baru
+
+4. Menu Histori
+
+Menu histori berisikan daftar draft yang telah dikomentari sama dengan
+
+draft  baru  daftar  histori  berisikan  tentang  informasi  judul,  nama  mahasiswa,
+
+nomor  identitas  mahasiswa,  tanggal  unggah,   jumlah  persetujuan,  jumlah
+
+penolakan  dan  jumlah  komentar.  Tampilan  menu  histori  dapat  dilihat  pada
+
+Gambar 4.7 berikut.
+
+Gambar 4.7 Tampilan menu histori
+
+64
+
+
+
+5. Menu Konsultasi
+
+Menu konsultasi berisikan daftar konsultasi sesuai dengan yang kaprodi
+
+putuskan  pada  saat  penerimaan  draft.  Daftar  konsultasi  hanya  akan  muncul
+
+apabila  mahasiswa berhasil  mengunggah file  laporan  tugas akhir  pada website
+
+SPOTA. Menu konsultasi berisikan informasi tentang judul tugas akhir, bab yang
+
+dikonsultasikan  serta  tanggal  terakhir  dikomentari.  Tampilan  menu  konsultasi
+
+dapat dilihat pada Gambar 4.8 berikut.
+
+Gambar 4.8 Tampilan menu daftar konsultasi
+
+6. Menu Review Laporan
+
+Menu review laporan berisikan daftar komentar terhadap draft yang telah
+
+diunggah  mahasiswa  di  website  SPOTA.  Fitur  ini  hanya  dapat  diakses  dosen
+
+pembimbing yang telah diputuskan kaprodi pada saat penerimaan draft. Menu ini
+
+memiliki sebuah tombol back pada action bar, more option button pada tiap item
+
+komentar yang memiliki submenu hapus bila pengguna merupakan pemilih dari
+
+item komentar, dan sebuah floating action button. Tampilan menu review laporan
+
+dapat dilihat pada gambar 4.9 berikut.
+
+65
+
+
+
+Gambar 4.9 Tampilan menu review laporan
+
+7. Menu Balas Konsultasi
+
+Menu balas konsultasi adalah menu lanjutan dari menu  review  laporan.
+
+Menu  ini  diakses  melalui  floating  action  button  pada  menu  review  laporan.
+
+Tampilan menu balas konsultasi dapat dilihat pada tambar 4.10 berikut.
+
+Gambar 4.10 Tampilan menu balas konsultasi
+
+66
+
+
+
+8. Menu Pengumuman
+
+Menu  pengumuman  berisikan  daftar  pengumuman  yang  telah
+
+diumumkan oleh admin program studi. Menu pengumuman berisikan informasi
+
+berupa judul,  pengirim,  serta tanggal  diumumkan.  Bila item pada daftar  di-tap
+
+maka  aplikasi  akan  menampilkan  dialog  fragment  yang  berisikan  konten  dari
+
+pengumuman  dan  sebuah  tombol  tutup.  Tampilan  menu  pengumuman  dapat
+
+dilihat pada Gambar 4.11 berikut.
+
+Gambar 4.11 Tampilan menu pengumuman
+
+9. Menu Profil
+
+Menu profil  diakses  pada  navigation  drawer  pada  menu utama.  Pada
+
+menu  ini  pengguna  dapat  melakukan  pembaharuan  data  pribadi  berupa  nama,
+
+email,  password serta foto profil.  Tampilan menu konsultasi  dapat dilihat pada
+
+Gambar 4.12 berikut.
+
+67
+
+
+
+Gambar 4.12 Tampilan menu profil
+
+10. Menu Pemberitahuan
+
+Menu  pemberitahuan  diakses  dari  navigation  drawer  dan  berisikan
+
+tentang  daftar  pemberitahuan  yang  terkirim  ke  user.  Tampilan  menu
+
+pemberitahuan dapat dilihat pada Gambar 4.13 berikut.
+
+Gambar 4.13 Tampilan menu pemberitahuan
+
+11. Menu Pencarian
+
+68
+
+
+
+Menu  pencarian  diakses  dari  navigation  drawer  dan  memiliki  fungsi
+
+sebagai mesin pencari draft yang telah terunggah pada tahun ajaran aktif.  Kata
+
+kunci dapat berupa nim atau judul draft. Tampilan menu pencarian dapat dilihat
+
+pada Gambar 4.14 berikut. 
+
+Gambar 4.14 Tampilan menu pencarian
+
+12. Menu Jadwal
+
+Menu jadwal diakses dari  navigation drawer  dan berisikan data jadwal
+
+sidang  atau  seminar  yang  telah  didaftarkan  admin  pada  website  SPOTA.
+
+Tampilan menu jadwal dapat dilihat pada Gambar 4.15 berikut.
+
+69
+
+
+
+Gambar 4.15 Tampilan menu jadwal
+
+13. Menu Statistik
+
+Menu statistik diakses dari navigation drawer dan hanya tersedia apabila
+
+pengguna yang login ke aplikasi memiliki akses kaprodi. Menu statistik berisikan
+
+data tentang statistik draft yang berhasil diunggah mahasiswa meliputi, draft per
+
+semester,  draft  keseluruhan,  draft  terhadap  jumlah  bimbingan  dosen,  draft
+
+terhadap jumlah pengujian dosen, daftar draft semester aktif maupun keseluruhan
+
+serta data status penerimaan draft pada semester aktif dan keseluruhan. Tampilan
+
+menu statistik dapat dilihat pada Gambar 4.16 berikut.
+
+70
+
+
+
+Gambar 4.16 Tampilan menu statistik
+
+14. Menu Draft Siap Close
+
+Menu draft siap close diakses dari navigation drawer dan hanya tersedia
+
+apabila pengguna yang login ke aplikasi memiliki akses kaprodi. Menu draft siap
+
+close  berisikan  daftar  seluruh  draft  yang  telah  memenuhi  persyaratan  jumlah
+
+persetujuan dari dosen melebihi minimal jumlah persetujuan yang diatur admin
+
+pada website SPOTA. Tampilan menu draft siap close dapat dilihat pada Gambar
+
+4.17 berikut.
+
+Gambar 4.17 Tampilan menu draft siap close
+
+71
+
+
+
+15. Menu Tentang Aplikasi
+
+Menu  tentang  aplikasi  diakses  dari  navigation  drawer  dan  berisikan
+
+tentang informasi  tahun pembuatan  dan versi.  Tampilan  menu tentang aplikasi
+
+dapat dilihat pada gambar 4.18 berikut.
+
+Gambar 4.18 Menu tentang aplikasi
+
+16. Menu Logout
+
+Menu  logout diakses  dari  navigation  drawer dan  jika  di-tap  akan
+
+memunculkan  alert  dialog yang  berisikan  konfirmasi  apabila  pengguna  ingin
+
+melanjutkan aktivitas logout, bila pengguna melanjutkan ke aktivitas logout maka
+
+aplikasi  akan  mengalihkan  pengguna  kembali  ke  menu  login.  Tampilan  alert
+
+dialog logout dapat dilihat pada Gambar 4.19 berikut.
+
+72
+
+
+
+Gambar 4.19 Alert dialog logout
+
+17. Menu Praoutline
+
+Menu  praoutline  berisikan  informasi  judul  draft,  jumlah  persetujuan,
+
+jumlah  penolakan,  daftar  dosen  yang  memberikan  persetujuan  dan  penolakan,
+
+serta  deskripsi  draft.  Menu  praoutline  dapat  diakses  dari  beberapa  menu
+
+diantaranya menu pencarian,  menu draft  terbaru,  menu histori  atau menu draft
+
+siap close. Bila pengguna memiliki akses kaprodi pada bagian kanan atas aplikasi
+
+terdapat  tombol  more  option yang  berisikan  2  item  yaitu  download  file  dan
+
+berikan  keputusan  sedangkan  bila  pengguna  yang  masuk  memiliki  hak  akses
+
+dosen biasa tombol  more option  hanya akan menampilkan menu download file.
+
+Pada  kiri  atas  aplikasi  pada  menu  praoutline  terdapat  tombol  kembali  untuk
+
+kembali ke aktivitas sebelumnya. Pada bagian dibawah action bar terdapat 3 buah
+
+tombol lainnya yaitu upvote button, downvote button dan comment button. Upvote
+
+button berfungsi untuk memberikan persetujuan, downvote button berfungsi untuk
+
+memberikan penolakan dan comment button berfungsi untuk menampilkan menu
+
+review. Tampilan menu praoutline dapat dilihat pada Gambar 4.20 berikut.
+
+73
+
+
+
+Gambar 4.20 Tampilan menu praoutline
+
+18. Menu Review
+
+Menu  review merupakan  menu  lanjutan  dari  menu  praoutline  dan
+
+berisikan daftar komentar terhadap draft. Pada  action bar menu review terdapat
+
+back button yang berfungsi untuk kembali ke aktivitas sebelumnya. Pada daftar
+
+komentar  berisikan  informasi  berupa  nama,  nomor  identitas,  komentar  serta
+
+tanggal komentar diberikan. Setiap item komentar memiliki sub menu yang bisa
+
+diakses dengan menekan tombol more option pada kanan atas item komentar. Bila
+
+pengguna adalah pemilik komentar maka more option button akan menampilkan 2
+
+sub menu yaitu hapus komentar dan balas komentar, bila pengguna bukan pemilik
+
+dari item komentar maka more option button akan menampilkan submenu balas.
+
+Pada bagian kanan bawah aplikasi terdapat floating action button yang berfungsi
+
+menampilkan  menu  kometar  draft.  Tampilan  menu  review dapat  dilihat  pada
+
+Gambar 4.21 berikut. 
+
+74
+
+
+
+Gambar 4.21 Tampilan menu review
+
+19. Menu Komentar
+
+Menu komentar dapat diakses dari submenu balas pada item komentar di
+
+menu review ataupun dengan tap floating action button pada menu review. Pada
+
+action  bar  tedapat  sebuah  tombol  back. Bila  pengguna   mengakses  menu
+
+komentar dari submenu balas maka teks pada item komentar akan muncul di layar
+
+aplikasi. Tampilan menu komentar dapat dilihat pada Gambar 4.22 berikut.
+
+75
+
+
+
+Gambar 4.22 Tampilan menu komentar
+
+20. Menu Close Draft
+
+Menu  close  draft  hanya  dapat  diakses  apabila  pengguna  yang  masuk
+
+memiliki akses kaprodi. Menu ini berisikan beberapa data masukkan diantaranya
+
+status  penerimaan  berupa  diterima,  ditolak  dan  gugur,  pemilihan  dosen
+
+pembimbing 1 dan 2,  pemilihan  dosen penguji  1 dan 2 (opsional)  dan catatan
+
+tambahan. Tampilan menu close draft dapat dilihat pada Gambar 4.23 berikut.
+
+Gambar 4.23 Tampilan menu close draft
+
+76
+
+
+
+21. Notifikasi / Pemberitahuan
+
+Pada aplikasi dosen notifikasi akan muncul apabila beberapa aktivitas 
+
+pada sisi backend webservice telah terjadi, aktivitas tersebut antara lain :
+
+a. Draft baru diunggah
+
+b. Pengumuman dengan target dosen
+
+c. Draft yang telah dikomentari, dikomentari oleh dosen dan/atau 
+
+mahasiswa
+
+d. Mahasiswa mengomentari laman konsultasi dengan dosen sebagai 
+
+salah satu pembimbing
+
+e. Jadwal Seminar/Sidang ditambahkan oleh admin
+
+Gambar 4.24 Tampilan notifikasi pada aplikasi dosen
+
+77
+
+
+
+4.1.4 SPOTA Mahasiswa
+
+1. Menu Login
+
+Pada saat aplikasi dibuka pengguna akan dihadapkan pada tampilan 
+
+login. Pengguna diharuskan untuk memasukkan nomor identitas dan kata sandri 
+
+yang telah terdaftar. Jikar pengguna memasukkan data yang telah terdaftar secara 
+
+benar maka aplikasi akan menampilkan menu utama. Tampilan menu login dapat 
+
+dilihat pada Gambar 4.25 berikut ini.
+
+Gambar 4.25 Tampilan menu login
+
+2. Menu Utama
+
+Pada menu  utama menampilkan  beberapa  komponen yaitu  action  bar
+
+yang berisikan sebuah  hamburger button, fragment layout dengan konten sesuai
+
+dengan item pada bottom navigation bar.  Hamburger Button akan menampilkan
+
+navigation drawer bila di-tap. Tampilan menu utama dan navigation drawer bisa
+
+dilihat pada Gambar 4.26 berikut ini.
+
+78
+
+
+
+Gambar 4.26 Tampilan menu utama
+
+3. Menu Home
+
+Menu  home berisikan daftar pengumuan yang telah diumumkan admin
+
+pada website SPOTA. Bila salah satu item pada menu ini di-tap  maka aplikasi
+
+akan  menampilkan  dialog  fragment  berisikan  konten  dari  pengumuman  dan
+
+sebuah  tombol  tutup.  Tampilan  menu  home  dapat  dilihat  pada  Gambar  4.27
+
+berikut.
+
+Gambar 4.27 Tampilan menu home
+
+79
+
+
+
+4. Menu Jadwal
+
+Menu jadwal berisikan daftar jadwal yang sudah didaftarkan admin pada
+
+website SPOTA. Tampilan menu jadwal dapat dilihat pada Gambar 4.28 berikut.
+
+Gambar 4.28 Tampilan menu jadwal
+
+5. Menu Status Outline
+
+Menu  status  outline  berisikan  tentang  informasi  judul,  jumlah
+
+persetujuan,  penolakan  serta  jumlah  komentar.  Menu  status  outline  memiliki
+
+sebuah  tombol  lihat  review  dan  tombol  ini  hanya  muncul  apabila  pengguna
+
+memiliki draft aktif berstatus terbuka atau diterima. Bila tombol lihat review di-
+
+tap aplikasi akan menampilkan menu review. Tampilan menu status outline dapat
+
+dilihat pada Gambar 4.29 berikut.
+
+80
+
+
+
+Gambar 4.29 Tampilan menu status outline
+
+6. Menu Daftar Konsultasi
+
+Menu daftar konsultasi berisikan tentang daftar berkas konsultasi yang
+
+telah diunggah mahasiswa pada website SPOTA berupa jumlah komentar,  dan
+
+tanggal  terakhir  dikomentari.  Bila  item  pada  menu  daftar  konsultasi  di-tap
+
+aplikasi  akan menampilkan  menu konsultasi.  Tampilan  menu daftar  konsultasi
+
+bisa dilihat Gambar 4.30 berikut.
+
+Gambar 4.30 Tampilan menu daftar konsultasi
+
+81
+
+
+
+7. Menu Profil
+
+Menu profil  diakses  pada  navigation  drawer  pada  menu utama.  Pada
+
+menu  ini  pengguna  dapat  melakukan  pembaharuan  data  pribadi  berupa  nama,
+
+email,  password serta foto profil.  Tampilan menu konsultasi  dapat dilihat pada
+
+Gambar 4.31 berikut.
+
+Gambar 4.31 Tampilan menu profil
+
+8. Menu Pencarian
+
+Menu  pencarian  diakses  dari  navigation  drawer  dan  memiliki  fungsi
+
+sebagai mesin pencari draft yang telah terunggah pada tahun ajaran aktif.  Kata
+
+kunci dapat berupa nim atau judul draft. Tampilan menu pencarian dapat dilihat
+
+pada Gambar 4.32 berikut. 
+
+82
+
+
+
+Gambar 4.32 Tampilan menu pencarian
+
+9. Menu Pemberitahuan
+
+Menu  pemberitahuan  diakses  dari  navigation  drawer  dan  berisikan
+
+tentang  daftar  pemberitahuan  yang  terkirim  ke  user.  Tampilan  menu
+
+pemberitahuan dapat dilihat pada Gambar 4.33 berikut.
+
+Gambar 4.33 Tampilan menu pemberitahuan
+
+83
+
+
+
+10. Menu Tentang Aplikasi
+
+Menu  tentang  aplikasi  diakses  dari  navigation  drawer  dan  berisikan
+
+tentang informasi  tahun pembuatan  dan versi.  Tampilan  menu tentang aplikasi
+
+dapat dilihat pada gambar 4.34 berikut.
+
+Gambar 4.34 Tampilan menu tentang aplikasi
+
+11. Menu Logout
+
+Menu  logout diakses  dari  navigation  drawer dan  jika  di-tap  akan
+
+memunculkan  alert  dialog yang  berisikan  konfirmasi  apabila  pengguna  ingin
+
+melanjutkan aktivitas logout, bila pengguna melanjutkan ke aktivitas logout maka
+
+aplikasi  akan  mengalihkan  pengguna  kembali  ke  menu  login.  Tampilan  alert
+
+dialog logout dapat dilihat pada Gambar 4.35 berikut.
+
+84
+
+
+
+Gambar 4.35 Tampilan menu logout
+
+12. Menu Praoutline
+
+Menu praoutline  merupakan menu lanjutan  dari  menu pencarian  yang
+
+berisikan judul praoutline, deskripsi, daftar komentar, jumlah persetujuan, jumlah
+
+penolakan dan status draft. Tampilan menu praoutline dapat dilihat pada gambar
+
+4.36 berikut.
+
+Gambar 4.36 Tampilan menu praoutline
+
+85
+
+
+
+13. Menu Review
+
+Menu  review merupakan menu lanjutan dari  menu status outline yang
+
+berisikan daftar  review dosen dan pengguna. Menu review memiliki satu tombol
+
+back pada action bar, dan more option button pada tiap item komentar dengan 2
+
+sub menu yaitu  reply  dan  delete serta sebuah  floating action button pada kanan
+
+bawah aplikasi untuk mengakses menu komentar. Tampilan menu  review dapat
+
+dilihat pada gambar 4.37 berikut.
+
+Gambar 4.37 Tampilan menu review
+
+14. Menu Komentar Draft
+
+Menu komentar draft merupakan menu lanjutan dari menu review menu
+
+komentar  dapat  diakses  melalui  submenu  reply pada  item  komentar  di  menu
+
+review atau melalui floating action button pada menu review. Bila menu komentar
+
+draft diakses dari submenu reply maka aplikasi akan menampilkan komentar yang
+
+hendak  dibalas  pengguna.  Tampilan  menu  komentar  draft  dapat  dilihat  pada
+
+gambar 4.38 berikut.
+
+86
+
+
+
+Gambar 4.38 Tampilan menu komentar draft
+
+15. Menu Konsultasi
+
+Menu  konsultasi  berisikan  daftar  komentar  berkaitan  dengan  laporan
+
+yang diunggah mahasiswa pada website SPOTA. Pada menu konsultasi terdapat
+
+sebuah back button, more option button dengan sebuah submenu delete yang akan
+
+muncul apabila item komentar milik pengguna, dan sebuah floating action button.
+
+Tampilan menu konsultasi dapat dilihat pada gambar 4.39 berikut.
+
+87
+
+
+
+Gambar 4.39 Tampilan menu konsultasi
+
+16. Menu Komentar Konsultasi
+
+Menu komentar  konsultasi  berfungsi  untuk menambah atau  membalas
+
+komentar pada menu konsultasi. Tampilan menu komentar konsultasi dapat dilihat
+
+pada Gambar 4.40 berikut.
+
+Gambar 4.40 Tampilan menu komentar konsultasi
+
+88
+
+
+
+17. Notifikasi / Pemberitahuan
+
+Pada aplikasi mahasiswa notifikasi akan muncul apabila beberapa 
+
+aktivitas pada sisi backend webservice telah terjadi, aktivitas tersebut 
+
+antara lain :
+
+a. Draft baru diunggah
+
+b. Pengumuman dengan target mahasiswa
+
+c. Draft yang telah dikomentari, dikomentari oleh dosen 
+
+d. Dosen mengomentari laman konsultasi dengan dosen sebagai salah 
+
+satu pembimbing
+
+e. Jadwal Seminar/Sidang ditambahkan oleh admin
+
+Gambar 4.41 Tampilan notifikasi pada aplikasi mahasiswa
+
+89
+
+
+
+4.2 Hasil Pengujian 
+
+4.2.1 Black Box – Robustness Testing
+
+1. SPOTA Dosen
+
+Pengujian ini dilakukan pada proses input data pada tiap menu yang ada
+
+pada aplikasi SPOTA Dosen. Gambar pengujian dapat dilihat pada Lampiran B.
+
+Tabel 4.1 Tabel pengujian pada menu login
+
+Masukkan Contoh Data Hasil Eksekusi Keterangan
+
+Seluruh input
+
+kosong
+
+Nomor
+
+Identitas
+Gagal
+
+Pesan : Nomor
+
+identitas atau
+
+Password tidak
+
+boleh kosong 
+
+Password
+
+Nomor
+
+identitas
+
+kosong
+
+Nomor
+
+Identitas
+Gagal
+
+Pesan : Nomor
+
+identitas atau
+
+Password tidak
+
+boleh kosong 
+
+Password password
+
+Password
+
+kosong
+
+Nomor
+
+Identitas
+
+1041141001
+
+Gagal
+
+Pesan : Nomor
+
+identitas atau
+
+Password tidak
+
+boleh kosong 
+
+Password
+
+Memasukkan
+
+data lengkap
+
+yang salah
+
+Nomor
+
+Identitas
+1041141001
+
+Gagal
+
+Pesan : Akun
+
+tidak
+
+ditemukanPassword password
+
+Memasukkan
+
+data lengkap
+
+dan benar,
+
+pada akun
+
+yang nonaktif
+
+Nomor
+
+Identitas
+
+1041141001 Gagal Pesan : Akun
+
+anda nonaktif
+
+Password password
+
+Memasukkan
+
+data lengkap
+
+Nomor
+
+Identitas
+
+1041141002 Berhasil
+
+90
+
+
+
+dan benar,
+
+pada akun
+
+yang aktif
+
+Password password
+
+Tabel 4.2 Tabel pengujian pada menu profil
+
+Masukkan Contoh Data
+Hasil
+
+Eksekusi
+
+Keterangan
+
+Seluruh input
+
+kosong
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Nama dan
+
+Email tidak
+
+boleh
+
+kosong 
+
+Email
+
+Nama
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Seluruh input
+
+kosong kecuali
+
+email
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Nama dan
+
+Email tidak
+
+boleh
+
+kosong
+
+Email febbry_d@yahoo.com
+
+Nama
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Seluruh input
+
+kosong kecuali
+
+nama
+
+Gambar Gagal Pesan :
+
+Nama dan
+
+Email tidak
+
+boleh
+
+kosong
+
+Email
+
+Nama Dosen uji 1
+
+Password
+
+Konfirmasi
+
+password
+
+91
+
+
+
+Password
+
+lama
+
+Input selain
+
+nama dan
+
+email kosong
+
+Gambar
+
+Berhasil
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email
+
+dan password
+
+baru kosong
+
+(password
+
+baru kurang
+
+dari 6
+
+karakter)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Password
+
+harus
+
+diantara 6 -
+
+12 karakter
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+abc
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email
+
+dan password
+
+baru kosong
+
+(password
+
+baru lebih dari
+
+12 karakter)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Password
+
+harus
+
+diantara 6 -
+
+12 karakter
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+passwordpassword
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email
+
+dan password
+
+Gambar Gagal Pesan :
+
+Konfirmasi
+
+password
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+92
+
+
+
+baru kosong
+
+(password
+
+baru diantara 6
+
+– 12 karakter)
+
+tidak samaPassword
+
+baru
+
+password1
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email,
+
+password
+
+baru, dan
+
+konfirmasi
+
+kosong
+
+(konfirmasi
+
+password
+
+sama dengan
+
+password
+
+baru)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Password
+
+lama kosong
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+
+Hanya gambar
+
+kosong
+
+(password
+
+lama sama
+
+dengan
+
+password
+
+baru)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Password
+
+lama tidak
+
+boleh sama
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+password1
+
+Gambar
+
+kosong
+
+(password
+
+lama kurang
+
+dari 6
+
+karakter)
+
+Gambar Gagal Pesan :
+
+Password
+
+harus
+
+diantara 6 -
+
+12 karakter 
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+password1
+
+Konfirmasi password1
+
+93
+
+
+
+password
+
+Password
+
+lama
+asd
+
+Gambar
+
+kosong
+
+(password
+
+lama lebih dari
+
+12 karakter)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Password
+
+harus
+
+diantara 6 -
+
+12 karakter
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+passwordpassword
+
+Gambar
+
+kosong
+
+(password
+
+lama tidak
+
+sesuai)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Password
+
+harus
+
+diantara 6 -
+
+12 karakter
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+passwordasd
+
+Gambar
+
+kosong
+
+(password
+
+lama berbeda
+
+dengan
+
+password
+
+baru, panjang
+
+karakter
+
+diantara 6 dan
+
+12 karakter)
+
+Gambar
+
+Berhasil
+
+Email febbry_d@yahoo.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama password
+
+Seluruh input Gambar Gagal Pesan : The
+
+94
+
+
+
+terisi (Gambar
+
+melibihi 1024
+
+Kilobyte)
+
+picture
+
+might not be
+
+greater than
+
+1024
+
+kilobyte 
+
+Email
+
+Nama
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Seluruh input
+
+terisi (Gambar
+
+dibawah 1024
+
+Kilobyte)
+
+Gambar
+
+Berhasil
+
+Email
+
+Nama
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Tabel 4.3 Tabel pengujian menu pencarian
+
+Masukkan
+Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Kata kunci
+
+Kosong
+
+Kata Kunci
+Gagal
+
+Pesan : Kata
+
+kunci kosong
+
+Kata kunci
+
+terisi 
+
+Kata kunci implementasi
+Berhasil
+
+Tabel 4.4 Tabel pengujian menu komentar draft
+
+Masukkan Contoh Data Hasil Eksekusi Keterangan
+
+Komentar
+
+kosong
+
+Komentar
+Gagal
+
+Pesan : Isikan
+
+komentar anda 
+
+Komentar terisi Komentar sebuah Berhasil
+
+95
+
+
+
+komentar
+
+Tabel 4.5 Tabel pengujian menu komentar konsultasi
+
+Masukkan Contoh Data Hasil Eksekusi Keterangan
+
+Komentar
+
+kosong
+
+Komentar
+
+Gagal
+
+Pesan : Field
+
+tidak boleh
+
+kosong
+
+Komentar terisi
+Komentar sebuah
+
+komentar
+Berhasil
+
+Tabel 4.6 Tabel pengujian menu close draft
+
+Masukkan
+Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Judul kosong,
+
+Pembimbing
+
+sama dan draft
+
+diterima
+
+Keputusan
+
+Gagal
+
+Pesan : Judul
+
+akhir tidak
+
+boleh kosong
+
+Judul Akhir
+
+Pembimbing
+
+1
+
+Novi Safriadi
+
+Pembimbing
+
+2
+
+Helen Sasty
+
+Penguji 1
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Judul terisi,
+
+pembimbing
+
+sama dan draft
+
+diterima
+
+Keputusan Diterima Gagal Pesan :
+
+Pembimbing
+
+tidak boleh
+
+sama 
+
+Judul Akhir Implementasi
+
+Server Mirroring
+
+pada SIAKAD
+
+Pembimbing Nofi Safriadi
+
+96
+
+
+
+1
+
+Pembimbing
+
+2
+Novi Safriadi
+
+Penguji 1
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Judul terisi,
+
+pembimbing
+
+berbeda, status
+
+diterima, kel
+
+keahlian terisi
+
+(Pesan dan
+
+penguji
+
+kosong)
+
+Keputusan Diterima
+
+Berhasil
+
+Judul Akhir Implementasi
+
+Server Mirroring
+
+pada SIAKAD
+
+Pembimbing
+
+1
+Nofi Safriadi
+
+Pembimbing
+
+2
+
+Helen Sasty
+
+Pratiwi
+
+Penguji 1
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Judul terisi,
+
+pembimbing
+
+berbeda,
+
+penguji 1 terisi
+
+dan penguji 2
+
+kosong
+
+Keputusan Diterima Gagal Pesan : Salah
+
+satu penguji
+
+kosong
+
+Judul Akhir Implementasi
+
+Server Mirroring
+
+pada SIAKAD
+
+Pembimbing
+
+1
+
+Novi Safriadi
+
+Pembimbing
+
+2
+
+Helen Sasty
+
+Pratiwi
+
+Penguji 1 Dosen Uji 1
+
+97
+
+
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Judul terisi,
+
+pembimbing
+
+berbeda,
+
+penguji sama 
+
+Keputusan Diterima
+
+Gagal
+
+Pesan : Penguji
+
+tidak boleh
+
+sama
+
+Judul Akhir Implementasi
+
+Server Mirroring
+
+pada SIAKAD
+
+Pembimbing
+
+1
+
+Novi Safriadi
+
+Pembimbing
+
+2
+
+Helen Sasty
+
+Pratiwi
+
+Penguji 1 Dosen Uji 1
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Judul terisi,
+
+pembimbing
+
+berbeda,
+
+penguji
+
+berbeda (salah
+
+satu penguji
+
+sama dengan
+
+pembimbing)
+
+Keputusan Diterima Gagal Pesan : Penguji
+
+dan
+
+pembimbing
+
+tidak boleh
+
+sama 
+
+Judul Akhir Implementasi
+
+Server Mirroring
+
+pada SIAKAD
+
+Pembimbing
+
+1
+
+Novi Safriadi
+
+Pembimbing
+
+2
+
+Helen Sasty
+
+Pratiwi
+
+Penguji 1 Dosen Uji 1
+
+Penguji 2 Novi Safriadi
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+98
+
+
+
+Tambahan
+
+Seluruh input
+
+terisi (draft
+
+diterima,
+
+pembimbing
+
+dan penguji
+
+berbeda satu
+
+sama lain)
+
+Keputusan Diterima
+
+Berhasil
+
+Judul Akhir Implementasi
+
+Server Mirroring
+
+pada SIAKAD
+
+Pembimbing
+
+1
+
+Novi Safriadi
+
+Pembimbing
+
+2
+
+Helen Sasty
+
+Pratiwi
+
+Penguji 1 Dosen Uji 1
+
+Penguji 2 Dosen Uji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Perhatikan catatan
+
+KK
+
+Judul kosong,
+
+penguji
+
+kosong, pesan
+
+kosong dan
+
+draft ditolak
+
+Keputusan
+
+Berhasil
+
+Judul Akhir
+
+Pembimbing
+
+1
+Novi Safriadi
+
+Pembimbing
+
+2
+Novi Safriadi
+
+Penguji 1
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+Judul kosong,
+
+penguji
+
+kosong, pesan
+
+kosong dan
+
+draft gugur
+
+Keputusan Berhasil
+
+Judul Akhir
+
+Pembimbing
+
+1
+Novi Safriadi
+
+Pembimbing Novi Safriadi
+
+99
+
+
+
+2
+
+Penguji 1
+
+Penguji 2
+
+Kelompok
+
+Keahlian
+
+Network and
+
+Security
+
+Catatan
+
+Tambahan
+
+2. SPOTA Mahasiswa
+
+Pengujian ini dilakukan pada proses input data pada tiap menu yang ada
+
+pada aplikasi SPOTA Dosen.
+
+Tabel 4.7 Tabel pengujian pada menu login
+
+Masukkan
+Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Seluruh input
+
+kosong
+
+Nomor
+
+Identitas
+
+Gagal
+
+Pesan : Nomor
+
+Identitas atau
+
+Password tidak
+
+boleh kosong
+
+Password
+
+Password
+
+kosong
+
+Nomor
+
+Identitas
+
+D10411410067
+
+Gagal
+
+Pesan : Nomor
+
+Identitas atau
+
+Password tidak
+
+boleh kosong
+
+Password
+
+Nomor
+
+identitas
+
+kosong
+
+Nomor
+
+Identitas
+
+Gagal
+
+Pesan : Nomor
+
+Identitas atau
+
+Password tidak
+
+boleh kosong
+
+Password password
+
+Memasukkan Nomor D10411410067 Gagal Pesan : Akun
+
+100
+
+
+
+data lengkap
+
+yang salah
+
+Identitas tidak
+
+ditemukanPassword passwords
+
+Memasukkan
+
+data lengkap
+
+dan benar,
+
+pada akun
+
+yang nonaktif
+
+Nomor
+
+Identitas
+
+D10411410067
+
+Gagal
+
+Pesan : Akun
+
+anda nonaktifPassword password
+
+Memasukkan
+
+data lengkap
+
+dan benar,
+
+pada akun
+
+yang aktif
+
+Nomor
+
+Identitas
+
+D10411410067
+
+BerhasilPassword password
+
+Tabel 4.8 Tabel pengujian pada menu profil
+
+Masukkan
+Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Seluruh input
+
+kosong
+
+Gambar
+
+Gagal
+
+Pesan : Nama dan
+
+Email tidak boleh
+
+kosong
+
+Email
+
+Nama
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Seluruh input
+
+kosong
+
+kecuali email
+
+Gambar Gagal Pesan : Nama dan
+
+Email tidak boleh
+
+kosong
+Email
+
+fsembiringpelawi@
+
+gmail.com
+
+Nama
+
+Password
+
+101
+
+
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Seluruh input
+
+kosong
+
+kecuali nama
+
+Gambar
+
+Gagal
+
+Pesan : Nama dan
+
+Email tidak boleh
+
+kosong
+
+Email
+
+Nama Febri Dwinata Y
+
+Password
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama dan
+
+email kosong
+
+Gambar
+
+Berhasil
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email
+
+dan
+
+password
+
+baru kosong
+
+(password
+
+baru kurang
+
+dari 6
+
+karakter)
+
+Gambar Gagal Pesan : Password
+
+harus diantara 6
+
+sampai 12
+
+karakter
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Dosen uji 1
+
+Password
+
+baru
+asd
+
+Konfirmasi
+
+password
+
+Password
+
+102
+
+
+
+lama
+
+Input selain
+
+nama, email
+
+dan
+
+password
+
+baru kosong
+
+(password
+
+baru lebih
+
+dari 12
+
+karakter)
+
+Gambar
+
+Gagal
+
+Pesan : Password
+
+harus diantara 6
+
+sampai 12
+
+karakter
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+abcd123456789
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email
+
+dan
+
+password
+
+baru kosong
+
+(password
+
+baru diantara
+
+6 – 12
+
+karakter)
+
+Gambar
+
+Gagal
+
+Pesan :
+
+Konfirmasi
+
+password tidak
+
+sama
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+
+Password
+
+lama
+
+Input selain
+
+nama, email,
+
+password
+
+baru, dan
+
+konfirmasi
+
+kosong
+
+(konfirmasi
+
+password
+
+berbeda
+
+dengan
+
+password
+
+Gambar Gagal Pesan :
+
+Konfirmasi
+
+password tidak
+
+sama
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+abcabcabc
+
+Password
+
+lama
+
+103
+
+
+
+baru)
+Input selain
+
+nama, email,
+
+password
+
+baru, dan
+
+konfirmasi
+
+kosong
+
+(konfirmasi
+
+password
+
+sama dengan
+
+password
+
+baru)
+
+Gambar
+
+Gagal
+
+Pesan : Password
+
+lama kosong
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+
+Hanya field
+
+gambar
+
+kosong
+
+(password
+
+lama kurang
+
+dari 6
+
+karakter)
+
+Gambar
+
+Gagal
+
+Pesan : Password
+
+harus diantara 6 -
+
+12 karakter
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+abcde
+
+Field selain
+
+gambar
+
+kosong
+
+(password
+
+lama lebih
+
+dari 12
+
+karakter)
+
+Gambar
+
+Gagal
+
+Pesan : Password
+
+harus diantara 6 -
+
+12 karakter
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+abcd123456789
+
+104
+
+
+
+Hanya
+
+gambar
+
+kosong
+
+(password
+
+lama sama
+
+dengan
+
+password
+
+baru)
+
+Gambar
+
+Gagal
+
+Pesan : Password
+
+lama tidak boleh
+
+sama
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+password1
+
+Gambar
+
+kosong
+
+(password
+
+lama diantara
+
+6 – 12
+
+karakter
+
+namun bukan
+
+password
+
+lama yang
+
+tersimpan)
+
+Gambar
+
+Gagal
+
+ Pesan : Password
+
+do not match 
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+abcasd
+
+Gambar
+
+kosong
+
+(password
+
+lama berbeda
+
+dengan
+
+password
+
+baru, panjang
+
+karakter
+
+diantara 6
+
+dan 12
+
+karakter dan
+
+password
+
+Gambar Berhasil
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+
+password
+
+105
+
+
+
+merupakan
+
+password
+
+Seluruh input
+
+terisi
+
+(Gambar
+
+melibihi
+
+1024
+
+Kilobyte)
+
+Gambar
+
+Gagal
+
+The picture may
+
+not be greater
+
+than 1024
+
+kilobytes.
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+password
+
+Seluruh input
+
+terisi
+
+(Gambar
+
+dibawah
+
+1024
+
+Kilobyte)
+
+Gambar
+
+Berhasil
+
+Email
+fsembiringpelawi@
+
+gmail.com
+
+Nama Febri Dwinata Y
+
+Password
+
+baru
+password1
+
+Konfirmasi
+
+password
+password1
+
+Password
+
+lama
+password
+
+Tabel 4.9 Tabel pengujian pada menu pencarian
+
+Masukkan Contoh Data Hasil Eksekusi Keterangan
+
+Kata kunci
+
+Kosong
+
+Kata Kunci Gagal Pesan : Kata
+
+kunci kosong
+
+106
+
+
+
+Kata kunci
+
+terisi 
+
+Kata kunci D10411410
+Berhasil
+
+Tabel 4.10 Tabel pengujian pada menu komentar draft
+
+Masukkan
+Contoh Data Hasil
+
+Eksekusi
+
+Keterangan
+
+Komentar
+
+kosong
+
+Komentar
+
+Gagal
+
+Pesan : Pastikan
+
+anda telah
+
+mengisikan
+
+komentar
+
+Komentar terisi
+Komentar sebuah
+
+komentar
+Berhasil
+
+Tabel 4.11 Tabel pengujian pada menu komentar konsultasi
+
+Masukkan Contoh Data Hasil Eksekusi Keterangan
+
+Komentar
+
+kosong
+Komentar Gagal
+
+Pesan :
+
+Pastikan anda
+
+telah
+
+mengisikan
+
+komentar
+
+Komentar terisi
+Komentar sebuah
+
+komentar
+Berhasil
+
+4.2.2 Uji Kompatibilitas
+
+Pengujian  ini  dilakukan  untuk  melihat  kompatibilitas  perangkat  saat
+
+menjalankan aplikasi.  Pengujian ini  dilakukan dengan memasang aplikasi  pada
+
+107
+
+
+
+beberapa  perangkat  Android  yang  berbeda.  Hasil  pengujian  kombatibilitas
+
+aplikasi dapat dilihat pada Tabel 4.12 berikut.
+
+Tabel 4.12 Hasil pengujian Kompatibilitas Aplikasi
+
+No
+
+Merek
+
+Smartphon
+
+e
+
+Tipe Layar
+
+Versi
+
+Sistem
+
+Operasi
+
+Keterangan
+
+1 XiaoMi
+
+Redmi
+
+Note 2
+
+Smarthpone 5.5”,
+
+resolusi :
+
+1080 x
+
+1920 pixel
+
+Android
+
+5.0.2
+
+Lollipop
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+2 Samsung
+
+Grand 2
+
+Smartphone 5.25”,
+
+resolusi :
+
+720 x 1280
+
+pixel
+
+Android
+
+4.4.4 
+
+KitKat
+
+(telah
+
+diperbaha
+
+rui)
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+3 XiaoMi
+
+Redmi
+
+Note 3
+
+Smartphone 5.5”,
+
+resolusi :
+
+1080 x
+
+1920 pixel
+
+Android
+
+5.1.1
+
+Lollipop
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+4 XiaoMi
+
+Redmi
+
+Note 4
+
+Smartphone 5.5”,
+
+resolusi :
+
+1080 x
+
+1920 pixel
+
+Android
+
+6.0
+
+Marshmal
+
+low
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+5 XiaoMi
+
+Redmi A4
+
+Smartphone 5.5”,
+
+resolusi :
+
+1080 x
+
+1920 pixel
+
+Android
+
+6.0.1
+
+Marshmal
+
+low
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+6 Samsung
+
+Grand
+
+Prime
+
+Smartphone 5.5”,
+
+resolusi :
+
+1080 x
+
+1920 pixel
+
+Android
+
+5.0.2
+
+Lollipop
+
+(telah
+
+diperbaha
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+108
+
+
+
+rui)
+
+7 Asus
+
+Zenfone
+
+Selfie
+
+Smartphone 5.5”,
+
+resolusi:
+
+1080 x
+
+1920 pixel
+
+Android
+
+5.0
+
+Lollipop
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+8 Asus
+
+Zenfone 5
+
+Smartphone 5.0”,
+
+resolusi
+
+720 x 1280
+
+pixel
+
+Android
+
+5.0.2
+
+Lollipop
+
+(telah
+
+diperbaha
+
+rui)
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+9 Asus
+
+Zenfone
+
+Max 3
+
+Smartphone 5.2”,
+
+resolusi
+
+720 x 1280
+
+pixel
+
+Android
+
+8.0
+
+Oreo
+
+(telah
+
+diperbaha
+
+rui)
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+10 Samsung J5 Smartphone 5.0”,
+
+resolusi
+
+720 x 1280
+
+pixel
+
+Android
+
+5.1
+
+Lollipop
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+11 Samsung
+
+Galaxy S7
+
+Smartphone 5.1”,
+
+resolusi
+
+1440 x
+
+2560 pixel
+
+Android
+
+7.0
+
+Nougat
+
+(telah
+
+diperbaha
+
+rui)
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+12 Vivo Y31 Smartphone 4.7”,
+
+resolusi
+
+720 x 1280
+
+pixel
+
+Android
+
+5.1
+
+Lollipop
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+14 Samsung
+
+Tab  4 7.0
+
+3G
+
+Tablet Phone 7.0”,
+
+resolusi
+
+800 x 1280
+
+pixel
+
+Android
+
+4.4.2
+
+KitKat
+
+1) Instalasi : Berhasil
+
+2) Tampilan : Sesuai
+
+3) Kinerja : Berjalan 
+
+Lancar
+
+109
+
+
+
+4.2.3 Kuesioner
+
+Kuesioner  yang  dibagikan  terdiri  dari  2  tipe  sesuai  dengan  target
+
+responden yaitu, kuesioner untuk dosen dan mahasiswa untuk masing – masing
+
+aplikasi yang sesuai dengan jenis pengguna. Untuk penilaian kuesioner diberikan
+
+nilai 1 untuk tidak baik, 2 untuk kurang baik, 3 untuk cukup baik, 4 untuk baik
+
+dan 5 untuk sangat baik.
+
+Hasil kuesioner terhadap aspek rekayasa perangkat lunak sesuai dengan
+
+kriteria  masing  –  masing  baik  aplikasi  SPOTA  Android  untuk  dosen  dan
+
+mahasiswa ditunjukkan pada Tabel 4.13 dan 4.14.
+
+Tabel 4.13 Hasil kuesioner aspek rekayasa perangkat lunak pada aplikasi dosen
+
+No
+Aspek Rekayasa Perangkat
+
+Lunak
+
+Tanggapan
+Total
+
+1 2 3 4 5
+
+1
+Kemudahan menjalankan 
+
+aplikasi
+0 1 3 5 1 10
+
+2
+Kompatibilitas aplikasi pada 
+
+perangkat
+1 0 0 6 3 10
+
+3
+Kelancaran menjalankan 
+
+aplikais pada perangkat
+0 0 0 7 3 10
+
+4
+Kemudahan mengakses fitur – 
+
+fitur pada aplikasi
+0 0 5 3 2 10
+
+5
+Kenyamanan dalam penggunaan
+
+aplikasi secara keseluruhan
+0 2 2 5 1 10
+
+Jumlah 1 3 10 26 10 50
+
+110
+
+
+
+Persentase (%) 2 6 20 52 20 100
+
+Berdasarkan hasil kuesioner pada aspek rekayasa perangkat lunak pada
+
+aplikasi untuk dosen dapat diketahui bahwa responden menanggapi dengan baik.
+
+Hasil pengujian menunjukkan persentase sangat buruk sebesar 2%, buruk dengan
+
+persentase 6%, cukup dengan persentase 20%, baik dengan persentase 52% dan
+
+sangat baik sebesar 20%.
+
+2%
+6%
+
+20%
+
+52%
+
+20%
+
+Aspek Rekayasa Perangkat Lunak
+SPOTA Dosen
+
+Sangat Buruk
+Buruk
+Cukup Baik
+Baik
+Sangat Baik
+
+Gambar 4.42 Chart hasil pengujian aspek perangkat lunak aplikasi spota android
+
+dosen
+
+Tabel 4.14 Hasil kuesioner aspek rekayasa perangkat lunak pada aplikasi 
+
+mahasiswa
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Kemudahan menjalankan aplikasi 0 0 0 3 12 15
+
+2 Kompatibilitas aplikasi pada perangkat
+0 0 0 5 10 15
+
+111
+
+
+
+3
+Kelancaran menjalankan aplikais pada 
+
+perangkat
+0 0 0 5 10 15
+
+4
+Kemudahan mengakses fitur – fitur 
+
+pada aplikasi
+0 0 0 5 10 15
+
+5
+Kenyamanan dalam penggunaan 
+
+aplikasi secara keseluruhan
+0 0 0 11 4 15
+
+Jumlah 0 0 0 29 46 75
+
+Persentase (%) 0 0 0 38,7 61,3 100
+
+Berdasarkan hasil kuesioner pada aspek rekayasa perangkat lunak pada
+
+aplikasi untuk mahasiswa dapat diketahui bahwa responden menanggapi dengan
+
+sangat  baik.  Hasil  pengujian  menunjukkan persentase  baik  sebesar  38,7% dan
+
+sangat baik sebesar 61,3%. 
+
+112
+
+
+
+39%
+
+61%
+
+Aspek Rekayasa Perangkat Lunak
+SPOTA Mahasiswa
+
+Baik
+Sangat Baik
+
+Gambar 4.43 Chart hasil pengujian aspek perangkat lunak pada aplikasi spota
+
+android mahasiswa
+
+Tabel 4.15 Hasil kuesioner aspek fungsionalitas pada aplikasi dosen
+
+No Aspek Fungsionalitas
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Kinerja aplikasi saat menampilkan data 0 0 2 6 2 10
+
+2 Kinerja sistem notifikasi aplikasi 1 1 2 3 3 10
+
+3
+Kinerja aplikasi saat melakukan 
+
+manajemen data
+0 1 2 3 4 10
+
+Jumlah 1 2 6 12 9 30
+
+Persentase (%) 3,3 6.7 20 40 30 100
+
+113
+
+
+
+Berdasarkan  hasil  kuesioner  pada  aspek  fungsionalitas  pada  aplikasi
+
+untuk dosen dapat  diketahui  bahwa responden menanggapi  dengan baik.  Hasil
+
+pengujian  menunjukkan  persentase  sangat  buruk  sebesar  3,3%,  buruk  sebesar
+
+6,7%, cukup sebesar 20%, baik sebesar 40% dan sangat baik sebesar 30%.
+
+3%
+
+7%
+
+20%
+
+40%
+
+30%
+
+Aspek Fungsionalitas
+SPOTA Dosen
+
+Sangat Buruk
+Buruk
+Cukup
+Baik
+Sangat Baik
+
+Gambar 4.44 Chart hasil pengujian aspek fungsionalitas pada aplikasi spota
+
+android dosen
+
+Tabel 4.16 Hasil kuesioner aspek fungsionalitas pada aplikasi mahasiswa
+
+No Aspek Fungsionalitas
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1
+Kinerja aplikasi saat menampilkan 
+
+data
+0 0 0 7 8 15
+
+2 Kinerja sistem notifikasi aplikasi 0 0 0 8 7 15
+
+3
+Kinerja aplikasi saat melakukan 
+
+manajemen data
+0 0 0 8 7 15
+
+Jumlah
+0 0 0 23 22 45
+
+114
+
+
+
+Persentase (%) 0 0 0 51,1 48,9 100
+
+Berdasarkan  hasil  kuesioner  pada  aspek  fungsionalitas  pada  aplikasi
+
+untuk mahasiswa dapat  diketahui  bahwa responden menanggapi  dengan sangat
+
+baik.  Hasil  pengujian menunjukkan persentase baik sebesar 51,1%, dan sangat
+
+baik sebesar 48,9%.
+
+51%49%
+
+Aspek Fungsionalitas
+SPOTA Mahasiswa
+
+Sangat Baik
+Baik
+
+Gambar 4.45 Chart hasil pengujian aspek fungsionalitas pada aplikasi spota
+
+android dosen
+
+Tabel 4.17 Hasil kuesioner aspek komunikasi visual pada aplikasi dosen
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Tampilan (antarmuka) aplikasi 0 0 4 4 2 10
+
+2 Tampilan menu aplikasi 0 0 1 6 3 10
+
+115
+
+
+
+3
+Jenis dan ukuran huruf yang digunakan
+
+mudah dibaca.
+0 0 2 5 3 10
+
+4
+Kombinasi warna pada tampilan 
+
+aplikasi
+0 0 2 5 3 10
+
+5
+Respon (feedback) aplikasi terhadap 
+
+input yang dimasukkan
+0 0 0 6 4 10
+
+Jumlah 0 0 9 26 15 50
+
+Persentase (%) 0 0 18 52 30 100
+
+Berdasarkan hasil kuesioner pada aspek komunikasi visual pada aplikasi
+
+untuk dosen dapat  diketahui  bahwa responden menanggapi  dengan baik.  Hasil
+
+pengujian menunjukkan persentase sangat cukup sebesar 18%, baik sebesar 52%
+
+dan sangat baik sebesar 30%.
+
+18%
+
+52%
+
+30%
+
+Aspek Komunikasi Visual
+SPOTA Dosen
+
+Cukup
+Baik
+Sangat Baik
+
+Gambar 4.46 Chart hasil pengujian aspek komunikasi visual pada aplikasi spota
+
+android dosen
+
+116
+
+
+
+Tabel 4.17 Hasil kuesioner aspek komunikasi visual pada aplikasi mahasiswa
+
+No Aspek Rekayasa Perangkat Lunak
+Tanggapan
+
+Total
+1 2 3 4 5
+
+1 Tampilan (antarmuka) aplikasi 0 0 0 9 6 15
+
+2 Tampilan menu aplikasi 0 0 0 8 7 15
+
+3
+Jenis dan ukuran huruf yang digunakan
+
+mudah dibaca.
+0 0 0 7 8 15
+
+4
+Kombinasi warna pada tampilan 
+
+aplikasi
+0 0 0 8 7 15
+
+5
+Respon (feedback) aplikasi terhadap 
+
+input yang dimasukkan
+0 0 0 4 11 15
+
+Jumlah 0 0 0 36 39 75
+
+Persentase (%) 0 0 0 48 52 100
+
+Berdasarkan hasil kuesioner pada aspek komunikasi visual pada aplikasi
+
+untuk mahasiswa dapat  diketahui  bahwa responden menanggapi  dengan sangat
+
+baik. Hasil pengujian menunjukkan persentase baik sebesar 48% dan sangat baik
+
+sebesar 52%.
+
+117
+
+
+
+48%
+52%
+
+Aspek Komunikasi Visual
+SPOTA Mahasiswa
+
+Baik
+Sangat Baik
+
+Gambar 4.47 Chart hasil pengujian aspek komunikasi visual pada aplikasi spota
+
+android mahasiswa
+
+Beberapa responden juga memberikan masukkan berupa saran untuk 
+
+perbaikan aplikasi seperti perbaikan tampilan aplikasi. Saran responden dapat 
+
+dilihat pada tabel 4.18 berikut.
+
+Tabel 4.18 Saran Responden terhadap aplikasi
+
+No Nama Responden Saran
+
+1 Haried Novriando, 
+
+S.Kom., M.Eng.
+
+ Icon perlu diperbesar
+
+2 Tursina, S.T., M.Cs.  Pemilihan icon yang lebih familiar untuk 
+
+user
+
+ Menu persetujuan dijadikan satu dengan 
+
+menu review
+
+ Penambahan informasi bimbingan dan 
+
+penguji
+
+3 Anggi Srimurdianti 
+
+Sukamto, S.T., M.T.
+
+ Alur penggunaan aplikasi sebaiknya dibuat 
+
+lebih mudah dimengerti
+
+4 M. Azhar Irwansyah,  Tampilan dibuat lebih user friendly dan 
+
+118
+
+
+
+S.T., M.Eng. dipercantik
+
+5 Eva Faja Ripanti, 
+
+S.Kom., M.MSI., Ph.D.
+
+ Tampilan diperbaiki
+
+ Diberikan fungsi user direction
+
+6 Dr. Arif Bijaksana 
+
+Putra N, S.T., M.T.
+
+ Icon persetujuan sebaiknya diganti
+
+ Deskripsi status draft sebaiknya 
+
+dipindahkan
+
+ Ketika notifikasi masuk diberikan tanda 
+
+pada menu
+
+ Pemberian fungsi blocking pada persetujuan
+
+bila dosen belum mengunggah file draft
+
+4.3 Likert’s Summated Rating
+
+Untuk melihat skor terbesar dan terkecil dari seorang responden dan total
+
+semua responden dari kuesioner terlihat pada Tabel 4.19 dan 4.20 berikut.
+
+Tabel 4.19 Total skor responden dari kuesioner aplikasi dosen
+
+Responden Item Total
+
+1 2 3 4 5 6 7 8 9 10 11 12 13
+
+A 4 4 4 3 4 4 5 5 4 4 4 4 5 54
+
+B 4 4 5 4 4 4 4 4 4 4 4 4 4 53
+
+C 3 4 4 4 3 3 2 3 2 3 4 3 3 41
+
+D 4 5 4 3 4 4 5 5 4 4 4 4 5 55
+
+E 4 4 4 4 4 4 4 4 5 5 4 4 4 54
+
+F 3 5 4 3 2 4 3 3 4 4 4 5 3 47
+
+G 2 4 4 3 2 4 3 4 3 4 3 3 4 43
+
+H 3 4 4 3 3 3 4 2 3 3 3 3 4 42
+
+I 5 5 5 5 5 5 5 5 5 5 5 5 5 65
+
+J 4 1 5 5 4 5 1 5 3 5 5 5 5 53
+
+Total 507
+
+Tabel 4.20 Total skor responden dari kuesioner aplikasi mahasiswa
+
+119
+
+
+
+Responden
+Item
+
+Total
+1 2 3 4 5 6 7 8 9 10 11 12 13
+
+K 5 4 5 5 4 4 4 4 4 4 5 5 4
+57
+
+L 5 5 4 5 4 5 5 5 5 5 5 4 5
+62
+
+M 5 5 4 5 4 5 5 5 5 4 4 5 5
+61
+
+N 4 4 5 4 4 4 4 4 4 4 4 4 4
+53
+
+O 4 4 5 5 4 4 4 5 4 4 5 4 5
+57
+
+P 5 5 4 4 4 4 4 5 4 4 5 4 5
+57
+
+Q 5 5 5 4 4 5 4 5 4 5 5 4 5
+60
+
+R 5 5 5 5 4 4 5 5 4 5 4 5 5
+61
+
+S 5 5 5 4 4 5 4 4 5 5 4 5 4
+59
+
+T 4 5 5 5 4 5 4 4 5 5 4 5 5
+60
+
+U 5 5 4 5 5 5 5 4 4 5 5 5 5
+62
+
+V 5 5 5 4 5 5 5 5 4 4 4 4 5
+60
+
+W 5 4 4 5 4 4 4 4 5 4 4 4 5
+56
+
+X 5 4 5 5 5 5 5 4 4 4 5 4 4
+59
+
+Y 5 5 5 5 5 4 5 4 5 5 5 5 5
+63
+
+Total 887
+
+Data yang diperoleh dari hasil pengujian dengan kuesioner kemudian 
+
+diukur dengan metode Likert’s Summated Rating (LSR).
+
+1. Jumlah skor untuk tiap responden :
+
+ Skor maksimal = 65 (5 x 13 item)
+
+ Skor minimal = 13 (1 x 13 item)
+
+ Skor median = 39 (3 x 13 item)
+
+ Skor kuartil I = 26 (2 x 13 item)
+
+ Skor kuartil II = 52 (4 x 13 item)
+
+2. Jumlah skor untuk seluruh responden : 
+
+a. Dosen
+
+ Maksimal = 650 (10 x 65)
+
+ Minimal = 130 (10 x 13)
+
+ Median = 390 (10 x 39)
+
+ Kuartil I = 260 (10 x 26)
+
+ Kuartil II = 520 (10 x 52)
+
+120
+
+
+
+b. Mahasiswa
+
+a. Maksimal = 975 (15 x 65)
+
+b. Minimal = 195 (15 x 13)
+
+c. Median = 585 (15 x 39)
+
+d. Kuartil I = 390 (15 x 26)
+
+e. Kuartil II = 676 (15 x 52)
+
+3. Interpretasi jumlah skor :
+
+a. Dosen
+
+ 520 < skor < 650, artinya aplikasi dinilai sangat positif (program 
+
+dinilai berhasil)
+
+ 390 < skor < 520, artinya aplikasi dinilai positif (program dinilai 
+
+cukup berhasil)
+
+ 260 < skor < 390, artinya aplikasi dinilai negatif (program dinilai 
+
+kurang berhasil)
+
+ 130 < skor < 260, artinya aplikasi dinilai sangat negatif (program 
+
+dinilai tidak berhasil)
+
+b. Mahasiswa
+
+ 676 < skor < 975, artinya aplikasi dinilai sangat positif (program 
+
+dinilai berhasil)
+
+ 585 < skor < 676, artinya aplikasi dinilai positif (program dinilai 
+
+cukup berhasil)
+
+ 390 < skor < 585, artinya aplikasi dinilai negatif (program dinilai 
+
+kurang berhasil)
+
+ 195 < skor < 390, artinya aplikasi dinilai sangat negatif (program 
+
+dinilai tidak berhasil)
+
+121
+
+
+
+Gambar 4.48 Hasil kuesioner pada interpretasi LSR untuk aplikasi dosen
+
+Gambar  4.48  menunjukkan  bahwa  hasil  perhitungan  kuesioner  pada
+
+interpretasi  Likert’s  Summated Rating (LSR) adalah  507 yang berada  diantara
+
+skor 390 dan 520 yang dapat diartikan sebagai “cukup baik”.
+
+Gambar 4.49 Hasil kuesioner pada interpretasi LSR untuk aplikasi mahasiswa
+
+Gambar  4.49  menunjukkan  bahwa  hasil  perhitungan  kuesioner  pada
+
+interpretasi  Likert’s  Summated Rating (LSR) adalah  887 yang berada  diantara
+
+skor 676 dan 975 yang dapat diartikan sebagai “sangat baik”.
+
+4.4 Analisa Hasil Pengujian
+
+Rincian analisis hasil pengujian aplikasi sistem pendukung outline tugas
+
+akhir berbasis android yang telah dilakukan dapat dirumuskan dalam poin sebagai
+
+berikut.
+
+1. Secara keseluruhan robustness testing menunjukkan bahwa aplikasi dapat
+
+menangani proses  input data dan memberikan respon dengan baik pada
+
+proses login, ubah profil, review, dan konsultasi.
+
+2. Hasil pengujian kompatibilitas menunjukkan kedua aplikasi mahasiswa
+
+dan dosen dapat berjalan lancar pada  smartphone  dengan versi android
+
+KitKat (versi  4.4), Lollipop (versi  5.0, 5.0.2 dan 5.1.1),  Marshmallow
+
+(versi 6.0 dan 6.0.1), Nougat (versi 7.0) dan Oreo (versi 8.0).
+
+3. Berdasarkan  hasil  pengujian  kompatibilitas  aplikasi,  diperoleh  hasil
+
+tampilan aplikasi dapat berbeda ditiap perangkat dilihat dari ukuran dan
+
+resolusi layar tetapi tetap dapat menampilkan data secara baik.
+
+122
+
+
+
+4. Hasil  pengujian  kuesioner  yang  diukur  dengan  metode  Likert’s
+
+Summated Rating  (LSR) menunjukkan untuk aplikasi dosen, responden
+
+menilai aplikasi yang dibangun dengan “cukup baik” dengan skor 507,
+
+dan  untuk  aplikasi  mahasiswa,  responden  menilai  aplikasi  yang  telah
+
+dibangun dengan “sangat baik” dengan skor 887.
+
+123
+
+
+
+BAB V
+
+PENUTUP
+
+5.1 Kesimpulan
+
+1. Firebase  Cloud  Messaging HTTP v1 API  telah  diimplementasikan  di
+
+backend webservice sebagai jalur komunikasi antara backend webservice
+
+dan Firebase Cloud Messaging server.
+
+2. Draft usulan yang diunggah memiliki klasifikasi kelompok keahlian.
+
+3. Berdasarkan  hasil  pengujian,  aplikasi  dapat  digunakan  oleh  pengguna
+
+baik  mahasiswa  dan  dosen  untuk  melakukan  aktivitas  review  dan
+
+konsultasi. 
+
+4. Berdasarkan pengujian kompatibilitas aplikasi dapat berjalan baik pada
+
+versi android 4.4 (KitKat) hingga 8 (Oreo).
+
+5. Hasil kuesioner yang dihitung dengan metode Likert’s Summated Rating
+
+menunjukkan bahwa aplikasi dosen dinilai cukup berhasil dan mahasiswa
+
+berhasil.
+
+5.2 Saran
+
+Hal – hal yang menjadi saran dalam pengembangan aplikasi ini adalah :
+
+1. Perbaikan user interface menjadi lebih baik
+
+2. Implementasi SPOTA untuk sistem operasi iOS
+
+3. Integrasi dengan SIAKAD UNTAN
+
+123
+
+

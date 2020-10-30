@@ -1,0 +1,9912 @@
+
+BAB I
+
+PENDAHULUAN
+
+1.1 Latar Belakang
+
+Seiring dengan makin pesatnya perkembangan aplikasi perangkat lunak
+
+komputer dan internet, maka manajemen dan penyebaran informasi akan menjadi
+
+lebih efektif dan efisien. Sehingga menyebabkan banyak perusahaan/instansi yang
+
+memanfaatkan  peluang  ini  untuk  mengelola dan  menyebarluaskan  informasi
+
+dengan  dukungan  dari  aplikasi  perangkat  lunak  komputer  yang  dapat  diakses
+
+melalui jaringan internet. Aplikasi merupakan program yang berisikan perintah-
+
+perintah  untuk  melakukan  pengolahan  data.  Jadi  aplikasi  secara  umum adalah
+
+suatu  proses  dari  cara  manual  yang  ditransformasikan  ke  komputer  dengan
+
+membuat sistem atau program agar data diolah lebih berdaya guna secara optimal
+
+(Jogiyanto,  2004).  Salah  satu  instansi  di  lingkungan  pemerintahan  Kalimantan
+
+Barat yang ingin memanfaatkan aplikasi perangkat lunak komputer dan internet
+
+adalah Dinas Komunikasi dan Informatika Kalimantan Barat.
+
+Dinas Komunikasi dan Informatika (DISKOMINFO) Kalimantan Barat
+
+adalah  sebuah  instansi  pemerintahan  yang  mempunyai  tugas  melaksanakan
+
+kewenangan daerah di bidang pengelolaan Teknologi Informasi dan Komunikasi
+
+di lingkungan pemerintahan provinsi Kalimantan Barat. Dalam pelaksanaannya,
+
+Dinas Komunikasi dan Informatika dibagi menjadi bidang-bidang sesuai dengan
+
+kebutuhan.  Salah  satu  bidang  yang  dibentuk  adalah  bidang  persandian  dan
+
+statistik. Bidang ini bertanggung jawab untuk mengelola data dan informasi yang
+
+berhubungan dengan persandian dan statistik demi tersedianya layanan data dan
+
+informasi  untuk  menunjang  pelaksanaan  dan  pembangunan  daerah  provinsi.
+
+Layanan  data  dan  informasi  yang  sebelumnya  telah  dikumpulkan  Dinas
+
+Komunikasi dan Informatika,  khususnya bidang statistik  kemudian perlu untuk
+
+diolah  dan  didistribusikan  ke  berbagai  instansi  di  lingkungan  pemerintahan
+
+provinsi  Kalimantan  Barat.  Agar  proses  pengolahan  dan  distribusi  dapat
+
+berlangsung  dengan  lebih  cepat  dan  tepat,  maka  diperlukanlah  sebuah  media
+
+untuk menunjang hal tersebut.
+
+1
+
+
+
+2
+
+Untuk  menciptakan  media  yang  mampu  menunjang  pengolahan  dan
+
+distribusi  data  statistik  sektoral,   maka  akan  dirancang  dan  dibangun  sebuah
+
+Aplikasi  yang  diberi  nama  Aplikasi  Pengolahan  Data  Statistik  Sektoral  Pada
+
+Dinas  Komunikasi  dan  Informatika  Provinsi  Kalimantan  Barat.  Aplikasi
+
+Pengolahan Data Statistik Sektoral ini dibangun untuk digunakan sebagai aplikasi
+
+yang  mampu  mengolah  dan  mendistribusikan  data  serta  informasi  yang
+
+berhubungan dengan statistik dari berbagai instansi pemerintahan di Kalimantan
+
+Barat.  Aplikasi  ini  diharapkan  mampu  mewadahi,  sesuai  dengan  fungsinya
+
+sebagai statistik sektoral, yaitu untuk memenuhi kebutuhan instansi pemerintahan
+
+sektor (regional) tertentu dalam rangka penyelenggaraan tugas-tugas pemerintah
+
+dan tugas pembangunan yang merupakan tugas pokok instansi bersangkutan.
+
+Aplikasi yang akan dibangun adalah sebuah sistem untuk mengolah dan
+
+mendistribusikan data dan informasi statistik dari berbagai instansi pemerintahan
+
+yang dikelola oleh Dinas Komunikasi dan Informatika Kalimantan Barat. Khusus
+
+untuk memasukkan data ke dalam aplikasi ini, Sistem ini dapat diakses oleh yang
+
+berkepentingan dan memiliki otoritas dalam hal input data.
+
+1.2 Perumusan Masalah
+
+Berdasarkan  permasalahan  mengenai  manajemen  dan  distribusi  data
+
+statistik sektoral di lingkungan pemerintahan provinsi Kalimantan Barat, masalah
+
+yang diangkat dalam penelitian ini adalah sebagai berikut :
+
+1. Belum  adanya  wadah  atau  media  yang  dapat  digunakan  sebagai  tempat
+
+untuk mengumpulkan data statistik sektoral dari OPD-OPD di lingkungan
+
+pemerintahan Provinsi Kalimantan Barat.
+
+2. Belum  adanya  wadah  atau  media  yang  dapat  digunakan  sebagai  tempat
+
+mendistribusikan data statistik sektoral kepada OPD-OPD dan pihak-pihak
+
+terkait di lingkungan pemerintahan Provinsi Kalimantan Barat.
+
+Berdasarkan masalah  diatas,  maka  dapat  dirumuskan  yaitu  bagaimana
+
+membuat aplikasi pengolahan data statistik sektoral pada Dinas Komunikasi dan
+
+Informatika Provinsi Kalimantan Barat.
+
+
+
+3
+
+1.3 Tujuan Penelitian
+
+Adapun tujuan dari penelitian yang dilakukan adalah untuk menghasilkan
+
+Aplikasi  Pengolahan  Data  Statistik  Sektoral  Pada  Dinas  Komunikasi  dan
+
+Informatika sebagai wadah pengolahan data yaitu, mengubah data statistik berupa
+
+angka-angka satuan menjadi data berupa gambar dan file XLSX serta publikasi
+
+data yaitu, menyajikan dan menyediakan data yang sudah diolah kepada end-user
+
+yang terdiri atas OPD-OPD dan pihak terkait di lingkungan pemerintahan provinsi
+
+Kalimantan Barat. 
+
+1.4 Batasan Masalah
+
+Untuk  menghindari  penulisan  skripsi  yang  menyimpang  dan
+
+mengambang dari tujuan semula, serta keterbatasan ilmu dan kemampuan yang
+
+penulis miliki, maka penulis menetapkan batasan-batasan Aplikasi sebagai berikut
+
+:
+
+1. Penelitian  ini  difokuskan  pada  perancangan  aplikasi  pengolahan  data
+
+statistik  sektoral  di  lingkungan  pemerintahan  provinsi  Kalimantan  Barat
+
+oleh Dinas Komunikasi dan Informatika Provinsi Kalimantan Barat.
+
+2. Sistem yang dibangun berupa aplikasi berbasis web.
+
+3. Data yang digunakan adalah  data  statistik  sektoral  dari  OPD (Organisasi
+
+Perangkat Daerah) di lingkungan pemerintahan provinsi Kalimantan Barat
+
+yang diperoleh dari Seksi Statistik, Bidang Persandian dan Statistik, Dinas
+
+Komunikasi  dan  Informatika  Provinsi  Kalimantan  Barat.  Data  yang
+
+dimaksud tidak termasuk data dari Kabupaten/Kota.
+
+4. Aplikasi  yang  dibangun diperuntukkan  sebagai  Aplikasi  untuk mengolah
+
+dan  mendistribusikan  data  statistik  sektoral  di  lingkungan  pemerintahan
+
+Provinsi Kalimantan Barat.
+
+5. Pengolahan  data statistik  sektoral  yang  dimaksud  adalah  mengolah  data
+
+statistik  yang  masih  berupa  angka-angka  satuan  menjadi  data  berbentuk
+
+gambar dan file XLSX. Data gambar dibagi menjadi 3 jenis yaitu gambar
+
+grafik batang, grafik pie dan grafik garis. Sedangkan isi dari berkas XLSX
+
+adalah  sebuah  tabel  yang  berisi  rincian  data  angka  dan  grafik  hasil
+
+pengolahan angka tersebut. 
+
+
+
+4
+
+1.5 Sistematika Penulisan
+
+Sistematika  dari  penulisan tugas akhir  ini  disusun dalam 5 (lima)  bab
+
+yang terdiri dari Bab I Pendahuluan, Bab II Tinjauan Pustaka, Bab III Metodologi
+
+Penelitian, Bab IV Implementasi dan Hasil Pengujian serta Bab V Penutup.
+
+Bab I  Pendahuluan adalah  bab yang berisi  latar  belakang,  perumusan
+
+masalah, tujuan penelitian, pembatasan masalah, dan sistematika penulisan.
+
+Bab II Tinjauan Pustaka adalah bab yang berisi uraian sistematis tentang
+
+hasil-hasil penelitian yang didapat oleh peneliti terdahulu dan landasan teori yang
+
+ada hubungannya dengan penelitian yang akan dilakukan.
+
+Bab III Metodologi Penelitian adalah bab yang berisi tentang data dan
+
+perangkat penelitian, metode penelitian, dan diagram alir penelitian.
+
+Bab IV Hasil  dan Analisis  adalah  bab yang berisi  tahapan pengujian,
+
+hasil pengujian dan analisis pengujian yang mengarah kepada suatu kesimpulan.
+
+Bab V Penutup adalah bab yang berisi kesimpulan dari penelitian telah
+
+dilakukan  dan  saran/rekomendasi  untuk  perbaikan,  pengembangan  atau
+
+kesempurnaan / kelengkapan penelitian yang telah dilakukan.
+
+
+
+ BAB II
+
+TINJAUAN PUSTAKA
+
+II.1 Landasan Teori
+
+II.1.1 Statistik Sektoral
+
+Berdasarkan  Peraturan  Kepala  Badan  Pusat  Statistik  Nomor  9  Tahun
+
+2009,  Statistik  Sektoral  adalah  statistik  yang  pemanfaatannya  ditujukan  untuk
+
+memenuhi kebutuhan instansi pemerintah tertentu dalam rangka penyelenggaraan
+
+tugas-tugas  pemerintah  dan tugas  pembangunan  yang merupakan  tugas  pokok
+
+instansi  pemerintah  yang  bersangkutan.  Instansi  pemerintah  yang  dimaksud
+
+adalah Dinas Komunikasi dan Informatika Provinsi Kalimantan Barat, khususnya
+
+Seksi Statistik pada Bidang Persandian dan Statistik.
+
+II.1.2 Aplikasi
+
+Aplikasi  merupakan  program  yang  berisikan  perintah-perintah  untuk
+
+melakukan pengolahan data. Jadi aplikasi secara umum adalah suatu proses dari
+
+cara manual yang ditransformasikan ke komputer dengan membuat sistem atau
+
+program agar data diolah lebih berdaya guna secara optimal (Jogiyanto, 2004).
+
+Perangkat lunak/aplikasi adalah suatu subkelas perangkat lunak komputer
+
+yang memanfaatkan kemampuan komputer langsung untuk melakukan suatu tugas
+
+yang  diinginkan  pengguna.  Biasanya  dibandingkan  dengan  perangkat  lunak
+
+sistem 
+
+yang mengintegrasikan berbagai kemampuan komputer, tapi tidak secara langsung
+
+menerapkan  kemampuan  tersebut  untuk  mengerjakan  suatu  tugas  yang
+
+menguntungkan pengguna.
+
+Aplikasi  adalah  software atau  perangkat  lunak  yang  dibuat  untuk
+
+mengerjakan  menyelesaikan  masalah-masalah  khusus  (Daryanto,  2004).  Dari
+
+uraian diatas dapat disimpulkan bahwa aplikasi  adalah sebuah perangkat lunak
+
+yang berisi perintah untuk menyelesaikan masalah dan pengolahan data.
+
+5
+
+
+
+6
+
+2.1.3. Alat Bantu Perancangan
+
+2.1.3.1 Unified Modeling Language
+
+Unified  Modeling  Language (UML) adalah  ‘bahasa’ pemodelan  untuk
+
+sistem atau perangkat lunak yang berparadigma ‘berorientasi objek”. Pemodelan
+
+(modeling)  sesungguhnya  digunakan  untuk  penyederhanaan  permasalahan-
+
+permasalahan yang kompleks sedemikian rupa sehingga lebih mudah dipelajari
+
+dan dipahami (Nugroho, 2010).
+
+Dalam UML terdapat beberapa macam diagram, seperti berikut:
+
+1) Use Case Diagram
+
+Use Case Diagram merupakan pemodelan untuk menggambarkan kelakuan
+
+(behavior)  sistem  yang akan  dibuat.  Diagram  ini  mendeskripsikan  sebuah
+
+interaksi antara satu atau lebih aktor dengan sistem yang akan dibuat. Selain itu,
+
+diagram  ini  juga  menggambarkan  fungsi-fungsi  yang  mampu  dilakukan  oleh
+
+sistem dan siapa saja yang memiliki hak akses untuk menggunakan fungsi-fungsi
+
+tersebut. Diagram  use case dibuat untuk menggambarkan interaksi antara aktor
+
+dan sistem lewat sudut pandang aktor.
+
+2) Class Diagram
+
+Class Diagram adalah sebuah diagram yang menggambarkan struktur dan
+
+penjelasan  kelas,  paket,  dan  objek  serta  hubungan  satu  sama  lain  seperti
+
+containment, pewarisan, asosiasi, dan lain-lain.  Class diagram juga menjelaskan
+
+hubungan antar kelas dalam sebuah sistem yang sedang dibuat  dan bagaimana
+
+caranya agar mereka saling berkolaborasi untuk mencapai sebuah tujuan.
+
+3) Activity Diagram
+
+Activity  Diagram  adalah  diagram yang menggambarkan  workflow  (aliran
+
+kerja)  atau  aktivitas  dari  sebuah  sistem atau  proses  bisnis.  Perlu  diperhatikan
+
+bahwa diagram aktivitas berfungsi untuk menggambarkan aktivitas dari sistem,
+
+bukan aktivitas yang dilakukan oleh aktor.
+
+4) Sequence Diagram
+
+Sequence  diagram adalah  suatu  diagram  yang  menggambarkan  interaksi
+
+antar  objek  dan  mengindikasikan  komunikasi  diantara  objek-objek  tersebut.
+
+Diagram ini juga menunjukkan serangkaian pesan yang dipertukarkan oleh objek
+
+– objek yang melakukan suatu tugas atau aksi tertentu.  Objek – objek tersebut
+
+
+
+7
+
+kemudian diurutkan dari kiri ke kanan, aktor yang menginisiasi interaksi biasanya
+
+ditaruh  di  paling  kiri  dari  diagram.  Pada  diagram  ini,  dimensi  vertikal
+
+merepresentasikan waktu. Bagian paling atas dari diagram menjadi titik awal dan
+
+waktu berjalan ke bawah sampai dengan bagian dasar dari diagram.
+
+2.1.3.2 Basis Data
+
+Basis data terdiri atas 2 kata, yaitu basis dan data. Basis kurang lebih
+
+dapat diartikan sebagai markas atau gudang, tempat bersarang atau berkumpul.
+
+Sedangan Data adalah representasi fakta dunia nyata yang mewakili suatu objek
+
+seperti manusia (pegawai, siswa, pembeli, pelanggan), barang, hewan, peristiwa,
+
+konsep,  keadaan,  dan  sebagainya  yang  terekam  dalam  bentuk  angka,  huruf,
+
+simbol, teks, gambar, bunyi, atau kombinasi lainnya (Fathansyah, 2007).
+
+Basis  data  dapat  dipahami  sebagai  suatu  kumpulan  data  terhubung
+
+(interrelated  data)  yang  disimpan  secara  bersama-sama  pada  suatu  media,
+
+tanpa  mengatap  satu  sama  lain  atau  tidak  perlu  suatu  kerangkapan  data
+
+(kalaupun  ada  maka kerangkapan  data  tersebut  harus  seminimal  mungkin  dan
+
+terkontrol  (controlled  redundancy),  data  disimpan  dengan  cara-cara  tertentu
+
+sehingga  mudah  untuk  digunakan  atau  ditampilkan  kembali,  data  dapat
+
+digunakan  satu  atau  lebih  program-program  aplikasi    secara  optimal,  data
+
+disimpan  tanpa  mengalami  ketergantungan  dengan  program   yang  akan
+
+menggunakannya,  data  disimpan  dengan  sedemikian  rupa  sehingga  proses
+
+penambahan,  pengembalian,  dan  modifikasi  data  dapat  dilakukan  dengan
+
+mudah dan terkontrol (Sutanta, 2003).
+
+2.1.3.3 SQL
+
+Merujuk  kepada  ANSI  (American  National  Standard  Institute),  maka
+
+SQL  (Structured  Query  Language)  adalah  bahasa  standar  untuk  sistem
+
+manajemen basis data relasional. Menurut Sidik (2005), perintah SQL dibedakan
+
+menjadi tiga sebagai berikut :
+
+1) Data Definition Language (DDL)
+
+Merupakan  kelompok  perintah  yang  digunakan  untuk  melakukan
+
+pendefinisian basis data dan pendefinisian tabel. Pengguna dapat membuat
+
+
+
+8
+
+menghapus dan mengubah struktur  tabel.  Selain itu pengguna juga dapat
+
+membuat indeks untuk tabelnya. Perintah didalam DDL ini bermuara pada
+
+pembentukan struktur basis data.
+
+2) Data Manipulation Language (DML)
+
+Perintah  (Statement)  SQL  digunakan  untuk  melakukan  manipulasi  data
+
+dalam basis data,  menambahkan (insert),  mengubah (update),  menghapus
+
+(delete), mengambil dan mencari data (select). Perintah SQL standar seperti
+
+select,  insert,  update,  delete,  create  dan  drop dapat  digunakan  untuk
+
+menyelesaikan tugas yang diberikan berhubungan dengan data  dari  suatu
+
+basis data.
+
+3) Data Control Language (DCL)
+
+Pendefinisian  pemakai  yang  berhak  mengakses  basis  data  dan  apa  saja
+
+privilege-nya merupakan jenis perintah didalam DCL. Fasilitas ini tersedia
+
+pada sistem manajemen basis data yang memiliki fasilitas keamanan dengan
+
+membatasi pemakai dan kewenangannya.
+
+2.1.3.4 MySQL
+
+MySQL mengimplementasikan model  database relasional maka disebut
+
+sebagai  Relational  Database  Management  System/RDBMS.  MySQL  adalah
+
+software RDBMS atau  server database  yang dapat mengelola  database dengan
+
+sangat cepat,  dapat menampung data dalam jumlah sangat besar, dapat diakses
+
+oleh banyak user/multi-user,  dan dapat  melakukan suatu proses  secara sinkron
+
+atau berbarengan/multi-threaded (Raharjo, 2011).
+
+Sedangkan  MySQL  merupakan  basis  data  yang  paling  digemari
+
+dikalangan programmer web, dengan alasan bahwa program ini merupakan basis
+
+data  yang  sangat  kuat  dan  cukup  stabil  untuk  digunakan  sebagai  media
+
+penyimpanan  data.  Sebagai  sebuah  database  server  yang  mampu  untuk
+
+memanajemen basis data dengan baik, mysql terhitung merupakan basis data yang
+
+paling  digemari  dan  paling  banyak  digunakan  dibanding  basis  data  lainnya
+
+(Nugroho, 2005).
+
+
+
+9
+
+2.1.3.5 PHP
+
+PHP  merupakan  suatu  bahasa  pemrograman  yang  difungsikan  untuk
+
+membangun  suatu  website dinamis.  PHP  menyatu  dengan  kode  HTML,
+
+maksudnya  adalah  beda  kondisi,  HTML  digunakan  sebagai  pembangun  atau
+
+pondasi dari kerangka layout web, sedangkan PHP difungsikan sebagai prosesnya
+
+sehingga dengan adanya PHP tersebut, web akan sangat mudah di-maintenance.
+
+PHP berjalan pada sisi server sehingga PHP disebut juga sebagai bahasa  Server
+
+Side Scripting (Welling dan Thomson, 2001). Artinya bahwa dalam setiap/untuk
+
+menjalankan PHP, wajib adanya web server.
+
+PHP ini bersifat open source sehingga dapat dipakai secara cuma-cuma
+
+dan mampu lintas  platform,  yaitu  dapat  berjalan  pada sistem operasi  windows
+
+maupun linux. PHP juga dibangun sebagai   modul pada web server apache dan
+
+sebagai binary yang dapat berjalan sebagai CGI. Adapun beberapa alasan yang
+
+menjadi dasar pertimbangan mengapa menggunakan PHP dalam membuat sistem
+
+adalah:
+
+1. Mudah dipelajari,  alasan  tersebut  menjadi  salah  satu  alasan  utama untuk
+
+menggunakan PHP, Pemula pun akan mampu untuk menjadi  web master
+
+PHP.
+
+2. Mampu  lintas  Platform,  artinya  PHP  dapat/  mudah  diaplikasikan  ke
+
+berbagai  platform OS(Operating System)  dan hampir  semua browser juga
+
+mendukung PHP.
+
+3. Free atau Gratis, bersifat Open Source.
+
+4. PHP memiliki tingkat akses yang cepat.
+
+5. Didukung oleh beberapa macam web server, PHP mendukung beberapa web
+
+server, seperti Apache, IIS, Lighttpd, Xitami.
+
+6. PHP  mendukung  beberapa  database,baik  yang  gratis  maupun  yang
+
+berbayar,  seperti  MySQL,  PostgreSQL,  mSQL,  Informix,  SQL  server,
+
+Oracle.
+
+2.1.3.6 Laravel
+
+
+
+10
+
+Laravel adalah framework bahasa pemrograman Hypertext Preprocessor
+
+(PHP)  yang  ditujukan  untuk  pengembangan  aplikasi  berbasis  web  dengan
+
+menerapkan konsep  Model View Controller (MVC). Framework ini dibuat oleh
+
+Taylor Otwell dan pertama kali dirilis pada tanggal 9 Juni 2011. Laravel berlisensi
+
+open source yang artinya bebas digunakan tanpa harus melakukan pembayaran.
+
+Alamat website resmi dari framework Laravel adalah https://laravel.com. Fitur-
+
+fitur modern Laravel yang sangat membantu developer dalam membuat aplikasi
+
+adalah  Bundles,  Eloquent  ORM  (Object-Relational  Mapping),  Query  Builder,
+
+Application Logic,  Reverse Routing,  Resource Controller,  Class Auto Loading,
+
+View  Composers,  Blade,  IoC  Containers,  Migration,  Database  Seeding,  Unit
+
+Testing, Automatic Pagination, Form request dan Middleware. 
+
+Framewok Laravel juga memiliki beberapa keunggulan sebagai berikut. 
+
+1. Menggunakan Command Line Interface (CLI) Artisan.  
+
+2. Menggunakan package manager PHP Composer.  
+
+3. Penulisan kode program lebih singkat, mudah dimengerti, dan ekspresif. 
+
+Kemudian untuk cara instalasi framework Laravel dapat dilakukan dengan 3 cara
+
+yaitu. 
+
+1. Melalui Installer Laravel.
+
+2. Menggunakan Composer dengan mengetikkan perintah create-project. 
+
+3. Download  source  code Laravel  secara  lengkap  melalui  GitHub  dengan
+
+alamat https://github.com/laravel/laravel/.   
+
+Fitur  framework  Laravel  yang  ditekankan  pada  penelitian  ini  adalah
+
+Blade,  Migration,  Eloquent  ORM dan  Resource  Controller.  Berikut  adalah
+
+penjelasan mengenai empat fitur tersebut. 
+
+1. Blade 
+
+Blade adalah  template  engine.  Pada  dasarnya  Blade adalah  view namun
+
+dengan  menggunakan  Blade akan  mempermudah  untuk  mengatur  tampilan
+
+website dan menampilkan data. Cara untuk membuat file view menjadi file Blade
+
+adalah dengan 
+
+menambahkan ekstensi .blade.php pada file view. Dan cara untuk memanggil file
+
+Blade sama dengan cara untuk memanggil file view biasa. 
+
+2. Migration 
+
+
+
+11
+
+Migration adalah fitur yang menyediakan cara baru untuk membuat database.
+
+Dengan menggunakan migration cara membuat database melalui  Command Line
+
+Interface (CLI) database atau dengan menggunakan aplikasi  database manager
+
+digantikan dengan menggunakan  class. Tahapan menggunakan migration adalah
+
+membuat  class kemudian  melakukan  perintah  migrate melalui  Command Line
+
+Interface (CLI) artisan. Keuntungan menggunakan migration adalalah class yang
+
+dibuat  bisa  dipakai  untuk  membuat  database pada  berbagai  macam  Relation
+
+Database  Management  System (RDBMS)  yang  didukung  oleh  Laravel.
+
+Keuntungan  lain  dari  menggunakan  migration adalah  semua  perubahan  yang
+
+dilakukan pada database akan disimpan pada suatu tabel. Sehingga bisa dilakukan
+
+pembatalan (rollback) pada database jika melakukan perubahan yang tidak benar.
+
+3. Eloquent ORM 
+
+Eloquent  ORM  adalah  implementasi  dari  ActiveRecord yang   digunakan
+
+untuk  mengatur  relasi  antar  tabel  di  database.  Pada  Eloquent  ORM tabel
+
+direpresentasikan  dalam  bentuk  kelas  dan  data  yang  tersimpan  didalam  tabel
+
+direpresentasikan  dalam bentuk  objek.  Relasi  yang  dapat  diatur  menggunakan
+
+Eloquent ORM adalah sebagai berikut. 
+
+a. One-to-One yaitu  relasi  satu  ke  satu.  Pada  relasi  ini  digunakan  method
+
+hasOne dan belongsTo. 
+
+b. One-to-Many yaitu relasi satu ke banyak. Pada relasi ini digunakan  method
+
+hasMany dan belongsTo. 
+
+c. Many-to-One yaitu relasi banyak ke satu. Pada relasi ini digunakan  method
+
+belongsTo dan hasMany. 
+
+d. Many-to-Many yaitu  relasi  banyak  ke  banyak.  Pada  relasi  ini  digunakan
+
+method belongsToMany. 
+
+4. Resource Controller 
+
+Resource  Controller adalah  fitur  yang  digunakan  untuk  mempercepat
+
+pembuatan controller dan menyederhanakan route untuk controller.
+
+II.2 Pengujian Sistem
+
+2.2.1. Metode Black-Box
+
+Metode  Black-Box yaitu  data  pengujian dipilih  berdasarkan spesifikasi
+
+masalah  tanpa  memperhatikan  detail  internal  dari  program  (Sukamto  dan
+
+
+
+12
+
+Shalahuddin,  2014),  untuk  memeriksa  apakah  program  dapat  berjalan  dengan
+
+benar.
+
+2.2.2. User Acceptance Testing (UAT)
+
+User Acceptance Testing merupakan pengujian yang dilakukan oleh end-
+
+user dimana  user tersebut  adalah  staff/karyawan  perusahaan  yang  langsung
+
+berinteraksi dengan sistem dan dilakukan verifikasi apakah fungsi yang ada telah
+
+berjalan sesuai dengan kebutuhan/fungsinya (Perry, 2006).
+
+Dari  definisi  di  atas,  user  acceptance  testing  adalah  pengujian  yang
+
+dilakukan  oleh  pengguna  dari  sistem tersebut  untuk memastikan  fungsi-fungsi
+
+yang  ada  pada  sistem  tersebut  telah  berjalan  dengan  baik  dan  sesuai  dengan
+
+kebutuhan pengguna. 
+
+II.3 Studi Literatur
+
+Beberapa penelitian terdahulu yang digunakan sebagai acuan penelitian
+
+salah satunya yaitu Sari dan Sulistiadi (2013) yang telah meneliti tentang  CAPI
+
+(Computer  Assisted  Personal  Interviewing)  yaitu  pengumpulan  informasi
+
+menggunakan  media  komputer  untuk  mengumpulkan  data  kor  Survei  Sosial-
+
+Ekonomi Nasional (SUSENAS). Hasil dari penelitian ini adalah sebuah prototipe
+
+sistem  Aplikasi  CAPI  Pengumpulan  Data  Kor  Susenas  yang  terdiri  atas  3
+
+komponen yaitu,  Aplikasi  Desktop Pengawas,  Aplikasi  Desktop Pencacah dan
+
+Aplikasi  Web  Monitoring. Aplikasi  ini  dirancang  berdasarakan  permasalahan
+
+yang terdiri  atas, kebutuhan biaya yang besar apabila sistem dilakukan dengan
+
+sistem PAPI (Paper and Pen Interviewing), Proses pengumpulan data yang lama
+
+dan kesulitan perbaikan apabila ada kesalahan karena harus memanggil responden
+
+kembali  untuk  pengisian  data  ulang.  Bagian  yang  dijadikan  referensi  pada
+
+penelitian  ini  adalah  tentang  pengumpulan  data  dan  informasi  menggunakan
+
+komputer  atau  penggunaan  sistem  CAPI.  Pengujian  pada  penelitian  ini
+
+menggunakan metode Black-Box untuk menguji bahwa tidak ditemukan kesalahan
+
+pada  sistem  dan  kuesioner  SUS  (System  Usability  Scale)  untuk  evaluasi
+
+antarmuka.
+
+Selain itu, Kumase (2016) yang melakukan penelitian mengenai Rancang
+
+Bangun  Aplikasi  Pelaporan  Dana  Alokasi  Khusus  Berbasis  Web  yang  dapat
+
+membantu  Sub  Bidang  Monitoring  dan  Pelaporan  dalam  penerimaan  laporan
+
+
+
+13
+
+Dana Alokasi  Khusus pada Badan Perancanaan Pembangunan Daerah Provinsi
+
+Sulawesi Utara.  Hasil dari penelitian ini adalah sebuah Aplikasi Pelaporan Dana
+
+Alokasi Khusus Berbasis Web dengan 2 jenis pengguna yaitu admin yang dapat
+
+menerima laporan yang dikirim oleh  staf BAPPEDA Kabupaten/Kota dan staf
+
+Bappeda  Kabupaten/Kota  dapat  membuat  dan  mengirim  laporan  DAK kepada
+
+admin.  Bagian yang dijadikan referensi  pada penelitian ini  adalah tentang alur
+
+pengumpulan data yang dilakukan melalui aplikasi perangkat lunak berbasis web.
+
+Pengujian  pada  penelitian  ini  menggunakan  metode  Black-Box  untuk  menguji
+
+bahwa tidak ditemukan kesalahan pada sistem.
+
+Penelitian  yang  akan  dilakukan  ini  berfokus  pada  pengumpulan  dan
+
+pendistribusian  data  statistik  sektoral  dengan  bantuan  aplikasi  yang  akan
+
+dibangun. Pengujian pada penelitian ini menggunakan metode  Black-Box  untuk
+
+menguji  bahwa  tidak  ditemukan  kesalahan  pada  sistem  dan  user  acceptance
+
+testing  (UAT)  untuk  menguji  penerimaan  pengguna  terhadap  aplikasi  yang
+
+dibangun.  Tujuan  dari  penelitian  yang  dilakukan  adalah  menghasilkan  sebuah
+
+aplikasi yang dapat mengumpulkan dan mendistribusikan data statistik sektoral di
+
+lingkungan pemerintah provinsi Kalimantan Barat.
+
+
+
+ BAB III
+
+METODOLOGI PENELITIAN DAN PERANCANGAN SISTEM
+
+3.1. Metodologi Penelitian
+
+3.1.1. Data Penelitian
+
+Data penelitian berupa data statistik sektoral yang berasal dari organisasi
+
+perangkat daerah di lingkungan pemerintah provinsi Kalimantan Barat. Data yang
+
+dimaksud merupakan data berbentuk angka atau bilangan asli yang nantinya akan
+
+diubah menjadi bentuk lain.
+
+3.1.2. Alat Penelitian
+
+3.1.2.1. Alat Bantu Penelitian
+
+Alat bantu penelitian yang digunakan dalam penelitian ini adalah :
+
+1. Flowchart,  untuk  menggambarkan  jalannya  algoritma  atau  proses  pada
+
+sistem.  Flowchart dapat  membantu  perancangan  alur  logika  program
+
+sehingga dapat dengan mudah mengetahui kesalahan dalam suatu program.
+
+2. Unified  Model  Language  (UML), untuk  memodelkan  sistem  yang  akan
+
+dibangun.
+
+3.1.2.2. Perangkat Lunak
+
+Perangkat lunak yang digunakan dalam penelitian ini adalah :
+
+1. Sistem operasi Windows 10 merupakan sistem operasi komputer pribadi yang
+
+dikembangkan  oleh  Microsoft  sebagai  bagian  dari  keluarga  sistem operasi
+
+Windows NT.
+
+2. XAMPP  Version  5.6.35  adalah  perangkat  lunak  yang  mempunyai  fungsi
+
+sebagai  server  yang  berdiri  sendiri  (localhost),  yang  terdiri  dari  program
+
+MySQL  database,  Apache  HTTP  Server,  dan  penerjemah  ditulis  dalam
+
+bahasa pemrograman PHP.
+
+3. Laravel Framework 5.4.3 adalah framework bahasa pemrograman Hypertext
+
+Preprocessor (PHP) yang ditujukan untuk pengembangan aplikasi  berbasis
+
+web dengan menerapkan konsep Model View Controller (MVC).
+
+14
+
+
+
+15
+
+4. Sublime Text 3 merupakan aplikasi  text editor untuk menulis kode program
+
+untuk membangun aplikasi pengolahan data statistik sektoral. 
+
+5. Browser  Google Chrome merupakan  peramban  web sumber  terbuka  yang
+
+dikembangkan oleh Google dengan menggunakan mesin rendering WebKit
+
+untuk menampilkan hasil pengembangan aplikasi berbasis web.
+
+3.1.2.3. Perangkat Keras
+
+Perangkat  keras  yang  digunakan  dalam  penelitian  ini  adalah  laptop
+
+ASUS tipe A456U dengan spesifikasi :
+
+1. Intel Core i5-6200U
+
+2. Harddisk 500 GB
+
+3. DDR 4 GB
+
+4. LCD 14” HD LED LCD
+
+3.2. Metode Penelitian
+
+Langkah-langkah penelitian  yang dilakukan dalam pembuatan  aplikasi
+
+dapat dilihat pada Gambar 3.1 berikut :
+
+
+
+16
+
+Gambar 3.1 Diagram Alir Penelitian
+
+3.2.1. Studi Literatur
+
+Studi  literatur  dilakukan  dengan  mencari  referensi  ilmu  pengetahuan
+
+yang berhubungan dengan sistem yang akan dibuat seperti referensi tentang kritik
+
+dan  saran,  UML  (Unified  Modelling  Language),  Statistik  Sektoral  serta
+
+pemrograman Web maupun melalui penelitian-penelitian sebelumnya.
+
+3.2.2. Analisis Kebutuhan
+
+Analisis  kebutuhan  merupakan  langkah  awal  untuk  menentukan
+
+gambaran  perangkat  yang  akan  dihasilkan  ketika  pengembang  melaksanakan
+
+sebuah proyek pembuatan perangkat lunak. Tindakan awal yang dilakukan untuk
+
+memenuhi  analisis  kebutuhan  terhadap  aplikasi  yang  akan  dibangun  adalah
+
+melakukan observasi atau pengamatan pada cara kerja statistik sektoral menurut
+
+seksi  statistik,  bidang  persandian  dan  statistik,  Dinas  Komunikasi  dan
+
+Informatika.  Seksi  Statistik  pada  Dinas  Komunikasi  dan  Informatika  bertugas
+
+
+
+17
+
+sebagai wali data statistik sektoral, maksudnya yaitu memiliki kewenangan untuk
+
+mengumpulkan kemudian mempublikasikan data statistik  sektoral dilingkungan
+
+pemerintah. 
+
+Menurut  jenisnya,  Statistik  terbagi  menjadi  3  jenis,  yaitu  Statistik
+
+Sektoral, Statistik Dasar dan Statistik Khusus. Statistik Sektoral adalah  statistik
+
+yang pemanfaatannya ditujukan untuk memenuhi kebutuhan instansi pemerintah
+
+tertentu  dalam  rangka  penyelenggaraan  tugas-tugas  pemerintah  dan  tugas
+
+pembangunan  yang  merupakan  tugas  pokok  instansi  pemerintah  yang
+
+bersangkutan.  Statistik  Dasar  adalah  statistik  yang  pemanfaatannya  ditujukan
+
+untuk  keperluan  yang  bersifat  luas,  baik  pemerintah  maupun  masyarakat.
+
+Penyelenggaraannya menjadi tanggung jawab BPS.  Sedangkan, Statistik Khusus
+
+adalah  statistik  yang  pemanfaatannya  ditujukan  untuk  memenuhi  kebutuhan
+
+internal dari suatu instansi/perusahaan swasta dalam rangka penyelenggaraan riset
+
+atau penelitian. Berdasarkan uraian mengenai jenis statistik diatas, yang menjadi
+
+kewenangan pemerintah daerah adalah statistik sektoral. 
+
+Untuk  pemerintah  daerah,  statistik  sektoral  berfungsi  sebagai  sumber
+
+data demi mendukung penyelenggaraan tugas-tugas pemerintahan dan tugas-tugas
+
+pembangunan  daerah.  Data-data  statistik  sektoral  ini  berasal  dari  organisasi-
+
+organisasi  perangkat  daerah  di  lingkungan pemerintahan  daerah,  dalam hal  ini
+
+adalah  Pemerintah  Daerah  Provinsi  Kalimantan  Barat.  Organisasi  perangkat
+
+daerah  merupakan  organisasi  atau  lembaga  pada pemerintah  daerah yang
+
+bertanggung  jawab  kepada  kepala  daerah  dalam  rangka  penyelenggaraan
+
+pemerintahan  di  daerah.  Organisasi-organisasi  ini  memiliki  tugas  pokok  dan
+
+fungsi masing-masing dalam pelaksanaannya. Namun, terdapat jenis-jenis tugas
+
+dan  fungsi  tertentu  yang  saling  berhubungan  antara  OPD  satu  dengan  yang
+
+lainnya.  Hal  ini  menyebabkan  data  statistik  sektoral  tertentu  yang  dimiliki
+
+masing-masing OPD saling beririsan. Sebagai contoh, yaitu data statistik sektoral
+
+mengenai   angka jumlah wisatawan milik  Organisasi  Perangkat  Daerah  Dinas
+
+Pariwisata  dan  Ekonomi  Kreatif  yang  berhubungan  dengan  angka  jumlah
+
+penumpang  angkutan  udara   milik  Organisasi  Perangkat  Daerah  Dinas
+
+Perhubungan. Apabila data-data tersebut dianalisis maka kemudian dapat ditarik
+
+kesimpulan  mengenai  pengembangan  lokasi  wisata  oleh  Dinas  Pariwisata  dan
+
+https://id.wikipedia.org/wiki/Pemerintahan_Daerah
+
+
+18
+
+Ekonomi Kreatif. Untuk itu, data-data sektoral yang berhubungan tersebut dapat
+
+diklasifikasikan menjadi klasisfikasi tertentu. Berdasarkan sumber data sebanyak
+
+70 jenis data yang telah dikumpulkan oleh Dinas Komunikasi dan Informatika
+
+provinsi  Kalimantan  Barat,  khususnya  seksi  statistik  kemudian  dapat
+
+diklasifikasikan menjadi 3 jenis data berdasarkan waktu dan tempat,  yaitu data
+
+statistik sektoral berdasarkan tahun, data statistik sektoral berdasarkan bulan dan
+
+data  statistik  sektoral  berdasakan kabupaten/kota.  Selain  itu,  data-data  tersebut
+
+juga  dapat  diklasifikasikan  menjadi  19  jenis  klasifikasi.  Klasifikasi-klasifikasi
+
+tersebut ditunjukkan pada tabel 3.1 berikut.
+
+Tabel 3.1 Klasifikasi Jenis Data Statistik Sektoral
+
+No. Klasifikasi
+
+1. Wilayah
+
+2. Kependudukan
+
+3. Perkebunan
+
+4. Pariwisata
+
+5. Pembangunan
+
+6. Perhubungan
+
+7. Pangan
+
+8. Kesehatan
+
+9. Pendapatan
+
+10. Tenaga Kerja
+
+11. Lingkungan
+
+12. Sosial
+
+13. Koperasi
+
+14. Energi
+
+15. Pendidikan
+
+16. Perikanan
+
+17. Komunikasi
+
+18. Bencana Daerah
+
+19. Kehutanan
+
+Data-data statistik sektoral yang telah diklasifikasikan tersebut kemudian
+
+dapat  disimpan  dan  diubah  menjadi  grafik.  Grafik  yang  ditampilkan  dibagi
+
+
+
+19
+
+menjadi 3 jenis, yaitu grafik batang, grafik garis dan grafik pie berdasarkan 3 jenis
+
+data  sebelumnya.  Selanjutnya  apabila  organisasi  perangkat  daerah memerlukan
+
+data-data  tertentu,  maka  opd  dapat  menghubungi  seksi  statistik  pada  Dinas
+
+Komunikasi dan Informatika Provinsi Kalimantan Barat.
+
+Secara umum, alur sistem yang sedang berjalan pada proses pengumpulan,
+
+pengolahan dan pendistribusian data statistik sektoral adalah sebagai berikut.
+
+1. Seksi  Statistik  pada  Diskominfo  meminta  data  statistik  sektoral  kepada
+
+organisasi perangkat daerah yang bersangkutan.
+
+2. Organisasi  perangkat  daerah  kemudian  memberikan  data  statistik  sektoral
+
+sesuai permintaan Diskominfo.
+
+3. Setelah  diterima  oleh  Diskominfo,  data  statistik  sektoral  kemudian  diolah
+
+sesuai kebutuhan Diskominfo.
+
+4. Apabila  organisasi  perangkat  daerah  memerlukan  data  statistik  sektoral
+
+mengenai  jenis  tertentu,  maka  organisasi  perangkat  daerah  kemudian
+
+meminta kembali kepada Diskominfo.
+
+Berdasarkan uraian diatas, maka penulis melakukan wawancara kepada
+
+Kepala Seksi Statistik, Bidang Persandian dan Statistik, Dinas Komunikasi dan
+
+Informatika  Provinsi  Kalimantan  Barat.  Wawancara  yang dilakukan digunakan
+
+untuk  mengumpulkan  data  dan  informasi  mengenai  kebutuhan  pengguna  akan
+
+aplikasi  yang  akan  dibangun,  khususnya  digunakan  untuk  mengumpulkan
+
+informasi  mengenai  tujuan,  target  pengguna,  alur  kerja  pengumpulan  data,
+
+kendala yang dialami saat ini dan alur sistem yang sedang berjalan. 
+
+Berdasarkan  hasil  dari  wawancara  tersebut,  maka  analisis  kebutuhan
+
+terhadap  aplikasi  yang  dibangun  berdasarkan  aspek  rekayasa  perangkat  lunak
+
+dapat dirangkum sebagai berikut.
+
+1. Aplikasi  statistik  sektoral  yang  akan  dibangun  harus  mampu  memenuhi
+
+tujuannya yaitu mengumpulkan data statistik sektoral dari berbagai organisasi
+
+perangkat daerah dilingkungan pemerintahan provinsi Kalimantan Barat yang
+
+kemudian akan ditampilkan di dalam situs web.
+
+2. Target  pengguna  aplikasi  yang  akan  dibangun  dibagi  menjadi  3,  yaitu
+
+administrator, admin OPD dan guest.
+
+
+
+20
+
+3. Alur pengumpulan data statistik sektoral pada aplikasi yang akan dibangun
+
+sama dengan proses manual namun difasilitasi oleh form-form khusus yang
+
+disediakan nantinya dan bersifat paperless.
+
+4. Kendala-kendala  yang  dihadapi  pada  proses  manual  seperti  keterbatasan
+
+waktu  dan  keabsenan  petugas  diharapkan  dapat  diatasi  pada  proses
+
+terkomputerisasi.
+
+5. Alur  pada  aplikasi  yang akan  dibangun menyesuaikan  dengan alur  sistem
+
+yang sedang berjalan saat ini.
+
+3.2.3. Pengumpulan Data
+
+Pengumpulan  data  dilakukan  untuk  memperoleh  informasi  mengenai
+
+analisis sistem, analisis kelayakan, dan analisis fungsional. Data statistik sektoral
+
+didapatkan dari organisasi perangkat  daerah di lingkungan pemerintah provinsi
+
+Kalimantan Barat yang dikumpulkan oleh Seksi Statistik, Bidang Persandian dan
+
+Statistik, Dinas Komunikasi dan Informatika Kalimantan Barat.
+
+3.2.4. Perancangan Sistem
+
+Analisis dan perancangan sistem dilakukan dengan menganalisa sistem
+
+yang  berjalan  pada  kajian  terkait  yang  telah  dilakukan.  Sedangkan  untuk
+
+perancangan  sistem  dilakukan  dengan  menggunakan  perancangan
+
+aplikasi/flowchart,  perancangan  arsitektur  sistem,  UML  (Unified  Modelling
+
+Language)  dengan  tahapan  antara  lain,  perancangan  use  case  diagram,
+
+perancangan  activity diagram, perancangan  sequence diagram  dan perancangan
+
+class  diagram.  Kemudian  dilanjutkan  dengan  perancangan  struktur  antarmuka
+
+sistem dan perancangan layout.
+
+3.2.5. Perancangan Aplikasi
+
+Berdasarkan  analisis  kebutuhan  yang  telah  dilakukan,  perancangan
+
+aplikasi yang akan dibangun alurnya didasarkan pada Gambar 3.2 berikut :
+
+
+
+21
+
+Gambar 3.2 Diagram Alir Pengumpulan Data Statistik Sektoral
+
+Alur  jalannya  Pengumpulan  Data  Statistik  Sektoral  pada  Gambar  3.2
+
+dijelaskan sebagai berikut :
+
+
+
+Basis 
+Data
+
+Aplikasi 
+Pengolahan Data
+Statistik Sektoral
+
+Diskominfo Koneksi 
+Internet
+
+Koneksi 
+Internet
+
+Guest
+
+OPD
+(35 OPD di 
+
+lingkungan pemprov 
+Kalbar)
+
+Koneksi 
+Internet
+
+22
+
+1. Diskominfo akan melakukan permintaan data statistik sektoral kepada OPD
+
+yang bersangkutan dengan topik data yang diminta.
+
+2. Selanjutnya OPD akan memberikan data yang diperlukan oleh Diskominfo.
+
+3. Setelah mendapatkan data dari OPD, kemudian Diskominfo akan melakukan
+
+klasifikasi  data  berdasarkan  jenis  klasifikasi  yang  telah  dijabarkan  pada
+
+analisis kebutuhan.
+
+4. Kemudian Diskominfo melakukan pengubahan bentuk data menjadi grafik.
+
+5. Apabila  OPD  memerlukan  data  statistik  sektoral  milik  sendiri  atau  OPD
+
+lainnya, maka OPD dapat meminta data tersebut kepada Diskominfo.
+
+6. Diskominfo akan memberikan data yang OPD perlukan.
+
+3.2.6. Arsitektur Sistem
+
+Rancangan  awal  dari  aplikasi  pengolahan  data  statistik  sektoral  yang
+
+akan dibangun dapat digambarkan seperti yang ditunjukkan oleh arsitektur sistem
+
+pada gambar 3.3.
+
+Gambar 3.3 Arsitektur Sistem
+
+
+
+23
+
+Arsitektur sistem pada Gambar 3.3 dijelaskan sebagai berikut : 
+
+1. Diskominfo memerlukan koneksi internet untuk mengakses admin panel agar
+
+dapat melakukan kelola data. Adapun data yang dikelola adalah data statistik
+
+sektoral yang berasal dari seluruh organisasi perangkat daerah di lingkungan
+
+provinsi  Kalimantan  Barat  dan  semua  data  yang  perlu  ditampilkan  pada
+
+halaman utama sistem informasi. Data yang dikelola kemudian akan disimpan
+
+di database. 
+
+2. OPD memiliki halaman sendiri untuk melakukan kelola data (OPD Panel).
+
+Untuk  mengakses  halaman  tersebut,  admin  OPD  memerlukan  koneksi
+
+internet.  Adapun data yang akan dikelola adalah data statistik sektoral dan
+
+data profil sesuai dengan asal OPD.
+
+3. Guest hanya dapat mengakses halaman sistem informasi. Adapun halaman ini
+
+memiliki  url  yang berbeda dengan halaman Administrator  maupun Admin
+
+OPD.  Setelah  diakses,  maka  akan  ditampilkan  halaman  utama sistem
+
+informasi. Data  yang  ditampilkan  pada  halaman  utama  sistem  informasi
+
+berasal dari database.
+
+3.2.7. Perancangan Konseptual dari Sistem yang Dibangun
+
+3.2.7.1. Use Case Diagram
+
+Use case diagram merupakan pemodelan untuk kelakuan aplikasi yang
+
+dibuat.  Use case diagram menggambarkan interaksi antara satu atau lebih aktor
+
+terhadap sebuah sistem. Gambar 3.4 merupakan  use case diagram sistem yang
+
+dibangun. 
+
+
+
+24
+
+Gambar 3.4 Use Case Diagram Aplikasi Pengolahan Data Statistik Sektoral
+
+Definisi aktor pada aplikasi pengolahan data statistik sektoral provinsi Kalimantan
+
+barat dapat dilihat pada tabel 3.2.
+
+Tabel 3.2 Definisi Aktor
+
+No Aktor Deskripsi
+1. Diskominfo Diskominfo  adalah  aktor  yang  memiliki  hak
+
+untuk  melakukan  Permintaan  data  statistik
+
+sektoral kepada OPD, Memberikan data statistik
+
+sektoral  yang  dibutuhkan  oleh  OPD,
+
+Mengklasifikasikan jenis  data  statistik  sektoral,
+
+mengubah  dan  mempublikasikan  data  statistik
+
+sektoral.
+
+2. OPD OPD  adalah  aktor  yang  memiliki  hak  untuk
+
+memberikan dan menerima data statistik sektoral
+
+yang diperlukan kepada aktor Diskominfo.
+
+Definisi  Use  Case pada  Aplikasi  Pengolahan  Data  Statistik  Sektoral  Provinsi
+
+Kalimantan Barat dapat dilihat pada tabel 3.3.
+
+
+
+25
+
+Tabel 3.3 Definisi Use Case
+
+No Nama Deskripsi
+
+1. Mengelola Data 
+
+Statistik
+
+Use case ini merupakan proses untuk melakukan
+
+pengelolaan  data  statistik  sektoral  yang berasal
+
+dari OPD.
+
+2. Menyediakan Data 
+
+Statistik
+
+Use case ini merupakan proses untuk melakukan
+
+penyediaan  data  statistik  sektoral  yang  telah
+
+dikelola sebelumnya.
+
+3. Memberikan Data 
+
+Statistik
+
+Use  case ini  merupakan  proses  OPD
+
+memberikan  data  statistik  sektoral  yang
+
+dibutuhkan oleh Diskominfo.
+
+4. Melihat Data Statistik Use  case ini  merupakan  proses  untuk  melihat
+
+data  statistik  sektoral  yang  telah  dikelola  dan
+
+disediakan atau dipublikasikan oleh Diskominfo.
+
+3.2.7.2. Class Diagram
+
+Class  diagram mendeskripsikan  jenis-jenis  objek  dalam  sistem  dan
+
+berbagai macam hubungan statis yang terjadi.  Class diagram juga menunjukkan
+
+properti  dan  operasi  sebuah  Class dan  batasan  yang terdapat  dalam hubungan
+
+dengan  objek.  Class  diagram membantu  pengembang  mendapatkan  struktur
+
+sistem dan menghasilkan rancangan yang baik. Alur class diagram dari Aplikasi
+
+Pengolahan Data Statistik Sektoral Provinsi Kalimantan Barat dapat dilihat pada
+
+gambar 3.5.
+
+
+
+26
+
+Gambar 3.5 Class Diagram Sistem Informasi Statistik Sektoral
+
+3.2.7.3. Activity Diagram
+
+Activity diagram menggambarkan tentang aktivitas yang terjadi di dalam
+
+sistem. Aktivitas digambarkan secara berurutan dari awal hingga akhir. Diagram
+
+ini menunjukkan langkah-langkah dalam proses kerja dari sistem yang dibuat.
+
+Alur activity diagram Mengelola Data Statistik dari Aplikasi Pengolahan
+
+Data Statistik Sektoral Provinsi Kalimantan Barat dapat dilihat pada gambar 3.6.
+
+
+
+27
+
+Gambar 3.6 Activity Diagram Mengelola Data Statistik
+
+Alur  activity  diagram Menyediakan  Data  Statistik  dari  Aplikasi
+
+Pengolahan Data Statistik Sektoral Provinsi Kalimantan Barat dapat dilihat pada
+
+gambar 3.7.
+
+
+
+28
+
+Gambar 3.7 Activity Diagram Menyediakan Data Statistik
+
+Alur  activity  diagram Memberikan  Data  Statistik  dari  Aplikasi
+
+Pengolahan Data Statistik Sektoral Provinsi Kalimantan Barat dapat dilihat pada
+
+gambar 3.8.
+
+
+
+29
+
+Gambar 3.8 Activity Diagram Memberikan Data Statistik
+
+Alur  activity  diagram Melihat  Data Statistik  dari  Aplikasi  Pengolahan
+
+Data Statistik Sektoral Provinsi Kalimantan Barat dapat dilihat pada gambar 3.9.
+
+Gambar 3.9 Activity Diagram Melihat Data Statistik
+
+
+
+30
+
+3.2.7.4. Sequence Diagram
+
+Sequence  diagram digunakan  untuk  menggambarkan  interaksi  antar
+
+objek  dalam waktu yang berurutan.  Sequence  diagram juga menunjukkan alur
+
+yang digunakan oleh suatu objek.
+
+Alur  sequence  diagram Diskominfo  dari  Aplikasi  Pengolahan  Data
+
+Statistik Sektoral Provinsi Kalimantan Barat dapat dilihat pada gambar 3.10.
+
+Gambar 3.10 Sequence Diagram Diskominfo
+
+
+
+31
+
+Alur  sequence  diagram OPD dari  Aplikasi  Pengolahan  Data  Statistik
+
+Sektoral Provinsi Kalimantan Barat dapat dilihat pada gambar 3.11.
+
+Gambar 3.11 Sequence Diagram OPD
+
+
+
+32
+
+3.2.8. Perancangan Basis Data
+
+3.2.8.1. Spesifikasi Tabel Basis Data
+
+Semua tabel yang ada dalam database sistem informasi statistik sektoral
+
+akan  dijelaskan  secara  spesifik  mulai  dari  nama  field,  type,  keterangan  dan
+
+fungsinya. Berikut tabel-tabel yang ada pada basis data statistiksektoral.
+
+Nama Tabel : tb_berita
+
+Keterangan : tabel data berita
+
+Tabel 3.4 Spesifikasi Tabel Data Berita
+
+Nama Field Tipe Fungsi
+
+id_berita (PK) int (5) Menyimpan id berita dalam tabel berita
+
+tanggal_berita Date Menyimpan tanggal unggah dalam tabel berita
+
+jenis_berita varchar (20) Menyimpan jenis berita dalam tabel berita
+
+judul_berita varchar (100) Menyimpan judul berita dalam tabel berita
+
+isi_berita Text Menyimpan isi berita dalam tabel berita
+
+gambar_berita varchar (100) Menyimpan nama gambar dalam tabel berita
+
+Nama Tabel : tb_galeri
+
+Keterangan : tabel data galeri
+
+Tabel 3.5 Spesifikasi Tabel Data Galeri
+
+Nama Field Tipe Fungsi
+
+id_galeri (PK) int (5) Menyimpan id galeri dalam tabel galeri
+
+tanggal_galeri Date Menyimpan tanggal unggah dalam tabel galeri
+
+judul_foto varchar (100) Menyimpan judul foto dalam tabel galeri
+
+deskripsi_foto Text Menyimpan deskripsi_foto dalam tabel galeri
+
+foto_galeri varchar (100) Menyimpan nama gambar dalam tabel galeri
+
+
+
+33
+
+Nama Tabel : tb_instansi
+
+Keterangan : tabel data instansi 
+
+Tabel 3.6 Spesifikasi Tabel Data Instansi
+
+Nama Field Tipe Fungsi
+
+id_instansi (PK) int (5) Menyimpan id instansi dalam tabel instansi
+
+nama_instansi date Menyimpan nama dalam tabel instansi
+
+singkatan_instansi varchar (20) Menyimpan singkatan dalam tabel instansi
+
+alamat_instansi text Menyimpan alamat dalam tabel instansi
+
+Nama Tabel : tb_pengguna
+
+Keterangan : tabel data pengguna
+
+Tabel 3.7 Spesifikasi Tabel Data Pengguna
+
+Nama Field Tipe Fungsi
+
+id (PK) int (5) Menyimpan id pengguna dalam tabel pengguna
+
+hakakses varchar (15) Menyimpan hak akses dalam tabel pengguna
+
+nama varchar (35) Menyimpan nama dalam tabel pengguna
+
+nip int(20) Menyimpan nip dalam tabel pengguna
+
+email varchar (35) Menyimpan email dalam tabel pengguna
+
+password varchar (60) Menyimpan password dalam tabel pengguna
+
+alamat text Menyimpan alamat dalam tabel pengguna
+
+telepon int (15) Menyimpan no telepon dalam tabel pengguna
+
+id_instansi (FK) int (5) Menyimpan id instansi dalam tabel pengguna
+
+Nama Tabel : tb_jenis_regulasi
+
+Keterangan : tabel data jenis regulasi
+
+Tabel 3.8 Spesifikasi Tabel Data Jenis Regulasi
+
+Nama Field Tipe Fungsi
+
+id_jenisregulasi 
+
+(PK)
+int (5)
+
+Menyimpan id jenis regulasi dalam tabel jenis 
+
+regulasi
+
+jenis_regulasi varchar (30)
+Menyimpan jenis regulasi dalam tabel jenis 
+
+regulasi
+
+Nama Tabel : tb_regulasi
+
+
+
+34
+
+Keterangan : tabel data regulasi 
+
+Tabel 3.9 Spesifikasi Tabel Data Regulasi
+
+Nama Field Tipe Fungsi
+
+id_regulasi (PK) int (5) Menyimpan id regulasi dalam tabel regulasi
+
+id_jenisregulasi 
+
+(FK)
+int (5)
+
+Menyimpan id jenis regulasi dalam tabel 
+
+regulasi
+
+judul_regulasi varchar (50) Menyimpan judul dalam tabel regulasi
+
+isi_regulasi text Menyimpan isi regulasi dalam tabel regulasi
+
+file_regulasi varchar (50) Menyimpan berkas dalam tabel regulasi
+
+Nama Tabel : tb_statistik
+
+Keterangan : tabel data statistik 
+
+Tabel 3.10 Spesifikasi Tabel Data Statistik
+
+Nama Field Tipe Fungsi
+
+id_statistik (PK) int (5)
+Menyimpan id statistik dalam tabel 
+
+statistik
+
+id_instansi (FK) int (5) Menyimpan id instansi dalam tabel statistik
+
+Jenis_statistik varchar (20)
+Menyimpan jenis statistik dalam tabel 
+
+statistik
+
+judul_statistik varchar (50) Menyimpan judul dalam tabel statistik
+
+deskripsi_statistik text Menyimpan deskripsi dalam tabel statistik
+
+file_statistik varchar(50)
+Menyimpan nama file statistik dalam tabel 
+
+statistik
+
+Nama Tabel : tb_tentang
+
+Keterangan : tabel data tentang kami
+
+Tabel 3.11 Spesifikasi Tabel Data Tentang Kami
+
+Nama Field Tipe Fungsi
+
+id_tentang int(5) Menyimpan id tentang dalam tabel tentang
+
+judul text Menyimpan judul dalam tabel tentang
+
+isi text Menyimpan isi tentang dalam tabel tentang
+
+
+
+35
+
+Nama Tabel : tb_kontak
+
+Keterangan : tabel data kontak kami
+
+Tabel 3.12 Spesifikasi Tabel Data Kontak Kami
+
+Nama Field Tipe Fungsi
+
+id_kontak int(5) Menyimpan id kontak dalam tabel kontak
+
+judul text Menyimpan judul dalam tabel kontak
+
+isi text Menyimpan isi kontak dalam tabel kontak
+
+Nama Tabel : tb_pesan_statistik
+
+Keterangan : tabel data pesan statistik
+
+Tabel 3.13 Spesifikasi Tabel Data Pesan Statistik 
+
+Nama Field Tipe Fungsi
+
+id_pesan_statistik
+
+(PK)
+int(5)
+
+Menyimpan id pesan statistik dalam tabel 
+
+pesan statistik
+
+penerima int(5) Menyimpan nama penerima pesan
+
+judul_pesan text Menyimpan judul pesan yang dikirim
+
+isi_pesan
+text
+
+Menyimpan isi pesan dalam tabel pesan 
+
+statistik
+
+Nama Tabel : tb_pesan
+
+Keterangan : tabel data pesan masuk
+
+Tabel 3.14 Spesifikasi Tabel Data Pesan Masuk
+
+Nama Field Tipe Fungsi
+
+id_pesan (PK) int(5) Menyimpan id pesan dalam tabel pesan
+
+email varchar(50) Menyimpan email dalam tabel pesan
+
+nama varchar(50) Menyimpan nama dalam tabel pesan 
+
+jenis_kelamin varchar(15) Menyimpan jenis kelamin dalam tabel pesan
+
+telepon int(15) Menyimpan no telepon dalam tabel pesan
+
+isi_pesan text Menyimpan isi pesan dalam tabel pesan
+
+Nama Tabel : tb_balas_pesan
+
+Keterangan : tabel data pesan keluar
+
+
+
+36
+
+Tabel 3.15 Spesifikasi Tabel Data Pesan Keluar
+
+Nama Field Tipe Fungsi
+
+id_balas (PK) int(5) Menyimpan id balas dalam tabel balas pesan
+
+id_pesan (FK) int(5) Menyimpan id pesan dalam tabel balas pesan
+
+nama int(5) Menyimpan nama penerima pesan
+
+judul_pesan text Menyimpan judul pesan yang dikirim
+
+isi_pesan text Menyimpan isi pesan dalam tabel balas pesan
+
+Nama Tabel : tb_grafik_bulan
+
+Keterangan : tabel data untuk grafik berdasarkan bulan
+
+Tabel 3.16 Spesifikasi Tabel Data Grafik Bulan
+
+Nama Field Tipe Fungsi
+
+id_grafik_bulan 
+
+(PK)
+
+int(5) Menyimpan id grafik bulan dalam tabel grafik
+
+bulan
+
+id_instansi (FK) int(5) Menyimpan id instansi dalam tabel grafik 
+
+bulan
+
+jenis_grafik varchar(25) Menyimpan jenis grafik dalam tabel grafik 
+
+bulan
+
+nilai1 float Menyimpan nilai untuk bulan januari
+
+nilai2 float Menyimpan nilai untuk bulan februari
+
+nilai3 float Menyimpan nilai untuk bulan maret
+
+nilai4 float Menyimpan nilai untuk bulan april
+
+nilai5 float Menyimpan nilai untuk bulan mei
+
+nilai6 float Menyimpan nilai untuk bulan juni
+
+nilai7 float Menyimpan nilai untuk bulan juli
+
+nilai8 float Menyimpan nilai untuk bulan agustus
+
+nilai9 float Menyimpan nilai untuk bulan september
+
+nilai10 float Menyimpan nilai untuk bulan oktober
+
+nilai11 float Menyimpan nilai untuk bulan november
+
+nilai12 float Menyimpan nilai untuk bulan desember
+
+Nama Tabel : tb_grafik_tahun
+
+
+
+37
+
+Keterangan : tabel data untuk grafik berdasarkan tahun
+
+Tabel 3.17 Spesifikasi Tabel Data Grafik Tahun
+
+Nama Field Tipe Fungsi
+
+id_grafik_tahun 
+
+(PK)
+
+int(5) Menyimpan id grafik bulan dalam tabel grafik
+
+tahun
+
+id_instansi (FK) int(5) Menyimpan id instansi dalam tabel grafik 
+
+tahun
+
+jenis_grafik varchar(25) Menyimpan jenis grafik dalam tabel grafik 
+
+tahun
+
+tahun1 varchar(5) Menyimpan tahun pertama
+
+nilai1 float Menyimpan nilai untuk tahun pertama
+
+tahun2 varchar(5) Menyimpan tahun kedua
+
+nilai2 float Menyimpan nilai untuk tahun kedua
+
+tahun3 varchar(5) Menyimpan tahun ketiga
+
+nilai3 float Menyimpan nilai untuk tahun ketiga
+
+tahun4 varchar(5) Menyimpan tahun keempat
+
+nilai4 float Menyimpan nilai untuk tahun keempat
+
+tahun5 varchar(5) Menyimpan tahun kelima
+
+nilai5 float Menyimpan nilai untuk tahun kelima
+
+Nama Tabel : tb_grafik_kab
+
+Keterangan : tabel data untuk grafik berdasarkan kabupaten
+
+Tabel 3.18 Spesifikasi Tabel Data Grafik Kabupaten
+
+Nama Field Tipe Fungsi
+
+id_grafik_kab 
+
+(PK)
+
+int(5) Menyimpan id grafik bulan dalam tabel grafik
+
+kabupaten
+
+id_instansi (FK) int(5) Menyimpan id instansi dalam tabel grafik 
+
+kabupaten
+
+jenis_grafik varchar(25) Menyimpan jenis grafik dalam tabel grafik 
+
+kabupaten
+
+nilai_pontianak float Menyimpan nilai untuk kota pontianak
+
+nilai_mempawah float Menyimpan nilai untuk kab mempawah
+
+
+
+38
+
+nilai_kuburaya float Menyimpan nilai untuk kab kubu raya
+
+nilai_ketapang float Menyimpan nilai untuk kab ketapang
+
+nilai_kayongutara float Menyimpan nilai untuk kab kayong utara
+
+nilai_bengkayang float Menyimpan nilai untuk kab bengkayang
+
+nilai_singkawang float Menyimpan nilai untuk kota singkawang
+
+nilai_sambas float Menyimpan nilai untuk kab sambas
+
+nilai_landak float Menyimpan nilai untuk kab landak
+
+nilai_sanggau float Menyimpan nilai untuk kab sanggau
+
+nilai_sekadau float Menyimpan nilai untuk kab sekadau
+
+nilai_melawi float Menyimpan nilai untuk kab melawi
+
+nilai_kapuashulu float Menyimpan nilai untuk kab kapuas hulu
+
+Nama Tabel : tb_unggah_berkas
+
+Keterangan : tabel data unggah berkas
+
+Tabel 3.19 Spesifikasi Tabel Data Unggah Berkas
+
+Nama Field Tipe Fungsi
+
+id_berkas (PK) int(5) Menyimpan id berkas dalam tabel unggah
+
+id_instansi (FK) int(5) Menyimpan id instansi dalam tabel unggah
+
+judul_berkas text Menyimpan judul dalam tabel unggah
+
+deskripsi_berkas text Menyimpan deskripsi dalam tabel unggah
+
+lokasi_berkas text Menyimpan lokasi dalam tabel unggah
+
+
+
+39
+
+3.2.8.2. Hubungan Antar Tabel
+
+Hubungan  antar  tabel yang  dirancang  ditunjukkan  pada  Gambar  3.12
+
+berikut.
+
+Gambar 3.12 Hubungan Antar Tabel
+
+
+
+40
+
+3.2.9. Perancangan Antarmuka
+
+Antarmuka  aplikasi dirancang  dalam  bentuk  form-form yang  memiliki  fungsi
+
+tertentu sesuai dengan proses-proses yang ada.
+
+3.2.9.1. Perancangan Struktur Antarmuka Level Administrator
+
+Struktur  antarmuka  aplikasi  level  administrator yang  dirancang  pada
+
+Gambar 3.13 berikut.
+
+
+
+41
+
+Gambar 3.13 Struktur Antarmuka Level Administrator
+
+
+
+42
+
+3.2.9.2. Perancangan Struktur Antarmuka Level Admin OPD
+
+Struktur  antarmuka  aplikasi  level  administrator yang  dirancang  pada
+
+Gambar 3.14 berikut:
+
+3.2.9.3. Perancangan Struktur Antarmuka Level Guest
+
+Struktur  antarmuka  aplikasi  level  guest yang  dirancang  pada  Gambar
+
+3.15 berikut:
+
+Gambar 3.14 Struktur Antarmuka Level Admin OPD
+
+
+
+43
+
+Gambar 3.15 Struktur Antarmuka Level Guest
+
+
+
+44
+
+3.2.9.4. Layout Antarmuka Halaman Utama
+
+Halaman utama adalah halaman yang ditampilkan paling pertama setelah
+
+pengguna  membuka  atau  menjalankan  sistem  informasi.  Pada  halaman  utama
+
+terdapat  menu  untuk  mengakses  halaman-halaman  lainnya.  Halaman-halaman
+
+yang dimaksud adalah halaman beranda, tentang kami, statistik, berita, regulasi,
+
+galeri dan kontak kami.
+
+Antarmuka Halaman Beranda dapat dilihat pada Gambar 3.16 berikut.
+
+Gambar 3.16 Layout Antarmuka Halaman Beranda
+
+APLIKASI
+PENGOLAHAN DATA
+
+
+
+45
+
+Berikut merupakan keterangan dari Gambar 3.16 :
+
+Halaman beranda dibagi menjadi beberapa bagian, yaitu tentang statistik sektoral,
+
+regulasi, berita terbaru, statistik terbaru dan galeri.
+
+(1) Menu untuk mengakses halaman beranda. 
+
+(2) Menu untuk mengakses halaman tentang kami.
+
+(3) Menu untuk mengakses halaman statistik.
+
+(4) Menu untuk mengakses halaman berita. 
+
+(5) Menu untuk mengakses halaman regulasi.
+
+(6) Menu untuk mengakses halaman galeri.
+
+(7) Menu untuk mengakses halaman kontak kami.
+
+Antarmuka  Halaman  Tentang  Kami  dapat  dilihat  pada  Gambar  3.17
+
+berikut.
+
+
+
+46
+
+Gambar 3.17 Layout Antarmuka Halaman Tentang Kami
+
+Berikut merupakan keterangan dari Gambar 3.17 :
+
+Halaman tentang kami dibagi menjadi 4 bagian utama, yaitu pengertian aplikasi
+
+pengolahan  data  statistik  sektoral,  pengertian  statistik  sektoral,  seksi  statistik
+
+dalam Dinas Komunikasi dan Informatika, serta tugas pokok dan fungsi dari seksi
+
+statistik tersebut.
+
+Antarmuka Halaman Statistik dapat dilihat pada Gambar 3.18 berikut.
+
+APLIKASI PENGOLAHAN DATA 
+STATISTIK SEKTORAL
+
+
+
+47
+
+Gambar 3.18 Layout Antarmuka Halaman Statistik
+
+Berikut merupakan keterangan dari Gambar 3.18 :
+
+Halaman  statistik  menampilkan  daftar  statistik  yang  telah  dikelola  oleh
+
+administrator.  Data statistik yang ditampilkan antara lain adalah judul statistik,
+
+gambar dan deskripsi singkat mengenai statistik tersebut. 
+
+(1) Bagian  yang  berisi  menu  untuk  memilih  statistik  berdasarkan  organisasi
+
+perangkat daerah.
+
+Antarmuka Halaman Berita dapat dilihat pada Gambar 3.19 berikut.
+
+
+
+48
+
+Gambar 3.19 Layout Antarmuka Halaman Berita
+
+Berikut merupakan keterangan dari Gambar 3.19 :
+
+Halaman  berita  dibagi  menjadi  2  bagian  utama,  yaitu  berita  acara  dan  berita
+
+kegiatan.  Berita-berita  yang  akan  ditampilkan  nantinya  diatur  berdasarkan
+
+timeline.
+
+
+
+49
+
+Antarmuka Halaman Regulasi dapat dilihat pada Gambar 3.20 berikut.
+
+Gambar 3.20 Layout Antarmuka Halaman Regulasi
+
+Berikut merupakan keterangan dari Gambar 3.20 :
+
+Halaman regulasi berisi daftar regulasi yang berkaitan dengan statistik sektoral.
+
+Pada halaman ini terdapat panel yang dapat dibuka dan ditutup sesuai kebutuhan.
+
+Pengguna  dapat  melihat  isi  regulasi  yang  ingin  dilihat  berdasarkan  judul  dari
+
+regulasi tersebut. 
+
+
+
+50
+
+Antarmuka Halaman Galeri dapat dilihat pada Gambar 3.21 berikut.
+
+Gambar 3.21 Layout Antarmuka Halaman Galeri
+
+Berikut merupakan keterangan dari Gambar 3.21 :
+
+Halaman galeri  merupakan halaman untuk menampilkan sekumpulan foto, baik
+
+acara maupun kegiatan oleh seksi statistik provinsi Kalimantan Barat. 
+
+
+
+51
+
+Antarmuka  Halaman  Kontak  Kami  dapat  dilihat  pada  Gambar  3.22
+
+berikut.
+
+Gambar 3.22 Layout Antarmuka Halaman Kontak Kami
+
+Berikut merupakan keterangan dari Gambar 3.22 :
+
+Halaman kontak menampilkan alamat dan informasi kontak dari seksi statistik,
+
+Dinas Komunikasi dan Informatika provinsi Kalimantan Barat. 
+
+(1) Bagian yang merupakan form untuk mengirim pesan kepada administrator.
+
+(2) Tombol untuk mengirim pesan.
+
+3.2.9.5. Layout Antarmuka Halaman Login
+
+Halaman  login  adalah  halaman  yang  ditampilkan  saat  pengguna
+
+memerlukan  hak  akses  untuk  halaman  tertentu.  Pengguna  perlu  memasukkan
+
+identitas dan kata sandi agar dapat mengakses halaman tujuan.
+
+
+
+52
+
+Antarmuka Halaman Login dapat dilihat pada Gambar 3.23 berikut.
+
+Gambar 3.23 Layout Antarmuka Halaman Login
+
+Berikut merupakan keterangan dari Gambar 3.23 :
+
+Halaman  login  merupakan  halaman  khusus  yang  hanya  bisa  diakses  oleh
+
+pengguna yang memiliki hak akses administrator atau admin opd. Halaman ini
+
+dapat diakses dengan url tertentu.
+
+(1) Panel yang berisi form untuk melakukan login. Pengguna harus memasukkan
+
+email dan password yang tepat agar dapat login.
+
+(2) Sebuah link apabila pengguna mengalami masalah lupa password. Pengguna
+
+akan diarahkan ke halaman pemulihan password.
+
+(3) Tombol  untuk  melakukan  login.  Apabila  berhasil,  maka  pengguna  akan
+
+diarahkan  ke  halaman  admin  panel  atau  admin  opd  panel  tergantung  hak
+
+akses yang dimilikinya.
+
+3.2.9.6. Layout Antarmuka Halaman Admin Panel
+
+Halaman Admin Panel  adalah halaman dimana administrator  memiliki
+
+hak untuk mengelola konten yang akan ditampilkan dalam halaman utama sistem
+
+informasi. Halaman ini dibagi berdasarkan menu-menu yang akan mengarahkan
+
+APLIKASI PENGOLAHAN DATA STATISTIK
+SEKTORAL PROVINSI KALIMANTAN BARAT
+
+
+
+53
+
+administrator ke halaman spesifik. Menu-menu tersebut antara lain adalah menu
+
+dashboard,  pengguna,  instansi,  berita,  statistik,  regulasi,  galeri,  halaman utama
+
+dan pesan.
+
+Antarmuka Halaman Dashboard dapat dilihat pada Gambar 3.24 berikut.
+
+Gambar 3.24 Layout Antarmuka Halaman Dashboard
+
+Berikut merupakan keterangan dari Gambar 3.24 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Bagian berisi menu navigasi.
+
+(3) Bagian yang menampilkan jumlah pengguna, berita, statistik dan galeri yang
+
+ada di database.
+
+(4) Bagian yang menampilkan kalender, mencakup hari, bulan dan tahun saat ini.
+
+(5) Bagian yang menampilkan profil pengguna yang login saat ini.
+
+(6) Bagian untuk mengganti password akun pribadi pengguna yang sedang login.
+
+
+
+54
+
+Antarmuka Halaman Daftar Pengguna dapat dilihat  pada Gambar 3.25
+
+berikut.
+
+Gambar 3.25 Layout Antarmuka Halaman Daftar Pengguna
+
+Berikut merupakan keterangan dari Gambar 3.25 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Tombol untuk melakukan edit data pada baris bersangkutan.
+
+(6) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+55
+
+Antarmuka  Halaman  Input  Pengguna dapat  dilihat  pada  Gambar  3.26
+
+berikut.
+
+Gambar 3.26 Layout Antarmuka Halaman Input Pengguna
+
+Berikut merupakan keterangan dari Gambar 3.26 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi form untuk mendaftarkan pengguna baru.
+
+
+
+56
+
+Antarmuka  Halaman  Daftar  Instansi  dapat  dilihat  pada  Gambar  3.27
+
+berikut.
+
+Gambar 3.27 Layout Antarmuka Halaman Daftar Instansi
+
+Berikut merupakan keterangan dari Gambar 3.27 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Tombol untuk melakukan edit data pada baris bersangkutan. 
+
+Antarmuka  Halaman  Input  Instansi  dapat  dilihat  pada  Gambar  3.28
+
+berikut.
+
+Gambar 3.28 Layout Antarmuka Halaman Input Instansi
+
+
+
+57
+
+Berikut merupakan keterangan dari Gambar 3.28 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi form untuk mendaftarkan instansi baru.
+
+Antarmuka  Halaman  Daftar  Berita  dapat  dilihat  pada  Gambar  3.29
+
+berikut.
+
+Gambar 3.29 Layout Antarmuka Halaman Daftar Berita
+
+Berikut merupakan keterangan dari Gambar 3.29 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Tombol untuk melakukan edit data pada baris bersangkutan.
+
+(6) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+58
+
+Antarmuka  Halaman  Input  Berita  dapat  dilihat  pada  Gambar  3.30
+
+berikut.
+
+Gambar 3.30 Layout Antarmuka Halaman Input Berita
+
+Berikut merupakan keterangan dari Gambar 3.30 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi form untuk mendaftarkan berita baru.
+
+
+
+59
+
+Antarmuka  Halaman  Daftar  Statistik  dapat  dilihat  pada  Gambar  3.31
+
+berikut.
+
+Gambar 3.31 Layout Antarmuka Halaman Daftar Statistik
+
+Berikut merupakan keterangan dari Gambar 3.31 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Bagian yang berisi form untuk mendaftarkan statistik baru.
+
+(6) Tombol untuk melakukan lihat data pada baris bersangkutan.
+
+(7) Tombol untuk melakukan edit data pada baris bersangkutan.
+
+(8) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+60
+
+Antarmuka  Halaman  Input  Statistik  dapat  dilihat  pada  Gambar  3.32
+
+berikut.
+
+Gambar 3.32 Layout Antarmuka Halaman Input Statistik
+
+Berikut merupakan keterangan dari Gambar 3.32 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Tombol navigasi menuju halaman yang berisi form input grafik batang.
+
+(5) Tombol navigasi menuju halaman yang berisi form input grafik pie.
+
+(6) Tombol navigasi menuju halaman yang berisi form input grafik garis.
+
+(7) Tombol navigasi menuju halaman yang berisi form input gambar.
+
+(8) Tombol navigasi menuju halaman yang berisi form input pdf.
+
+(9) Tombol navigasi menuju halaman yang berisi form input xlsx.
+
+PD
+F
+
+XLSGamb
+ar
+
+
+
+61
+
+Antarmuka  Halaman  Daftar  Regulasi  dapat  dilihat  pada  Gambar  3.33
+
+berikut.
+
+Gambar 3.33 Layout Antarmuka Halaman Daftar Regulasi
+
+Berikut merupakan keterangan dari Gambar 3.33 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Tombol untuk melakukan edit data pada baris bersangkutan.
+
+(6) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+62
+
+Antarmuka Halaman Input Regulasi dan Jenis Regulasi dapat dilihat pada
+
+Gambar 3.34 berikut.
+
+Gambar 3.34 Layout Antarmuka Halaman Input Regulasi dan Jenis Regulasi
+
+Berikut merupakan keterangan dari Gambar 3.34 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi form untuk mendaftarkan regulasi baru.
+
+(5) Bagian yang berisi form untuk mendaftarkan jenis regulasi baru.
+
+
+
+63
+
+Antarmuka Halaman Daftar  Jenis  Regulasi  dapat  dilihat  pada Gambar
+
+3.35 berikut.
+
+Gambar 3.35 Layout Antarmuka Halaman Daftar Jenis Regulasi
+
+Berikut merupakan keterangan dari Gambar 3.35 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Tombol untuk melakukan edit data pada baris bersangkutan.
+
+(6) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+64
+
+Antarmuka  Halaman  Daftar  Galeri  dapat  dilihat  pada  Gambar  3.36
+
+berikut.
+
+Gambar 3.36 Layout Antarmuka Halaman Daftar Galeri
+
+Berikut merupakan keterangan dari Gambar 3.36 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Tombol untuk melakukan edit data pada baris bersangkutan.
+
+(6) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+65
+
+Antarmuka  Halaman  Input  Galeri  dapat  dilihat  pada  Gambar  3.37
+
+berikut.
+
+Gambar 3.37 Layout Antarmuka Halaman Input Galeri
+
+Berikut merupakan keterangan dari Gambar 3.37 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi form untuk mendaftarkan foto baru. 
+
+
+
+66
+
+Antarmuka Halaman Daftar  Tentang Kami dapat  dilihat  pada Gambar
+
+3.38 berikut.
+
+Gambar 3.38 Layout Antarmuka Halaman Daftar Tentang Kami
+
+Berikut merupakan keterangan dari Gambar 3.38 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi daftar konten tentang kami. 
+
+
+
+67
+
+Antarmuka  Halaman  Daftar  Kontak  Kami  dapat  dilihat  pada  Gambar
+
+3.39 berikut.
+
+Gambar 3.39 Layout Antarmuka Halaman Daftar Kontak Kami
+
+Berikut merupakan keterangan dari Gambar 3.39 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi daftar konten kontak kami. 
+
+
+
+68
+
+Antarmuka  Halaman  Daftar  Pesan  Masuk  dapat  dilihat  pada  Gambar
+
+3.40 berikut.
+
+Gambar 3.40 Layout Antarmuka Halaman Daftar Pesan Masuk
+
+Berikut merupakan keterangan dari Gambar 3.40 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Bagian yang menampilkan daftar pesan masuk.
+
+(6) Tombol untuk melakukan lihat data pada baris bersangkutan.
+
+(7) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+69
+
+Antarmuka Halaman Lihat Pesan Masuk dapat dilihat pada Gambar 3.41
+
+berikut.
+
+Gambar 3.41 Layout Antarmuka Halaman Lihat Pesan Masuk
+
+Berikut merupakan keterangan dari Gambar 3.41 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang menampilkan isi pesan.
+
+(5) Tombol navigasi untuk kembali ke halaman daftar pesan masuk.
+
+(6) Panel yang berisi informasi mengenai pesan.
+
+(7) Tombol untuk membalas pesan.
+
+ 
+
+
+
+70
+
+Antarmuka  Halaman  Daftar  Pesan  Keluar  dapat  dilihat  pada  Gambar
+
+3.42 berikut.
+
+Gambar 3.42 Layout Antarmuka Halaman Daftar Pesan Keluar
+
+Berikut merupakan keterangan dari Gambar 3.42 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Bagian yang menampilkan daftar pesan keluar.
+
+(6) Tombol untuk melakukan lihat data pada baris bersangkutan.
+
+(7) Tombol untuk melakukan hapus data pada baris bersangkutan.
+
+
+
+71
+
+Antarmuka Halaman Lihat Pesan Keluar dapat dilihat pada Gambar 3.43
+
+berikut.
+
+Gambar 3.43 Layout Antarmuka Halaman Lihat Pesan Keluar
+
+Berikut merupakan keterangan dari Gambar 3.43 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang menampilkan isi pesan.
+
+(5) Tombol navigasi untuk kembali ke halaman daftar pesan keluar.
+
+(6) Panel yang berisi informasi mengenai pesan.
+
+(7) Tombol untuk meneruskan pesan.
+
+
+
+72
+
+3.2.9.7. Layout Antarmuka Halaman Admin OPD Panel
+
+Halaman Admin OPD Panel adalah halaman dimana admin opd memiliki
+
+hak untuk mengelola statistik. Halaman ini dibagi berdasarkan menu-menu yang
+
+akan mengarahkan admin opd ke halaman spesifik. Menu-menu tersebut antara
+
+lain adalah menu dashboard, statistik  dan pesan.
+
+Antarmuka Halaman Dashboard dapat dilihat pada Gambar 3.44 berikut.
+
+Gambar 3.44 Layout Antarmuka Halaman Dashboard OPD
+
+Berikut merupakan keterangan dari Gambar 3.44 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Bagian berisi menu navigasi.
+
+(3) Bagian yang menampilkan jumlah data statistik berdasarkan bulan, tahun dan
+
+kab/kota yang pernah pengguna unggah.
+
+Statistik Berdasarkan 
+Tahun      20
+
+Statistik Berdasarkan Kab/Kota 
+5
+
+Statistik Berdasarkan Bulan
+15
+
+
+
+73
+
+(4) Bagian yang menampilkan kalender, mencakup hari, bulan dan tahun saat ini.
+
+(5) Bagian yang menampilkan profil pengguna yang login saat ini.
+
+(6) Bagian untuk mengganti password akun pribadi pengguna yang sedang login.
+
+Antarmuka  Halaman  Daftar  Statistik  dapat  dilihat  pada  Gambar  3.45
+
+berikut.
+
+Gambar 3.45 Layout Antarmuka Halaman Daftar Statistik OPD
+
+Berikut merupakan keterangan dari Gambar 3.45 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Bagian yang berisi form untuk mendaftarkan statistik baru.
+
+(6) Tombol untuk melakukan lihat data pada baris bersangkutan.
+
+(7) Tombol untuk melakukan request  edit data pada baris bersangkutan.
+
+(8) Tombol untuk melakukan request hapus data pada baris bersangkutan.
+
+
+
+74
+
+Antarmuka  Halaman  Input  Statistik  dapat  dilihat  pada  Gambar  3.46
+
+berikut.
+
+Gambar 3.46 Layout Antarmuka Halaman Input Statistik OPD
+
+Berikut merupakan keterangan dari Gambar 3.46 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Tombol navigasi menuju halaman profil.
+
+(3) Bagian yang berisi menu navigasi.
+
+(4) Bagian yang berisi form untuk mendaftarkan statistik baru. 
+
+
+
+75
+
+Antarmuka  Halaman  Pesan  Masuk  dapat  dilihat  pada  Gambar  3.47
+
+berikut.
+
+Gambar 3.47 Layout Antarmuka Halaman Pesan Masuk OPD
+
+Berikut merupakan keterangan dari Gambar 3.47 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Bagian yang berisi form untuk menampilkan pesan masuk. 
+
+Antarmuka  Halaman  Pesan  Keluar  dapat  dilihat  pada  Gambar  3.48
+
+berikut.
+
+
+
+76
+
+Gambar 3.48 Layout Antarmuka Halaman Pesan Keluar OPD
+
+Berikut merupakan keterangan dari Gambar 3.48 :
+
+(1) Tombol untuk menyembunyikan/menampilkan menu.
+
+(2) Input Teks yang digunakan untuk melakukan pencarian.
+
+(3) Tombol navigasi menuju halaman profil.
+
+(4) Bagian yang berisi menu navigasi.
+
+(5) Bagian yang berisi form untuk menampilkan pesan keluar. 
+
+3.2.10. Pengujian dan Validasi
+
+3.2.10.1. Pengujian Black-Box
+
+Pengujian  Black-Box merupakan  pengujian  yang  dilakukan  untuk
+
+memeriksa apakah program dapat berjalan dengan benar. Data pengujian dipilih
+
+berdasarkan  spesifikasi  masalah  tanpa  memperhatikan  detail  internal  dari
+
+program. Hasil dari pengujian  Black-Box  ditunjukkan dengan tabel seperti pada
+
+tabel 3.21 berikut.
+
+Tabel 3.20 Tabel Pengujian Black-Box
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+
+
+77
+
+3.2.10.2. User Acceptance Testing (UAT)
+
+User Acceptance Testing merupakan pengujian terakhir yang dilakukan
+
+untuk  mendapatkan  feedback  pengguna  terhadap  aplikasi  yang  dibangun.
+
+Pengujian ini dilakukan melalui wawancara terhadap kepala seksi statistik, bidang
+
+persandian dan statistik, Dinas Komunikasi dan Informatika provinsi Kalimantan
+
+Barat. Poin-poin pertanyaan yang diajukan kepada responden dirangkum seperti
+
+ditunjukkan pada tabel 3.21.
+
+Tabel 3.21 Pertanyaan pada User Acceptance Testing (UAT)
+
+No. Pertanyaan
+
+1. Apakah tujuan aplikasi sistem informasi telah tercapai ?
+
+2. Apakah fungsi masing-masing pengguna telah terpenuhi ?
+
+3.
+Apakah kebutuhan akan data statistik sektoral dapat dipenuhi melalui 
+aplikasi ?
+
+4.
+Apakah kendala pada saat pengumpulan data manual dapat diatasi 
+oleh aplikasi ?
+
+5.
+Apakah proses yang berjalan pada aplikasi telah sesuai dengan proses 
+manual ?
+
+6. Apakah produk yang dihasilkan telah sesuai ?
+
+7.
+Apakah respon (feedback) aplikasi terhadap input yang dilakukan telah
+sesuai ?
+
+8.
+Bagaimana pendapat anda mengenai kinerja proses pada saat 
+administrator mengelola data ?
+
+9.
+Bagaimana pendapat anda mengenai kinerja proses pada saat admin 
+OPD mengelola data ?
+
+10.
+Bagaimana pendapat anda secara keseluruhan terhadap aplikasi yang 
+telah dibuat ?
+
+3.2.11. Analisis Hasil Pengujian
+Analisis dilakukan dalam tahap pengujian dan validasi untuk mengetahui
+
+karakteristik sistem dan mengidentifikasi jika terdapat ketidakkonsistenan sistem.
+
+Hasil analisis juga digunakan sebagai dasar perbaikan.
+
+
+
+78
+
+3.2.12. Penarikan Kesimpulan
+Kesimpulan  dirumuskan  berdasarkan  pengujian  yang  telah  dilakukan
+
+apakah sistem yang dirancang mampu melakukan fungsi sebagai sistem informasi
+
+dengan tepat.
+
+
+
+BAB IV
+
+HASIL DAN PEMBAHASAN
+
+4.1. Hasil Perancangan dan Implementasi Program
+
+Sistem yang dirancang merupakan sebuah aplikasi untuk mengelola data
+
+statistik  sektoral di  lingkungan provinsi Kalimantan Barat.  Aplikasi  terdiri  dari
+
+tiga  bagian  utama  yang  dibagi  berdasarkan  level  hak  akses  pengguna  yaitu
+
+Halaman Administrator yang menampilkan menu untuk mengelola seluruh konten
+
+dan  data  statistik  yang telah  dikumpulkan  sebelumnya,  Halaman  Admin  OPD
+
+yang  berfungsi  untuk  mengisi  data  statistik  sektoral  berdasarkan  opd  tempat
+
+admin OPD bernaung, dan Halaman pengguna umum atau Guest yang berfungsi
+
+untuk  menampilkan  konten  dan  data  statistik  sektoral  yang  sebelumnya  telah
+
+dikelola oleh administrator.
+
+4.1.1. Form Login
+Form Login berfungsi untuk menampilkan form input untuk mengakses
+
+Admin Panel  atau  Admin Opd Panel  bergantung dari  hak akses  akun masing-
+
+masing. Antarmuka Form Login dapat dilihat pada Gambar 4.1.
+
+Gambar 4.1 Antarmuka Form Login
+
+77
+
+
+
+78
+
+Berdasarkan Gambar 4.1, pengguna perlu memasukkan data email  dan
+
+kata sandi agar dapat melakukan login. Hak akses pengguna akan dibaca secara
+
+otomatis oleh sistem dengan mencocokkan data email dan kata sandi pengguna
+
+terhadap hak aksesnya. Hak akses yang berhak login dibagi menjadi 2 jenis, yaitu
+
+administrator  dan  admin  OPD.  Apabila  berhasil  login,  maka  kedua  hak  akses
+
+tersebut akan dialihkan ke halamannya masing-masing. Selain itu juga ada fitur
+
+lupa  password   yang  berfungsi  untuk  membantu  pengguna  apabila  pengguna
+
+mengalami masalah lupa kata sandi sehingga tidak bisa login.
+
+4.1.2. Halaman Administrator
+Halaman  Administrator  berfungsi  untuk  menampilkan  form  untuk
+
+mengelola  seluruh  konten  yang  akan  ditampilkan  dalam  sistem  informasi.
+
+Antarmuka  Form  Halaman  Administrator  dibagi  menjadi  beberapa  bagian
+
+berdasarkan menu.
+
+4.1.2.1. Menu Dashboard
+Halaman  Dashboard merupakan  halaman  awal  yang  berisi  pintasan
+
+untuk melihat  data  jumlah data yang ada di dalam sistem informasi,  kalender,
+
+kelola profil dan ganti  password.  Antarmuka halaman  Dashboard dapat dilihat
+
+pada Gambar 4.2.
+
+
+
+79
+
+Gambar 4.2 Antarmuka Dashboard Administrator
+
+Berdasarkan Gambar 4.2, Dashboard dibagi menjadi 4 bagian yang terdiri atas :
+
+a. Bagian untuk menampilkan data jumlah pengguna, berita, statistik dan foto 
+galeri.
+
+b. Bagian yang menampilkan kalender.
+c. Bagian untuk menampilkan data pribadi pengguna yang sedang login dan 
+
+tombol edit untuk mengubah data pribadi pengguna.
+d. Bagian untuk mengganti password akun pengguna yang sedang login.  
+
+4.1.2.2. Menu Pengguna
+Menu pengguna merupakan menu yang berfungsi untuk mengelola data
+
+pengguna.  Pengguna  yang  dapat  dikelola  dibagi  menjadi  2  jenis,  yaitu
+
+administrator dan admin opd. Menu pengguna dibagi menjadi 2 sub-menu yang
+
+
+
+80
+
+mengarah  ke  halaman  daftar  pengguna  dan  form input  pengguna.  Antarmuka
+
+halaman-halaman tersebut ditunjukkan pada Gambar 4.3 dan Gambar 4.4.
+
+Gambar 4.3 Antarmuka Daftar Pengguna
+
+Gambar 4.4 Antarmuka Form Input Pengguna
+
+Halaman daftar  pengguna seperti  ditunjukkan pada Gambar 4.3 diatas
+
+berisi data seluruh akun pengguna yang terdaftar di dalam basis data. Halaman ini
+
+juga berisi tombol fungsi edit dan hapus data akun pengguna. Selanjutnya adalah
+
+halaman  input  pengguna  seperti  ditunjukkan  oleh  Gambar  4.4.  Halaman  ini
+
+
+
+81
+
+berfungsi  untuk  mendaftarkan  akun  baru  untuk  pengguna.  Data  yang  perlu
+
+diinputkan  untuk mendaftarkan  pengguna  antara  lain  adalah  hak akses,  email,
+
+password, nama, NIP, alamat, telepon dan asal instansi. 
+
+4.1.2.3. Menu Instansi
+
+Menu instansi  merupakan menu yang berfungsi  untuk mengelola  data
+
+instansi. Menu instansi dibagi menjadi 2 sub-menu yang mengarah ke halaman
+
+daftar  instansi  dan  form  input  instansi.  Antarmuka  halaman-halaman  tersebut
+
+ditunjukkan pada Gambar 4.5 dan Gambar 4.6.
+
+Gambar 4.5 Antarmuka Daftar Instansi
+
+Gambar 4.6 Antarmuka Form Input Instansi
+
+
+
+82
+
+Halaman daftar instansi seperti ditunjukkan oleh Gambar 4.5 merupakan
+
+halaman yang berisi data instansi atau organisasi perangkat daerah di lingkungan
+
+Provinsi  Kalimantan  Barat.  Halaman  ini  juga  berisi  tombol  fungsi  edit  data
+
+instansi.  Selanjutnya  adalah  halaman  input  instansi  seperti  ditunjukkan  oleh
+
+Gambar  4.6  yang  berfungsi  untuk  mendaftarkan  data  instansi  atau  organisasi
+
+perangkat daerah baru.
+
+4.1.2.4. Menu Berita
+
+Menu  berita  merupakan  menu  yang  berfungsi  untuk  mengelola  data
+
+berita. Menu berita dibagi menjadi 2 sub-menu yang mengarah ke halaman daftar
+
+berita dan form input berita. Antarmuka halaman-halaman tersebut ditunjukkan
+
+pada Gambar 4.7 dan Gambar 4.8.
+
+Gambar 4.7 Antarmuka Daftar Berita
+
+
+
+83
+
+Gambar 4.8 Antarmuka Form Input Berita
+
+Halaman  daftar  berita  seperti  yang  ditunjukkan  oleh  Gambar  4.7
+
+merupakan halaman untuk menampilkan data berita yang telah diinputkan oleh
+
+administrator  lewat  halaman  form  input  berita  seperti  yang  ditunjukkan  oleh
+
+Gambar  4.8.  Administrator  dapat  melakukan  input,  edit  dan  hapus  data  berita
+
+melalui kedua halaman tersebut.
+
+4.1.2.5. Menu Statistik
+Menu statistik  merupakan menu yang berfungsi  untuk mengelola  data
+
+statistik.  Menu berita  dibagi  menjadi  4  sub-menu yang mengarah  ke  halaman
+
+daftar  statistik,  daftar  input  statistik,  form  input  statistik  dan  pesan  statistik.
+
+Antarmuka  halaman-halaman  tersebut  ditunjukkan  pada  Gambar  4.9,  Gambar
+
+4.10, Gambar 4.11 dan Gambar 4.16.
+
+Gambar 4.9 Antarmuka Daftar Statistik
+
+
+
+84
+
+Gambar 4.10 Antarmuka Daftar Input Statistik
+
+Halaman  daftar  statistik  seperti  yang  ditunjukkan  oleh  Gambar  4.9
+
+merupakan halaman yang berisi data statistik yang sebelumnya telah dikelola oleh
+
+administrator.  Data  statistik  yang  ada  pada  daftar  inilah  yang  nantinya  akan
+
+disebarluaskan.  Selain  menampilkan  data  stastistik,  halaman  ini  juga
+
+menampilkan  tombol  fungsi  edit  dan  hapus  data  statistik.  Selanjutnya  adalah
+
+halaman daftar input statistik seperti ditunjukkan oleh Gambar 4.10 merupakan
+
+halaman  untuk  menampilkan  data  statistik  yang  diinputkan  oleh  organisasi
+
+perangkat  daerah di lingkungan pemerintahan Provinsi Kalimantan Barat.  Data
+
+statistik  ini  ditampilkan  berdasarkan  bulan,  tahun,  kabupaten/kota  dan  berkas.
+
+Pada  halaman  ini  juga  terdapat  tombol  edit  dan  hapus  yang  berfungsi  untuk
+
+mengubah dan menghapus data yang ingin dikelola oleh administrator.
+
+
+
+85
+
+Gambar 4.11 Antarmuka Piihan Jenis Input Statistik
+
+Halaman form input statistik sepeti yang ditunjukkan pada Gambar 4.11
+
+merupakan  halaman  yang  memiliki  navigasi  untuk  menuju  halaman-halaman
+
+input  berdasarkan  jenis  data  yang  akan  diinputkan.  Jenis  data  yang  dimaksud
+
+antara lain terdiri atas Grafik Batang, Grafik Pie, Grafik Garis, Gambar, Berkas
+
+PDF dan Berkas XLSX.
+
+Gambar 4.12 Antarmuka Form Input Grafik Batang Berdasarkan Tahun
+
+
+
+86
+
+Halaman  Form Input  Grafik  Batang  seperti  ditunjukkan  oleh  Gambar
+
+4.12  kembali  dibagi  berdasarkan  jenis  datanya,  yaitu  berdasarkan  bulan,
+
+berdasarkan tahun dan berdasarkan kabupaten/kota.  Data yang perlu diinputkan
+
+antara lain data instansi, judul, nilai dan deskripsi.
+
+Gambar 4.13 Antarmuka Form Input Gambar Grafik
+
+
+
+87
+
+Halaman Form Input Gambar Grafik seperti  ditunjukkan oleh Gambar
+
+4.13  kembali  dibagi  berdasarkan  jenis  datanya,  yaitu  berdasarkan  bulan,
+
+berdasarkan tahun dan berdasarkan kabupaten/kota.  Data yang perlu diinputkan
+
+antara lain data instansi, judul, dan nilai.
+
+Gambar 4.14 Antarmuka Form Input Berkas PDF
+
+Halaman Form Input Berkas PDF seperti ditunjukkan oleh Gambar 4.14
+
+merupakan halaman yang berfungsi untuk mengunggah berkas PDF.  Data yang
+
+perlu  diinputkan  antara  lain  data  instansi,  judul  berkas,  pilih  berkas  dan
+
+keterangan berkas.
+
+Gambar 4.15 Antarmuka Form Pilihan Jenis Unduh Template Berkas Excel
+
+
+
+88
+
+Halaman  Unduh  Berkas  Template XLSX  seperti  ditunjukkan  oleh
+
+Gambar  4.15  merupakan  halaman  yang  berfungsi  untuk  mengunduh  berkas
+
+template XLSX. Template ini  merupakan  berkas  yang  berisi  form  data  yang
+
+bersifat tertutup yang perlu diisi oleh organisasi perangkat daerah. 
+
+Gambar 4.16 Antarmuka Form Input Berkas Excel
+
+Halaman  Form Input  Berkas  XLSX seperti  ditunjukkan  oleh  Gambar
+
+4.16 merupakan halaman yang berfungsi untuk mengunggah berkas XLSX.  Data
+
+yang perlu  diinputkan  antara  lain  data  instansi,  judul  berkas,  pilih  berkas  dan
+
+keterangan berkas.
+
+Gambar 4.17 Antarmuka Form Input Pesan Permintaan Data Statistik
+
+
+
+89
+
+Halaman Permintaan Data Statistik seperti ditunjukkan oleh Gambar 4.17
+
+merupakan halaman yang berfungsi untuk mengirim pesan mengenai keperluan
+
+data statistik  kepada organisasi  perangkat daerah tertentu.   Administrator  perlu
+
+menginputkan penerima pesan, judul  pesan dan isi  pesan yang kemudian akan
+
+dikirimkan kepada admin Organisasi Perangkat Daerah.
+
+4.1.2.6. Menu Regulasi
+Menu regulasi  merupakan menu yang berfungsi  untuk mengelola  data
+
+regulasi. Menu regulasi dibagi menjadi 3 sub-menu yang mengarah ke halaman
+
+daftar regulasi  form input regulasi dan daftar jenis regulasi. Antarmuka halaman-
+
+halaman tersebut ditunjukkan pada Gambar 4.18, Gambar 4.19 dan Gambar 4.20.
+
+Gambar 4.18 Antarmuka Daftar Regulasi
+
+
+
+90
+
+Gambar 4.19 Antarmuka Form Input Regulasi dan Jenis Regulasi
+
+Gambar 4.20 Antarmuka Daftar Jenis Regulasi
+
+
+
+91
+
+Halaman  daftar  regulasi  seperti  ditunjukkan  oleh  Gambar  4.18
+
+merupakan  halaman  untuk  menampilkan  data  regulasi  yang  berkaitan  dengan
+
+pelaksanaan statistik sektoral. Selain itu, halaman ini juga memiliki fungsi untuk
+
+melakukan  edit  dan hapus  data  regulasi.  Selanjutnya  Gambar  4.19  merupakan
+
+halaman  untuk  melakukan  input  regulasi  baru  dan  jenis  regulasi  baru.
+
+Administrator  perlu  memasukkan  data  jenis  regulasi,  judul  regulasi  dan  isi
+
+regulasi untuk menambahkan regulasi baru, sedangkan untuk menambahkan jenis
+
+regulasi baru, administrator hanya perlu menginputkan data jenis regulasi baru.
+
+Sedangkan Gambar 4.20 merupakan halaman daftar jenis regulasi yang berisi data
+
+jenis regulasi yang sebelumnya telah diinputkan pada halaman form input jenis
+
+regulasi.  Pada  halaman  ini,  pengguna  juga  dapat  melakukan  edit  data  jenis
+
+regulasi. 
+
+4.1.2.7. Menu Galeri
+Menu  galeri  merupakan  menu  yang  berfungsi  untuk  mengelola  data
+
+galeri. Menu galeri dibagi menjadi 2 sub-menu yang mengarah ke halaman daftar
+
+foto dan form input foto. Antarmuka halaman-halaman tersebut ditunjukkan pada
+
+Gambar 4.21 dan Gambar 4.22.
+
+Gambar 4.21 Antarmuka Daftar Foto Galeri
+
+
+
+92
+
+Gambar 4.22 Antarmuka Form Input Foto Galeri
+
+Halaman  daftar  galeri  seperti  yang  ditunjukkan  oleh  Gambar  4.21
+
+merupakan halaman untuk menampilkan data galeri  yang telah diinputkan oleh
+
+administrator  lewat  halaman  form  input  galeri  seperti  yang  ditunjukkan  oleh
+
+Gambar 4.22. Administrator dapat melakukan input,  edit  dan hapus data galeri
+
+melalui kedua halaman tersebut.
+
+4.1.2.8. Menu Halaman Utama
+Menu halaman utama  merupakan menu yang berfungsi untuk mengelola
+
+data  halaman  utama.  Menu  halaman  utama  dibagi  menjadi  2  sub-menu  yang
+
+mengarah ke halaman daftar tentang kami dan daftar  kontak kami.  Antarmuka
+
+halaman-halaman tersebut ditunjukkan pada Gambar 4.23 dan Gambar 4.24.
+
+
+
+93
+
+Gambar 4.23 Antarmuka Daftar Konten Tentang Kami
+
+Halaman  daftar  konten  tentang  kami  seperti  yang  ditunjukkan  oleh
+
+Gambar 4.23 merupakan halaman untuk menampilkan data yang berkaitan dengan
+
+pengertian  sistem  informasi  statistik  sektoral,  pengertian  statistik  sektoral,
+
+penjelasan seksi statistik dalam Dinas Komunikasi dan Informatika,  serta tugas
+
+pokok dan fungsi seksi statistik tersebut. Halaman ini juga memiliki tombol edit
+
+yang berfungsi untuk memperbarui data-data tentang kami di atas.
+
+
+
+94
+
+Gambar 4.24 Antarmuka Daftar Konten Kontak Kami
+
+Halaman  daftar  konten  tentang  kami  seperti  yang  ditunjukkan  oleh
+
+Gambar  4.24  merupakan  halaman  untuk  menampilkan  data  berkaitan  dengan
+
+kontak  pengelola  sistem  informasi  statistik  sektoral  ini.  Data  kontak  yang
+
+dimaksud terdiri atas, data alamat, telepon, fax, email dan kode pos. Halaman ini
+
+juga memiliki tombol edit  yang berfungsi untuk memperbarui data-data kontak
+
+diatas.
+
+4.1.2.9. Menu Pesan
+Menu  pesan  merupakan  menu  yang  berfungsi  untuk  mengelola  data
+
+pesan. Menu pesan dibagi menjadi 4 sub-menu yang mengarah ke halaman input
+
+pesan baru, input pesan untuk OPD, daftar pesan masuk dan daftar pesan keluar.
+
+Antarmuka halaman-halaman tersebut  ditunjukkan  pada  Gambar  4.25,  Gambar
+
+4.26, Gambar 4.27 dan Gambar 4.28.
+
+
+
+95
+
+Gambar 4.25 Antarmuka Form Input Kirim Pesan Baru
+
+Gambar 4.26 Antarmuka Form Input Kirim Pesan Baru untuk OPD
+
+Halaman  form  input  pesan  baru  merupakan  halaman  yang  berfungsi
+
+sebagai media untuk membuat pesan baru kemudian dikirimkan ke tujuan yang
+
+bersangkutan seperti  ditunjukkan oleh Gambar 4.25. Selanjutnya halaman form
+
+
+
+96
+
+input kirim pesan baru untuk OPD merupakan halaman untuk mengirim khusus
+
+kepada organisasi perangkat daerah seperti yang ditunjukkan oleh Gambar 4.26.
+
+Gambar 4.27 Antarmuka Daftar Pesan Masuk 
+
+Gambar 4.28 Antarmuka Daftar Pesan Keluar
+
+Halaman  daftar  pesan  masuk  merupakan  halaman  yang  menampilka
+
+pesan  masuk  kepada  administrator  seperti  ditunjukkan  oleh  Gambar  4.27.
+
+Halaman  ini  juga  memiliki  fungsi  untuk melihat  dan   menghapus  pesan yang
+
+masuk.  Sedangkan  Halaman  yang  ditunjukkan  oleh  Gambar  4.28  merupakan
+
+halaman daftar pesan keluar yang menampilkan daftar pesan yang pernah dikirim
+
+oleh  administrator.  Pada  halaman  ini,  pengguna  juga  dapat  melihat  dan
+
+menghapus data pesan keluar apabila diperlukan.
+
+
+
+97
+
+4.1.3. Halaman Admin OPD
+Halaman  Admin  OPD  berfungsi  untuk  menampilkan  form  untuk
+
+mengelola  data  pribadi,  input  statistik  dan pesan berdasarkan instansi  masing-
+
+masing. Antarmuka Form Halaman Admin OPD dibagi menjadi beberapa bagian
+
+berdasarkan menu.
+
+4.1.3.1. Menu Dashboard
+Halaman  Dashboard merupakan  halaman  awal  yang  berisi  pintasan
+
+untuk melihat data jumlah data statistik yang pernah diinput oleh admin opd dan
+
+kalender. Antarmuka halaman Dashboard dapat dilihat pada Gambar 4.29.
+
+Gambar 4.29 Antarmuka Dashboard Admin OPD Panel
+
+Berdasarkan Gambar 4.29, Dashboard dibagi menjadi 2 bagian yang terdiri atas :
+
+e. Bagian untuk menampilkan data jumlah pengguna, berita, statistik dan foto 
+galeri.
+
+f. Bagian yang menampilkan kalender.
+ 
+
+4.1.3.2. Menu Profil
+Menu  profil  merupakan  menu  yang  berfungsi  untuk  mengelola  data
+
+profil. Menu profil dibagi menjadi 2 sub-menu yang mengarah ke halaman lihat
+
+profil  dan  ganti  password.  Antarmuka  halaman-halaman  tersebut  ditunjukkan
+
+pada Gambar 4.30 dan Gambar 4.31.
+
+
+
+98
+
+Gambar 4.30 Antarmuka Form Profil
+
+Gambar 4.31 Antarmuka Form Ganti Password
+
+Berdasarkan  Gambar  4.30,  Halaman  profil  merupakan  halaman  yang
+
+berisi  data  pribadi  pengguna  yang  sedang  login.  Halaman  ini  juga  memiliki
+
+tombol fungsi edit yang berfungsi untuk memperbarui data pribadi pengguna yang
+
+bersangkutan. Selanjutnya halaman form ganti password seperti ditunjukkan oleh
+
+Gambar  4.31  berfungsi  untuk  mengganti  kata  sandi  dari  akun  penguna  yang
+
+bersangkutan.
+
+
+
+99
+
+4.1.3.3. Menu Statistik
+Menu statistik  merupakan menu yang berfungsi untuk mengelola data
+
+statistik. Menu statistik dibagi menjadi 2 sub-menu yang mengarah ke halaman
+
+daftar  input  statistik  dan  form  input  statistik.  Antarmuka  halaman-halaman
+
+tersebut ditunjukkan pada Gambar 4.32 dan Gambar 4.33.
+
+Gambar 4.32 Antarmuka Daftar Input Statistik OPD
+
+Halaman  daftar  input  statistik  seperti  ditunjukkan  oleh  Gambar  4.32
+
+merupakan halaman untuk menampilkan data statistik yang diinputkan oleh admin
+
+opd  berdasarkan  instansinya  masing-masing.  Pada  halaman  ini  juga  terdapat
+
+tombol lihat dan hapus yang berfungsi untuk melihat dan menghapus data yang
+
+telah diunggah oleh admin opd.
+
+
+
+100
+
+Gambar 4.33 Antarmuka Input Statistik
+
+Halaman Permintaan Data Statistik seperti ditunjukkan oleh Gambar 4.33
+
+merupakan  halaman  yang  menampilkan  detil  permintaan  data  statistik  oleh
+
+administrator. Terdapat 3 menu navigasi dalam halaman ini, yaitu tombol untuk
+
+mengakses halaman unduh template berkas, unggah berkas apabila telah memiliki
+
+berkas yang sesuai dengan template dan tombol isi data untuk mengakses halaman
+
+yang berisi form isi data statistik. Halaman yang diakses oleh menu-menu tersebut
+
+ditunjukkan pada Gambar 4.34, Gambar 4.35 dan Gambar 4.36.
+
+Gambar 4.34 Antarmuka Menu Unduh Template Excel
+
+
+
+101
+
+Halaman  unduh  berkas  template  xlsx  seperti  yang  ditunjukkan  oleh
+
+Gambar 4.34 merupakan halaman yang berisi tombol-tombol untuk mengunduh
+
+berkas template yang dibagi berdasarkan bulan, tahun dan kabupaten/kota.
+
+Gambar 4.35 Antarmuka Form Input Berkas Excel oleh OPD
+
+Halaman form input berkas xlsx merupakan halaman untuk mengunggah
+
+berkas  template yang  telah  diisi  oleh  admin  opd.  Halaman  tersebut  seperti
+
+ditunjukkan oleh Gambar 4.35 memiliki 3 kolom input yaitu, judul berkas, pilih
+
+berkas dan keterangan berkas. 
+
+
+
+102
+
+Gambar 4.36 Antarmuka Form Input Data Statistik oleh OPD
+
+Halaman  form  input  data  statistik  merupakan  halaman  untuk
+
+memasukkan data statistik sesuai dengan permintaan administrator sebelumnya.
+
+Seperti  yang ditunjukkan oleh Gambar 4.36,  admin opd perlu mengisi  kolom-
+
+kolom yang kosong sesuai dengan jenis kolomnya. 
+
+
+
+103
+
+Gambar 4.37 Antarmuka Pilih Jenis Data oleh OPD
+
+Halaman pilih jenis data merupakan halaman untuk memilih jenis data
+
+yang ingin ditampilkan dan diunduh. Seperti yang ditunjukkan oleh Gambar 4.37,
+
+jenis  data  yang  dimaksud  terdiri  atas  data  berdasarkan  bulan,  tahun  dan
+
+kabupaten/kota. 
+
+Gambar 4.38 Antarmuka Proses Unduh Statistik oleh OPD
+
+Halaman proses unduh statistik merupakan halaman untuk memasukkan
+
+judul grafik baru dan memilih klasifikasi  serta judul dari data statistik sektoral
+
+yang  telah  dipublikasikan  oleh  administrator.  Seperti  yang  ditunjukkan  oleh
+
+Gambar 4.38, admin opd perlu mengisi kolom-kolom yang kosong sesuai dengan
+
+jenis kolomnya. 
+
+
+
+104
+
+Gambar 4.39 Antarmuka Hasil Unduh Data Statistik oleh OPD
+
+Halaman  form  input  data  statistik  merupakan  halaman  untuk
+
+menampilkan data  statistik  sektoral  berbentuk grafik sesuai  dengan permintaan
+
+admin  OPD  pada  halaman  proses  unduh  statistik  sebelumnya.  Seperti  yang
+
+ditunjukkan oleh Gambar 4.39, admin opd dapat melihat kemudian mengunduh
+
+gambar grafik melalui tombol pilihan di pojok kanan atas grafik. 
+
+4.1.3.4. Menu Pesan
+Menu  pesan  merupakan  menu  yang  berfungsi  untuk  mengelola  data
+
+pesan. Menu pesan dibagi menjadi 3 sub-menu yang mengarah ke halaman input
+
+pesan baru,  daftar  pesan  masuk dan daftar  pesan keluar.  Antarmuka halaman-
+
+halaman tersebut ditunjukkan pada Gambar 4.40, Gambar 4.41 dan Gambar 4.42.
+
+
+
+105
+
+Gambar 4.40 Antarmuka Form Input Pesan Baru untuk Administrator oleh OPD
+
+Halaman form input pesan baru merupakan halaman yang berfungsi 
+
+sebagai media untuk membuat pesan baru kemudian dikirimkan ke administrator 
+
+seperti ditunjukkan oleh Gambar 4.40.
+
+Gambar 4.41 Antarmuka Daftar Pesan Masuk OPD
+
+
+
+106
+
+Gambar 4.42 Antarmuka Daftar Pesan Keluar OPD
+
+Halaman  daftar  pesan  masuk  merupakan  halaman  yang  menampilka
+
+pesan  masuk  kepada  administrator  seperti  ditunjukkan  oleh  Gambar  4.41.
+
+Halaman  ini  juga  memiliki  fungsi  untuk melihat  dan   menghapus  pesan yang
+
+masuk.  Sedangkan  Halaman  yang  ditunjukkan  oleh  Gambar  4.42  merupakan
+
+halaman daftar pesan keluar yang menampilkan daftar pesan yang pernah dikirim
+
+oleh  administrator.  Pada  halaman  ini,  pengguna  juga  dapat  melihat  dan
+
+menghapus data pesan keluar apabila diperlukan.
+
+4.1.4. Halaman Guest
+Halaman  Guest berfungsi untuk menampilkan konten hasil kelola yang
+
+dilakukan  oleh  administrator.  Form  ini  dibagi  menjadi  7  menu  utama  yaitu,
+
+Beranda,  Tentang  Kami,  Statistik,  Berita,  Regulasi,  Galeri  dan  Kontak  Kami.
+
+Menu-menu  tersebut  merupakan  navigasi  untuk  mengakses  halaman  masing-
+
+masing. Antarmuka halaman beranda ditunjukkan pada Gambar 4.43 dan Gambar
+
+4.44.
+
+
+
+107
+
+Gambar 4.43 Antarmuka Halaman Beranda Bagian 1
+
+Halaman beranda bagian 1 seperti yang ditunjukkan oleh Gambar 4.43
+
+dibagi menjadi 5 bagian utama, antara lain :
+
+a. Menubar,  merupakan  bagian  yang  menampilkan  menu  navigasi  untuk
+
+mengakses halaman lainnya.
+
+b. Header, merupakan bagian yang menampilkan judul sistem informasi.
+
+c. Bagian  tentang,  merupakan  bagian  yang  menampilkan  tentang  pengertian
+
+sistem informasi statistik sektoral dan pengertian statistik sektoral itu sendiri.
+
+APLIKASI PENGOLAHAN DATA STATISTIK 
+SEKTORAL
+
+
+
+108
+
+d. Bagian  regulasi,  merupakan  bagian  yang  menampilkan  3  judul  regulasi
+
+teratas.
+
+e. Bagian berita, merupakan bagian untuk menampilkan 3 berita terkini.
+
+Gambar 4.44 Antarmuka Halaman Beranda Bagian 2
+
+Halaman beranda bagian 1 seperti yang ditunjukkan oleh Gambar 4.44
+
+dibagi menjadi 5 bagian utama, antara lain :
+
+a. Bagian  statistik,  merupakan  bagian  untuk  menampilkan  3  data  statistik
+
+terbaru.
+
+b. Bagian galeri merupakan bagian untuk menampilkan 4 foto galeri terbaru.
+
+c. Footer, merupakan bagian yang berfungsi sebagai kaki dan berisi informasi
+
+hak cipta, kepemilikan, link dan kontak.
+
+
+
+109
+
+Menu  selanjutnya  adalah  menu  tentang  kami  yang  dapat  mengakses
+
+halaman  tentang  kami.  Halaman  ini  berisi  penjelasan  mengenai  fungsi  sistem
+
+informasi yang dibangun, pengertian statistik sektoral, penjelasan mengenai seksi
+
+statistik dalam Dinas Komunikasi dan Informatika, serta tugas pokok dan fungsi
+
+seksi  statistik  tersebut.  Antarmuka  halaman  tentang  kami  ditunjukkan  oleh
+
+Gambar 4.45.
+
+Gambar 4.45 Antarmuka Halaman Tentang Kami
+
+APLIKASI PENGOLAHAN DATA STATISTIK
+SEKTORAL
+
+
+
+110
+
+Kemudian menu selanjutnya  adalah  menu statistik.  Menu ini  terdiri  2
+
+panel utama yaitu panel daftar OPD yang berfungsi sebagai navigasi untuk mem-
+
+filter  data statistik berdasakan OPD dan panel daftar statistik yang ditampilkan
+
+berdasarkan garis waktu. Antarmuka halaman statistik ditunjukkan pada Gambar
+
+4.46.
+
+Gambar 4.46 Antarmuka Halaman Statistik
+
+
+
+111
+
+Tombol unduh berkas pada halaman statistik merupakan tombol navigasi
+
+untuk mengalihkan pengguna ke halaman unduh data statistik. Data statistik yang
+
+dapat diunduh dibagi menjadi 2 jenis,  yaitu unduh data berbentuk gambar dan
+
+unduh data berbentuk berkas. Halaman tersebut ditunjukkan pada Gambar 4.47.
+
+Gambar 4.47 Antarmuka Halaman Lihat Statistik
+
+Menu keempat adalah menu berita. Menu ini dibagi menjadi 2 panel utama
+
+berdasarkan  jenis  berita.  Panel  pertama  adalah  panel  berita  acara  yang  berisi
+
+daftar 3 berita acara terbaru dan panel kedua adalah panel berita kegiatan yang
+
+berisi  daftar  3  berita  kegiatan  terbaru.  Antarmuka  halaman  berita  ditunjukkan
+
+pada Gambar 4.48.
+
+
+
+112
+
+Gambar 4.48 Antarmuka Halaman Berita 
+
+Menu kelima adalah menu regulasi. Menu ini berfungsi untuk mengakses
+
+halaman  regulasi.  Halaman  regulasi  menampilkan  regulasi-regulasi  yang
+
+berkaitan  dengan  pelaksanaan  kegiatan  statistik  sektoral  di  lingkungan
+
+pemerintahan. Antarmuka halaman regulasi ditunjukkan pada Gambar 4.49. 
+
+
+
+113
+
+Gambar 4.49 Antarmuka Halaman Regulasi
+
+Menu keenam adalah menu galeri. Menu ini berfungsi sebagai navigasi
+
+menuju halaman galeri. Halaman galeri merupakan halaman untuk menampilkan
+
+foto-foto berkenaan dengan kegiatan seksi statistik sektoral. Antarmuka halaman
+
+galeri ditunjukkan pada Gambar 4.50.
+
+
+
+114
+
+Gambar 4.50 Antarmuka Halaman Galeri
+
+Menu ketujuh  adalah menu yang berfungsi  untuk mengakses  halaman
+
+kontak kami. halaman kontak kami dibagi menjadi 2 bagian utama, yaitu bagian
+
+untuk menampilkan informasi kontak pelaksana statistik sektoral, dalam hal ini
+
+adalah  seksi  statistik  sektoral  dan  bagian yang menampilkan  form pesan yang
+
+ditujukan  untuk  seksi  statistik  sektoral.  Antarmuka  halaman  kontak  kami
+
+ditunjukkan pada Gambar 4.51.
+
+
+
+115
+
+Gambar 4.51 Antarmuka Halaman Kontak Kami
+
+4.2. Hasil Uji
+
+Pengujian  dilakukan  pada  sistem  informasi  menggunakan  komparasi
+
+antara kuesioner evaluasi terhadap kuesioner pembuatan dan metode  Black-Box.
+
+Pengujian  menggunakan  metode  Black-Box untuk  memeriksa  apakah  sistem
+
+informasi  dapat  berjalan  dengan  benar  sesuai  dengan  yang  diharapkan.  Data
+
+pengujian  dipilih  berdasarkan  spesifikasi  masalah  tanpa  memperhatikan  detail
+
+internal dari program.  Pengujian kedua adalah  User Acceptance Testing  (UAT)
+
+dilakukan  dengan  cara  melakukan  pengujian  langsung  terhadap  aplikasi  dan
+
+wawancara kepada responden. Keberhasilan produk dianalisis berdasarkan hasi;
+
+wawancara  kepada  responden.  Responden  memberikan  tanggapan  melalui
+
+jawaban-jawaban  berdasarkan pertanyaan  yang diajukan  pada  saat  wawancara.
+
+Berikut ini pengujian yang telah dilakukan serta hasilnya sesuai dengan apa yang
+
+diharapkan. Pengujian yang telah dilakukan antara lain.
+
+
+
+116
+
+4.2.1. Black-Box
+
+Pengujian  Black-Box adalah  pengujian  sistem yang dilakukan  dengan
+
+cara  menjalankan  aplikasi  yang  telah  dibuat  dengan  maksud  menemukan
+
+kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai yang
+
+telah  direncanakan. Pengujian  ini  dilakukan  terhadap  menu-menu  dan  fungsi-
+
+fungsi yang ada pada aplikasi  pengolahan data  statistik  sektoral  sesuai  dengan
+
+yang  tercantum  dalam  kuesioner  pembuatan  aplikasi  pada  analisis  kebutuhan
+
+sistem.
+
+4.2.1.1. Login
+
+Berikut  adalah  pengujian  untuk  halaman  login.  Hasil  pengujian  Input
+
+Data Login ditunjukkan pada tabel 4.1 berikut :
+
+Tabel 4.1 Pengujian Input Data Login
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Email Tidak 
+
+dieksekusi
+
+Muncul pesan: 
+
+”Silahkan isi 
+
+kolom ini.”
+
+Password
+
+Data yang 
+benar
+
+Email statistiksektoral.
+
+kalbar@gmail.com Dieksekusi
+Masuk ke 
+halaman admin 
+panelPassword sandiadmin
+
+Data yang 
+benar
+
+Email sektoral.
+
+dinsos@gmail.com Dieksekusi
+Masuk ke 
+halaman admin 
+opd panelPassword Sandiopd
+
+Data yang 
+salah
+
+Email example-
+
+salah@gmail.com Tidak 
+dieksekusi
+
+Muncul pesan:
+”Password atau 
+Email salah.”Password example-salah
+
+4.2.1.2. Dashboard
+
+Berikut adalah pengujian untuk halaman admin panel menu  dashboard.
+
+Hasil pengujian Edit Data Profil ditunjukkan pada tabel 4.2 berikut.
+
+Tabel 4.2 Pengujian Edit Data Profil
+
+Masuka Contoh Data Hasil Keterangan
+
+mailto:example-salah@gmail.com
+mailto:example-salah@gmail.com
+
+
+117
+
+n (Input) Eksekusi
+Data Null Nama Dara Nadinda Tidak 
+
+dieksekusi
+Muncul 
+
+pesan: 
+
+”Silahkan 
+isi kolom 
+ini.”
+
+NIP
+
+Email statistiksektoral.kalbar@gmail.
+
+com
+
+Alam
+
+at
+
+Jl. Parit Bugis Gg. Polindo
+
+Telep
+
+on
+
+082353912652
+
+Data 
+
+yang 
+
+benar
+
+Nama Dara Nadinda Dieksekusi Masuk ke 
+
+halaman 
+
+dashboard. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+NIP 19960525 201902 2 003
+
+Email statistiksektoral.kalbar@gmail.
+
+com
+
+Alam
+
+at
+
+Jl. Parit Bugis Gg. Polindo
+
+Telep
+
+on
+
+082353912652
+
+Hasil pengujian Ganti Password ditunjukkan pada tabel 4.3 berikut.
+
+Tabel 4.3 Pengujian Ganti Password
+
+Masuka
+n (Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Password 
+
+Lama
+
+sandiadmin Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan 
+
+isi kolom 
+
+ini.”
+
+Password 
+
+Baru
+
+sandiadmin1
+
+Konfirmasi
+
+Password 
+
+Baru
+
+Data 
+
+yang 
+
+Password 
+
+Lama
+
+sandiadmin Dieksekusi Masuk ke 
+
+halaman 
+
+dashboard. Password sandiadmin1
+
+mailto:statistiksektoral.kalbar@gmail.com
+mailto:statistiksektoral.kalbar@gmail.com
+mailto:statistiksektoral.kalbar@gmail.com
+mailto:statistiksektoral.kalbar@gmail.com
+
+
+118
+
+benar
+
+Baru
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Konfirmasi
+
+Password 
+
+Baru
+
+sandiadmin1
+
+4.2.1.3. Pengguna
+Berikut adalah pengujian untuk halaman admin panel menu pengguna.
+
+Hasil pengujian Input Data Pengguna ditunjukkan pada tabel 4.4 berikut.
+
+Tabel 4.4 Pengujian Input Data Pengguna
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Hak 
+
+Akses
+
+Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Email
+
+Password
+
+Nama
+
+NIP
+
+Alamat
+
+Telepon
+
+Instansi
+
+Data 
+
+yang 
+
+benar
+
+Hak 
+
+Akses
+
+Administrator Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+pengguna. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Email statistiksektoral.kalbar@gm
+
+ail.com
+
+Password Sandiadmin
+
+Nama Dara Nadinda
+
+NIP 19960525 201902 2 003
+
+Alamat Jl. Parit Bugis Gg. Polindo
+
+Telepon 082353912652
+
+Instansi Administrator
+
+Hasil pengujian Edit Data Pengguna ditunjukkan pada tabel 4.5 berikut.
+
+mailto:statistiksektoral.kalbar@gmail.com
+mailto:statistiksektoral.kalbar@gmail.com
+
+
+119
+
+Tabel 4.5 Pengujian Edit Data Pengguna
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Hak 
+
+Akses
+
+Administrator Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Email statistiksektoral.
+
+kalbar@gmail.com
+
+Password sandiadmin
+
+Nama Dara Nadinda
+
+NIP
+
+Alamat Jl. Parit Bugis Gg. Polindo
+
+Telepon 082353912652
+
+Instansi Administrator
+
+Data 
+
+yang 
+
+benar
+
+Hak 
+
+Akses
+
+Administrator Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+pengguna. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Email statistiksektoral.
+
+kalbar@gmail.com
+
+Password sandiadmin
+
+Nama Dara Nadinda
+
+NIP 19960525 201902 2 003
+
+Alamat Jl. Parit Bugis Gg. Polindo
+
+Telepon 082353912652
+
+Instansi Administrator
+
+Hasil  pengujian  Hapus  Data  Pengguna  ditunjukkan  pada  tabel  4.6
+berikut.
+
+Tabel 4.6 Pengujian Hapus Data Pengguna
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data pengguna pada 
+
+daftar pengguna
+
+Dieksekusi Masuk ke halaman 
+
+daftar pengguna. 
+
+Muncul pesan: 
+
+”Data Berhasil 
+
+
+
+120
+
+Dihapus!”
+
+4.2.1.4. Instansi
+Berikut  adalah  pengujian  untuk  halaman  admin  panel  menu  instansi.
+
+Hasil pengujian Input Data Instansi ditunjukkan pada tabel 4.7 berikut.
+
+Tabel 4.7 Pengujian Input Data Instansi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Nama 
+
+Instansi
+
+Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Singkata
+
+n Instansi
+
+Data 
+
+yang 
+
+benar
+
+Nama 
+
+Instansi
+
+Dinas Komunikasi dan 
+
+Informatika
+
+Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar 
+
+instansi. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Singkata
+
+n Instansi
+
+Diskominfo
+
+Hasil pengujian Edit Data Instansi ditunjukkan pada tabel 4.8 berikut.
+
+Tabel 4.8 Pengujian Edit Data Instansi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Nama 
+
+Instansi
+
+Dinas Komunikasi dan 
+
+Informatika
+
+Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Singkata
+
+n Instansi
+
+Data 
+
+yang 
+
+Nama 
+
+Instansi
+
+Dinas Komunikasi dan 
+
+Informatika
+
+Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar Singkata Diskominfo
+
+
+
+121
+
+benar
+
+n Instansi
+
+instansi. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+4.2.1.5. Berita
+Berikut adalah pengujian untuk halaman admin panel menu berita. Hasil
+
+pengujian Input Data Berita ditunjukkan pada tabel 4.9 berikut.
+
+Tabel 4.9 Pengujian Input Data Berita
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Tanggal Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Jenis 
+
+Berita
+
+Judul 
+
+Berita
+
+Isi Berita
+
+Gambar
+
+Data 
+
+yang 
+
+benar
+
+Tanggal 2019-01-21 Dieksekusi Masuk ke 
+
+halaman 
+
+daftar berita.
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Jenis 
+
+Berita
+
+Berita Kegiatan
+
+Judul 
+
+Berita
+
+Diskominfo Kalbar Pantau 
+
+Informasi Medsos 1x24 Jam
+
+Isi Berita Kepala Dinas Komunikasi 
+
+dan Informasi …
+
+Gambar Gambar.png
+
+Hasil pengujian Edit Data Berita ditunjukkan pada tabel 4.10 berikut.
+
+Tabel 4.10 Pengujian Edit Data Berita
+
+Masukan Contoh Data Hasil Keterangan
+
+
+
+122
+
+(Input) Eksekusi
+Data Null Tanggal 2019-01-21 Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Jenis 
+
+Berita
+
+Berita Kegiatan
+
+Judul 
+
+Berita
+
+Isi Berita Kepala Dinas Komunikasi 
+
+dan Informasi …
+
+Gambar Gambar.png
+
+Data 
+
+yang 
+
+benar
+
+Tanggal 2019-01-21 Dieksekusi Masuk ke 
+
+halaman 
+
+daftar berita.
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Jenis 
+
+Berita
+
+Berita Kegiatan
+
+Judul 
+
+Berita
+
+Diskominfo Kalbar Pantau 
+
+Informasi Media Sosial 
+
+1x24 Jam
+
+Isi Berita Kepala Dinas Komunikasi 
+
+dan Informasi …
+
+Gambar Gambar.png
+
+Hasil pengujian Hapus Data Berita ditunjukkan pada tabel 4.11 berikut.
+
+Tabel 4.11 Pengujian Hapus Data Berita
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data berita pada daftar 
+
+berita
+
+Dieksekusi Masuk ke halaman 
+
+daftar berita. 
+
+Muncul pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+4.2.1.6. Statistik Administrator
+Berikut  adalah  pengujian  untuk  halaman  admin  panel  menu  statistik.
+
+Hasil pengujian Input Data Statistik Bentuk Grafik Batang (Bulan) ditunjukkan
+pada tabel 4.12 berikut.
+
+
+
+123
+
+Tabel 4.12 Pengujian Input Data Statistik Bentuk Grafik Batang (Bulan)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Bulan Januari
+
+Nilai
+
+Bulan Februari
+
+Nilai
+
+Bulan Maret
+
+Nilai
+
+Bulan April
+
+Nilai
+
+Bulan Mei
+
+Nilai
+
+Bulan Juni
+
+Nilai
+
+Bulan Juli
+
+Nilai
+
+Bulan Agustus
+
+Nilai
+
+Bulan September
+
+Nilai
+
+Bulan Oktober
+
+Nilai
+
+Bulan November
+
+Nilai
+
+Bulan Desember
+
+Nilai
+
+Deskripsi
+
+Data 
+
+yang 
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman Judul Angka Kematian Tahun 
+
+
+
+124
+
+benar
+
+2017
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+Nilai 55
+
+Bulan September
+
+Nilai 77
+
+Bulan Oktober
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Batang  (Tahun)
+ditunjukkan pada tabel 4.13 berikut.
+
+
+
+125
+
+Tabel 4.13 Pengujian Input Data Statistik Bentuk Grafik Batang (Tahun)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+
+
+126
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Hasil  pengujian Input Data Statistik Bentuk Grafik Batang (Kab/Kota)
+ditunjukkan pada tabel 4.14 berikut.
+
+Tabel 4.14 Pengujian Input Data Statistik Bentuk Grafik Batang (Kab/Kota)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Kab/Kota Pontianak
+
+Nilai
+
+Kab/Kota Mempawah
+
+Nilai
+
+Kab/Kota Kubu Raya
+
+Nilai
+
+Kab/Kota Ketapang
+
+Nilai
+
+Kab/Kota Kayong Utara
+
+Nilai
+
+Kab/Kota Bengkayang
+
+Nilai
+
+Kab/Kota Singkawang
+
+Nilai
+
+Kab/Kota Sambas
+
+Nilai
+
+Kab/Kota Landak
+
+Nilai
+
+Kab/Kota Sanggau
+
+Nilai
+
+Kab/Kota Sekadau
+
+
+
+127
+
+Nilai
+
+Kab/Kota Sintang
+
+Nilai
+
+Kab/Kota Melawi
+
+Nilai
+
+Kab/Kota Kapuas Hulu
+
+Nilai
+
+Deskripsi
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+Kab/Kota Mempawah
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+Nilai 77
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+
+
+128
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Pie  (Bulan)
+ditunjukkan pada tabel 4.15 berikut.
+
+Tabel 4.15 Pengujian Input Data Statistik Bentuk Grafik Pie (Bulan)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Bulan Januari
+
+Nilai
+
+Bulan Februari
+
+Nilai
+
+Bulan Maret
+
+Nilai
+
+Bulan April
+
+Nilai
+
+Bulan Mei
+
+Nilai
+
+Bulan Juni
+
+Nilai
+
+Bulan Juli
+
+
+
+129
+
+Nilai
+
+Bulan Agustus
+
+Nilai
+
+Bulan September
+
+Nilai
+
+Bulan Oktober
+
+Nilai
+
+Bulan November
+
+Nilai
+
+Bulan Desember
+
+Nilai
+
+Deskripsi
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+Nilai 55
+
+Bulan September
+
+
+
+130
+
+Nilai 77
+
+Bulan Oktober
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Pie  (Tahun)
+ditunjukkan pada tabel 4.16 berikut.
+
+Tabel 4.16 Pengujian Input Data Statistik Bentuk Grafik Pie (Tahun)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+
+
+131
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Pie  (Kab/Kota)
+ditunjukkan pada tabel 4.17 berikut.
+
+Tabel 4.17 Pengujian Input Data Statistik Grafik Pie (Kab/Kota)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Kab/Kota Pontianak
+
+Nilai
+
+Kab/Kota Mempawah
+
+
+
+132
+
+Nilai
+
+Kab/Kota Kubu Raya
+
+Nilai
+
+Kab/Kota Ketapang
+
+Nilai
+
+Kab/Kota Kayong Utara
+
+Nilai
+
+Kab/Kota Bengkayang
+
+Nilai
+
+Kab/Kota Singkawang
+
+Nilai
+
+Kab/Kota Sambas
+
+Nilai
+
+Kab/Kota Landak
+
+Nilai
+
+Kab/Kota Sanggau
+
+Nilai
+
+Kab/Kota Sekadau
+
+Nilai
+
+Kab/Kota Sintang
+
+Nilai
+
+Kab/Kota Melawi
+
+Nilai
+
+Kab/Kota Kapuas Hulu
+
+Nilai
+
+Deskripsi
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+
+
+133
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Kab/Kota Mempawah
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+Nilai 77
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+
+
+134
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Garis  (Bulan)
+ditunjukkan pada tabel 4.18 berikut.
+
+Tabel 4.18 Pengujian Input Data Statistik Bentuk Grafik Garis (Bulan)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Bulan Januari
+
+Nilai
+
+Bulan Februari
+
+Nilai
+
+Bulan Maret
+
+Nilai
+
+Bulan April
+
+Nilai
+
+Bulan Mei
+
+Nilai
+
+Bulan Juni
+
+Nilai
+
+Bulan Juli
+
+Nilai
+
+Bulan Agustus
+
+Nilai
+
+Bulan September
+
+Nilai
+
+Bulan Oktober
+
+Nilai
+
+Bulan November
+
+Nilai
+
+Bulan Desember
+
+Nilai
+
+Deskripsi
+
+
+
+135
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+Nilai 55
+
+Bulan September
+
+Nilai 77
+
+Bulan Oktober
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+
+
+136
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Garis  (Tahun)
+ditunjukkan pada tabel 4.19 berikut.
+
+Tabel 4.19 Pengujian Input Data Statistik Bentuk Grafik Garis (Tahun)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+
+
+137
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Grafik  Garis  (Kab/Kota)
+ditunjukkan pada tabel 4.20 berikut.
+
+Tabel 4.20 Pengujian Input Data Statistik Grafik Garis (Kab/Kota)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Kab/Kota Pontianak
+
+Nilai
+
+Kab/Kota Mempawah
+
+Nilai
+
+Kab/Kota Kubu Raya
+
+Nilai
+
+Kab/Kota Ketapang
+
+Nilai
+
+Kab/Kota Kayong Utara
+
+Nilai
+
+Kab/Kota Bengkayang
+
+Nilai
+
+Kab/Kota Singkawang
+
+Nilai
+
+Kab/Kota Sambas
+
+Nilai
+
+Kab/Kota Landak
+
+Nilai
+
+
+
+138
+
+Kab/Kota Sanggau
+
+Nilai
+
+Kab/Kota Sekadau
+
+Nilai
+
+Kab/Kota Sintang
+
+Nilai
+
+Kab/Kota Melawi
+
+Nilai
+
+Kab/Kota Kapuas Hulu
+
+Nilai
+
+Deskripsi
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+Kab/Kota Mempawah
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+Nilai 77
+
+
+
+139
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil pengujian Input Data Statistik Bentuk Gambar (Bulan) ditunjukkan
+pada tabel 4.21 berikut.
+
+Tabel 4.21 Pengujian Input Data Statistik Bentuk Gambar (Bulan)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Bulan Januari
+
+Nilai
+
+Bulan Februari
+
+Nilai
+
+Bulan Maret
+
+Nilai
+
+Bulan April
+
+Nilai
+
+Bulan Mei
+
+Nilai
+
+
+
+140
+
+Bulan Juni
+
+Nilai
+
+Bulan Juli
+
+Nilai
+
+Bulan Agustus
+
+Nilai
+
+Bulan September
+
+Nilai
+
+Bulan Oktober
+
+Nilai
+
+Bulan November
+
+Nilai
+
+Bulan Desember
+
+Nilai
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+
+
+141
+
+Nilai 55
+
+Bulan September
+
+Nilai 77
+
+Bulan Oktober
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Hasil pengujian Input Data Statistik Bentuk Gambar (Tahun) ditunjukkan
+pada tabel 4.22 berikut.
+
+Tabel 4.22 Pengujian Input Data Statistik Bentuk Gambar (Tahun)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+
+
+142
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Gambar  (Kab/Kota)
+ditunjukkan pada tabel 4.23 berikut.
+
+Tabel 4.23 Pengujian Input Data Statistik Bentuk Gambar (Kab/Kota)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Kab/Kota Pontianak
+
+Nilai
+
+Kab/Kota Mempawah
+
+Nilai
+
+Kab/Kota Kubu Raya
+
+Nilai
+
+Kab/Kota Ketapang
+
+Nilai
+
+Kab/Kota Kayong Utara
+
+Nilai
+
+Kab/Kota Bengkayang
+
+Nilai
+
+Kab/Kota Singkawang
+
+Nilai
+
+Kab/Kota Sambas
+
+Nilai
+
+
+
+143
+
+Kab/Kota Landak
+
+Nilai
+
+Kab/Kota Sanggau
+
+Nilai
+
+Kab/Kota Sekadau
+
+Nilai
+
+Kab/Kota Sintang
+
+Nilai
+
+Kab/Kota Melawi
+
+Nilai
+
+Kab/Kota Kapuas Hulu
+
+Nilai
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+Kab/Kota Mempawah
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+
+
+144
+
+Nilai 77
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Berkas  PDF ditunjukkan
+pada tabel 4.24 berikut.
+
+Tabel 4.24 Pengujian Input Data Statistik Bentuk Berkas PDF
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul 
+
+Berkas
+
+Pilih 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018.pdf
+
+Keterang
+
+an 
+
+Berkas
+
+Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+Judul 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018
+
+Pilih 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018.pdf
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+
+
+145
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+”Berhasil 
+
+Menambahk
+
+Hasil  pengujian  Unduh  Berkas  XLSX  ditunjukkan  pada  tabel  4.25
+berikut.
+
+Tabel 4.25 Pengujian Unduh Berkas Template XLSX
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data template yang ingin 
+
+diunduh
+
+Dieksekusi Data berhasil 
+
+diunduh.
+
+Hasil pengujian Input Data Statistik Bentuk Berkas XLSX ditunjukkan
+pada tabel 4.26 berikut.
+
+Tabel 4.26 Pengujian Input Data Statistik Bentuk Berkas XLSX
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul 
+
+Berkas
+
+Pilih 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018.xlsx
+
+Keterang
+
+an 
+
+Berkas
+
+Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+Judul 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018
+
+Pilih 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018.xlsx
+
+Deskripsi Menggambarkan tentang 
+
+
+
+146
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat pesan: 
+
+”Berhasil 
+
+Menambahk
+
+Hasil pengujian Edit Data Statistik ditunjukkan pada tabel 4.27 berikut.
+
+Tabel 4.27 Pengujian Edit Data Statistik
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Jenis 
+
+Statistik
+
+Grafik Batang
+
+Judul 
+
+Statistik
+
+Angka Kematian Tahun 
+
+2017
+
+Berkas Berkas.xlsx
+
+Deskripsi
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Jenis 
+
+Statistik
+
+Grafik Batang
+
+Judul 
+
+Statistik
+
+Angka Kematian Tahun 
+
+2017
+
+Berkas Berkas.xlsx
+
+Deskripsi Menjelaskan tentang data 
+
+statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil pengujian Hapus Data Statistik ditunjukkan pada tabel 4.28 berikut.
+
+Tabel 4.28 Pengujian Hapus Data Statistik
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Pilih data statistik pada daftar Dieksekusi Masuk ke halaman 
+
+
+
+147
+
+yang 
+
+benar
+
+statistik daftar statistik. 
+
+Muncul pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+Hasil pengujian Lihat Data Input Statistik (Bulan) ditunjukkan pada tabel
+4.29 berikut.
+
+Tabel 4.29 Pengujian Lihat Data Input Statistik (Bulan)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Jenis 
+
+Grafik
+
+Grafik Batang
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+Nilai 55
+
+Bulan September
+
+Nilai 77
+
+
+
+148
+
+Bulan Oktober
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Deskripsi
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Jenis 
+
+Grafik
+
+Grafik Batang
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+Nilai 55
+
+Bulan September
+
+Nilai 77
+
+Bulan Oktober
+
+
+
+149
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Deskripsi Menjelaskan tentang data 
+
+statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil pengujian Lihat Data Input Statistik (Tahun) ditunjukkan pada tabel
+4.30 berikut.
+
+Tabel 4.30 Pengujian Lihat Data Input Statistik (Tahun)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Jenis 
+
+Grafik
+
+Grafik Batang
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+
+
+150
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Instansi Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Jenis 
+
+Grafik
+
+Grafik Batang
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Hasil pengujian Lihat Data Input Statistik (Kab/Kota) ditunjukkan pada
+tabel 4.31 berikut.
+
+Tabel 4.31 Pengujian Lihat Data Input Statistik (Kab/Kota)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Instansi Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Jenis 
+
+Grafik
+
+Grafik Batang
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+Kab/Kota Mempawah
+
+
+
+151
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+Nilai 77
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+Deskripsi Menjelaskan tentang data 
+
+statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Data 
+
+yang 
+
+Instansi Disdukcapil Dieksekus Masuk ke 
+
+halaman Judul Angka Kematian Tahun 
+
+
+
+152
+
+benar 2017 i daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Jenis 
+
+Grafik
+
+Grafik Batang
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+Kab/Kota Mempawah
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+Nilai 77
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+Deskripsi Menjelaskan tentang data 
+
+
+
+153
+
+statistik kematian pada 
+
+tahun 2017 di Kalimantan 
+
+Barat
+
+Hasil pengujian Hapus Data Statistik ditunjukkan pada tabel 4.32 berikut.
+
+Tabel 4.32 Pengujian Hapus Data Input Statistik
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data input statistik pada 
+
+daftar input statistik
+
+Dieksekusi Masuk ke halaman 
+
+daftar input 
+
+statistik. Muncul 
+
+pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+Hasil pengujian Input Data Pesan Statistik ditunjukkan pada tabel 4.33
+berikut.
+
+Tabel 4.33 Pengujian Input Data Pesan Statistik
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Penerima Disdukcapil Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul
+
+Isi Pesan Angka Kematian Tahun 
+
+2014-2018.pdf
+
+Data 
+
+yang 
+
+benar
+
+Penerima Disdukcapil Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Pesan 
+
+Berhasil 
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Isi Pesan Mohon berikan data dengan 
+
+judul "Angka Kelahiran 
+
+Tahun 2018". Silahkan isi 
+
+data berdasarkan bulan atau 
+
+unggah berkas dengan 
+
+
+
+154
+
+format xlsx.
+
+Apabila ingin unggah berkas
+
+xlsx, silahkan unduh 
+
+terlebih dahulu template 
+
+yang dimaksud.
+
+Dikirim!”
+
+4.2.1.7. Regulasi
+Berikut  adalah  pengujian  untuk  halaman  admin  panel  menu  regulasi.
+
+Hasil pengujian Input Data Regulasi ditunjukkan pada tabel 4.34 berikut.
+
+Tabel 4.34 Pengujian Input Data Regulasi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Jenis 
+
+Regulasi
+
+UU Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul 
+
+Regulasi
+
+UU No 16 Tahun 1997 
+
+Tentang Statistik Bab IX 
+
+Pembinaan 
+
+Isi 
+
+Regulasi
+
+Data 
+
+yang 
+
+benar
+
+Jenis 
+
+Regulasi
+
+UU Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+regulasi. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Judul 
+
+Regulasi
+
+UU No 16 Tahun 1997 
+
+Tentang Statistik Bab IX 
+
+Pembinaan 
+
+Isi 
+
+Regulasi
+
+Pasal 31
+
+Badan bekerja sama dengan 
+
+instansi pemerintah dan 
+
+unsur masyarakat …
+
+Hasil pengujian Input Data Jenis Regulasi ditunjukkan pada tabel 4.35
+berikut.
+
+
+
+155
+
+Tabel 4.35 Pengujian Input Data Jenis Regulasi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Jenis 
+
+Regulasi
+
+Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Data 
+
+yang 
+
+benar
+
+Jenis 
+
+Regulasi
+
+UU Dieksekusi Masuk ke 
+
+halaman 
+
+daftar jenis 
+
+regulasi. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Hasil pengujian Edit Data Regulasi ditunjukkan pada tabel 4.36 berikut.
+
+Tabel 4.36 Pengujian Edit Data Regulasi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Jenis 
+
+Regulasi
+
+UU Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul 
+
+Regulasi
+
+UU No 16 Tahun 1997 
+
+Tentang Statistik Bab IX 
+
+Pembinaan 
+
+Isi 
+
+Regulasi
+
+Data 
+
+yang 
+
+benar
+
+Jenis 
+
+Regulasi
+
+UU Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+regulasi. 
+
+Judul 
+
+Regulasi
+
+UU No 16 Tahun 1997 
+
+Tentang Statistik Bab IX 
+
+
+
+156
+
+Pembinaan 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Isi 
+
+Regulasi
+
+Pasal 31
+
+Badan bekerja sama dengan 
+
+instansi pemerintah dan 
+
+unsur masyarakat …
+
+Hasil  pengujian  Edit  Data  Jenis  Regulasi  ditunjukkan  pada tabel  4.37
+berikut.
+
+Tabel 4.37 Pengujian Edit Data Jenis Regulasi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Jenis 
+
+Regulasi
+
+Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Data 
+
+yang 
+
+benar
+
+Jenis 
+
+Regulasi
+
+UU Dieksekusi Masuk ke 
+
+halaman 
+
+daftar jenis 
+
+regulasi. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Hasil  pengujian  Hapus  Data  Regulasi  ditunjukkan  pada  tabel  4.38
+berikut.
+
+Tabel 4.38 Pengujian Hapus Data Regulasi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data regulasi pada daftar 
+
+regulasi
+
+Dieksekusi Masuk ke halaman 
+
+daftar regulasi. 
+
+
+
+157
+
+Muncul pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+Hasil pengujian Hapus Data Jenis Regulasi ditunjukkan pada tabel 4.39
+berikut.
+
+Tabel 4.39 Pengujian Hapus Data Jenis Regulasi
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data jenis regulasi pada 
+
+daftar jenis regulasi
+
+Dieksekusi Masuk ke halaman 
+
+daftar jenis 
+
+regulasi. Muncul 
+
+pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+4.2.1.8. Galeri
+Berikut adalah pengujian untuk halaman admin panel menu galeri. Hasil
+
+pengujian Input Data Galeri ditunjukkan pada tabel 4.40 berikut.
+
+Tabel 4.40 Pengujian Input Data Galeri
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Tanggal 2019-01-21 Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul 
+
+Foto
+
+Koordinasi dengan Seksi 
+
+Statistik Dinas Komunikasi 
+
+dan Informatika Kabupaten 
+
+Bengkayang
+
+Foto Foto.png
+
+Deskripsi
+
+Foto
+
+Data 
+
+yang 
+
+Tanggal 2019-01-21 Dieksekusi Masuk ke 
+
+halaman 
+
+daftar foto. 
+
+Judul 
+
+Foto
+
+Koordinasi dengan Seksi 
+
+Statistik Dinas Komunikasi 
+
+
+
+158
+
+benar
+
+dan Informatika Kabupaten 
+
+Bengkayang
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+Foto Foto.png
+
+Deskripsi
+
+Foto
+
+Koordinasi dengan Seksi 
+
+Statistik Dinas Komunikasi 
+
+dan Informatika Kabupaten 
+
+Bengkayang
+
+Hasil pengujian Edit Data Galeri ditunjukkan pada tabel 4.41 berikut.
+
+Tabel 4.41 Pengujian Edit Data Galeri
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Tanggal 2019-01-21 Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul 
+
+Foto
+
+Foto Foto1.png
+
+Deskripsi
+
+Foto
+
+Koordinasi dengan Seksi 
+
+Statistik Dinas Komunikasi 
+
+dan Informatika Kabupaten 
+
+Bengkayang
+
+Data 
+
+yang 
+
+benar
+
+Tanggal 2019-01-21 Dieksekusi Masuk ke 
+
+halaman 
+
+daftar foto. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Judul 
+
+Foto
+
+Koordinasi dengan Seksi 
+
+Statistik Dinas Komunikasi 
+
+dan Informatika Kabupaten 
+
+Bengkayang
+
+Foto Foto1.png
+
+Deskripsi
+
+Foto
+
+Koordinasi dengan Seksi 
+
+Statistik Dinas Komunikasi 
+
+dan Informatika Kabupaten 
+
+Bengkayang
+
+Hasil pengujian Hapus Data Galeri ditunjukkan pada tabel 4.42 berikut.
+
+
+
+159
+
+Tabel 4.42 Pengujian Hapus Data Galeri
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data galeri pada daftar 
+
+foto
+
+Dieksekusi Masuk ke halaman 
+
+daftar foto. Muncul
+
+pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+4.2.1.9. Halaman Utama
+Berikut  adalah  pengujian  untuk  halaman  admin  panel  menu  halaman
+
+utama. Hasil pengujian Edit Tentang Kami ditunjukkan pada tabel 4.43 berikut.
+
+Tabel 4.43 Pengujian Edit Tentang Kami
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Statistik Sektoral Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Isi
+
+Data 
+
+yang 
+
+benar
+
+Judul Statistik Sektoral Dieksekusi Masuk ke 
+
+halaman edit
+
+tentang 
+
+kami. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Isi Statistik yang 
+
+pemanfaatannya ditujukan 
+
+untuk memenuhi kebutuhan 
+
+instansi pemerintah tertentu 
+
+dalam rangka 
+
+penyelenggaraan tugas-
+
+tugas pemerintah dan tugas 
+
+pembangunan yang 
+
+merupakan tugas pokok 
+
+instansi pemerintah yang 
+
+bersangkutan.
+
+Hasil pengujian Edit Kontak Kami ditunjukkan pada tabel 4.44 berikut.
+
+
+
+160
+
+Tabel 4.44 Pengujian Edit Kontak Kami
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Alamat Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Isi
+
+Data 
+
+yang 
+
+benar
+
+Judul Alamat Dieksekusi Masuk ke 
+
+halaman edit
+
+kontak kami.
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Isi Jalan Adi Sucipto no. 50
+
+4.2.1.10.Pesan Administrator
+Berikut adalah pengujian untuk halaman admin panel menu pesan. Hasil
+
+pengujian Input Pesan Baru ditunjukkan pada tabel 4.45 berikut.
+
+Tabel 4.45 Pengujian Input Pesan Baru
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Email example@gmail.com Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Nama Example
+
+Judul
+
+Pesan
+
+Data 
+
+yang 
+
+benar
+
+Email example@gmail.com Dieksekusi Masuk ke 
+
+halaman 
+
+daftar pesan 
+
+keluar. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Nama Example
+
+Judul Input Data Statistik
+
+Pesan Mohon input data statistik 
+
+mengenai angka 
+
+pengangguran
+
+mailto:example@gmail.com
+mailto:example@gmail.com
+
+
+161
+
+Mengirim 
+
+Pesan!”
+
+Hasil  pengujian  Input  Pesan Baru  untuk OPD ditunjukkan  pada  tabel
+4.46 berikut.
+
+Tabel 4.46 Pengujian Input Pesan Baru untuk OPD
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Penerima Dinas Kesehatan Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Judul Tenggat Pengisian Form
+
+Pesan
+
+Data 
+
+yang 
+
+benar
+
+Penerima Dinas Kesehatan Dieksekusi Masuk ke 
+
+halaman 
+
+daftar pesan 
+
+keluar. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Mengirim 
+
+Pesan!”
+
+Judul Tenggat Pengisian Form
+
+Pesan Mohon input data statistik 
+
+sebelum minggu berakhir
+
+Hasil pengujian Balas Pesan Masuk ditunjukkan pada tabel 4.47 berikut.
+
+Tabel 4.47 Pengujian Balas Pesan Masuk
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Email Example-pesan@gmail.com Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Nama Example
+
+Judul Balas Topik
+
+Pesan
+
+Data 
+
+yang 
+
+Email Example-pesan@gmail.com Dieksekusi Masuk ke 
+
+halaman Nama Example
+
+mailto:Example-pesan@gmail.com
+mailto:Example-pesan@gmail.com
+mailto:example@gmail.com
+mailto:example@gmail.com
+
+
+162
+
+benar daftar pesan 
+
+keluar. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Mengirim 
+
+Pesan!”
+
+Judul Balas Topik
+
+Pesan Berikut adalah contoh balas 
+
+pesan
+
+Hasil  pengujian  Teruskan  Pesan  Keluar  ditunjukkan  pada  tabel  4.48
+berikut.
+
+Tabel 4.48 Pengujian Teruskan Pesan Keluar
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Email Example-pesan@gmail.com Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Nama Example
+
+Judul Teruskan Pesan
+
+Pesan
+
+Data 
+
+yang 
+
+benar
+
+Email Example-pesan@gmail.com Dieksekusi Masuk ke 
+
+halaman 
+
+daftar pesan 
+
+keluar. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Mengirim 
+
+Pesan!”
+
+Nama Example
+
+Judul Teruskan Pesan
+
+Pesan Berikut adalah contoh 
+
+teruskan pesan
+
+Hasil pengujian Hapus Data Pesan Masuk ditunjukkan pada tabel 4.49
+berikut.
+
+Tabel 4.49 Pengujian Hapus Data Pesan Masuk
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Pilih data pesan masuk pada Dieksekusi Masuk ke halaman 
+
+mailto:Example-pesan@gmail.com
+mailto:Example-pesan@gmail.com
+
+
+163
+
+yang 
+
+benar
+
+daftar pesan masuk daftar pesan 
+
+masuk. Muncul 
+
+pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+Hasil pengujian Hapus Data Pesan Keluar ditunjukkan pada tabel 4.50
+berikut.
+
+Tabel 4.50 Pengujian Hapus Data Pesan Keluar
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data pesan keluar pada 
+
+daftar pesan keluar
+
+Dieksekusi Masuk ke halaman 
+
+daftar pesan keluar.
+
+Muncul pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+4.2.1.11.Profil OPD
+Berikut adalah pengujian untuk halaman admin opd panel menu Profil.
+
+Hasil pengujian Edit Data Profil ditunjukkan pada tabel 4.51 berikut.
+
+Tabel 4.51 Pengujian Edit Data Profil
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Nama Naufal Harits Pratama Tidak 
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan 
+isi kolom 
+ini.”
+
+NIP
+
+Email sektoral.dinsoskalbar@gmail.
+
+com
+
+Alam
+
+at
+
+Jl. Suwignyo
+
+Telep
+
+on
+
+081256497289
+
+Data yang Nama Naufal Harits Pratama Dieksekusi Masuk ke 
+
+
+
+164
+
+benar halaman 
+
+edit profil. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+NIP 19970420 201902 1 003
+
+Email sektoral.dinsoskalbar@gmail.
+
+com
+
+Alam
+
+at
+
+Jl. Suwignyo
+
+Telep
+
+on
+
+081256497289
+
+Hasil pengujian Ganti Password ditunjukkan pada tabel 4.52 berikut.
+
+Tabel 4.52 Pengujian Ganti Password
+
+Masuka
+n (Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Password 
+
+Lama
+
+adminopd Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan 
+
+isi kolom 
+
+ini.”
+
+Password 
+
+Baru
+
+adminopd1
+
+Konfirmasi
+
+Password 
+
+Baru
+
+Data 
+
+yang 
+
+benar
+
+Password 
+
+Lama
+
+adminopd Dieksekusi Masuk ke 
+
+halaman 
+
+ganti 
+
+password. 
+
+Muncul 
+
+pesan: 
+
+”Data 
+
+Berhasil 
+
+Diubah!”
+
+Password 
+
+Baru
+
+adminopd1
+
+Konfirmasi
+
+Password 
+
+Baru
+
+adminopd1
+
+4.2.1.12.Statistik OPD
+Berikut adalah pengujian untuk halaman admin opd panel menu Statistik.
+
+Hasil pengujian Unduh Berkas Template XLSX OPD ditunjukkan pada tabel 4.53
+berikut.
+
+
+
+165
+
+Tabel 4.53 Pengujian Unduh Berkas Template XLSX OPD
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data template yang ingin 
+
+diunduh
+
+Dieksekusi Data berhasil 
+
+diunduh.
+
+Hasil  pengujian  Input  Data  Statistik  Bentuk  Berkas  XLSX oleh  OPD
+ditunjukkan pada tabel 4.54 berikut.
+
+Tabel 4.54 Pengujian Input Data Statistik Bentuk Berkas XLSX oleh OPD
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul 
+
+Berkas
+
+Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Pilih 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018.xlsx
+
+Keterang
+
+an 
+
+Berkas
+
+Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Data 
+
+yang 
+
+benar
+
+Judul 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018
+
+Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Pilih 
+
+Berkas
+
+Angka Kematian Tahun 
+
+2014-2018.xlsx
+
+Deskripsi Menggambarkan tentang 
+
+data statistik kematian pada 
+
+tahun 2014-2018 di 
+
+Kalimantan Barat
+
+Hasil pengujian Input Data Statistik (Bulan) ditunjukkan pada tabel 4.55
+berikut.
+
+
+
+166
+
+Tabel 4.55 Pengujian Input Data Statistik (Bulan)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Bulan Januari
+
+Nilai
+
+Bulan Februari
+
+Nilai
+
+Bulan Maret
+
+Nilai
+
+Bulan April
+
+Nilai
+
+Bulan Mei
+
+Nilai
+
+Bulan Juni
+
+Nilai
+
+Bulan Juli
+
+Nilai
+
+Bulan Agustus
+
+Nilai
+
+Bulan September
+
+Nilai
+
+Bulan Oktober
+
+Nilai
+
+Bulan November
+
+Nilai
+
+Bulan Desember
+
+Nilai
+
+Data 
+
+yang 
+
+benar
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Bulan Januari
+
+Nilai 21
+
+Bulan Februari
+
+
+
+167
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Nilai 33
+
+Bulan Maret
+
+Nilai 67
+
+Bulan April
+
+Nilai 34
+
+Bulan Mei
+
+Nilai 24
+
+Bulan Juni
+
+Nilai 90
+
+Bulan Juli
+
+Nilai 52
+
+Bulan Agustus
+
+Nilai 55
+
+Bulan September
+
+Nilai 77
+
+Bulan Oktober
+
+Nilai 33
+
+Bulan November
+
+Nilai 82
+
+Bulan Desember
+
+Nilai 12
+
+Hasil pengujian Input Data Statistik (Tahun) ditunjukkan pada tabel 4.56
+berikut.
+
+Tabel 4.56 Pengujian Input Data Statistik (Tahun)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+
+
+168
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Data 
+
+yang 
+
+benar
+
+Judul Angka Kematian Tahun 
+
+2014-2018
+
+Dieksekusi Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Tahun 2014
+
+Nilai 21
+
+Tahun 2015
+
+Nilai 33
+
+Tahun 2016
+
+Nilai 67
+
+Tahun 2017
+
+Nilai 34
+
+Tahun 2018
+
+Nilai 24
+
+Hasil pengujian Input Data Statistik (Kab/Kota) ditunjukkan pada tabel
+4.57 berikut.
+
+Tabel 4.57 Pengujian Input Data Statistik (Kab/Kota)
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Kab/Kota Pontianak
+
+Nilai
+
+Kab/Kota Mempawah
+
+Nilai
+
+Kab/Kota Kubu Raya
+
+Nilai
+
+Kab/Kota Ketapang
+
+
+
+169
+
+Nilai
+
+Kab/Kota Kayong Utara
+
+Nilai
+
+Kab/Kota Bengkayang
+
+Nilai
+
+Kab/Kota Singkawang
+
+Nilai
+
+Kab/Kota Sambas
+
+Nilai
+
+Kab/Kota Landak
+
+Nilai
+
+Kab/Kota Sanggau
+
+Nilai
+
+Kab/Kota Sekadau
+
+Nilai
+
+Kab/Kota Sintang
+
+Nilai
+
+Kab/Kota Melawi
+
+Nilai
+
+Kab/Kota Kapuas Hulu
+
+Nilai
+
+Data 
+
+yang 
+
+benar
+
+Judul Angka Kematian Tahun 
+
+2017
+
+Dieksekus
+
+i
+
+Masuk ke 
+
+halaman 
+
+daftar 
+
+statistik. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Menambahk
+
+an Data!”
+
+Kab/Kota Pontianak
+
+Nilai 21
+
+Kab/Kota Mempawah
+
+Nilai 33
+
+Kab/Kota Kubu Raya
+
+Nilai 67
+
+Kab/Kota Ketapang
+
+Nilai 34
+
+
+
+170
+
+Kab/Kota Kayong Utara
+
+Nilai 24
+
+Kab/Kota Bengkayang
+
+Nilai 90
+
+Kab/Kota Singkawang
+
+Nilai 52
+
+Kab/Kota Sambas
+
+Nilai 55
+
+Kab/Kota Landak
+
+Nilai 77
+
+Kab/Kota Sanggau
+
+Nilai 33
+
+Kab/Kota Sekadau
+
+Nilai 82
+
+Kab/Kota Sintang
+
+Nilai 12
+
+Kab/Kota Melawi
+
+Nilai 53
+
+Kab/Kota Kapuas Hulu
+
+Nilai 29
+
+4.2.1.13.Pesan OPD
+Berikut adalah pengujian untuk halaman admin opd panel menu pesan.
+
+Hasil pengujian Input Pesan Baru ditunjukkan pada tabel 4.58 berikut.
+
+Tabel 4.58 Pengujian Input Pesan Baru
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Input Data Statistik Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Pesan
+
+Data 
+
+yang 
+
+Judul Input Data Statistik Dieksekusi Masuk ke 
+
+halaman Pesan Bagaimana cara menginput 
+
+
+
+171
+
+benar
+
+data yang dimaksud ?
+
+daftar pesan 
+
+keluar. 
+
+Muncul 
+
+pesan: 
+
+Hasil pengujian Balas Pesan Masuk ditunjukkan pada tabel 4.59 berikut.
+
+Tabel 4.59 Pengujian Balas Pesan Masuk
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Judul Balas Topik Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Pesan
+
+Data 
+
+yang 
+
+benar
+
+Judul Balas Topik Dieksekusi Masuk ke 
+
+halaman 
+
+daftar pesan 
+
+keluar. 
+
+Muncul 
+
+pesan: 
+
+”Berhasil 
+
+Mengirim 
+
+Pesan!”
+
+Pesan Berikut adalah contoh balas 
+
+pesan
+
+Hasil pengujian Hapus Data Pesan Masuk ditunjukkan pada tabel 4.60
+berikut.
+
+Tabel 4.60 Pengujian Hapus Data Pesan Masuk
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Pilih data pesan masuk pada Dieksekusi Masuk ke halaman 
+
+
+
+172
+
+yang 
+
+benar
+
+daftar pesan masuk daftar pesan 
+
+masuk. Muncul 
+
+pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+Hasil pengujian Hapus Data Pesan Keluar ditunjukkan pada tabel 4.61
+berikut.
+
+Tabel 4.61 Pengujian Hapus Data Pesan Keluar
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data pesan keluar pada 
+
+daftar pesan keluar
+
+Dieksekusi Masuk ke halaman 
+
+daftar pesan keluar.
+
+Muncul pesan: 
+
+”Data Berhasil 
+
+Dihapus!”
+
+4.2.1.14.Unduh Berkas Guest
+Berikut  adalah  pengujian  untuk  halaman  guest menu  Statistik.  Hasil
+
+pengujian Unduh Berkas ditunjukkan pada tabel 4.62 berikut.
+
+Tabel 4.62 Pengujian Unduh Berkas
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+benar
+
+Pilih data statistik yang ingin 
+
+diunduh
+
+Dieksekusi Data berhasil 
+
+diunduh.
+
+Hasil pengujian Unduh Gambar ditunjukkan pada tabel 4.63 berikut.
+
+Tabel 4.63 Pengujian Unduh Gambar
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data 
+
+yang 
+
+Pilih data statistik yang ingin 
+
+diunduh
+
+Dieksekusi Data berhasil 
+
+diunduh.
+
+
+
+173
+
+benar
+
+4.2.1.15.Kirim Pesan Guest
+Berikut adalah pengujian untuk halaman guest menu kontak kami. Hasil
+
+pengujian Input Pesan ditunjukkan pada tabel 4.64 berikut.
+
+Tabel 4.64 Pengujian Input Pesan
+
+Masukan
+(Input)
+
+Contoh Data
+Hasil
+
+Eksekusi
+Keterangan
+
+Data Null Nama Guest Tidak 
+
+dieksekusi
+
+Muncul 
+
+pesan: 
+
+”Silahkan isi
+
+kolom ini.”
+
+Email guest@gmail.com
+
+Jenis 
+
+Kelamin
+
+Laki-Laki
+
+Telepon 0899 xxxx xxxx
+
+Isi Pesan
+
+Data 
+
+yang 
+
+benar
+
+Nama Guest Dieksekusi Masuk ke 
+
+halaman 
+
+kontak kami.
+
+Email guest@gmail.com
+
+Jenis 
+
+Kelamin
+
+Laki-Laki
+
+Telepon 0899 xxxx xxxx
+
+Isi Pesan Bagaimana prosedur 
+
+mendapatkan data statistik 
+
+mengenai angka kemiskinan
+
+?
+
+4.2.2. User Acceptance Testing (UAT)
+
+Pengujian  UAT adalah  suatu  proses  pengetesan  untuk  melihat  sejauh
+
+mna  aplikasi  atau  sistem  yang  dibangun  dapat  digunakan  dan  sesuai  dengan
+
+kebutuhan  pengguna.  Pengujian  dengan  UAT  dilakukan  dengan  mengajukan
+
+beberapa  pertanyaan  terhadap  Kepala  Seksi  Statistik,  Dinas  Komunikasi  dan
+
+Informatika  yang  bertindak  sebagai  pengguna.  Pada  penelitian  ini,  responden
+
+yang terlibat berjumlah 1 orang yang merupakan pengguna langsung dari aplikasi
+
+pengolahan data statistik sektoral yang dibangun.
+
+mailto:guest@gmail.com
+mailto:guest@gmail.com
+
+
+174
+
+Beberapa  pertanyaan  disusun untuk  melihat  tingkat  kesesuaian  sistem
+
+terhadap keinginan pengguna. Pertanyaan-pertanyaan tersebut antara lain terkait
+
+dengan aspek kegunaan dan kemudahan akan aplikasi atau sistem yang dibangun.
+
+Berdasarkan  pertanyaan-pertanyaan  yang  telah  diajukan,  maka  jawaban  yang
+
+dihasilkan dapat dirangkum sebagai berikut.
+
+1. Aplikasi statistik sektoral yang akan dibangun mampu memenuhi tujuannya
+
+yaitu mengumpulkan data statistik sektoral dari berbagai organisasi perangkat
+
+daerah dilingkungan pemerintahan provinsi Kalimantan Barat yang kemudian
+
+akan ditampilkan di dalam situs web.
+
+2. Level  dan  fungsi  masing-masing  pengguna  yang  dapat  diakomodir  oleh
+
+aplikasi statistik sektoral sudah sesuai.
+
+3. Kebutuhan akan data statistik sektoral mampu dipenuhi oleh aplikasi  yang
+
+dibangun.
+
+4. Kendala-kendala  yang  dihadapi  pada  proses  manual  seperti  keterbatasan
+
+waktu  dan  keabsenan  petugas  dapat  diatasi  menggunakan  aplikasi  yang
+
+dibangun.
+
+5. Proses  yang  berjalan  secara  manual  telah  sesuai  dengan  aplikasi  yang
+
+dibangun.
+
+6. Produk  yang  dihasilkan  oleh  sistem  dianggap  telah  sesuai,  yaitu
+
+menghasilkan  grafik  berbentuk  gambar  dan berkas  excel  berdasarkan data
+
+statistik sektoral yang berasal dari organisasi perangkat daerah.
+
+7. Respon aplikasi terhadap  input  yang dilakukan dianggap cukup memuaskan
+
+dan sesuai.
+
+8. Kinerja pada saat administrator melakukan proses olah data telah sesuai dan
+
+mudah dimengerti.
+
+9. Kinerja pada saat admin OPD melakukan proses olah data telah sesuai dan
+
+mudah dimengerti.
+
+10. Secara keseluruhan, aplikasi yang dibangun sudah baik, sesuai dengan proses
+
+manual  dan  mampu  mengumpulkan  data  statistik  sektoral  dari  organisasi
+
+perangkat daerah.
+
+Berdasarkan rangkuman jawaban diatas, maka dapat ditarik kesimpulan
+
+bahwa aplikasi pengolahan data statistik sektoral yang dibangun telah memenuhi
+
+
+
+175
+
+aspek kegunaan seperti yang ditunjukkan pada poin 1, 2, 3, 4, 5, 6 dan 7 diatas
+
+bahwa tujuan, target pengguna, kebutuhan akan data statistik sektoral, mengatasi
+
+kendala  pada  proses  manual,  kesesuaian  dengan  proses  manual,  produk  yang
+
+dihasilkan dan respon aplikasi terhadap  input  telah sesuai dan memenuhi fungsi
+
+serta  kegunaan  yang  ingin  dicapai  pada  analisis  kebutuhan.  Selain  itu,  aspek
+
+kemudahan juga telah terpenuhi seperti yang ditunjukkan pada poin 8 dan 9 diatas
+
+bahwa kinerja  pada saat administrator  dan admin OPD melakukan proses olah
+
+data telah sesuai dan mudah dimengerti.
+
+4.3.  Analisis Hasil
+
+Dari  hasil  pengujian  yang  telah  dilakukan  terhadap  aplikasi  dengan
+
+menggunakan metode  black-box  dan  user acceptance test  (UAT), maka analisis
+
+terhadap hasil pengujian adalah sebagai berikut :
+
+1. Pengujian yang telah dilakukan dengan metode black-box mendapatkan hasil
+
+bahwa fungsionalitas  dari  aplikasi  pengolahan  data  statistik  sektoral  yang
+
+dibangun telah berjalan dengan baik dan sesuai dengan yang diharapkan. 
+
+2. Pengujian dengan UAT mendapatkan hasil bahwa secara keseluruhan aplikasi
+
+pengolahan data statistik sektoral yang dibangun mendapat nilai baik.
+
+3. Aplikasi  mendukung  pengumpulan  data  statistik  sektoral  dari  organisasi
+
+perangkat  daerah  melalui  form-form  yang telah  dirancang dan disesuaikan
+
+sehingga menghindari kesalahan dalam pengisian data.
+
+4. Aplikasi  mendukung  publikasi  data  statistik  sektoral  yang  telah  diubah
+
+bentuknya  oleh  administrator  (Diskominfo)  berdasarkan  data  yang
+
+dikumpulkan dari organisasi perangkat daerah (OPD).
+
+5. Aplikasi mendukung proses unggah dan unduh data statistik sektoral.
+
+6. Diskominfo  belum memiliki  fasilitas  dan sumber  daya  untuk menjalankan
+
+aplikasi secara keseluruhan. Masih diperlukan waktu untuk proses sosialisasi
+
+terhadap  organisasi  perangkat  daerah  sehingga  memungkinkan  untuk
+
+dilakukannya penyesuaian terhadap perubahan di masa yang akan datang.
+
+
+
+BAB V
+
+PENUTUP
+
+5.1. Kesimpulan
+
+Setelah dilakukan analisis dan pengujian terhadap Aplikasi Pengolahan
+
+Data Statistik Sektoral Provinsi Kalimantan Barat, dapat disimpulkan bahwa :
+
+1. Aplikasi  Pengolahan  Data  Statistik  Sektoral  Pada  Dinas  Komunikasi  dan
+
+Informatika  dapat  digunakan  sebagai  wadah  atau  media  untuk
+
+mengumpulkan  data  statistik  sektoral  dari  OPD-OPD  di  lingkungan
+
+pemerintahan Provinsi Kalimantan Barat.
+
+2. Aplikasi  Pengolahan  Data  Statistik  Sektoral  Pada  Dinas  Komunikasi  dan
+
+Informatika  dapat  digunakan  sebagai  wadah  pengolahan  data  yaitu,
+
+mengubah  data  statistik  berupa  angka-angka  satuan  menjadi  data  berupa
+
+gambar dan file XLS serta publikasi data yaitu, menyajikan dan menyediakan
+
+data  yang  sudah  diolah  kepada  end-user  yang  terdiri  atas  OPD-OPD dan
+
+pihak terkait di lingkungan pemerintahan provinsi Kalimantan Barat.
+
+3. Berdasarkan studi literatur yang telah dilakukan, ditemukan bahwa terdapat
+
+kesesuaian antara sistem yang akan dibangun dan penelitian terkait. Referensi
+
+yang  digunakan  pada  penelitian  terkait  adalah  mengenai  pengumpulan
+
+informasi melalui media komputer dan pengumpulan serta pengolahan data
+
+dengan menggunakan aplikasi berbasis web.
+
+4. Setelah  melakukan  analisis  kebutuhan,  diperoleh  hasil  bahwa  Dinas
+
+Komunikasi dan Informatika yang bertugas sebagai wali data, yaitu memiliki
+
+kewenangan untuk mengumpulkan kemudian mempublikasikan data statistik
+
+sektoral  dilingkungan  pemerintah.  Untuk  menunjang  tugas  tersebut,  maka
+
+kemudian  dirancang  sebuah  aplikasi  berdasarkan  dan  disesuaikan  dengan
+
+sistem yang sedang berlangsung untuk proses pengumpulan, pengolahan dan
+
+distribusi data statistik sektoral melalui proses publikasi data.
+
+5. Hasil  yang didapatkan  dari  proses  pengumpulan  data  adalah  data  statistik
+
+sektoral  sebanyak  70  jenis  data  yang  berasal  dari  Seksi  Statistik,  Bidang
+
+Persandian dan Statistik, Dinas Komunikasi dan Informatika. Data statistik 
+
+177
+
+
+
+178
+
+sektoral  yang  didapatkan  berbentuk  data-data  angka  yang  diklasifikasikan
+
+berdasarkan tahun, bulan atau kabupaten/kota.
+
+6. Perancangan Sistem yang dilakukan menggunakan Unified Model Language
+
+(UML), struktur antarmuka dan layout. Perancangan yang dilakukan tersebut
+
+dapat mendefinisikan jenis pengguna, atribut, operasi dan tampilan antarmuka
+
+yang dapat memenuhi tujuan dari sistem yang akan dibangun. 
+
+7. Pembuatan  dan  Implementasi  Sistem  yang  telah  dilakukan  menghasilkan
+
+sebuah  aplikasi  pengolahan  data  statistik  sektoral  yang  dapat  melakukan
+
+pengumpulan, pengolahan dan publikasi data statistik sektoral. Aplikasi yang
+
+dibangun memiliki 3 level pengguna, yaitu administrator yang berasal dari
+
+Diskominfo,  admin OPD yang berasal  dari  organisasi-organisasi  perangkat
+
+daerah dan guest atau pengguna umum.
+
+8. Pengujian Sistem dilakukan dengan metode Black-Box terhadap menu-menu
+
+dan  fungsi  dari  aplikasi  mendapatkan  hasil  bahwa  sistem  dapat  berjalan
+
+dengan baik sesuai dengan yang telah direncanakan. Selain itu, untuk menguji
+
+penerimaan pengguna dengan menggunakan User Acceptance Testing (UAT)
+
+diperoleh hasil bahwa sistem diterima dengan baik oleh pengguna.
+
+9. Analisis  hasil  dari  pengujian  terhadap  aplikasi  pengolahan  data  statistik
+
+sektoral  adalah  Pengujian  yang  telah  dilakukan  dengan  metode  black-box
+
+mendapatkan  hasil  bahwa  fungsionalitas  dari  aplikasi  pengolahan  data
+
+statistik sektoral yang dibangun telah berjalan dengan baik dan sesuai dengan
+
+yang  diharapkan. Selain  itu,  Pengujian  dengan  kuesioner  evaluasi
+
+mendapatkan  hasil  bahwa  secara  keseluruhan  sistem  informasi  statistik
+
+sektoral yang dibangun mendapat nilai baik dan dapat diterima dengan baik
+
+oleh pengguna.
+
+10. Kesimpulan yang dapat ditarik dari  penelitian yang telah dilakukan adalah
+
+Aplikasi  Pengolahan  Data  Statistik  Sektoral  Pada  Dinas  Komunikasi  dan
+
+Informatika  Provinsi  Kalimantan  Barat  setelah  dilakukan  pengujian
+
+mendapatkan hasil bahwa aplikasi telah berjalan sesuai dengan perancangan
+
+dan dapat diterima dengan nilai baik oleh pengguna.
+
+
+
+179
+
+5.2. Saran
+
+Adapun  beberapa  hal  yang  perlu  ditambahkan  dalam  pengembangan
+
+Aplikasi  Pengolahan  Data  Statistik  Sektoral  Provinsi  Kalimantan  Barat adalah
+
+sebagai berikut :
+
+1. Aplikasi  Pengolahan  Data  Statistik  Sektoral ini  dapat  ditambahkan  dan
+
+dikolaborasikan dengan metode lainnya agar dapat memperhitungkan faktor-
+
+faktor  lain  yang  mempengaruhi  data  statistik  seperti  kelengkapan  data
+
+statistik  sektoral  dari  masing-masing organisasi  perangkat  daerah sehingga
+
+dapat memperoleh hasil olah data yang lebih baik. 
+
+2. Aplikasi  ini  dapat  dikembangkan  lebih  lanjut  untuk  platform  mobile  agar
+
+penggunaan aplikasi tidak terbatas pada komputer saja.
+
+

@@ -1,0 +1,9735 @@
+
+ 
+ 
+
+1 
+
+ 
+
+BAB I 
+
+PENDAHULUAN 
+
+ 
+
+1.1 Latar Belakang 
+
+Kota Pontianak memiliki perkembangan ekonomi yang cukup pesat 
+
+dengan tingkat populasi yang cukup tinggi. Pertambahan penduduk yang terjadi 
+
+baik secara alamiah maupun melalui proses perpindahan penduduk menyebabkan 
+
+peningkatan pada kebutuhan rumah tinggal. Kecenderungan masyarakat untuk 
+
+membeli rumah tinggal baru atau yang sudah pernah dihuni orang lain semakin 
+
+meningkat seiring dengan pertambahan jumlah penduduk. Kebutuhan akan rumah 
+
+tinggal ini jelas membuka peluang bagi sebagian masyarakat yang berminat 
+
+menjual rumah mereka terutama developer properti. 
+
+Banyak dari penjualan rumah tinggal yang tersebar di Kota Pontianak 
+
+tidak semuanya dapat diketahui oleh masyarakat karena kurangnya informasi 
+
+penjualan rumah yang didapat masyarakat seperti penyebaran brosur, baleho, surat 
+
+kabar dan iklan yang belum merata dan belum bisa memberikan informasi yang 
+
+lebih rinci. Dalam menyebarkan informasi mengenai penjualan rumah seperti ini 
+
+juga memiliki banyak kekurangan seperti biaya percetakan brosur dan biaya pajak 
+
+yang mahal serta mempunyai jumlah dan masa berlaku yang terbatas. Selain itu 
+
+konsumen juga harus mencari iklan penjualan rumah dengan membeli surat kabar 
+
+atau mencari brosur tentang iklan penjualan rumah. Hal ini menghabiskan banyak 
+
+waktu dan tenaga hanya untuk mencari dan membaca iklan penjualan rumah dengan 
+
+informasi yang terbatas. Terlebih lagi alamat properti belum tentu diketahui 
+
+konsumen dengan jelas. Maka dari itu diperlukan metode promosi yang lebih 
+
+efektif dan efisien dengan memanfaatkan kemajuan teknologi. 
+
+Kemajuan teknologi yang sekarang semakin pesat terutama smartphone dan 
+
+internet mendukung adanya pemetaan digital yang dapat diimplementasikan pada 
+
+sistem berbasis website. Kemajuan teknologi juga dapat mempermudah masyarakat 
+
+yang ingin menjual rumah untuk menetapkan harga jual dari suatu rumah. Karena 
+
+tidak semua masyarakat menetapkan harga rumah sesuai dengan harga pasaran 
+
+karena menetapkan harga jual sebuah rumah tidak hanya dari sisi materialnya saja 
+
+namun juga harus mempertimbangkan sejumlah faktor seperti lokasi rumah, 
+
+
+
+2 
+
+ 
+
+ 
+
+ 
+
+kondisi rumah, fasilitas rumah, fasilitas umum disekitar rumah, NJOP bumi, NJOP 
+
+bangunan, luas tanah dan luas dari bangunan rumah tersebut. Sehingga 
+
+menimbulkan persoalan tersendiri dalam menetapkan harga jual untuk sebuah 
+
+rumah. Dalam hal ini untuk memberikan kemudahan kepada masyarakat yang ingin 
+
+menjual rumahnya, masyarakat membutuhkan sebuah aplikasi untuk membantu 
+
+menetapkan harga jual rumah tersebut agar relatif sesuai dan tidak berbeda jauh 
+
+dengan harga seharusnya. Dalam menetapkan harga jual rumah dibutuhkan suatu 
+
+metode dalam implementasi aplikasi yakni menggunakan metode tsukamoto. 
+
+Metode tsukamoto mengaplikasikan penalaran monoton pada setiap aturannya. 
+
+Dimana setiap konsekuen pada aturan yang berbentuk IF-THEN harus 
+
+direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaan yang 
+
+monoton. 
+
+Oleh karena itu, maka dibutuhkan sebuah sistem informasi geografis 
+
+penjualan dan pembelian rumah di Kota Pontianak. Sistem ini dapat mempermudah 
+
+masyarakat dalam mengetahui lokasi rumah serta informasi rumah tersebut serta 
+
+memberikan rekomendasi dalam menetapkan harga jual dari sebuah rumah 
+
+berdasarkan kondisi bangunan, fasilitas rumah, fasilitas umum, luas tanah, luas 
+
+bangunan, NJOP bumi dan NJOP bangunan dengan menggunakan metode fuzzy 
+
+tsukamoto. 
+
+ 
+
+1.2 Rumusan Masalah 
+
+Dalam menemukan informasi tentang rumah yang dijual, masyarakat 
+
+masih menggunakan brosur dan iklan. Data yang lebih detail didapat masyarakat 
+
+ketika melakukan kunjungan ke rumah yang dijual sedangkan sebagian masyarakat 
+
+tidak mengetahui lokasi dari rumah tersebut dan pihak penjual masih kesulitan 
+
+untuk menetapkan harga jual rumah sehingga harga jual rumah terkadang tidak 
+
+sesuai dengan harga pasaran sekitar.  
+
+Berdasarkan hal diatas yang telah disampaikan, maka yang dapat dijadikan 
+
+sebagai rumusan masalah dari penelitian ini adalah bagaimana merancang dan 
+
+membangun sistem informasi geografis yang dapat memberikan informasi tentang 
+
+jual-beli rumah dan memberikan rekomendasi dalam menentukan harga jual rumah.  
+
+ 
+
+
+
+3 
+
+ 
+
+ 
+
+ 
+
+1.3 Tujuan Penelitian 
+
+Adapun tujuan dari penelitian yang dilakukan adalah menghasilkan suatu 
+
+sistem informasi geografis yang menyediakan informasi mengenai jual-beli rumah 
+
+di Kota Pontianak, menampilkan lokasi rumah sehingga memudahkan masyarakat 
+
+mencari rumah yang ingin dibeli serta memberikan rekomendasi untuk menetapkan 
+
+harga rumah yang dijual. 
+
+  
+
+1.4 Pembatasan Masalah 
+
+Pembatasan masalah dari penelitian yang akan dilakukan adalah:  
+
+a. Wilayah studi adalah Kota Pontianak. 
+
+b. Aplikasi ini dibangun berbasis website. 
+
+c. Metode fuzzy tsukamoto digunakan untuk menentukan rekomendasi 
+
+harga jual rumah khusus penjual rumah. 
+
+d. Aplikasi ini hanya sebagai media promosi, tidak melayani pembayaran 
+
+secara online maupun sebagai perantara transaksi. 
+
+ 
+
+1.5 Sistematika Penulisan Skripsi 
+
+Adapun sistematika penulisan dari tugas akhir ini adalah sebagai berikut: 
+
+BAB I: PENDAHULUAN 
+
+Berisi latar belakang, rumusan masalah, tujuan penelitian, pembatasan masalah dan 
+
+sistematika penulisan. 
+
+BAB II : TINJAUAN PUSTAKA 
+
+Berisi landasan teori dan prinsip-prinsip penunjang yang berguna dalam pengerjaan 
+
+tugas akhir meliputi teori dasar mengenai Promosi, Sistem informasi geografis, 
+
+Google Maps, Google Maps API, HTML, PHP, CSS, Jquery, Mysql, Layanan 
+
+Berbasis Mobile, Himpunan dan Logika Fuzzy, Black Box, MAPE dan kajian 
+
+terkait. 
+
+BAB III: METODOLOGI PENELITIAN 
+
+Berisi tentang data penelitian, alat penelitian, analisis kebutuhan, perancangan 
+
+sistem, perancangan arsitektur sistem, perancangan data flow diagram, 
+
+perancangan basis data, diagram hubung antar tabel, perancangan sturktur 
+
+
+
+4 
+
+ 
+
+ 
+
+ 
+
+antarmuka aplikasi, perancangan antarmuka, pengujian fuzzy tsukamoto, pengujian 
+
+UAT, pengujian black box  
+
+BAB IV: HASIL DAN ANALISIS APLIKASI 
+
+Berisi data hasil perancangan antar muka public user, hasil perancangan antar muka 
+
+member, hasil perancangan antar muka admin, hasil pengujian sistem, hasil 
+
+pengujian fuzzy tsukamoto, hasil pengujian UAT, Hasil pengujian black box 
+
+BAB V: PENUTUP 
+
+Berisi kesimpulan dari penelitian yang telah dilakukan dan saran/rekomendasi 
+
+untuk perbaikan, pengembangan atau kesempurnaan/kelengkapan penelitian yang 
+
+telah dilakukan. 
+
+
+
+5 
+
+ 
+
+BAB II 
+
+TINJAUAN PUSTAKA DAN LANDASAN TEORI 
+
+  
+
+2.1  Rumah 
+
+2.1.1  Rumah Tinggal  
+
+Rumah adalah bangunan yang berfungsi sebagai tempat tinggal atau 
+
+hunian dan sarana pembinaan keluarga (Undang-undang No.4 Tahun 1992). 
+
+Dalam pengertian yang luas, rumah tinggal bukan hanya sebuah bangunan 
+
+(struktural). Melainkan juga tempat kediaman yang memenuhi syarat-syarat 
+
+kehidupan yang layak, dipandang dari berbagai segi kehidupan masyarakat. (Frick 
+
+dan Muliani, 2006) 
+
+ 
+
+2.1.2  Fungsi Rumah Tinggal 
+
+Secara garis besar, rumah memiliki empat fungsi pokok sebagai tempat 
+
+tinggal yang layak dan sehat bagi setiap manusia, yaitu: 
+
+a.   Rumah harus memenuhi kebutuhan pokok jasmani manusia. 
+
+b.   Rumah harus memenuhi kebutuhan pokok rohani manusia. 
+
+c.   Rumah harus melindungi manusia dari penularan penyakit. 
+
+d.   Rumah harus melindungi manusia dari gangguan luar. 
+
+Pengertian rumah yang dapat memuaskan kebutuhan jasmani manusia 
+
+adalah rumah yang memenuhi persyaratan berikut: 
+
+a.   Dapat memberikan perlindungan terhadap gangguan-gangguan cuaca 
+
+atau keadaan iklim yang kurang sesuai dengan kondisi manusia seperti 
+
+panas, dingin, angin dan hujan. 
+
+b.   Dapat memenuhi kebutuhan penghuninya untuk melakukan kegiatan atau 
+
+pekerjaan rumah tangga sehari-hari, antara lain : 
+
+1) Kegiatan kerja yang ringan, misalnya memasak, menjahit, belajar 
+
+dan menulis. 
+
+2) Berkumpul bersama seluruh keluarga atau mengadakan pertemuan 
+
+dengan tamu. 
+
+3) Kegiatan rutin untuk memenuhi kebutuhan kesehatan jasmani bagi 
+
+kelangsungan hidup, yakni antara lain : mandi, tidur dan makan. 
+
+
+
+6 
+ 
+
+Dapat digunakan sebagai tempat istirahat yang tenang diwaktu lelah 
+
+atau sakit. 
+
+Rumah yang dapat memenuhi kebutuhan rohani manusia adalah rumah 
+
+yang memberikan perasaan aman dan tentram bagi seluruh keluarga sehingga 
+
+mereka dapat berkumpul dan hidup bersama, serta dapat mengembangkan sifat 
+
+dan kepribadian yang sehat. Rumah yang merupakan tempat perlindungan dari 
+
+pengaruh lingkungan luar adalah rumah yang dapat menjauhkan segala gangguan 
+
+kesehatan bagi penghuninya. Rumah juga harus kuat dan stabil sehingga dapat 
+
+memberi perlindungan terhadap gangguan keamanan yang disebabkan bencana 
+
+alam maupun kerusuhan atau kejahatan oleh pencurian dan perampokan. (Frick 
+
+dan Muliani, 2006) 
+
+ 
+
+2.2   Promosi 
+
+2.2.1      Pengertian Promosi 
+
+Menurut Sustina (2003) promosi merupakan upaya pemasaran yang 
+
+bersifat media dan non media untuk merangsang coba-coba dari konsumen, 
+
+meningkatkan permintaan dari konsumen atau untuk memperbaiki kualitas 
+
+produk.  
+
+Menurut Rambat (2006) promosi merupakan salah satu variable dalam 
+
+bauran pemasaran yang sangat penting dilaksanakan oleh perusahaan dalam 
+
+memasarkan produk jasa. Kegiatan promosi bukan saja berfungsi sebagai alat 
+
+komunikasi antara perusahaan dengan konsumen, melainkan juga sebagai alat 
+
+untuk mempengaruhi konsumen dalam kegiatan pembelian atau penggunaan jasa 
+
+sesuai dengan keinginan dan kebutuhannya. 
+
+  
+
+2.2.2   Sarana Promosi 
+
+Menurut Kasmir (2004), sarana promosi dapat dilakukan dengan 
+
+beberapa hal, di antaranya adalah: 
+
+a)   Periklanan (Advertising) 
+
+Periklanan merupakan promosi yang dilakukan dalam bentuk tayangan 
+
+atau gambar atau kata-kata yang tertuang dalam spanduk, brosur, billboard, koran, 
+
+majalah, TV atau radio. Dengan membaca atau melihat Advertising itu diharapkan 
+
+
+
+7 
+ 
+
+para konsumen atau calon konsumen akan terpengaruh lalu tertarik untuk 
+
+membeli produk yang diiklankan tersebut, oleh karena itu iklan ini harus dibuat 
+
+sedemikian rupa sehingga menarik perhatian para pembacanya. 
+
+b)   Promosi penjualan (Sales Promotion) 
+
+Promosi Penjualan merupakan promosi yang digunakan untuk 
+
+meningkatkan penjualan melalui potongan harga atau hadiah pada waktu tertentu 
+
+terhadap barang-barang tertentu pula. 
+
+c)   Publisitas (Publicity) 
+
+Publisitas merupakan promosi yang dilakukan untuk meningkatkan citra 
+
+Rumah Zakat di depan para calon muzakki atau muzakki nya melalui kegiatan 
+
+sponsorship terhadap suatu kegiatan amal atau sosial atau olah raga. 
+
+d)   Penjualan pribadi (Personal Selling) 
+
+Penjualan Pribadi merupakan promosi yang dilakukan melalui pribadi-
+
+pribadi karyawan Rumah Zakat dalam melayani serta ikut mempengaruhi 
+
+muzakki. 
+
+ 
+
+2.3   Sistem Informasi Geografis 
+
+2.3.1   Pengertian Sistem Informasi Geografis 
+
+   Sistem Informasi Geografis (SIG) atau Geographic Information System 
+
+adalah suatu sistem informasi yang dirancang untuk bekerja dengan data yang 
+
+bereferensi spasial atau berkoordinat geografi atau dengan kata lain suatu SIG 
+
+adalah suatu sistem basis data dengan kemampuan khusus untuk menangani data 
+
+yang bereferensi keruangan (spasial) bersamaan dengan seperangkat operasi kerja 
+
+(Barus, 2000). Sedangkan menurut Bernhardsen (2002), SIG sebagai sistem 
+
+komputer yang digunakan untuk memanipulasi data geografi. Sistem ini 
+
+diimplementasikan dengan perangkat keras dan perangkat lunak komputer yang 
+
+berfungsi untuk akusisi dan verifikasi data, kompilasi data, penyimpanan data, 
+
+perubahan dan pembaharuan data, manajemen dan pertukaran data, manipulasi 
+
+data, pemanggilan dan presentasi data serta analisa data.. 
+
+Prahasta (2005) menyatakan SIG terdiri atas beberapa subsistem yaitu: 
+
+a)   Data Input, subsistem ini bertugas untuk mengumpulkan dan 
+
+mempersiapkan data spasial dan data atribut dari berbagai sumber. 
+
+
+
+8 
+ 
+
+Subsistem ini pula yang bertanggung jawab dalam mengkonversi atau 
+
+mentransformasikan format-format data aslinya ke dalam format yang 
+
+digunakan oleh SIG. 
+
+b)   Data Output, subsistem ini menampilkan atau menghasilkan keluaran 
+
+seluruh atau sebagian basis data baik dalam bentuk softcopy maupun 
+
+bentuk hardcopy seperti: tabel, grafik, peta dan lain-lain. 
+
+c)   Data Management, subsistem ini mengorganisasikan baik data spasial 
+
+maupun atribut ke dalam sebuah basis data sedemikian rupa sehingga 
+
+mudah dipanggil, di update dan di edit. 
+
+d)   Data Manipulation & Analysis, subsistem ini menentukan informasi yang 
+
+dapat dihasilkan oleh SIG. 
+
+ 
+
+2.3.2   Manfaat Sistem Informasi Geografis 
+
+Fungsi SIG adalah meningkatkan kemampuan menganalisis informasi 
+
+spasial secara terpadu untuk perencanaan dan pengambilan keputusan. SIG dapat 
+
+memberikan informasi kepada pengambil keputusan untuk analisis dan penerapan 
+
+database keruangan. (Prahasta, 2002) 
+
+SIG mampu memberikan kemudahan-kemudahan yang diinginkan. 
+
+Dengan SIG kita akan dimudahkan dalam melihat fenomena kebumian dengan 
+
+perspektif yang lebih baik. SIG mampu mengakomodasi penyimpanan, 
+
+pemrosesan, dan penayangan data spasial digital bahkan integrasi data yang 
+
+beragam, mulai dari citra satelit, foto udara, peta bahkan data statistik. SIG juga 
+
+mengakomodasi dinamika data, pemutakhiran data yang akan menjadi lebih 
+
+mudah. 
+
+ 
+
+2.3.3   Cara Kerja Sistem Informasi Geografis 
+
+SIG dapat menyajikan real world (dunia nyata) pada monitor 
+
+sebagaimana lembaran peta dapat merepresentasikan dunia nyata di atas kertas. 
+
+Tetapi, SIG memiliki kekuatan lebih dan fleksibilitas dari pada lembaran pada 
+
+kertas. Peta merupakan representasi grafis dari dunia nyata, obyek-obyek yang  
+
+dipresentasikan di atas peta disebut unsur peta atau map features (contohnya 
+
+
+
+9 
+ 
+
+adalah sungai, taman, kebun, dan jalan). Karena peta mengorganisasikan unsur- 
+
+unsur berdasarkan lokasi-lokasinya. SIG menyimpan semua informasi deskriptif 
+
+unsur-unsurnya sebagai atribut-atribut didalam basis data. Kemudian, SIG 
+
+membentuk dan menyimpannya di dalam tabel-tabel (relasional). Dengan 
+
+demikian, atribut-atribut ini dapat diakses melalui lokasi-lokasi unsur-unsur peta. 
+
+Dan sebaliknya, unsur-unsur peta juga dapat diakses melaluiatribut-atributnya. 
+
+(Prahasta, 2005) 
+
+ 
+
+2.4   HyperText Markup Language (HTML) 
+
+   Menurut Sunarfrihantono (2003), HTML (Hypertext Markup Language) 
+
+adalah suatu format data yang digunakan untuk membuat dokumen hypertext 
+
+yang dapat dibaca dari satu platform komputer ke platform computer lainnya 
+
+tanpa perlu melakukan suatu perubahan kode atau apapun. HTML tidak hanya 
+
+mampu menampilkan teks tetapi juga dapat diberikan format pada teks tersebut 
+
+misal kolom table, listform, frame, serta dapat digabungkan dengan obyek suara, 
+
+video maupun Java. Selain itu ada elemen lain yang disebut Tag. Tag merupakan 
+
+kode-kode dokumen HTML yang digunakan untuk memberi format tertentu 
+
+terhadap teks atau grafik sehingga akan tampak seperti yang digunakan pada 
+
+layar.  
+
+ 
+
+2.5   HyperText Preprocessor (PHP) 
+
+Menurut Agus (2011) PHP atau yang memiliki kepanjangan Hypertext 
+
+Preprocessor merupakan suatu bahasa pemrograman yang difungsikan untuk 
+
+membangun suatu website dinamis. PHP menyatu dengan kode HTML, 
+
+maksudnya adalah beda kondisi. HTML digunakan sebagai pembangun atau 
+
+pondasi dari kerangka layout web, sedangkan PHP difungsikan sebagai prosesnya 
+
+sehingga dengan adanya PHP tersebut, web akan sangat mudah di-maintenance. 
+
+PHP berjalan pada sisi server sehingga PHP disebut juga sebagai bahasa 
+
+Server Side Scripting. Artinya bahwa dalam setiap/untuk menjalankan PHP, wajib 
+
+adanya web server. 
+
+PHP bersifat open source sehingga dapat dipakai secara cuma-cuma dan 
+
+mampu lintas platform, yaitu dapat berjalan pada sistem operasi Windows 
+
+
+
+10 
+ 
+
+maupun Linux. PHP juga dibangun sebagai modul pada web server apache dan 
+
+sebagai binary yang dapat berjalan sebagai CGI.  
+
+Menurut Sidik (2012), PHP merupakan secara umum dikenal dengan 
+
+sebagai bahasa pemrograman script yang membuat dokumen HTML secara on the 
+
+fly yang dieksekusi di server web, dokumen HTML yang dihasilkan dari suatu 
+
+aplikasi bukan dokumen HTML yang dibuat dengan menggunakan editor teks 
+
+atau editor HTML, dikenal juga sebagai bahasa pemrograman server side. 
+
+ 
+
+2.6   Cascading Style Sheets (CSS) 
+
+   Menurut Wahana Komputer (2005), Cascading Style Sheet (CSS) adalah 
+
+adalah sebuah style sheet yang digunakan dalam dokumen HTML. Penggunaan 
+
+CSS sangat membantu web desainer dalam menyusun halaman yang konsisten 
+
+pada proyek pembuatan situs web. Tentunya ini juga membantu web desainer 
+
+untuk mengikuti prinsip web desainer.  
+
+CSS dapat diibaratkan sebagai seragam tentara, yang memiliki banyak 
+
+sekali atribut di dalamnya. Namun antara tentara yang satu dengan yang lain 
+
+semuanya mengenakan seragam yang sama walaupun jumlahnya ratusan bahkan 
+
+ribuan orang. CSS juga dapat digunakan dalam file yang terpisah dengan file-file 
+
+HTML, sehingga untuk merubah keseluruhan format HTML anda cukup merubah 
+
+file CSS tersebut. File CSS tersebut akan berfungsi seperti komandan pasukan 
+
+pada perumpamaan di atas. Apapun yang diperintahkan oleh komandan itu, maka 
+
+semua prajurit di bawah komandonya pasti mengikutinya, demikian juga fungsi 
+
+CSS tersebut. 
+
+ 
+
+2.7   JavaScript 
+
+JavaScript adalah bahasa scripting yang popular di internet dan dapat 
+
+bekerja di sebagian besar browser popoler seperti Internet Explorer (IE), Mozilla 
+
+Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman 
+
+web menggunakan tag SCRIPT. (Sunyoto, 2007) 
+
+ 
+
+ 
+
+ 
+
+
+
+11 
+ 
+
+2.8   MySQL 
+
+   MySQL adalah sebuah perangkat lunak sistem manajemen basis data 
+
+SQL (bahasa Inggris: database management system) atau DBMS yang 
+
+multithread dan multi-user. MySQL merupakan server basis data dimana 
+
+pemrosesan data terjadi di server, dan client  hanya mengirimkan data serta 
+
+meminta data. Oleh karena pemrosesan terjadi di server sehingga pengaksesan 
+
+data tidak terbatas. (Solihin, 2010) 
+
+ 
+
+2.9   Framework Laravel 
+
+2.9.1   Framework 
+
+Framework adalah kerangka kerja yang memudahkan programmer untuk 
+
+membuat sebuah aplikasi sehingga programmer akan lebih mudah melakukan 
+
+perubahan (customize) terhadap aplikasinya dan dapat memakainya kembali untuk 
+
+aplikasi lain yang sejenis. (Sukamto dan M. Salahuddin, 2013)  
+
+ 
+
+2.9.2   Framework Laravel 
+
+   Laravel merupakan framework PHP yang menekankan pada 
+
+kesederhanaan dan fleksibilitas pada desainnya. Laravel dirilis dibawah lisensi 
+
+MIT dengan sumber kode yang disediakan di Github. Sama seperti framework 
+
+PHP lainnya, Laravel dibangun dengan basis MVC (Model-View-Controller). 
+
+Laravel dilengkapi command line tool yang bernama “Artisan” yang bisa 
+
+digunakan untuk packaging bundle dan instalasi bundle. (Rohman, 2014) 
+
+ 
+
+2.10       Logika Fuzzy 
+
+2.10.1    Pengertian Logika Fuzzy 
+
+Secara umum logika fuzzy adalah suatu logika yang memiliki nilai 
+
+kekaburan atau kesamaran (fuzzyness) antara benar atau salah. Logika Fuzzy 
+
+memungkinkan nilai keanggotaannya antara 0 dan 1. Ada beberapa definisi 
+
+tentang logika fuzzy, diantaranya: 
+
+a.   Logika fuzzy adalah suatu cara yang tepat untuk memetakan suatu ruang 
+
+input ke dalam suatu ruang output, mempunyai nilai kontinyu dan logika 
+
+
+
+12 
+ 
+
+fuzzy dinyatakan dalam derajat dari suatu keanggotaan dan derajat dari 
+
+kebenaran. (Kusumadewi, 2002) 
+
+b.   Logika fuzzy adalah logika yang digunakan untuk menjelaskan 
+
+keambiguan, dimana logika fuzzy adalah cabang teori dari himpunan 
+
+fuzzy, himpunan yang menyesuaikan keambiguan. 
+
+c.   Logika fuzzy menyediakan suatu cara untuk merubah pernyataan 
+
+linguistik menjadi suatu numeric. (Synaptic, 2006) 
+
+Beberapa alasan digunakannya logika fuzzy, antara lain (Kusumadewi dan 
+
+Purnomo, 2004): 
+
+1.   Konsep logika fuzzy mudah dimengerti, karena di dalam logika fuzzy 
+
+terdapat konsep matematis sederhana dan mudah dimengerti yang 
+
+mendasari penalaran fuzzy. 
+
+2.   Logika fuzzy sangat fleksibel, artinya mampu beradaptasi dengan 
+
+perubahan-perubahan, dan ketidakpastian yang menyertai permasalahan. 
+
+3.   Logika fuzzy memiliki toleransi terhadap data yang tidak tepat. 
+
+4.   Logika fuzzy mampu memodelkan fungsi–fungsi nonlinier yang sangat 
+
+kompleks. 
+
+5.   Logika fuzzy dapat bekerjasama dengan teknik–teknik kendali secara 
+
+konvensional. 
+
+6.   Logika fuzzy didasarkan pada bahasa alami. Logika fuzzy menggunakan 
+
+bahasa sehari-hari sehingga mudah dimengerti. 
+
+7.   Logika fuzzy dapat membangun dan mengaplikasikan pengalaman 
+
+pengalaman para pakar secara langsung tanpa harus melalui proses 
+
+pelatihan. 
+
+ 
+
+2.10.2    Himpunan Fuzzy 
+
+Himpunan fuzzy adalah himpunan-himpunan yang akan dibicarakan pada 
+
+suatu variabel dalam sistem fuzzy (Kusumadewi, 2002). Himpunan fuzzy 
+
+digunakan untuk mengantisipasi nilai – nilai yang bersifat tidak pasti. Pada 
+
+himpunan tegas (crisp), nilai keanggotaan suatu item dalam suatu himpunan dapat 
+
+memiliki dua kemungkinan, yaitu satu (1), yang berarti bahwa suatu item menjadi 
+
+anggota dalam suatu himpunan, atau nol (0), yang berarti suatu item tidak menjadi 
+
+
+
+13 
+ 
+
+anggota dalam suatu himpunan. Sedangkan pada himpunan fuzzy nilai 
+
+keanggotaan terletak pada rentang 0 sampai 1, yang berarti himpunan fuzzy dapat 
+
+mewakili intepretasi tiap nilai berdasarkan pendapat atau keputusan dan 
+
+probabilitasnya.  
+
+Himpunan fuzzy memiliki 2 atribut (Kusumadewi dan Purnomo, 2004), 
+
+yaitu:  
+
+1.   Linguistik, yaitu penamaan suatu grup yang mewakili suatu keadaan atau 
+
+kondisi tertentu dengan menggunakan bahasa alami, seperti: Muda, 
+
+Parobaya,Tua.  
+
+2.   Numeris, yaitu suatu nilai (angka) yang menunjukkan ukuran dari suatu 
+
+variabel seperti: 40, 25, 50, dsb. 
+
+Fuzzifikasi merupakan suatu proses untuk mengubah suatu variabel input 
+
+bentuk crisp menjadi variabel linguistik dalam bentuk himpunan-himpunan fuzzy 
+
+dengan fungsi keanggotaannya masing-masing. 
+
+ 
+
+2.10.3    Fungsi Derajat Keanggotaan Fuzzy 
+
+   Fungsi derajat keanggotaan (membership function) adalah suatu kurva 
+
+yang menunjukan pemetaan titik-titik input data ke dalam derajat keanggotaan 
+
+yang memiliki interval antara 0 sampai 1. Salah satu cara yang dapat digunakan 
+
+untuk mendapatkan nilai keanggotaan adalah dengan melalui pendekatan fungsi. 
+
+Ada beberapa fungsi keanggotaan yang dapat digunakan, seperti fungsi linier 
+
+turun, fungsi linier naik, fungsi segitiga, fungsi trapesium, fungsi-S, fungsi-Z. 
+
+ Suatu fungsi derajat keanggotaan fuzzy disebut fungsi linier turun jika 
+
+mempunyai 2 parameter, yaitu a, b R. Pada linier turun, garis lurus dimulai dari 
+
+nilai domain dengan derajat keanggotaan tertinggi pada sisi kiri, kemudian 
+
+bergerak menurun ke nilai domain yang memiliki derajat keanggotaan lebih 
+
+rendah dengan fungsi keanggotaan. Kurva fungsi linier turun diperlihatkan oleh 
+
+gambar 2.5. (Kusumadewi dan Purnomo, 2004) 
+
+
+
+14 
+ 
+
+ 
+
+Gambar 2.1 Kurva Fungsi Linear Turun  
+
+Fungsi Keanggotaan dirumuskan dengan persamaan 2.1 berikut: 
+
+ 
+
+Sedangkan suatu fungsi derajat keanggotaan fuzzy disebut fungsi linier naik jika 
+
+mempunyai 2 parameter, yaitu a, b R, dan kenaikan himpunan dimulai pada 
+
+nilai domain yang memiliki derajat keanggotaan nol [0] bergerak menuju nilai 
+
+domain yang memiliki derajat keanggotaan lebih tinggi. Kurva fungsi linier naik 
+
+diperlihatkan oleh gambar 2.6. (Kusumadewi dan Purnomo, 2004) 
+
+ 
+
+Gambar 2.2 Kurva Fungsi Linear Naik 
+
+Fungsi keanggotaan naik dirumuskan dengan persamaan 2.2 berikut: 
+
+ 
+
+Suatu fungsi derajat keanggotaan fuzzy disebut fungsi segitiga jika mempunyai 
+
+tiga buah parameter, yaitu a, b, c R yang menentukan koordinat x dari tiga 
+
+ 
+
+ 
+
+
+
+15 
+ 
+
+sudut. Kurva ini pada dasarnya merupakan gabungan antara dua garis (linier). 
+
+Kurva fungsi segitiga diperlihatkan oleh gambar 2.7. (Kusumadewi dan Purnomo, 
+
+2004) 
+
+ 
+
+Gambar 2.3 Kurva Segitiga 
+
+Fungsi keanggotaan dirumuskan dengan persamaan 2.3 berikut: 
+
+ 
+
+Suatu fungsi derajat keanggotaan fuzzy disebut fungsi trapesium jika mempunyai 
+
+4 buah parameter (a, b, c, d R). Kurva trapesium pada dasarnya seperti bentuk 
+
+segitiga, hanya saja ada beberapa titik yang memiliki nilai keanggotaan 1. Dan 
+
+Kurva fungsi trapesium diperlihatkan oleh gambar 2.8. (Kusumadewi dan 
+
+Purnomo, 2004) 
+
+ 
+
+Gambar 2.4 Kurva Trapesium 
+
+Fungsi keanggotaan dirumuskan dengan persamaan 2.4 berikut: 
+
+ 
+
+ 
+
+
+
+16 
+ 
+
+ 
+
+Suatu derajat keanggotaan fuzzy disebut derajat keanggotaan fungsi-S 
+
+Pertumbuhan jika mempunyai 3 buah parameter yaitu a, b, c R dengan a adalah 
+
+nilai keanggotaan nol, b adalah titik tengah antara a dan c dengan μ(b) = 0.5 (titik 
+
+infleksi) dan c adalah nilai keanggotaan lengkap, Bentuk kurva fungsi-S 
+
+Pertumbuhan diperlihatkan oleh gambar 2.9. 
+
+ 
+
+Gambar 2.5 Kurva Fungsi-S Pertumbuhan 
+
+Fungsi keangotaan pada kurva-S Pertumbuhan dirumuskan dengan persamaan 2.5 
+
+berikut:  
+
+ 
+
+Suatu keanggotaan fuzzy disebut fungsi keanggotaan fungsi-S penyusutan jika 
+
+mempunyai 3 buah parameter yaitu a, b, c R dengan a adalah nilai keanggotaan 
+
+nol, b adalah titik tengah antara a dan c dengan μ(b) = 0.5 (titik infleksi) dan c 
+
+adalah nilai keanggotaan lengkap (Kusumadewi, 2002), Kurva fungsi S 
+
+Penyusutan diperlihatkan oleh gambar 2.10. 
+
+ 
+
+ 
+
+
+
+17 
+ 
+
+ 
+
+Gambar 2.10 Kurva Fungsi-S Penyusutan 
+
+Fungsi keangotaan pada kurva-S Penyusutan dirumuskan dengan persamaan 2.6 
+
+berikut: 
+
+ 
+
+ 
+
+2.10.4    Operator Fuzzy 
+
+Nilai keanggotaan sebagai hasil dari operasi dua himpunan disebut 
+
+dengan fire strength atau α-predikat. Ada tiga operator dasar yang diciptakan oleh 
+
+Zadeh, yaitu (Kusumadewi, 2002): 
+
+1.   Operator NOT 
+
+Misalnya A adalah suatu himpunan tegas dalam semesta X, maka 
+
+komplemen dari A, yaitu A’. Operator ini berhubungan dengan operasi 
+
+komplemen pada himpunan. α-predikat sebagai hasil operasi NOT 
+
+diperoleh dengan mengurangkan nilai keanggotaan elemen pada 
+
+himpunan yang bersangkutan dari satu. 
+
+μA’ = 1 - μA[x] 
+
+2.   Operator OR 
+
+Gabungan dari himpunan-himpunan tegas A dan B dalam semesta X, 
+
+yaitu AUB. Operator ini berhubungan dengan operasi union pada 
+
+himpunan. α-predikat sebagai hasil operasi OR diperoleh dengan 
+
+mengambil nilai keanggotaan terbesar antar elemen pada himpunan-
+
+himpunan yang bersangkutan. 
+
+ 
+
+
+
+18 
+ 
+
+μA B = max(μA[x], μB[y]) 
+
+3.   Operator AND 
+
+Irisan dari himpunan-himpunan tegas A dan B dalam semesta X, yaitu 
+
+A B, Operator ini berhubungan dengan operasi interseksi pada 
+
+himpunan. α- predikat sebagai hasil operasi AND diperoleh dengan 
+
+mengambil nilai keanggotaan terkecil antar elemen pada himpunan-
+
+himpunan yang bersangkutan. 
+
+μA B = min(μA [x], μB[y]) 
+
+ 
+
+2.10.5    Metode Tsukamoto 
+
+Metode tsukamoto merupakan perluasan dari penalaran monoton, pada 
+
+metode tsukamoto, setiap konsekuen pada aturan yang berbentuk IF-Then harus 
+
+direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya 
+
+yang monoton. Sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan 
+
+diberikan secara tegas (crisp) berdasarkan α-predikat (fire strenght). Hasil 
+
+akhirnya diperoleh dengan menggunakan rata-rata terbobot. (Kusumadewi dan 
+
+Hartati, 2006) 
+
+Misalkan ada 2 variabel input, Var-1 (x) dan Var-2 (y), serta 1 variabel 
+
+output, Var-3 (z), dimana Var-1 terbagi atas 2 himpunan yaitu A1 dan A2 terbagi 
+
+atas 2 himpunan B1 dan B2, Var-3 juga terbagi atas 2 himpunan yaitu C1 dan C2 
+
+(C1 dan C2 harus monoton). Ada aturan yang digunakan, yaitu: 
+
+[R1] IF (x is A1) and (y is B2) THEN (z is C1) 
+
+ [R1] IF (x is A2) and (y is B1) THEN (z is C2) 
+
+ 
+
+2.11   Alat Bantu Perancangan Sistem 
+
+2.11.1   Unified Modelling Language (UML) 
+
+Menurut Rosa dan Shalahuddin (2013), Unified Modeling Language 
+
+(UML) merupakan bahasa visual untuk pemodelan dan komunikasi mengenai 
+
+sistem dengan menggunakan diagram dan teks-teks pendukung.  
+
+ 
+
+ 
+
+ 
+
+
+
+19 
+ 
+
+2.11.2   Use Case Diagram 
+
+   Use case diagram mendeskripsikan sebuah interaksi antara satu atau 
+
+lebih aktor dengan sistem informasi yang akan dibuat. Dengan kata lain, use case 
+
+diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di 
+
+dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut. (Rosa dan  
+
+Shalahuddin, 2013) 
+
+ 
+
+2.11.3   Activity Diagram 
+
+Activity Diagram menggambarkan workflow (aliran kerja) atau aktivitas 
+
+dari sebuah sistem atau proses bisnis. (Rosa dan Shalahuddin, 2013) 
+
+ 
+
+2.11.4   Class Diagram 
+
+   Rosa dan Shalahuddin (2013) menyatakan bahwa, class diagram 
+
+menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan 
+
+dibuat untuk membangun sistem. Class diagram memiliki apa yang disebut atribut 
+
+dan metode atau operasi. Atribut merupakan variabel-variabel yang dimiliki oleh 
+
+suatu kelas. Metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu 
+
+kelas.  
+
+ 
+
+2.11.5   Sequence Diagram 
+
+   Sequence diagram menggambarkan kelakuan objek pada usecase dengan 
+
+mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima 
+
+antar objek. Dalam menggambarkan sequence diagram perlu memperhatikan 
+
+objek-objek yang terlibat di dalam use case beserta metode-metode yang dimiliki 
+
+kelas yang diinstansiasi menjadi objek itu. (Rosa dan Shalahuddin, 2013) 
+
+ 
+
+2.12  Pengujian Sistem 
+
+2.12.1 Pengujian Perangkat Lunak 
+
+Ada banyak teknik pengujian yang dapat digunakan untuk menguji 
+
+perangkat lunak, diantaranya: pengujian white box dan pengujian black box. 
+
+ 
+
+ 
+
+
+
+20 
+ 
+
+1. Black  Box Testing  
+
+Menurut Rosa dan Shalahudin (2013), Black Box Testing (pengujian kotak 
+
+hitam) yaitu menguji perangkat lunak dari segi spesifikasi fungsional tanpa 
+
+menguji desain dan kode program. Pengujian dimaksudkan untuk mengetahui 
+
+apakah fungsi-fungsi, masukan, dan keluaran dari perangkat lunak sesuai dengan 
+
+spesifikasi yang dibutuhkan, untuk memeriksa apakah program dapat berjalan 
+
+dengan benar. Pemilihan data pengujian paling tidak harus dipilih dengan cara 
+
+berikut (Rosa, 2009): 
+
+2.   Extreme values, banyak program error pada suatu batas range dari 
+
+aplikasi. 
+
+3.   Ilegal values, yaitu suatu data atau nilai yang tidak diperbolehkan 
+
+maupun data yang tidak berguna. 
+
+4.   values, yaitu data yang mudah diperiksa. 
+
+5.   Typical realistic value, yaitu mencoba program dengan data pengujian 
+
+untuk melihat bagaimana program melakukannya. Data ini harus cukup 
+
+sederhana sehingga hasilnya dapat dihitung secara manual. 
+
+Beberapa teknik pengujian secara Black Box antara lain sebagai berikut: 
+
+a.   Requirement Testing adalah spesifikasi kebutuhan yang terasosiasi 
+
+dengan perangkat lunak (input, output, fungsi, performansi) diidentifikasi 
+
+pada tahap spesifikasi kebutuhan dan desain. Requirement testing 
+
+melibatkan pembuatan kasus uji untuk setiap spesifikasi kebutuhan yang 
+
+terkait dengan program. (Rosa, 2009) 
+
+b.   Performance Testing adalah mengevaluasi kemampuan program untuk 
+
+beroperasi dengan benar dipandang dari sisi acuan kebutuhan misalnya: 
+
+aliran data, ukuran pemakaian memori, kecepatan eksekusi dan lain-lain. 
+
+Untuk mencari tahu beban kerja atau kondisi konfigurasi program dan 
+
+dapat digunakan untuk menguji batasan lingkungan program. (Rosa, 
+
+2009) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+21 
+ 
+
+2.   White Box Testing 
+
+Menurut Pressman (2005), White-Box Testing adalah metode desain test 
+
+case yang menggunakan struktur kontrol desain prosedural untuk memperoleh test 
+
+case. Dengan menggunakan metode pengujian ini akan didapatkan test case yang: 
+
+a.   Memberikan jaminan bahwa semua jalur independen pada suatu modul 
+
+telah digunakan paling tidak satu kali,  
+
+b.   Menggunakan semua keputusan logis pada sisi true dan false,  
+
+c.   Mengekseskusi semua looping pada batasan tertentu,  
+
+d.   Dan menggunakan struktur data internal yang menjamin validitasnya. 
+
+ 
+
+2.12.2 Metode Mean Absolute Percentage Error (MAPE) 
+
+Menurut Pakaja (2012), Mean absolute percentage error (MAPE) 
+
+dihitung dengan menggunakan kesalahan absolut pada tiap periode dibagi dengan 
+
+nilai observasi yang nyata untuk periode itu. Kemudian, merata-rata kesalahan 
+
+persentase absolut tersebut. MAPE merupakan pengukuran kesalahan yang 
+
+menghitung ukuran persentase penyimpangan antara data aktual dengan data 
+
+peramalan. Menurut Zainun dan Majid (2003), suatu model mempunyai kinerja 
+
+sangat bagus jika nilai MAPE berada di bawah 10% dan mempunyai kinerja 
+
+bagus jika nilai MAPE berada di antara 10% dan 20%. Nilai MAPE dihitung 
+
+dengan rumus sebagai berikut: 
+
+ 
+
+Keterangan rumus: 
+
+  = banyak data 
+
+ = data real 
+
+  = data sistem 
+
+ 
+
+2.13   Penelitian Terkait 
+
+Beberapa penelilitian terkait dengan penelitian ini adalah 
+
+1.   Hengky (2014), dengan penelitian yang berjudul “Implementasi Logika 
+
+Fuzzy Metode Tsukamoto dalam Penentuan Kelayakan Pemberian Kredit 
+
+
+
+22 
+ 
+
+Mobil (Studi Kasus : PT. OTO MULTIARTHA)”. Tujuan dari ditulisnya 
+
+penelitian ini adalah menghasilkan sebuah sistem pengambilan keputusan 
+
+layak atau tidaknya nasabah/debitur penerima pembiayaan mobil dengan 
+
+memasukkan data beserta kriteria-kriteria calon nasabah/debitur. 
+
+2.   Bahryan Purmadipta (2015), Teknik Informatika Fakultas Teknik 
+
+Universitas Tanjungpura dalam Jurnal yang berjudul Sistem Informasi 
+
+Geografis Perumahan dan Fasilitas Sosial Terdekat dengan Metode 
+
+Haversine Formula bahwa tujuan dari ditulisnya penelitian ini adalah 
+
+membuat sistem informasi geografis perumahan dan fasilitas sosial 
+
+terdekat untuk memudahkan developer dalam mempromosikan 
+
+keunggulan lokasi perumahannya dan masyarakat dalam mencari fasilitas 
+
+sosial terdekat, serta menguji kesesuaian metode haversine formula untuk 
+
+pencarian perumahan atau fasilitas sosial terdekat. 
+
+3.   Muhammad Fahmi Mukhlishin (2017), dengan penelitian yang berjudul 
+
+“Implementasi Fuzzy Tsukamoto Dalam Menentukan Nilai Jual Rumah 
+
+Berdasarkan Letak Geografis”. Tujuan dari ditulisnya penelitian ini 
+
+adalah menghasilkan sebuah system untuk membantu dalam menentukan 
+
+harga jual rumah dengan metode Fuzzy Tsukamoto. 
+
+4.   Hendra (2017), Teknik Informatika Fakultas Teknik Universitas 
+
+Tanjungpura dalam Jurnal yang berjudul Case Base Reasoning 
+
+Penentuan Harga Rumah Dengan Menggunakan Metode Tversky (Studi 
+
+Kasus: Kota Pontianak) bahwa tujuan dari ditulisnya penelitian ini adalah 
+
+menghasilkan aplikasi implementasi dari Case Base Reasoning yang 
+
+dapat digunakan untuk menentukan harga rumah berdasarkan kasus-
+
+kasus penjualan rumah sebelumnya. 
+
+ 
+
+Kajian terkait dapat dilihat pada tabel 2.1 
+
+Tabel 2.1 Tabel Perbandingan Penelitian 
+
+No Penulis Judul Keterangan 
+
+1. Hengky (2014) Implementasi Logika 
+
+Fuzzy Metode 
+
+Tsukamoto dalam 
+
+Penentuan Kelayakan 
+
+Pemberian Kredit 
+
+ 
+
+- Sistem yang di 
+
+bangun menampilkan 
+
+informasi layak atau 
+
+
+
+23 
+ 
+
+Mobil (Studi Kasus : 
+
+PT. OTO 
+
+MULTIARTHA) 
+
+tidaknya nasabah / 
+
+debitur diberi kredit 
+
+mobil. 
+
+- Hasil kelayakan 
+
+sistem dan 
+
+perhitungan manual 
+
+oleh PT.OTO 
+
+menunjukkan hasil 
+
+validitas 67%. 
+
+2. Bahryan Purmadipta 
+
+(2015), Teknik 
+
+Informatika Fakultas 
+
+Teknik Universitas 
+
+Tanjungpura 
+
+Sistem Informasi 
+
+Geografis Perumahan 
+
+dan Fasilitas Sosial 
+
+Terdekat dengan 
+
+Metode Haversine 
+
+Formula 
+
+- Pendataan mencakup 
+
+dari Dinas Cipta 
+
+Karya, Tata Kota dan 
+
+Perumahan Kota 
+
+Pontianak 
+
+- Aplikasi 
+
+menggunakan metode 
+
+haversine formula 
+
+untuk pencarian 
+
+perumahan atau 
+
+fasilitas social 
+
+terdekat. 
+
+3. Muhammad Fahmi 
+
+Mukhlishin (2017), 
+
+Departemen Ilmu 
+
+Komputer / 
+
+Informatika Fakultas 
+
+Sains dan Matematika 
+
+Universitas 
+
+Diponegoro 
+
+Implementasi Fuzzy 
+
+Tsukamoto Dalam 
+
+Menentukan Nilai Jual 
+
+Rumah Berdasarkan 
+
+Letak Geografis 
+
+- Menggunakan 
+framework laravel 
+
+- Menggunakan fuzzy 
+tsukamoto untuk 
+
+menentukan nilai jual 
+
+rumah 
+
+- Menggunakan atribut 
+meliputi NJOP 
+
+bangunan, kondisi 
+
+rumah dan umur 
+
+rumah 
+
+4. 
+
+Hendra (2017), 
+
+Teknik Informatika 
+
+Fakultas Teknik 
+
+Universitas 
+
+Tanjungpura 
+
+Case Base Reasoning 
+
+Penentuan Harga 
+
+Rumah Dengan 
+
+Menggunakan Metode 
+
+Tversky (Studi Kasus: 
+
+Kota Pontianak) 
+
+- Aplikasi 
+menggunakan metode 
+
+Case Base Reasoning 
+
+untuk menentukan 
+
+harga rumah 
+
+berdasarkan kasus-
+
+kasus penjualan 
+
+sebelumnya. 
+
+ 
+
+
+
+24 
+ 
+
+Tabel 2.2 Tabel Penelitian yang Akan Dilakukan 
+
+No Penulis Judul Keterangan 
+
+1. Fritz Raynold Mula 
+
+Artha 
+
+Napitupulu(2018), 
+
+Universitas 
+
+Tanjunpura Pontianak 
+
+Sistem Informasi 
+
+Geografis Penjualan 
+
+dan Pembelian Rumah 
+
+di Kota Pontianak 
+
+ 
+
+- Sistem ini 
+
+menggunakan metode 
+
+fuzzy tsukamoto 
+
+untuk menentukan 
+
+rekomendasi harga 
+
+jual rumah 
+
+- Pengujian sistem 
+
+menggunakan metode 
+
+Blackbox. 
+
+- Output dalam aplikasi 
+
+ini adalah penampilan 
+
+data lokasi dan 
+
+informasi rumah yang 
+
+dijual dan 
+
+rekomendasi harga 
+
+jual rumah. 
+
+ 
+
+
+
+25 
+
+ 
+
+BAB III 
+
+METODOLOGI PENELITIAN 
+
+3.1 Data Penelitian 
+
+Data penelitian berupa data sampel beberapa rumah dari developer 
+
+penjualan rumah di Kota Pontianak, pengamatan secara langsung dan hasil 
+
+wawancara dengan pemilik rumah yang ada di Kota Pontianak yang dapat menjadi 
+
+sampel perhitungan dalam sistem yang dibangun. Adapaun data yang diperlukan 
+
+antara lain mengenai data rumah dan data penjual rumah. 
+
+ 
+
+3.2 Alat Penelitian 
+
+3.2.1 Alat yang Dipergunakan 
+
+Alat penelitian yang digunakan dalam penelitian ini adalah : 
+
+1. Unified Modelling Languange (UML) 
+
+UML digunakan untuk menggambarkan batasan sistem dan fungsi-fungsi 
+
+sistem secara umum dan menggambarkan kegiatan atau proses yang dijalankan 
+
+secara umum. Diagram yang akan digunakan dalam pengembangan sistem ini 
+
+adalah use case diagram, activity diagram, sequence diagram dan class diagram.  
+
+2. Logika Fuzzy – Metode Tsukamoto 
+
+Logika Fuzzy Metode Tsukamoto digunakan dalam mencari hasil 
+
+rekomendasi harga jual rumah. 
+
+ 
+
+3.2.2 Perangkat Keras 
+
+Perangkat keras yang digunakan dalam penelitian adalah sebuah laptop 
+
+ASUS VivoBook A442U, dengan spesifikasi Intel Core i7-7500U CPU 
+
+@2.70GHz, 4.00 GB RAM. 
+
+ 
+
+3.2.3 Perangkat Lunak 
+
+Adapun perangkat lunak yang digunakan untuk merancang aplikasi yang 
+
+akan dibangun adalah sebagai berikut. 
+
+a. Sistem Operasi Windows 10 Pro, 64 bit. 
+
+
+
+26 
+ 
+
+b. XAMPP Control Panel v3.2.2 sebagai aplikasi untuk membangun server 
+
+lokal. 
+
+c. Database MySql v5.0.12 sebagai basis data untuk aplikasi terutama untuk 
+
+server yang ada pada XAMPP. 
+
+d. PhpMyAdmin v4.8.3 sebagai pengelola basis data MySql. 
+
+e. Browser Google Chrome v68.0.3440.84 sebagai aplikasi browser. 
+
+f. Astah Community v6.6.4 sebagai aplikasi untuk membuat diagram UML. 
+
+g. Sublime Text 3 v3126 sebagai aplikasi text editor. 
+
+h. Microsoft Visio 2016 v16.0.4266.1001 sebagai aplikasi untuk membuat 
+
+diagram alir. 
+
+ 
+
+3.3 Diagram Alir Penelitian 
+
+Langkah-langkah penelitian yang akan dilakukan pada penelitian ini 
+
+adalah sebagai berikut: 
+
+a. Identifikasi Masalah 
+
+Mengidentifikasi latar belakang permasalahan yang berhubungan dengan 
+
+penjualan rumah di kota Pontianak serta hal-hal yang mendukung dalam penelitian. 
+
+b. Analisis Kebutuhan Sistem 
+
+Analisis kebutuhan merupakan langkah awal untuk menentukan gambaran 
+
+perangkat yang akan dihasilkan ketika pembuatan perangkat lunak. Adapun data 
+
+yang dibutuhkan adalah data-data rumah. 
+
+c. Pengumpulan Data 
+
+Pengumpulan data dilakukan dengan cara melakukan wawancara terhadap 
+
+developer penjual rumah di Kota Pontianak. 
+
+d. Perancangan Sistem 
+
+Perancangan sistem diawali dengan menentukan fitur berdasarkan analisis 
+
+kebutuhan yang telah dilakukan pada tahap sebelumnya. Kemudian dilanjutkan 
+
+dengan perancangan basis data, perancangan diagram arus data, perancangan 
+
+prototipe sistem yang terdiri dari perancangan struktur antarmuka sistem dan 
+
+perancangan layout serta merancang penerapan metode tsukamoto. Sedangkan 
+
+untuk perancangan sistem dilakukan dengan menggunakan alat bantu sebagai 
+
+berikut: 
+
+
+
+27 
+ 
+
+− Arsitektur Sistem 
+
+Arsitektur sistem adalah suatu rencana atau pemetaan kebutuhan-kebutuhan 
+
+informasi di dalam suatu organisasi. 
+
+− Unified Modelling Language (UML) 
+
+Unified Modelling Language (UML) untuk menggambarkan sistem yang akan 
+
+dibangun yang terdiri dari perancangan use case diagram, perancangan activity 
+
+diagram, perancangan sequence diagram dan perancangan class diagram. 
+
+e. Pembuatan dan Implementasi Sistem 
+
+Implementasi sistem dilakukan berdasar kepada perancangan aplikasi 
+
+yang telah dilakukan pada tahapan sebelumnya. Pada tahapan ini, sistem akan 
+
+dibuat dengan berbasis website dengan bahasa PHP dan MySql sebagai basis 
+
+datanya.  
+
+f. Pengujian dan Analisis 
+
+Pengujian dilakukan untuk mengetahui apakah aplikasi telah memenuhi 
+
+kebutuhan pengguna dalam memberikan informasi rumah yang dijual dan 
+
+memberikan rekomendasi nilai jual rumah yang efisien. Sedangkan analisis 
+
+terhadap sistem secara keseluruhan untuk memudahkan dalam melakukan 
+
+penarikan kesimpulan. Analisis hasil pengujian dapat dilihat dari beberapa 
+
+pengujian yang telah dilakukan, yaitu berupa pengujian blackbox, pengujian white 
+
+box untuk source code logika fuzzy tsukamoto dan pengujian Mean Absolute 
+
+Precentage Error (MAPE) untuk hasil rekomendasi. 
+
+g. Analisis Hasil Pengujian 
+
+Analisis hasil pengujian dirumuskan berdasarkan hasil pengujian sistem 
+
+yang telah dilakukan. 
+
+h. Penarikan Kesimpulan 
+
+Kesimpulan dirumuskan berdasarkan analisis hasil pengujian sistem yang 
+
+telah dilakukan apakah sistem yang dirancang sesuai dengan tujuan yang ingin 
+
+dicapai dalam penelitian. 
+
+ 
+
+Langkah-langkah penelitian yang akan dilakukan dapat dilihat pada 
+
+Gambar 3.1 sebagai berikut: 
+
+
+
+28 
+ 
+
+ 
+
+ 
+
+ 
+
+3.4 Analisis Kebutuhan Sistem 
+
+ Analisis kebutuhan sistem dilakukan dengan memahami masalah dan 
+
+menganalisa masalah. Analisa kebutuhan sistem dilakukan dengan pihak developer 
+
+rumah agar fitur-fitur yang diinginkan sesuai dengan yang dibutuhkan oleh 
+
+pengguna. Pada penelitian ini dilakukan beberapa analisis kebutuhan yang meliputi 
+
+kebutuhan fungsional dan kebutuhan non fungsional. 
+
+ 
+
+3.4.1 Kebutuhan Fungsional Sistem 
+
+Fungsional sistem adalah aktifitas dan pelayanan yang harus dimiliki oleh 
+
+sebuah sistem berupa input, proses, output, maupun penyimpanan data. 
+
+Berdasarkan kebutuhan sistem secara fungsional, aplikasi yang dirancang 
+
+harus mampu memenuhi kebutuhan fungsional sebagai berikut:  
+
+Gambar 3.1 Diagram Alir Penelitian 
+
+
+
+29 
+ 
+
+1. Pengguna dapat melakukan pencarian dengan meng-input-kan data 
+
+pencarian berupa lokasi, harga minimal dan harga maksimal.  
+
+2. Website mampu menampilkan informasi properti secara lengkap yang 
+
+terdiri dari lokasi properti dalam bentuk GIS dan detail properti. 
+
+3. Website mampu memberikan rekomendasi harga jual berdasarkan data 
+
+yang diinputkan pengguna. 
+
+4. Member dapat melakukan peng-input-an data properti berupa lokasi, foto 
+
+dan detail properti. 
+
+ 
+
+3.4.2 Kebutuhan NonFungsional Sistem 
+
+Kebutuhan nonfungsional sistem adalah karakteristik atau batasan yang 
+
+menentukan kepuasan sebuah sistem seperti kinerja, kemudahan penggunaan, 
+
+biaya, kontrol, dan kemampuan sistem bekerja tanpa mengganggu fungsionalitas 
+
+sistem lainnya. 
+
+1. Sisi performa, sistem yang dirancang memiliki :  
+
+• Antarmuka (interface) yang sederhana dan menarik.  
+
+• Website menampilkan lokasi rumah dalam bentuk GIS. 
+
+• Website dapat menampilkan foto. 
+
+• Website mampu memberikan rekomendasi harga jual. 
+
+2. Sisi kemudahan penggunaan, sistem yang dirancang memiliki :  
+
+• Website otomatis mendeteksi lokasi pengguna apabila perangkat 
+
+pengguna dilengkapi dengan fitur geotaging. 
+
+• Setiap halaman dirancang dengan mempertimbangkan konsistensi 
+
+jenis huruf, warna, dan layout dari antarmuka. 
+
+3. Sisi kontrol, sistem yang dirancang memiliki kemampuan : 
+
+• Website mengijinkan pengguna melakukan pembatalan terhadap suatu 
+
+tindakan. 
+
+• Website mampu menampilkan pesan kesalahan jika input yang 
+
+dimasukkan pengguna tidak tepat.   
+
+ 
+
+ 
+
+ 
+
+
+
+30 
+ 
+
+Gambar 3.2 Desain Arsitektur 
+
+3.5 Pengumpulan Data 
+
+Pengumpulan data berupa data sampel beberapa rumah di Kota Pontianak 
+
+yang dapat menjadi perhitungan dalam sistem yang akan dibangun. Data sampel ini 
+
+diperoleh dari developer rumah di Kota Pontianak, pengamatan secara langsung 
+
+dan wawancara dengan penjual rumah. Data yang dimaksud adalah data detail 
+
+rumah dan data penjual. Sedangkan data yang dibutuhkan untuk perhitungan adalah 
+
+bobot kondisi rumah, bobot fasilitas rumah, bobot fasilitas umum dan bobot NJOP. 
+
+ 
+
+3.6 Perancangan Sistem 
+
+3.6.1 Perancangan Arsitektur Sistem 
+
+Berikut adalah gambaran arsitektur sistem dapat dilihat pada Gambar 3.2 
+
+ 
+
+ 
+
+Berdasarkan pada Gambar 3.2 dapat dijelaskan proses sistem informasi 
+
+geografis penjualan dan pembelian rumah di Kota Pontianak, dimana admin dapat 
+
+melakukan manajemen data rumah, data member, data pribadi, data berita dan data 
+
+FAQ,  data-data tersebut diupload ke dalam database dan admin dapat melakukan 
+
+perhitungan fuzzy tsukamoto untuk mendapatkan hasil rekomendasi harga jual 
+
+rumah. Member dapat melakukan manajemen data pribadi, data rumah melakukan 
+
+perhitungan fuzzy tsukamoto untuk mendapatkan hasil rekomendasi harga jual 
+
+rumah dan melihat informasi terkait rumah yang dijual dengan mengakses website, 
+
+kemudian website akan mengambil data di database. User dapat melihat informasi 
+
+
+
+31 
+ 
+
+terkait rumah yang dijual dengan mengakses website dan dapat memberikan 
+
+komentar pada menu rumah dan berita. Google Maps API menyediakan peta untuk 
+
+diisi dengan data dari database. Data rumah akan dihitung oleh sistem fuzzy 
+
+tsukamoto untuk mendapatkan rekomendasi harga.  
+
+ 
+
+3.6.2 Perancangan Perhitungan Logika Fuzzy Tsukamoto 
+
+Flowchart sistem Perhitungan Logika Fuzzy untuk rekomendasi harga jual 
+
+rumah menggunakan metode tsukamoto yang akan dibuat terlihat pada gambar 3.3. 
+
+ 
+
+ 
+
+Pada Gambar 3.3, dapat dijelaskan bahwa proses perhitungan logika fuzzy 
+
+metode tsukamoto terdiri dari: 
+
+1. Pengguna atau penjual akan menginputkan nilai variabel rumah melalui 
+
+menu fuzzy tsukamoto.  
+
+2. Data yang telah diinput, selanjutnya akan dihitung dengan perhitungan 
+
+tsukamoto. 
+
+Gambar 3.3 Flowchart Aplikasi 
+
+
+
+32 
+ 
+
+3. Rekomendasi Harga Jual Rumah (keluaran) 
+
+Setelah dilakukan perhitungan fuzzy dan seleksi kondisi menggunakan 
+
+aturan maka akan didapatkan hasil perhitungan berupa rekomendasi harga 
+
+jual rumah. 
+
+ 
+
+3.6.2.1 Kriteria Fuzzy Tsukamoto 
+
+ Langkah-langkah yang harus dilakukan untuk menentukan rekomendasi 
+
+harga jual rumah adalah menentukan kriteria digunakan. Kriteria tersebut 
+
+digolongkan menjadi himpunan bahasa Variabel rekomendasi harga jual rumah 
+
+sebagai berikut: 
+
+1. Kondisi Bangunan : Tidak Bagus, Bagus dan Sangat Bagus. 
+
+2. Fasilitas Rumah : Tidak Lengkap, Lengkap dan Sangat Lengkap. 
+
+3. Fasilitas Umum : Lengkap dan Sangat Lengkap. 
+
+4. NJOP : Murah, Sedang dan Mahal. 
+
+ Dari kriteria dan parameter yang digunakan maka didapatkan hasil 
+
+perhitungan masing-masing. Hasil perhitungan yang digunakan mempunyai bobot 
+
+antara 0 dan 1. Jika hasil perhitungan semakin mendekati angka 1 maka memiliki 
+
+dampak yang besar dalam kelayakan pembiayaan terhadap hasil keputusan. Hasil 
+
+tersebut dituliskan yaitu Harga Rumah dengan parameternya Murah, Sedang dan 
+
+Mahal. 
+
+3.6.2.2 Fungsi Derajat Keanggotaan 
+
+ Pada fungsi derajat keanggotaan menggunakan Tsukamoto dibagi menjadi 
+
+keanggotaan nilai kondisi bangunan, fasilitas rumah, fasilitas umum dan NJOP.  
+
+a. Fungsi Keanggotaan Kondisi Bangunan 
+
+Tabel 3.1 Semesta Pembicara Kondisi Bangunan 
+
+Fungsi Keanggotaan Rentang Nilai 
+
+Tidak Bagus ≤ 5,5 
+
+Bagus 3 – 8 
+
+Sangat Bagus ≥ 5,5 
+
+ 
+
+
+
+33 
+ 
+
+ 
+
+ 
+
+ Menentukan suatu nilai dari kondisi rumah dengan cara mengisi data detail 
+
+kondisi rumah sebagai berikut: 
+
+• Umur Rumah   
+
+Jika berumur kurang dari 10 tahun diberi nilai 2, jika berumur lebih dari 10 
+
+tahun diberi nilai 1. 
+
+• Plafon Rumah 
+
+Jika plafon rumah menggunakan gypsum diberi nilai 2, jika plafon rumah 
+
+menggunakan triplek diberi nilai 1. 
+
+• Lantai Rumah 
+
+Jika berlantai keramik diberi nilai 1. 
+
+• Tingkat Rumah 
+
+Jika rumah bertingkat 2 atau lebih diberi nilai 2, jika rumah bertingkat 1 
+
+diberi nilai 1 
+
+• Jamur, noda dan kelembapan 
+
+Jika tidak ada terdapat noda, jamur atau kelembapan pada dinding diberi 
+
+nilai 1. 
+
+Fungsi Keanggotaan Kondisi Bangunan 
+
+𝜇(𝑥)𝑇𝑖𝑑𝑎𝑘 𝐵𝑎𝑔𝑢𝑠 = {
+
+1, 𝑥 ≤ 3  
+5,5−𝑥
+
+5,5−3
+, 3 ≤ 𝑥 ≤ 5,5  
+
+0,          𝑥 ≥ 5,5
+
+ ....................................................(3–1) 
+
+𝜇(𝑥)𝐵𝑎𝑔𝑢𝑠 = {
+
+𝑥−3
+
+5,5−3
+, 3 ≤ 𝑥 ≤ 5,5
+
+8−𝑥
+
+8−5,5
+, 5,5 ≤ 𝑥 ≤ 8  
+
+0,   𝑥 ≤ 3 𝑎𝑡𝑎𝑢  𝑥 ≥ 8
+
+............................................................(3–2) 
+
+Gambar 3.4 Grafix Fungsi Keanggotaan Kondisi Bangunan 
+
+
+
+34 
+ 
+
+𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐵𝑎𝑔𝑢𝑠 = {
+
+1, 𝑥 ≥ 8  
+𝑥−5,5
+
+8−5,5
+, 5,5 ≤ 𝑥 ≤ 8  
+
+0,          𝑥 ≤ 5,5
+
+...................................................(3–3) 
+
+ 
+
+b. Fungsi Keanggotaan Fasilitas Rumah 
+
+Tabel 3.2 Semesta Pembicara Fasilitas Rumah 
+
+Fungsi Keanggotaan Rentang Nilai 
+
+Tidak Lengkap ≤ 8,5 
+
+Lengkap 3 – 14 
+
+Sangat Lengkap ≥ 8,5 
+
+ 
+
+  
+
+ Menentukan suatu nilai dari fasilitas rumah dengan cara mengisi data 
+
+detail fasilitas rumah sebagai berikut: 
+
+• Ruang Tamu  
+
+Jika memiliki ruang tamu diberi nilai 1 
+
+• Ruang Keluarga 
+
+Jika memiliki ruang keluarga diberi nilai 1 
+
+• Carport 
+
+Jika memiliki carport diberi nilai 1 
+
+• Kamar Tidur 
+
+Jika rumah memiliki kamar tidur 3 atau lebih diberi nilai 2, jika rumah 
+
+memiliki 1 atau 2 kamar tidur diberi nilai 1 
+
+• Kamar Mandi 
+
+Jika rumah memiliki kamar mandi 2 atau lebih diberi nilai 2, jika rumah 
+
+memiliki 1 kamar mandi diberi nilai 1 
+
+Gambar 3.5 Grafix Fungsi Keanggotaan Fasilitas Rumah 
+
+
+
+35 
+ 
+
+• Garasi 
+
+Jika memiliki garasi diberi nilai 1. 
+
+• Listrik 
+
+Jika rumah memiliki daya listrik 900 VA atau kurang diberi nilai 1, jika 
+
+rumah memiliki daya listrik 1300 VA sampai 3500 VA diberi nilai 2, jika 
+
+rumah memiliki daya listrik 4400 VA keatas diberi nilai 3. 
+
+• Pagar Rumah 
+
+Jika memiliki pagar rumah diberi nilai 1. 
+
+• Kolam Renang 
+
+Jika memiliki kolam renang diberi nilai 1. 
+
+• PDAM 
+
+Jika memiliki PDAM diberi nilai 1. 
+
+Fungsi Keanggotaan Fasilitas Rumah 
+
+𝜇(𝑥)𝑇𝑖𝑑𝑎𝑘 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+
+1, 𝑥 ≤ 3  
+8,5−𝑥
+
+8,5−3
+, 3 ≤ 𝑥 ≤ 8,5  
+
+0,          𝑥 ≥ 8,5
+
+.................................................(3–4) 
+
+𝜇(𝑥)𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+
+𝑥−3
+
+8,5−3
+, 3 ≤ 𝑥 ≤ 8,5
+
+14−𝑥
+
+14−8,5
+, 8,5 ≤ 𝑥 ≤ 14  
+
+0,   𝑥 ≤ 3 𝑎𝑡𝑎𝑢  𝑥 ≥ 14
+
+.....................................................(3–5) 
+
+𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+
+1, 𝑥 ≥ 14 
+𝑥−8,5
+
+14−8,5
+, 8,5 ≤ 𝑥 ≤ 14  
+
+0,          𝑥 ≤ 8,5
+
+...........................................(3–6) 
+
+ 
+
+c. Fungsi Keanggotaan Fasilitas Umum 
+
+Tabel 3.3 Semesta Pembicara Fasilitas Umum 
+
+Fungsi Keanggotaan Rentang Nilai 
+
+Lengkap 1 – 9 
+
+Sangat Lengkap 1 – 9 
+
+ 
+
+
+
+36 
+ 
+
+ 
+
+ 
+
+ Menentukan suatu nilai dari fasilitas umum dengan cara mengisi data 
+
+detail fasilitas umum sebagai berikut: 
+
+• Dekat Rumah Sakit 
+
+Jika rumah dekat dengan rumah sakit diberi nilai 1 
+
+• Dekat Tempat Ibadah 
+
+Jika rumah dekat dengan tempat ibadah diberi nilai 1 
+
+• Dekat Fasilitas Pendidikan 
+
+Jika rumah dekat dengan fasilitas pendidikan diberi nilai 1 
+
+• Dekat Taman Bermain 
+
+Jika rumah dekat dengan taman bermain diberi nilai 1 
+
+• Dekat Tempat Olahraga 
+
+Jika rumah dekat dengan tempat olahraga diberi nilai 1 
+
+• Dekat POM Bensin 
+
+Jika rumah dekat dengan POM bensin diberi nilai 1 
+
+• Dekat Pasar 
+
+Jika rumah dekat dengan pasar diberi nilai 1 
+
+• Dekat Mall 
+
+Jika rumah dekat dengan mall diberi nilai 1 
+
+• Dekat Bandara 
+
+Jika rumah dekat dengan bandara diberi nilai 1 
+
+Fungsi Keanggotaan Fasilitas Umum 
+
+𝜇(𝑥)𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+
+1, 𝑥 ≤ 1  
+9−𝑥
+
+9−1
+, 1 ≤ 𝑥 ≤ 9  
+
+0,          𝑥 ≥ 9
+
+..................................................................(3–7) 
+
+Gambar 3.6 Grafix Fungsi Keanggotaan Fasilitas Umum 
+
+
+
+37 
+ 
+
+𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+
+1, 𝑥 ≥ 9  
+𝑥−1
+
+9−1
+, 1 ≤ 𝑥 ≤ 9  
+
+0,          𝑥 ≤ 1
+
+....................................................(3–8) 
+
+ 
+
+d. Fungsi Keanggotaan NJOP 
+
+Tabel 3.4 Semesta Pembicara NJOP 
+
+Fungsi Keanggotaan Rentang Nilai 
+
+Murah ≤ 500.000.000 
+
+Sedang 100.000.000 – 900.000.000 
+
+Mahal ≥ 500.000.000 
+
+ 
+
+ 
+
+ 
+
+ Menentukan suatu nilai dari NJOP dengan cara mengisi data detail NJOP 
+
+sebagai berikut: 
+
+• NJOP = ( Luas Tanah x NJOP Bumi ) + ( Luas Bangunan x NJOP 
+
+Bangunan) 
+
+Fungsi Keanggotaan NJOP 
+
+𝜇(𝑥)𝑀𝑢𝑟𝑎ℎ = {
+
+1, 𝑥 ≤ 100.000.000  
+500.000.000−𝑥
+
+500.000.000−100.000.000
+, 100.000.000 ≤ 𝑥 ≤ 500.000.000  
+
+0,          𝑥 ≥ 500.000.000
+
+...........(3–9) 
+
+𝜇(𝑥)𝑆𝑒𝑑𝑎𝑛𝑔 = {
+
+𝑥−100.000.000
+
+500.000.000−100.000.000
+, 100.000.000 ≤ 𝑥 ≤ 500.000.000
+
+900.000.000−𝑥
+
+900.000.000−500.000.000
+, 500.000.000 ≤ 𝑥 ≤ 900.000.000  
+
+0,   100.000.000 ≤ 𝑥 𝑎𝑡𝑎𝑢  𝑥 ≥ 900.000.000
+
+........(3–10) 
+
+𝜇(𝑥)𝑀𝑎ℎ𝑎𝑙 = {
+
+1, 𝑥 ≥ 900.000.000
+𝑥−500.000.000
+
+900.000.000−500.000.000
+, 500.000.000 ≤ 𝑥 ≤ 900.000.000  
+
+0,          𝑥 ≤ 500.000.000
+
+..........(3–11) 
+
+ 
+
+Gambar 3.7 Grafix Fungsi Keanggotaan NJOP 
+
+
+
+38 
+ 
+
+e. Fungsi Keanggotaan Output Harga Rumah 
+
+Tabel 3.5 Semesta Pembicara Output Harga Rumah 
+
+Fungsi Keanggotaan Rentang Nilai 
+
+Murah 100.000.000 – 400.000.000 
+
+Sedang 150.000.000 – 1.250.000.000 
+
+Mahal 1.000.000.000 – 2.000.000.000 
+
+ 
+
+ 
+
+ 
+
+Fungsi Keanggotaan Output Harga Rumah 
+
+𝜇(𝑥)𝑀𝑢𝑟𝑎ℎ = {
+
+1,          𝑥 ≤ 150.000.000
+400.000.000−𝑥
+
+400.000.000−150.000.000
+,      150.000.000 ≤ 𝑥 ≤ 400.000.000  
+
+0,           𝑥 ≥ 400.000.000
+
+.....(3–12) 
+
+𝜇(𝑥)𝑆𝑒𝑑𝑎𝑛𝑔(min) = {
+
+1,          𝑥 = 700.000.000
+1.250.000.000−𝑥
+
+1.250.000.000−700.000.000
+,      700.000.000 ≤ 𝑥 ≤ 1.250.000.000  
+
+0,           𝑥 ≥ 1.250.000.000
+
+...(3–13) 
+
+𝜇(𝑥)𝑆𝑒𝑑𝑎𝑛𝑔(𝑚𝑎𝑥) = {
+
+0,              𝑥 ≤ 150.000.000
+𝑥−150.000.000
+
+700.000.000−150.000.000
+, 150.000.000 ≤ 𝑥 ≤ 700.000.000  
+
+1,   𝑥 = 700.000.000
+
+............(3–14) 
+
+𝜇(𝑥)𝑀𝑎ℎ𝑎𝑙 = {
+
+0,          𝑥 ≤ 1.000.000.000
+𝑥−1.000.000.000
+
+2.000.000.000−1.000..000.000
+,      1.000.000.000 ≤ 𝑥 ≤ 2.000.000.000  
+
+1,           𝑥 ≥ 2.000.000.000
+
+........(3–15) 
+
+ 
+
+3.6.2.3 Basis Aturan 
+
+ Penentuan basis aturan fuzzy bergantung pada variabel inputan. Ketiga 
+
+variabel masukan jika dikombinasikan akan membentuk 54 buah aturan.  
+
+ 
+
+ 
+
+Gambar 3.8 Grafix Fungsi Keanggotaan Output Harga Rumah 
+
+
+
+39 
+ 
+
+3.6.2.4 Aplikasi Masalah ke Aturan 
+
+Dari kriteria dan fungsi keanggotaan yang telah dirancang maka perlu 
+
+pemahaman sistem perhitungan dengan memberikan contoh perhitungan. Sebagai 
+
+contoh, ada permasalahan menentukan harga jual rumah dengan nilai masing-
+
+masing kriteria sebagai berikut: 
+
+1. Nilai kondisi Bangunan adalah 6 dengan detailnya yaitu 
+
+a. Umur rumah lebih dari 10 tahun   : 1 
+
+b. Memiliki plafon gypsum    : 2 
+
+c. Memiliki lantai keramik   : 1 
+
+d. Terdapat Jamur di dinding  : 0 
+
+e. Memiliki 2 lantai    : 2 
+
+2. Nilai Fasilitas Rumah adalah 10 dengan detailnya yaitu 
+
+a. Memiliki ruang tamu   : 1 
+
+b. Mimiliki ruang keluarga   : 1 
+
+c. Memiliki carport    : 1 
+
+d. Memiliki kamar tidur 3   : 2 
+
+e. Memiliki kamar mandi 2   : 2 
+
+f. Tidak memiliki garasi    : 0 
+
+g. Memiliki daya listrik 900 VA  : 1 
+
+h. Memiliki pagar rumah   : 1 
+
+i. Tidak memiliki kolam renang  : 0 
+
+j. Memiliki PDAM    : 1 
+
+3. Nilai Fasilitas Umum adalah 6 dengan detailnya yaitu 
+
+a. Tidak dekat rumah sakit   : 0 
+
+b. Dekat tempat ibadah   : 1 
+
+c. Dekat fasilitas pendidikan   : 1 
+
+d. Dekat taman bermain   : 1 
+
+e. Dekat tempat olahraga   : 1 
+
+f. Dekat POM bensin   : 1 
+
+g. Dekat Pasar    : 1 
+
+h. Tidak dekat mall    : 0 
+
+i. Tidak dekat Bandara   : 0   
+
+
+
+40 
+ 
+
+4. Nilai NJOP adalah 188 dengan detailnya yaitu 
+
+a. NJOP = ( Luas Tanah x NJOP Bumi ) + ( Luas Bangunan x NJOP 
+
+Bangunan) 
+
+= ( 162 x 48.000 ) + ( 104 x 1.733.000 ) 
+
+= 188.008.000 
+
+Dari jumlah nilai masing-masing kriteria maka perhitungan sebagai berikut: 
+
+a. Kondisi Bangunan ( nilai 6) 
+
+𝜇(𝑥)𝑇𝑖𝑑𝑎𝑘𝐵𝑎𝑔𝑢𝑠 = {0,          𝑥 ≥ 5,5                   𝜇(𝑥)𝐿𝑎𝑚𝑎 = 0  
+
+𝜇(𝑥)𝐵𝑎𝑔𝑢𝑠 = {
+8−6
+
+8−5,5
+, 5,5 ≤ 𝑥 ≤ 8       𝜇(𝑥)𝑆𝑒𝑑𝑎𝑛𝑔 = 0,8 
+
+𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡𝐵𝑎𝑔𝑢𝑠 = {
+6−5,5
+
+8−5,5
+, 5,5 ≤ 𝑥 ≤ 8            𝜇(𝑥)𝐵𝑎𝑟𝑢 = 0,2 
+
+b. Fasilitas Rumah ( nilai 10 ) 
+
+𝜇(𝑥)𝑇𝑖𝑑𝑎𝑘 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {0,          𝑥 ≥ 8,5                𝜇(𝑥)𝑇𝑖𝑑𝑎𝑘 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = 0 
+
+𝜇(𝑥)𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+14−10
+
+14−8,5
+, 8,5 ≤ 𝑥 ≤ 14                         𝜇(𝑥)𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = 0,727 
+
+𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+10−8,5
+
+14−8,5
+, 8,5 ≤ 𝑥 ≤ 14 𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 =
+
+0,273 
+
+c. Fasilitas Umum ( nilai 6 ) 
+
+𝜇(𝑥)𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+9−6
+
+9−1
+, 1 ≤ 𝑥 ≤ 9                      𝜇(𝑥)𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = 0,375 
+
+𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = {
+6−1
+
+9−1
+, 1 ≤ 𝑥 ≤ 9   𝜇(𝑥)𝑆𝑎𝑛𝑔𝑎𝑡 𝐿𝑒𝑛𝑔𝑘𝑎𝑝 = 0,625 
+
+d. NJOP ( nilai 188.008.000 ) 
+
+𝜇(𝑥)𝑀𝑢𝑟𝑎ℎ = {
+500.000.000−188.008.000
+
+500.000.000−100.000.000
+                       𝜇(𝑥)𝑀𝑢𝑟𝑎ℎ = 0,78 
+
+𝜇(𝑥)𝑆𝑒𝑑𝑎𝑛𝑔 = {
+188.008.000−100.000.000
+
+500.000.000−100.000.000
+                        𝜇(𝑥)𝑆𝑒𝑑𝑎𝑛𝑔 = 0,22 
+
+𝜇(𝑥)𝑀𝑎ℎ𝑎𝑙 = {0,          𝑥 ≤ 500                        𝜇(𝑥)𝑀𝑎ℎ𝑎𝑙 = 0 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+41 
+ 
+
+Tabel 3.6. Hasil Perhitungan Parameter Setiap Kriteria 
+
+ µmurah / µtidak 
+
+bagus/ µtidak 
+
+lengkap 
+
+µlengkap / 
+
+µsedang / 
+
+µbagus 
+
+µmahal/ µsangat 
+
+lengkap / µsangat 
+
+bagus 
+
+Kondisi Bangunan 0 0,8 0,2 
+
+Fasilitas Rumah 0 0,727 0,273 
+
+Fasilitas Umum - 0,375 0,625 
+
+NJOP 0,78 0,22 0 
+
+ 
+
+3.6.2.5 Inferensi Berdasarkan α - predikat 
+
+ Nilai Harga Jual Rumah yang dicari untuk setiap aturan menggunakan 
+
+fungsi MIN pada aplikasi fungsi implikasi: 
+
+[1] IF Kondisi Bangunan Tidak Bagus AND Fasilitas Rumah Tidak Lengkap 
+
+AND Fasilitas Umum Lengkap AND Nilai NJOP Murah THEN Harga Rumah 
+
+Murah 
+
+α – predikat 1 = µ Kondisi Bangunan Tidak Bagus ∩ µ Fasilitas Rumah Tidak 
+
+Lengkap ∩ µ Fasilitas Umum Lengkap ∩ µ Nilai NJOP Murah 
+
+=min ( µ Kondisi Bangunan Tidak Bagus (6), µ Fasilitas Rumah Tidak Lengkap 
+
+(10), µ Fasilitas Umum Lengkap (6), µ Nilai NJOP Murah (188) 
+
+= min(0, 0, 0.375, 0.78) 
+
+= 0 
+
+Himpunan Harga Rumah Murah, 
+
+𝑍1 =  400.000.000 + (−( 250. 000.000 * 0 )) 
+
+              = 400. 000.000 
+
+ [2] IF Kondisi Bangunan Tidak Bagus AND Fasilitas Rumah Tidak Lengkap 
+
+AND Fasilitas Umum Sangat Lengkap AND Nilai NJOP Murah THEN 
+
+HargaRumah Murah 
+
+α – predikat 2 = µ Kondisi Bangunan Tidak Bagus ∩ µ Fasilitas Rumah Tidak 
+
+Lengkap ∩ µ Fasilitas Umum Sangat Lengkap ∩ µ Nilai NJOP Murah 
+
+
+
+42 
+ 
+
+=min (µ Kondisi Bangunan Tidak Bagus (6), µ Fasilitas Rumah Tidak Lengkap 
+
+(10), µ Fasilitas Umum Lengkap (6),µ Nilai NJOP Murah (188) 
+
+= min(0, 0, 0.625, 0.78) 
+
+= 0 
+
+Himpunan HargaRumah Murah, 
+
+𝑍2 =  400.000.000 + (−( 250. 000.000*0 )) 
+
+              = 400. 000.000 
+
+ [3] IF Kondisi Bangunan Bagus AND Fasilitas Rumah Tidak Lengkap AND 
+
+Fasilitas Umum Lengkap AND Nilai NJOP Murah THEN HargaRumah Murah 
+
+α – predikat 3 = µ Kondisi Bangunan Bagus ∩ µ Fasilitas Rumah Tidak Lengkap 
+
+∩ µ Fasilitas Umum Lengkap ∩ µ Nilai NJOP Murah 
+
+=min (µ Kondisi Bangunan Bagus (6),µ Fasilitas Rumah Tidak Lengkap (10),µ 
+
+Fasilitas Umum Lengkap (6),µ Nilai NJOP Murah (188) 
+
+= min(0.8, 0, 0.375, 0.78) 
+
+= 0 
+
+Himpunan HargaRumah Murah, 
+
+𝑍3(𝑚𝑖𝑛) =  400.000.000 + (−( 250. 000.000*0 ) ) 
+
+              = 400. 000.000 
+
+… 
+
+… 
+
+… 
+
+ 
+
+ [27] IF Kondisi Bangunan Bagus AND Fasilitas Rumah Lengkap AND Fasilitas 
+
+Umum Lengkap AND Nilai NJOP Sedang THEN Harga Rumah Sedang 
+
+α – predikat 27 = µ Kondisi Bangunan Bagus ∩ µ Fasilitas Rumah Lengkap ∩ µ 
+
+Fasilitas Umum Lengkap ∩ µ Nilai NJOP Sedang 
+
+=min (µ Kondisi Bangunan Bagus (6), µ Fasilitas Rumah Lengkap (10), µ Fasilitas 
+
+Umum Lengkap (6), µ Nilai NJOP Sedang (188) 
+
+= min(0.8, 0.727, 0.375, 0.22) 
+
+= 0.22 
+
+Himpunan HargaRumah Sedang, 
+
+𝑍27(𝑚𝑖𝑛) =  1.250.000.000 + (−( 550. 000.000*0.22 )) 
+
+
+
+43 
+ 
+
+              = 1.129.000.000 
+
+𝑍27(𝑚𝑎𝑥) =  150.000.000 + ( 550. 000.000 *0.22 ) 
+
+              = 271.000.000 
+
+[28] IF Kondisi Bangunan Bagus AND Fasilitas Rumah Lengkap AND Fasilitas 
+
+Umum Sangat Lengkap AND Nilai NJOP Sedang THEN Harga Rumah Sedang 
+
+α – predikat 28 = µ Kondisi Bangunan Bagus ∩ µ Fasilitas Rumah Lengkap ∩ µ 
+
+Fasilitas Umum Sangat Lengkap ∩ µ Nilai NJOP Sedang 
+
+=min (µ Kondisi Bangunan Bagus (6), µ Fasilitas Rumah Lengkap (10), µ Fasilitas 
+
+Umum Sangat Lengkap (6), µ Nilai NJOP Sedang (188) 
+
+= min(0.8, 0.727, 0.625, 0.22) 
+
+= 0.22 
+
+Himpunan HargaRumah Sedang, 
+
+𝑍28(𝑚𝑖𝑛) =  1.250.000.000 + (−( 505. 000.000*0.22 )) 
+
+              = 1.129.000.000 
+
+𝑍28(𝑚𝑎𝑥) =  150.000.000 + ( 550. 000.000*0.22 ) 
+
+              = 271.000.000 
+
+[29] IF Kondisi Bangunan Sangat Bagus AND Fasilitas Rumah Lengkap AND 
+
+Fasilitas Umum Lengkap AND Nilai NJOP Sedang THEN Harga Rumah Sedang 
+
+α – predikat 29 = µ Kondisi Bangunan Sangat Bagus ∩ µ Fasilitas Rumah 
+
+Lengkap ∩ µ Fasilitas Umum Lengkap ∩ µ Nilai NJOP Sedang 
+
+=min (µ Kondisi Bangunan Sangat Bagus (6),µ Fasilitas Rumah Lengkap (10), µ 
+
+Fasilitas Umum Lengkap (6), µ Nilai NJOP Sedang (188) 
+
+= min(0.2, 0.727, 0.375, 0.22) 
+
+= 0.2 
+
+Himpunan HargaRumah Sedang, 
+
+𝑍29(𝑚𝑖𝑛) =  1.250.000.000 + (−( 550. 000.000*0.2 )) 
+
+              = 1.140.000.000 
+
+𝑍29(𝑚𝑎𝑥) =  150.000.000 + ( 550. 000.000*0.2 ) 
+
+              = 260.000.000 
+
+… 
+
+… 
+
+… 
+
+
+
+44 
+ 
+
+ [45] IF Kondisi Bangunan Bagus AND Fasilitas Rumah Lengkap AND Fasilitas 
+
+Umum Lengkap AND Nilai NJOP Mahal THEN Harga Rumah Mahal 
+
+α – predikat 45 = µ Kondisi Bangunan Bagus ∩ µ Fasilitas Rumah Lengkap ∩ µ 
+
+Fasilitas Umum Lengkap ∩ µ Nilai NJOP Mahal 
+
+=min (µ Kondisi Bangunan Bagus (6), µ Fasilitas Rumah Lengkap (10), µ Fasilitas 
+
+Umum Lengkap (6), µ Nilai NJOP Mahal (188) 
+
+= min(0.8, 0.727, 0.375, 0) 
+
+= 0 
+
+Himpunan HargaRumah Mahal, 
+
+𝑍45 =  1.000.000.000 +( 1. 000.000.000*0 )  
+
+         = 1.000. 000.000 
+
+ [46] IF Kondisi Bangunan Bagus AND Fasilitas Rumah Lengkap AND Fasilitas 
+
+Umum Sangat Lengkap AND Nilai NJOP Mahal THEN Harga Rumah Mahal 
+
+α – predikat 46 = µ Kondisi Bangunan Bagus ∩ µ Fasilitas Rumah Lengkap ∩ µ 
+
+Fasilitas Umum Sangat Lengkap ∩ µ Nilai NJOP Mahal 
+
+=min (µ Kondisi Bangunan Bagus (6), µ Fasilitas Rumah Lengkap (10), µ Fasilitas 
+
+Umum Sangat Lengkap (6), µ Nilai NJOP Mahal (188) 
+
+= min(0.8, 0.727, 0.625, 0) 
+
+= 0 
+
+Himpunan HargaRumah Mahal, 
+
+𝑍46 =  1.000.000.000 +( 1. 000.000.000*0 )  
+
+         = 1.000. 000.000 
+
+ [47] IF Kondisi Bangunan Sangat Bagus AND Fasilitas Rumah Lengkap AND 
+
+Fasilitas Umum Lengkap AND Nilai NJOP Mahal THEN Harga Rumah Mahal 
+
+α – predikat 47 = µ Kondisi Bangunan Sangat Bagus ∩ µ Fasilitas Rumah 
+
+Lengkap ∩ µ Fasilitas Umum Lengkap ∩ µ Nilai NJOP Mahal 
+
+=min (µ Kondisi Bangunan Sangat Bagus (4), µ Fasilitas Rumah Lengkap (9), µ 
+
+Fasilitas Umum Lengkap (6), µ Nilai NJOP Mahal (188) 
+
+= min(0.2, 0.727, 0.375, 0) 
+
+= 0 
+
+Himpunan HargaRumah Mahal, 
+
+𝑍47 =  1.000.000.000 +( 1. 000.000.000*0 )  
+
+
+
+45 
+ 
+
+        = 1.000. 000.000 
+
+ 
+
+Tabel 3.7 Hasil Perhitungan Aturan Fuzzy Metode Tsukamoto 
+
+ αn Zn α-predikatn 
+
+* Zn 
+
+  αn Zn α-predikatn 
+
+*Zn 
+
+R1 0 400000000 0  R20 0 400000000 0 
+
+R2 0 400000000 0  R21 0 400000000 0 
+
+R3 0 400000000 0  R22 0 400000000 0 
+
+R4 0 400000000 0  R23 0 400000000 0 
+
+R5 0 400000000 0  R24 0 400000000 0 
+
+R6 0 400000000 0  R25 0 400000000 0 
+
+R7 0 400000000 0  R26 0 400000000 0 
+
+R8 0 400000000 0  R27min 0.22 1129000000 248380000 
+
+R9 0,375 306250000 114843750  R27max 0.22 271000000 59620000 
+
+R10 0,625 243750000 152343750  R28min 0.22 1129000000 248380000 
+
+R11 0,2 350000000 70000000  R28max 0.22 271000000 59620000 
+
+R12 0,2 350000000 70000000  R29min 0.2 1140000000 228000000 
+
+R13 0 400000000 0  R29max 0.2 260000000 52000000 
+
+R14 0 400000000 0  R30min 0.2 1140000000 228000000 
+
+R15 0,273 331750000 90567750  R30max 0.2 260000000 52000000 
+
+R16 0,273 331750000 90567750  R31min 0 1250000000 0 
+
+R17 0,2 350000000 70000000  R31max 0 150000000 0 
+
+R18 0,2 350000000 70000000  R32min 0 1250000000 0 
+
+
+
+46 
+ 
+
+ αn Zn α-predikatn 
+
+* Zn 
+
+  αn Zn α-predikatn 
+
+*Zn 
+
+R19 0 400000000 0  R32max 0 150000000 0 
+
+         
+
+R33min 0.22 1129000000 183829575  R43min 0 1250000000 0 
+
+R33max 0.22 271000000 47320425  R43max 0 150000000 0 
+
+R34min 0.22 1129000000 183829575  R44min 0 1250000000 0 
+
+R34max 0.22 271000000 47320425  R44max 0 150000000 0 
+
+R35min 0.2 1140000000 183829575  R45 0 1000000000 0 
+
+R35max 0.2 260000000 47320425  R46 0 1000000000 0 
+
+R36min 0.2 1140000000 183829575  R47 0 1000000000 0 
+
+R36max 0.2 260000000 47320425  R48 0 1000000000 0 
+
+R37min 0 1250000000 0  R49 0 1000000000 0 
+
+R37max 0 150000000 0  R50 0 1000000000 0 
+
+R38min 0 1250000000 0  R51 0 1000000000 0 
+
+R38max 0 150000000 0  R52 0 1000000000 0 
+
+R39min 0 1250000000 0  R53 0 1000000000 0 
+
+R39max 0 150000000 0  R54 0 1000000000 0 
+
+R40min 0 1250000000 0      
+
+R40max 0 150000000 0      
+
+R41min 0 1250000000 0      
+
+R41max 0 150000000 0      
+
+R42min 0 1250000000 0      
+
+
+
+47 
+ 
+
+ αn Zn α-predikatn 
+
+* Zn 
+
+  αn Zn α-predikatn 
+
+*Zn 
+
+R42max 0 150000000 0      
+
+  
+
+3.6.2.6 Nilai Output 
+
+Berdasarkan rata-rata nilai terbobot, maka nilai z dapat dicari dengan cara 
+
+berikut: 
+
+𝑧 =  
+((∝1∗ 𝑍1) + ((∝2∗ 𝑍2) + ⋯ + ((∝ (𝑚𝑎𝑥)27 ∗ 𝑍(𝑚𝑎𝑥)27)) + ((∝ (𝑚𝑖𝑛)27 ∗ 𝑍(min)27)) + ⋯ + ((∝54∗ 𝑍54) 
+
+∝1+ ∝2+∝3+∝4+ ⋯ +∝ (max)27 +∝ (min)27 +∝ (max)28 +∝ (min)29 + ⋯ + ∝53+ ∝54
+ 
+
+𝑧 =  
+(0 ∗ 400.000.000) + (0 ∗ 400.000.000) + ⋯ + (0.22 ∗ 1129000000) + (0 ∗ 1000000000)
+
+0 + 0 + 0 + 0 + ⋯ + 0.201 + 0.22 + 0.22 + 0.22 + ⋯ + 0 + 0
+ 
+
+𝑧 =  
+3.080.323.000
+
+5,706
+ = 539.839.292 
+
+Dari hasil perhitungan tsukamoto yang telah dilakukan, hasil yang 
+
+didapatkan adalah harga jual rumah sebesar Rp 539.839.292,-  
+
+ 
+
+3.6.3 Perancangan Unified Modeling Language (UML) 
+
+3.6.3.1 Use Case Diagram 
+
+Use case diagram menggambarkan pemodelan untuk kegiatan sistem yang 
+
+akan dibuat. Sebuah use case mempresentasikan sebuah interaksi antara satu atau 
+
+lebih aktor dengan sistem yang akan dibuat. Use case digunakan untuk mengetahui 
+
+fungsi apa yang sudah ada didalam sebuah sistem dan siapa saja yang berhak 
+
+menggunakan fungsi-fungsi itu. 
+
+1. Definisi Aktor 
+
+  Berikut adalah deskripsi pendefinisian aktor pada aplikasi. 
+
+a. Nama Aktor : Admin 
+
+Admin merupakan seseorang yang memiliki hak akses penuh untuk 
+
+mengelola maupun mengakses sistem secara keseluruhan. Interaksi yang 
+
+dilakukan oleh admin terhadap sistem yaitu: mengelola data rumah, mengelola 
+
+data member, mengelola data berita, mengelola data FAQ, mengelola data 
+
+
+
+48 
+ 
+
+komentar berita, mengelola data komentar rumah, mengelola kategori berita, 
+
+mengelola tag berita dan mengubah data admin. 
+
+b. Nama Aktor : Pengguna tidak terdaftar 
+
+User merupakan seseorang yang berinteraksi terhadap sistem dan 
+
+melakukan beberapa aktifitas pada sistem yang ada dengan cara mengakses 
+
+website. User hanya bisa melihat data rumah yang dijual, data berita data 
+
+kontak, data FAQ dan memberikan komentar pada menu berita dan menu 
+
+rumah pada website. 
+
+c. Nama Aktor : Pengguna terdaftar  
+
+Member merupakan seseorang yang berinteraksi terhadap sistem dan 
+
+melakukan beberapa aktifitas pada sistem yang ada dengan cara mengakses 
+
+website dan login ke dalam website. Interaksi yang dilakukan oleh member 
+
+terhadap sistem yaitu : menginput dan mengelola data rumah, mengelola data 
+
+akun pribadi, menginput nilai kriteria untuk perhitungan fuzzy tsukamoto, 
+
+melihat data komentar rumah dan melakukan seluruh aktifitas yang dilakukan 
+
+User. 
+
+ 
+
+2. Deskripsi Use Case Diagram 
+
+Deskripsi pendefinisian use case pada aplikasi dapat dilihat pada table 
+
+dibawah. 
+
+Tabel 3.8 Deskripsi Use Case Diagram Untuk Pengguna Tidak Terdaftar 
+
+Nama Usecase Keterangan 
+
+Beranda  Merupakan proses bagi user untuk melihat halaman utama 
+
+website. 
+
+Rumah Merupakan proses bagi user untuk melihat data rumah yang 
+
+dijual dan memberikan komentar. 
+
+Berita Merupakan proses bagi user untuk melihat data berita, 
+
+promosi dan memberikan komentar. 
+
+Hubungi Kami
+
+  
+
+Merupakan proses bagi user untuk melihat data kontak yang 
+
+dapat dihubungi. 
+
+FAQ Merupakan proses bagi user untuk melihat pertanyaan beserta 
+
+jawaban yang sering ditanyakan. 
+
+
+
+49 
+ 
+
+ 
+
+Tabel 3.9 Deskripsi Use Case Diagram Untuk Pengguna Terdaftar 
+
+Nama Usecase Keterangan 
+
+Login Merupakan Proses yang dilakukan member dengan verifikasi 
+
+kata sandi agar dapat masuk ke dalam sistem. 
+
+Logout Merupakan proses yang dilakukan member untuk mengakhiri 
+
+penggunaan sistem agar dapat keluar dari sistem. 
+
+Beranda 
+
+Member 
+
+Merupakan proses bagi member untuk melihat jumlah rumah 
+
+yang diinput dan pemberitahuan balasan komentar. 
+
+Kelola Data 
+
+Rumah Member 
+
+Merupakan kumpulan pilihan proses bagi member untuk 
+
+memanajemen data rumah yang terdiri dari proses melihat 
+
+rumah, menambah data rumah, mengubah data rumah dan 
+
+hapus data rumah. 
+
+Kelola Data 
+
+Pribadi 
+
+Merupakan proses bagi member untuk mengubah data pribadi 
+
+member. 
+
+Perhitungan 
+
+Fuzzy 
+
+Tsukamoto 
+
+Merupakan proses bagi member untuk menginput nilai 
+
+kriteria dan melihat hasil rekomendasi harga jual rumah 
+
+ 
+
+Tabel 3.10 Deskripsi Use Case Diagram Untuk Admin 
+
+Nama Usecase Keterangan 
+
+Login Merupakan Proses yang dilakukan admin dengan verifikasi 
+
+kata sandi agar dapat masuk ke dalam sistem. 
+
+Logout Merupakan proses yang dilakukan admin untuk mengakhiri 
+
+penggunaan sistem agar dapat keluar dari sistem. 
+
+Beranda Admin Merupakan proses bagi admin untuk melihat jumlah rumah, 
+
+jumlah user dan pemberitahuan komentar. 
+
+Kelola Data 
+
+Rumah Admin 
+
+Merupakan kumpulan pilihan proses bagi admin untuk 
+
+memanajemen data rumah yang terdiri dari proses melihat 
+
+rumah, mengubah data rumah dan hapus data rumah. 
+
+
+
+50 
+ 
+
+Kelola Data 
+
+Member dan 
+
+Data Admin 
+
+Merupakan kumpulan pilihan proses bagi admin untuk 
+
+memanajemen data member dan data admin yang terdiri dari 
+
+proses melihat data member, mengubah data member, 
+
+menghapus data member dan mengubah data admin. 
+
+Kelola Data 
+
+Berita 
+
+Merupakan kumpulan pilihan proses bagi admin untuk 
+
+memanajemen data berita yang terdiri dari proses melihat 
+
+berita, menambah berita, mengubah berita dan hapus berita. 
+
+Kelola Data 
+
+FAQ 
+
+Merupakan kumpulan pilihan proses bagi admin untuk 
+
+memanajemen data FAQ yang terdiri dari proses melihat 
+
+FAQ, menambah FAQ, mengubah FAQ dan hapus FAQ. 
+
+Kelola Data 
+
+Komentar Berita 
+
+Merupakan proses bagi admin untuk melihat komentar, 
+
+mengubah komentar dan menghapus komentar. 
+
+Kelola Data 
+
+Komentar 
+
+Rumah 
+
+Merupakan proses bagi admin untuk melihat komentar, 
+
+mengubah komentar dan menghapus komentar. 
+
+Kelola Kategori 
+
+Berita 
+
+Merupakan proses bagi admin untuk melihat kategori berita, 
+
+menambah kategori dan menghapus kategori 
+
+Kelola Tag 
+
+Berita 
+
+Merupakan proses bagi admin untuk melihat tag berita, 
+
+menambah tag dan menghapus tag 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+3. Use Case Diagram  
+
+ Deskripsi use case diagram dalam aplikasi dapat dilihat pada Gambar 3.9 
+
+
+
+51 
+ 
+
+ 
+
+ 
+
+Pada Gambar 
+
+3.9, dapat dilihat bahwa: 
+
+Gambar 3.9 Use Case Diagram 
+
+
+
+52 
+ 
+
+• Pengguna tidak terdaftar dapat melihat beranda, melihat informasi rumah, 
+
+melihat informasi berita, menginput komentar di berita, menginput 
+
+komentar rumah, melihat informasi kontak yang bisa dihubungi dan melihat 
+
+informasi FAQ.  
+
+• Pengguna terdaftar dapat melihat beranda member, memanajemen rumah 
+
+seperti tambah rumah, ubah rumah dan hapus rumah, memanajemen data 
+
+pribadi seperti ubah data pribadi, menginput nilai kriteria kedalam 
+
+perhitungan fuzzy tsukamoto, melihat komentar rumah.  
+
+• Admin dapat melihat beranda admin, memanajemen rumah seperti ubah 
+
+rumah dan hapus rumah, memanajemen member dan admin seperti ubah 
+
+data member, hapus data member dan ubah data admin, memanajemen 
+
+berita seperti tambah berita, ubah berita dan hapus berita, memanajemen 
+
+FAQ seperti tambah FAQ, ubah FAQ dan hapus FAQ, memanajemen 
+
+komentar berita seperti ubah komentar dan hapus komentar, memanajemen 
+
+komentar rumah seperti ubah komentar dan hapus komentar, memanajemen 
+
+kategori berita seperti tambah kategori dan hapus kategori, memanajemen 
+
+tag berita seperti tambah tag berita dan hapus tag berita. Semua tugas 
+
+member dan admin harus melalui proses login dan menekan tombol logout 
+
+jika ingin keluar dari website. 
+
+ 
+
+3.6.3.2 Activity Diagram 
+
+Activity diagram menggambarkan alur kerja pada sistem yang bertujuan 
+
+untuk melihat alur proses sistem secara bertahap. Activity diagram dibuat 
+
+berdasarkan sebuah atau beberapa use case pada use case diagram. 
+
+1. Activity Diagram Login Member dan Admin 
+
+Berikut adalah activity diagram login member dan admin dapat dilihat pada 
+
+Gambar 3.10. 
+
+
+
+53 
+ 
+
+ 
+
+ 
+
+ 
+
+ Pada Gambar 3.10, dapat dilihat bahwa untuk masuk ke aplikasi, member 
+
+dan admin harus mengisi username dan password. Jika berhasil, maka sistem akan 
+
+menampilkan halaman menu member untuk member dan menu admin untuk admin. 
+
+Jika tidak, maka akan kembali ke halaman login.  
+
+ 
+
+2. Activity Diagram Registrasi Member 
+
+Berikut adalah activity diagram login member dapat dilihat pada Gambar 3.11. 
+
+ 
+
+ 
+
+  
+
+ Pada Gambar 3.11, dapat dilihat bahwa untuk login ke sistem, pengguna 
+
+harus mengisi registrasi. Jika berhasil, maka sistem akan menampilkan halaman 
+
+menu login. Jika tidak, maka akan kembali ke halaman registrasi member.  
+
+Gambar 3.10 Activity Diagram Login Member dan Admin 
+
+ 
+
+Gambar 3.11 Activity Diagram Registrasi Member 
+
+ 
+
+
+
+54 
+ 
+
+3. Activity Diagram Tambah Rumah Member 
+
+Berikut adalah activity diagram tambah rumah member dapat dilihat pada Gambar 
+
+3.12. 
+
+ 
+
+ 
+
+ 
+
+Pada Gambar 3.12, dapat dilihat bahwa member dapat melakukan tambah 
+
+rumah untuk menambah data rumah baru, dengan cara memilih menu rumah. 
+
+Kemudian aplikasi menampilkan halaman data rumah agar dapat menambah rumah 
+
+dan aplikasi menampilkan form tambah rumah. Setelah itu member mengisi form 
+
+tambah rumah dan aplikasi akan menampilkan halaman data rumah yang telah 
+
+ditambah jika berhasil dan akan kembali ke halaman form tambah rumah jika 
+
+member batal menambah rumah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.12 Activity Diagram Tambah Rumah Member 
+
+
+
+55 
+ 
+
+4. Activity Diagram Ubah Rumah Member 
+
+Berikut adalah activity diagram ubah dapat dilihat pada gambar 3.13. 
+
+ 
+
+ 
+
+Pada Gambar 3.13, dapat dilihat bahwa member dapat melakukan ubah 
+
+rumah untuk merubah data rumah, dengan cara memilih menu rumah. Kemudian 
+
+aplikasi menampilkan halaman data rumah agar dapat merubah rumah dan aplikasi 
+
+menampilkan form ubah rumah. Kemudian member mengisi form ubah rumah dan 
+
+aplikasi akan menampilkan halaman data rumah yang telah dirubah jika berhasil 
+
+dan akan kembali ke halaman form ubah rumah jika member batal merubah rumah. 
+
+ 
+
+5. Activity Diagram Hapus Rumah Member 
+
+Berikut adalah activity diagram hapus dapat dilihat pada gambar 3.14. 
+
+ 
+
+ 
+
+Gambar 3.13 Activity Diagram Ubah Rumah 
+
+Gambar 3.14 Activity Diagram Hapus Rumah 
+
+
+
+56 
+ 
+
+Pada Gambar 3.14, dapat dilihat bahwa member melakukan hapus rumah 
+
+untuk menghapus data rumah, dengan cara memilih menu rumah. Kemudian 
+
+aplikasi menampilkan halaman data rumah agar dapat menghapus rumah. Jika 
+
+member menekan tombol hapus maka aplikasi akan menampilkan halaman data 
+
+rumah. Jika member batal menghapus maka aplikasi akan kembali menampilkan 
+
+halaman data rumah. 
+
+ 
+
+6. Activity Diagram Ubah Member 
+
+Berikut adalah activity diagram ubah member dapat dilihat pada gambar 
+
+3.15. 
+
+ 
+
+ 
+
+Pada Gambar 3.15, dapat dilihat bahwa member dapat melakukan ubah 
+
+data pribadi untuk merubah data member, dengan cara memilih menu member. 
+
+Kemudian aplikasi menampilkan halaman data member agar dapat merubah 
+
+member dan aplikasi menampilkan form ubah member. Kemudian member mengisi 
+
+form ubah member dan aplikasi akan menampilkan halaman data member yang 
+
+telah dirubah jika berhasil dan akan kembali ke halaman form ubah member jika 
+
+member batal merubah member. 
+
+ 
+
+Gambar 3.15 Activity Diagram Ubah Member 
+
+
+
+57 
+ 
+
+7. Activity Diagram Perhitungan Fuzzy Tsukamoto 
+
+Berikut adalah activity diagram fuzzy tsukamoto perhitungan dapat dilihat 
+
+pada gambar 3.16. 
+
+ 
+
+ 
+
+Pada Gambar 3.16, dapat dilihat bahwa member dapat melakukan 
+
+perhitungan fuzzy tsukamoto untuk mendapatkan hasil rekomendasi, dengan cara 
+
+memilih menu Fuzzy Tsukamoto. Kemudian aplikasi menampilkan halaman input 
+
+bobot dan hasil rekomendasi. Kemudian member menginput nilai bobot dan 
+
+aplikasi akan menampilkan halaman hasil perhitungan rekomendasi harga. 
+
+ 
+
+8. Activity Diagram Ubah Rumah Admin 
+
+Berikut adalah activity diagram ubah rumah admin dapat dilihat pada gambar 3.17. 
+
+ 
+
+ 
+Gambar 3.17 Activity Diagram Ubah Rumah Admin 
+
+Gambar 3.16 Activity Diagram Tambah Nilai Bobot 
+
+
+
+58 
+ 
+
+Pada Gambar 3.17, dapat dilihat bahwa admin dapat melakukan ubah 
+
+rumah untuk merubah data rumah, dengan cara memilih menu rumah. Kemudian 
+
+aplikasi menampilkan halaman data rumah agar dapat merubah rumah dan aplikasi 
+
+menampilkan form ubah rumah. Kemudian admin mengisi form ubah rumah dan 
+
+aplikasi akan menampilkan halaman data rumah yang telah dirubah jika berhasil 
+
+dan akan kembali ke halaman form ubah rumah jika admin batal merubah rumah. 
+
+ 
+
+9. Activity Diagram Hapus Rumah Admin 
+
+Berikut adalah activity diagram hapus rumah admin dapat dilihat pada gambar 3.18. 
+
+ 
+
+ 
+
+Pada Gambar 3.18, dapat dilihat bahwa admin melakukan hapus rumah 
+
+untuk menghapus data rumah, dengan cara memilih menu rumah. Kemudian 
+
+aplikasi menampilkan halaman data rumah agar dapat menghapus rumah. Jika 
+
+admin menekan tombol hapus maka aplikasi akan menampilkan halaman data 
+
+rumah. Jika admin batal menghapus maka aplikasi akan kembali menampilkan 
+
+halaman data rumah. 
+
+ 
+
+Gambar 3.18 Activity Diagram Hapus Rumah Admin 
+
+
+
+59 
+ 
+
+10. Activity Diagram Ubah Member Admin 
+
+Berikut adalah activity diagram ubah member admin dapat dilihat pada 
+
+gambar 3.19. 
+
+ 
+
+ 
+
+Pada Gambar 3.19, dapat dilihat bahwa admin dapat melakukan ubah 
+
+member untuk merubah data member, dengan cara memilih menu member. 
+
+Kemudian aplikasi menampilkan halaman data member agar dapat merubah 
+
+member dan aplikasi menampilkan form ubah member. Kemudian admin mengisi 
+
+form ubah member dan aplikasi akan menampilkan halaman data member yang 
+
+telah dirubah jika berhasil dan akan kembali ke halaman form ubah member jika 
+
+admin batal merubah member. 
+
+ 
+
+ 
+
+Gambar 3.19 Activity Diagram Ubah Member Admin 
+
+
+
+60 
+ 
+
+11. Activity Diagram Hapus Member Admin 
+
+Berikut adalah activity diagram hapus dapat dilihat pada gambar 3.20. 
+
+ 
+
+ 
+
+Pada Gambar 3.20, dapat dilihat bahwa admin melakukan hapus member 
+
+untuk menghapus data member, dengan cara memilih menu member. Kemudian 
+
+aplikasi menampilkan halaman data member agar dapat menghapus member. Jika 
+
+admin menekan tombol hapus maka aplikasi akan menampilkan halaman data 
+
+member. Jika admin batal menghapus maka aplikasi akan kembali menampilkan 
+
+halaman data member. 
+
+ 
+
+12. Activity Diagram Ubah Admin 
+
+Berikut adalah activity diagram ubah admin dapat dilihat pada gambar 3.21. 
+
+ 
+
+ 
+
+Gambar 3.20 Activity Diagram Hapus Member Admin 
+
+Gambar 3.21 Activity Diagram Ubah Admin 
+
+
+
+61 
+ 
+
+Pada Gambar 3.21, dapat dilihat bahwa admin dapat melakukan ubah 
+
+admin untuk merubah data admin, dengan cara memilih menu admin. Kemudian 
+
+aplikasi menampilkan halaman data admin agar dapat merubah admin dan aplikasi 
+
+menampilkan form ubah admin. Kemudian admin mengisi form ubah admin dan 
+
+aplikasi akan menampilkan halaman data admin yang telah dirubah jika berhasil 
+
+dan akan kembali ke halaman form ubah admin jika admin batal merubah admin. 
+
+ 
+
+13. Activity Diagram Tambah Berita 
+
+Berikut adalah activity diagram tambah berita dapat dilihat pada Gambar 3.22. 
+
+  
+ 
+
+ 
+
+Pada Gambar 3.22, dapat dilihat bahwa admin dapat melakukan tambah 
+
+berita untuk menambah data berita baru, dengan cara memilih menu berita. 
+
+Kemudian aplikasi menampilkan halaman data berita agar dapat menambah berita 
+
+dan aplikasi menampilkan form tambah berita. Setelah itu admin mengisi form 
+
+tambah beritadan aplikasi akan menampilkan halaman data berita yang telah 
+
+ditambah jika berhasil dan akan kembali ke halaman form tambah berita jika admin 
+
+batal menambah berita. 
+
+Gambar 3.22 Activity Diagram Tambah Berita 
+
+
+
+62 
+ 
+
+14. Activity Diagram Ubah Berita 
+
+Berikut adalah activity diagram ubah berita dapat dilihat pada gambar 
+
+3.23. 
+ 
+
+ 
+
+ 
+
+Pada Gambar 3.23, dapat dilihat bahwa admin dapat melakukan ubah 
+
+berita untuk merubah data berita, dengan cara memilih menu berita. Kemudian 
+
+aplikasi menampilkan halaman data berita agar dapat merubah berita dan aplikasi 
+
+menampilkan form ubah berita. Kemudian admin mengisi form ubah berita dan 
+
+aplikasi akan menampilkan halaman data berita yang telah dirubah jika berhasil dan 
+
+akan kembali ke halaman form ubah berita jika admin batal merubah berita. 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.23 Activity Diagram Ubah Berita 
+
+
+
+63 
+ 
+
+ 
+
+15. Activity Diagram Hapus Berita 
+
+Berikut adalah activity diagram hapus dapat dilihat pada gambar 3.24. 
+
+ 
+
+ 
+
+Pada Gambar 3.24, dapat dilihat bahwa admin melakukan hapus berita 
+
+untuk menghapus data berita, dengan cara memilih menu berita. Kemudian aplikasi 
+
+menampilkan halaman data berita agar dapat menghapus berita. Jika admin 
+
+menekan tombol hapus maka aplikasi akan menampilkan halaman data berita. Jika 
+
+admin batal menghapus maka aplikasi akan kembali menampilkan halaman data 
+
+berita. 
+
+ 
+
+16. Activity Diagram Tambah FAQ 
+
+Berikut adalah activity diagram tambah FAQ dapat dilihat pada Gambar 3.25. 
+
+ 
+
+ 
+
+Gambar 3.24 Activity Diagram Hapus Berita 
+
+Gambar 3.25 Activity Diagram Tambah FAQ 
+
+
+
+64 
+ 
+
+Pada Gambar 3.25, dapat dilihat bahwa admin dapat melakukan tambah 
+
+FAQ untuk menambah data FAQ baru, dengan cara memilih menu FAQ. Kemudian 
+
+aplikasi menampilkan halaman data FAQ agar dapat menambah FAQ dan aplikasi 
+
+menampilkan form tambah FAQ. Setelah itu admin mengisi form tambah FAQ dan 
+
+aplikasi akan menampilkan halaman data FAQ yang telah ditambah jika berhasil 
+
+dan akan kembali ke halaman form tambah FAQ jika admin batal menambah FAQ. 
+
+ 
+
+17. Activity Diagram Ubah FAQ 
+
+Berikut adalah activity diagram ubah FAQ dapat dilihat pada gambar 3.26. 
+
+  
+
+ 
+
+ 
+
+Pada Gambar 3.26, dapat dilihat bahwa admin dapat melakukan ubah FAQ 
+
+untuk merubah data FAQ, dengan cara memilih menu FAQ. Kemudian aplikasi 
+
+menampilkan halaman data FAQ agar dapat merubah FAQ dan aplikasi 
+
+menampilkan form ubah FAQ. Kemudian admin mengisi form ubah FAQ dan 
+
+aplikasi akan menampilkan halaman data FAQ yang telah dirubah jika berhasil dan 
+
+akan kembali ke halaman form ubah FAQ jika admin batal merubah FAQ. 
+
+ 
+
+Gambar 3.26 Activity Diagram Ubah FAQ 
+
+
+
+65 
+ 
+
+18. Activity Diagram Hapus FAQ 
+
+Berikut adalah activity diagram hapus dapat dilihat pada gambar 3.27. 
+
+ 
+
+ 
+
+Pada Gambar 3.27, dapat dilihat bahwa admin melakukan hapus FAQ 
+
+untuk menghapus data FAQ, dengan cara memilih menu FAQ. Kemudian aplikasi 
+
+menampilkan halaman data FAQ agar dapat menghapus FAQ. Jika admin menekan 
+
+tombol hapus maka aplikasi akan menampilkan halaman data FAQ. Jika admin 
+
+batal menghapus maka aplikasi akan kembali menampilkan halaman data FAQ. 
+
+ 
+
+19. Activity Diagram Ubah Komentar Berita Admin 
+
+Berikut adalah activity diagram ubah dapat dilihat pada gambar 3.28. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.27 Activity Diagram Hapus FAQ 
+
+Gambar 3.28 Activity Diagram Ubah Komentar Berita Admin 
+
+
+
+66 
+ 
+
+Pada Gambar 3.28, dapat dilihat bahwa admin dapat melakukan ubah 
+
+komentar untuk merubah data komentar berita admin, dengan cara memilih menu 
+
+berita, kemudian memilih lihat berita, kemudian memilih kelola komentar, 
+
+menekan tombol ubah komentar. Kemudian aplikasi menampilkan form ubah 
+
+komentar. Kemudian admin mengisi form ubah komentar dan aplikasi akan 
+
+menampilkan halaman data komentar yang telah dirubah jika berhasil dan akan 
+
+kembali ke halaman form ubah komentar jika admin batal merubah komentar. 
+
+ 
+
+20. Activity Diagram Hapus Komentar Berita Admin 
+
+Berikut adalah activity diagram hapus Komentar Berita Admin dapat dilihat pada 
+
+gambar 3.29. 
+
+ 
+
+ 
+
+Pada Gambar 3.29, dapat dilihat bahwa admin melakukan hapus komentar 
+
+berita untuk menghapus data komentar berita, dengan cara memilih menu berita dan 
+
+memilih menu kelola komentar. Kemudian aplikasi menampilkan halaman data 
+
+komentar. Jika admin menekan tombol hapus maka aplikasi akan menampilkan 
+
+halaman data komentar berita. Jika admin batal menghapus maka aplikasi akan 
+
+kembali menampilkan halaman data komentar berita. 
+
+Gambar 3.29 Activity Diagram Hapus Komentar Berita Admin 
+
+
+
+67 
+ 
+
+21. Activity Diagram Ubah Komentar Rumah Admin 
+
+Berikut adalah activity diagram ubah Komentar Rumah Admin dapat dilihat pada 
+
+gambar 3.30. 
+ 
+
+ 
+
+Pada Gambar 3.30, dapat dilihat bahwa admin dapat melakukan ubah 
+
+komentar untuk merubah data komentar rumah admin, dengan cara memilih menu 
+
+rumah, kemudian memilih lihat rumah, kemudian memilih kelola komentar, 
+
+menekan tombol ubah komentar. Kemudian aplikasi menampilkan form ubah 
+
+komentar. Kemudian admin mengisi form ubah komentar dan aplikasi akan 
+
+menampilkan halaman data komentar yang telah dirubah jika berhasil dan akan 
+
+kembali ke halaman form ubah komentar jika admin batal merubah komentar. 
+
+ 
+
+ 
+
+Gambar 3.30 Activity Diagram Ubah Komentar Rumah Admin 
+
+
+
+68 
+ 
+
+22. Activity Diagram Hapus Komentar Rumah Admin 
+
+Berikut adalah activity diagram hapus Komentar Rumah Admin dapat dilihat pada 
+
+gambar 3.31. 
+
+ 
+
+ 
+
+Pada Gambar 3.31, dapat dilihat bahwa admin melakukan hapus komentar 
+
+rumah untuk menghapus data komentar rumah, dengan cara memilih menu rumah 
+
+dan memilih menu kelola komentar. Kemudian aplikasi menampilkan halaman data 
+
+komentar. Jika admin menekan tombol hapus maka aplikasi akan menampilkan 
+
+halaman data komentar rumah. Jika admin batal menghapus maka aplikasi akan 
+
+kembali menampilkan halaman data komentar rumah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.31 Activity Diagram Hapus Komentar Rumah Admin 
+
+
+
+69 
+ 
+
+23. Activity Diagram Tambah Kategori Berita 
+
+Berikut adalah activity diagram tambah dapat dilihat pada gambar 3.32. 
+
+  
+
+Pada Gambar 3.32, dapat dilihat bahwa admin dapat melakukan tambah 
+
+kategori berita, dengan cara memilih menu kategori berita, kemudian menginputkan 
+
+kategori baru. Kemudian aplikasi menampilkan data kategori berita.  
+
+ 
+
+24. Activity Diagram Hapus Kategori Berita 
+
+Berikut adalah activity diagram hapus dapat dilihat pada gambar 3.33. 
+
+ 
+
+ 
+
+Gambar 3.32 Activity Diagram Tambah Kategori Berita 
+
+Gambar 3.33 Activity Diagram Hapus Kategori Berita 
+
+
+
+70 
+ 
+
+Pada Gambar 3.33, dapat dilihat bahwa admin melakukan hapus kategori 
+
+berita untuk menghapus data kategori, dengan cara memilih menu kategori berita. 
+
+Kemudian aplikasi menampilkan halaman data kategori. Jika admin menekan 
+
+tombol hapus maka aplikasi akan menampilkan halaman data kategori berita.  
+
+ 
+
+25. Activity Diagram Tambah Tag Berita 
+
+Berikut adalah activity diagram tambah dapat dilihat pada gambar 3.34. 
+
+  
+
+Pada Gambar 3.34, dapat dilihat bahwa admin dapat melakukan tambah 
+
+tag berita, dengan cara memilih menu tag berita, kemudian menginputkan tag baru. 
+
+Kemudian aplikasi menampilkan data tag berita.  
+
+ 
+
+26. Activity Diagram Hapus Tag Berita 
+
+Berikut adalah activity diagram hapus tag berita dapat dilihat pada gambar 3.35. 
+
+ 
+
+ 
+
+Gambar 3.34 Activity Diagram Tambah Tag Berita 
+
+Gambar 3.35 Activity Diagram Hapus Tag Berita 
+
+
+
+71 
+ 
+
+Pada Gambar 3.35, dapat dilihat bahwa admin melakukan hapus tag berita 
+
+untuk menghapus data tag, dengan cara memilih menu tag berita. Kemudian 
+
+aplikasi menampilkan halaman data tag. Jika admin menekan tombol hapus maka 
+
+aplikasi akan menampilkan halaman data tag berita.  
+
+ 
+
+3.6.3.3 Class Diagram 
+
+Class diagram digunakan untuk menggambarkan perancangan struktur 
+
+kelas-kelas dan hubungannya antara satu dengan yang lain, serta memiliki atribut 
+
+dan operasi yang terdapat dalam sistem. Berikut adalah class diagram pada sistem 
+
+dapat dilihat pada Gambar 3.36. 
+
+
+
+72 
+ 
+
+Gambar 3.36 Class Diagram 
+
+ 
+
+ 
+
+
+
+73 
+ 
+
+Pada Gambar 3.36 dapat dilihat bahwa sistem dimulai dari login 
+
+menggunakan username dan password menggunakan fungsi 
+
+AdminLoginController() untuk masuk ke menu utama admin dan mengunakan 
+
+fungsi LoginController() untuk masuk ke menu utama member. Menu lainnya yang 
+
+dapat diakses setelah login dan terhubung pada masing-masing tabel pada database 
+
+dan saling berelasi. 
+
+ 
+
+3.6.3.4 Sequence Diagram 
+
+Sequence diagram adalah diagram yang menjelaskan interaksi objek 
+
+berdasarkan urutan waktu. Sequence diagram menggambarkan urutan atau tahapan 
+
+yang harus dilakukan pengguna. Diagram ini menujukkan sejumlah contoh objek 
+
+dan pesan yang melakukan satu tugas atau aksi tertentu. Komponen utama sequence 
+
+diagram terdiri atas objek yang dituliskan dengan kotak persegi. Pesan diwakili 
+
+oleh garis dengan tanda panah dan waktu yang ditunjukkan dengan progress 
+
+vertikal.  
+
+1. Sequence Diagram Login Admin  
+
+Berikut adalah sequence diagram login admin dilihat pada Gambar 3.37. 
+
+ 
+
+ 
+
+Pada Gambar 3.37, dapat dilihat bahwa admin login menggunakan fungsi 
+
+login() dengan mengambil data admin agar aplikasi dapat menampilkan menu 
+
+admin. 
+
+Gambar 3.37 Sequence Diagram Login Admin 
+
+ 
+
+ 
+
+
+
+74 
+ 
+
+2. Sequence Diagram Login Member  
+
+Berikut adalah sequence diagram login member dilihat pada Gambar 3.38. 
+
+ 
+
+ 
+
+Pada Gambar 3.38, dapat dilihat bahwa member login menggunakan 
+
+fungsi login() dengan mengambil data member agar aplikasi dapat menampilkan 
+
+menu member. 
+
+ 
+
+3. Sequence Diagram Ubah Rumah Admin 
+
+Berikut adalah sequence diagram ubah rumah admin dapat dilihat Gambar 3.39. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.39 Sequence Diagram Ubah Rumah Admin 
+
+ 
+
+Gambar 3.38 Sequence Diagram Login Member 
+
+ 
+
+ 
+
+ 
+
+
+
+75 
+ 
+
+Pada Gambar 3.39, dapat dilihat bahwa admin dapat mengubah data rumah 
+
+dengan menampilkan tabel rumah terlebih dahulu dengan fungsi index(). Kemudian 
+
+admin mengubah data rumah dengan mengisi form ubah rumah untuk disimpan 
+
+pada tabel rumah menggunakan fungsi update(). Setelah data ditambahkan, maka 
+
+aplikasi akan menampilkan data rumah yang telah diubah. 
+
+ 
+
+4. Sequence Diagram Hapus Rumah Admin 
+
+Berikut adalah sequence diagram hapus dapat dilihat pada Gambar 3.40. 
+
+ 
+
+ 
+
+ 
+
+Pada Gambar 3.40, dapat dilihat bahwa admin dapat menghapus data 
+
+rumah dengan menampilkan tabel rumah terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menghapus data rumah dengan menekan tombol hapus untuk 
+
+menghapus data rumah menggunakan fungsi destroy(). Setelah data dihapus, maka 
+
+aplikasi akan menampilkan data rumah. 
+
+ 
+
+ 
+
+Gambar 3.40 Sequence Diagram Hapus Rumah Admin 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+76 
+ 
+
+5. Sequence Diagram Ubah Member Oleh Admin 
+
+Berikut adalah sequence diagram ubah dapat dilihat pada Gambar 3.41. 
+
+ 
+
+ 
+
+Pada Gambar 3.41, dapat dilihat bahwa admin dapat mengubah data 
+
+member dengan menampilkan data tabel member terlebih dahulu dengan fungsi 
+
+index(). Kemudian admin mengubah data member dengan mengisi form ubah 
+
+member untuk disimpan pada tabel member menggunakan fungsi update(). Setelah 
+
+data ditambahkan, maka aplikasi akan menampilkan data member yang telah 
+
+diubah. 
+
+ 
+
+6. Sequence Diagram Hapus Data Member 
+
+Berikut adalah sequence diagram hapus dapat dilihat pada Gambar 3.42. 
+
+ 
+
+ 
+
+Gambar 3.41 Sequence Diagram Ubah Member Oleh Admin 
+
+ 
+
+ 
+
+Gambar 3.42 Sequence Diagram Hapus Data Member 
+
+ 
+
+ 
+
+ 
+
+
+
+77 
+ 
+
+Pada Gambar 3.42, dapat dilihat bahwa admin dapat menghapus data 
+
+member dengan menampilkan tabel member terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menghapus data member dengan menekan tombol hapus untuk 
+
+menghapus data member menggunakan fungsi destroy(). Setelah data dihapus, 
+
+maka aplikasi akan menampilkan data member. 
+
+ 
+
+7. Sequence Diagram Ubah Data Admin 
+
+Berikut adalah sequence diagram ubah data admin dapat dilihat pada 
+
+Gambar 3.43. 
+
+ 
+
+ 
+
+ 
+
+Pada Gambar 3.43 dapat dilihat bahwa admin dapat mengubah data pribadi 
+
+admin dengan menampilkan data tabel admin terlebih dahulu dengan fungsi 
+
+index(). Kemudian admin mengubah data admin dengan mengisi form ubah admin 
+
+untuk disimpan pada tabel admin menggunakan fungsi update(). Setelah data 
+
+ditambahkan, maka aplikasi akan menampilkan data admin yang telah diubah. 
+
+Gambar 3.43 Sequence Diagram Ubah Data Admin 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+78 
+ 
+
+8. Sequence Diagram Tambah Berita 
+
+Berikut adalah sequence diagram tambah data berita dapat dilihat pada 
+
+Gambar 3.44. 
+
+ 
+
+ 
+
+Pada Gambar 3.44, dapat dilihat bahwa admin dapat menambah data berita 
+
+dengan menampilkan data tabel berita terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menambah berita dengan mengisi form tambah berita untuk 
+
+disimpan pada tabel berita menggunakan fungsi store(). Setelah data ditambahkan, 
+
+maka aplikasi akan menampilkan data berita yang telah ditambah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.44 Sequence Diagram Tambah Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+79 
+ 
+
+9. Sequence Diagram Ubah Berita 
+
+Berikut adalah sequence diagram ubah dapat dilihat pada Gambar 3.45. 
+
+ 
+
+ 
+
+ 
+
+Pada Gambar 3.45, dapat dilihat bahwa admin dapat mengubah data berita 
+
+dengan menampilkan data tabel berita terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin mengubah data berita dengan mengisi form ubah berita untuk 
+
+disimpan pada tabel berita menggunakan fungsi update(). Setelah data dirubah, 
+
+maka aplikasi akan menampilkan data berita yang telah dirubah. 
+
+ 
+
+10. Sequence Diagram Hapus Berita 
+
+Berikut adalah sequence diagram hapus data berita dapat dilihat pada 
+
+Gambar 3.46. 
+
+ 
+
+ 
+
+Gambar 3.45 Sequence Diagram Ubah Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.46 Sequence Diagram Hapus Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+80 
+ 
+
+Pada Gambar 3.46, dapat dilihat bahwa admin dapat menghapus data 
+
+berita dengan menampilkan data tabel berita terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menghapus berita dengan menekan tombol hapus untuk 
+
+menghapus data berita menggunakan fungsi destroy(). Setelah data dihapus, maka 
+
+aplikasi akan menampilkan data berita. 
+
+ 
+
+11. Sequence Diagram Tambah Tambah FAQ 
+
+Berikut adalah sequence diagram tambah data FAQ dapat dilihat pada 
+
+Gambar 3.47. 
+
+ 
+
+ 
+
+Pada Gambar 3.47, dapat dilihat bahwa admin dapat menambah data FAQ 
+
+dengan menampilkan data tabel faq terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menambah faq dengan mengisi form tambah faq untuk disimpan 
+
+pada tabel faq menggunakan fungsi store(). Setelah data ditambahkan, maka 
+
+aplikasi akan menampilkan data faq yang telah ditambah. 
+
+ 
+
+Gambar 3.47 Sequence Diagram Tambah FAQ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+81 
+ 
+
+12. Sequence Diagram Ubah FAQ 
+
+Berikut adalah sequence diagram ubah data FAQ dapat dilihat pada 
+
+Gambar 3.48. 
+
+ 
+
+ 
+
+Pada Gambar 3.48, dapat dilihat bahwa admin dapat mengubah data FAQ 
+
+dengan menampilkan data tabel faq terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin mengubah data faq dengan mengisi form ubah faq untuk disimpan 
+
+pada tabel faq menggunakan fungsi update(). Setelah data dirubah, maka aplikasi 
+
+akan menampilkan data faq yang telah dirubah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.48 Sequence Diagram Ubah FAQ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+82 
+ 
+
+13. Sequence Diagram Hapus FAQ 
+
+Berikut adalah sequence diagram hapus data FAQ dapat dilihat pada 
+
+Gambar 3.49. 
+
+ 
+
+ 
+
+Pada Gambar 3.49, dapat dilihat bahwa admin dapat menghapus data FAQ 
+
+dengan menampilkan data tabel faq terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menghapus faq dengan menekan tombol hapus untuk menghapus 
+
+data faq menggunakan fungsi destroy(). Setelah data dihapus, maka aplikasi akan 
+
+menampilkan data faq. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.49 Sequence Diagram Hapus FAQ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+83 
+ 
+
+14. Sequence Diagram Tambah Kategori Berita 
+
+Berikut adalah sequence diagram Tambah data kategori berita dapat 
+
+dilihat pada Gambar 3.50. 
+
+ 
+
+ 
+
+Pada Gambar 3.50, dapat dilihat bahwa admin dapat menambah data 
+
+kategori berita dengan menampilkan tabel kategori terlebih dahulu dengan fungsi 
+
+index(). Kemudian admin menambah kategori dengan mengisi form tambah 
+
+kategori untuk disimpan pada tabel kategori menggunakan fungsi store(). Setelah 
+
+data ditambahkan, maka aplikasi akan menampilkan data kategori berita yang telah 
+
+ditambah. 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.50 Sequence Diagram Tambah Kategori Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+84 
+ 
+
+15. Sequence Diagram Hapus Kategori Berita 
+
+Berikut adalah sequence diagram Hapus Kategori Berita dapat dilihat pada 
+
+Gambar 3.51. 
+
+ 
+
+ 
+
+Pada Gambar 3.51, dapat dilihat bahwa admin dapat menghapus data 
+
+kategori berita dengan menampilkan tabel kategori berita terlebih dahulu dengan 
+
+fungsi index(). Kemudian admin menghapus data kategori berita dengan menekan 
+
+tombol hapus untuk menghapus data kategori menggunakan fungsi destroy(). 
+
+Setelah data dihapus, maka aplikasi akan menampilkan data kategori. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.51 Sequence Diagram Hapus Kategori Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+85 
+ 
+
+16. Sequence Diagram Tambah Tag Berita 
+
+Berikut adalah sequence diagram Tambah data tag berita dapat dilihat 
+
+pada Gambar 3.52. 
+
+ 
+
+ 
+
+Pada Gambar 3.52, dapat dilihat bahwa admin dapat menambah data tag 
+
+berita dengan menampilkan tabel tag terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menambah tag dengan mengisi form tambah tag untuk disimpan 
+
+pada tabel tag menggunakan fungsi store(). Setelah data ditambahkan, maka 
+
+aplikasi akan menampilkan data tag berita yang telah ditambah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.52 Sequence Diagram Tambah Tag Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+86 
+ 
+
+17. Sequence Diagram Hapus Tag Berita 
+
+Berikut adalah sequence diagram Hapus Tag Berita dapat dilihat pada 
+
+Gambar 3.53. 
+
+ 
+
+ 
+
+Pada Gambar 3.53, dapat dilihat bahwa admin dapat menghapus data tag 
+
+berita dengan menampilkan tabel tag berita terlebih dahulu dengan fungsi index(). 
+
+Kemudian admin menghapus data tag berita dengan menekan tombol hapus untuk 
+
+menghapus data tag menggunakan fungsi destroy(). Setelah data dihapus, maka 
+
+aplikasi akan menampilkan data tag. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.53 Sequence Diagram Hapus Tag Berita 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+87 
+ 
+
+18. Sequence Diagram Tambah Rumah Oleh Member 
+
+Berikut adalah sequence diagram tambah data berita dapat dilihat pada 
+
+Gambar 3.54. 
+
+ 
+
+ 
+
+Pada Gambar 3.54, dapat dilihat bahwa member dapat menambah data 
+
+rumah dengan menampilkan data tabel rumah terlebih dahulu dengan fungsi 
+
+index(). Kemudian member menambah rumah dengan mengisi form tambah rumah 
+
+untuk disimpan pada tabel rumah menggunakan fungsi store(). Setelah data 
+
+ditambahkan, maka aplikasi akan menampilkan data rumah yang telah ditambah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.54 Sequence Diagram Tambah Rumah Oleh Member 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+88 
+ 
+
+19. Sequence Diagram Ubah Rumah Oleh Member 
+
+Berikut adalah sequence diagram ubah data rumah oleh member dapat 
+
+dilihat pada Gambar 3.55. 
+
+ 
+
+ 
+
+Pada Gambar 3.5, dapat dilihat bahwa member dapat mengubah data 
+
+rumah dengan menampilkan data tabel rumah terlebih dahulu dengan fungsi 
+
+index(). Kemudian member mengubah data rumah dengan mengisi form ubah 
+
+rumah untuk disimpan pada tabel rumah menggunakan fungsi update(). Setelah data 
+
+dirubah, maka aplikasi akan menampilkan data rumah yang telah dirubah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.55 Sequence Diagram Ubah Rumah Oleh Member 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+89 
+ 
+
+20. Sequence Diagram Hapus Rumah Oleh Member 
+
+Berikut adalah sequence diagram hapus data rumah oleh member dapat 
+
+dilihat pada Gambar 3.56. 
+
+ 
+
+ 
+
+Pada Gambar 3.56, dapat dilihat bahwa member dapat menghapus data 
+
+rumah dengan menampilkan data tabel rumah terlebih dahulu dengan fungsi 
+
+index(). Kemudian member menghapus rumah dengan menekan tombol hapus 
+
+untuk menghapus data rumah menggunakan fungsi destroy(). Setelah data dihapus, 
+
+maka aplikasi akan menampilkan data rumah. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.56 Sequence Diagram Hapus Rumah Oleh Member 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+90 
+ 
+
+21. Sequence Diagram Ubah Data Member Oleh Member 
+
+Berikut adalah sequence diagram ubah data member oleh member dapat 
+
+dilihat pada Gambar 3.57. 
+
+ 
+
+ 
+
+Pada Gambar 3.57, dapat dilihat bahwa member dapat mengubah data 
+
+pribadi member dengan menampilkan data tabel member terlebih dahulu dengan 
+
+fungsi index(). Kemudian member mengubah data member dengan mengisi form 
+
+ubah member untuk disimpan pada tabel member menggunakan fungsi update(). 
+
+Setelah data dirubah, maka aplikasi akan menampilkan data member yang telah 
+
+dirubah. 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.57 Sequence Diagram Ubah Member Oleh Member 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+91 
+ 
+
+3.6.4 Perancangan Basis Data 
+
+3.6.4.1 Spesifikasi Tabel Basis Data 
+
+Sistem ini memiliki 11 tabel, yang dapat dilihat pada rincian berikut. 
+
+1. Spesifikasi Tabel Admin 
+
+Nama database  : webgis 
+
+Nama tabel  : admins 
+
+Keterangan  : tabel yang digunakan admin untuk masuk ke dalam  
+
+sistem. 
+
+ 
+
+Tabel 3.11 Spesifikasi Tabel Admin 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_admin int (10) Tidak Kunci Utama 
+
+nama varchar(191) Tidak  
+
+foto varchar(191) Tidak  
+
+email varchar(191) Tidak Indeks 
+
+username varchar(191) Tidak  
+
+password varchar(191) Tidak  
+
+remember_token varchar(100) Ya  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+2. Spesifikasi Tabel Rumah 
+
+Nama database  : webgis 
+
+Nama tabel  : rumah_models 
+
+Keterangan  : tabel yang digunakan menyimpan data rumah. 
+
+ 
+
+Tabel 3.12 Spesifikasi Tabel Rumah 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_admin int (10) Tidak Kunci Utama 
+
+id_member int (10) Tidak Kunci Tamu 
+
+judul varchar(191) Tidak  
+
+
+
+92 
+ 
+
+lokasi varchar(191) Tidak  
+
+alamat varchar(191) Tidak  
+
+luasbangunan varchar(191) Tidak  
+
+luastanah varchar(191) Tidak  
+
+kamartidur varchar(191) Tidak  
+
+kamarmandi varchar(191) Tidak  
+
+pln varchar(191) Tidak  
+
+pdam varchar(191) Tidak  
+
+carport varchar(191) Tidak  
+
+garasi varchar(191) Tidak  
+
+harga varchar(191) Tidak  
+
+keterangan varchar(191) Tidak  
+
+dev varchar(191) Tidak  
+
+lat varchar(191) Tidak  
+
+lng varchar(191) Tidak  
+
+created_at timestamp Ya  
+
+updated_at timestamp Ya  
+
+ 
+
+3. Spesifikasi Tabel Rumah Foto 
+
+Nama database :  webgis 
+
+Nama tabel  :  rumah_foto 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data foto 
+
+rumah.  
+
+ 
+
+Tabel 3.13 Spesifikasi Tabel Rumah Foto 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id int (10) Tidak Kunci Primer 
+
+rumah_id int (10) Tidak Kunci Tamu 
+
+image varchar(191) Tidak  
+
+created_up timestamp Ya  
+
+update_up timestamp Ya  
+
+ 
+
+
+
+93 
+ 
+
+4. Spesifikasi Tabel Berita 
+
+Nama database  :  webgis 
+
+Nama tabel  :  berita_model 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data berita 
+
+ 
+
+Tabel 3.14 Spesifikasi Tabel Berita 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_kriteria int (10) Tidak Kunci Primer 
+
+category_id int (10) Tidak Kunci Tamu 
+
+judul varchar(191) Tidak  
+
+foto varchar(191) Tidak  
+
+penulis varchar(191) Tidak  
+
+berita varchar(191) Tidak  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+5. Spesifikasi Tabel Berita Model Tag 
+
+Nama database  :  webgis 
+
+Nama tabel  :  berita_model_tag 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data berita 
+
+dan tag berita 
+
+ 
+
+Tabel 3.15 Spesifikasi Tabel Berita Model Tag 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id int (10) Tidak Kunci Primer 
+
+berita_model_id_berita int (10) Tidak Kunci Tamu 
+
+tag_id int (10) Tidak Kunci Tamu 
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+6. Spesifikasi Tabel Kategori 
+
+Nama database  :  webgis 
+
+
+
+94 
+ 
+
+Nama tabel  :  categories 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data 
+
+kategori 
+
+ 
+
+Tabel 3.16 Spesifikasi Tabel Kategori 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id int (10) Tidak Kunci Primer 
+
+nama varchar(191) Tidak  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+7. Spesifikasi Tabel FAQ 
+
+Nama database  :  webgis 
+
+Nama tabel  :  faq 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data FAQ 
+
+ 
+
+Tabel 3.17 Spesifikasi Tabel FAQ 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_ faq int (10) Tidak Kunci Primer 
+
+pertanyaan text Tidak  
+
+faq text Tidak  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+8. Spesifikasi Tabel Komentar Berita 
+
+Nama database  :  webgis 
+
+Nama tabel  :  komentars 
+
+Keterangan  : tabel yang digunakan untuk menyimpan komentar 
+
+untuk berita. 
+
+ 
+
+ 
+
+ 
+
+
+
+95 
+ 
+
+Tabel 3.18 Spesifikasi Tabel Komentar Berita 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id int (10) Tidak Kunci Primer 
+
+berita_model_id_berita int (10) Tidak Kunci Tamu 
+
+nama varchar(119) Tidak  
+
+email varchar(119) Tidak  
+
+komentar text Tidak  
+
+approved tinyint(1) Tidak  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+9. Spesifikasi Tabel Komentar Rumah 
+
+Nama database  :  webgis 
+
+Nama tabel  :  komentar_rumahs 
+
+Keterangan  : tabel yang digunakan untuk menyimpan komentar 
+
+untuk rumah. 
+
+ 
+
+Tabel 3.19 Spesifikasi Tabel Komentar Rumah 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id int (10) Tidak Kunci Primer 
+
+berita_model_id_berita int (10) Tidak Kunci Tamu 
+
+nama varchar(119) Tidak  
+
+email varchar(119) Tidak  
+
+komentar text Tidak  
+
+approved tinyint(1) Tidak  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+ 
+
+10. Spesifikasi Tabel Member 
+
+Nama database  :  webgis 
+
+Nama tabel  :  member 
+
+
+
+96 
+ 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data 
+
+member. 
+
+ 
+
+Tabel 3.20 Spesifikasi Tabel Member 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id_member int (10) Tidak Kunci Primer 
+
+namalengkap varchar(191) Tidak  
+
+username varchar(191) Tidak  
+
+foto varchar(191) Tidak  
+
+password varchar(191) Tidak  
+
+jeniskelamin varchar(191) Tidak  
+
+agama varchar(191) Tidak  
+
+tempatlahir varchar(191) Tidak  
+
+tanggallahir varchar(191) Tidak  
+
+alamat varchar(191) Tidak  
+
+nohp varchar(191) Tidak  
+
+email varchar(191) Tidak  
+
+remember_token varchar(191) Tidak  
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+11. Spesifikasi Tabel Tag 
+
+Nama database  :  webgis 
+
+Nama tabel  :  tags 
+
+Keterangan  : tabel yang digunakan untuk menyimpan data tag 
+
+member. 
+
+ 
+
+Tabel 3.21 Spesifikasi Tabel Tag 
+
+Nama Field Tipe Boleh Kosong Keterangan 
+
+id int (10) Tidak Kunci Primer 
+
+nama varchar(191) Tidak  
+
+
+
+97 
+ 
+
+created_at timestamp Ya  
+
+update_at timestamp Ya  
+
+ 
+
+3.6.5 Perancangan Antarmuka Sistem 
+
+3.6.5.1 Perancangan Struktur Antarmuka Sistem 
+
+Sistem ini merupakan aplikasi berbasis website. Antarmuka aplikasi yang 
+
+dibangun memiliki beberapa tampilan yang disesuaikan dengan menu-menu 
+
+aplikasi yang ada. Struktur antarmuka aplikasi dapat dilihat pada Gambar 3.58. 
+
+ 
+
+ 
+
+ Gambar 3.58 Perancangan Struktur Antarmuka Sistem 
+
+
+
+98 
+ 
+
+3.6.5.2 Perancangan Layout dan Komponen Antarmuka Sistem 
+
+1. Perancangan Halaman Login  
+
+ 
+
+ 
+
+ 
+
+Halaman login berfungsi untuk menjaga keamanan sistem dan hanya yang 
+
+berhak dalam mengelolah website yang diizinkan masuk ke dalam sistem. Halaman 
+
+ini berisi username serta password, apabila pengguna mengisikan data username 
+
+dan password dengan benar maka pengguna dapat mengakses halaman manajemen 
+
+data. Rancangan Halaman Login dapat dilihat pada Gambar 3.59. 
+
+ 
+
+2. Perancangan Halaman Beranda Admin 
+
+ Halaman beranda admin terdapat informasi seperti jumlah rumah, jumlah 
+
+member, jumlah berita, jumlah faq, jumlah kategori berita dan jumlah tag berita. 
+
+Rancangan Layout Halaman Beranda Admin dapat dilihat pada Gambar 3.60. 
+
+ 
+
+ 
+
+Gambar 3.59 Rancangan Halaman Login 
+
+Gambar 3.60 Rancangan Halaman Beranda Admin 
+
+
+
+99 
+ 
+
+3. Perancangan Halaman Data Rumah Admin 
+
+Halaman data rumah terdapat informasi tabel rumah yang bisa dirubah dan 
+
+hapus. Rancangan Layout Halaman Data Rumah dapat dilihat pada Gambar 3.61. 
+
+ 
+
+ 
+
+4. Perancangan Halaman Data Member Admin 
+
+ Halaman data member terdapat informasi tabel member yang bisa dirubah 
+
+dan hapus. Rancangan Layout Halaman Data Member dapat dilihat pada Gambar 
+
+3.62. 
+
+ 
+
+ 
+
+Gambar 3.61 Rancangan Halaman Data Rumah 
+
+Gambar 3.62 Rancangan Halaman Data Member Admin 
+
+
+
+100 
+ 
+
+5. Perancangan Halaman Data Berita 
+
+ Halaman data berita terdapat informasi tabel berita yang bisa ditambah, 
+
+ubah dan hapus. Rancangan Layout Halaman Data Berita dapat dilihat pada Gambar 
+
+3.63. 
+
+ 
+
+ 
+
+ 
+
+6. Perancangan Halaman FAQ 
+
+Halaman data FAQ terdapat informasi tabel faq yang bisa di tambah, ubah 
+
+dan hapus. Rancangan Layout Halaman data FAQ dapat dilihat pada Gambar 3.64. 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.64 Rancangan Halaman FAQ 
+
+Gambar 3.63 Rancangan Halaman Data Berita 
+
+
+
+101 
+ 
+
+7. Perancangan Halaman Fuzzy Tsukamoto 
+
+Halaman data Fuzzy Tsukamoto terdapat informasi perhitungan Fuzzy 
+
+Tsukamoto. Rancangan Layout Halaman Fuzzy Tsukamoto dapat dilihat pada 
+
+Gambar 3.65. 
+
+ 
+
+ 
+
+ 
+
+8. Perancangan Halaman Kategori Berita 
+
+Halaman data kategori berita terdapat informasi tabel kategori berita yang 
+
+bisa di tambah, ubah dan hapus. Rancangan Layout Halaman data kategori berita 
+
+dapat dilihat pada Gambar 3.66. 
+
+ 
+
+ 
+
+Gambar 3.65 Rancangan Halaman Fuzzy Tsukamoto 
+
+Gambar 3.66 Rancangan Halaman Kategori Berita 
+
+
+
+102 
+ 
+
+9. Perancangan Halaman Tag Berita 
+
+Halaman data tag berita terdapat informasi tabel tag berita yang bisa di 
+
+tambah, ubah dan hapus. Rancangan Layout Halaman data tag berita dapat dilihat 
+
+pada Gambar 3.67. 
+
+ 
+
+ 
+
+10. Perancangan Halaman Beranda Member 
+
+ Halaman beranda member terdapat informasi seperti jumlah rumah dan 
+
+jumlah komentar rumah. Rancangan Layout Halaman Beranda Member dapat 
+
+dilihat pada Gambar 3.68. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.67 Rancangan Halaman Tag Berita 
+
+Gambar 3.68 Rancangan Halaman Beranda Member 
+
+
+
+103 
+ 
+
+11. Perancangan Halaman Data Rumah Member 
+
+Halaman data rumah terdapat informasi tabel rumah yang bisa ditambah, 
+
+ubah dan hapus. Rancangan Layout Halaman Data Rumah dapat dilihat pada 
+
+Gambar 3.69. 
+
+ 
+
+ 
+
+12. Perancangan Halaman Data Pribadi Member 
+
+ Halaman data pribadi member terdapat informasi tabel member yang bisa 
+
+ubah. Rancangan Layout Halaman Data Pribadi Member dapat dilihat pada Gambar 
+
+3.70. 
+
+ 
+
+ 
+
+ 
+
+Gambar 3.69 Rancangan Halaman Data Rumah Member 
+
+Gambar 3.70 Rancangan Halaman Data Pribadi Member 
+
+
+
+104 
+ 
+
+13. Perancangan Halaman Fuzzy Tsukamoto Member 
+
+Halaman data Fuzzy Tsukamoto Member terdapat informasi perhitungan 
+
+Fuzzy Tsukamoto. Rancangan Layout Halaman Fuzzy Tsukamoto Member dapat 
+
+dilihat pada Gambar 3.71. 
+
+ 
+
+ 
+
+3.7 Perancangan Pengujian Sistem 
+
+3.7.1 Pengujian Sistem 
+
+Pada penelitian ini, metode pengujian yang akan digunakan untuk 
+
+mengembangkan aplikasi ini adalah blackbox testing, white box testing dan 
+
+pengujian mean absolute percentage (MAPE). 
+
+a.  Pengujian Blackbox Testing  
+
+Blackbox testing atau bisa disebut tes fungsional ini adalah pengujian yang 
+
+dilakukan hanya dengan mengamati hasil eksekusi melalui data uji dan memeriksa 
+
+fungsional dari aplikasi yang sedang dikembangkan. Teknik pengujian black box 
+
+yang digunakan yaitu performance testing dan Requirement Testing. Pengujian 
+
+akan dilakukan dengan mengakses semua aktivitas dan fitur. 
+
+Tabel 3.22 Rencana Pengujian Halaman Admin 
+
+Kelas Uji Detail Pengujian Jenis Pengujian 
+
+Login  Isi form login Black box 
+
+Manajemen Data Rumah  Ubah Data Rumah Black box 
+
+Manajemen Data Admin  Ubah Data Pribadi Admin Black box 
+
+Gambar 3.71 Rancangan Halaman Fuzzy Tsukamoto Member 
+
+
+
+105 
+ 
+
+Manajemen Data Member  Ubah Data Member  Black box 
+
+Manajemen Data Berita  Tambah Data Berita 
+Black box 
+
+Ubah Data Berita 
+
+Manajemen Data FAQ  Tambah Data FAQ 
+Black box 
+
+Ubah Data FAQ 
+
+Perhitungan Fuzzy Tsukamoto Tambah Data Bobot Black box 
+
+Manajemen Data Kategori 
+
+Berita  
+Tambah Data Kategori 
+
+Berita 
+Black box 
+
+Manajemen Data Tag Berita  Tambah Data Tag Berita 
+Black box 
+
+Ubah Data Tag Berita 
+
+ 
+
+Tabel 3.23 Rencana Pengujian Halaman Member 
+
+Kelas Uji Detail Pengujian Jenis Pengujian 
+
+Login  Verifikasi Password Black box 
+
+Registrasi  Tambah Data Member Black box 
+
+Lupa Password  Tambah Data Email Black box 
+
+Manajemen Data Rumah  Tambah Data Rumah 
+Black box 
+
+Ubah Data Rumah 
+
+Manajemen Data Member  Ubah Data Pribadi Member Black box 
+
+Perhitungan Fuzzy Tsukamoto  Tambah Data Bobot Black box 
+
+ 
+
+Tabel 3.24 Rencana Pengujian Halaman User 
+
+Kelas Uji Detail Pengujian Jenis Pengujian 
+
+Manajemen Data Rumah Pencarian Rumah Black box 
+
+   
+
+b. Pengujian White Box Testing 
+
+White box testing adalah pengujian yang dilakukan sampai level detail dari 
+
+suatu perangkat lunak yaitu source code. 
+
+ 
+
+
+
+106 
+ 
+
+c. Pengujian Mean Absolute Percentage (MAPE) 
+
+Mean absolute percentage error dihitung dengan menggunakan kesalahan 
+
+absolut pada tiap periode dibagi dengan nilai observasi yang nyata untuk periode 
+
+itu dan kemudian nilai tersebut dirata-ratakan. MAPE mengindikasikan seberapa 
+
+besar kesalahan dalam meramal yang dibandingkan dengan nilai nyata. 
+
+ 
+
+3.8 Analisis Hasil Pengujian 
+
+Analisis dilakukan dalam tahap pengujian dan validasi untuk mengetahui 
+
+karakteristik sistem dan mengidentifikasi jika terdapat ketidakkonsistenan sistem. 
+
+Hasil analisis juga digunakan sebagai dasar perbaikan. 
+
+ 
+
+3.9 Penarikan Kesimpulan 
+
+Kesimpulan dirumuskan berdasarkan pengujian yang telah dilakukan 
+
+apakah sistem yang dirancang mampu memberikan informasi rumah yang dijual 
+
+dan memberika rekomendasi harga jual yang tepat. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+107 
+
+ 
+
+BAB IV 
+
+HASIL DAN ANALISIS 
+
+ 
+
+4.1 Hasil Perancangan  
+
+Berdasarkan hasil analisis dan pengujian terhadap sistem informasi 
+
+geografis penjualan dan pembelian rumah di Kota Pontianak, dapat disimpulkan 
+
+bahwa aplikasi ini dapat memberikan informasi data rumah yang di jual di Kota 
+
+Pontianak dan merekomendasikan harga jual rumah berdasarkan kriteria dan bobot 
+
+yang telah ditentukan sebagai penentu alternatif dalam mendukung rekomendasi. 
+
+Berikut ini adalah penjelasan mengenai hasil perancangan antarmuka dari aplikasi 
+
+yang dirancang dan hasil pengujian sistem. 
+
+ 
+
+4.1.1 Tampilan Antarmuka Halaman Login Admin 
+
+Antarmuka halaman login admin berfungsi untuk melakukan manajemen 
+
+sistem pada website. Untuk memasuki halaman admin, pengguna harus login 
+
+terlebih dahulu dengan memasukkan username dan password dengan benar agar 
+
+dapat masuk ke halaman utama admin. Pada level admin, admin dapat melihat menu 
+
+beranda, rumah, member, berita, frequently asked questions, fuzzy tsukamoto, 
+
+kategori berita dan tag berita. Antarmuka halaman login dapat dilihat pada Gambar 
+
+4.1. 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.1 Antarmuka Halaman Login Admin 
+
+
+
+108 
+ 
+
+ 
+ 
+
+4.1.2 Tampilan Antarmuka Halaman Beranda Admin 
+
+Apabila admin berhasil login dengan username dan password admin, 
+
+maka akan diarahkan pada halaman beranda admin. Pada halaman beranda admin, 
+
+admin dapat melihat informasi jumlah data rumah. jumlah data berita , jumlah data 
+
+member, jumlah data FAQ, jumlah data kategori berita dan jumlah data tag berita. 
+
+Antarmuka halaman beranda admin dapat dilihat pada Gambar 4.2.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.3 Tampilan Antarmuka Halaman Data Rumah Admin 
+
+Pada halaman data rumah, admin dapat melihat jumlah data rumah yang 
+
+sudah diinput, admin dapat melihat rumah secara detail yang terdiri dari data rumah, 
+
+peta rumah, foto rumah, keterangan dan kelola komentar, admin dapat merubah 
+
+data rumah dan menghapus data rumah. Tampilan halaman data rumah dapat dilihat 
+
+pada Gambar 4.3. 
+
+ 
+
+Gambar 4.2 Antarmuka Halaman Beranda Admin 
+
+
+
+109 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.4 Tampilan Antarmuka Halaman Ubah Data Rumah Admin 
+
+Pada halaman ubah data rumah, admin dapat mengubah data rumah yang 
+
+sudah diinput. Tampilan halaman ubah data rumah dapat dilihat pada Gambar 4.4. 
+
+Gambar 4.3 Antarmuka Halaman Data Rumah Admin 
+
+
+
+110 
+ 
+
+ 
+ 
+
+ 
+
+ 
+Gambar 4.4 Antarmuka Halaman Ubah Data Rumah Admin 
+
+
+
+111 
+ 
+
+ 
+ 
+
+4.1.5 Tampilan Antarmuka Halaman Admin Profil 
+
+Pada halaman data admin profil, admin dapat melihat data pribadi dan 
+
+dapat merubah data pribadi dengan menekan tombol ubah profil agar dapat 
+
+membuka halaman ubah profil. Tampilan halaman admin profil dapat dilihat pada 
+
+Gambar 4.5. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.6 Tampilan Antarmuka Halaman Data Member 
+
+Pada halaman data member, admin dapat melihat data member, dapat 
+
+merubah data member dan menghapus data member dengan menekan tombol ubah 
+
+dan hapus. Tampilan halaman data member dapat dilihat pada Gambar 4.6. 
+
+Gambar 4.5 Antarmuka Halaman Admin Profil 
+
+
+
+112 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.7 Tampilan Antarmuka Halaman Ubah Data Member 
+
+Pada halaman ubah data member, admin dapat mengubah data member 
+
+yang sudah diinput member. Tampilan halaman ubah data member dapat dilihat 
+
+pada Gambar 4.7. 
+
+ 
+
+Gambar 4.6 Antarmuka Halaman Data Member 
+
+
+
+113 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.8 Tampilan Antarmuka Halaman Berita 
+
+Pada halaman data berita, admin dapat melihat data berita secara detail, 
+
+dapat menambah data berita, merubah data berita dan menghapus data berita 
+
+dengan menekan tombol tambah, ubah dan hapus. Tampilan halaman data berita 
+
+dapat dilihat pada Gambar 4.8. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.7 Antarmuka Halaman Ubah Data Member 
+
+
+
+114 
+ 
+
+ 
+ 
+
+Gambar 4.8 Antarmuka Halaman Data Berita 
+
+Gambar 4.9 Antarmuka Halaman Tambah dan Ubah Data Berita 
+
+ 
+
+ 
+
+ 
+
+4.1.9 Tampilan Antarmuka Halaman Tambah dan Ubah Data Berita 
+
+Pada halaman tambah dan ubah data berita, admin dapat menambah data 
+
+berita dan mengubah data berita yang sudah diinput. Tampilan halaman tambah dan 
+
+ubah data berita dapat dilihat pada Gambar 4.9. 
+
+ 
+
+ 
+
+ 
+
+
+
+115 
+ 
+
+ 
+ 
+
+Gambar 4.11 Antarmuka Halaman Tambah dan Ubah Data FAQ 
+
+4.1.10 Tampilan Antarmuka Halaman FAQ 
+
+Pada halaman data FAQ, admin dapat melihat data FAQ, dapat menambah 
+
+data FAQ, merubah data FAQ dan menghapus data FAQ dengan menekan tombol 
+
+tambah, ubah dan hapus. Tampilan halaman data FAQ dapat dilihat pada Gambar 
+
+4.10. 
+
+ 
+
+ 
+
+4.1.11 Tampilan Antarmuka Halaman Tambah dan Ubah Data FAQ 
+
+Pada halaman tambah dan ubah data FAQ, admin dapat menambah data 
+
+FAQ dan mengubah data FAQ yang sudah diinput. Tampilan halaman tambah dan 
+
+ubah data berita dapat dilihat pada Gambar 4.11. 
+
+ 
+
+ 
+
+Gambar 4.10 Antarmuka Halaman Data FAQ 
+
+
+
+116 
+ 
+
+ 
+ 
+
+4.1.12 Tampilan Antarmuka Halaman Kategori Berita 
+
+Pada halaman data kategori berita, admin dapat melihat data kategori 
+
+berita, dapat menambah data kategori berita dan menghapus data kategori berita 
+
+dengan menekan tombol tambah kategori baru dan hapus. Tampilan halaman data 
+
+kategori berita dapat dilihat pada Gambar 4.12. 
+
+ 
+
+ 
+
+4.1.13 Tampilan Antarmuka Halaman Tag Berita 
+
+Pada halaman data tag berita, admin dapat melihat data tag berita, dapat 
+
+menambah data tag berita, merubah data tag berita dan menghapus data tag berita 
+
+dengan menekan tombol tambah tag baru, ubah dan hapus. Tampilan halaman data 
+
+tag berita dapat dilihat pada Gambar 4.13. 
+
+ 
+
+ 
+
+Gambar 4.12 Antarmuka Halaman Data Kategori Berita 
+
+Gambar 4.13 Antarmuka Halaman Data Tag Berita 
+
+
+
+117 
+ 
+
+ 
+ 
+
+4.1.14 Tampilan Antarmuka Perhitungan Fuzzy Tsukamoto Admin 
+
+Pada halaman antarmuka perhitungan fuzzy tsukamoto admin, admin dapat 
+
+menginput bobot dari setiap kriteria dan mendapatkan hasil perhitungan fuzzy 
+
+tsukamoto berdasarkan bobot yang diinputkan dan mendapatkan rekomendasi harga 
+
+jual rumah. Tampilan halaman antarmuka perhitungan fuzzy tsukamoto Admin 
+
+dapat dilihat pada Gambar 4.14. 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.14 Antarmuka Halaman Perhitungan Fuzzy 
+
+Tsukamoto Admin 
+
+
+
+118 
+ 
+
+ 
+ 
+
+4.1.15 Tampilan Antarmuka Halaman Login Member 
+
+Antarmuka halaman login member berfungsi untuk melakukan 
+
+manajemen data pada website. Untuk memasuki halaman member, pengguna harus 
+
+login terlebih dahulu dengan memasukkan username dan password dengan benar 
+
+agar dapat masuk ke halaman utama member. Pada level member, member dapat 
+
+melihat menu beranda, rumah, user dan fuzzy tsukamoto. Antarmuka halaman login 
+
+dapat dilihat pada Gambar 4.15. 
+
+ 
+
+ 
+
+4.1.16 Tampilan Antarmuka Halaman Beranda Member 
+
+Apabila member berhasil login dengan username dan password member, 
+
+maka akan diarahkan pada halaman beranda member. Pada halaman beranda 
+
+member, member dapat melihat informasi jumlah data rumah. Antarmuka halaman 
+
+beranda member dapat dilihat pada Gambar 4.16.  
+
+ 
+
+Gambar 4.15 Antarmuka Halaman Login Member 
+
+Gambar 4.16 Antarmuka Halaman Beranda Member 
+
+
+
+119 
+ 
+
+ 
+ 
+
+4.1.17 Tampilan Antarmuka Halaman Data Rumah Member 
+
+Pada halaman data rumah, member dapat melihat data secara detail, 
+
+menambah data rumah, merubah dan menghapus data rumah. Tampilan halaman 
+
+data rumah dapat dilihat pada Gambar 4.17. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.18 Tampilan Antarmuka Halaman Tambah dan Ubah Data Rumah 
+
+Member 
+
+Pada halaman tambah dan ubah data rumah, member dapat menambah data 
+
+rumah dan mengubah data rumah yang sudah diinput. Tampilan halaman tambah 
+
+dan ubah data rumah dapat dilihat pada Gambar 4.18. 
+
+Gambar 4.17 Antarmuka Halaman Data Rumah Member 
+
+
+
+120 
+ 
+
+ 
+ 
+
+  
+
+ 
+
+4.1.19 Tampilan Antarmuka Halaman Data Member 
+
+Pada halaman data member, member dapat melihat data pribadi dan dapat 
+
+merubah data dengan menekan tombol ubah profil agar dapat membuka halaman 
+
+ubah profil. Tampilan halaman member profil dapat dilihat pada Gambar 4.19. 
+
+ 
+
+ Gambar 4.19 Antarmuka Halaman Member Profil 
+
+Gambar 4.18 Antarmuka Halaman Tambah dan Ubah Data Rumah Member 
+
+
+
+121 
+ 
+
+ 
+ 
+
+4.1.20 Tampilan Antarmuka Perhitungan Fuzzy Tsukamoto Member 
+
+Pada halaman antarmuka perhitungan fuzzy tsukamoto member, member 
+
+dapat menginput bobot dari setiap kriteria dan mendapatkan hasil perhitungan fuzzy 
+
+tsukamoto berdasarkan bobot yang diinputkan dan mendapatkan rekomendasi harga 
+
+jual rumah. Tampilan halaman antarmuka perhitungan fuzzy tsukamoto member 
+
+dapat dilihat pada Gambar 4.20. 
+
+ 
+
+ 
+
+ 
+
+4.1.21 Tampilan Antarmuka Halaman Beranda User   
+
+Pada antarmuka halaman beranda user, user dapat melihat informasi peta 
+
+seluruh rumah, informasi rumah dengan foto, informasi berita. Tampilan antarmuka 
+
+halaman user dapat dilihat pada Gambar 4.21. 
+
+Gambar 4.20 Antarmuka Halaman Perhitungan Fuzzy 
+
+Tsukamoto Member 
+
+
+
+122 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+4.1.22 Tampilan Antarmuka Halaman Rumah User   
+
+Pada antarmuka halaman rumah user, user dapat melihat seluruh informasi 
+
+rumah di peta, detail informasi rumah dan pencarian berdasarkan lokasi dan harga 
+
+rumah. Tampilan antarmuka halaman rumah user dapat dilihat pada Gambar 4.22. 
+
+Gambar 4.21 Antarmuka Halaman Beranda User 
+
+
+
+123 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+4.1.23 Tampilan Antarmuka Halaman Berita User   
+
+Pada antarmuka halaman berita user, user dapat melihat informasi berita 
+
+dan promosi. Tampilan antarmuka halaman berita user dapat dilihat pada Gambar 
+
+4.23. 
+
+Gambar 4.22 Antarmuka Halaman Rumah User 
+
+
+
+124 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.24 Tampilan Antarmuka Halaman Hubungi Kami User   
+
+Pada antarmuka halaman hubungi kami user, user dapat melihat informasi 
+
+kontak yang dapat dihubungi. Tampilan antarmuka halaman hubungi kami user 
+
+dapat dilihat pada Gambar 4.24. 
+
+Gambar 4.23 Antarmuka Halaman Berita User 
+
+
+
+125 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+4.1.25 Tampilan Antarmuka Halaman FAQ User   
+
+Pada antarmuka halaman FAQ user, user dapat melihat informasi FAQ. 
+
+Tampilan antarmuka halaman FAQ user dapat dilihat pada Gambar 4.25. 
+
+ 
+
+ 
+
+Gambar 4.24 Antarmuka Halaman Hubungi Kami User 
+
+Gambar 4.25 Antarmuka Halaman FAQ User 
+
+
+
+126 
+ 
+
+ 
+ 
+
+4.1.26 Tampilan Antarmuka Registrasi User   
+
+Pada antarmuka halaman registrasi user, user dapat melakukan registrasi 
+
+untuk menjadi member. Tampilan antarmuka halaman registrasi dapat dilihat pada 
+
+Gambar 4.26. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.26 Antarmuka Halaman Registrasi User 
+
+
+
+127 
+ 
+
+ 
+ 
+
+4.2 Hasil Pengujian 
+
+4.2.1 Pengujian Black Box 
+
+Pada tahap ini akan dilakukan pengujian sistem yang bertujuan untuk 
+
+menemukan kesalahan-kesalahan atau kekurangan pada perangkat lunak yang diuji. 
+
+Pengujian bermaksud untuk mengetahui perangkat lunak yang dibuat sudah 
+
+memenuhi kriteria yang sesuai dengan tujuan perancangan perangkat lunak 
+
+tersebut. 
+
+Pengujian perangkat lunak ini menggunakan pengujian black box. 
+
+Pengujian black box berfokus pada persyaratan fungsional perangkat lunak.  
+
+ 
+
+4.2.1.1 Pengujian Login  
+
+Berikut ini adalah tabel pengujian login untuk verifikasi username dan 
+
+password:  
+
+Tabel 4.1 Pengujian Login Admin 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Mengisi data login, 
+
+contoh : 
+
+Username : fritz 
+
+Password : 123456 
+
+Jika data login valid, 
+
+maka admin akan 
+
+masuk ke dalam 
+
+beranda admin 
+
+Data login valid Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Username dan 
+
+password belum 
+
+diisi atau salah 
+
+Dapat menampilkan 
+
+pesan bahwa 
+
+username atau 
+
+password salah 
+
+Menampilkan pesan 
+
+bahwa username 
+
+atau password salah 
+
+Diterima  
+
+ 
+
+Tabel 4.2 Pengujian Login Member 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Mengisi data login, 
+
+contoh : 
+
+Username : daniel 
+
+Jika data login valid, 
+
+maka member akan 
+
+masuk ke dalam 
+
+beranda member 
+
+Data login valid Diterima 
+
+
+
+128 
+ 
+
+ 
+ 
+
+Password : 
+
+daniel123 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Username dan 
+
+password belum 
+
+diisi atau salah 
+
+Dapat menampilkan 
+
+pesan bahwa 
+
+username atau 
+
+password salah 
+
+Menampilkan pesan 
+
+bahwa username 
+
+atau password salah 
+
+Diterima  
+
+ 
+
+4.2.1.2 Pengujian Manajemen Data Rumah (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data rumah untuk mengubah 
+
+data rumah:  
+
+Tabel 4.3 Pengujian Ubah Data Rumah (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+rumah yang akan 
+
+diubah pada halaman 
+
+ubah data rumah 
+
+Menampilkan data rumah 
+
+yang akan diubah pada 
+
+halaman ubah rumah. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+rumah. Kembali ke 
+
+halaman rumah 
+
+Data perubahan 
+
+tersimpan di tabel rumah. 
+
+Kembali ke halaman 
+
+rumah. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel rumah. 
+
+Kembali ke halaman 
+
+rumah 
+
+Data perubahan tidak 
+
+tersimpan di tabel rumah. 
+
+Kembali ke halaman 
+
+rumah. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+ 
+
+ 
+
+
+
+129 
+ 
+
+ 
+ 
+
+4.2.1.3 Pengujian Manajemen Data Admin (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data admin untuk mengubah 
+
+data pribadi admin:  
+
+Tabel 4.4 Pengujian Ubah Data Admin (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+admin yang akan 
+
+diubah pada halaman 
+
+ubah data admin 
+
+Menampilkan data admin 
+
+yang akan diubah pada 
+
+halaman ubah admin. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+admin. Kembali ke 
+
+halaman admin 
+
+Data perubahan 
+
+tersimpan di tabel admin. 
+
+Kembali ke halaman 
+
+admin. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.4 Pengujian Manajemen Data Member (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data member untuk 
+
+mengubah data member:  
+
+Tabel 4.5 Pengujian Ubah Data Member (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+member yang akan 
+
+diubah pada halaman 
+
+ubah data member 
+
+Menampilkan data 
+
+member yang akan 
+
+diubah pada halaman 
+
+ubah member. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+member. Kembali ke 
+
+halaman member 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+member. Kembali ke 
+
+Diterima 
+
+
+
+130 
+ 
+
+ 
+ 
+
+halaman member. Sesuai 
+
+yang diharapkan 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel member. 
+
+Kembali ke halaman 
+
+member 
+
+Data perubahan tidak 
+
+tersimpan di tabel 
+
+member. Kembali ke 
+
+halaman member. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.5 Pengujian Manajemen Data Berita (Admin) 
+
+Pengujian manajemen data berita terbagi atas dua bagian diantaranya: 
+
+1. Tambah Data Berita (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data berita untuk menambah 
+
+data berita:  
+
+Tabel 4.6 Pengujian Tambah Data Berita (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+tambah 
+
+Menampilkan form 
+
+penambahan data 
+
+berita 
+
+Tampil form 
+
+penambahan data berita 
+Diterima 
+
+Judul 
+
+berita:berita 
+
+baru, foto 
+
+berita:berita.jpg, 
+
+penulis:Andri, 
+
+kategori 
+
+berita:INFO 
+
+RUMAH, tag 
+
+berita:Rumah, 
+
+isi berita:Berita 
+
+Baru 
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi judul 
+
+berita, foto berita, 
+
+penulis, kategori berita, 
+
+tag berita, isi berita. 
+
+Sesuai yang diharapkan. 
+
+Diterima 
+
+Klik tombol 
+
+simpan 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman berita 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman berita. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+
+
+131 
+ 
+
+ 
+ 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+2. Ubah Data Berita (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data berita untuk mengubah 
+
+data berita:  
+
+Tabel 4.7 Pengujian Ubah Data Berita (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+berita yang akan 
+
+diubah pada halaman 
+
+ubah data berita 
+
+Menampilkan data berita 
+
+yang akan diubah pada 
+
+halaman ubah berita. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+berita. Kembali ke 
+
+halaman berita 
+
+Data perubahan 
+
+tersimpan di tabel berita. 
+
+Kembali ke halaman 
+
+berita. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel berita. Kembali 
+
+ke halaman berita 
+
+Data perubahan tidak 
+
+tersimpan di tabel berita. 
+
+Kembali ke halaman 
+
+berita. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.6 Pengujian Manajemen Data Frequently Asked Questions (Admin) 
+
+Pengujian manajemen data frequently asked questions terbagi atas dua 
+
+bagian diantaranya: 
+
+1. Tambah Data Frequently Asked Questions (Admin) 
+
+
+
+132 
+ 
+
+ 
+ 
+
+Berikut ini adalah tabel pengujian manajemen data frequently asked 
+
+questions untuk menambah data frequently asked questions: 
+
+Tabel 4.8 Pengujian Tambah Data Frequently Asked Questions (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+tambah 
+
+Menampilkan form 
+
+penambahan data 
+
+berita frequently 
+
+asked questions 
+
+Tampil form 
+
+penambahan data 
+
+frequently asked 
+
+questions 
+
+Diterima 
+
+Pertanyaan:apa 
+
+kabar?, isi 
+
+FAQ:baik 
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi 
+
+pertanyaan dan isi FAQ. 
+
+Sesuai yang diharapkan. 
+
+Diterima 
+
+Klik tombol 
+
+simpan 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman frequently 
+
+asked questions 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman frequently asked 
+
+questions. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+2. Ubah Data Frequently Asked Questions (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data frequently asked 
+
+questions untuk mengubah data frequently asked questions:  
+
+Tabel 4.9 Pengujian Ubah Data Frequently Asked Questions (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+frequently asked 
+
+questions yang akan 
+
+diubah pada halaman 
+
+ubah data frequently 
+
+asked questions 
+
+Menampilkan data 
+
+frequently asked 
+
+questions yang akan 
+
+diubah pada halaman 
+
+ubah frequently asked 
+
+questions. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+
+
+133 
+ 
+
+ 
+ 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+frequently asked 
+
+questions. Kembali 
+
+ke halaman 
+
+frequently asked 
+
+questions 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+frequently asked 
+
+questions. Kembali ke 
+
+halaman frequently asked 
+
+questions. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel frequently 
+
+asked questions. 
+
+Kembali ke halaman 
+
+frequently asked 
+
+questions 
+
+Data perubahan tidak 
+
+tersimpan di tabel 
+
+frequently asked 
+
+questions. Kembali ke 
+
+halaman frequently asked 
+
+questions. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.7 Pengujian Perhitungan Fuzzy Tsukamoto (Admin) 
+
+Berikut ini adalah tabel pengujian perhitungan fuzzy tsukamoto untuk 
+
+menentukan rekomendasi harga jual rumah:  
+
+Tabel 4.10 Pengujian Perhitungan Fuzzy Tsukamoto (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Kondisi 
+
+bangunan, 
+
+fasilitas rumah, 
+
+fasilitas umum, 
+
+NJOP  
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi kondisi 
+
+bangunan, fasilitas 
+
+rumah, fasilitas umum, 
+
+NJOP. Sesuai yang 
+
+diharapkan. 
+
+Diterima 
+
+Klik tombol 
+
+hitung 
+
+Menampilkan hasil 
+
+perhitungan 
+
+parameter setiap 
+
+kriteria, hasil 
+
+perhitungan aturan 
+
+fuzzy tsukamoto, 
+
+rekomendasi harga 
+
+jual rumah 
+
+Menampilkan hasil 
+
+perhitungan parameter 
+
+setiap kriteria, hasil 
+
+perhitungan aturan fuzzy 
+
+tsukamoto, rekomendasi 
+
+harga jual rumah. Sesuai 
+
+yang diharapkan. 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+
+
+134 
+ 
+
+ 
+ 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Tidak menampilkan 
+
+hasil rekomendasi 
+
+dan  menampilkan 
+
+pesan kesalahan 
+
+Tidak menampilkan hasil 
+
+rekomendasi dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.8 Pengujian Manajemen Data Kategori Berita (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data kategori berita untuk 
+
+menambah data kategori berita:  
+
+Tabel 4.11 Pengujian Tambah Data Kategori Berita (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Nama kategori 
+
+berita: berita 
+
+baru 
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi nama 
+
+kategori berita. Sesuai 
+
+yang diharapkan. 
+
+Diterima 
+
+Klik tombol 
+
+tambah kategori 
+
+baru 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman kategori 
+
+berita 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman kategori berita. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.9 Pengujian Manajemen Data Tag Berita (Admin) 
+
+Pengujian manajemen data tag berita terbagi atas dua bagian diantaranya: 
+
+1. Tambah Data Tag Berita (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data tag berita untuk 
+
+menambah data tag berita:  
+
+ 
+
+ 
+
+
+
+135 
+ 
+
+ 
+ 
+
+Tabel 4.12 Pengujian Tambah Data Tag Berita (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Nama tag berita: 
+
+berita baru 
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi nama tag 
+
+berita. Sesuai yang 
+
+diharapkan. 
+
+Diterima 
+
+Klik tombol 
+
+tambah tag baru 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman tag berita 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman tag berita. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+2. Ubah Data Tag Berita (Admin) 
+
+Berikut ini adalah tabel pengujian manajemen data tag berita untuk 
+
+mengubah data tag berita:  
+
+Tabel 4.13 Pengujian Ubah Data Tag Berita (Admin) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+tag berita yang akan 
+
+diubah pada halaman 
+
+ubah data tag berita 
+
+Menampilkan data tag 
+
+berita yang akan diubah 
+
+pada halaman ubah tag 
+
+berita. Sesuai yang 
+
+diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+tag berita. Kembali 
+
+ke halaman tag 
+
+berita. 
+
+Data perubahan 
+
+tersimpan di tabel tag 
+
+berita. Kembali ke 
+
+halaman tag berita. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel tag berita. 
+
+Kembali ke halaman 
+
+tag berita. 
+
+Data perubahan tidak 
+
+tersimpan di tabel tag 
+
+berita. Kembali ke 
+
+halaman tag berita 
+
+.Sesuai yang diharapkan 
+
+Diterima 
+
+
+
+136 
+ 
+
+ 
+ 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.10 Pengujian Manajemen Data Rumah (Member) 
+
+Pengujian manajemen data rumah terbagi atas dua bagian diantaranya: 
+
+1. Tambah Data Rumah (Member) 
+
+Berikut ini adalah tabel pengujian manajemen data rumah untuk 
+
+menambah data rumah:  
+
+Tabel 4.14 Pengujian Tambah Data Rumah (Member) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+tambah 
+
+Menampilkan form 
+
+penambahan data 
+
+rumah 
+
+Tampil form 
+
+penambahan data rumah 
+Diterima 
+
+Judul: rumah, 
+
+lokasi: 
+
+Pontianak Kota, 
+
+foto berita: 
+
+rumah.jpg, 
+
+alamat: rumah, 
+
+luas bangunan: 
+
+100, luas tanah: 
+
+120, kamar 
+
+tidur:1, kamar 
+
+mandi:1, 
+
+PLN:900, 
+
+PDAM: ada, 
+
+Carport: ada, 
+
+Garasi: ada, 
+
+Harga Rumah: 
+
+100.000.000, 
+
+Hak Milik: 
+
+rumah, 
+
+Keterangan: 
+
+rumah 
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi judul: 
+
+rumah, lokasi: Pontianak 
+
+Kota, foto berita: 
+
+rumah.jpg, alamat: 
+
+rumah, luas bangunan: 
+
+100, luas tanah: 120, 
+
+kamar tidur: 1, kamar 
+
+mandi: 1, PLN: 900, 
+
+PDAM: ada, Carport: 
+
+ada, Garasi: ada, Harga 
+
+Rumah: 100.000.000, 
+
+Hak Milik: rumah, 
+
+Keterangan:rumah. 
+
+Sesuai yang diharapkan. 
+
+Diterima 
+
+
+
+137 
+ 
+
+ 
+ 
+
+Klik tombol 
+
+simpan 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman rumah 
+
+Data tersimpan pada 
+
+database dan 
+
+ditampilkan pada 
+
+halaman rumah. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+2. Ubah Data Rumah (Member) 
+
+Berikut ini adalah tabel pengujian manajemen data rumah untuk mengubah 
+
+data rumah:  
+
+Tabel 4.15 Pengujian Ubah Data Rumah (Member) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+rumah yang akan 
+
+diubah pada halaman 
+
+ubah data rumah 
+
+Menampilkan data rumah 
+
+yang akan diubah pada 
+
+halaman ubah rumah. 
+
+Sesuai yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+rumah. Kembali ke 
+
+halaman rumah 
+
+Data perubahan 
+
+tersimpan di tabel rumah. 
+
+Kembali ke halaman 
+
+rumah. Sesuai yang 
+
+diharapkan. 
+
+Diterima 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel rumah. 
+
+Kembali ke halaman 
+
+rumah 
+
+Data perubahan tidak 
+
+tersimpan di tabel rumah. 
+
+Kembali ke halaman 
+
+rumah. Sesuai yang 
+
+diharapkan. 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+
+
+138 
+ 
+
+ 
+ 
+
+4.2.1.11 Pengujian Manajemen Data Member (Member) 
+
+Berikut ini adalah tabel pengujian manajemen data member untuk 
+
+mengubah data pribadi member:  
+
+Tabel 4.16 Pengujian Ubah Data Member (Member) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Klik tombol 
+
+ubah 
+
+Menampilkan data 
+
+member yang akan 
+
+diubah pada halaman 
+
+ubah data member 
+
+Menampilkan data 
+
+member yang akan 
+
+diubah pada halaman 
+
+ubah member. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+save 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+member. Kembali ke 
+
+halaman member 
+
+Data perubahan 
+
+tersimpan di tabel 
+
+member. Kembali ke 
+
+halaman member. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+Klik tombol 
+
+cancel 
+
+Data perubahan 
+
+tidak tersimpan di 
+
+tabel member. 
+
+Kembali ke halaman 
+
+member 
+
+Data perubahan tidak 
+
+tersimpan di tabel 
+
+member. Kembali ke 
+
+halaman member. Sesuai 
+
+yang diharapkan 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Data tidak tersimpan 
+
+dan menampilkan 
+
+pesan kesalahan 
+
+Data tidak tersimpan dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.12 Pengujian Perhitungan Fuzzy Tsukamoto (Member) 
+
+Berikut ini adalah tabel pengujian perhitungan fuzzy tsukamoto untuk 
+
+menentukan rekomendasi harga jual rumah:  
+
+Tabel 4.17 Pengujian Perhitungan Fuzzy Tsukamoto (Member) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Kondisi 
+
+bangunan, 
+
+fasilitas rumah, 
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Dapat mengisi kondisi 
+
+bangunan, fasilitas 
+
+rumah, fasilitas umum, 
+
+Diterima 
+
+
+
+139 
+ 
+
+ 
+ 
+
+fasilitas umum, 
+
+NJOP  
+
+NJOP. Sesuai yang 
+
+diharapkan. 
+
+Klik tombol 
+
+hitung 
+
+Menampilkan hasil 
+
+perhitungan 
+
+parameter setiap 
+
+kriteria, hasil 
+
+perhitungan aturan 
+
+fuzzy tsukamoto, 
+
+rekomendasi harga 
+
+jual rumah 
+
+Menampilkan hasil 
+
+perhitungan parameter 
+
+setiap kriteria, hasil 
+
+perhitungan aturan fuzzy 
+
+tsukamoto, rekomendasi 
+
+harga jual rumah. Sesuai 
+
+yang diharapkan. 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi 
+
+atau salah 
+
+Tidak menampilkan 
+
+hasil rekomendasi 
+
+dan  menampilkan 
+
+pesan kesalahan 
+
+Tidak menampilkan hasil 
+
+rekomendasi dan 
+
+menampilkan pesan 
+
+kesalahan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+4.2.1.13 Pengujian Pencarian Data Rumah (User) 
+
+Berikut ini adalah tabel pengujian pencarian data rumah untuk pencarian 
+
+data rumah:  
+
+Tabel 4.18 Pengujian Pencarian Data Rumah (User) 
+
+Kasus dan Hasil Uji (Data Benar) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Lokasi rumah, 
+
+harga terendah 
+
+dan harga 
+
+tertinggi  
+
+Semua data 
+
+tercantum pada 
+
+textbox 
+
+Semua data tercantum 
+
+pada textbox. Sesuai 
+
+yang diharapkan. 
+
+Diterima 
+
+Klik tombol cari 
+Data yang dicari 
+
+ditemukan 
+
+Data yang dicari 
+
+ditemukan. Sesuai yang 
+
+diharapkan. 
+
+Diterima 
+
+Kasus dan Hasil Uji (Data Salah) 
+
+Data Masukan Yang Diharapkan Pengamatan Kesimpulan 
+
+Data tidak diisi  
+
+Menampilkan pesan 
+
+kesalahan bahwa 
+
+data yang dicari 
+
+harus dimasukkan 
+
+Menampilkan pesan 
+
+kesalahan bahwa data 
+
+yang dicari harus 
+
+dimasukkan. Sesuai yang 
+
+diharapkan 
+
+Diterima  
+
+ 
+
+
+
+140 
+ 
+
+ 
+ 
+
+4.2.2 Pengujian White Box 
+
+Pengujian white box testing pada struktur internal (source code) program, 
+
+dimana setiap baris kode yang di compile akan dicek satu persatu untuk mengetahui 
+
+apakah masih terjadi keasalah atau error. 
+
+ Pengujian white box ini dilakukan untuk menguji apakah logika fuzzy 
+
+tsukamoto yang diterapkan sudah berjalan sesuai dengan diharapkan. Berikut ini 
+
+merupakan pengujian logika fuzzy tsukamoto dengan metode white box pada 
+
+aplikasi. 
+
+4.2.2.1 Pseudo Code  
+
+Berikut ini akan dijabarkan Pseudo Code pada kasus input nilai kondisi 
+
+bangunan, input nilai fasilitas rumah, input nilai fasilitas umum, input nilai NJOP 
+
+dan pada logika fuzzy tsukamoto rekomendasi harga jual rumah berdasarkan nilai 
+
+input nilai kondisi bangunan, input nilai fasilitas rumah, input nilai fasilitas umum, 
+
+input nilai NJOP.  
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.27 Pseudo Code Derajat Keanggotaan Kondisi Rumah 
+
+ 
+
+
+
+141 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+Gambar 4.28 Pseudo Code Derajat Keanggotaan Fasilitas Rumah 
+
+ 
+
+Gambar 4.29 Pseudo Code Derajat Keanggotaan Fasilitas Umum 
+
+ 
+
+
+
+142 
+ 
+
+ 
+ 
+
+  
+
+ 
+
+Gambar 4.30 Pseudo Code Derajat Keanggotaan NJOP 
+
+ 
+
+
+
+143 
+ 
+
+ 
+ 
+
+ 
+
+
+
+144 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+4.2.2.2 Flowgraph 
+
+Flowgraph merupakan sebuah representasi visual berbagai macam jalan 
+
+kode yang dapat diambil oleh program komputer. Flowgraph terdiri dari 
+
+serangkaian simbol (node), yang dihubungkan dengan panah menunjukkan arah 
+
+(route). Flowgraph dari nilai kondisi bangunan, nilai fasilitas rumah, nilai fasilitas 
+
+umum, nilai NJOP dan logika fuzzy tsukamoto dapat dilihat pada gambar dibawah. 
+
+Gambar 4.31 Pseudo Code Logika Fuzzy 
+
+ 
+
+
+
+145 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.32 Flowgraph Kondisi Bangunan Tidak Bagus 
+
+ 
+
+Gambar 4.33 Flowgraph Kondisi Bangunan Bagus 
+
+ 
+
+Gambar 4.34 Flowgraph Kondisi Bangunan Sangat Bagus 
+
+ 
+
+
+
+146 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.35 Flowgraph Fasilitas Rumah Tidak Lengkap 
+
+ 
+
+Gambar 4.36 Flowgraph Fasilitas Rumah Lengkap 
+
+ 
+
+Gambar 4.37 Flowgraph Fasilitas Rumah Sangat Lengkap 
+
+ 
+
+
+
+147 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.38 Flowgraph Fasilitas Umum Lengkap 
+
+ 
+
+Gambar 4.39 Flowgraph Fasilitas Umum Sangat Lengkap 
+
+ 
+
+Gambar 4.40 Flowgraph NJOP Murah 
+
+ 
+
+
+
+148 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gambar 4.42 Flowgraph NJOP Mahal 
+
+ 
+
+Gambar 4.41 Flowgraph NJOP Sedang 
+
+ 
+
+
+
+149 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Gambar 4.43 Flowgraph Logika Fuzzy 
+
+ 
+
+
+
+150 
+ 
+
+ 
+ 
+
+Keterangan:  = Menggambarkan Kondisi (Node) 
+
+  = Menggambarkan Aksi (Edge) 
+
+ 
+
+4.2.2.3 Cyclomatic complexity  
+
+a. Cyclomatic complexity kondisi bangunan tidak bagus 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+Keterangan : 
+
+E = jumlah edge pada grafik alir 
+
+N = jumlah node pada grafik alir 
+
+b. Cyclomatic complexity kondisi bangunan bagus 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+c. Cyclomatic complexity kondisi bangunan sangat bagus 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+d. Cyclomatic complexity fasilitas rumah tidak lengkap 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+e. Cyclomatic complexity fasilitas rumah lengkap 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+
+
+151 
+ 
+
+ 
+ 
+
+f. Cyclomatic complexity fasilitas rumah sangat lengkap 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+g. Cyclomatic complexity fasilitas umum lengkap 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+h. Cyclomatic complexity fasilitas rumah sangat lengkap 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+i. Cyclomatic complexity NJOP murah 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+j. Cyclomatic complexity NJOP sedang 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+k. Cyclomatic complexity NJOP mahal 
+
+E = 10 
+
+N = 9 
+
+V(G) = E – N + 2 
+
+V(G) = 10 – 9 + 2 = 3 
+
+l. Cyclomatic complexity Logika Fuzzy 
+
+E = 147 
+
+
+
+152 
+ 
+
+ 
+ 
+
+N = 148 
+
+V(G) = E – N + 2 
+
+V(G) = 147 – 148 + 2 = 1 
+
+ 
+
+4.2.2.4 Independent Path 
+
+a. Independent path kondisi bangunan tidak bagus 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 6 – 7 – 12 – 14 – 23  
+
+Path 2 = 6 – 7 – 12 – 16 – 18 – 23 
+
+Path 3 = 6 – 7 – 12 – 16 – 20 – 21 - 23  
+
+b. Independent path kondisi bangunan bagus 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 6 – 8 – 28 – 30 – 38  
+
+Path 2 = 6 – 8 – 28 – 32 – 34 – 38 
+
+Path 3 = 6 – 8 – 28 – 32 – 36 – 37 – 38 
+
+c. Independent path kondisi bangunan sangat bagus 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 6 – 9 – 42 – 44 – 52  
+
+Path 2 = 6 – 9 – 42 – 46 – 48 – 52 
+
+Path 3 = 6 – 9 – 42 – 46 – 50 – 51 - 52  
+
+d. Independent path fasilitas rumah tidak lengkap 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 11 – 12 – 17 – 19 – 28  
+
+Path 2 = 11 – 12 – 17 – 21 – 23 – 28 
+
+Path 3 = 11 – 12 – 17 – 21 – 25 – 26 - 28  
+
+e. Independent path fasilitas rumah lengkap 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+
+
+153 
+ 
+
+ 
+ 
+
+Path 1 = 11 – 13 – 32 – 36 – 42 
+
+Path 2 = 11 – 13 – 32 – 36 – 38 – 42 
+
+Path 3 = 11 – 13 – 32 – 36 – 40 – 41 - 28  
+
+f. Independent path fasilitas rumah sangat lengkap 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 11 – 14 – 46 – 48 – 28  
+
+Path 2 = 11 – 14 – 46 – 50 – 52 – 56 
+
+Path 3 = 11 – 14 – 46 – 50 – 54 – 55 - 56  
+
+g. Independent path fasilitas umum lengkap 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 10 – 11 – 15 – 17 – 25 
+
+Path 2 = 10 – 11 – 15 – 19 – 21 – 25 
+
+Path 3 = 10 – 11 – 15 – 19 – 23 – 24 - 25  
+
+h. Independent path fasilitas umum sangat lengkap 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 10 – 12 – 29 – 31 – 39 
+
+Path 2 = 10 – 12 – 29 – 33 – 35 – 39 
+
+Path 3 = 10 – 12 – 29 – 33 – 37 – 38 - 39  
+
+i. Independent path NJOP murah 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 5 – 6 – 11 – 13 – 21 
+
+Path 2 = 5 – 6 – 11 – 15 – 17 – 21 
+
+Path 3 = 5 – 6 – 11 – 15 – 19 – 20 - 21  
+
+j. Independent path NJOP sedang 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 5 – 7 – 25 – 27 – 35 
+
+Path 2 = 5 – 7 – 25 – 29 – 31 – 35 
+
+
+
+154 
+ 
+
+ 
+ 
+
+Path 3 = 5 – 7 – 25 – 29 – 33 – 34 - 35  
+
+k. Independent path NJOP mahal 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 5 – 8 – 39 – 41 – 49 
+
+Path 2 = 5 – 8 – 39 – 43 – 45 – 49 
+
+Path 3 = 5 – 8 – 39 – 43 – 47 – 48 - 49  
+
+l. Independent path Logika Fuzzy 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path 
+
+yaitu: 
+
+Path 1 = 1,2,3,4,5,6,7,8,9,10,11 – 12 – 13 – 15 -16 – 18 -19 – 21 – 22 – 24 
+
+– 25 – 27 – 28 – 30 – 31 – 33 – 34 – 36 – 37 – 39 – 40 – 42 – 43 – 45 – 46 
+
+- - 48 – 49 – 51 – 52- 54 – 55 – 57 – 58 – 60 – 61 – 63 – 64 – 66 -67 – 69 
+
+-70 – 72 – 73 – 75 -76 – 78 – 79 – 81 – 82 – 84 – 85 – 87 – 88 – 90 – 91 – 
+
+93 – 94 – 96 – 97 – 99 – 100 – 102 – 103 – 105 – 106 – 108 – 109 – 111 – 
+
+112 – 114 – 115 – 117 -118 – 120 – 121 – 123 – 124 – 126 - 127 – 129 – 
+
+130 – 132 - 133 – 135 – 136 – 138 – 139 – 141 - 142 – 144 – 145 – 147 – 
+
+148 – 150 – 151 – 153 -154 -156 – 157 – 159 – 160 – 162 - 163 – 165 -
+
+166 – 168 – 169 – 171 - 172 – 174 - 175 – 177 – 178 – 180 - 181 – 183 – 
+
+184 – 186 – 187 – 189 – 190 – 192 – 193 – 195 – 196 – 198 – 199 – 201 – 
+
+202 – 204 – 205 – 207 – 208 – 210 – 211 – 213 – 214 – 216 – 217 – 219 – 
+
+220 – 222 – 223 – 225 – 226 – 228 – 229 - 230     
+
+ 
+
+Tabel 4.19 Tabel Pengujian White Box 
+
+Path Kondisi Bangunan, fasilitas rumah, fasilitas umum dan NJOP 
+
+Path 
+
+No 
+Node (n) Kasus Uji 
+
+Hasil Sesuai 
+
+Kasus Uji 
+Keterangan 
+
+1 6 – 7 – 12 – 14 – 23  Input nilai kondisi bangunan 
+
+dan mengubah nilai kondisi 
+
+bangunan menjadi nilai 
+
+linguistik 
+
+Nilai kondisi 
+
+bangunan di 
+
+ubah menjadi 
+
+nilai linguistik 
+
+Alur path 
+
+terlewati 
+
+2 6 – 7 – 12 – 16 – 18 - 23 
+
+3 
+6 – 7 – 12 – 16 – 18 – 20 
+
+– 21 - 23 
+
+4 6 – 7 – 12 – 14 – 23 
+
+
+
+155 
+ 
+
+ 
+ 
+
+5 6 – 7 – 12 – 16 – 18 - 23 Input nilai fasilitas rumah dan 
+
+mengubah nilai fasilitas 
+
+rumah menjadi nilai linguistik 
+
+Fasilitas rumah 
+
+di ubah 
+
+menjadi nilai 
+
+linguistik 
+
+Alur path 
+
+terlewati 
+
+6 
+
+6 – 7 – 12 – 16 – 18 – 20 
+
+– 21 - 23 
+
+7 6 – 7 – 12 – 14 – 23 
+Input nilai fasilitas umum dan 
+
+mengubah nilai fasilitas 
+
+umum menjadi nilai linguistik 
+
+Fasilitas umum 
+
+di ubah 
+
+menjadi nilai 
+
+linguistik 
+
+Alur path 
+
+terlewati 
+
+8 6 – 7 – 12 – 16 – 18 - 23 
+
+9 6 – 7 – 12 – 16 – 18 – 20 
+
+– 21 - 23 
+
+10 6 – 7 – 12 – 14 – 23 
+Input nilai NJOP dan 
+
+mengubah nilai NJOP 
+
+menjadi nilai linguistik 
+
+NJOP di ubah 
+
+menjadi nilai 
+
+linguistik 
+
+Alur path 
+
+terlewati 
+
+11 6 – 7 – 12 – 16 – 18 - 23 
+
+12 
+6 – 7 – 12 – 16 – 18 – 20 
+
+– 21 - 23 
+
+ 
+
+Tabel 4.20 Tabel Pengujian White Box 
+
+Independent path Rule Logika Fuzzy 
+
+Dari hasil perhitungan cyclomatic complexity terdapat independent Path yaitu: 
+
+Path 
+
+No 
+Node (n) Kasus Uji 
+
+Hasil Sesuai 
+
+Kasus Uji 
+
+Keterang
+
+an 
+
+1 
+
+1,2,3,4,5,6,7,8,9,10,11 – 12 – 13 – 
+
+15 -16 – 18 -19 – 21 – 22 – 24 – 
+
+25 – 27 – 28 – 30 – 31 – 33 – 34 – 
+
+36 – 37 – 39 – 40 – 42 – 43 – 45 – 
+
+46 - - 48 – 49 – 51 – 52- 54 – 55 – 
+
+57 – 58 – 60 – 61 – 63 – 64 – 66 -
+
+67 – 69 -70 – 72 – 73 – 75 -76 – 
+
+78 – 79 – 81 – 82 – 84 – 85 – 87 – 
+
+88 – 90 – 91 – 93 – 94 – 96 – 97 – 
+
+99 – 100 – 102 – 103 – 105 – 106 
+
+– 108 – 109 – 111 – 112 – 114 – 
+
+115 – 117 -118 – 120 – 121 – 123 
+
+– 124 – 126 - 127 – 129 – 130 – 
+
+132 - 133 – 135 – 136 – 138 – 139 
+
+Hasil fuzzyfikasi 
+
+melalui semua rule 
+
+dan hasil 
+
+defuzzifikasi   
+
+Hasil 
+
+fuzzyfikasi 
+
+melalui semua 
+
+rule dan hasil 
+
+defuzzifikasi   
+
+Alur path 
+
+terlewati 
+
+
+
+156 
+ 
+
+ 
+ 
+
+– 141 - 142 – 144 – 145 – 147 – 
+
+148 – 150 – 151 – 153 -154 -156 – 
+
+157 – 159 – 160 – 162 - 163 – 165 
+
+-166 – 168 – 169 – 171 - 172 – 
+
+174 - 175 – 177 – 178 – 180 - 181 
+
+– 183 – 184 – 186 – 187 – 189 – 
+
+190 – 192 – 193 – 195 – 196 – 198 
+
+– 199 – 201 – 202 – 204 – 205 – 
+
+207 – 208 – 210 – 211 – 213 – 214 
+
+– 216 – 217 – 219 – 220 – 222 – 
+
+223 – 225 – 226 – 228 – 229 - 230     
+
+ 
+
+4.2.3 Pengujian Mean Absolute Percentage Error (MAPE) 
+
+Proses pengujian dilakukan dengan uji validitas. Uji validitas merupakan 
+
+pengujian validitas hasil yang didapat dari perhitungan sistem dengan data asli. 
+
+Pengujian validitas dengan menggunakan metode MAPE (Mean Absolute 
+
+Percentage Error). Pengujian menggunakan 10 data rumah yang dijual.  Tabel 
+
+perhitungan dapat dilihat pada Tabel 4.22. 
+
+Tabel 4.21 Tabel Perhitungan MAPE 
+
+Data Real (ft) Sistem (xt) (ft – xt) |ft – xt| / ft 
+
+1 350.000.000 294.958.333 55.041.667 0,15726 
+
+2 550.000.000 538.866.696 11.133.304 0,02024 
+
+3 350.000.000 305.019.523 44.980.477 0,12852 
+
+4 400.000.000 403.417.999 3.417.999 0,00854 
+
+5 450.000.000 475.150.991 25.150.991 0,05589 
+
+6 490.000.000 543.995.050 53.995.050 0,11019 
+
+7 480.000.000 526.571.052 46.571.052 0,09702 
+
+8 250.000.000 313.783.248 63.783.248 0,25513 
+
+9 600.000.000 534.724.720 65.275.280 0,10879 
+
+10 480.000.000 511.196.249 31.196.249 0,06499 
+
+Jumlah 1,00659 
+
+ 
+
+
+
+157 
+ 
+
+ 
+ 
+
+Dari tabel 4.22, maka diperoleh MAPE rekomendasi harga jual rumah dengan 10 
+
+data sebesar 
+
+𝑀𝐴𝑃𝐸 =
+(Σ𝑡=1
+
+𝑛 𝑓𝑡−𝑥𝑡
+
+𝑓𝑡
+)100%
+
+𝑛
+  
+
+ = 
+100,659
+
+10
+ 
+
+ = 10,066 % 
+
+Hal ini berarti, hasil rekomendasi harga jual rumah dengan metode fuzzy tsukamoto 
+
+pada 10 data rumah memiliki nilai MAPE sebesar 10,066 %. Ini mengakibatkan  
+
+tingkat keakuratan dari hasil perhitungan tersebut adalah sebesar 100% - 10,066% 
+
+= 89,93 %. Oleh karena nilai MAPE yang diperoleh < 20%, ini menunjukan bahwa 
+
+tingkat rekomendasi harga jual rumah yang telah dilakukan pada 10 data rumah di 
+
+Kota Pontianak menggunakan metode fuzzy tsukamoto baik.  
+
+ 
+
+4.3 Analisis Hasil Pengujian  
+
+Berikut ini adalah pengujian Sistem Informasi Geografis Penjualan dan 
+
+Pembelian Rumah di Kota Pontianak sebagai berikut: 
+
+1. Sistem tidak akan mengizinkan pengguna yang memasukkan 
+
+username dan password yang salah pada saat proses dilakukan 
+
+sehingga sistem akan memberikan pesan apabila data yang 
+
+dimasukkan salah. 
+
+2. Pada saat pengguna melakukan input data dengan data yang benar, 
+
+maka sistem akan memproses input-an data tersebut. Sistem akan 
+
+menampilkan data yang telah diinputkan tadi dan akan otomatis 
+
+tersimpan didalam database. Ketika pengguna ingin mengubah data, 
+
+maka data tersebut akan otomatis tersimpan dalam database. 
+
+3. Hasil pengujian menunjukkan bahwa pada saat dilakukan peng-input-
+
+an data menggunakan metode black box, meng-input data dengan 
+
+kondisi semua data yang kosong atau data tidak terisi semua, maka 
+
+akan menimbulkan kesalahan pada program. Tetapi pada sistem ini, 
+
+
+
+158 
+ 
+
+ 
+ 
+
+kemungkinan untuk terjadi kesalahan sudah ditangani pada kode 
+
+program dengan memberikan kondisi apabila data tidak terisi akan 
+
+muncul pesan kesalahan atau sebuah pemberitahuan bahwa data harus 
+
+diisi dengan lengkap. Oleh sebab itu, sistem dapat menangani data 
+
+sesuai dengan yang diharapkan. 
+
+4. Hasil pengujian menunjukkan bahwa pada saat melakukan input data 
+
+dengan adanya salah satu data yang kosong akan menyebabkan 
+
+kesalahan pada kode program karena dalam basis data tidak boleh 
+
+kosong dan harus terisi datanya. Tetapi pada sistem ini, kemungkinan 
+
+sudah ditangani pada kode program dengan kondisi jika salah satu data 
+
+tidak di-input-kan dan bernilai kosong, maka sistem akan memberikan 
+
+pemberitahuan bahwa data yang kosong harus diisi. 
+
+5. Dari hasil pengujian white box yang dilakukan, dapat disimpulkan 
+
+bahwa source code logika fuzzy sudah menjalankan perintah sesuai 
+
+yang diharapkan dengan mengerjakan seluruh keputusan logika dari 
+
+sisi benar maupun salah. Mengerjakan seluruh struktur data internal 
+
+yang menjamin validasi.   
+
+6. Hasil pengujian metode fuzzy tsukamoto menghasilkan nilai MAPE 
+
+sebesar 10,066 % dengan menggunakan 10 data rumah. Dengan 
+
+demikian tingkat akurasi pada pengujian tersebut adalah 89,93 %. 
+
+Hasil tersebut menunjukkan bahwa tingkat rekomendasi harga jual 
+
+rumah yang telah dilakukan pada 10 data rumah di Kota Pontianak 
+
+menggunakan metode fuzzy tsukamoto baik. 
+
+7. Hasil pengujian manual rekomendasi harga jual rumah dengan sistem 
+
+secara fuzzy tsukamoto menunjukkan status hasil berbeda dikarenakan 
+
+cara perhitungan yang dipakai berbeda, menggunakan faktor logika, 
+
+analisa, naluri serta pengalaman manusia dimana sistem tidak dapat 
+
+melakukannya. 
+
+ 
+
+ 
+
+
+
+158 
+ 
+
+BAB V 
+
+PENUTUP 
+
+5.1   Kesimpulan 
+
+Setelah dilakukan analisis dan pengujian terhadap Sistem Informasi 
+
+Geografis Penjualan dan Pembelian Rumah di Kota Pontianak, dapat disimpulkan 
+
+bahwa: 
+
+1. Berdasarkan hasil pengujian saat pengguna melakukan input data dengan 
+
+menggunakan metode black box, maka sistem akan memproses input-an 
+
+data tersebut dan tersimpan otomatis didalam database dan jika pengguna 
+
+meng-input data dengan kondisi semua data kosong atau salah, maka akan 
+
+menimbulkan pesan kesalahan pada program.  
+
+2. Berdasarkan hasil pengujian white box, source code logika fuzzy metode 
+
+tsukamoto sudah menjalankan perintah sesuai yang diharapkan dengan 
+
+mengerjakan seluruh keputusan logika dari sisi true ataupun false.  
+
+3. Hasil pengujian logika fuzzy metode tsukamoto menghasilkan nilai MAPE 
+
+sebesar 10,066 % dengan menggunakan 10 data rumah. Dengan demikian 
+
+tingkat akurasi pada pengujian tersebut adalah 89,93 %.  
+
+5.2   Saran 
+
+Adapun beberapa hal yang perlu ditambahkan dalam pengembangan 
+
+Sistem Informasi Geografis Penjualan dan Pembelian Rumah di Kota Pontianak  
+
+ini adalah sebagai berikut: 
+
+1. Sistem Informasi Geografis Penjualan dan Pembelian Rumah di Kota 
+
+Pontianak dapat dikembangkan dengan platform berbasis mobile. 
+
+2. Penambahan kriteria untuk mendapatkan hasil rekomendasi yang lebih 
+
+baik. 
+
+
