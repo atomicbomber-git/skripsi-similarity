@@ -15,7 +15,7 @@ class Processor
         ) - 1;
     }
 
-    public function extractFingerprint(array $hashes, $k, $threshold = 8): array {
+    public function extractFingerprint(array $hashes, $k, $threshold = 1000): array {
         $windowLen = $threshold - $k + 1;
         $hashesCount = count($hashes);
 
