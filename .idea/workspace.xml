@@ -43,7 +43,6 @@
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
@@ -88,7 +87,6 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
@@ -109,7 +107,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
@@ -136,6 +133,12 @@
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-medialibrary" />
       <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/wamania/php-stemmer" />
+      <path value="$PROJECT_DIR$/vendor/vanderlee/php-sentence" />
+      <path value="$PROJECT_DIR$/vendor/yooper/stop-words" />
+      <path value="$PROJECT_DIR$/vendor/sastrawi/sastrawi" />
+      <path value="$PROJECT_DIR$/vendor/yooper/nicknames" />
+      <path value="$PROJECT_DIR$/vendor/yooper/php-text-analysis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iwmjUga80r7NIl3b50jVORvxe9" />
@@ -172,7 +175,7 @@
       <workItem from="1603074503665" duration="4595000" />
       <workItem from="1603086612991" duration="1117000" />
       <workItem from="1603331235123" duration="62000" />
-      <workItem from="1604028385262" duration="2598000" />
+      <workItem from="1604028385262" duration="3978000" />
     </task>
     <servers />
   </component>
@@ -204,9 +207,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603086881545" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604030829632">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604031664095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604030829632" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604031664095" />
   </component>
 </project>

@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Skripsi;
 use App\Models\User;
+use App\Support\Processor;
 use Exception;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -57,11 +59,25 @@ class DataSeeder extends Seeder
                 "level" => User::LEVEL_MAHASISWA,
             ]);
 
-            $user->skripsi()->create([
+            /** @var Skripsi $skripsi */
+           $skripsi = $user->skripsi()->create([
                 "judul" => "Skripsi {$user->name}",
                 "fingerprint" => null,
                 "terverifikasi" => 1,
             ]);
+
+           $skripsi->addMedia($data["pdf"])
+               ->preservingOriginal()
+               ->toMediaCollection();
+
+           $processor = new Processor();
+           $fingerprint = $processor->textToFingerprintHashes(
+               file_get_contents($data["txt"])
+           );
+
+           dump($fingerprint);
+
+
         }
 
         DB::commit();
