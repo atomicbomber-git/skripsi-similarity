@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UploadFileUploadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/skripsi-similarity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skripsi-similarity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
       <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/smalot/pdfparser" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iwmjUga80r7NIl3b50jVORvxe9" />
@@ -163,6 +164,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -194,6 +196,7 @@
       <workItem from="1604028385262" duration="3978000" />
       <workItem from="1604065694239" duration="3074000" />
       <workItem from="1604107033172" duration="3576000" />
+      <workItem from="1604149617441" duration="3543000" />
     </task>
     <servers />
   </component>
@@ -204,6 +207,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="545" y="169" width="800" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604153013174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="169" width="800" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604153013174" />
     <state x="719" y="133" width="471" height="765" key="#com.intellij.ide.util.MemberChooser" timestamp="1603086832756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,6 +223,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="592" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603082641698" />
+    <state width="1268" height="488" key="GridCell.Tab.0.bottom" timestamp="1604154454744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1268" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604154454744" />
+    <state width="1268" height="488" key="GridCell.Tab.0.center" timestamp="1604154454742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1268" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604154454742" />
+    <state width="1268" height="488" key="GridCell.Tab.0.left" timestamp="1604154454741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1268" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604154454741" />
+    <state width="1268" height="488" key="GridCell.Tab.0.right" timestamp="1604154454743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1268" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604154454743" />
     <state x="572" y="191" width="745" height="639" key="NewPhpClassDialog" timestamp="1603086815078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,9 +255,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067678145" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604121220846">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604154677918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604121220846" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604154677918" />
   </component>
 </project>
