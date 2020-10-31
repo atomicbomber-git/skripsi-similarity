@@ -7,12 +7,17 @@
 
     @include("components.message")
 
-    <div class="card">
+    <div class="card mb-3">
         <div class="card-body">
             @if($mahasiswa->skripsi !== null)
                 <dl>
                     <dt> Judul Skripsi </dt>
-                    <dd> {{ $mahasiswa->skripsi->judul }} </dd>
+                    <dd>
+                        {{ $mahasiswa->skripsi->judul }}
+                        <a href="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}">
+                             (Unduh Skripsi)
+                        </a>
+                    </dd>
 
                     <dt>  </dt>
                 </dl>
@@ -72,6 +77,10 @@
             @endif
         </div>
     </div>
+
+    <h2>
+        Perbandingan Similaritas Dokumen Skripsi
+    </h2>
 
     <div>
         @if($mahasiswas->isNotEmpty())
