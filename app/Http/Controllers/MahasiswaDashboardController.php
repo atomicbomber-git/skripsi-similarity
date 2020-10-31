@@ -23,6 +23,8 @@ class MahasiswaDashboardController extends Controller
      */
     public function __invoke(Request $request, User $mahasiswa)
     {
+        $mahasiswa->load("skripsi");
+
         return $this->responseFactory->view("mahasiswa.dashboard", [
             "mahasiswa" => $mahasiswa,
         ]);

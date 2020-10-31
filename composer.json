@@ -17,6 +17,7 @@
         "laravel/ui": "^3.0",
         "mpdf/mpdf": "^8.0",
         "sastrawi/sastrawi": "^v0.6.0",
+        "smalot/pdfparser": "^0.17.1",
         "spatie/laravel-medialibrary": "^8.10",
         "yooper/php-text-analysis": "^1.5.6"
     },

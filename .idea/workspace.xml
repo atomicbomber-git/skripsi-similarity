@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DownloadSkripsiFileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DownloadSkripsiFileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UploadFileUploadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,19 +147,27 @@
       <path value="$PROJECT_DIR$/vendor/sastrawi/sastrawi" />
       <path value="$PROJECT_DIR$/vendor/yooper/nicknames" />
       <path value="$PROJECT_DIR$/vendor/yooper/php-text-analysis" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iwmjUga80r7NIl3b50jVORvxe9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -183,21 +193,25 @@
       <workItem from="1603331235123" duration="62000" />
       <workItem from="1604028385262" duration="3978000" />
       <workItem from="1604065694239" duration="3074000" />
+      <workItem from="1604107033172" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="719" y="133" width="471" height="765" key="#com.intellij.ide.util.MemberChooser" timestamp="1603086832756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="133" width="471" height="765" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603086832756" />
-    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603082411446">
+    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604120453886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603082411446" />
+    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604120453886" />
     <state x="627" y="220" width="655" height="592" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603082641698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,17 +220,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="572" y="191" width="745" height="639" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603086815078" />
-    <state x="621" y="193" width="789" height="655" key="StructurePopup" timestamp="1604067842723">
+    <state x="339" y="66" key="SettingsEditor" timestamp="1604119880572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="621" y="193" width="789" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067842723" />
+    <state x="339" y="66" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604119880572" />
+    <state x="621" y="193" width="789" height="655" key="StructurePopup" timestamp="1604120046202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="193" width="789" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604120046202" />
     <state x="530" y="232" key="run.anything.popup" timestamp="1604067678145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604067678145" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604070722313">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604121220846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604070722313" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604121220846" />
   </component>
 </project>
