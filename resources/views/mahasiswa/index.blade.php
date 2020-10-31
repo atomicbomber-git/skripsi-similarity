@@ -26,11 +26,11 @@
                 <table class="table table-sm table-striped table-hover">
                     <thead>
                     <tr>
-                        <th> # </th>
-                        <th> Nama </th>
-                        <th> Nama Pengguna </th>
-                        <th> Skripsi </th>
-                        <th class="text-center"> Kendali </th>
+                        <th> #</th>
+                        <th> Nama</th>
+                        <th> Nama Pengguna</th>
+                        <th> Skripsi</th>
+                        <th class="text-center"> Kendali</th>
                     </tr>
                     </thead>
 
@@ -52,13 +52,16 @@
                             <td class="text-center">
                                 <a
                                         class="btn btn-primary btn-sm"
-                                        href="{{ route("mahasiswa.edit", $mahasiswa) }}">
+                                        href="{{ route("mahasiswa.edit", $mahasiswa) }}"
+                                >
                                     Ubah
                                 </a>
 
 
-                                <form action="{{ route("mahasiswa.destroy", $mahasiswa) }}"
-                                      method="POST"
+                                <form
+                                        class="d-inline-block"
+                                        action="{{ route("mahasiswa.destroy", $mahasiswa) }}"
+                                        method="POST"
                                 >
                                     @csrf
                                     @method("DELETE")

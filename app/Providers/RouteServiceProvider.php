@@ -30,6 +30,8 @@ class RouteServiceProvider extends ServiceProvider
         switch ($user->level ?? null) {
             case User::LEVEL_ADMIN:
                 return route("mahasiswa.index");
+            case User::LEVEL_MAHASISWA:
+                return route("mahasiswa.dashboard", $user);
             default:
                 return null;
         }

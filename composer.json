@@ -15,8 +15,9 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
-        "spatie/laravel-medialibrary": "^8.10",
+        "mpdf/mpdf": "^8.0",
         "sastrawi/sastrawi": "^v0.6.0",
+        "spatie/laravel-medialibrary": "^8.10",
         "yooper/php-text-analysis": "^1.5.6"
     },
     "require-dev": {
