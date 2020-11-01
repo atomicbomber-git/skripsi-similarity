@@ -104,7 +104,7 @@ class MahasiswaDashboardController extends Controller
                         LIMIT 1
                     )
                 ) AS chebyshev_distance
-            ", [$mahasiswa->skripsi->id, $mahasiswa->skripsi->id, $mahasiswa->skripsi->id])
+            ", [$mahasiswa->skripsi->id ?? null, $mahasiswa->skripsi->id ?? null, $mahasiswa->skripsi->id ?? null])
             ->orderByDesc("similarity")
             ->paginate();
 
