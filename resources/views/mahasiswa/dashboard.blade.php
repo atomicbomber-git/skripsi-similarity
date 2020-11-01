@@ -91,7 +91,8 @@
                         <th> # </th>
                         <th> Nama </th>
                         <th> Skripsi </th>
-                        <th> Similaritas </th>
+                        <th> Similaritas (Sørensen–Dice) </th>
+                        <th> Jarak (Chebyshev) </th>
                     </tr>
                     </thead>
 
@@ -101,7 +102,8 @@
                             <td> {{ $mahasiswas->firstItem() + $loop->index }} </td>
                             <td> {{ $mahasiswa->name  }} </td>
                             <td> {{ $mahasiswa->judul  }} </td>
-                            <td> {{ $mahasiswa->similarity * 100  }}% </td>
+                            <td> {{ $mahasiswa->similarity * 100 }}% </td>
+                            <td> {{ $mahasiswa->chebyshev_distance }} </td>
                         </tr>
                     @endforeach
                     </tbody>

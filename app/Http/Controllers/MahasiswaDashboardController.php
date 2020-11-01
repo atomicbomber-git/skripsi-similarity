@@ -65,6 +65,46 @@ class MahasiswaDashboardController extends Controller
                         $userSkripsiHashesQuery
                     )
             ])
+            ->selectRaw("
+                GREATEST(
+                    (
+                        SELECT ABS((
+                                       SELECT COUNT(sfh11.hash)
+                                       FROM skripsi_fingerprint_hash sfh11
+                                       WHERE sfh11.hash = sfh1.hash
+                                         AND sfh11.skripsi_id = sfh1.skripsi_id
+                                   ) -
+                                   (
+                                       SELECT COUNT(sfh11.hash)
+                                       FROM skripsi_fingerprint_hash sfh11
+                                       WHERE sfh11.hash = sfh1.hash
+                                         AND sfh11.skripsi_id = 2
+                                   )) AS count
+                        FROM skripsi_fingerprint_hash sfh1
+                        WHERE sfh1.skripsi_id = skripsi.id
+                        ORDER BY count DESC
+                        LIMIT 1
+                    )
+                , (
+                        SELECT ABS((
+                                       SELECT COUNT(sfh21.hash)
+                                       FROM skripsi_fingerprint_hash sfh21
+                                       WHERE sfh21.hash = sfh2.hash
+                                         AND sfh21.skripsi_id = skripsi.id
+                                   ) -
+                                   (
+                                       SELECT COUNT(sfh22.hash)
+                                       FROM skripsi_fingerprint_hash sfh22
+                                       WHERE sfh22.hash = sfh2.hash
+                                         AND sfh22.skripsi_id = 2
+                                   )) AS count
+                        FROM skripsi_fingerprint_hash sfh2
+                        WHERE sfh2.skripsi_id = 2
+                        ORDER BY count DESC
+                        LIMIT 1
+                    )
+                ) AS chebyshev_distance
+            ")
             ->orderByDesc("similarity")
             ->paginate();
 
