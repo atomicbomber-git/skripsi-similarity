@@ -5,10 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiDeleteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/example.local.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/kogmbh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/nlnet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-menuArrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-pageDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-pageUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-presentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-zoomIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-zoomOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/pdf.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/pdfjsversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/text_layer_builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/ui_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ViewerJS/webodf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/example.local.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/kogmbh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/nlnet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-menuArrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-pageDown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-pageUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-presentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-zoomIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-zoomOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/pdf.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/pdfjsversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/text_layer_builder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/ui_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/webodf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UploadFileUploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -200,7 +237,7 @@
       <workItem from="1604107033172" duration="3576000" />
       <workItem from="1604149617441" duration="5236000" />
       <workItem from="1604189380630" duration="11000" />
-      <workItem from="1604189402668" duration="9254000" />
+      <workItem from="1604189402668" duration="10646000" />
     </task>
     <servers />
   </component>
@@ -263,9 +300,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604209890508" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604209657592">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604212398880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604209657592" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604212398880" />
   </component>
 </project>

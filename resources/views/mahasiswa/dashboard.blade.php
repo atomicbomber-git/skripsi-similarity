@@ -97,10 +97,11 @@
 
     <div class="row">
         <div class="col-md-6">
-            <embed src="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}"
-                   width="100%"
-                   height="800px"
-            />
+            <iframe src="{{ route("ViewerJS") }}/#{{ route("mahasiswa.download-skripsi", $mahasiswa) }}"
+                    width="100%"
+                    height="800px"
+                    allowfullscreen
+            ></iframe>
         </div>
 
         <div class="col-md-6">

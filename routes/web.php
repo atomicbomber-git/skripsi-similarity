@@ -41,3 +41,5 @@ Route::post('/mahasiswa/{mahasiswa}/upload-skripsi', SkripsiFileUploadController
 
 Route::delete('/mahasiswa/{mahasiswa}/delete-skripsi', SkripsiDeleteController::class)
     ->name("mahasiswa.delete-skripsi");
+
+Route::view("/ViewerJS/{all?}", "ViewerJS.index")->name("ViewerJS");
