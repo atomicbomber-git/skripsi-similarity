@@ -14,7 +14,7 @@ use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Facades\DB;
 use Smalot\PdfParser\Parser as PdfParser;
 
-class UploadFileUploadController extends Controller
+class SkripsiFileUploadController extends Controller
 {
     private ResponseFactory $responseFactory;
     private PdfParser $pdfParser;

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiDeleteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UploadFileUploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +200,7 @@
       <workItem from="1604107033172" duration="3576000" />
       <workItem from="1604149617441" duration="5236000" />
       <workItem from="1604189380630" duration="11000" />
-      <workItem from="1604189402668" duration="7587000" />
+      <workItem from="1604189402668" duration="9254000" />
     </task>
     <servers />
   </component>
@@ -218,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="133" width="471" height="765" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603086832756" />
-    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604120453886">
+    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604209720852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604120453886" />
+    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604209720852" />
     <state x="627" y="220" width="655" height="592" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603082641698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,13 +259,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="621" y="193" width="789" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604120046202" />
-    <state x="530" y="232" key="run.anything.popup" timestamp="1604195214672">
+    <state x="530" y="232" key="run.anything.popup" timestamp="1604209890508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604195214672" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604155689173">
+    <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604209890508" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604209657592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604155689173" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604209657592" />
   </component>
 </project>

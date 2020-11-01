@@ -11,16 +11,29 @@
         <div class="card-body">
             @if($mahasiswa->skripsi !== null)
                 <dl>
-                    <dt> Judul Skripsi </dt>
+                    <dt> Judul Skripsi</dt>
                     <dd>
                         {{ $mahasiswa->skripsi->judul }}
                         <a href="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}">
-                             (Unduh Skripsi)
+                            (Unduh Skripsi)
                         </a>
                     </dd>
-
-                    <dt>  </dt>
                 </dl>
+
+                <form action="{{ route("mahasiswa.delete-skripsi", $mahasiswa) }}"
+                      method="POST"
+                >
+                    @csrf
+                    @method("DELETE")
+
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-danger btn-sm">
+                            Hapus Berkas Skripsi
+                        </button>
+                    </div>
+                </form>
+
+
             @else
                 <div class="alert alert-warning">
                     Anda belum mengunggah berkas skripsi Anda. Silahkan unggah dengan fitur di bawah.
@@ -82,44 +95,53 @@
         Perbandingan Similaritas Dokumen Skripsi
     </h2>
 
-    <div>
-        @if($mahasiswas->isNotEmpty())
-            <div class="table-responsive">
-                <table class="table table-sm table-striped table-hover">
-                    <thead>
-                    <tr>
-                        <th> # </th>
-                        <th> Nama </th>
-                        <th> Skripsi </th>
-                        <th> Similaritas (Sørensen–Dice) </th>
-                        <th> Jarak (Chebyshev) </th>
-                    </tr>
-                    </thead>
+    <div class="row">
+        <div class="col-md-6">
+            <embed src="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}"
+                   width="100%"
+                   height="800px"
+            />
+        </div>
 
-                    <tbody>
-                    @foreach ($mahasiswas as $mahasiswa)
+        <div class="col-md-6">
+            @if($mahasiswas->isNotEmpty())
+                <div class="table-responsive">
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
                         <tr>
-                            <td> {{ $mahasiswas->firstItem() + $loop->index }} </td>
-                            <td> {{ $mahasiswa->name  }} </td>
-                            <td> {{ $mahasiswa->judul  }} </td>
-                            <td> {{ $mahasiswa->similarity * 100 }}% </td>
-                            <td> {{ $mahasiswa->chebyshev_distance }} </td>
+                            <th> #</th>
+                            <th> Nama</th>
+                            <th> Skripsi</th>
+                            <th> Similaritas (Sørensen–Dice)</th>
+                            <th> Jarak (Chebyshev)</th>
                         </tr>
-                    @endforeach
-                    </tbody>
-                </table>
-            </div>
+                        </thead>
 
-            <div class="d-flex justify-content-center">
-                {{ $mahasiswas->links() }}
-            </div>
+                        <tbody>
+                        @foreach ($mahasiswas as $mahasiswa)
+                            <tr>
+                                <td> {{ $mahasiswas->firstItem() + $loop->index }} </td>
+                                <td> {{ $mahasiswa->name  }} </td>
+                                <td> {{ $mahasiswa->judul  }} </td>
+                                <td> {{ $mahasiswa->similarity * 100 }}%</td>
+                                <td> {{ $mahasiswa->chebyshev_distance }} </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                </div>
 
-        @else
-            <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i>
-                {{ __("messages.errors.no_data") }}
-            </div>
-        @endif
+                <div class="d-flex justify-content-center">
+                    {{ $mahasiswas->links() }}
+                </div>
+
+            @else
+                <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    {{ __("messages.errors.no_data") }}
+                </div>
+            @endif
+        </div>
     </div>
 
 
