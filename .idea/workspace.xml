@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +195,7 @@
       <workItem from="1604107033172" duration="3576000" />
       <workItem from="1604149617441" duration="5236000" />
       <workItem from="1604189380630" duration="11000" />
-      <workItem from="1604189402668" duration="5574000" />
+      <workItem from="1604189402668" duration="6682000" />
     </task>
     <servers />
   </component>
@@ -228,22 +226,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="220" width="655" height="592" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603082641698" />
-    <state width="1268" height="488" key="GridCell.Tab.0.bottom" timestamp="1604198166600">
+    <state width="1268" height="488" key="GridCell.Tab.0.bottom" timestamp="1604198767964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604198166600" />
-    <state width="1268" height="488" key="GridCell.Tab.0.center" timestamp="1604198166597">
+    <state width="1268" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604198767964" />
+    <state width="1268" height="488" key="GridCell.Tab.0.center" timestamp="1604198767962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604198166597" />
-    <state width="1268" height="488" key="GridCell.Tab.0.left" timestamp="1604198166596">
+    <state width="1268" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604198767962" />
+    <state width="1268" height="488" key="GridCell.Tab.0.left" timestamp="1604198767961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604198166596" />
-    <state width="1268" height="488" key="GridCell.Tab.0.right" timestamp="1604198166598">
+    <state width="1268" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604198767961" />
+    <state width="1268" height="488" key="GridCell.Tab.0.right" timestamp="1604198767963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604198166598" />
+    <state width="1268" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604198767963" />
     <state x="572" y="191" width="745" height="639" key="NewPhpClassDialog" timestamp="1603086815078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

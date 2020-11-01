@@ -78,7 +78,7 @@ class MahasiswaDashboardController extends Controller
                                        SELECT COUNT(sfh11.hash)
                                        FROM skripsi_fingerprint_hash sfh11
                                        WHERE sfh11.hash = sfh1.hash
-                                         AND sfh11.skripsi_id = 2
+                                         AND sfh11.skripsi_id = ?
                                    )) AS count
                         FROM skripsi_fingerprint_hash sfh1
                         WHERE sfh1.skripsi_id = skripsi.id
@@ -96,15 +96,15 @@ class MahasiswaDashboardController extends Controller
                                        SELECT COUNT(sfh22.hash)
                                        FROM skripsi_fingerprint_hash sfh22
                                        WHERE sfh22.hash = sfh2.hash
-                                         AND sfh22.skripsi_id = 2
+                                         AND sfh22.skripsi_id = ?
                                    )) AS count
                         FROM skripsi_fingerprint_hash sfh2
-                        WHERE sfh2.skripsi_id = 2
+                        WHERE sfh2.skripsi_id = ?
                         ORDER BY count DESC
                         LIMIT 1
                     )
                 ) AS chebyshev_distance
-            ")
+            ", [$mahasiswa->skripsi->id, $mahasiswa->skripsi->id, $mahasiswa->skripsi->id])
             ->orderByDesc("similarity")
             ->paginate();
 
