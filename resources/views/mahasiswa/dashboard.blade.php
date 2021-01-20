@@ -11,7 +11,7 @@
         <div class="card-body">
             @if($mahasiswa->skripsi !== null)
                 <dl>
-                    <dt> Judul Skripsi</dt>
+                    <dt> Judul Skripsi </dt>
                     <dd>
                         {{ $mahasiswa->skripsi->judul }}
                         <a href="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}">

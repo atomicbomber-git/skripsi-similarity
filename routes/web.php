@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BankSkripsiMahasiswaController;
 use App\Http\Controllers\MahasiswaDashboardController;
 use App\Http\Controllers\SkripsiDeleteController;
 use App\Http\Controllers\SkripsiFileUploadController;
@@ -29,6 +30,9 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/mahasiswa', MahasiswaController::class);
+
+Route::get('bank-skripsi-mahasiswa', BankSkripsiMahasiswaController::class)
+    ->name('bank-skripsi-mahasiswa');
 
 Route::get('/mahasiswa/{mahasiswa}/dashboard', MahasiswaDashboardController::class)
     ->name("mahasiswa.dashboard");

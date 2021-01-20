@@ -33,7 +33,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        @auth
+                            @if(auth()->user()->level === \App\Models\User::LEVEL_ADMIN)
 
+                            @elseif(auth()->user()->level === \App\Models\User::LEVEL_MAHASISWA)
+                                <li class="nav-item {{ \Illuminate\Support\Facades\Route::is("mahasiswa.dashboard") ? "active" : ""  }}">
+                                    <a class="nav-link" href="{{ route('mahasiswa.dashboard', auth()->user()) }}">
+                                        Dashboard
+                                    </a>
+                                </li>
+
+                                <li class="nav-item {{ \Illuminate\Support\Facades\Route::is("bank-skripsi-mahasiswa") ? "active" : ""  }}">
+                                    <a class="nav-link" href="{{ route('mahasiswa.dashboard', auth()->user()) }}">
+                                        @lang("application.bank-skripsi-mahasiswa")
+                                    </a>
+                                </li>
+                            @endif
+                        @endauth
                     </ul>
 
                     <!-- Right Side Of Navbar -->

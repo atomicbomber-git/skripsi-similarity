@@ -37,7 +37,7 @@ class SkripsiFileUploadController extends Controller
     public function __invoke(Request $request, User $mahasiswa)
     {
         $data = $request->validate([
-            "judul" => ["required", "string", "max:100"],
+            "judul" => ["required", "string", "max:10000"],
             "skripsi" => ["file", "mimes:pdf"],
         ]);
 

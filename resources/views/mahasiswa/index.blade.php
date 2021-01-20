@@ -59,6 +59,8 @@
 
 
                                 <form
+                                        x-data="{}"
+                                        @submit.prevent="confirmDialog().then(res => res.isConfirmed && $event.target.submit())"
                                         class="d-inline-block"
                                         action="{{ route("mahasiswa.destroy", $mahasiswa) }}"
                                         method="POST"

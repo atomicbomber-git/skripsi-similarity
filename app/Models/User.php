@@ -21,6 +21,17 @@ class User extends Authenticatable
     const LEVEL_ADMIN = "admin";
     const LEVEL_MAHASISWA = "mahasiswa";
 
+    /** return \App\QueryBuilders\UserBuilder */
+    public function newEloquentBuilder($query)
+    {
+        return new \App\QueryBuilders\UserBuilder($query);
+    }
+
+    public static function query(): \App\QueryBuilders\UserBuilder
+    {
+        return parent::query();
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *
