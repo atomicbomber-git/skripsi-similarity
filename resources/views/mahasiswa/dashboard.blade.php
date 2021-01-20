@@ -15,7 +15,7 @@
                     <dd>
                         {{ $mahasiswa->skripsi->judul }}
                         <a href="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}">
-                            (Unduh Skripsi)
+                            
                         </a>
                     </dd>
                 </dl>
@@ -110,11 +110,11 @@
                     <table class="table table-sm table-striped table-hover">
                         <thead>
                         <tr>
-                            <th> #</th>
+                            <th> </th>
                             <th> Nama</th>
                             <th> Skripsi</th>
-                            <th> Similaritas (Sørensen–Dice)</th>
-                            <th> Jarak (Chebyshev)</th>
+                            <th> (Dice Similarity)</th>
+                            <th> (Chebyshev Distance)</th>
                         </tr>
                         </thead>
 
@@ -144,6 +144,4 @@
             @endif
         </div>
     </div>
-
-
 @endsection

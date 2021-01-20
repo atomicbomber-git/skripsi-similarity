@@ -1,0 +1,6 @@
+NOte Error
+
+1. Dasboard admin ( hapus user error) ----
+2. Dasboard mhs ( hapus file masih ada view), ganti file view berkas lama ( cahce aplikasi) ctrl shift R
+3. LIMIT FILE upload v
+4. limit judul

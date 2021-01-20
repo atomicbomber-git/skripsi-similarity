@@ -77,11 +77,11 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="password_confirmation"> Ulangi Password: </label>
+                    <label for="password_confirmation"> Ulangi Sandi: </label>
                     <input
                             id="password_confirmation"
                             type="password"
-                            placeholder="Ulangi Password"
+                            placeholder="Ulangi Sandi"
                             class="form-control @error("password_confirmation") is-invalid @enderror"
                             name="password_confirmation"
                             value="{{ old("password_confirmation") }}"
