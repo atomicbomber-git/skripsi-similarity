@@ -141,9 +141,12 @@ class MahasiswaController extends Controller
     {
         DB::beginTransaction();
 
-        $mahasiswa->skripsi->fingerprint_hashes()->delete();
-        $mahasiswa->skripsi->media()->delete();
-        $mahasiswa->skripsi()->delete();
+        if ($mahasiswa->skripsi !== null) {
+            $mahasiswa->skripsi->fingerprint_hashes()->delete();
+            $mahasiswa->skripsi->media()->delete();
+            $mahasiswa->skripsi()->delete();
+        }
+
         $mahasiswa->delete();
 
         DB::commit();
