@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Providers\AuthServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Routing\ResponseFactory;
 
@@ -23,7 +24,7 @@ class BankSkripsiMahasiswaController extends Controller
      */
     public function __invoke(Request $request)
     {
-        /* TODO: Authorization check */
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_BANK_SKRIPSI_MAHASISWA);
 
         return $this->responseFactory->view("bank-skripsi-mahasiswa", [
             "mahasiswas" => User::query()
