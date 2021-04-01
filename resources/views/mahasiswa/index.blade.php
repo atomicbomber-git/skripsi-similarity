@@ -26,11 +26,11 @@
                 <table class="table table-sm table-striped table-hover">
                     <thead>
                     <tr>
-                        <th> #</th>
-                        <th> Nama</th>
-                        <th> Nama Pengguna</th>
-                        <th> Skripsi</th>
-                        <th class="text-center"> Kendali</th>
+                        <th> # </th>
+                        <th> Nama </th>
+                        <th> Nama Pengguna </th>
+                        <th> Skripsi </th>
+                        <th class="text-center"> Kendali </th>
                     </tr>
                     </thead>
 

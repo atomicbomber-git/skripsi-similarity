@@ -5,49 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/compatibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/example.local.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/kogmbh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/nlnet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/texture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-fullscreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-menuArrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-pageDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-pageUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-presentation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-zoomIn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/images/toolbarButton-zoomOut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/pdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/pdf.worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/pdfjsversion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/text_layer_builder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/ui_utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ViewerJS/webodf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/compatibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/example.local.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/kogmbh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/nlnet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/texture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-fullscreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-menuArrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-pageDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-pageUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-presentation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-zoomIn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/images/toolbarButton-zoomOut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/pdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/pdf.worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/pdfjsversion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/text_layer_builder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/ui_utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/ViewerJS/webodf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Support/Sentence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Support/StringUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Support/Tokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Support/Word.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -206,10 +179,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Support" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Support" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -238,6 +217,8 @@
       <workItem from="1604149617441" duration="5236000" />
       <workItem from="1604189380630" duration="11000" />
       <workItem from="1604189402668" duration="10646000" />
+      <workItem from="1611285927614" duration="2689000" />
+      <workItem from="1617291326037" duration="524000" />
     </task>
     <servers />
   </component>
@@ -246,63 +227,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="445" y="72" width="1000" height="877" key="#Plugins" timestamp="1604189391020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="445" y="72" width="1000" height="877" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1604189391020" />
-    <state x="545" y="169" width="800" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604153013174">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="545" y="169" width="800" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604153013174" />
-    <state x="719" y="133" width="471" height="765" key="#com.intellij.ide.util.MemberChooser" timestamp="1603086832756">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="719" y="133" width="471" height="765" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603086832756" />
-    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604209720852">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="683" y="181" width="543" height="670" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604209720852" />
-    <state x="627" y="220" width="655" height="592" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603082641698">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="627" y="220" width="655" height="592" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603082641698" />
-    <state width="1268" height="488" key="GridCell.Tab.0.bottom" timestamp="1604200227080">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604200227080" />
-    <state width="1268" height="488" key="GridCell.Tab.0.center" timestamp="1604200227079">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604200227079" />
-    <state width="1268" height="488" key="GridCell.Tab.0.left" timestamp="1604200227078">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604200227078" />
-    <state width="1268" height="488" key="GridCell.Tab.0.right" timestamp="1604200227079">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1268" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604200227079" />
-    <state x="572" y="191" width="745" height="639" key="NewPhpClassDialog" timestamp="1603086815078">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="572" y="191" width="745" height="639" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603086815078" />
-    <state x="339" y="66" key="SettingsEditor" timestamp="1604119880572">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="339" y="66" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604119880572" />
-    <state x="621" y="193" width="789" height="655" key="StructurePopup" timestamp="1604120046202">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="621" y="193" width="789" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604120046202" />
-    <state x="530" y="232" key="run.anything.popup" timestamp="1604209890508">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="530" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604209890508" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1604212398880">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604212398880" />
   </component>
 </project>

@@ -111,7 +111,7 @@ class MahasiswaController extends Controller
     {
         $data = $request->validate([
             "name" => ["required", "string", "max:100"],
-            "username" => ["required", Rule::unique(User::class), "alpha_dash", "max:100"],
+            "username" => ["required", Rule::unique(User::class)->ignore($mahasiswa), "alpha_dash", "max:100"],
             "password" => ["nullable", "confirmed", "max:100"]
         ]);
 
