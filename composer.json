@@ -9,6 +9,8 @@
   "license": "MIT",
   "require": {
     "php": "^8.0",
+    "ext-dom": "*",
+    "ext-zip": "*",
     "fideloper/proxy": "^4.2",
     "fruitcake/laravel-cors": "^2.0",
     "guzzlehttp/guzzle": "^7.0.1",
@@ -18,10 +20,9 @@
     "mpdf/mpdf": "^8.0",
     "sastrawi/sastrawi": "^v0.6.0",
     "smalot/pdfparser": "^0.17.1",
+    "spatie/data-transfer-object": "^3.0",
     "spatie/laravel-medialibrary": "^9.4",
-    "yooper/php-text-analysis": "^1.5.6",
-    "ext-dom": "*",
-    "ext-zip": "*"
+    "yooper/php-text-analysis": "^1.5.6"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.5",
@@ -29,6 +30,8 @@
     "fzaninotto/faker": "^1.9.1",
     "mockery/mockery": "^1.3.1",
     "nunomaduro/collision": "^5.0",
+    "pestphp/pest": "^1.0",
+    "pestphp/pest-plugin-laravel": "^1.0",
     "phpunit/phpunit": "^9.3",
     "spatie/laravel-ray": "^1.17"
   },

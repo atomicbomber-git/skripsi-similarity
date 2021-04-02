@@ -49,43 +49,8 @@ class SkripsiFileUploadController extends Controller
             "judul" => $data["judul"]
         ]);
 
-        $documentMedia = $skripsi
-            ->addMediaFromRequest("skripsi")
-            ->toMediaCollection();
-
-        $tokenizer = new Tokenizer();
-        $tokenizer->load($skripsi->getDomDocument());
-
-        $sentenceAndHashes = collect($tokenizer->tokenize())
-            ->pluck("value")
-            ->filter(fn($sentence) => mb_strlen($sentence) > 0)
-            ->map(fn($sentence) => [
-                "text" => $sentence,
-                "hashes" => $this->processor->textToFingerprintHashes($sentence)
-            ])
-            ->filter(fn($sentenceAndHash) => $sentenceAndHash["hashes"] !== []);
-
-        DB::beginTransaction();
-
-        $sentenceAndHashes->each(function (array $sentenceAndHash) use ($skripsi) {
-            $kalimatSkripsi = $skripsi->kalimatSkripsis()->create([
-                "teks" => $sentenceAndHash["text"],
-            ]);
-
-            KalimatHash::query()->insert(
-                array_map(
-                    fn($hash, $position) => [
-                        "kalimat_skripsi_id" => $kalimatSkripsi->getKey(),
-                        "position" => $position,
-                        "hash" => $hash,
-                        "created_at" => now(),
-                        "updated_at" => now(),
-                    ],
-                    $sentenceAndHash["hashes"],
-                    array_keys($sentenceAndHash["hashes"])
-                )
-            );
-        });
+        $skripsi->addMediaFromRequest("skripsi")->toMediaCollection();
+        $skripsi->saveKalimatsAndHashesFromDocument();
 
         DB::commit();
 

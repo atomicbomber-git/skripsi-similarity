@@ -97,7 +97,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            @if($mahasiswas->isNotEmpty())
+            @if($skripsiSimilarityRecords->isNotEmpty())
                 <div class="table-responsive">
                     <table class="table table-sm table-striped table-hover">
                         <thead>
@@ -105,27 +105,36 @@
                             <th> </th>
                             <th> Nama</th>
                             <th> Skripsi</th>
-                            <th> (Dice Similarity)</th>
-                            <th> (Chebyshev Distance)</th>
+                            <th> Dice Similarity </th>
+                            <th> Chebyshev Distance </th>
+                            <th> Kalimat Termirip </th>
                         </tr>
                         </thead>
 
                         <tbody>
-                        @foreach ($mahasiswas as $mahasiswa)
+                        @foreach ($skripsiSimilarityRecords as $skripsiSimilarityRecord)
                             <tr>
-                                <td> {{ $mahasiswas->firstItem() + $loop->index }} </td>
-                                <td> {{ $mahasiswa->name  }} </td>
-                                <td> {{ $mahasiswa->judul  }} </td>
-                                <td> {{ $mahasiswa->similarity * 100 }}%</td>
-                                <td> {{ $mahasiswa->chebyshev_distance }} </td>
+                                <td> {{ $loop->iteration }} </td>
+                                <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
+                                <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
+                                <td> {{ $skripsiSimilarityRecord->diceSimilarityAverage }}% </td>
+                                <td> {{ $skripsiSimilarityRecord->chebyshevDistanceAverage }} </td>
+                                <td>
+                                    @foreach ($skripsiSimilarityRecord->mostSimilarKalimats as $mostSimilarKalimat)
+                                        <div class="row">
+                                            <div class="col">
+                                                {{ $targetSkripsi->kalimatSkripsis->where("id", $mostSimilarKalimat->kalimatAId)->first()->teks }}
+                                            </div>
+                                            <div class="col">
+                                                {{ $skripsiSimilarityRecord->skripsi->kalimatSkripsis->where("id", $mostSimilarKalimat->kalimatBId)->first()->teks }}
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </td>
                             </tr>
                         @endforeach
                         </tbody>
                     </table>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    {{ $mahasiswas->links() }}
                 </div>
 
             @else

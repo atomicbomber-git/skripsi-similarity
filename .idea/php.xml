@@ -137,6 +137,13 @@
       <path value="$PROJECT_DIR$/vendor/zbateson/mb-wrapper" />
       <path value="$PROJECT_DIR$/vendor/zbateson/mail-mime-parser" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-ray" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-expectations" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-coverage" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-laravel" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-init" />
+      <path value="$PROJECT_DIR$/vendor/spatie/data-transfer-object" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

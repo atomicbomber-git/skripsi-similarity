@@ -38,7 +38,7 @@ class Processor
         $letters = str_split($text, 1);
         $ngrams = ngrams($letters, self::NGRAM_SIZE, '');
 
-        $hashes = array_map(fn ($token) => RollingHash::make($token), $ngrams);
+        $hashes = array_map(fn ($token) => hash("adler32", $token), $ngrams);
         return $this->extractFingerprint($hashes, self::NGRAM_SIZE);
     }
 }

@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\DataTransferObjects\KalimatSimilarityRecord;
+use App\DataTransferObjects\SkripsiSimilarityRecord;
+use App\Models\Skripsi;
 use App\Models\SkripsiFingerprintHash;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Routing\ResponseFactory;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
 class MahasiswaDashboardController extends Controller
@@ -27,90 +31,65 @@ class MahasiswaDashboardController extends Controller
     {
         $mahasiswa->load("skripsi");
 
-        $userSkripsiHashesQuery =
-            SkripsiFingerprintHash::query()
-                ->select("hash_b.hash")
-                ->from(DB::raw("skripsi_fingerprint_hash AS hash_b"))
-                ->join(DB::raw("skripsi skripsi_b"), "skripsi_b.id", "=", "hash_b.skripsi_id")
-                ->where("skripsi_b.user_id", "=", $mahasiswa->id);
-
-        $mahasiswas = User::query()
-            ->select("users.id", "users.name", "skripsi.judul AS judul")
-            ->where("level", User::LEVEL_MAHASISWA)
-            ->where("users.id", "<>", $mahasiswa->id)
-            ->leftJoin("skripsi", "skripsi.user_id", "=", "users.id")
-            ->addSelect([
-                "similarity" => SkripsiFingerprintHash::query()
-                    ->from(DB::raw("skripsi_fingerprint_hash AS hash_a"))
-                    ->selectRaw("
-                2 * COUNT(DISTINCT hash_a.hash)  
-                /
-                (      
-                  (
-                      SELECT COUNT(DISTINCT sfh1.hash) FROM skripsi_fingerprint_hash sfh1
-                          JOIN skripsi s1 ON s1.id = sfh1.skripsi_id
-                          WHERE s1.user_id = ?
-                  ) +
-
-                  (
-                      SELECT COUNT(DISTINCT sfh2.hash) FROM skripsi_fingerprint_hash sfh2
-                          JOIN skripsi s2 ON s2.id = sfh2.skripsi_id
-                          WHERE s2.user_id = users.id            
-                  )
-                )
-            ", [$mahasiswa->id])
-                    ->whereColumn("hash_a.skripsi_id", "skripsi.id")
-                    ->whereIn(
-                        "hash_a.hash",
-                        $userSkripsiHashesQuery
-                    )
+        $targetSkripsi = Skripsi::query()
+            ->select("id", "judul", "user_id")
+            ->where("user_id", "=", $mahasiswa->getKey())
+            ->with([
+                "kalimatSkripsis:id,skripsi_id,teks",
+                "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
             ])
-            ->selectRaw("
-                GREATEST(
-                    (
-                        SELECT ABS((
-                                       SELECT COUNT(sfh11.hash)
-                                       FROM skripsi_fingerprint_hash sfh11
-                                       WHERE sfh11.hash = sfh1.hash
-                                         AND sfh11.skripsi_id = sfh1.skripsi_id
-                                   ) -
-                                   (
-                                       SELECT COUNT(sfh11.hash)
-                                       FROM skripsi_fingerprint_hash sfh11
-                                       WHERE sfh11.hash = sfh1.hash
-                                         AND sfh11.skripsi_id = ?
-                                   )) AS count
-                        FROM skripsi_fingerprint_hash sfh1
-                        WHERE sfh1.skripsi_id = skripsi.id
-                        ORDER BY count DESC
-                        LIMIT 1
-                    )
-                , (
-                        SELECT ABS((
-                                       SELECT COUNT(sfh21.hash)
-                                       FROM skripsi_fingerprint_hash sfh21
-                                       WHERE sfh21.hash = sfh2.hash
-                                         AND sfh21.skripsi_id = skripsi.id
-                                   ) -
-                                   (
-                                       SELECT COUNT(sfh22.hash)
-                                       FROM skripsi_fingerprint_hash sfh22
-                                       WHERE sfh22.hash = sfh2.hash
-                                         AND sfh22.skripsi_id = ?
-                                   )) AS count
-                        FROM skripsi_fingerprint_hash sfh2
-                        WHERE sfh2.skripsi_id = ?
-                        ORDER BY count DESC
-                        LIMIT 1
-                    )
-                ) AS chebyshev_distance
-            ", [$mahasiswa->skripsi->id ?? null, $mahasiswa->skripsi->id ?? null, $mahasiswa->skripsi->id ?? null])
-            ->orderByDesc("similarity")
-            ->paginate();
+            ->first();
+
+        $otherSkripsis = Skripsi::query()
+            ->with("mahasiswa")
+            ->select("id", "judul", "user_id")
+            ->where("user_id", "<>", $mahasiswa->getKey())
+            ->with([
+                "kalimatSkripsis:id,skripsi_id,teks",
+                "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
+            ])
+            ->get();
+
 
         return $this->responseFactory->view("mahasiswa.dashboard", [
             "mahasiswa" => $mahasiswa,
-            "mahasiswas" => $mahasiswas,
+            "mahasiswas" => [],
+            "targetSkripsi" => $targetSkripsi,
+            "skripsiSimilarityRecords" => $targetSkripsi ? $this->getSkripsiSimilarityRecords($otherSkripsis, $targetSkripsi) : collect(),
         ]);
+    }
+
+    /**
+     * @param Collection $otherSkripsis
+     * @param Skripsi $targetSkripsi
+     * @return Collection | SkripsiSimilarityRecord[]
+     */
+    public function getSkripsiSimilarityRecords(Collection $otherSkripsis, Skripsi $targetSkripsi): Collection
+    {
+        return $otherSkripsis->map(function (Skripsi $otherSkripsi) use ($targetSkripsi) {
+            $kalimatSimilarities = collect();
+
+            foreach ($targetSkripsi->kalimatSkripsis as $kalimatA) {
+                foreach ($otherSkripsi->kalimatSkripsis as $kalimatB) {
+                    $kalimatSimilarities->push(new KalimatSimilarityRecord(
+                        kalimatAId: $kalimatA->getKey(),
+                        kalimatBId: $kalimatB->getKey(),
+                        chebyshevDistance: $kalimatA->chebyshevDistanceFrom($kalimatB),
+                        diceSimilarity: $kalimatA->diceSimilarityWith($kalimatB),
+                    ));
+                }
+            }
+
+            $maxChebyshev = $kalimatSimilarities->max("chebyshevDistance");
+
+            return new SkripsiSimilarityRecord([
+                "skripsi" => $otherSkripsi,
+                "mostSimilarKalimats" => $kalimatSimilarities
+                    ->sortByDesc(fn(KalimatSimilarityRecord $data) => (($data->chebyshevDistance / $maxChebyshev) + $data->diceSimilarity) / 2)
+                    ->take(5),
+                "chebyshevDistanceAverage" => $kalimatSimilarities->average("chebyshevDistance"),
+                "diceSimilarityAverage" => $kalimatSimilarities->average("diceSimilarity"),
+            ]);
+        });
     }
 }

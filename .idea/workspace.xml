@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/KalimatHash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/KalimatSkripsi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_230401_create_kalimat_skripsi_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_232403_add_generated_conversions_column_to_media.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_120703_create_kalimat_hash_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/MahasiswaSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DataTransferObjects/KalimatSimilarityRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DataTransferObjects/SkripsiSimilarityRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Pest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/99418bfe-831b-44a2-bfb4-302e6c887e6b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/99418bfe-831b-44a2-bfb4-302e6c887e6b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/skripsi-similarity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skripsi-similarity.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/KalimatHash.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/KalimatHash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/KalimatSkripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/KalimatSkripsi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Skripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Skripsi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/KalimatSimilarityCalculationTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
@@ -181,6 +182,13 @@
       <path value="$PROJECT_DIR$/vendor/zbateson/mb-wrapper" />
       <path value="$PROJECT_DIR$/vendor/zbateson/mail-mime-parser" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-ray" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-expectations" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-coverage" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-laravel" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-init" />
+      <path value="$PROJECT_DIR$/vendor/spatie/data-transfer-object" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iwmjUga80r7NIl3b50jVORvxe9" />
@@ -194,10 +202,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Support" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/DataTransferObjects" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -211,14 +221,46 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/DataTransferObjects" />
       <recent name="$PROJECT_DIR$/app/Support" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/DataTransferObjects" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.KalimatSimilarityCalculationTest.testBasicTest">
+    <configuration name="KalimatSimilarityCalculationTest.testBasicTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\KalimatSimilarityCalculationTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/KalimatSimilarityCalculationTest.php" method="testBasicTest" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="phpunit.xml" type="PestRunConfigurationType">
+      <option name="pestRunnerSettings">
+        <PestRunner scope="ConfigurationFile" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings scope="ConfigurationFile" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner directory="$PROJECT_DIR$/tests" method="" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings directory="$PROJECT_DIR$/tests" method="" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.KalimatSimilarityCalculationTest.testBasicTest" />
+        <item itemvalue="Pest.tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -245,7 +287,7 @@
       <workItem from="1617291326037" duration="524000" />
       <workItem from="1617291992373" duration="73000" />
       <workItem from="1617292163456" duration="3011000" />
-      <workItem from="1617337114594" duration="2921000" />
+      <workItem from="1617337114594" duration="17019000" />
     </task>
     <servers />
   </component>
@@ -254,5 +296,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/skripsi_similarity@tests.xml" NAME="tests Coverage Results" MODIFIED="1617341729141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/skripsi_similarity@KalimatSimilarityCalculationTest_testBasicTest.xml" NAME="KalimatSimilarityCalculationTest.testBasicTest Coverage Results" MODIFIED="1617344118123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

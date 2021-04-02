@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Constants\MessageState;
 use App\Helper\SessionHelper;
+use App\Models\KalimatSkripsi;
 use App\Models\SkripsiFingerprintHash;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -22,8 +23,12 @@ class SkripsiDeleteController extends Controller
     {
         DB::beginTransaction();
 
-        $mahasiswa->skripsi->fingerprint_hashes()->delete();
-        $mahasiswa->skripsi()->delete();
+        $mahasiswa->skripsi->kalimatSkripsis->each(function (KalimatSkripsi $kalimatSkripsi) {
+            $kalimatSkripsi->kalimatHashes()->delete();
+        });
+
+        $mahasiswa->skripsi->kalimatSkripsis()->delete();
+        $mahasiswa->skripsi->delete();
 
         DB::commit();
 
