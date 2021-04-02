@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeders/RehashSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +269,7 @@
       <workItem from="1617291326037" duration="524000" />
       <workItem from="1617291992373" duration="73000" />
       <workItem from="1617292163456" duration="3011000" />
-      <workItem from="1617337114594" duration="18699000" />
+      <workItem from="1617337114594" duration="19007000" />
     </task>
     <servers />
   </component>

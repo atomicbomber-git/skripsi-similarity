@@ -117,7 +117,7 @@
                                 <td> {{ $loop->iteration }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
-                                <td> {{ $skripsiSimilarityRecord->diceSimilarityAverage }}% </td>
+                                <td> {{ $skripsiSimilarityRecord->diceSimilarityAverage * 100 }}% </td>
                                 <td> {{ $skripsiSimilarityRecord->chebyshevDistanceAverage }} </td>
                                 <td>
                                     @foreach ($skripsiSimilarityRecord->mostSimilarKalimats as $mostSimilarKalimat)
