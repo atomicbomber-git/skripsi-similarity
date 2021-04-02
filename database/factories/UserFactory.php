@@ -34,7 +34,6 @@ class UserFactory extends Factory
 
     public function mahasiswa()
     {
-
         return $this->state(function ($attributes) {
             $nim = $this->faker->unique()->nik;
 

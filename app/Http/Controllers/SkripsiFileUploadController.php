@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Constants\MessageState;
 use App\Helper\SessionHelper;
+use App\Models\KalimatHash;
 use App\Models\Skripsi;
-use App\Models\SkripsiFingerprintHash;
 use App\Models\User;
 use App\Support\Processor;
+use App\Support\Tokenizer;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\ResponseFactory;
@@ -38,7 +39,7 @@ class SkripsiFileUploadController extends Controller
     {
         $data = $request->validate([
             "judul" => ["required", "string", "max:10000"],
-            "skripsi" => ["file", "mimes:pdf"],
+            "skripsi" => ["file", "mimetypes:application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
         ]);
 
         DB::beginTransaction();
@@ -48,29 +49,43 @@ class SkripsiFileUploadController extends Controller
             "judul" => $data["judul"]
         ]);
 
-        $media = $skripsi
+        $documentMedia = $skripsi
             ->addMediaFromRequest("skripsi")
             ->toMediaCollection();
 
-        $text = $this->pdfParser->parseFile(
-            $media->getPath()
-        )->getText();
+        $tokenizer = new Tokenizer();
+        $tokenizer->load($skripsi->getDomDocument());
 
-        $hashes = $this->processor->textToFingerprintHashes($text);
+        $sentenceAndHashes = collect($tokenizer->tokenize())
+            ->pluck("value")
+            ->filter(fn($sentence) => mb_strlen($sentence) > 0)
+            ->map(fn($sentence) => [
+                "text" => $sentence,
+                "hashes" => $this->processor->textToFingerprintHashes($sentence)
+            ])
+            ->filter(fn($sentenceAndHash) => $sentenceAndHash["hashes"] !== []);
 
-        DB::table((new SkripsiFingerprintHash)->getTable())
-            ->insert(
+        DB::beginTransaction();
+
+        $sentenceAndHashes->each(function (array $sentenceAndHash) use ($skripsi) {
+            $kalimatSkripsi = $skripsi->kalimatSkripsis()->create([
+                "teks" => $sentenceAndHash["text"],
+            ]);
+
+            KalimatHash::query()->insert(
                 array_map(
-                    function ($position, $hash) use ($skripsi) {
-                        return [
-                            "skripsi_id" => $skripsi->id,
-                            "position" => $position,
-                            "hash" => $hash,
-                        ];
-                    },
-                    array_keys($hashes), $hashes,
+                    fn($hash, $position) => [
+                        "kalimat_skripsi_id" => $kalimatSkripsi->getKey(),
+                        "position" => $position,
+                        "hash" => $hash,
+                        "created_at" => now(),
+                        "updated_at" => now(),
+                    ],
+                    $sentenceAndHash["hashes"],
+                    array_keys($sentenceAndHash["hashes"])
                 )
             );
+        });
 
         DB::commit();
 

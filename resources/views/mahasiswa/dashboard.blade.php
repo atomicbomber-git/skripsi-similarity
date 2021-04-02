@@ -58,17 +58,17 @@
                         />
                         @error("judul")
                         <span class="invalid-feedback">
-                        {{ $message }}
-                    </span>
+                            {{ $message }}
+                        </span>
                         @enderror
-                    </div>
+                        </div>
 
                     <div class="form-group">
-                        <label for="skripsi"> Berkas Skripsi (PDF): </label>
+                        <label for="skripsi"> Berkas Skripsi (Dokumen Word / *.docx): </label>
                         <input
                                 id="skripsi"
                                 type="file"
-                                accept="application/pdf"
+                                accept="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
                                 placeholder="Berkas Skripsi"
                                 class="form-control @error("skripsi") is-invalid @enderror"
                                 name="skripsi"
@@ -96,15 +96,7 @@
     </h2>
 
     <div class="row">
-        <div class="col-md-6">
-            <iframe src="{{ route("ViewerJS") }}/#{{ route("mahasiswa.download-skripsi", $mahasiswa) }}"
-                    width="100%"
-                    height="800px"
-                    allowfullscreen
-            ></iframe>
-        </div>
-
-        <div class="col-md-6">
+        <div class="col-md-12">
             @if($mahasiswas->isNotEmpty())
                 <div class="table-responsive">
                     <table class="table table-sm table-striped table-hover">
