@@ -129,6 +129,7 @@
                                                 {{ $skripsiSimilarityRecord->skripsi->kalimatSkripsis->where("id", $mostSimilarKalimat->kalimatBId)->first()->teks }}
                                             </div>
                                         </div>
+                                        <hr/>
                                     @endforeach
                                 </td>
                             </tr>

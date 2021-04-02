@@ -15,7 +15,7 @@ class Processor
         ) - 1;
     }
 
-    public function extractFingerprint(array $hashes, $k, $threshold = 40): array {
+    public function extractFingerprint(array $hashes, $k, $threshold = 9): array {
         $windowLen = $threshold - $k + 1;
 
         $hashesCount = count($hashes);
@@ -32,11 +32,11 @@ class Processor
 
     public function textToFingerprintHashes(string $input_text)
     {
-        $text = strtolower($input_text);
-        $text = preg_replace("/[^A-Za-z]/", "", $text);
+        $text = mb_strtolower($input_text);
 
-        $letters = str_split($text, 1);
-        $ngrams = ngrams($letters, self::NGRAM_SIZE, '');
+        $words = explode(" ", $text);
+
+        $ngrams = ngrams($words, self::NGRAM_SIZE, ' ');
 
         $hashes = array_map(fn ($token) => hash("adler32", $token), $ngrams);
         return $this->extractFingerprint($hashes, self::NGRAM_SIZE);

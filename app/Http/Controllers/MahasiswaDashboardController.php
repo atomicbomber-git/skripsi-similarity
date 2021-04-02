@@ -59,6 +59,13 @@ class MahasiswaDashboardController extends Controller
         ]);
     }
 
+    public function divide($above, $bottom)
+    {
+        return $bottom != 0 ?
+            $above / $bottom :
+            0;
+    }
+
     /**
      * @param Collection $otherSkripsis
      * @param Skripsi $targetSkripsi
@@ -85,7 +92,7 @@ class MahasiswaDashboardController extends Controller
             return new SkripsiSimilarityRecord([
                 "skripsi" => $otherSkripsi,
                 "mostSimilarKalimats" => $kalimatSimilarities
-                    ->sortByDesc(fn(KalimatSimilarityRecord $data) => (($data->chebyshevDistance / $maxChebyshev) + $data->diceSimilarity) / 2)
+                    ->sortByDesc(fn(KalimatSimilarityRecord $data) => ($this->divide($data->chebyshevDistance, $maxChebyshev) + $data->diceSimilarity) / 2)
                     ->take(5),
                 "chebyshevDistanceAverage" => $kalimatSimilarities->average("chebyshevDistance"),
                 "diceSimilarityAverage" => $kalimatSimilarities->average("diceSimilarity"),
