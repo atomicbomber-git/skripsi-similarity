@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/seeders/SkripsiSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131016 Yunita Wulandari/FIX COVER UMUR 1 (Repaired) Lengkap.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131018 Nur Rahman R/SKRIPSI - NUR RAHMAN R - D1042131018.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131030 Ade Sumoko/SKRIPSI - D1042131030 - ADE SUMOKO -fix terbaru 11-02-2021.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131032 Andika Pratama/BAB 1 - 5.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131032 Andika Pratama/COVER.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131032 Andika Pratama/Daftar Pustaka.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131033 Julia Fitriana/120918 - Full NEW ( September ).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/99418bfe-831b-44a2-bfb4-302e6c887e6b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/99418bfe-831b-44a2-bfb4-302e6c887e6b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Skripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Skripsi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Tokenizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Tokenizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_30_165417_create_skripsi_fingerprint_hash_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_01_230401_create_kalimat_skripsi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_230401_create_kalimat_skripsi_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,10 +205,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/DataTransferObjects" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -266,7 +286,9 @@
       <workItem from="1617292163456" duration="3011000" />
       <workItem from="1617337114594" duration="19755000" />
       <workItem from="1617384166643" duration="174000" />
-      <workItem from="1617423847159" duration="412000" />
+      <workItem from="1617423847159" duration="4600000" />
+      <workItem from="1617442611443" duration="4296000" />
+      <workItem from="1617477133593" duration="5107000" />
     </task>
     <servers />
   </component>

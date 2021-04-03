@@ -186,7 +186,7 @@ class Tokenizer
 
     private function getNextWordPosInNode(Word $word)
     {
-        $hash = spl_object_hash($this->letterNodeAccumulator[0]);
+        $hash = spl_object_hash($this->currentLetterNode);
         $this->wordNodeCounter[$word->getNormalizedValue()][$hash] ??= 0;
         return $this->wordNodeCounter[$word->getNormalizedValue()][$hash]++;
     }

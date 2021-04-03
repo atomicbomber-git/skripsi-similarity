@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Support\Processor;
+use App\Support\Sentence;
 use App\Support\Tokenizer;
 use DOMDocument;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -11,6 +12,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class Skripsi extends Model implements HasMedia
 {
@@ -30,13 +32,21 @@ class Skripsi extends Model implements HasMedia
 
     public function saveKalimatsAndHashesFromDocument(): void
     {
-        $tokenizer = new Tokenizer();
-        $tokenizer->load($this->getDomDocument());
+        $sentences = collect();
+        foreach ($this->getDomDocuments() as $domDocument) {
+            $tokenizer = new Tokenizer();
+            $tokenizer->load($domDocument);
+            $sentences->push(
+                ...array_map(
+                    fn (Sentence $sentence) => $sentence->value,
+                    $tokenizer->tokenize()
+                )
+            );
+        }
 
         $processor = new Processor();
 
-        $sentenceAndHashes = collect($tokenizer->tokenize())
-            ->pluck("value")
+        $sentenceAndHashes = $sentences
             ->filter(fn($sentence) => mb_strlen($sentence) > 0)
             ->map(fn($sentence) => [
                 "text" => $sentence,
@@ -44,41 +54,50 @@ class Skripsi extends Model implements HasMedia
             ])
             ->filter(fn($sentenceAndHash) => $sentenceAndHash["hashes"] !== []);
 
+
         $sentenceAndHashes->each(function (array $sentenceAndHash) {
             $kalimatSkripsi = $this->kalimatSkripsis()->create([
                 "teks" => $sentenceAndHash["text"],
+                "hashes" => "{" . join(",", $sentenceAndHash["hashes"]) . "}",
             ]);
 
-            KalimatHash::query()->insert(
-                array_map(
-                    fn($hash, $position) => [
-                        "kalimat_skripsi_id" => $kalimatSkripsi->getKey(),
-                        "position" => $position,
-                        "hash" => $hash,
-                        "created_at" => now(),
-                        "updated_at" => now(),
-                    ],
-                    $sentenceAndHash["hashes"],
-                    array_keys($sentenceAndHash["hashes"])
-                )
-            );
+//            KalimatHash::query()->insert(
+//                array_map(
+//                    fn($hash, $position) => [
+//                        "kalimat_skripsi_id" => $kalimatSkripsi->getKey(),
+//                        "position" => $position,
+//                        "hash" => $hash,
+//                        "created_at" => now(),
+//                        "updated_at" => now(),
+//                    ],
+//                    $sentenceAndHash["hashes"],
+//                    array_keys($sentenceAndHash["hashes"])
+//                )
+//            );
         });
     }
 
-    public function getDomDocument(): DOMDocument
+    /** @return array | DOMDocument[] */
+    public function getDomDocuments(): array
     {
-        $zipArchive = new \ZipArchive();
-        $zipResource = $zipArchive->open($this->getFirstMediaPath());
+        return $this
+            ->media
+            ->map(fn (Media $media) => $media->getPath())
+            ->map(function (string $mediaPath) {
 
-        $domDocument = new \DOMDocument();
-        if ($zipResource === true) {
-            $domDocument->loadXML($zipArchive->getFromName("word/document.xml"));
-            $zipArchive->close();
-        } else {
-            throw new \Exception("Failed to open zip file.");
-        }
+                $zipArchive = new \ZipArchive();
+                $zipResource = $zipArchive->open($mediaPath);
 
-        return $domDocument;
+                $domDocument = new \DOMDocument();
+                if ($zipResource === true) {
+                    $domDocument->loadXML($zipArchive->getFromName("word/document.xml"));
+                    $zipArchive->close();
+                } else {
+                    throw new \Exception("Failed to open zip file.");
+                }
+
+                return $domDocument;
+            })->toArray();
     }
 
     public function fingerprint_hashes(): HasMany

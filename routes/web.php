@@ -30,10 +30,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', function () {
-    return redirect()->route("login");
-});
-
+Route::get('/', function () {return redirect()->route("login");});
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/mahasiswa', MahasiswaController::class);
 Route::get('bank-skripsi-mahasiswa', BankSkripsiMahasiswaController::class)->name('bank-skripsi-mahasiswa');

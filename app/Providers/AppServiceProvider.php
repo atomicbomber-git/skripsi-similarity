@@ -2,8 +2,12 @@
 
 namespace App\Providers;
 
+use Illuminate\Database\Query\Grammars\PostgresGrammar;
+use Illuminate\Database\Schema\Grammars\Grammar;
 use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Fluent;
 use Illuminate\Support\ServiceProvider;
+use Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -25,5 +29,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Paginator::useBootstrap();
+
+        Grammar::macro("typeTextArray", fn () => "text[]");
     }
 }
