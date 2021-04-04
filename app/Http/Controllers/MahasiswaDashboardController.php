@@ -8,6 +8,7 @@ use App\Models\Skripsi;
 use App\Models\SkripsiFingerprintHash;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -24,8 +25,8 @@ class MahasiswaDashboardController extends Controller
     /**
      * Handle the incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return Response
      */
     public function __invoke(Request $request, User $mahasiswa)
     {
@@ -39,31 +40,25 @@ class MahasiswaDashboardController extends Controller
                 "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
             ])
             ->first();
-
-        $otherSkripsis = Skripsi::query()
-            ->with("mahasiswa")
-            ->select("id", "judul", "user_id")
-            ->where("user_id", "<>", $mahasiswa->getKey())
-            ->with([
-                "kalimatSkripsis:id,skripsi_id,teks",
-                "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
-            ])
-            ->get();
-
+//
+//        $otherSkripsis = Skripsi::query()
+//            ->with("mahasiswa")
+//            ->select("id", "judul", "user_id")
+//            ->where("user_id", "<>", $mahasiswa->getKey())
+//            ->with([
+//                "kalimatSkripsis:id,skripsi_id,teks",
+//                "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
+//            ])
+//            ->get();
+//
 
         return $this->responseFactory->view("mahasiswa.dashboard", [
             "mahasiswa" => $mahasiswa,
             "mahasiswas" => [],
             "targetSkripsi" => $targetSkripsi,
-            "skripsiSimilarityRecords" => $targetSkripsi ? $this->getSkripsiSimilarityRecords($otherSkripsis, $targetSkripsi) : collect(),
+//            "skripsiSimilarityRecords" => $targetSkripsi ? $this->getSkripsiSimilarityRecords($otherSkripsis, $targetSkripsi) : collect(),
+            "skripsiSimilarityRecords" => collect(),
         ]);
-    }
-
-    public function divide($above, $bottom)
-    {
-        return $bottom != 0 ?
-            $above / $bottom :
-            0;
     }
 
     /**
@@ -98,5 +93,12 @@ class MahasiswaDashboardController extends Controller
                 "diceSimilarityAverage" => $kalimatSimilarities->average("diceSimilarity"),
             ]);
         });
+    }
+
+    public function divide($above, $bottom)
+    {
+        return $bottom != 0 ?
+            $above / $bottom :
+            0;
     }
 }

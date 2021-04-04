@@ -64,17 +64,18 @@
                         </div>
 
                     <div class="form-group">
-                        <label for="skripsi"> Berkas Skripsi (Dokumen Word / *.docx): </label>
+                        <label for="skripsis"> Berkas Skripsi (Dokumen Word / *.docx, Boleh > 1): </label>
                         <input
+                                multiple
                                 id="skripsi"
                                 type="file"
                                 accept="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
                                 placeholder="Berkas Skripsi"
                                 class="form-control @error("skripsi") is-invalid @enderror"
-                                name="skripsi"
-                                value="{{ old("skripsi") }}"
+                                name="skripsis[]"
+                                value="{{ old("skripsis") }}"
                         />
-                        @error("skripsi")
+                        @error("skripsis")
                         <span class="invalid-feedback">
                     {{ $message }}
                 </span>

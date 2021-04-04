@@ -11,6 +11,7 @@ use App\Support\Processor;
 use App\Support\Tokenizer;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Facades\DB;
 use Smalot\PdfParser\Parser as PdfParser;
@@ -18,28 +19,24 @@ use Smalot\PdfParser\Parser as PdfParser;
 class SkripsiFileUploadController extends Controller
 {
     private ResponseFactory $responseFactory;
-    private PdfParser $pdfParser;
-    private Processor $processor;
 
-    public function __construct(ResponseFactory $responseFactory, PdfParser $pdfParser, Processor $processor)
+    public function __construct(ResponseFactory $responseFactory)
     {
         $this->responseFactory = $responseFactory;
-        $this->pdfParser = $pdfParser;
-        $this->processor = $processor;
     }
 
     /**
      * Handle the incoming request.
      *
      * @param Request $request
-     * @param User $user
+     * @param User $mahasiswa
      * @return RedirectResponse
      */
     public function __invoke(Request $request, User $mahasiswa)
     {
         $data = $request->validate([
             "judul" => ["required", "string", "max:10000"],
-            "skripsi" => ["file", "mimetypes:application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
+            "skripsis.*" => ["file", "mimetypes:application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
         ]);
 
         DB::beginTransaction();
@@ -49,7 +46,13 @@ class SkripsiFileUploadController extends Controller
             "judul" => $data["judul"]
         ]);
 
-        $skripsi->addMediaFromRequest("skripsi")->toMediaCollection();
+        foreach ($request->file("skripsis") as $uploadedFile) {
+            $skripsi
+                ->addMediaFromString(file_get_contents($uploadedFile->getRealPath()))
+                ->usingFileName($uploadedFile->getFilename())
+                ->toMediaCollection();
+        }
+
         $skripsi->saveKalimatsAndHashesFromDocument();
 
         DB::commit();

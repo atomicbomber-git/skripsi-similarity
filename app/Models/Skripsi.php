@@ -7,6 +7,7 @@ use App\Support\Sentence;
 use App\Support\Tokenizer;
 use DB;
 use DOMDocument;
+use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -14,21 +15,18 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use ZipArchive;
 
 class Skripsi extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
+
     protected $table = "skripsi";
     protected $guarded = [];
 
     public function mahasiswa(): BelongsTo
     {
         return $this->belongsTo(User::class, "user_id");
-    }
-
-    public function kalimatSkripsis(): HasMany
-    {
-        return $this->hasMany(KalimatSkripsi::class);
     }
 
     public function saveKalimatsAndHashesFromDocument(): void
@@ -39,7 +37,7 @@ class Skripsi extends Model implements HasMedia
             $tokenizer->load($domDocument);
             $sentences->push(
                 ...array_map(
-                    fn (Sentence $sentence) => $sentence->value,
+                    fn(Sentence $sentence) => $sentence->value,
                     $tokenizer->tokenize()
                 )
             );
@@ -55,24 +53,24 @@ class Skripsi extends Model implements HasMedia
             ])
             ->filter(fn($sentenceAndHash) => $sentenceAndHash["hashes"] !== []);
 
-
         $sentenceAndHashes->each(function (array $sentenceAndHash) {
-             $this->kalimatSkripsis()->create([
+            $this->kalimatSkripsis()->create([
                 "teks" => $sentenceAndHash["text"],
                 "hashes" => "{" . join(",", $sentenceAndHash["hashes"]) . "}",
             ]);
 
             $values = collect($sentenceAndHash["hashes"])
                 ->countBy()
-                ->map(fn ($frequency, $hash) => "('{$hash}', {$frequency})")
+                ->map(fn($frequency, $hash) => "('{$hash}', {$frequency})")
                 ->join(", ");
 
             DB::unprepared(<<<HERE
 INSERT INTO frekuensi_hash (hash, frekuensi) VALUES {$values}
     ON CONFLICT(hash) DO UPDATE SET frekuensi = frekuensi_hash.frekuensi + 1 
 HERE
-);
+            );
 
+            /* TODO: Refactor or delete this thing below */
 //            KalimatHash::query()->insert(
 //                array_map(
 //                    fn($hash, $position) => [
@@ -94,22 +92,28 @@ HERE
     {
         return $this
             ->media
-            ->map(fn (Media $media) => $media->getPath())
+            ->map(fn(Media $media) => $media->getPath())
             ->map(function (string $mediaPath) {
+                /* TODO: Refactor */
 
-                $zipArchive = new \ZipArchive();
+                $zipArchive = new ZipArchive();
                 $zipResource = $zipArchive->open($mediaPath);
 
-                $domDocument = new \DOMDocument();
+                $domDocument = new DOMDocument();
                 if ($zipResource === true) {
                     $domDocument->loadXML($zipArchive->getFromName("word/document.xml"));
                     $zipArchive->close();
                 } else {
-                    throw new \Exception("Failed to open zip file.");
+                    throw new Exception("Failed to open zip file.");
                 }
 
                 return $domDocument;
             })->toArray();
+    }
+
+    public function kalimatSkripsis(): HasMany
+    {
+        return $this->hasMany(KalimatSkripsi::class);
     }
 
     public function fingerprint_hashes(): HasMany
