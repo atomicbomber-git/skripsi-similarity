@@ -5,7 +5,7 @@ namespace App\Support;
 
 class Processor
 {
-    const NGRAM_SIZE = 5;
+    const NGRAM_SIZE = 3;
 
     private function indexOfSmallestRight(array $hashes) {
         return count($hashes) - array_search(
@@ -15,7 +15,7 @@ class Processor
         ) - 1;
     }
 
-    public function extractFingerprint(array $hashes, $k, $threshold = 9): array {
+    public function extractFingerprint(array $hashes, $k, $threshold = 5): array {
         $windowLen = $threshold - $k + 1;
 
         $hashesCount = count($hashes);
