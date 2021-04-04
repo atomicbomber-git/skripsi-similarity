@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/mahasiswa_1 Mahasiswa 1/Implementasi Algoritma Jaro-Winkler Distance dan N-gram untuk Deteksi dan Prediksi Perbaikan Kesalahan Penulisan Kata Bahasa Indonesia pada Karya Tulis Ilmiah Mahasiswa.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/mahasiswa_2 Mahasiswa 2/SKRIPSI-FULL.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +272,7 @@
       <workItem from="1617423847159" duration="4600000" />
       <workItem from="1617442611443" duration="4296000" />
       <workItem from="1617477133593" duration="5426000" />
-      <workItem from="1617505251178" duration="11729000" />
+      <workItem from="1617505251178" duration="12784000" />
     </task>
     <servers />
   </component>

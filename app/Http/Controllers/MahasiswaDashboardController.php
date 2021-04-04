@@ -40,6 +40,17 @@ class MahasiswaDashboardController extends Controller
                 "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
             ])
             ->first();
+
+//        WITH kalimats_a AS (
+//    SELECT kalimat_skripsi.id, hashes
+//    FROM kalimat_skripsi
+//             INNER JOIN skripsi s ON s.id = kalimat_skripsi.skripsi_id
+//    WHERE user_id = 47
+//)
+//SELECT b.skripsi_id, SUM(smlar(a.hashes, b.hashes, '2 * N.i / (N.a + N.b)')) FROM kalimats_a a, kalimat_skripsi b
+//    WHERE b.id NOT IN (SELECT id FROM kalimats_a)
+//    GROUP BY b.skripsi_id
+
 //
 //        $otherSkripsis = Skripsi::query()
 //            ->with("mahasiswa")
