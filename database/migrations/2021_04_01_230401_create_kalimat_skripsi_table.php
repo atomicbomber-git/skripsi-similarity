@@ -18,7 +18,7 @@ class CreateKalimatSkripsiTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('skripsi_id')->index();
             $table->longText('teks');
-            $table->addColumn("textArray", "hashes");
+            $table->addColumn("varcharArray", "hashes");
             $table->timestamps();
             $table->foreign('skripsi_id')->references('id')->on('skripsi');
         });

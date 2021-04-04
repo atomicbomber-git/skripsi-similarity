@@ -31,5 +31,6 @@ class AppServiceProvider extends ServiceProvider
         Paginator::useBootstrap();
 
         Grammar::macro("typeTextArray", fn () => "text[]");
+        Grammar::macro("typeVarcharArray", fn () => "varchar[]");
     }
 }

@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Support\Processor;
 use App\Support\Sentence;
 use App\Support\Tokenizer;
+use DB;
 use DOMDocument;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -56,10 +57,21 @@ class Skripsi extends Model implements HasMedia
 
 
         $sentenceAndHashes->each(function (array $sentenceAndHash) {
-            $kalimatSkripsi = $this->kalimatSkripsis()->create([
+             $this->kalimatSkripsis()->create([
                 "teks" => $sentenceAndHash["text"],
                 "hashes" => "{" . join(",", $sentenceAndHash["hashes"]) . "}",
             ]);
+
+            $values = collect($sentenceAndHash["hashes"])
+                ->countBy()
+                ->map(fn ($frequency, $hash) => "('{$hash}', {$frequency})")
+                ->join(", ");
+
+            DB::unprepared(<<<HERE
+INSERT INTO frekuensi_hash (hash, frekuensi) VALUES {$values}
+    ON CONFLICT(hash) DO UPDATE SET frekuensi = frekuensi_hash.frekuensi + 1 
+HERE
+);
 
 //            KalimatHash::query()->insert(
 //                array_map(

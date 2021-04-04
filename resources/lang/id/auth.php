@@ -12,6 +12,6 @@ return [
     |
     */
 
-    'failed'   => 'Indentitas Tidak Ditemukan.',
+    'failed'   => 'Identitas Tidak Ditemukan.',
     'throttle' => 'Terlalu banyak usaha masuk. Silahkan coba lagi dalam :seconds detik.',
 ];
