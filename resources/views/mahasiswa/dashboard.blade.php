@@ -120,7 +120,7 @@
                                     <strong> {{ $kalimatSimilarityRecord->skripsi->judul }} / {{ $kalimatSimilarityRecord->skripsi->mahasiswa->nama }} </strong>
                                 </td>
                                 <td class="text-right"> {{ \App\Support\Formatter::percentage($kalimatSimilarityRecord->similaritas) }} </td>
-                                <td class="text-right"> {{ $kalimatSimilarityRecord->chebyshev_distance }} </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::number($kalimatSimilarityRecord->chebyshev_distance) }} </td>
                             </tr>
                         @endforeach
                         </tbody>
@@ -136,9 +136,8 @@
         </div>
 
         <div class="col-md-5">
+            <h3> Skripsi Termirip </h3>
             @if($skripsiSimilarityRecords->isNotEmpty())
-                <h3> Skripsi Termirip </h3>
-
                 <div class="table-responsive">
                     <table class="table table-sm table-striped table-hover">
                         <thead>
@@ -158,13 +157,12 @@
                                 <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
                                 <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->avgDiceSimilarity) }} </td>
-                                <td class="text-right"> {{ $skripsiSimilarityRecord->avgChebyshevDistance }} </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::number($skripsiSimilarityRecord->avgChebyshevDistance) }} </td>
                             </tr>
                         @endforeach
                         </tbody>
                     </table>
                 </div>
-
             @else
                 <div class="alert alert-warning">
                     <i class="fas fa-exclamation-triangle"></i>

@@ -21,6 +21,7 @@ class MahasiswaDashboardController extends Controller
 
     public function __construct(ResponseFactory $responseFactory)
     {
+        $this->middleware("auth");
         $this->responseFactory = $responseFactory;
     }
 
