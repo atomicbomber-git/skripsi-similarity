@@ -14,9 +14,6 @@
                     <dt> Judul Skripsi </dt>
                     <dd>
                         {{ $mahasiswa->skripsi->judul }}
-                        <a href="{{ route("mahasiswa.download-skripsi", $mahasiswa) }}">
-                            
-                        </a>
                     </dd>
                 </dl>
 
@@ -104,8 +101,6 @@
                             <th> # </th>
                             <th> Kalimat di Skripsi Anda </th>
                             <th> Kalimat di Skripsi Lain </th>
-                            <th class="text-right"> Dice Similarity </th>
-                            <th class="text-right"> Chebyshev Distance </th>
                         </tr>
                         </thead>
 
@@ -119,8 +114,6 @@
                                     <br>
                                     <strong> {{ $kalimatSimilarityRecord->skripsi->judul }} / {{ $kalimatSimilarityRecord->skripsi->mahasiswa->nama }} </strong>
                                 </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::percentage($kalimatSimilarityRecord->similaritas) }} </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::number($kalimatSimilarityRecord->chebyshev_distance) }} </td>
                             </tr>
                         @endforeach
                         </tbody>
