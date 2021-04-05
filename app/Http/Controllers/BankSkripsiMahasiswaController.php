@@ -29,6 +29,8 @@ class BankSkripsiMahasiswaController extends Controller
         return $this->responseFactory->view("bank-skripsi-mahasiswa", [
             "mahasiswas" => User::query()
                 ->levelIsMahasiswa()
+                ->leftJoinRelationship("skripsi")
+                ->orderByRaw("concat_ws(' ', skripsi.judul, users.name) <-> ?", [$request->get("search")])
                 ->with("skripsi")
                 ->orderBy("name")
                 ->paginate()

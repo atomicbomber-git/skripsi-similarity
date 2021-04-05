@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/skripsi-similarity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skripsi-similarity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/QueryBuilders/UserBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/QueryBuilders/UserBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Support/RollingHash.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Support/SimilarityCalculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/MahasiswaSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/MahasiswaSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +271,7 @@
       <workItem from="1617548267405" duration="11166000" />
       <workItem from="1617594269426" duration="12705000" />
       <workItem from="1617637866682" duration="649000" />
-      <workItem from="1617647665909" duration="1975000" />
+      <workItem from="1617647665909" duration="2411000" />
     </task>
     <servers />
   </component>
