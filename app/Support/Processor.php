@@ -15,6 +15,13 @@ class Processor
         "gambar",
         "bab",
         "daftar pustaka",
+        "demikian pernyataan ini dibuat dengan sebenar-benarnya",
+        "shalawat dan salam saya panjatkan kepada",
+        "puji dan syukur saya panjatkan kepada",
+        "sepanjang pengetahuan saya",
+        "saya sanggup menerima konsekuensi akademis",
+        "yang bertanda tangan di bawah ini",
+        "menyatakan bahwa dalam skripsi yang berjudul",
     ];
 
     private function indexOfSmallestRight(array $hashes) {

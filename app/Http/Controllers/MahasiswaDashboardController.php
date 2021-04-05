@@ -43,29 +43,12 @@ class MahasiswaDashboardController extends Controller
             ])
             ->first();
 
-
-
-
-        $this->getSkripsiSimilarityRecords($targetSkripsi);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         return $this->responseFactory->view("mahasiswa.dashboard", [
             "mahasiswa" => $mahasiswa,
             "mahasiswas" => [],
             "targetSkripsi" => $targetSkripsi,
             "skripsiSimilarityRecords" => $targetSkripsi ? $this->getSkripsiSimilarityRecords($targetSkripsi) : collect(),
+            "kalimatSimilarityRecords" => $targetSkripsi ? $this->getKalimatSimilarityRecords($targetSkripsi) : collect(),
         ]);
     }
 
@@ -86,22 +69,60 @@ class MahasiswaDashboardController extends Controller
             ->with("skripsi.mahasiswa")
             ->select("kalimat_b.skripsi_id")
             ->selectRaw("AVG(smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)')) AS similaritas")
+            ->selectRaw(<<<HERE
+AVG(
+    (WITH
+            p AS (SELECT hash, count(hash) AS count FROM unnest(kalimat_a.hashes) AS hash GROUP BY hash),
+            q AS (SELECT hash, count(hash) AS count FROM unnest(kalimat_b.hashes) AS hash GROUP BY hash)
+        SELECT max(abs(coalesce(p.count, 0) - coalesce(q.count, 0)))  FROM
+            p FULL OUTER JOIN q ON p.hash = q.hash)
+) AS chebyshev_distance
+HERE
+)
             ->from((new KalimatSkripsi)->getTable() . " AS kalimat_a")
             ->crossJoin((new KalimatSkripsi)->getTable() . " AS kalimat_b")
             ->where("kalimat_a.skripsi_id", $targetSkripsi->getKey())
             ->where("kalimat_b.skripsi_id", "<>", $targetSkripsi->getKey())
             ->groupBy("kalimat_b.skripsi_id")
             ->orderByDesc(DB::raw("AVG(smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)'))"))
-            ->paginate(5);
+            ->paginate(10);
 
         $paginator->getCollection()->transform(function (KalimatSkripsi $kalimatSkripsi) {
             return new SkripsiSimilarityRecord([
                 "skripsi" => $kalimatSkripsi->skripsi,
                 "avgDiceSimilarity" => $kalimatSkripsi->similaritas,
-                "avgChebyshevDistance" => null,
+                "avgChebyshevDistance" => $kalimatSkripsi->chebyshev_distance,
             ]);
         });
 
         return $paginator;
+    }
+
+    private function getKalimatSimilarityRecords(Skripsi $targetSkripsi): Collection
+    {
+        return KalimatSkripsi::query()
+            ->with("skripsi.mahasiswa")
+            ->select([
+                "kalimat_b.skripsi_id",
+                "kalimat_a.teks AS teks_a",
+                "kalimat_b.teks AS teks_b",
+            ])
+            ->selectRaw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)') AS similaritas")
+            ->selectRaw(<<<HERE
+(
+SELECT * FROM ((WITH
+                   p AS (SELECT hash, count(hash) AS count FROM unnest(kalimat_a.hashes) AS hash GROUP BY hash),
+                   q AS (SELECT hash, count(hash) AS count FROM unnest(kalimat_b.hashes) AS hash GROUP BY hash)
+               SELECT max(abs(coalesce(p.count, 0) - coalesce(q.count, 0)))  FROM
+                   p FULL OUTER JOIN q ON p.hash = q.hash)) AS x
+) AS chebyshev_distance
+HERE)
+            ->from((new KalimatSkripsi)->getTable() . " AS kalimat_a")
+            ->crossJoin((new KalimatSkripsi)->getTable() . " AS kalimat_b")
+            ->where("kalimat_a.skripsi_id", "=", $targetSkripsi->getKey())
+            ->where("kalimat_b.skripsi_id", "<>", $targetSkripsi->getKey())
+            ->orderByDesc(DB::raw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)')"))
+            ->take(10)
+            ->get();
     }
 }

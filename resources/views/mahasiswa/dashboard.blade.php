@@ -92,13 +92,53 @@
         </div>
     </div>
 
-    <h2>
-        Perbandingan Similaritas Dokumen Skripsi
-    </h2>
-
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-7">
+            <h3> Kalimat Termirip pada Skripsi-Skripsi Lain </h3>
+
+            @if($kalimatSimilarityRecords->isNotEmpty())
+                <div class="table-responsive">
+                    <table class="table table-sm table-striped table-hover">
+                        <thead>
+                        <tr>
+                            <th> # </th>
+                            <th> Kalimat di Skripsi Anda </th>
+                            <th> Kalimat di Skripsi Lain </th>
+                            <th class="text-right"> Dice Similarity </th>
+                            <th class="text-right"> Chebyshev Distance </th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        @foreach ($kalimatSimilarityRecords as $kalimatSimilarityRecord)
+                            <tr>
+                                <td> {{ $loop->iteration }} </td>
+                                <td> {{ $kalimatSimilarityRecord->teks_a }} </td>
+                                <td>
+                                    {{ $kalimatSimilarityRecord->teks_a }}
+                                    <br>
+                                    <strong> {{ $kalimatSimilarityRecord->skripsi->judul }} / {{ $kalimatSimilarityRecord->skripsi->mahasiswa->nama }} </strong>
+                                </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::percentage($kalimatSimilarityRecord->similaritas) }} </td>
+                                <td class="text-right"> {{ $kalimatSimilarityRecord->chebyshev_distance }} </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                </div>
+
+            @else
+                <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    {{ __("messages.errors.no_data") }}
+                </div>
+            @endif
+        </div>
+
+        <div class="col-md-5">
             @if($skripsiSimilarityRecords->isNotEmpty())
+                <h3> Skripsi Termirip </h3>
+
                 <div class="table-responsive">
                     <table class="table table-sm table-striped table-hover">
                         <thead>
@@ -118,7 +158,7 @@
                                 <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
                                 <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->avgDiceSimilarity) }} </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->avgChebyshevDistance) }} </td>
+                                <td class="text-right"> {{ $skripsiSimilarityRecord->avgChebyshevDistance }} </td>
                             </tr>
                         @endforeach
                         </tbody>

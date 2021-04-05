@@ -22,6 +22,8 @@ class CreateKalimatSkripsiTable extends Migration
             $table->timestamps();
             $table->foreign('skripsi_id')->references('id')->on('skripsi');
         });
+
+        DB::unprepared("CREATE INDEX IF NOT EXISTS hashes_gist ON kalimat_skripsi USING gist(hashes _varchar_sml_ops)");
     }
 
     /**
