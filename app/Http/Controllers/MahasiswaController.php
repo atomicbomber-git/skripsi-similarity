@@ -20,7 +20,6 @@ class MahasiswaController extends Controller
     public function __construct(ResponseFactory $responseFactory)
     {
         $this->middleware("auth");
-        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
         $this->responseFactory = $responseFactory;
     }
 
@@ -31,6 +30,8 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+
         return $this->responseFactory->view("mahasiswa.index", [
             "mahasiswas" => User::query()
                 ->where("level", User::LEVEL_MAHASISWA)
@@ -80,17 +81,6 @@ class MahasiswaController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param User $user
-     * @return Response
-     */
-    public function show(User $user)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param User $mahasiswa
@@ -98,6 +88,8 @@ class MahasiswaController extends Controller
      */
     public function edit(User $mahasiswa)
     {
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+
         return $this->responseFactory->view("mahasiswa.edit", [
             "mahasiswa" => $mahasiswa,
         ]);
@@ -112,6 +104,8 @@ class MahasiswaController extends Controller
      */
     public function update(Request $request, User $mahasiswa)
     {
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+
         $data = $request->validate([
             "name" => ["required", "string", "max:100"],
             "username" => ["required", Rule::unique(User::class)->ignore($mahasiswa), "alpha_dash", "max:100"],
@@ -142,6 +136,8 @@ class MahasiswaController extends Controller
      */
     public function destroy(User $mahasiswa)
     {
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+
         DB::beginTransaction();
 
         if ($mahasiswa->skripsi !== null) {
@@ -159,7 +155,6 @@ class MahasiswaController extends Controller
             MessageState::STATE_SUCCESS,
         );
 
-        return redirect()
-            ->back();
+        return redirect()->back();
     }
 }

@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Support/Formatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Formatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/D1042131033 Julia Fitriana/.~lock.120918 - Full NEW ( September ).docx#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,17 +231,11 @@
       <option name="pestRunnerSettings">
         <PestRunner scope="ConfigurationFile" />
       </option>
-      <option name="runnerSettings">
-        <PhpTestRunnerSettings scope="ConfigurationFile" />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="tests" type="PestRunConfigurationType" temporary="true">
       <option name="pestRunnerSettings">
         <PestRunner directory="$PROJECT_DIR$/tests" method="" />
-      </option>
-      <option name="runnerSettings">
-        <PhpTestRunnerSettings directory="$PROJECT_DIR$/tests" method="" />
       </option>
       <method v="2" />
     </configuration>
@@ -282,6 +280,7 @@
       <workItem from="1617505251178" duration="13412000" />
       <workItem from="1617548267405" duration="11166000" />
       <workItem from="1617594269426" duration="12705000" />
+      <workItem from="1617637866682" duration="649000" />
     </task>
     <servers />
   </component>

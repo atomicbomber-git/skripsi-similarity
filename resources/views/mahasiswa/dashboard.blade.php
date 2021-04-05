@@ -110,7 +110,7 @@
                                 <td> {{ $loop->iteration }} </td>
                                 <td> {{ $kalimatSimilarityRecord->teks_a }} </td>
                                 <td>
-                                    {{ $kalimatSimilarityRecord->teks_a }}
+                                    {{ $kalimatSimilarityRecord->teks_b }}
                                     <br>
                                     <strong> {{ $kalimatSimilarityRecord->skripsi->judul }} / {{ $kalimatSimilarityRecord->skripsi->mahasiswa->nama }} </strong>
                                 </td>

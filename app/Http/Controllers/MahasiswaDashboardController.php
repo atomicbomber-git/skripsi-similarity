@@ -23,7 +23,6 @@ class MahasiswaDashboardController extends Controller
     public function __construct(ResponseFactory $responseFactory)
     {
         $this->middleware("auth");
-        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_DASHBOARD);
         $this->responseFactory = $responseFactory;
     }
 
@@ -35,15 +34,12 @@ class MahasiswaDashboardController extends Controller
      */
     public function __invoke(Request $request, User $mahasiswa)
     {
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_DASHBOARD);
         $mahasiswa->load("skripsi");
 
         $targetSkripsi = Skripsi::query()
             ->select("id", "judul", "user_id")
             ->where("user_id", "=", $mahasiswa->getKey())
-            ->with([
-                "kalimatSkripsis:id,skripsi_id,teks",
-                "kalimatSkripsis.kalimatHashes:id,kalimat_skripsi_id,hash"
-            ])
             ->first();
 
         return $this->responseFactory->view("mahasiswa.dashboard", [
@@ -103,6 +99,8 @@ HERE
 
     private function getKalimatSimilarityRecords(Skripsi $targetSkripsi): Collection
     {
+        ray()->showQueries();
+
         return KalimatSkripsi::query()
             ->with("skripsi.mahasiswa")
             ->select([

@@ -7,6 +7,7 @@ use App\Helper\SessionHelper;
 use App\Models\KalimatHash;
 use App\Models\Skripsi;
 use App\Models\User;
+use App\Providers\AuthServiceProvider;
 use App\Support\Processor;
 use App\Support\Tokenizer;
 use Illuminate\Http\RedirectResponse;
@@ -34,6 +35,8 @@ class SkripsiFileUploadController extends Controller
      */
     public function __invoke(Request $request, User $mahasiswa)
     {
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_DASHBOARD);
+
         $data = $request->validate([
             "judul" => ["required", "string", "max:10000"],
             "skripsis.*" => ["file", "mimetypes:application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
