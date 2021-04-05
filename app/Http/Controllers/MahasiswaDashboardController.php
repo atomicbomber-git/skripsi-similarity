@@ -8,6 +8,7 @@ use App\Models\KalimatSkripsi;
 use App\Models\Skripsi;
 use App\Models\SkripsiFingerprintHash;
 use App\Models\User;
+use App\Providers\AuthServiceProvider;
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -22,6 +23,7 @@ class MahasiswaDashboardController extends Controller
     public function __construct(ResponseFactory $responseFactory)
     {
         $this->middleware("auth");
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_DASHBOARD);
         $this->responseFactory = $responseFactory;
     }
 

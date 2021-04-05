@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Gate;
 class AuthServiceProvider extends ServiceProvider
 {
     const CAN_ACCESS_BANK_SKRIPSI_MAHASISWA = "CAN_ACCESS_BANK_SKRIPSI_MAHASISWA";
+    const CAN_ACCESS_MANAGEMENT_FEATURES = "CAN_ACCESS_MANAGEMENT_FEATURES";
+    const CAN_ACCESS_MAHASISWA_DASHBOARD = "CAN_ACCESS_MAHASISWA_DASHBOARD";
 
     /**
      * The policy mappings for the application.
@@ -27,7 +29,15 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Gate::define(self::CAN_ACCESS_MANAGEMENT_FEATURES, function (User $user) {
+            return $user->level === User::LEVEL_ADMIN;
+        });
+
         Gate::define(self::CAN_ACCESS_BANK_SKRIPSI_MAHASISWA, function (User $user) {
+            return $user->level === User::LEVEL_MAHASISWA;
+        });
+
+        Gate::define(self::CAN_ACCESS_MAHASISWA_DASHBOARD, function (User $user) {
             return $user->level === User::LEVEL_MAHASISWA;
         });
 

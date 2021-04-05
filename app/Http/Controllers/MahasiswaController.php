@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Constants\MessageState;
 use App\Helper\SessionHelper;
 use App\Models\User;
+use App\Providers\AuthServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
@@ -18,6 +19,8 @@ class MahasiswaController extends Controller
 
     public function __construct(ResponseFactory $responseFactory)
     {
+        $this->middleware("auth");
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
         $this->responseFactory = $responseFactory;
     }
 
