@@ -28,13 +28,15 @@ class MahasiswaController extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
 
         return $this->responseFactory->view("mahasiswa.index", [
             "mahasiswas" => User::query()
-                ->where("level", User::LEVEL_MAHASISWA)
+                ->where("users.level", User::LEVEL_MAHASISWA)
+                ->orderByRaw("concat_ws(' ', skripsi.judul, users.name, users.username) <-> ?", [$request->get("search")])
+                ->leftJoinRelationship("skripsi")
                 ->with("skripsi")
                 ->orderBy("name")
                 ->paginate()

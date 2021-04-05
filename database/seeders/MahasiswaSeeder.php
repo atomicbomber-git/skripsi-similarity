@@ -21,13 +21,16 @@ class MahasiswaSeeder extends Seeder
 
         UserFactory::new()
             ->mahasiswa()
-            ->count(40)
-            ->create()
+            ->count(100)
+            ->make()
             ->each(function (User $user, $index) {
-                $user->update([
-                    "username" => "mahasiswa_{$index}",
-                    "password" => Hash::make("mahasiswa_{$index}"),
-                ]);
+                User::insertOrIgnore(array_merge(
+                    $user->toArray(),
+                    [
+                        "username" => "mahasiswa_{$index}",
+                        "password" => '$2y$10$Ym4QFCA0FPZFdkgQ0vMnVe6dLt3S4YxISdY1HEf.pSKAUho4W1W8O',
+                    ]
+                ));
             });
 
         DB::commit();

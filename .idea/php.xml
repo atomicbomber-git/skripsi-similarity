@@ -36,7 +36,6 @@
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
@@ -122,13 +121,8 @@
       <path value="$PROJECT_DIR$/vendor/wamania/php-stemmer" />
       <path value="$PROJECT_DIR$/vendor/vanderlee/php-sentence" />
       <path value="$PROJECT_DIR$/vendor/yooper/stop-words" />
-      <path value="$PROJECT_DIR$/vendor/sastrawi/sastrawi" />
       <path value="$PROJECT_DIR$/vendor/yooper/nicknames" />
       <path value="$PROJECT_DIR$/vendor/yooper/php-text-analysis" />
-      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
-      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/smalot/pdfparser" />
       <path value="$PROJECT_DIR$/vendor/spatie/ray" />
       <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
       <path value="$PROJECT_DIR$/vendor/spatie/macroable" />
@@ -144,6 +138,8 @@
       <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-laravel" />
       <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-init" />
       <path value="$PROJECT_DIR$/vendor/spatie/data-transfer-object" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/kirschbaum-development/eloquent-power-joins" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

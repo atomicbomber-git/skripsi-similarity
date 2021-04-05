@@ -9,6 +9,25 @@
 
     <div class="d-flex justify-content-center py-3">
         <div class="flex-fill">
+            <form>
+                <div class="input-group">
+                    <label for="search" class="sr-only">
+                        Cari
+                    </label>
+
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="searchPrefix"> Pencarian </span>
+                    </div>
+                    <input type="text"
+                           name="search"
+                           id="search"
+                           class="form-control"
+                           placeholder="Cari..."
+                           value="{{ request('search') }}"
+                           aria-describedby="searchPrefix"
+                    >
+                </div>
+            </form>
         </div>
 
         <div class="ml-3">
