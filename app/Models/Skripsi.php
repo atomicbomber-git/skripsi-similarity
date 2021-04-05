@@ -59,16 +59,16 @@ class Skripsi extends Model implements HasMedia
                 "hashes" => "{" . join(",", $sentenceAndHash["hashes"]) . "}",
             ]);
 
-            $values = collect($sentenceAndHash["hashes"])
-                ->countBy()
-                ->map(fn($frequency, $hash) => "('{$hash}', {$frequency})")
-                ->join(", ");
-
-            DB::unprepared(<<<HERE
-INSERT INTO frekuensi_hash (hash, frekuensi) VALUES {$values}
-    ON CONFLICT(hash) DO UPDATE SET frekuensi = frekuensi_hash.frekuensi + 1 
-HERE
-            );
+//            $values = collect($sentenceAndHash["hashes"])
+//                ->countBy()
+//                ->map(fn($frequency, $hash) => "('{$hash}', {$frequency})")
+//                ->join(", ");
+//
+//            DB::unprepared(<<<HERE
+//INSERT INTO frekuensi_hash (hash, frekuensi) VALUES {$values}
+//    ON CONFLICT(hash) DO UPDATE SET frekuensi = frekuensi_hash.frekuensi + 1
+//HERE
+//            );
 
             /* TODO: Refactor or delete this thing below */
 //            KalimatHash::query()->insert(

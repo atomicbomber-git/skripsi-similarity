@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/mahasiswa_1 Mahasiswa 1/Implementasi Algoritma Jaro-Winkler Distance dan N-gram untuk Deteksi dan Prediksi Perbaikan Kesalahan Penulisan Kata Bahasa Indonesia pada Karya Tulis Ilmiah Mahasiswa.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/skripsi_docxs/mahasiswa_2 Mahasiswa 2/SKRIPSI-FULL.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Support/Formatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_04_231441_create_chebyshev_dist_function.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTransferObjects/SkripsiSimilarityRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataTransferObjects/SkripsiSimilarityRecord.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Skripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Skripsi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/SimilarityCalculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/SimilarityCalculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DataSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DataSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +220,10 @@
       <recent name="$PROJECT_DIR$/app/DataTransferObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.KalimatSimilarityCalculationTest.testBasicTest">
+  <component name="RunManager" selected="JavaScript Debug.Processor.php">
+    <configuration name="Processor.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/skripsi-similarity/Support/Processor.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="KalimatSimilarityCalculationTest.testBasicTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\KalimatSimilarityCalculationTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/KalimatSimilarityCalculationTest.php" method="testBasicTest" scope="Method" />
       <method v="2" />
@@ -227,16 +236,23 @@
       <option name="pestRunnerSettings">
         <PestRunner scope="ConfigurationFile" />
       </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings scope="ConfigurationFile" />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="tests" type="PestRunConfigurationType" temporary="true">
       <option name="pestRunnerSettings">
         <PestRunner directory="$PROJECT_DIR$/tests" method="" />
       </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings directory="$PROJECT_DIR$/tests" method="" />
+      </option>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Processor.php" />
         <item itemvalue="PHPUnit.KalimatSimilarityCalculationTest.testBasicTest" />
         <item itemvalue="Pest.tests" />
       </list>
@@ -272,7 +288,9 @@
       <workItem from="1617423847159" duration="4600000" />
       <workItem from="1617442611443" duration="4296000" />
       <workItem from="1617477133593" duration="5426000" />
-      <workItem from="1617505251178" duration="12784000" />
+      <workItem from="1617505251178" duration="13412000" />
+      <workItem from="1617548267405" duration="11166000" />
+      <workItem from="1617594269426" duration="6532000" />
     </task>
     <servers />
   </component>

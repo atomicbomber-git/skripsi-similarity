@@ -75,7 +75,7 @@ class DataSeeder extends Seeder
             $this->command->info("Processing {$skripsi->judul}...");
 
             $start = microtime(true);
-            $fingerprintHashes = $processor->textToFingerprintHashes(
+            $fingerprintHashes = $processor->wordsToHashes(
                 file_get_contents($data["txt"])
             );
 

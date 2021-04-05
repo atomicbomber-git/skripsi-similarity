@@ -106,9 +106,8 @@
                             <th> </th>
                             <th> Nama</th>
                             <th> Skripsi</th>
-                            <th> Dice Similarity </th>
-                            <th> Chebyshev Distance </th>
-                            <th> Kalimat Termirip </th>
+                            <th class="text-right"> Dice Similarity </th>
+                            <th class="text-right"> Chebyshev Distance </th>
                         </tr>
                         </thead>
 
@@ -118,21 +117,8 @@
                                 <td> {{ $loop->iteration }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
-                                <td> {{ $skripsiSimilarityRecord->diceSimilarityAverage * 100 }}% </td>
-                                <td> {{ $skripsiSimilarityRecord->chebyshevDistanceAverage }} </td>
-                                <td>
-                                    @foreach ($skripsiSimilarityRecord->mostSimilarKalimats as $mostSimilarKalimat)
-                                        <div class="row">
-                                            <div class="col">
-                                                {{ $targetSkripsi->kalimatSkripsis->where("id", $mostSimilarKalimat->kalimatAId)->first()->teks }}
-                                            </div>
-                                            <div class="col">
-                                                {{ $skripsiSimilarityRecord->skripsi->kalimatSkripsis->where("id", $mostSimilarKalimat->kalimatBId)->first()->teks }}
-                                            </div>
-                                        </div>
-                                        <hr/>
-                                    @endforeach
-                                </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->avgDiceSimilarity) }} </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->avgChebyshevDistance) }} </td>
                             </tr>
                         @endforeach
                         </tbody>
