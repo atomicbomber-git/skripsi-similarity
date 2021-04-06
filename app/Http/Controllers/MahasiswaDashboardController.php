@@ -121,7 +121,7 @@ HERE)
             ->where("kalimat_a.skripsi_id", "=", $targetSkripsi->getKey())
             ->where("kalimat_b.skripsi_id", "<>", $targetSkripsi->getKey())
             ->orderByDesc(DB::raw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)')"))
-            ->whereRaw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)') > ?", [0.1])
+            ->whereRaw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)') > ?", [0.4])
             ->take(10)
             ->get();
     }
