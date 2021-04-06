@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="" />
+    <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,11 +224,17 @@
       <option name="pestRunnerSettings">
         <PestRunner scope="ConfigurationFile" />
       </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings scope="ConfigurationFile" />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="tests" type="PestRunConfigurationType" temporary="true">
       <option name="pestRunnerSettings">
         <PestRunner directory="$PROJECT_DIR$/tests" method="" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings directory="$PROJECT_DIR$/tests" method="" />
       </option>
       <method v="2" />
     </configuration>
@@ -272,6 +281,7 @@
       <workItem from="1617594269426" duration="12705000" />
       <workItem from="1617637866682" duration="649000" />
       <workItem from="1617647665909" duration="2411000" />
+      <workItem from="1617676961085" duration="349000" />
     </task>
     <servers />
   </component>
