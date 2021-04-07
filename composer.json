@@ -20,6 +20,7 @@
     "laravel/ui": "^3.0",
     "spatie/data-transfer-object": "^3.0",
     "spatie/laravel-medialibrary": "^9.4",
+    "staudenmeir/laravel-cte": "^1.0",
     "yooper/php-text-analysis": "^1.5.6"
   },
   "require-dev": {

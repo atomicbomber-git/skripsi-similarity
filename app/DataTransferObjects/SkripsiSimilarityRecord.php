@@ -11,6 +11,6 @@ use Spatie\DataTransferObject\DataTransferObject;
 class SkripsiSimilarityRecord extends DataTransferObject
 {
     public Skripsi $skripsi;
-    public float $avgDiceSimilarity;
-    public ?float $avgChebyshevDistance;
+    public float $diceSimilarity;
+    public ?float $chebyshevDistance;
 }

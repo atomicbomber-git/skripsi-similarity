@@ -5,13 +5,14 @@ namespace App\Models;
 use App\Support\Processor;
 use App\Support\Sentence;
 use App\Support\Tokenizer;
-use DB;
 use DOMDocument;
 use Exception;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Kirschbaum\PowerJoins\PowerJoins;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -19,7 +20,7 @@ use ZipArchive;
 
 class Skripsi extends Model implements HasMedia
 {
-    use HasFactory, InteractsWithMedia;
+    use HasFactory, InteractsWithMedia, PowerJoins;
 
     protected $table = "skripsi";
     protected $guarded = [];
@@ -27,6 +28,11 @@ class Skripsi extends Model implements HasMedia
     public function mahasiswa(): BelongsTo
     {
         return $this->belongsTo(User::class, "user_id");
+    }
+
+    public function skripsiHash(): HasOne
+    {
+        return $this->hasOne(SkripsiHash::class);
     }
 
     public function saveKalimatsAndHashesFromDocument(): void

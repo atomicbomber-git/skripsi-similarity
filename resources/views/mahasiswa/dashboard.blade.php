@@ -149,8 +149,8 @@
                                 <td> {{ $loop->iteration }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->avgDiceSimilarity) }} </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::number($skripsiSimilarityRecord->avgChebyshevDistance) }} </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->diceSimilarity) }} </td>
+                                <td class="text-right"> {{ \App\Support\Formatter::number($skripsiSimilarityRecord->chebyshevDistance) }} </td>
                             </tr>
                         @endforeach
                         </tbody>
