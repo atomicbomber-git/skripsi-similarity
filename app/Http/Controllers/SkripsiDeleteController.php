@@ -24,10 +24,6 @@ class SkripsiDeleteController extends Controller
     {
         DB::beginTransaction();
 
-        $mahasiswa->skripsi->kalimatSkripsis->each(function (KalimatSkripsi $kalimatSkripsi) {
-            $kalimatSkripsi->kalimatHashes()->delete();
-        });
-
         $mahasiswa->skripsi->kalimatSkripsis()->delete();
         $mahasiswa->skripsi->delete();
         

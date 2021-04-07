@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Events/SkripsiModified.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/RefreshSkripsiHashes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SkripsiDeleteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiDeleteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SkripsiFileUploadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/SkripsiSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/SkripsiSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +278,7 @@
       <workItem from="1617647665909" duration="2411000" />
       <workItem from="1617676961085" duration="2069000" />
       <workItem from="1617768018809" duration="4784000" />
-      <workItem from="1617781887065" duration="5060000" />
+      <workItem from="1617781887065" duration="6100000" />
     </task>
     <servers />
   </component>

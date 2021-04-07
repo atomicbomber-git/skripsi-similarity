@@ -28,7 +28,6 @@ class RefreshSkripsiHashes
      */
     public function handle(SkripsiModified $event)
     {
-        ray()->send("TEST TEST XXX");
         DB::unprepared("REFRESH MATERIALIZED VIEW " . (new SkripsiHash)->getTable());
     }
 }
