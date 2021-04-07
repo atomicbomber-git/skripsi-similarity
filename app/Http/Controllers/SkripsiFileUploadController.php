@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Constants\MessageState;
+use App\Events\SkripsiModified;
 use App\Helper\SessionHelper;
 use App\Models\KalimatHash;
 use App\Models\Skripsi;
@@ -57,6 +58,7 @@ class SkripsiFileUploadController extends Controller
         }
 
         $skripsi->saveKalimatsAndHashesFromDocument();
+        event(new SkripsiModified);
 
         DB::commit();
 

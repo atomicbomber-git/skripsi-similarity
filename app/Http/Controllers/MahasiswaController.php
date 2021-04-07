@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Constants\MessageState;
+use App\Events\SkripsiModified;
 use App\Helper\SessionHelper;
 use App\Models\User;
 use App\Providers\AuthServiceProvider;
@@ -143,9 +144,11 @@ class MahasiswaController extends Controller
         DB::beginTransaction();
 
         if ($mahasiswa->skripsi !== null) {
-            $mahasiswa->skripsi->fingerprint_hashes()->delete();
             $mahasiswa->skripsi->media()->delete();
+            $mahasiswa->skripsi->kalimatSkripsis()->delete();
             $mahasiswa->skripsi()->delete();
+
+            event(new SkripsiModified);
         }
 
         $mahasiswa->delete();

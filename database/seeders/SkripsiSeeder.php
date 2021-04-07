@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Events\SkripsiModified;
 use App\Models\KalimatHash;
 use App\Models\KalimatSkripsi;
 use App\Models\Skripsi;
@@ -66,5 +67,7 @@ class SkripsiSeeder extends Seeder
                 }
             }
         }
+
+        event(new SkripsiModified());
     }
 }

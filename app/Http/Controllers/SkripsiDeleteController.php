@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Constants\MessageState;
+use App\Events\SkripsiModified;
 use App\Helper\SessionHelper;
 use App\Models\KalimatSkripsi;
 use App\Models\SkripsiFingerprintHash;
@@ -29,6 +30,8 @@ class SkripsiDeleteController extends Controller
 
         $mahasiswa->skripsi->kalimatSkripsis()->delete();
         $mahasiswa->skripsi->delete();
+        
+        event(new SkripsiModified);
 
         DB::commit();
 
