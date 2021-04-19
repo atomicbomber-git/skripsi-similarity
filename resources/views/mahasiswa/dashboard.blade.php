@@ -1,10 +1,6 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 class="feature-title">
-        {{ $mahasiswa->name }}
-    </h1>
-
     @include("components.message")
 
     <div class="card mb-3">
@@ -24,6 +20,12 @@
                     @method("DELETE")
 
                     <div class="d-flex justify-content-end">
+                        <a
+                                class="btn btn-primary btn-sm mr-2"
+                                href="{{ route('mahasiswa.download-skripsi', $mahasiswa) }}">
+                            Download
+                        </a>
+
                         <button class="btn btn-danger btn-sm">
                             Hapus Berkas Skripsi
                         </button>
@@ -136,9 +138,9 @@
                     <table class="table table-sm table-striped table-hover">
                         <thead>
                         <tr>
-                            <th> </th>
-                            <th> Nama</th>
-                            <th> Skripsi</th>
+                            <th> # </th>
+                            <th> Nama </th>
+                            <th> Skripsi </th>
                             <th class="text-right"> Dice Similarity </th>
                             <th class="text-right"> Chebyshev Distance </th>
                         </tr>

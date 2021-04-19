@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\DataTransferObjects\KalimatSimilarityRecord;
 use App\DataTransferObjects\SkripsiSimilarityRecord;
 use App\Models\KalimatSkripsi;
 use App\Models\Skripsi;
-use App\Models\SkripsiFingerprintHash;
 use App\Models\SkripsiHash;
 use App\Models\User;
 use App\Providers\AuthServiceProvider;
@@ -50,13 +48,6 @@ class MahasiswaDashboardController extends Controller
             "skripsiSimilarityRecords" => $targetSkripsi ? $this->getSkripsiSimilarityRecords($targetSkripsi) : collect(),
             "kalimatSimilarityRecords" => $targetSkripsi ? $this->getKalimatSimilarityRecords($targetSkripsi) : collect(),
         ]);
-    }
-
-    public function divide($above, $bottom)
-    {
-        return $bottom != 0 ?
-            $above / $bottom :
-            0;
     }
 
     /**
@@ -114,7 +105,8 @@ SELECT * FROM ((WITH
                SELECT max(abs(coalesce(p.count, 0) - coalesce(q.count, 0)))  FROM
                    p FULL OUTER JOIN q ON p.hash = q.hash)) AS x
 ) AS chebyshev_distance
-HERE)
+HERE
+            )
             ->from((new KalimatSkripsi)->getTable() . " AS kalimat_a")
             ->crossJoin((new KalimatSkripsi)->getTable() . " AS kalimat_b")
             ->where("kalimat_a.skripsi_id", "=", $targetSkripsi->getKey())
@@ -123,5 +115,12 @@ HERE)
             ->whereRaw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)') > ?", [0.4])
             ->take(25)
             ->get();
+    }
+
+    public function divide($above, $bottom)
+    {
+        return $bottom != 0 ?
+            $above / $bottom :
+            0;
     }
 }

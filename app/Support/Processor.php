@@ -3,36 +3,79 @@
 
 namespace App\Support;
 
-use Illuminate\Support\Str;
+use App\Models\BlacklistKalimat;
 
 class Processor
 {
     const NGRAM_SIZE = 2;
 
-    const FORBIDDEN_WORD_STARTS = [
-        "tabel",
-        "proses",
-        "gambar",
-        "bab",
-        "daftar pustaka",
-        "demikian pernyataan ini dibuat dengan sebenar-benarnya",
-        "shalawat dan salam saya panjatkan kepada",
-        "puji dan syukur saya panjatkan kepada",
-        "sepanjang pengetahuan saya",
-        "saya sanggup menerima konsekuensi akademis",
-        "yang bertanda tangan di bawah ini",
-        "menyatakan bahwa dalam skripsi yang berjudul",
-    ];
+    public function textToFingerprintHashes(string $input_text)
+    {
+        $normalizedText = trim(mb_strtolower($input_text));
 
-    private function indexOfSmallestRight(array $hashes) {
-        return count($hashes) - array_search(
-            min($hashes),
-            array_reverse($hashes),
-            true,
-        ) - 1;
+        if (!$this->passesTextFilter($normalizedText)) {
+            return [];
+        }
+
+        $words = $this->tokenize($normalizedText);
+
+        if (!$this->passesWordCountFilter($words)) {
+            return [];
+        }
+
+        $ngrams = ngrams($words, self::NGRAM_SIZE, ' ');
+
+        $hashes = array_map(fn($token) => hash("adler32", $token), $ngrams);
+
+        return $this->extractFingerprint($hashes, self::NGRAM_SIZE);
     }
 
-    public function extractFingerprint(array $hashes, $k, $threshold = 3): array {
+    private function passesTextFilter(string $normalizedText)
+    {
+        if (mb_strlen($normalizedText) === 0) {
+            return false;
+        }
+
+        if ($this->textStartsWithNumber($normalizedText)) {
+            return false;
+        }
+
+        if (
+        BlacklistKalimat::query()
+            ->where("teks", $normalizedText)
+            ->exists()
+        ) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * @param string $normalizedText
+     * @return bool
+     */
+    private function textStartsWithNumber(string $normalizedText): bool
+    {
+        return preg_match("/^\p{N}/ui", $normalizedText) === 1;
+    }
+
+    /** @return array | string[] */
+    public function tokenize(string $text): array
+    {
+        return array_values(array_filter(
+            explode(' ', $text),
+            fn(string $text) => mb_strlen($text) > 0
+        ));
+    }
+
+    private function passesWordCountFilter(array $words): bool
+    {
+        return count($words) > 5;
+    }
+
+    public function extractFingerprint(array $hashes, $k, $threshold = 3): array
+    {
         $windowLen = $threshold - $k + 1;
 
         $hashesCount = count($hashes);
@@ -47,64 +90,12 @@ class Processor
         return $minValues;
     }
 
-    public function textToFingerprintHashes(string $input_text)
+    private function indexOfSmallestRight(array $hashes)
     {
-        $normalizedText = trim(mb_strtolower($input_text));
-
-        if (! $this->passesTextFilter($normalizedText)) {
-            return [];
-        }
-
-        $words = $this->tokenize($normalizedText);
-
-        if (! $this->passesWordCountFilter($words)) {
-            return [];
-        }
-
-        $ngrams = ngrams($words, self::NGRAM_SIZE, ' ');
-
-        $hashes = array_map(fn ($token) => hash("adler32", $token), $ngrams);
-
-        return $this->extractFingerprint($hashes, self::NGRAM_SIZE);
-    }
-
-    /** @return array | string[] */
-    public function tokenize(string $text): array
-    {
-        return array_values(array_filter(
-            explode(' ', $text),
-            fn (string $text) => mb_strlen($text) > 0
-        ));
-    }
-
-    private function passesTextFilter(string $normalizedText)
-    {
-        if (mb_strlen($normalizedText) === 0) {
-            return false;
-        }
-
-        if ($this->textStartsWithNumber($normalizedText)) {
-            return false;
-        }
-
-        if (Str::startsWith($normalizedText, self::FORBIDDEN_WORD_STARTS)) {
-            return false;
-        }
-
-        return true;
-    }
-
-    private function passesWordCountFilter(array $words): bool
-    {
-        return count($words) > 5;
-    }
-
-    /**
-     * @param string $normalizedText
-     * @return bool
-     */
-    private function textStartsWithNumber(string $normalizedText): bool
-    {
-        return preg_match("/^\p{N}/ui", $normalizedText) === 1;
+        return count($hashes) - array_search(
+                min($hashes),
+                array_reverse($hashes),
+                true,
+            ) - 1;
     }
 }

@@ -68,7 +68,7 @@
                                     -
                                 @endif
                             </td>
-                            <td class="text-center">
+                            <td class="text-center" style="width: 200px">
                                 <a
                                         class="btn btn-primary btn-sm"
                                         href="{{ route("mahasiswa.edit", $mahasiswa) }}"

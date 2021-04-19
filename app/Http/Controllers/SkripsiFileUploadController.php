@@ -5,18 +5,13 @@ namespace App\Http\Controllers;
 use App\Constants\MessageState;
 use App\Events\SkripsiModified;
 use App\Helper\SessionHelper;
-use App\Models\KalimatHash;
 use App\Models\Skripsi;
 use App\Models\User;
 use App\Providers\AuthServiceProvider;
-use App\Support\Processor;
-use App\Support\Tokenizer;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\UploadedFile;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Facades\DB;
-use Smalot\PdfParser\Parser as PdfParser;
 
 class SkripsiFileUploadController extends Controller
 {
@@ -53,7 +48,7 @@ class SkripsiFileUploadController extends Controller
         foreach ($request->file("skripsis") as $uploadedFile) {
             $skripsi
                 ->addMediaFromString(file_get_contents($uploadedFile->getRealPath()))
-                ->usingFileName($uploadedFile->getFilename())
+                ->usingFileName($uploadedFile->getClientOriginalName())
                 ->toMediaCollection();
         }
 
@@ -67,6 +62,6 @@ class SkripsiFileUploadController extends Controller
             MessageState::STATE_SUCCESS,
         );
 
-        return redirect()->back();
+        return $this->responseFactory->redirectTo(route("mahasiswa.dashboard"));
     }
 }

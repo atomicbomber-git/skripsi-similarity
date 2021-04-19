@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\BlacklistKalimat;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -16,7 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call(AdminUserSeeder::class);
         $this->call(MahasiswaSeeder::class);
         $this->call(SkripsiSeeder::class);
-
-//        $this->call(DataSeeder::class);
+        $this->call(BlacklistKalimatSeeder::class);
     }
 }
