@@ -9,6 +9,16 @@ class Processor
 {
     const NGRAM_SIZE = 2;
 
+    private array $blacklistStrings;
+
+    public function __construct()
+    {
+        $this->blacklistStrings = BlacklistKalimat::query()
+            ->pluck("teks")
+            ->map(fn (string $text) => mb_strtolower($text))
+            ->toArray();
+    }
+
     public function textToFingerprintHashes(string $input_text)
     {
         $normalizedText = trim(mb_strtolower($input_text));
@@ -40,11 +50,7 @@ class Processor
             return false;
         }
 
-        if (
-        BlacklistKalimat::query()
-            ->where("teks", $normalizedText)
-            ->exists()
-        ) {
+        if ($this->existsInBlacklist($normalizedText)) {
             return false;
         }
 
@@ -97,5 +103,14 @@ class Processor
                 array_reverse($hashes),
                 true,
             ) - 1;
+    }
+
+    /**
+     * @param string $normalizedText
+     * @return bool
+     */
+    private function existsInBlacklist(string $normalizedText): bool
+    {
+        return in_array($normalizedText, $this->blacklistStrings);
     }
 }

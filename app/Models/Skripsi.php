@@ -53,6 +53,7 @@ class Skripsi extends Model implements HasMedia
 
         $sentenceAndHashes = $sentences
             ->filter(fn($sentence) => mb_strlen($sentence) > 0)
+            ->unique()
             ->map(fn($sentence) => [
                 "text" => $sentence,
                 "hashes" => $processor->textToFingerprintHashes($sentence)
