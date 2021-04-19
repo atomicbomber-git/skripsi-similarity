@@ -62,6 +62,6 @@ class SkripsiFileUploadController extends Controller
             MessageState::STATE_SUCCESS,
         );
 
-        return $this->responseFactory->redirectTo(route("mahasiswa.dashboard"));
+        return $this->responseFactory->redirectTo(route("mahasiswa.dashboard", $mahasiswa));
     }
 }
