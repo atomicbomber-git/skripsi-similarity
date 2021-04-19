@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Events\SkripsiModified;
-use App\Models\KalimatHash;
 use App\Models\KalimatSkripsi;
 use App\Models\Skripsi;
 use App\Models\User;
@@ -22,10 +21,11 @@ class SkripsiSeeder extends Seeder
      */
     public function run()
     {
-        KalimatHash::query()->delete();
         KalimatSkripsi::query()->delete();
         Skripsi::query()->delete();
-        User::query()->delete();
+        User::query()
+            ->where("level", "<>", User::LEVEL_ADMIN)
+            ->delete();
 
         $rootDirectory = __DIR__ . "/skripsi_docxs";
 

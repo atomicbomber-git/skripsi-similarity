@@ -2,7 +2,7 @@
 
 @section("content")
     <h1 class="feature-title">
-        Dashboard | {{ $mahasiswa->name }}
+        {{ $mahasiswa->name }}
     </h1>
 
     @include("components.message")
@@ -94,7 +94,7 @@
             <h3> Kalimat Termirip pada Skripsi-Skripsi Lain </h3>
 
             @if($kalimatSimilarityRecords->isNotEmpty())
-                <div class="table-responsive">
+                <div class="table-responsive table-wrapper-scrollable">
                     <table class="table table-sm table-striped table-hover">
                         <thead>
                         <tr>
@@ -112,14 +112,15 @@
                                 <td>
                                     {{ $kalimatSimilarityRecord->teks_b }}
                                     <br>
-                                    <strong> {{ $kalimatSimilarityRecord->skripsi->judul }} / {{ $kalimatSimilarityRecord->skripsi->mahasiswa->nama }} </strong>
+                                    <span class="small-skripsi-title">
+                                        <strong> {{ $kalimatSimilarityRecord->skripsi->judul }} / {{ $kalimatSimilarityRecord->skripsi->mahasiswa->nama }} </strong>
+                                    </span>
                                 </td>
                             </tr>
                         @endforeach
                         </tbody>
                     </table>
                 </div>
-
             @else
                 <div class="alert alert-warning">
                     <i class="fas fa-exclamation-triangle"></i>
@@ -131,7 +132,7 @@
         <div class="col-md-5">
             <h3> Skripsi Termirip </h3>
             @if($skripsiSimilarityRecords->isNotEmpty())
-                <div class="table-responsive">
+                <div class="table-responsive table-wrapper-scrollable">
                     <table class="table table-sm table-striped table-hover">
                         <thead>
                         <tr>
@@ -148,7 +149,7 @@
                             <tr>
                                 <td> {{ $loop->iteration }} </td>
                                 <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
-                                <td> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
+                                <td class="small-skripsi-title"> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
                                 <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->diceSimilarity) }} </td>
                                 <td class="text-right"> {{ \App\Support\Formatter::number($skripsiSimilarityRecord->chebyshevDistance) }} </td>
                             </tr>
