@@ -1,19 +1,12 @@
 <?php
 
-use App\DataTransferObjects\KalimatSimilarityRecord;
-use App\DataTransferObjects\SkripsiSimilarityRecord;
 use App\Http\Controllers\BankSkripsiMahasiswaController;
+use App\Http\Controllers\BlacklistKalimatController;
+use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\MahasiswaDashboardController;
 use App\Http\Controllers\SkripsiDeleteController;
-use App\Http\Controllers\SkripsiFileUploadController;
 use App\Http\Controllers\SkripsiFileDownloadController;
-use App\Http\Controllers\MahasiswaController;
-use App\Models\KalimatHash;
-use App\Models\KalimatSkripsi;
-use App\Models\Skripsi;
-use App\Models\User;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use App\Http\Controllers\SkripsiFileUploadController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -30,9 +23,12 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', function () {return redirect()->route("login");});
+Route::get('/', function () {
+    return redirect()->route("login");
+});
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/mahasiswa', MahasiswaController::class);
+Route::resource('/blacklist-kalimat', BlacklistKalimatController::class);
 Route::get('bank-skripsi-mahasiswa', BankSkripsiMahasiswaController::class)->name('bank-skripsi-mahasiswa');
 Route::get('/mahasiswa/{mahasiswa}/dashboard', MahasiswaDashboardController::class)->name("mahasiswa.dashboard");
 Route::get('/mahasiswa/{mahasiswa}/download-skripsi', SkripsiFileDownloadController::class)->name("mahasiswa.download-skripsi");

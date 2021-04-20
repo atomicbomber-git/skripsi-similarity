@@ -43,7 +43,7 @@ class Skripsi extends Model implements HasMedia
             $tokenizer->load($domDocument);
             $sentences->push(
                 ...array_map(
-                    fn(Sentence $sentence) => $sentence->value,
+                    fn(Sentence $sentence) => trim($sentence->value),
                     $tokenizer->tokenize()
                 )
             );

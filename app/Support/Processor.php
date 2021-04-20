@@ -3,21 +3,9 @@
 
 namespace App\Support;
 
-use App\Models\BlacklistKalimat;
-
 class Processor
 {
     const NGRAM_SIZE = 2;
-
-    private array $blacklistStrings;
-
-    public function __construct()
-    {
-        $this->blacklistStrings = BlacklistKalimat::query()
-            ->pluck("teks")
-            ->map(fn (string $text) => mb_strtolower($text))
-            ->toArray();
-    }
 
     public function textToFingerprintHashes(string $input_text)
     {
@@ -47,10 +35,6 @@ class Processor
         }
 
         if ($this->textStartsWithNumber($normalizedText)) {
-            return false;
-        }
-
-        if ($this->existsInBlacklist($normalizedText)) {
             return false;
         }
 
@@ -103,14 +87,5 @@ class Processor
                 array_reverse($hashes),
                 true,
             ) - 1;
-    }
-
-    /**
-     * @param string $normalizedText
-     * @return bool
-     */
-    private function existsInBlacklist(string $normalizedText): bool
-    {
-        return in_array($normalizedText, $this->blacklistStrings);
     }
 }

@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BlacklistKalimatController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_20_072333_update_skripsi_hash_materialized_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blacklist-kalimat/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blacklist-kalimat/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blacklist-kalimat/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Skripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Skripsi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/id/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/id/application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +202,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/blacklist-kalimat" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -202,6 +216,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/blacklist-kalimat" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/DataTransferObjects" />
       <recent name="$PROJECT_DIR$/app/Support" />
@@ -286,12 +301,15 @@
       <workItem from="1617676961085" duration="2069000" />
       <workItem from="1617768018809" duration="4784000" />
       <workItem from="1617781887065" duration="6867000" />
-      <workItem from="1618821440925" duration="9143000" />
+      <workItem from="1618821440925" duration="18167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.groovy" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

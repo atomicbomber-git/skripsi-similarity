@@ -31,7 +31,7 @@ class MahasiswaController extends Controller
      */
     public function index(Request $request)
     {
-        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES);
 
         return $this->responseFactory->view("mahasiswa.index", [
             "mahasiswas" => User::query()
@@ -91,7 +91,7 @@ class MahasiswaController extends Controller
      */
     public function edit(User $mahasiswa)
     {
-        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES);
 
         return $this->responseFactory->view("mahasiswa.edit", [
             "mahasiswa" => $mahasiswa,
@@ -107,7 +107,7 @@ class MahasiswaController extends Controller
      */
     public function update(Request $request, User $mahasiswa)
     {
-        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES);
 
         $data = $request->validate([
             "name" => ["required", "string", "max:100"],
@@ -139,7 +139,7 @@ class MahasiswaController extends Controller
      */
     public function destroy(User $mahasiswa)
     {
-        $this->authorize(AuthServiceProvider::CAN_ACCESS_MANAGEMENT_FEATURES);
+        $this->authorize(AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES);
 
         DB::beginTransaction();
 

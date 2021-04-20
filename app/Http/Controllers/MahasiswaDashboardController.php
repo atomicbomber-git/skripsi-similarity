@@ -109,18 +109,13 @@ HERE
             )
             ->from((new KalimatSkripsi)->getTable() . " AS kalimat_a")
             ->crossJoin((new KalimatSkripsi)->getTable() . " AS kalimat_b")
+            ->whereRaw("kalimat_a.teks NOT IN (SELECT teks FROM blacklist_kalimat)")
+            ->whereRaw("kalimat_b.teks NOT IN (SELECT teks FROM blacklist_kalimat)")
             ->where("kalimat_a.skripsi_id", "=", $targetSkripsi->getKey())
             ->where("kalimat_b.skripsi_id", "<>", $targetSkripsi->getKey())
             ->orderByDesc(DB::raw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)')"))
             ->whereRaw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)') > ?", [0.4])
             ->take(25)
             ->get();
-    }
-
-    public function divide($above, $bottom)
-    {
-        return $bottom != 0 ?
-            $above / $bottom :
-            0;
     }
 }

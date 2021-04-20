@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 class="title">
+    <h1 class="feature-title">
         <a href="{{ route("mahasiswa.index") }}">
             Mahasiswa
         </a>

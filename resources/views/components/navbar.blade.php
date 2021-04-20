@@ -22,9 +22,27 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
                 @auth
-                    @if(auth()->user()->level === \App\Models\User::LEVEL_ADMIN)
+                    @can(\App\Providers\AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES)
+                        <lib class="nav-item {{ \Illuminate\Support\Facades\Route::is("mahasiswa.*") ? "active" : "" }}">
+                            <a href="{{ route("mahasiswa.index") }}"
+                               class="nav-link"
+                            >
+                                @lang("application.students")
+                            </a>
+                        </lib>
+                    @endcan
 
-                    @elseif(auth()->user()->level === \App\Models\User::LEVEL_MAHASISWA)
+                    @can(\App\Providers\AuthServiceProvider::CAN_ACCESS_BLACKLIST_KALIMAT_MANAGEMENT)
+                        <lib class="nav-item {{ \Illuminate\Support\Facades\Route::is("blacklist-kalimat.*") ? "active" : "" }}">
+                            <a href="{{ route("blacklist-kalimat.index") }}"
+                               class="nav-link"
+                            >
+                                @lang("application.blacklist-sentences")
+                            </a>
+                        </lib>
+                    @endcan
+
+                    @can(\App\Providers\AuthServiceProvider::CAN_ACCESS_MAHASISWA_DASHBOARD)
                         <li class="nav-item {{ \Illuminate\Support\Facades\Route::is("mahasiswa.dashboard") ? "active" : ""  }}">
                             <a class="nav-link"
                                href="{{ route('mahasiswa.dashboard', auth()->user()) }}"
@@ -32,7 +50,9 @@
                                 @lang("application.dashboard")
                             </a>
                         </li>
+                    @endcan
 
+                    @can(\App\Providers\AuthServiceProvider::CAN_ACCESS_BANK_SKRIPSI_MAHASISWA)
                         <li class="nav-item {{ \Illuminate\Support\Facades\Route::is("bank-skripsi-mahasiswa") ? "active" : ""  }}">
                             <a class="nav-link"
                                href="{{ route('bank-skripsi-mahasiswa', auth()->user()) }}"
@@ -40,7 +60,7 @@
                                 @lang("application.bank-skripsi-mahasiswa")
                             </a>
                         </li>
-                    @endif
+                    @endcan
                 @endauth
             </ul>
 
