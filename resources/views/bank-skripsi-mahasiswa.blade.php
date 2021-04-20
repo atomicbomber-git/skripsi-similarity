@@ -1,10 +1,6 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 class="feature-title">
-        Bank Skripsi Mahasiswa
-    </h1>
-
     @include('components.message')
 
     <div class="d-flex justify-content-center py-3">

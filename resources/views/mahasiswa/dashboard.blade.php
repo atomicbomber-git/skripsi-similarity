@@ -20,12 +20,6 @@
                     @method("DELETE")
 
                     <div class="d-flex justify-content-end">
-                        <a
-                                class="btn btn-primary btn-sm mr-2"
-                                href="{{ route('mahasiswa.download-skripsi', $mahasiswa) }}">
-                            Download
-                        </a>
-
                         <button class="btn btn-danger btn-sm">
                             Hapus Berkas Skripsi
                         </button>

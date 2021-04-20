@@ -1,16 +1,6 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 class="feature-title">
-        <a href="{{ route("blacklist-kalimat.index") }}">
-            @lang("application.blacklist-sentences")
-        </a>
-
-        /
-
-        @lang("application.create")
-    </h1>
-
     @include("components.message")
 
     <div class="card">

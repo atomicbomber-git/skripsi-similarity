@@ -1,16 +1,6 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 class="feature-title">
-        <a href="{{ route("mahasiswa.index") }}">
-            Mahasiswa
-        </a>
-
-        /
-
-        Tambah
-    </h1>
-
     <div class="card">
         <div class="card-body">
             <form action="{{ route("mahasiswa.store") }}"

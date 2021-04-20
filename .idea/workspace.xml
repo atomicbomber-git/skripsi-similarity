@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BlacklistKalimatController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_20_072333_update_skripsi_hash_materialized_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blacklist-kalimat/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blacklist-kalimat/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blacklist-kalimat/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MahasiswaDashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Skripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Skripsi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/id/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/id/application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/bank-skripsi-mahasiswa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bank-skripsi-mahasiswa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mahasiswa/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +292,7 @@
       <workItem from="1617676961085" duration="2069000" />
       <workItem from="1617768018809" duration="4784000" />
       <workItem from="1617781887065" duration="6867000" />
-      <workItem from="1618821440925" duration="18167000" />
+      <workItem from="1618821440925" duration="18842000" />
     </task>
     <servers />
   </component>
