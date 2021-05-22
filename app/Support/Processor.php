@@ -3,29 +3,52 @@
 
 namespace App\Support;
 
+use Log;
+
 class Processor
 {
     const NGRAM_SIZE = 2;
 
+    public function log(string $logMessage, $tag = "REPORT ")
+    {
+        Log::info("{$tag} {$logMessage}");
+    }
+
     public function textToFingerprintHashes(string $input_text)
     {
+        $this->log("Kalimat awal: {$input_text}.");
+
         $normalizedText = trim(mb_strtolower($input_text));
 
+        $this->log("Setelah case folding: {$normalizedText}.");
+
         if (!$this->passesTextFilter($normalizedText)) {
+            $this->log("Tidak lulus filter: Kalimat panjangnya nol atau dimulai dengan angka.");
             return [];
         }
 
         $words = $this->tokenize($normalizedText);
+        
+        $this->log("Setelah tokenisasi: " . collect($words)->join(", "));
 
         if (!$this->passesWordCountFilter($words)) {
+            $this->log("Tidak lulus filter: Jumlah kata terlalu sedikit (< 5).");
             return [];
         }
 
         $ngrams = ngrams($words, self::NGRAM_SIZE, ' ');
 
+        $this->log("Ngram: " . collect($ngrams)->join(", "));
+
         $hashes = array_map(fn($token) => hash("adler32", $token), $ngrams);
 
-        return $this->extractFingerprint($hashes, self::NGRAM_SIZE);
+        $this->log("Hash: " . collect($hashes)->join(", "));
+
+        $fingerprints = $this->extractFingerprint($hashes, self::NGRAM_SIZE);
+
+        $this->log("Fingerprint: " . collect($fingerprints)->join(", "));
+
+        return $fingerprints;
     }
 
     private function passesTextFilter(string $normalizedText)

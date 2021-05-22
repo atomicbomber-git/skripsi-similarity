@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2678ea8b-e1c9-4779-ab65-4a32521ca24f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/KalimatSkripsi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/KalimatSkripsi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Processor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Processor.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,12 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jfvafh09" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
@@ -184,10 +193,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/blacklist-kalimat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -201,8 +211,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/blacklist-kalimat" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources/views/blacklist-kalimat" />
       <recent name="$PROJECT_DIR$/app/DataTransferObjects" />
       <recent name="$PROJECT_DIR$/app/Support" />
     </key>
@@ -287,6 +297,22 @@
       <workItem from="1617768018809" duration="4784000" />
       <workItem from="1617781887065" duration="6867000" />
       <workItem from="1618821440925" duration="19586000" />
+      <workItem from="1620560390682" duration="729000" />
+      <workItem from="1620568205737" duration="633000" />
+      <workItem from="1620568854473" duration="280000" />
+      <workItem from="1620569154650" duration="128000" />
+      <workItem from="1620569300082" duration="118000" />
+      <workItem from="1620569438109" duration="93000" />
+      <workItem from="1620569544062" duration="129000" />
+      <workItem from="1620569697752" duration="460000" />
+      <workItem from="1620570172275" duration="70000" />
+      <workItem from="1620570263246" duration="129000" />
+      <workItem from="1620570920938" duration="186000" />
+      <workItem from="1620571117879" duration="600000" />
+      <workItem from="1620651198045" duration="3844000" />
+      <workItem from="1620658372977" duration="622000" />
+      <workItem from="1620683256010" duration="90000" />
+      <workItem from="1621686517166" duration="2642000" />
     </task>
     <servers />
   </component>
@@ -300,7 +326,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/skripsi_similarity@tests.xml" NAME="tests Coverage Results" MODIFIED="1617341729141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/skripsi_similarity@KalimatSimilarityCalculationTest_testBasicTest.xml" NAME="KalimatSimilarityCalculationTest.testBasicTest Coverage Results" MODIFIED="1617344118123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/skripsi_similarity@tests.xml" NAME="tests Coverage Results" MODIFIED="1617341729141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
