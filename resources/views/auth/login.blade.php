@@ -16,6 +16,7 @@
                 <div class="form-group">
                     <label for="username"> Username </label>
                     <input
+                            autofocus
                             id="username"
                             type="text"
                             placeholder="Username"
