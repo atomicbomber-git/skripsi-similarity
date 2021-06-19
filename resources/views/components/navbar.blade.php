@@ -3,7 +3,7 @@
         <a class="navbar-brand"
            href="{{ url('/') }}"
         >
-            {{ config('app.name', 'Laravel') }}
+            @lang("application.dashboard")
         </a>
         <button class="navbar-toggler"
                 type="button"
@@ -20,7 +20,7 @@
              id="navbarSupportedContent"
         >
             <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto font-weight-bold" style="font-size: 22.5px">
                 @auth
                     @can(\App\Providers\AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES)
                         <lib class="nav-item {{ \Illuminate\Support\Facades\Route::is("mahasiswa.*") ? "active" : "" }}">
@@ -47,7 +47,7 @@
                             <a class="nav-link"
                                href="{{ route('mahasiswa.dashboard', auth()->user()) }}"
                             >
-                                @lang("application.dashboard")
+                                @lang("application.similarity")
                             </a>
                         </li>
                     @endcan
@@ -57,7 +57,7 @@
                             <a class="nav-link"
                                href="{{ route('bank-skripsi-mahasiswa', auth()->user()) }}"
                             >
-                                @lang("application.bank-skripsi-mahasiswa")
+                                @lang("application.bank-skripsi")
                             </a>
                         </li>
                     @endcan

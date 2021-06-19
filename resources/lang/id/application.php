@@ -3,6 +3,7 @@
 return [
     'blacklist-sentences' => 'Blacklist Kalimat',
     'bank-skripsi-mahasiswa' => 'Bank Skripsi Mahasiswa',
+        'bank-skripsi' => 'Bank Skripsi',
     'text' => 'Teks',
     'edit' => 'Ubah',
     'create' => 'Tambah',
@@ -12,6 +13,7 @@ return [
     'name' => 'Nama',
     'title' => 'Judul',
     'mahasiswa' => 'Mahasiswa',
+    'similarity' => 'Similaritas',
     'dashboard' => 'Dashboard',
     'controls' => 'Kendali',
     'thesis' => 'Skripsi',
