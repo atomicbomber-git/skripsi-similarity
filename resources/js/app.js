@@ -2,10 +2,12 @@ require('select2')
 const Swal = require('sweetalert2')
 window.Popper = require('popper.js').default
 window.$ = window.jQuery = require('jquery')
+
 require("bootstrap")
 require("alpinejs")
+require('./bootstrap')
 
-require('./bootstrap');
+require('./components/MostSimilarSentencesIndex')
 
 window.confirmDialog = (attributes) => {
     return Swal.fire({

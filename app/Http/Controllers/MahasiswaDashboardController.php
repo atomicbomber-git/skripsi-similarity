@@ -45,8 +45,8 @@ class MahasiswaDashboardController extends Controller
             "mahasiswa" => $mahasiswa,
             "mahasiswas" => [],
             "targetSkripsi" => $targetSkripsi,
-            "skripsiSimilarityRecords" => $targetSkripsi ? $this->getSkripsiSimilarityRecords($targetSkripsi) : collect(),
-            "kalimatSimilarityRecords" => $targetSkripsi ? $this->getKalimatSimilarityRecords($targetSkripsi) : collect(),
+            "skripsiSimilarityRecords" => collect(),
+            "kalimatSimilarityRecords" => collect(),
         ]);
     }
 

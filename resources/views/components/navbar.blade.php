@@ -89,7 +89,6 @@
                            data-toggle="dropdown"
                            aria-haspopup="true"
                            aria-expanded="false"
-                           v-pre
                         >
                             {{ Auth::user()->name }}
                         </a>
