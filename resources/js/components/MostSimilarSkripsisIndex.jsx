@@ -68,8 +68,8 @@ export default class MostSimilarSkripsisIndex extends React.Component {
                             <td> { index + 1 } </td>
                             <td> { skripsiSimilarityRecord?.skripsi?.mahasiswa?.name } </td>
                             <td> { skripsiSimilarityRecord?.skripsi?.judul } </td>
-                            <td className="text-right"> { (skripsiSimilarityRecord.diceSimilarity * 100).toFixed(2) } </td>
-                            <td className="text-right"> { skripsiSimilarityRecord.chebyshevDistance?.toFixed(2) } </td>
+                            <td className="text-right"> { (skripsiSimilarityRecord.diceSimilarity * 100).toFixed(2) } % </td>
+                            <td className="text-right"> { skripsiSimilarityRecord.chebyshevDistance } </td>
                         </tr>
                     ))}
                     </tbody>
