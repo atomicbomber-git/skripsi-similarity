@@ -20,7 +20,7 @@
              id="navbarSupportedContent"
         >
             <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav mr-auto font-weight-bold" style="font-size: 22.5px">
+            <ul class="navbar-nav mr-auto font-weight-bold" style="font-size: 20px">
                 @auth
                     @can(\App\Providers\AuthServiceProvider::CAN_ACCESS_MAHASISWA_MANAGEMENT_FEATURES)
                         <lib class="nav-item {{ \Illuminate\Support\Facades\Route::is("mahasiswa.*") ? "active" : "" }}">
