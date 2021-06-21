@@ -83,22 +83,24 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-7">
-            <h3> Kalimat Termirip pada Skripsi-Skripsi Lain </h3>
-            <div 
-                    id="most-similar-sentences-index"
-                    data-data-url="{{ route("skripsi.similaritas-kalimat.index", $mahasiswa->skripsi) }}"
-            ></div>
-        </div>
+    @if($mahasiswa->skripsi)
+        <div class="row">
+            <div class="col-md-7">
+                <h3> Kalimat Termirip pada Skripsi-Skripsi Lain </h3>
+                <div
+                        id="most-similar-sentences-index"
+                        data-data-url="{{ route("skripsi.similaritas-kalimat.index", $mahasiswa->skripsi) }}"
+                ></div>
+            </div>
 
-        <div class="col-md-5">
-            <h3> Skripsi Termirip </h3>
-            <div
-                id="most-similar-skripsis-index"
-                data-data-url="{{ route("skripsi.similaritas-skripsi.index", $mahasiswa->skripsi) }}"
-            >
+            <div class="col-md-5">
+                <h3> Skripsi Termirip </h3>
+                <div
+                        id="most-similar-skripsis-index"
+                        data-data-url="{{ route("skripsi.similaritas-skripsi.index", $mahasiswa->skripsi) }}"
+                >
+                </div>
             </div>
         </div>
-    </div>
+    @endif
 @endsection
