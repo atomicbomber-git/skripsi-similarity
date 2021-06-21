@@ -12,6 +12,7 @@ class SkripsiSimilarityRecordIndexController extends Controller
     public function __invoke(Skripsi $skripsi)
     {
         $paginator = SkripsiHash::query()
+            ->with("skripsi.mahasiswa")
             ->select("skripsi_hashes.skripsi_id")
             ->selectRaw("smlar(skripsi_hashes.hashes, other_skripsi_hashes.hashes, '2 * N.i / (N.a + N.b)') AS dice_similarity")
             ->selectRaw(<<<HERE
