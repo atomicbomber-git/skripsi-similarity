@@ -95,49 +95,10 @@
         <div class="col-md-5">
             <h3> Skripsi Termirip </h3>
             <div
-                id="most-similar-skripsi-index"
-
+                id="most-similar-skripsis-index"
+                data-data-url="{{ route("skripsi.similaritas-skripsi.index", $mahasiswa->skripsi) }}"
             >
-
             </div>
-
-        </div>
-
-
-        <div class="col-md-5">
-            <h3> Skripsi Termirip </h3>
-            @if($skripsiSimilarityRecords->isNotEmpty())
-                <div class="table-responsive table-wrapper-scrollable">
-                    <table class="table table-sm table-striped table-hover">
-                        <thead>
-                        <tr>
-                            <th> # </th>
-                            <th> Nama </th>
-                            <th> Skripsi </th>
-                            <th class="text-right"> Dice Similarity </th>
-                            <th class="text-right"> Chebyshev Distance </th>
-                        </tr>
-                        </thead>
-
-                        <tbody>
-                        @foreach ($skripsiSimilarityRecords as $skripsiSimilarityRecord)
-                            <tr>
-                                <td> {{ $loop->iteration }} </td>
-                                <td> {{ $skripsiSimilarityRecord->skripsi->mahasiswa->name  }} </td>
-                                <td class="small-skripsi-title"> {{ $skripsiSimilarityRecord->skripsi->judul  }} </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::percentage($skripsiSimilarityRecord->diceSimilarity) }} </td>
-                                <td class="text-right"> {{ \App\Support\Formatter::number($skripsiSimilarityRecord->chebyshevDistance) }} </td>
-                            </tr>
-                        @endforeach
-                        </tbody>
-                    </table>
-                </div>
-            @else
-                <div class="alert alert-warning">
-                    <i class="fas fa-exclamation-triangle"></i>
-                    {{ __("messages.errors.no_data") }}
-                </div>
-            @endif
         </div>
     </div>
 @endsection

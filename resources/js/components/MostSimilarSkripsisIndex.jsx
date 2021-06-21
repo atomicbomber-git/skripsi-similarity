@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from "axios"
 
-class MostSimilarSentencesIndex extends React.Component {
+export default class MostSimilarSkripsisIndex extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isFetchingData: true,
-            kalimatSimilarities: [],
+            skripsiSimilarityRecords: [],
         }
     }
 
@@ -19,11 +19,11 @@ class MostSimilarSentencesIndex extends React.Component {
         axios.get(this.props.dataUrl)
             .then(response => {
                 this.setState({
-                    kalimatSimilarities: response.data,
+                    skripsiSimilarityRecords: response.data.data,
                 })
             }).catch(error => {
             this.setState({
-                kalimatSimilarities: [],
+                skripsiSimilarityRecords: [],
             })
         }).finally(() => {
             this.setState({
@@ -41,7 +41,7 @@ class MostSimilarSentencesIndex extends React.Component {
     }
 
     mainContent() {
-        if (this.state.kalimatSimilarities.length === 0) {
+        if (this.state.skripsiSimilarityRecords.length === 0) {
             return (
                 <div className="alert alert-warning">
                     Maaf, tidak terdapat data sama sekali.
@@ -53,25 +53,23 @@ class MostSimilarSentencesIndex extends React.Component {
             <div className="table-responsive table-wrapper-scrollable">
                 <table className="table table-sm table-striped table-hover">
                     <thead>
-                    <tr>
-                        <th> # </th>
-                        <th> Kalimat di Skripsi Anda </th>
-                        <th> Kalimat di Skripsi Lain </th>
-                    </tr>
+                        <tr>
+                            <th> # </th>
+                            <th> Nama </th>
+                            <th> Skripsi </th>
+                            <th className="text-right"> Dice Similarity </th>
+                            <th className="text-right"> Chebyshev Distance </th>
+                        </tr>
                     </thead>
 
                     <tbody>
-                    {this.state.kalimatSimilarities.map((kalimatSimilarity, index) => (
+                    {this.state.skripsiSimilarityRecords.map((skripsiSimilarityRecord, index) => (
                         <tr key={index}>
-                            <td> {index + 1} </td>
-                            <td> {kalimatSimilarity.teks_a} </td>
-                            <td>
-                                {kalimatSimilarity.teks_b}
-                                <br/>
-                                <span className="small-skripsi-title">
-                                    <strong> {kalimatSimilarity.skripsi.judul} / {kalimatSimilarity.skripsi.mahasiswa.nama} </strong>
-                                </span>
-                            </td>
+                            <td> { index + 1 } </td>
+                            <td> { skripsiSimilarityRecord?.skripsi?.mahasiswa?.name } </td>
+                            <td> { skripsiSimilarityRecord?.skripsi?.judul } </td>
+                            <td className="text-right"> { (skripsiSimilarityRecord.diceSimilarity * 100).toFixed(2) } </td>
+                            <td className="text-right"> { skripsiSimilarityRecord.chebyshevDistance?.toFixed(2) } </td>
                         </tr>
                     ))}
                     </tbody>
@@ -87,12 +85,10 @@ class MostSimilarSentencesIndex extends React.Component {
     }
 }
 
-export default MostSimilarSentencesIndex;
-
-const root = document.getElementById("most-similar-sentences-index")
+const root = document.getElementById("most-similar-skripsis-index")
 if (root) {
     ReactDOM.render(
-        <MostSimilarSentencesIndex
+        <MostSimilarSkripsisIndex
             {...root.dataset}
         />,
         root

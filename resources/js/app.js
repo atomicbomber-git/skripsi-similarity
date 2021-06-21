@@ -8,6 +8,7 @@ require("alpinejs")
 require('./bootstrap')
 
 require('./components/MostSimilarSentencesIndex')
+require('./components/MostSimilarSkripsisIndex')
 
 window.confirmDialog = (attributes) => {
     return Swal.fire({

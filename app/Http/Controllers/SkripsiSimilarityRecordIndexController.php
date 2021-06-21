@@ -39,7 +39,7 @@ HERE
                 chebyshevDistance: $skripsiHash->chebyshev_distance,
             );
         });
-        
+
         return $paginator;
     }
 }
