@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\DB;
 
 class SkripsiKalimatSimilarityRecordIndexController extends Controller
 {
+    private int $perPage = 40;
     private ResponseFactory $responseFactory;
 
     public function __construct(ResponseFactory $responseFactory)
@@ -52,7 +53,7 @@ HERE
             ->where("kalimat_b.skripsi_id", "<>", $skripsi->getKey())
             ->orderByDesc(DB::raw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)')"))
             ->whereRaw("smlar(kalimat_a.hashes, kalimat_b.hashes, '2 * N.i / (N.a + N.b)') > ?", [0.4])
-            ->take(25)
+            ->take($this->perPage)
             ->get();
     }
 }

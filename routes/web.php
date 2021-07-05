@@ -29,8 +29,7 @@ Route::get('/', function () {
 
 
 Route::get("/skripsi/{skripsi}/similaritas-kalimat", \App\Http\Controllers\SkripsiKalimatSimilarityRecordIndexController::class)->name("skripsi.similaritas-kalimat.index");
-    Route::get("/skripsi/{skripsi}/similaritas-skripsi", \App\Http\Controllers\SkripsiSimilarityRecordIndexController::class)->name("skripsi.similaritas-skripsi.index");
-
+Route::get("/skripsi/{skripsi}/similaritas-skripsi", \App\Http\Controllers\SkripsiSimilarityRecordIndexController::class)->name("skripsi.similaritas-skripsi.index");
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/mahasiswa', MahasiswaController::class);
 Route::resource('/blacklist-kalimat', BlacklistKalimatController::class);

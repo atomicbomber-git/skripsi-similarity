@@ -58,7 +58,6 @@ export default class MostSimilarSkripsisIndex extends React.Component {
                             <th> Nama </th>
                             <th> Skripsi </th>
                             <th className="text-right"> Dice Similarity </th>
-                            <th className="text-right"> Chebyshev Distance </th>
                         </tr>
                     </thead>
 
@@ -69,7 +68,6 @@ export default class MostSimilarSkripsisIndex extends React.Component {
                             <td> { skripsiSimilarityRecord?.skripsi?.mahasiswa?.name } </td>
                             <td> { skripsiSimilarityRecord?.skripsi?.judul } </td>
                             <td className="text-right"> { (skripsiSimilarityRecord.diceSimilarity * 100).toFixed(2) } % </td>
-                            <td className="text-right"> { skripsiSimilarityRecord.chebyshevDistance } </td>
                         </tr>
                     ))}
                     </tbody>

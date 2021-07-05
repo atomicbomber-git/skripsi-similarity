@@ -13,7 +13,7 @@ return [
     'name' => 'Nama',
     'title' => 'Judul',
     'mahasiswa' => 'Mahasiswa',
-    'similarity' => 'Similaritas',
+    'similarity' => 'Similarity',
     'dashboard' => 'Dashboard',
     'controls' => 'Kendali',
     'thesis' => 'Skripsi',
