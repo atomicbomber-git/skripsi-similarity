@@ -57,7 +57,7 @@ export default class MostSimilarSkripsisIndex extends React.Component {
                             <th> # </th>
                             <th> Nama </th>
                             <th> Skripsi </th>
-                            <th className="text-right"> Dice Similarity </th>
+                            <th className="text-right"> Similarity </th>
                         </tr>
                     </thead>
 
