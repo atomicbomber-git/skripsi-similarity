@@ -16,11 +16,12 @@ class AdminUserSeeder extends Seeder
      */
     public function run()
     {
-        UserFactory::new()
-            ->create([
-                "username" => "admin",
-                "password" => Hash::make("admin"),
-                "level" => User::LEVEL_ADMIN,
-            ]);
+        User::query()->updateOrCreate([
+            "username" => "admin",
+            "level" => User::LEVEL_ADMIN,
+        ], [
+            "name" => "Admin",
+            "password" => Hash::make("admin"),
+        ]);
     }
 }
